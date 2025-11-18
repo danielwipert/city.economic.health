@@ -1,0 +1,4484 @@
+{
+  "_documentation": {
+    "description": "Configuration file for Top 50 US Metropolitan Statistical Areas Economic Health Report",
+    "version": "3.0",
+    "last_updated": "2025-11-10",
+    "notes": [
+      "This file contains all FRED API codes and configuration for pulling economic data",
+      "Each metro has a unique set of FRED series IDs for different economic indicators",
+      "Some metros use S&P Case-Shiller Home Price Index (monthly, ends in 'XRSA' or 'XRNSA')",
+      "Some metros use FHFA Home Price Index (quarterly, starts with 'ATNHPIUS' and ends in 'Q')",
+      "MSA Population and Civilian Population are set manually and not pulled from APIs",
+      "Census Code is used for reference and is set manually"
+    ]
+  },
+  "_national_metrics": {
+    "description": "National-level metrics used for comparison",
+    "weekly_hours_national": {
+      "fred_code": "AWHAETP",
+      "description": "Average Weekly Hours of All Employees: Total Private (National)",
+      "units": "Hours per Week",
+      "frequency": "Monthly",
+      "seasonally_adjusted": false
+    },
+    "median_days_on_market_national": {
+      "fred_code": "MEDDAYONMARUS",
+      "description": "Housing Inventory: Median Days on Market in the United States",
+      "units": "Days",
+      "frequency": "Monthly",
+      "seasonally_adjusted": false
+    }
+  },
+  "metros": [
+    {
+      "rank": 1,
+      "msa_name": "New York Newark-Jersey City",
+      "primary_city": "New York",
+      "state": "NY-NJ",
+      "msa_population": 19940274,
+      "civilian_population": 16296781,
+      "census_code": "35620",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "NEWY636URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "NEWY636LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "NEWY636NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU36356200500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU36356200500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "NEWY636PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "NEWY636BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "NYXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE35620",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI35620",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR35620",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "msa_name": "Los Angeles-Long Beach-Anaheim",
+      "primary_city": "Los Angeles",
+      "state": "CA",
+      "msa_population": 12927614,
+      "civilian_population": 10677061,
+      "census_code": "31080",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "LOSA106URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "LOSA106LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "LOSA106NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU06310800500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU06310800500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "SMU06310806000000001SA",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "LOSA106BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "LXXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE31080",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI31080",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR31080",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "msa_name": "Chicago-Naperville-Elgin",
+      "primary_city": "Chicago",
+      "state": "IL-IN",
+      "msa_population": 9406924,
+      "civilian_population": 7664965,
+      "census_code": "16980",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "CHIC917URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "CHIC917LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "CHIC917NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU17169800500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU17169800500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "CHIC917PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "CHIC917BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "CHXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE16980",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI16980",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR16980",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "msa_name": "Dallas-Fort Worth-Arlington",
+      "primary_city": "Dallas",
+      "state": "TX",
+      "msa_population": 8344032,
+      "civilian_population": 6553832,
+      "census_code": "19100",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "DALL148URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "DALL148LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "DALL148NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU48191000500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU48191000500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "DALL148PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "DALL148BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "DAXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE19100",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI19100",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR19100",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "msa_name": "Houston-Pasadena-The Woodlands",
+      "primary_city": "Houston",
+      "state": "TX",
+      "msa_population": 7796182,
+      "civilian_population": 6055207,
+      "census_code": "26420",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "HOUS448URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "HOUS448LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "HOUS448NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU48264200500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU48264200500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "HOUS448PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "HOUS448BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS26420Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE26420",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI26420",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR26420",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "msa_name": "Miami-Fort Lauderdale-West Palm Beach",
+      "primary_city": "Miami",
+      "state": "FL",
+      "msa_population": 6457988,
+      "civilian_population": 5339165,
+      "census_code": "33100",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "MIAM112URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "MIAM112LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "MIAM112NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU12331000500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU12331000500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "MIAM112PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "MIAM112BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "MIXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE33100",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI33100",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR33100",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "msa_name": "Washington-Arlington-Alexandria",
+      "primary_city": "Washington DC",
+      "state": "DC-VA-MD-WV",
+      "msa_population": 6437907,
+      "civilian_population": 5175994,
+      "census_code": "47900",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "WASH911URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "WASH911LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "WASH911NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU11479000500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU11479000500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "WASH911PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "WASH911BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "WDXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE47900",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI47900",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR47900",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "msa_name": "Atlanta-Sandy Springs-Roswell",
+      "primary_city": "Atlanta",
+      "state": "GA",
+      "msa_population": 6409047,
+      "civilian_population": 5131103,
+      "census_code": "12060",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "ATLA013URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "ATLA013LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "ATLA013NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU13120600500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU13120600500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "ATLA013PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "ATLA013BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE12060",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI12060",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR12060",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "msa_name": "Philadelphia-Camden-Wilmington",
+      "primary_city": "Philadelphia",
+      "state": "PA-NJ-DE-MD",
+      "msa_population": 6330422,
+      "civilian_population": 5167681,
+      "census_code": "37980",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "PHIL942URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "PHIL942LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "PHIL942NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU42379800500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU42379800500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "PHIL942PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "PHIL942BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS37964Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE37980",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI37980",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR37980",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "msa_name": "Phoenix-Mesa-Chandler",
+      "primary_city": "Phoenix",
+      "state": "AZ",
+      "msa_population": 5186958,
+      "civilian_population": 4201372,
+      "census_code": "38060",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "PHOE004URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "PHOE004LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "PHOE004NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU04380600500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU04380600500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "PHOE004PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "PHOE004BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "PHXRNSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE38060",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI38060",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR38060",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 11,
+      "msa_name": "Boston-Cambridge-Newton",
+      "primary_city": "Boston",
+      "state": "MA-NH",
+      "msa_population": 5025517,
+      "civilian_population": 4192070,
+      "census_code": "14460",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "BOST625URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "BOST625LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "BOST625NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU25144600500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU25144600500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "BOST625PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "BOST625BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "BOXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE14460",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI14460",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR14460",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 12,
+      "msa_name": "Riverside-San Bernardino-Ontario",
+      "primary_city": "Riverside",
+      "state": "CA",
+      "msa_population": 4744214,
+      "civilian_population": 3753449,
+      "census_code": "40140",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "RIVE106URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "RIVE106LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "RIVE106NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU06401400500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU06401400500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "RIVE106PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "RIVE106BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS40140Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE40140",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI40140",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR40140",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 13,
+      "msa_name": "San Francisco-Oakland-Fremont",
+      "primary_city": "San Francisco",
+      "state": "CA",
+      "msa_population": 4648486,
+      "civilian_population": 3891217,
+      "census_code": "41860",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "SANF806URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "SANF806LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "SANF806NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU06418600500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU06418600500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "SANF806PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "SANF806BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "SFXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE41860",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI41860",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR41860",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 14,
+      "msa_name": "Detroit-Warren-Dearborn",
+      "primary_city": "Detroit",
+      "state": "MI",
+      "msa_population": 4400578,
+      "civilian_population": 3577723,
+      "census_code": "19820",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "DETR826URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "DETR826LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "DETR826NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU26198200500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU26198200500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "DETR826PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "DETR826BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "DEXRNSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE19820",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI19820",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR19820",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 15,
+      "msa_name": "Seattle-Tacoma-Bellevue",
+      "primary_city": "Seattle",
+      "state": "WA",
+      "msa_population": 4145494,
+      "civilian_population": 3404334,
+      "census_code": "42660",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "SEAT653URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "SEAT653LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "SEAT653NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU53426600500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU53426600500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "SEAT653PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "SEAT653BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "SEXRNSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE42660",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI42660",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR42660",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 16,
+      "msa_name": "Minneapolis-St. Paul-Bloomington",
+      "primary_city": "Minneapolis",
+      "state": "MN-WI",
+      "msa_population": 3757952,
+      "civilian_population": 3011046,
+      "census_code": "33460",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "MINN427URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "MINN427LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "MINN427NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU27334600500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU27334600500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "MINN427PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "MINN427BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "MNXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE33460",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI33460",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR33460",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 17,
+      "msa_name": "Tampa-St. Petersburg-Clearwater",
+      "primary_city": "Tampa",
+      "state": "FL",
+      "msa_population": 3424560,
+      "civilian_population": 2853021,
+      "census_code": "45300",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "TAMP312URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "TAMP312LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "TAMP312NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU12453000500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU12453000500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "TAMP312PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "TAMP312BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "TPXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE45300",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI45300",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR45300",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 18,
+      "msa_name": "San Diego-Chula Vista-Carlsbad",
+      "primary_city": "San Diego",
+      "state": "CA",
+      "msa_population": 3298799,
+      "civilian_population": 2707550,
+      "census_code": "41740",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "SAND706URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "SAND706LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "SAND706NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU06417400500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU06417400500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "SAND706PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "SAND706BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "SDXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE41740",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI41740",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR41740",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 19,
+      "msa_name": "Denver-Aurora-Centennial",
+      "primary_city": "Denver",
+      "state": "CO",
+      "msa_population": 3050512,
+      "civilian_population": 2504165,
+      "census_code": "19740",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "DENV708URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "DENV708LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "DENV708NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU08197400500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU08197400500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "DENV708PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "DENV708BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "DNXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE19740",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI19740",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR19740",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 20,
+      "msa_name": "Orlando-Kissimmee-Sanford",
+      "primary_city": "Orlando",
+      "state": "FL",
+      "msa_population": 2940513,
+      "civilian_population": 2405857,
+      "census_code": "36740",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "ORLA712URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "ORLA712LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "ORLA712NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU12367400500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU12367400500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "ORLA712PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "ORLA712BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS36740Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE36740",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI36740",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR36740",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 21,
+      "msa_name": "Charlotte-Concord-Gastonia",
+      "primary_city": "Charlotte",
+      "state": "NC-SC",
+      "msa_population": 2883370,
+      "civilian_population": 2309074,
+      "census_code": "16740",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "CHAR737URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "CHAR737LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "CHAR737NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU37167400500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU37167400500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "CHAR737PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "CHAR737BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "CRXRNSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE16740",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI16740",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR16740",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 22,
+      "msa_name": "Baltimore-Columbia-Towson",
+      "primary_city": "Baltimore",
+      "state": "MD",
+      "msa_population": 2859024,
+      "civilian_population": 2312426,
+      "census_code": "12580",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "BALT524URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "BALT524LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "BALT524NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU24125800500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU24125800500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "BALT524PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "BALT524BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS12580Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE12580",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI12580",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR12580",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 23,
+      "msa_name": "St. Louis",
+      "primary_city": "St. Louis",
+      "state": "MO-IL",
+      "msa_population": 2809527,
+      "civilian_population": 2288121,
+      "census_code": "41180",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "STLURN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "STLLFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "STLNAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU29411800500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU29411800500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "STLPBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "STLBPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS41180Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE41180",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI41180",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR41180",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 24,
+      "msa_name": "San Antonio-New Braunfels",
+      "primary_city": "San Antonio",
+      "state": "TX",
+      "msa_population": 2763006,
+      "civilian_population": 2188601,
+      "census_code": "41700",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "SANA748URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "SANA748LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "SANA748NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU48417000500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU48417000500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "SANA748PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "SANA748BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS41700Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE41700",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI41700",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR41700",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 25,
+      "msa_name": "Austin-Round Rock-San Marcos",
+      "primary_city": "Austin",
+      "state": "TX",
+      "msa_population": 2550637,
+      "civilian_population": 2073666,
+      "census_code": "12420",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "AUST448URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "AUST448LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "AUST448NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU48124200500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU48124200500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "AUST448PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "AUST448BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS12420Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE12420",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI12420",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR12420",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 26,
+      "msa_name": "Portland-Vancouver-Hillsboro",
+      "primary_city": "Portland",
+      "state": "OR-WA",
+      "msa_population": 2537070,
+      "civilian_population": 2102338,
+      "census_code": "38900",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "PORT941URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "PORT941LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "PORT941NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU41389000500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU41389000500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "PORT941PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "PORT941BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "POXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE38900",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI38900",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR38900",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 27,
+      "msa_name": "Sacramento-Roseville-Folsom",
+      "primary_city": "Sacramento",
+      "state": "CA",
+      "msa_population": 2463127,
+      "civilian_population": 1989703,
+      "census_code": "40900",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "SACR906URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "SACR906LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "SACR906NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU06409000500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU06409000500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "SACR906PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "SACR906BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS40900Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE40900",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI40900",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR40900",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 28,
+      "msa_name": "Pittsburgh",
+      "primary_city": "Pittsburgh",
+      "state": "PA",
+      "msa_population": 2429917,
+      "civilian_population": 2038634,
+      "census_code": "38300",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "PITT342URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "PITT342LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "PITT342NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU42383000500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU42383000500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "PITT342PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "PITT342BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS38300Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE38300",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI38300",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR38300",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 29,
+      "msa_name": "Las Vegas-Henderson-North Las Vegas",
+      "primary_city": "Las Vegas",
+      "state": "NV",
+      "msa_population": 2398871,
+      "civilian_population": 1944663,
+      "census_code": "29820",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "LASV832URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "LASV832LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "LASV832NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU32298200500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU32298200500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "LASV832PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "LASV832BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "LVXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE29820",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI29820",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR29820",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 30,
+      "msa_name": "Cincinnati",
+      "primary_city": "Cincinnati",
+      "state": "OH-KY-IN",
+      "msa_population": 2304804,
+      "civilian_population": 1850445,
+      "census_code": "17140",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "CINC139URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "CINC139LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "CINC139NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU39171400500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU39171400500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "CINC139PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "CINC139BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS17140Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE17140",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI17140",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR17140",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 31,
+      "msa_name": "Kansas City",
+      "primary_city": "Kansas City",
+      "state": "MO-KS",
+      "msa_population": 2254288,
+      "civilian_population": 1796370,
+      "census_code": "28140",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "KANS129URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "KANS129LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "KANS129NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU29281400500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU29281400500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "KANS129PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "KANS129BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS28140Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE28140",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI28140",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR28140",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 32,
+      "msa_name": "Columbus",
+      "primary_city": "Columbus",
+      "state": "OH",
+      "msa_population": 2225377,
+      "civilian_population": 1779987,
+      "census_code": "18140",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "COLU139URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "COLU139LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "COLU139NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU39181400500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU39181400500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "COLU139PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "COLU139BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS18140Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE18140",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI18140",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR18140",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 33,
+      "msa_name": "Indianapolis-Carmel-Greenwood",
+      "primary_city": "Indianapolis",
+      "state": "IN",
+      "msa_population": 2173288,
+      "civilian_population": 1717178,
+      "census_code": "26900",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "INDI918URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "INDI918LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "INDI918NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU18269000500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU18269000500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "INDI918PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "INDI918BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS26900Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE26900",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI26900",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR26900",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 34,
+      "msa_name": "Cleveland",
+      "primary_city": "Cleveland",
+      "state": "OH",
+      "msa_population": 2171877,
+      "civilian_population": 1785860,
+      "census_code": "17410",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "CLEV439URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "CLEV439LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "CLEV439NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU39174100500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU39174100500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "CLEV439PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "CLEV439BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "CEXRSA",
+          "description": "S&P CoreLogic Case-Shiller Home Price Index",
+          "index_type": "case_shiller",
+          "units": "Index Jan 2000=100",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE17460",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI17460",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR17460",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 35,
+      "msa_name": "Nashville-Davidson--Murfreesboro--Franklin",
+      "primary_city": "Nashville",
+      "state": "TN",
+      "msa_population": 2151715,
+      "civilian_population": 1723608,
+      "census_code": "34980",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "NASH947URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "NASH947LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "NASH947NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU47349800500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU47349800500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "NASH947PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "NASH947BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS34980Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE34980",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI34980",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR34980",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 36,
+      "msa_name": "San Jose-Sunnyvale-Santa Clara",
+      "primary_city": "San Jose",
+      "state": "CA",
+      "msa_population": 1995484,
+      "civilian_population": 1657000,
+      "census_code": "41940",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "SANJ906URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "SANJ906LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "SANJ906NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU06419400500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU06419400500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "SANJ906PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "SANJ906BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS41940Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE41940",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI41940",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR41940",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 37,
+      "msa_name": "Virginia Beach-Chesapeake-Norfolk",
+      "primary_city": "Virginia Beach",
+      "state": "VA-NC",
+      "msa_population": 1796689,
+      "civilian_population": 1452670,
+      "census_code": "47260",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "VIRG251URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "VIRG251LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "VIRG251NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU51472600500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU51472600500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "VIRG251PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "VIRG251BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS47260Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE47260",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI47260",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR47260",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 38,
+      "msa_name": "Jacksonville",
+      "primary_city": "Jacksonville",
+      "state": "FL",
+      "msa_population": 1760548,
+      "civilian_population": 1427111,
+      "census_code": "27260",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "JACK212URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "JACK212LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "JACK212NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU12272600500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU12272600500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "JACK212PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "JACK212BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS27260Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE27260",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI27260",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR27260",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 39,
+      "msa_name": "Providence-Warwick",
+      "primary_city": "Providence",
+      "state": "RI-MA",
+      "msa_population": 1700901,
+      "civilian_population": 1422776,
+      "census_code": "39300",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "PROV244URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "PROV244LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "PROV244NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU44393000500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU44393000500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "PROV244PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "BPPRIV044007",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS39300Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE39300",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI39300",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR39300",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 40,
+      "msa_name": "Milwaukee-Waukesha",
+      "primary_city": "Milwaukee",
+      "state": "WI",
+      "msa_population": 1574452,
+      "civilian_population": 1269593,
+      "census_code": "33340",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "MILW355URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "MILW355LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "MILW355NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU55333400500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU55333400500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "MILW355PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "MILW355BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS33340Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE33340",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI33340",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR33340",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 41,
+      "msa_name": "Raleigh-Cary",
+      "primary_city": "Raleigh",
+      "state": "NC",
+      "msa_population": 1562009,
+      "civilian_population": 1255053,
+      "census_code": "39580",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "RALE537URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "RALE537LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "RALE537NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU37395800500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU37395800500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "RALE537PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "RALE537BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS39580Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE39580",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI39580",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR39580",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 42,
+      "msa_name": "Oklahoma City",
+      "primary_city": "Oklahoma City",
+      "state": "OK",
+      "msa_population": 1497821,
+      "civilian_population": 1188517,
+      "census_code": "36420",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "OKLA440URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "OKLA440LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "OKLA440NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU40364200500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU40364200500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "OKLA440PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "OKLA440BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS36420Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE36420",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI36420",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR36420",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 43,
+      "msa_name": "Louisville-Jefferson County",
+      "primary_city": "Louisville",
+      "state": "KY-IN",
+      "msa_population": 1396762,
+      "civilian_population": 1122868,
+      "census_code": "31140",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "LOIURN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "LOILFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "LOINAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU21311400500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU21311400500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "LOIPBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "LOIBPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS31140Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE31140",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI31140",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR31140",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 44,
+      "msa_name": "Richmond",
+      "primary_city": "Richmond",
+      "state": "VA",
+      "msa_population": 1368219,
+      "civilian_population": 1118489,
+      "census_code": "40060",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "RICH051URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "RICH051LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "RICH051NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU51400600500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU51400600500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "RICH051PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "RICH051BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS40060Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE40060",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI40060",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR40060",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 45,
+      "msa_name": "Memphis",
+      "primary_city": "Memphis",
+      "state": "TN-MS-AR",
+      "msa_population": 1337653,
+      "civilian_population": 1051353,
+      "census_code": "32820",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "MPHURN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "MPHLFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "MPHNAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU47328200500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU47328200500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "MPHPBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "MPHBPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS32820Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE32820",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI32820",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR32820",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 46,
+      "msa_name": "Salt Lake City-Murray",
+      "primary_city": "Salt Lake City",
+      "state": "UT",
+      "msa_population": 1300762,
+      "civilian_population": 1024487,
+      "census_code": "41620",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "SALT649URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "SALT649LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "SALT649NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU49416200500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU49416200500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "SALT649PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "SALT649BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS41620Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE41620",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI41620",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR41620",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 47,
+      "msa_name": "Birmingham",
+      "primary_city": "Birmingham",
+      "state": "AL",
+      "msa_population": 1192583,
+      "civilian_population": 955062,
+      "census_code": "13820",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "BIRM801URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "BIRM801LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "BIRM801NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU01138200500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU01138200500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "BIRM801PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "BIRM801BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS13820Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE13820",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI13820",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR13820",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 48,
+      "msa_name": "Fresno",
+      "primary_city": "Fresno",
+      "state": "CA",
+      "msa_population": 1189557,
+      "civilian_population": 908392,
+      "census_code": "23420",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "FRES406URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "FRES406LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "FRES406NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU06234200500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU06234200500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "FRES406PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "BPPRIV006019",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS23420Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE23420",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI23420",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR23420",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 49,
+      "msa_name": "Grand Rapids-Wyoming-Kentwood",
+      "primary_city": "Grand Rapids",
+      "state": "MI",
+      "msa_population": 1178826,
+      "civilian_population": 948747,
+      "census_code": "24340",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "GRAN326URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "GRAN326LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "GRAN326NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU26243400500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU26243400500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "GRAN326PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "GRAN326BPPRIV",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS24340Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE24340",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI24340",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR24340",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    },
+    {
+      "rank": 50,
+      "msa_name": "Hartford-West Hartford-East Hartford",
+      "primary_city": "Hartford",
+      "state": "CT",
+      "msa_population": 1169048,
+      "civilian_population": 975348,
+      "census_code": "25540",
+      "fred_codes": {
+        "unemployment_rate": {
+          "code": "HART409URN",
+          "description": "Unemployment Rate",
+          "units": "Percent",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "civilian_labor_force": {
+          "code": "HART409LFN",
+          "description": "Civilian Labor Force",
+          "units": "Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "all_employees": {
+          "code": "HART409NAN",
+          "description": "All Employees: Total Nonfarm",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "hourly_earnings": {
+          "code": "SMU09255400500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "units": "Dollars per Hour",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "weekly_hours": {
+          "code": "SMU09255400500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private",
+          "units": "Hours per Week",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "office_workers": {
+          "code": "HART409PBSV",
+          "description": "All Employees: Professional and Business Services",
+          "units": "Thousands of Persons",
+          "frequency": "Monthly",
+          "seasonally_adjusted": true
+        },
+        "building_permits": {
+          "code": "BPPRIV009003",
+          "description": "New Private Housing Structures Authorized by Building Permits",
+          "units": "Units",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "home_price_index": {
+          "code": "ATNHPIUS25540Q",
+          "description": "U.S. Federal Housing Finance Agency Home Price Index",
+          "index_type": "fhfa",
+          "units": "Index 1995:Q1=100",
+          "frequency": "Quarterly",
+          "seasonally_adjusted": false
+        },
+        "price_per_sqft": {
+          "code": "MEDLISPRIPERSQUFEE25540",
+          "description": "Housing Inventory: Median Listing Price per Square Feet",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "housing_price": {
+          "code": "MEDLISPRI25540",
+          "description": "Housing Inventory: Median Listing Price",
+          "units": "U.S. Dollars",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        },
+        "median_days_on_market": {
+          "code": "MEDDAYONMAR25540",
+          "description": "Housing Inventory: Median Days on Market",
+          "units": "Days",
+          "frequency": "Monthly",
+          "seasonally_adjusted": false
+        }
+      }
+    }
+  ]
+}
