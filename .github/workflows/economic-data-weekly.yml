@@ -1,4 +1,4 @@
-name: Weekly Economic Data Update
+name: Weekly Economic Data Update 2
 
 on:
   schedule:
