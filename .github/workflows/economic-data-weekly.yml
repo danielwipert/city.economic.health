@@ -25,13 +25,13 @@ jobs:
       - name: Pull economic data
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
-        run: python pull_economic_data.py
+        run: python pull_economic_data_unified_FIXED.py
       
       - name: Process historical data
-        run: python process_historical_data.py
+        run: python process_historical_data_v2_FIXED.py
       
       - name: Calculate metrics
-        run: python calculate_metrics_65_35.py
+        run: python calculate_metrics_reconciled_V6.py
       
       - name: Generate cautious LLM summaries
         env:
