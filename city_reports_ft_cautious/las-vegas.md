@@ -2,20 +2,18 @@
 
 ## Polished, cautious FT-style column
 
-The Las Vegas-Henderson-North Las Vegas metropolitan area has a weighted percentile score of 34.6 and a grade of C+, described as "Poor", in a recent economic assessment. The area ranks 29th out of the assessed metropolitan areas.
+The Las Vegas-Henderson-North Las Vegas metropolitan area's economic indicators show a mixed picture. The unemployment rate stands at 5.6%, placing it in the 6th percentile nationally, indicating a relatively higher joblessness compared to other regions. The labour force participation rate of 63.62% is more in line with national averages, suggesting a moderate level of workforce engagement. Earnings growth over the past year has been 6.47%, ranking in the 80th percentile, indicating significant wage gains for those employed.
 
-The unemployment rate is 5.6%, placing it in the 6th percentile, indicating a relatively high level of joblessness. The labour force participation rate is 63.62%, ranking in the 36th percentile, suggesting moderate engagement in the labour market.
+On the housing front, the data suggests a cooling market. Housing prices have decreased by 0.71% year-over-year, while the number of building permits has dropped by 46.49%, both of which are at the lower end of national distributions. The decline in construction activity may be due to reduced demand or tighter credit conditions. Properties are taking longer to sell, with an average of 57 days on the market, which is in the 40th percentile, indicating a slowdown in the pace of transactions.
 
-Earnings growth over the past year is 6.47%, placing the region in the 80th percentile. However, building permits have declined by 46.49% year-over-year, ranking the region at the bottom of the percentile rankings. The housing market shows mixed signals, with home prices increasing by 0.24% year-over-year and the number of days properties remain on the market rising to 57 days.
-
-Weekly hours worked average 34.2 hours, near the median, and the cost of living index is 5.22, slightly above the national average. The data points suggest a mixed economic picture in Las Vegas, with some areas of strength and others showing signs of weakness.
+The overall economic grade of C+ for Las Vegas, based on these indicators, reflects a performance that is below average but not in crisis. The data suggests a complex economic environment in Las Vegas, characterised by strong wage growth but weaker employment and housing markets.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-The Las Vegas-Henderson-North Las Vegas metropolitan area ranks 29th in a recent economic assessment, with a weighted percentile score of 34.6 and a grade of C+, described as "Poor." The unemployment rate stands at 5.6%, placing it in the 6th percentile, which suggests a relatively high level of joblessness compared to other metropolitan areas. The labor force participation rate is 63.62%, ranking in the 36th percentile, indicating moderate engagement in the labor market.
+The economic indicators for the Las Vegas-Henderson-North Las Vegas metropolitan area present a mixed picture, reflecting both areas of strength and concern. The unemployment rate stands at 5.6%, placing it in the 6th percentile nationally, which suggests a relatively higher joblessness compared to other regions. However, the labor force participation rate of 63.62% is more in line with national averages, indicating a moderate level of engagement in the workforce. Earnings growth over the past year has been robust, increasing by 6.47%, which ranks in the 80th percentile, suggesting that those employed are experiencing significant wage gains.
 
-Earnings growth over the past year is robust at 6.47%, placing the region in the 80th percentile, a positive signal for income levels. However, this contrasts with a significant decline in building permits, down 46.49% year-over-year, which places the region at the bottom of the percentile rankings. The housing market also shows mixed signals, with home prices increasing by only 0.24% year-over-year, while the number of days properties remain on the market has risen to 57 days, suggesting a slowdown in sales activity. Weekly hours worked average 34.2 hours, near the median, and the cost of living index is 5.22, slightly above the national average.
+On the housing front, the data indicates a cooling market. Housing prices have decreased by 0.71% year-over-year, while the number of building permits has dropped sharply by 46.49%, both of which are at the lower end of national distributions. This decline in construction activity may reflect reduced demand or tighter credit conditions. Additionally, properties are taking longer to sell, with an average of 57 days on the market, which is in the 40th percentile, suggesting a slowdown in the pace of transactions. The overall economic grade of C+ for Las Vegas, based on these indicators, reflects a performance that is below average but not in crisis.
 
-These data points collectively indicate a complex economic landscape in Las Vegas, with some areas of strength and others showing signs of weakness.
+These trends suggest a complex economic environment in Las Vegas, characterized by strong wage growth but weaker employment and housing markets.

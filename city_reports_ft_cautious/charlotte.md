@@ -2,18 +2,22 @@
 
 ## Polished, cautious FT-style column
 
-The Charlotte-Concord-Gastonia metropolitan area's economic data, as of the latest available figures, presents a mixed picture. The unemployment rate stands at 4.1%, placing it at the 62nd percentile among comparable regions. The labour force participation rate is 64.69%, at the median, indicating a moderate level of workforce engagement. Year-over-year earnings growth is 1.59%, ranking in the 16th percentile, which may reflect a slower pace of income expansion compared to other areas.
+The Charlotte-Concord-Gastonia metropolitan area has a weighted percentile score of 38.9 in a recent economic assessment, corresponding to a grade of C+. This places it 21st in the rankings.
 
-Housing market indicators show a year-over-year increase in the housing price index of 1.59%, in line with earnings growth. However, the number of building permits has declined by 15.37% year-over-year, which could indicate a slowdown in new construction activity. The median days on market for homes is 59 days, a relatively high figure placing it in the 92nd percentile, which may suggest a less competitive housing market or a shift in buyer behaviour.
+The area's unemployment rate stands at 4.1%, which is at the 62nd percentile. This suggests a relatively stable labour market, but one that is not particularly robust compared with other regions. The labour force participation rate is 64.69%, at the median, indicating a moderate level of engagement in the workforce.
 
-The overall weighted percentile score is 39.1%, with a grade of C+, indicating that Charlotte's economic performance is below average when compared to other metropolitan areas. These data points collectively suggest a cautious outlook for Charlotte's economic conditions, with stable but not robust growth in key areas.
+Earnings growth over the past year has been 1.59%, ranking in the 16th percentile. This may reflect a slower pace of wage increases compared with other areas. Inflation, as measured by the cost of living index, is 5.36%, placing it in the 26th percentile. This suggests that prices are rising, but at a rate that is not among the highest nationally.
+
+Housing market indicators show a mixed picture. Home prices have increased by 0.73% year-over-year, placing them in the 28th percentile. Building permits have declined by 15.37%, ranking in the 36th percentile. This may indicate a slowdown in construction activity.
+
+The data suggests a region with moderate economic performance, characterised by stable but not strong labour market conditions and modest growth in earnings and housing prices.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-The economic data for the Charlotte-Concord-Gastonia metropolitan area, as of the latest available figures, indicates a mixed performance across various indicators. The unemployment rate stands at 4.1%, placing it at the 62nd percentile among comparable regions, suggesting a relatively stable labor market. The labor force participation rate of 64.69% is at the median, indicating a moderate level of engagement in the workforce. Year-over-year earnings growth is modest at 1.59%, ranking in the 16th percentile, which may reflect a slower pace of income expansion compared to other areas.
+The Charlotte-Concord-Gastonia metropolitan area ranks 21st in a recent economic assessment, with a weighted percentile score of 38.9, corresponding to a grade of C+, described as "Poor." The unemployment rate stands at 4.1%, placing it at the 62nd percentile, suggesting a labor market that is relatively stable but not particularly robust compared to other regions. The labor force participation rate of 64.69% is at the median, indicating a moderate level of engagement in the workforce.
 
-Housing market indicators show a year-over-year increase in the housing price index of 1.59%, aligning with the earnings growth rate and suggesting a stable but not rapidly expanding housing market. However, the number of building permits has declined by 15.37% year-over-year, which could indicate a slowdown in new construction activity. The median days on market for homes is 59 days, a figure that is relatively high, placing it in the 92nd percentile, which may suggest a less competitive housing market or a shift in buyer behavior. The overall weighted percentile score of 39.1% and a grade of C+ indicate that Charlotte's economic performance is below average when compared to other metropolitan areas.
+Earnings growth over the past year has been modest at 1.59%, ranking in the 16th percentile, which may reflect a slower pace of wage increases relative to other areas. Inflation, as measured by the cost of living index, is at 5.36%, placing it in the 26th percentile, suggesting that while prices are rising, they are doing so at a rate that is not among the highest nationally. Housing market indicators show a mixed picture, with home prices increasing by 0.73% year-over-year, in the 28th percentile, and a decline in building permits by 15.37%, in the 36th percentile, potentially indicating a slowdown in construction activity.
 
-These data points collectively suggest a cautious outlook for Charlotte's economic conditions, with stable but not robust growth in key areas.
+Overall, the data suggests a region with moderate economic performance, characterized by stable but not strong labor market conditions and modest growth in earnings and housing prices.
