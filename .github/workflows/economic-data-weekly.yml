@@ -8,6 +8,8 @@ on:
 jobs:
   update-economic-data:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - uses: actions/checkout@v3
@@ -22,7 +24,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pandas openpyxl pillow huggingface-hub python-dotenv
 
-      
       - name: Pull economic data
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
