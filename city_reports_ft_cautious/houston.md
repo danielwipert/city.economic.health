@@ -2,20 +2,18 @@
 
 ## Polished, cautious FT-style column
 
-The economic indicators for the Houston-Pasadena-The Woodlands metropolitan area present a mixed picture. The unemployment rate stands at 5.0%, placing it in the 16th percentile, indicating a relatively higher unemployment level compared to other metropolitan areas. The labour force participation rate of 64.31% is more in line with the national average, as indicated by its 46th percentile ranking.
+The Houston-Pasadena-The Woodlands metropolitan area has an economic profile that ranks fifth, with a weighted percentile score of 44.4, placing it in the "Below Average" category. The unemployment rate is 5.0%, at the 16th percentile, indicating a relatively higher unemployment level compared to other regions. The labour force participation rate is 64.31%, at the 46th percentile, suggesting moderate engagement in the workforce.
 
-Year-over-year earnings growth of 3.23% and a cost of living increase of 4.73% suggest that incomes are rising, but at a pace that may be slightly lagging behind the cost of living, as evidenced by their respective percentile rankings of 42 and 60.
+Earnings growth year-over-year is 3.23%, at the 42nd percentile, while the cost of living has increased by 4.73%, at the 60th percentile. This suggests that wage growth may not be keeping pace with rising living costs. Housing market indicators show a mixed picture: the housing price index has risen by 8.48% year-over-year, at the 56th percentile, while the number of building permits has declined by 6.1%, at the 40th percentile. Properties are taking 57 days to sell, at the 40th percentile, indicating a stable market.
 
-The housing market in Houston shows a year-over-year increase in home prices of 8.48%, placing it in the 56th percentile. However, the number of building permits has decreased by 6.1% year-over-year, indicating a potential slowdown in new construction activity, as reflected in its 40th percentile score. The median days on market for homes is 57 days, which is relatively high, suggesting a less competitive market for homebuyers. The year-over-year change in the price of square footage for homes is down by 1.71%, further indicating a softening in the housing market, as shown by its 32nd percentile ranking.
-
-The data suggests a complex economic environment in Houston, with some indicators pointing to growth and others to challenges.
+The data suggests a region with moderate economic activity and some areas of concern, including employment and housing construction.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-The economic indicators for the Houston-Pasadena-The Woodlands metropolitan area present a mixed picture, reflecting both areas of strength and concern. The unemployment rate stands at 5.0%, placing it in the 16th percentile, which suggests a relatively higher unemployment level compared to other metropolitan areas. The labor force participation rate of 64.31% is more in line with the national average, as indicated by its 46th percentile ranking. Year-over-year earnings growth of 3.23% and a cost of living increase of 4.73% suggest that while incomes are rising, they are doing so at a pace that may be slightly lagging behind the cost of living, as evidenced by their respective percentile rankings of 42 and 60.
+The Houston-Pasadena-The Woodlands metropolitan area ranks fifth in its economic profile, with a weighted percentile score of 44.4, placing it in the "Below Average" category according to the provided grading system. The unemployment rate stands at 5.0%, which is positioned at the 16th percentile, suggesting a relatively higher unemployment level compared to other regions. The labor force participation rate of 64.31% is at the 46th percentile, indicating moderate engagement in the workforce.
 
-The housing market in Houston shows a year-over-year increase in home prices of 8.48%, which is above the median, placing it in the 56th percentile. However, the number of building permits has decreased by 6.1% year-over-year, indicating a potential slowdown in new construction activity, as reflected in its 40th percentile score. The median days on market for homes is 57 days, which is relatively high, suggesting a less competitive market for homebuyers. The year-over-year change in the price of square footage for homes is down by 1.71%, further indicating a softening in the housing market, as shown by its 32nd percentile ranking.
+Earnings growth year-over-year is reported at 3.23%, placing it at the 42nd percentile, while the cost of living has increased by 4.73%, ranking at the 60th percentile. This suggests that wage growth may not be keeping pace with the rising cost of living. Housing market indicators show a mixed picture: the housing price index has risen by 8.48% year-over-year, at the 56th percentile, while the number of building permits has declined by 6.1%, at the 40th percentile. The days on market for properties stand at 57, which is at the 40th percentile, indicating a stable but not particularly brisk market.
 
-Overall, the data suggests a complex economic environment in Houston, with some indicators of growth and others pointing to challenges.
+Overall, the data indicates a region with moderate economic activity and some areas of concern, particularly in employment and housing construction.
