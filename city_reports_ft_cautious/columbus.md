@@ -2,18 +2,18 @@
 
 ## Polished, cautious FT-style column
 
-Columbus's economic data reveals a mixed performance across various indicators. The unemployment rate stands at 4.7%, placing it in the 24th percentile among comparable metropolitan areas. This suggests a relatively low level of joblessness. The labour force participation rate of 66.13% ranks in the 70th percentile, indicating a higher engagement of the working-age population in the labour market compared to other regions. Earnings growth year-over-year is at 3.89%, situated in the 46th percentile, indicating moderate wage increases.
+Columbus's economic indicators present a mixed picture. The unemployment rate stands at 4.7%, placing it in the 24th percentile among comparable metropolitan areas. The labour force participation rate is 66.13%, ranking in the 70th percentile. Year-over-year earnings growth is 2.26%, placing it in the 32nd percentile.
 
-Housing market indicators show both strength and moderation. The housing price index has increased by 16.76% year-over-year, placing Columbus in the 80th percentile. This may reflect strong demand or limited supply. However, the number of permits issued for new residential construction has grown by only 1.32% year-over-year, ranking in the 50th percentile. This suggests a cautious approach to new development. The days on market for properties have remained at 47 days, in the 60th percentile, indicating a balanced market.
+In the housing sector, Columbus has seen a year-over-year increase in home prices of 16.76%, ranking in the 80th percentile. However, the year-over-year change in permits for new private housing units is 1.32%, in the 50th percentile. The number of days properties remain on the market is 49 days, in the 62nd percentile.
 
-Overall, Columbus's economic data suggests an economy with average performance, characterised by moderate employment, wage growth and housing market activity.
+Columbus's economic performance appears to be average, with some indicators showing stronger performance than others. Labour force participation and home price appreciation are notable, while employment, earnings growth and new construction are more moderate.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-The economic data for Columbus suggests a mixed but generally stable performance across various indicators. The unemployment rate stands at 4.7%, placing it in the 24th percentile among comparable metropolitan areas, which indicates a relatively low level of joblessness. The labor force participation rate of 66.13% ranks in the 70th percentile, suggesting a higher engagement of the working-age population in the labor market compared to other regions. Earnings growth year-over-year is at 3.89%, situated in the 46th percentile, indicating moderate wage increases.
+Columbus's economic indicators present a mixed but generally stable picture. The unemployment rate stands at 4.7%, placing it in the 24th percentile among comparable metropolitan areas, which suggests a relatively tight labor market. The labor force participation rate of 66.13% ranks in the 70th percentile, indicating a robust engagement of the working-age population in the labor market. Year-over-year earnings growth is modest at 2.26%, placing it in the 32nd percentile, which may reflect broader economic conditions rather than specific local factors.
 
-Housing market indicators show both strength and moderation. The housing price index has increased by 16.76% year-over-year, placing Columbus in the 80th percentile, which may reflect strong demand or limited supply. However, the number of permits issued for new residential construction has grown by only 1.32% year-over-year, ranking in the 50th percentile, suggesting a cautious approach to new development. The days on market for properties have remained at 47 days, in the 60th percentile, indicating a balanced market where neither buyers nor sellers dominate.
+In the housing sector, Columbus has seen a significant year-over-year increase in home prices of 16.76%, ranking in the 80th percentile, suggesting a strong demand for housing. However, the year-over-year change in permits for new private housing units is only 1.32%, in the 50th percentile, which could indicate a more moderate pace of new construction relative to other markets. The number of days properties remain on the market is 49 days, in the 62nd percentile, suggesting a balanced market where neither buyers nor sellers have a significant advantage.
 
-Overall, the data for Columbus indicates an economy with average performance, characterized by moderate employment, wage growth, and housing market activity.
+Overall, Columbus's economic performance appears average, with strengths in labor force participation and home price appreciation, but with more moderate indicators in employment, earnings growth, and new construction.
