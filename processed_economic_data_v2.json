@@ -1,11 +1,11 @@
 {
-  "processing_timestamp": "2025-12-22T09:36:24.996768",
-  "processing_date": "2025-12-22 09:36:24",
+  "processing_timestamp": "2025-12-29T09:37:29.762413",
+  "processing_date": "2025-12-29 09:37:29",
   "version": 2,
   "metrics_count": 11,
   "metrics_scored": 10,
   "metrics_collected_only": 1,
-  "source_data": "2025-12-22 09:36:24",
+  "source_data": "2025-12-29 09:37:29",
   "msa_averages": {
     "unemployment_rate": {
       "msa_average": 4.16,

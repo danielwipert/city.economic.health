@@ -1,6 +1,6 @@
 {
-  "calculation_timestamp": "2025-12-22T09:36:25.072547",
-  "calculation_date": "2025-12-22 09:36:25",
+  "calculation_timestamp": "2025-12-29T09:37:29.837718",
+  "calculation_date": "2025-12-29 09:37:29",
   "version": "4.2",
   "scoring_method": "Percentile-Based (Rank Order)",
   "rubric": "10-Metric Percentile System with 3-Component COL, 2-Component OWR, and Smoothed Metrics",

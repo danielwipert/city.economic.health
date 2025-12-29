@@ -2,18 +2,18 @@
 
 ## Polished, cautious FT-style column
 
-The Phoenix-Mesa-Chandler metropolitan area has a weighted percentile score of 44.5 in a recent economic assessment, placing it in the "Below Average" category. The area's unemployment rate is 4.1%, slightly above the national average, while the labour force participation rate stands at 66.59%. Year-over-year earnings growth is 4.08%, indicating moderate wage increases. However, the cost of living has risen by 5.22% over the same period.
+The Phoenix-Mesa-Chandler metropolitan area ranks 10th in the dataset, with an overall weighted percentile score of 44.5, placing it in the "Below Average" category. The unemployment rate is 4.1%, slightly above the national average, while the labor force participation rate is 66.59%, indicating a relatively active workforce. Year-over-year earnings growth is 4.08%, suggesting modest income gains. The cost of living index is 5.22, which may indicate higher living expenses compared to other regions.
 
-The housing market presents a mixed picture. The year-over-year change in housing prices has declined by 2.02%, and the price-to-square-foot ratio has decreased by 2.06%. Building permits have dropped by 21.38% year-over-year, which could be indicative of a slowdown in construction activity. Properties are taking an average of 61 days to sell, up from previous periods.
+Housing market indicators show a decline, with year-over-year housing prices falling by 2.02% and single-family home prices dropping by 2.06%. Building permits have decreased by 21.38% year-over-year, which could be indicative of a slowdown in construction activity. The median days on market for homes is 61 days, longer than the typical range observed in more robust markets. These figures suggest a cooling in the local real estate sector.
 
-The data suggests that Phoenix-Mesa-Chandler maintains a moderately active labour market, but faces challenges in housing and cost of living that may have implications for its overall economic health.
+The data presents a mixed economic environment in Phoenix-Mesa-Chandler, with some positive signs in employment and earnings, but challenges in the housing market.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-The Phoenix-Mesa-Chandler metropolitan area ranks 10th in a recent economic assessment, with a weighted percentile score of 44.5, placing it in the "Below Average" category. The unemployment rate stands at 4.1%, which is slightly above the national average, while the labor force participation rate is 66.59%, indicating a relatively active workforce. Year-over-year earnings growth is at 4.08%, suggesting moderate wage increases. However, the cost of living has risen by 5.22% over the same period, potentially eroding purchasing power.
+The Phoenix-Mesa-Chandler metropolitan area ranks 10th in the dataset, with an overall weighted percentile score of 44.5, placing it in the "Below Average" category. The unemployment rate stands at 4.1%, which is slightly above the national average, while the labor force participation rate is 66.59%, indicating a relatively active workforce. Year-over-year earnings growth is recorded at 4.08%, suggesting modest income gains. However, the cost of living index, at 5.22, may reflect higher living expenses compared to other regions.
 
-Housing market indicators show a mixed picture. The year-over-year change in housing prices has declined by 2.02%, and the price-to-square-foot ratio has similarly decreased by 2.06%. These declines may reflect cooling demand or other market dynamics. Building permits have dropped by 21.38% year-over-year, which could indicate a slowdown in construction activity. Additionally, properties are taking an average of 61 days to sell, up from previous periods, further suggesting a less robust real estate market.
+Housing market indicators show a decline, with year-over-year housing prices falling by 2.02% and single-family home prices dropping by 2.06%. This trend is further underscored by a 21.38% decrease in building permits, which could indicate a slowdown in construction activity. The median days on market for homes is 61 days, which is longer than the typical range observed in more robust markets. These figures suggest a cooling in the local real estate sector.
 
-Overall, the data suggests that while Phoenix-Mesa-Chandler maintains a moderately active labor market, it faces challenges in housing and cost of living that may impact overall economic health.
+Overall, the data indicates a mixed economic environment in Phoenix-Mesa-Chandler, with some positive signs in employment and earnings, but challenges in the housing market.

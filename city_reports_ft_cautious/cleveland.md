@@ -2,20 +2,20 @@
 
 ## Polished, cautious FT-style column
 
-Cleveland's economic indicators present a mixed picture. The metropolitan area's unemployment rate of 3.4% places it in the 80th percentile, indicating relatively low joblessness compared with other areas. However, the labour force participation rate of 58.01% is in the 2nd percentile, suggesting a lower proportion of the working-age population is employed or actively seeking employment.
+Cleveland's economic indicators present a mixed picture, reflecting both areas of strength and concern. The unemployment rate stands at 3.4%, placing it in the 80th percentile among comparable metropolitan areas, suggesting a relatively robust labour market. However, the labour force participation rate of 58.01% is in the 2nd percentile, indicating a low level of engagement in the workforce.
 
-Year-over-year earnings have declined by 1.24%, a figure that ranks in the 6th percentile, indicating a contraction in income levels. In contrast, the housing market has shown some resilience. Cleveland's housing price index has increased by 4.0% year-over-year, placing it in the 38th percentile, a moderate growth rate. The year-over-year increase in permits for new housing units is 14.96%, ranking in the 78th percentile, indicating a level of new construction activity.
+Real earnings have declined by 1.24% year-over-year, placing Cleveland in the 6th percentile, which may reflect broader economic challenges or sector-specific issues affecting income levels. In the housing market, Cleveland has seen a 4.0% increase in home prices year-over-year, placing it in the 38th percentile, suggesting moderate growth.
 
-The median days on market for homes is 55 days, in the 54th percentile, suggesting a balanced market. The year-over-year increase in the price per square foot is 12.86%, ranking in the 98th percentile, indicating a strong upward trend in property values.
+Building permits have risen by 14.96% year-over-year, a notable increase that places the city in the 78th percentile. The pace of sales, as measured by days on market, is 55 days, which is in the 54th percentile. These indicators suggest a balanced market with neither a surplus nor a shortage of available properties.
 
-Overall, Cleveland's economic performance appears to be average, with some indicators showing relative strength and others lagging behind.
+Overall, Cleveland's economic performance appears to be average, with some indicators pointing to stability and others highlighting areas that may require attention.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-Cleveland's economic indicators present a mixed picture, with some areas showing relative strength while others lag behind. The unemployment rate stands at 3.4%, placing it in the 80th percentile, which suggests a relatively low level of joblessness compared to other metropolitan areas. However, the labor force participation rate of 58.01% is in the 2nd percentile, indicating a lower proportion of the working-age population is either employed or actively seeking employment. Year-over-year earnings have declined by 1.24%, a figure that ranks in the 6th percentile, suggesting a contraction in income levels.
+Cleveland's economic indicators present a mixed picture, reflecting both areas of strength and concern. The unemployment rate stands at 3.4%, placing it in the 80th percentile among comparable metropolitan areas, which suggests a relatively robust labor market. However, the labor force participation rate of 58.01% is in the 2nd percentile, indicating a low level of engagement in the workforce. Real earnings have declined by 1.24% year-over-year, placing Cleveland in the 6th percentile, which may reflect broader economic challenges or sector-specific issues affecting income levels.
 
-In the housing market, Cleveland's housing price index has increased by 4.0% year-over-year, placing it in the 38th percentile, which is a moderate growth rate. The year-over-year increase in permits for new housing units is 14.96%, ranking in the 78th percentile, indicating a robust level of new construction activity. The median days on market for homes is 55 days, in the 54th percentile, suggesting a balanced market where neither buyers nor sellers have a significant advantage. The year-over-year increase in the price per square foot is 12.86%, ranking in the 98th percentile, which points to a strong upward trend in property values.
+In the housing market, Cleveland has seen a 4.0% increase in home prices year-over-year, placing it in the 38th percentile, suggesting moderate growth. Building permits have risen by 14.96% year-over-year, a significant increase that places the city in the 78th percentile, potentially indicating a growing demand for new housing or commercial development. The pace of sales, as measured by days on market, is 55 days, which is in the 54th percentile, suggesting a balanced market with neither a surplus nor a shortage of available properties.
 
-Overall, Cleveland's economic performance appears to be average, with strengths in housing market indicators and employment, but challenges in labor force participation and earnings growth.
+Overall, Cleveland's economic performance appears to be average, with some indicators pointing to stability and others highlighting areas that may require attention.
