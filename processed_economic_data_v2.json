@@ -1,11 +1,11 @@
 {
-  "processing_timestamp": "2025-12-29T09:37:29.762413",
-  "processing_date": "2025-12-29 09:37:29",
+  "processing_timestamp": "2026-01-05T09:39:10.357913",
+  "processing_date": "2026-01-05 09:39:10",
   "version": 2,
   "metrics_count": 11,
   "metrics_scored": 10,
   "metrics_collected_only": 1,
-  "source_data": "2025-12-29 09:37:29",
+  "source_data": "2026-01-05 09:39:10",
   "msa_averages": {
     "unemployment_rate": {
       "msa_average": 4.16,
@@ -32,7 +32,7 @@
       "metros_with_data": 50
     },
     "home_price_index": {
-      "msa_average": 360.3779,
+      "msa_average": 360.6449,
       "metros_with_data": 50
     },
     "price_per_sqft": {
@@ -177,20 +177,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 331.6111,
-          "latest_date": "2025-09-01",
+          "latest_value": 332.4922,
+          "latest_date": "2025-10-01",
           "series_id": "NYXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 331.95854045962733,
+          "3month_average": 332.2434360280303,
           "yoy_change": {
-            "current": 331.6111,
-            "change": 16.5193,
-            "pct_change": 5.24
+            "current": 332.4922,
+            "change": 15.7531,
+            "pct_change": 4.97
           },
           "3month_avg_yoy": {
-            "current_3mo": 331.9585,
-            "change": 18.5692,
-            "pct_change": 5.93
+            "current_3mo": 332.2434,
+            "change": 17.2178,
+            "pct_change": 5.47
           }
         },
         "price_per_sqft": {
@@ -400,19 +400,19 @@
           }
         },
         "home_price_index": {
-          "latest_value": 441.6847,
-          "latest_date": "2025-09-01",
+          "latest_value": 441.5555,
+          "latest_date": "2025-10-01",
           "series_id": "LXXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 440.6147978719097,
+          "3month_average": 441.10765630769635,
           "yoy_change": {
-            "current": 441.6847,
-            "change": 1.5715,
-            "pct_change": 0.36
+            "current": 441.5555,
+            "change": 0.5584,
+            "pct_change": 0.13
           },
           "3month_avg_yoy": {
-            "current_3mo": 440.6148,
-            "change": 0.7216,
+            "current_3mo": 441.1077,
+            "change": 0.7114,
             "pct_change": 0.16
           }
         },
@@ -623,20 +623,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 221.1079,
-          "latest_date": "2025-09-01",
+          "latest_value": 222.4408,
+          "latest_date": "2025-10-01",
           "series_id": "CHXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 220.31421944913265,
+          "3month_average": 221.385552799141,
           "yoy_change": {
-            "current": 221.1079,
-            "change": 11.4523,
-            "pct_change": 5.46
+            "current": 222.4408,
+            "change": 12.2913,
+            "pct_change": 5.85
           },
           "3month_avg_yoy": {
-            "current_3mo": 220.3142,
-            "change": 12.0304,
-            "pct_change": 5.78
+            "current_3mo": 221.3856,
+            "change": 11.9525,
+            "pct_change": 5.71
           }
         },
         "price_per_sqft": {
@@ -846,20 +846,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 293.3928,
-          "latest_date": "2025-09-01",
+          "latest_value": 294.0464,
+          "latest_date": "2025-10-01",
           "series_id": "DAXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 292.952705349406,
+          "3month_average": 293.5334909532173,
           "yoy_change": {
-            "current": 293.3928,
-            "change": -3.9254,
-            "pct_change": -1.32
+            "current": 294.0464,
+            "change": -4.326,
+            "pct_change": -1.45
           },
           "3month_avg_yoy": {
-            "current_3mo": 292.9527,
-            "change": -3.722,
-            "pct_change": -1.25
+            "current_3mo": 293.5335,
+            "change": -3.9237,
+            "pct_change": -1.32
           }
         },
         "price_per_sqft": {
@@ -1292,20 +1292,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 433.5151,
-          "latest_date": "2025-09-01",
+          "latest_value": 435.9914,
+          "latest_date": "2025-10-01",
           "series_id": "MIXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 432.9117087499333,
+          "3month_average": 433.6742619531077,
           "yoy_change": {
-            "current": 433.5151,
-            "change": -5.5281,
-            "pct_change": -1.26
+            "current": 435.9914,
+            "change": -4.5681,
+            "pct_change": -1.04
           },
           "3month_avg_yoy": {
-            "current_3mo": 432.9117,
-            "change": -6.2664,
-            "pct_change": -1.43
+            "current_3mo": 433.6743,
+            "change": -5.8319,
+            "pct_change": -1.33
           }
         },
         "price_per_sqft": {
@@ -1515,20 +1515,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 333.1991,
-          "latest_date": "2025-09-01",
+          "latest_value": 334.6908,
+          "latest_date": "2025-10-01",
           "series_id": "WDXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 332.158604311396,
+          "3month_average": 333.3278407874833,
           "yoy_change": {
-            "current": 333.1991,
-            "change": 2.223,
-            "pct_change": 0.67
+            "current": 334.6908,
+            "change": 1.569,
+            "pct_change": 0.47
           },
           "3month_avg_yoy": {
-            "current_3mo": 332.1586,
-            "change": 3.1366,
-            "pct_change": 0.95
+            "current_3mo": 333.3278,
+            "change": 2.2397,
+            "pct_change": 0.68
           }
         },
         "price_per_sqft": {
@@ -1738,20 +1738,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 247.3457,
-          "latest_date": "2025-09-01",
+          "latest_value": 248.1246,
+          "latest_date": "2025-10-01",
           "series_id": "ATXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 247.788742085277,
+          "3month_average": 247.72944924667533,
           "yoy_change": {
-            "current": 247.3457,
-            "change": -0.394,
-            "pct_change": -0.16
+            "current": 248.1246,
+            "change": -0.2785,
+            "pct_change": -0.11
           },
           "3month_avg_yoy": {
-            "current_3mo": 247.7887,
-            "change": 0.58,
-            "pct_change": 0.23
+            "current_3mo": 247.7294,
+            "change": -0.0878,
+            "pct_change": -0.04
           }
         },
         "price_per_sqft": {
@@ -2184,20 +2184,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 323.2551,
-          "latest_date": "2025-09-01",
+          "latest_value": 324.7307,
+          "latest_date": "2025-10-01",
           "series_id": "PHXRNSA",
           "metric_name": "Home Price Index",
-          "3month_average": 324.429623019578,
+          "3month_average": 323.87385490103134,
           "yoy_change": {
-            "current": 323.2551,
-            "change": -6.6753,
-            "pct_change": -2.02
+            "current": 324.7307,
+            "change": -5.0667,
+            "pct_change": -1.54
           },
           "3month_avg_yoy": {
-            "current_3mo": 324.4296,
-            "change": -5.0534,
-            "pct_change": -1.53
+            "current_3mo": 323.8739,
+            "change": -5.7216,
+            "pct_change": -1.74
           }
         },
         "price_per_sqft": {
@@ -2407,20 +2407,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 350.1223,
-          "latest_date": "2025-09-01",
+          "latest_value": 349.027,
+          "latest_date": "2025-10-01",
           "series_id": "BOXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 348.9353592733957,
+          "3month_average": 349.23424606259965,
           "yoy_change": {
-            "current": 350.1223,
-            "change": 13.9347,
-            "pct_change": 4.14
+            "current": 349.027,
+            "change": 9.9887,
+            "pct_change": 2.95
           },
           "3month_avg_yoy": {
-            "current_3mo": 348.9354,
-            "change": 13.6903,
-            "pct_change": 4.08
+            "current_3mo": 349.2342,
+            "change": 12.4784,
+            "pct_change": 3.71
           }
         },
         "price_per_sqft": {
@@ -2853,20 +2853,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 354.9015,
-          "latest_date": "2025-09-01",
+          "latest_value": 359.9331,
+          "latest_date": "2025-10-01",
           "series_id": "SFXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 352.10646097681666,
+          "3month_average": 355.82312324467,
           "yoy_change": {
-            "current": 354.9015,
-            "change": -2.9675,
-            "pct_change": -0.83
+            "current": 359.9331,
+            "change": 1.0594,
+            "pct_change": 0.3
           },
           "3month_avg_yoy": {
-            "current_3mo": 352.1065,
-            "change": -5.1065,
-            "pct_change": -1.43
+            "current_3mo": 355.8231,
+            "change": -2.3746,
+            "pct_change": -0.66
           }
         },
         "price_per_sqft": {
@@ -3076,20 +3076,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 198.5012,
-          "latest_date": "2025-08-01",
+          "latest_value": 198.3373,
+          "latest_date": "2025-09-01",
           "series_id": "DEXRNSA",
           "metric_name": "Home Price Index",
-          "3month_average": 198.71094174001166,
+          "3month_average": 198.69435848075634,
           "yoy_change": {
-            "current": 198.5012,
-            "change": 7.0888,
-            "pct_change": 3.7
+            "current": 198.3373,
+            "change": 6.7014,
+            "pct_change": 3.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 198.7109,
-            "change": 7.7049,
-            "pct_change": 4.03
+            "current_3mo": 198.6944,
+            "change": 7.2733,
+            "pct_change": 3.8
           }
         },
         "price_per_sqft": {
@@ -3299,20 +3299,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 391.2027,
-          "latest_date": "2025-09-01",
+          "latest_value": 388.2448,
+          "latest_date": "2025-10-01",
           "series_id": "SEXRNSA",
           "metric_name": "Home Price Index",
-          "3month_average": 394.5234679917563,
+          "3month_average": 391.41906607809335,
           "yoy_change": {
-            "current": 391.2027,
-            "change": -2.1111,
-            "pct_change": -0.54
+            "current": 388.2448,
+            "change": -1.5103,
+            "pct_change": -0.39
           },
           "3month_avg_yoy": {
-            "current_3mo": 394.5235,
-            "change": -0.6028,
-            "pct_change": -0.15
+            "current_3mo": 391.4191,
+            "change": -1.3235,
+            "pct_change": -0.34
           }
         },
         "price_per_sqft": {
@@ -3522,20 +3522,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 246.6374,
-          "latest_date": "2025-09-01",
+          "latest_value": 247.9123,
+          "latest_date": "2025-10-01",
           "series_id": "MNXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 245.73952193450467,
+          "3month_average": 246.79547135912665,
           "yoy_change": {
-            "current": 246.6374,
-            "change": 5.7026,
-            "pct_change": 2.37
+            "current": 247.9123,
+            "change": 6.4879,
+            "pct_change": 2.69
           },
           "3month_avg_yoy": {
-            "current_3mo": 245.7395,
-            "change": 6.0185,
-            "pct_change": 2.51
+            "current_3mo": 246.7955,
+            "change": 6.1394,
+            "pct_change": 2.55
           }
         },
         "price_per_sqft": {
@@ -3745,20 +3745,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 367.7607,
-          "latest_date": "2025-09-01",
+          "latest_value": 367.4016,
+          "latest_date": "2025-10-01",
           "series_id": "TPXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 370.00708171987435,
+          "3month_average": 368.400691754216,
           "yoy_change": {
-            "current": 367.7607,
-            "change": -15.9,
-            "pct_change": -4.14
+            "current": 367.4016,
+            "change": -15.9428,
+            "pct_change": -4.16
           },
           "3month_avg_yoy": {
-            "current_3mo": 370.0071,
-            "change": -13.2064,
-            "pct_change": -3.45
+            "current_3mo": 368.4007,
+            "change": -14.9295,
+            "pct_change": -3.89
           }
         },
         "price_per_sqft": {
@@ -3968,20 +3968,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 437.7768,
-          "latest_date": "2025-09-01",
+          "latest_value": 440.5181,
+          "latest_date": "2025-10-01",
           "series_id": "SDXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 436.7797944282337,
+          "3month_average": 438.32575198790636,
           "yoy_change": {
-            "current": 437.7768,
-            "change": -3.6258,
-            "pct_change": -0.82
+            "current": 440.5181,
+            "change": -2.4175,
+            "pct_change": -0.55
           },
           "3month_avg_yoy": {
-            "current_3mo": 436.7798,
-            "change": -3.4481,
-            "pct_change": -0.78
+            "current_3mo": 438.3258,
+            "change": -3.2811,
+            "pct_change": -0.74
           }
         },
         "price_per_sqft": {
@@ -4191,20 +4191,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 315.6976,
-          "latest_date": "2025-09-01",
+          "latest_value": 315.3703,
+          "latest_date": "2025-10-01",
           "series_id": "DNXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 314.99692024647965,
+          "3month_average": 315.2629656792877,
           "yoy_change": {
-            "current": 315.6976,
-            "change": -2.0189,
-            "pct_change": -0.64
+            "current": 315.3703,
+            "change": -4.2144,
+            "pct_change": -1.32
           },
           "3month_avg_yoy": {
-            "current_3mo": 314.9969,
-            "change": -2.1204,
-            "pct_change": -0.67
+            "current_3mo": 315.263,
+            "change": -2.8761,
+            "pct_change": -0.9
           }
         },
         "price_per_sqft": {
@@ -4637,20 +4637,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 283.9253,
-          "latest_date": "2025-09-01",
+          "latest_value": 282.0811,
+          "latest_date": "2025-10-01",
           "series_id": "CRXRNSA",
           "metric_name": "Home Price Index",
-          "3month_average": 285.93936133798667,
+          "3month_average": 284.04559694430765,
           "yoy_change": {
-            "current": 283.9253,
-            "change": 2.0485,
-            "pct_change": 0.73
+            "current": 282.0811,
+            "change": 1.1061,
+            "pct_change": 0.39
           },
           "3month_avg_yoy": {
-            "current_3mo": 285.9394,
-            "change": 4.1686,
-            "pct_change": 1.48
+            "current_3mo": 284.0456,
+            "change": 2.5409,
+            "pct_change": 0.9
           }
         },
         "price_per_sqft": {
@@ -5752,20 +5752,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 329.3227,
-          "latest_date": "2025-09-01",
+          "latest_value": 329.4549,
+          "latest_date": "2025-10-01",
           "series_id": "POXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 329.77773939036433,
+          "3month_average": 329.2954097216527,
           "yoy_change": {
-            "current": 329.3227,
-            "change": -0.801,
-            "pct_change": -0.24
+            "current": 329.4549,
+            "change": -1.9696,
+            "pct_change": -0.59
           },
           "3month_avg_yoy": {
-            "current_3mo": 329.7777,
-            "change": 1.2162,
-            "pct_change": 0.37
+            "current_3mo": 329.2954,
+            "change": -0.6943,
+            "pct_change": -0.21
           }
         },
         "price_per_sqft": {
@@ -6421,20 +6421,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 296.7381,
-          "latest_date": "2025-09-01",
+          "latest_value": 298.3136,
+          "latest_date": "2025-10-01",
           "series_id": "LVXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 297.9363322921787,
+          "3month_average": 297.660191825082,
           "yoy_change": {
-            "current": 296.7381,
-            "change": -2.1273,
-            "pct_change": -0.71
+            "current": 298.3136,
+            "change": -1.969,
+            "pct_change": -0.66
           },
           "3month_avg_yoy": {
-            "current_3mo": 297.9363,
-            "change": 0.4727,
-            "pct_change": 0.16
+            "current_3mo": 297.6602,
+            "change": -1.1781,
+            "pct_change": -0.39
           }
         },
         "price_per_sqft": {
@@ -7536,20 +7536,20 @@
           }
         },
         "home_price_index": {
-          "latest_value": 201.4155,
-          "latest_date": "2025-09-01",
+          "latest_value": 201.7991,
+          "latest_date": "2025-10-01",
           "series_id": "CEXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 200.67901135463,
+          "3month_average": 201.29496986664066,
           "yoy_change": {
-            "current": 201.4155,
-            "change": 7.7513,
-            "pct_change": 4.0
+            "current": 201.7991,
+            "change": 7.9421,
+            "pct_change": 4.1
           },
           "3month_avg_yoy": {
-            "current_3mo": 200.679,
-            "change": 8.3784,
-            "pct_change": 4.36
+            "current_3mo": 201.295,
+            "change": 8.1437,
+            "pct_change": 4.22
           }
         },
         "price_per_sqft": {
