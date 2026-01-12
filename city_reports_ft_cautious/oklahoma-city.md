@@ -2,18 +2,18 @@
 
 ## Polished, cautious FT-style column
 
-Oklahoma City's economic indicators show a mixed picture. The unemployment rate is 3.4%, placing it in the 80th percentile among comparable metropolitan areas. The labour force participation rate is 66.8%, above average. However, earnings growth year-over-year is 3.49%, ranking in the 52nd percentile.
+Oklahoma City's economic indicators show a mixed picture, according to the latest data. The unemployment rate of 3.4% places it in the 80th percentile, indicating a relatively strong labour market. The labour force participation rate of 66.8% ranks in the 74th percentile, suggesting a high level of engagement in the workforce. However, the year-over-year earnings growth of 5.1% is more moderate, at the 56th percentile, which may reflect a stable wage environment.
 
-Housing market indicators indicate significant activity. The housing price index has risen by 10.86% year-over-year, placing it in the 66th percentile. Building permits have increased by 10.49% over the same period, in the 70th percentile. The number of days properties remain on the market is 54 days, in the 56th percentile.
+The housing market in Oklahoma City shows notable activity, with a year-over-year increase in housing prices of 10.86%, placing it in the 66th percentile. This suggests continued demand for housing. The number of permits issued for new construction has increased by 10.49% year-over-year, ranking in the 70th percentile, indicating a balanced supply response. The median days on market for homes is 54 days, which is in the 56th percentile, suggesting a market that is neither hot nor cold.
 
-The data suggests that Oklahoma City is experiencing steady economic conditions, with employment and housing markets showing particular strengths. Wage growth remains moderate.
+The data suggests that Oklahoma City's economy is performing above average, with strengths in labour market indicators and housing demand. However, earnings and construction activity show more moderate growth.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-Oklahoma City's economic indicators present a mixed but generally positive picture. The unemployment rate stands at 3.4%, placing it in the 80th percentile among comparable metropolitan areas, which suggests a relatively robust labor market. The labor force participation rate of 66.8% is also above average, indicating a high level of engagement in the workforce. However, earnings growth year-over-year is moderate at 3.49%, ranking in the 52nd percentile, which may reflect a stable but not rapidly expanding income environment.
+Oklahoma City's economic indicators present a mixed but generally positive picture, according to the latest data. The unemployment rate stands at 3.4%, placing it in the 80th percentile, which suggests a relatively strong labor market. The labor force participation rate of 66.8% is also robust, ranking in the 74th percentile, indicating a high level of engagement in the workforce. However, the year-over-year earnings growth of 5.1% is more moderate, sitting in the 56th percentile, which may reflect a stable but not particularly dynamic wage environment.
 
-Housing market indicators show significant activity. The housing price index has increased by 10.86% year-over-year, placing it in the 66th percentile, suggesting a strong demand for housing. Building permits have risen by 10.49% over the same period, in the 70th percentile, which could indicate ongoing investment in residential construction. Despite this growth, the number of days properties remain on the market is 54 days, in the 56th percentile, indicating a balanced market where neither buyers nor sellers dominate.
+The housing market in Oklahoma City shows notable activity, with a year-over-year increase in housing prices of 10.86%, placing it in the 66th percentile. This suggests a continued demand for housing, although the number of permits issued for new construction has increased by 10.49% year-over-year, which is in the 70th percentile, indicating a balanced supply response. The median days on market for homes is 54 days, which is in the 56th percentile, suggesting a market that is neither overly hot nor cold.
 
-Overall, the data suggests that Oklahoma City is experiencing steady economic conditions with particular strengths in employment and housing markets, though wage growth remains moderate.
+Overall, the data indicates that Oklahoma City's economy is performing above average, with strengths in labor market indicators and housing demand, but with more moderate growth in earnings and construction activity.
