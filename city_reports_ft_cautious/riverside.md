@@ -2,18 +2,20 @@
 
 ## Polished, cautious FT-style column
 
-The economic data for the Riverside-San Bernardino-Ontario metropolitan area presents a mixed picture. The unemployment rate stands at 5.9%, placing the region in the 2nd percentile, indicating a higher unemployment rate compared to other metropolitan areas. The labour force participation rate of 60.25% is relatively low, ranking in the 6th percentile. Meanwhile, earnings growth year-over-year is 7.77%, placing the region in the 78th percentile, suggesting significant wage increases for those employed.
+The Riverside-San Bernardino-Ontario metropolitan area has a weighted percentile score of 31.7 and a grade of C+, described as "Poor", in a recent economic assessment. This ranks the area 12th out of the assessed regions.
 
-Housing market indicators show a complex dynamic. The housing price index has increased by 7.22% year-over-year, placing the region in the 52nd percentile, indicating moderate appreciation in home values. However, the number of building permits has declined by 18.53% year-over-year, ranking in the 30th percentile, which may reflect a slowdown in new construction activity. The days on market metric stands at 61 days, in the 32nd percentile, suggesting a relatively balanced market.
+The unemployment rate stands at 5.4%, placing it in the 4th percentile. The labour force participation rate is 60.71%, ranking in the 18th percentile.
 
-The weighted percentile score of 27.4 and the grade of "C" suggest that the Riverside-San Bernardino-Ontario area is experiencing some positive economic trends, including earnings growth, but also faces challenges in employment and housing market dynamics.
+Earnings growth over the past year has been 7.77%, placing the region in the 78th percentile. However, this is somewhat offset by a cost of living increase of 5.69%, in the 16th percentile. The housing market shows mixed signals, with a 7.22% increase in home prices over the year, also in the 52nd percentile. Meanwhile, the number of building permits has declined by 1.15% year-over-year, also in the 52nd percentile.
+
+The data suggests that the region has some areas of economic strength, including earnings growth, but also faces challenges in employment and cost of living.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-The economic data for the Riverside-San Bernardino-Ontario metropolitan area presents a mixed picture, with some indicators showing relative strength while others point to areas of concern. The unemployment rate stands at 5.9%, placing the region in the 2nd percentile, which suggests a higher unemployment rate compared to other metropolitan areas. The labor force participation rate of 60.25% is also relatively low, ranking in the 6th percentile. However, earnings growth year-over-year is robust at 7.77%, placing the region in the 78th percentile, indicating that those employed are experiencing significant wage increases.
+The Riverside-San Bernardino-Ontario metropolitan area ranks 12th in a recent economic assessment, with a weighted percentile score of 31.7 and a grade of C+, described as "Poor." The unemployment rate stands at 5.4%, placing it in the 4th percentile, which suggests a relatively high level of joblessness compared to other regions. The labor force participation rate is 60.71%, ranking in the 18th percentile, indicating a moderate level of engagement in the workforce.
 
-Housing market indicators show a complex dynamic. The housing price index has increased by 7.22% year-over-year, placing the region in the 52nd percentile, suggesting moderate appreciation in home values. Conversely, the number of building permits has declined by 18.53% year-over-year, ranking in the 30th percentile, which may reflect a slowdown in new construction activity. The days on market metric stands at 61 days, in the 32nd percentile, indicating a relatively balanced market where neither buyers nor sellers have a significant advantage.
+Earnings growth over the past year has been robust at 7.77%, placing the region in the 78th percentile, which may reflect a strengthening income environment. However, this is somewhat offset by a cost of living increase of 5.69%, in the 16th percentile, suggesting that wage gains might be eroded by rising prices. The housing market shows mixed signals, with a 7.22% increase in home prices over the year, also in the 52nd percentile, while the number of building permits has declined by 1.15% year-over-year, in the 52nd percentile, potentially indicating a slowdown in new construction activity.
 
-Overall, the weighted percentile score of 27.4 and the grade of "C" suggest that while the Riverside-San Bernardino-Ontario area is experiencing some positive economic trends, particularly in earnings growth, it faces challenges in employment and housing market dynamics.
+Overall, the data indicates a region with some areas of economic strength, particularly in earnings growth, but also facing challenges in employment and cost of living.
