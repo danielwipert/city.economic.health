@@ -1,11 +1,11 @@
 {
-  "processing_timestamp": "2026-01-19T09:41:58.962607",
-  "processing_date": "2026-01-19 09:41:58",
+  "processing_timestamp": "2026-01-26T09:41:56.094957",
+  "processing_date": "2026-01-26 09:41:56",
   "version": 2,
   "metrics_count": 11,
   "metrics_scored": 10,
   "metrics_collected_only": 1,
-  "source_data": "2026-01-19 09:41:58",
+  "source_data": "2026-01-26 09:41:55",
   "msa_averages": {
     "unemployment_rate": {
       "msa_average": 4.198,
@@ -28,7 +28,7 @@
       "metros_with_data": 50
     },
     "building_permits": {
-      "msa_average": 1308.66,
+      "msa_average": 1396.5,
       "metros_with_data": 50
     },
     "home_price_index": {
@@ -152,20 +152,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 3742.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 4474.0,
+          "latest_date": "2025-10-01",
           "series_id": "NEWY636BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 3842.0,
+          "3month_average": 4011.6666666666665,
           "yoy_change": {
-            "current": 3742.0,
-            "change": 76.0,
-            "pct_change": 2.07
+            "current": 4474.0,
+            "change": 306.0,
+            "pct_change": 7.34
           },
           "3month_avg_yoy": {
-            "current_3mo": 3842.0,
-            "change": -731.3333,
-            "pct_change": -15.99
+            "current_3mo": 4011.6667,
+            "change": -274.0,
+            "pct_change": -6.39
           }
         },
         "home_price_index": {
@@ -367,20 +367,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 2142.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 2295.0,
+          "latest_date": "2025-10-01",
           "series_id": "LOSA106BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 2229.6666666666665,
+          "3month_average": 2430.0,
           "yoy_change": {
-            "current": 2142.0,
-            "change": -116.0,
-            "pct_change": -5.14
+            "current": 2295.0,
+            "change": 285.0,
+            "pct_change": 14.18
           },
           "3month_avg_yoy": {
-            "current_3mo": 2229.6667,
-            "change": -15.0,
-            "pct_change": -0.67
+            "current_3mo": 2430.0,
+            "change": 193.0,
+            "pct_change": 8.63
           }
         },
         "home_price_index": {
@@ -582,20 +582,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1324.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1598.0,
+          "latest_date": "2025-10-01",
           "series_id": "CHIC917BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1549.3333333333333,
+          "3month_average": 1465.0,
           "yoy_change": {
-            "current": 1324.0,
-            "change": -336.0,
-            "pct_change": -20.24
+            "current": 1598.0,
+            "change": -172.0,
+            "pct_change": -9.72
           },
           "3month_avg_yoy": {
-            "current_3mo": 1549.3333,
-            "change": -112.6667,
-            "pct_change": -6.78
+            "current_3mo": 1465.0,
+            "change": -327.0,
+            "pct_change": -18.25
           }
         },
         "home_price_index": {
@@ -797,20 +797,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 5330.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 4893.0,
+          "latest_date": "2025-10-01",
           "series_id": "DALL148BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 5315.0,
+          "3month_average": 5012.666666666667,
           "yoy_change": {
-            "current": 5330.0,
-            "change": -30.0,
-            "pct_change": -0.56
+            "current": 4893.0,
+            "change": -1000.0,
+            "pct_change": -16.97
           },
           "3month_avg_yoy": {
-            "current_3mo": 5315.0,
-            "change": -435.6667,
-            "pct_change": -7.58
+            "current_3mo": 5012.6667,
+            "change": -541.0,
+            "pct_change": -9.74
           }
         },
         "home_price_index": {
@@ -1012,20 +1012,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 5120.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 5480.0,
+          "latest_date": "2025-10-01",
           "series_id": "HOUS448BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 5028.0,
+          "3month_average": 4931.0,
           "yoy_change": {
-            "current": 5120.0,
-            "change": 594.0,
-            "pct_change": 13.12
+            "current": 5480.0,
+            "change": -1277.0,
+            "pct_change": -18.9
           },
           "3month_avg_yoy": {
-            "current_3mo": 5028.0,
-            "change": -254.0,
-            "pct_change": -4.81
+            "current_3mo": 4931.0,
+            "change": -857.3333,
+            "pct_change": -14.81
           }
         },
         "home_price_index": {
@@ -1227,20 +1227,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1507.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1179.0,
+          "latest_date": "2025-10-01",
           "series_id": "MIAM112BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1783.3333333333333,
+          "3month_average": 1208.3333333333333,
           "yoy_change": {
-            "current": 1507.0,
-            "change": 798.0,
-            "pct_change": 112.55
+            "current": 1179.0,
+            "change": -69.0,
+            "pct_change": -5.53
           },
           "3month_avg_yoy": {
-            "current_3mo": 1783.3333,
-            "change": 618.0,
-            "pct_change": 53.03
+            "current_3mo": 1208.3333,
+            "change": 83.6667,
+            "pct_change": 7.44
           }
         },
         "home_price_index": {
@@ -1442,20 +1442,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 993.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1064.0,
+          "latest_date": "2025-10-01",
           "series_id": "WASH911BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1618.6666666666667,
+          "3month_average": 1422.3333333333333,
           "yoy_change": {
-            "current": 993.0,
-            "change": 93.0,
-            "pct_change": 10.33
+            "current": 1064.0,
+            "change": -737.0,
+            "pct_change": -40.92
           },
           "3month_avg_yoy": {
-            "current_3mo": 1618.6667,
-            "change": -54.6667,
-            "pct_change": -3.27
+            "current_3mo": 1422.3333,
+            "change": -190.3333,
+            "pct_change": -11.8
           }
         },
         "home_price_index": {
@@ -1657,20 +1657,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 3279.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 3054.0,
+          "latest_date": "2025-10-01",
           "series_id": "ATLA013BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 2782.6666666666665,
+          "3month_average": 2841.6666666666665,
           "yoy_change": {
-            "current": 3279.0,
-            "change": 487.0,
-            "pct_change": 17.44
+            "current": 3054.0,
+            "change": 420.0,
+            "pct_change": 15.95
           },
           "3month_avg_yoy": {
-            "current_3mo": 2782.6667,
-            "change": -364.6667,
-            "pct_change": -11.59
+            "current_3mo": 2841.6667,
+            "change": -201.0,
+            "pct_change": -6.61
           }
         },
         "home_price_index": {
@@ -1872,20 +1872,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1240.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1231.0,
+          "latest_date": "2025-10-01",
           "series_id": "PHIL942BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1006.3333333333334,
+          "3month_average": 1104.3333333333333,
           "yoy_change": {
-            "current": 1240.0,
-            "change": 231.0,
-            "pct_change": 22.89
+            "current": 1231.0,
+            "change": 20.0,
+            "pct_change": 1.65
           },
           "3month_avg_yoy": {
-            "current_3mo": 1006.3333,
-            "change": 2.0,
-            "pct_change": 0.2
+            "current_3mo": 1104.3333,
+            "change": 17.0,
+            "pct_change": 1.56
           }
         },
         "home_price_index": {
@@ -2087,20 +2087,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 2570.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 3291.0,
+          "latest_date": "2025-10-01",
           "series_id": "PHOE004BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 2678.3333333333335,
+          "3month_average": 2556.6666666666665,
           "yoy_change": {
-            "current": 2570.0,
-            "change": -884.0,
-            "pct_change": -25.59
+            "current": 3291.0,
+            "change": -410.0,
+            "pct_change": -11.08
           },
           "3month_avg_yoy": {
-            "current_3mo": 2678.3333,
-            "change": -871.3333,
-            "pct_change": -24.55
+            "current_3mo": 2556.6667,
+            "change": -1081.3333,
+            "pct_change": -29.72
           }
         },
         "home_price_index": {
@@ -2310,20 +2310,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 739.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 961.0,
+          "latest_date": "2025-10-01",
           "series_id": "BOST625BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 828.0,
+          "3month_average": 841.3333333333334,
           "yoy_change": {
-            "current": 739.0,
-            "change": 31.0,
-            "pct_change": 4.38
+            "current": 961.0,
+            "change": 309.0,
+            "pct_change": 47.39
           },
           "3month_avg_yoy": {
-            "current_3mo": 828.0,
-            "change": -71.0,
-            "pct_change": -7.9
+            "current_3mo": 841.3333,
+            "change": 31.0,
+            "pct_change": 3.83
           }
         },
         "home_price_index": {
@@ -2525,20 +2525,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1389.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 863.0,
+          "latest_date": "2025-10-01",
           "series_id": "RIVE106BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1170.6666666666667,
+          "3month_average": 1122.6666666666667,
           "yoy_change": {
-            "current": 1389.0,
-            "change": 326.0,
-            "pct_change": 30.67
+            "current": 863.0,
+            "change": -672.0,
+            "pct_change": -43.78
           },
           "3month_avg_yoy": {
-            "current_3mo": 1170.6667,
-            "change": -13.6667,
-            "pct_change": -1.15
+            "current_3mo": 1122.6667,
+            "change": -200.3333,
+            "pct_change": -15.14
           }
         },
         "home_price_index": {
@@ -2740,20 +2740,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 626.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 790.0,
+          "latest_date": "2025-10-01",
           "series_id": "SANF806BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 426.3333333333333,
+          "3month_average": 590.0,
           "yoy_change": {
-            "current": 626.0,
-            "change": -90.0,
-            "pct_change": -12.57
+            "current": 790.0,
+            "change": 420.0,
+            "pct_change": 113.51
           },
           "3month_avg_yoy": {
-            "current_3mo": 426.3333,
-            "change": -358.3333,
-            "pct_change": -45.67
+            "current_3mo": 590.0,
+            "change": 57.6667,
+            "pct_change": 10.83
           }
         },
         "home_price_index": {
@@ -2955,20 +2955,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1037.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 682.0,
+          "latest_date": "2025-10-01",
           "series_id": "DETR826BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1009.6666666666666,
+          "3month_average": 929.6666666666666,
           "yoy_change": {
-            "current": 1037.0,
-            "change": 282.0,
-            "pct_change": 37.35
+            "current": 682.0,
+            "change": -70.0,
+            "pct_change": -9.31
           },
           "3month_avg_yoy": {
-            "current_3mo": 1009.6667,
-            "change": 279.3333,
-            "pct_change": 38.25
+            "current_3mo": 929.6667,
+            "change": 122.6667,
+            "pct_change": 15.2
           }
         },
         "home_price_index": {
@@ -3170,20 +3170,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1425.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1783.0,
+          "latest_date": "2025-10-01",
           "series_id": "SEAT653BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1327.6666666666667,
+          "3month_average": 1586.0,
           "yoy_change": {
-            "current": 1425.0,
-            "change": -88.0,
-            "pct_change": -5.82
+            "current": 1783.0,
+            "change": 19.0,
+            "pct_change": 1.08
           },
           "3month_avg_yoy": {
-            "current_3mo": 1327.6667,
-            "change": 34.3333,
-            "pct_change": 2.65
+            "current_3mo": 1586.0,
+            "change": 140.6667,
+            "pct_change": 9.73
           }
         },
         "home_price_index": {
@@ -3385,20 +3385,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1149.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1242.0,
+          "latest_date": "2025-10-01",
           "series_id": "MINN427BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1364.0,
+          "3month_average": 1364.3333333333333,
           "yoy_change": {
-            "current": 1149.0,
-            "change": -350.0,
-            "pct_change": -23.35
+            "current": 1242.0,
+            "change": -295.0,
+            "pct_change": -19.19
           },
           "3month_avg_yoy": {
-            "current_3mo": 1364.0,
-            "change": -2.3333,
-            "pct_change": -0.17
+            "current_3mo": 1364.3333,
+            "change": -113.3333,
+            "pct_change": -7.67
           }
         },
         "home_price_index": {
@@ -3600,20 +3600,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1580.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 2427.0,
+          "latest_date": "2025-10-01",
           "series_id": "TAMP312BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 2078.3333333333335,
+          "3month_average": 2305.0,
           "yoy_change": {
-            "current": 1580.0,
-            "change": 587.0,
-            "pct_change": 59.11
+            "current": 2427.0,
+            "change": 1369.0,
+            "pct_change": 129.4
           },
           "3month_avg_yoy": {
-            "current_3mo": 2078.3333,
-            "change": 285.3333,
-            "pct_change": 15.91
+            "current_3mo": 2305.0,
+            "change": 960.0,
+            "pct_change": 71.38
           }
         },
         "home_price_index": {
@@ -3815,20 +3815,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1272.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 935.0,
+          "latest_date": "2025-10-01",
           "series_id": "SAND706BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1042.6666666666667,
+          "3month_average": 976.0,
           "yoy_change": {
-            "current": 1272.0,
-            "change": 138.0,
-            "pct_change": 12.17
+            "current": 935.0,
+            "change": -630.0,
+            "pct_change": -40.26
           },
           "3month_avg_yoy": {
-            "current_3mo": 1042.6667,
-            "change": 91.0,
-            "pct_change": 9.56
+            "current_3mo": 976.0,
+            "change": -340.6667,
+            "pct_change": -25.87
           }
         },
         "home_price_index": {
@@ -4030,20 +4030,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1377.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1408.0,
+          "latest_date": "2025-10-01",
           "series_id": "DENV708BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1227.3333333333333,
+          "3month_average": 1383.0,
           "yoy_change": {
-            "current": 1377.0,
-            "change": -219.0,
-            "pct_change": -13.72
+            "current": 1408.0,
+            "change": 173.0,
+            "pct_change": 14.01
           },
           "3month_avg_yoy": {
-            "current_3mo": 1227.3333,
-            "change": 13.0,
-            "pct_change": 1.07
+            "current_3mo": 1383.0,
+            "change": 180.3333,
+            "pct_change": 14.99
           }
         },
         "home_price_index": {
@@ -4245,20 +4245,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 2024.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 2471.0,
+          "latest_date": "2025-10-01",
           "series_id": "ORLA712BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1918.3333333333333,
+          "3month_average": 2048.0,
           "yoy_change": {
-            "current": 2024.0,
-            "change": 30.0,
-            "pct_change": 1.5
+            "current": 2471.0,
+            "change": 830.0,
+            "pct_change": 50.58
           },
           "3month_avg_yoy": {
-            "current_3mo": 1918.3333,
-            "change": -38.3333,
-            "pct_change": -1.96
+            "current_3mo": 2048.0,
+            "change": 179.3333,
+            "pct_change": 9.6
           }
         },
         "home_price_index": {
@@ -4460,20 +4460,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1586.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1815.0,
+          "latest_date": "2025-10-01",
           "series_id": "CHAR737BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1579.0,
+          "3month_average": 1627.3333333333333,
           "yoy_change": {
-            "current": 1586.0,
-            "change": -646.0,
-            "pct_change": -28.94
+            "current": 1815.0,
+            "change": 70.0,
+            "pct_change": 4.01
           },
           "3month_avg_yoy": {
-            "current_3mo": 1579.0,
-            "change": -655.3333,
-            "pct_change": -29.33
+            "current_3mo": 1627.3333,
+            "change": -480.6667,
+            "pct_change": -22.8
           }
         },
         "home_price_index": {
@@ -4675,20 +4675,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 316.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 620.0,
+          "latest_date": "2025-10-01",
           "series_id": "BALT524BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 361.0,
+          "3month_average": 438.0,
           "yoy_change": {
-            "current": 316.0,
-            "change": -546.0,
-            "pct_change": -63.34
+            "current": 620.0,
+            "change": 97.0,
+            "pct_change": 18.55
           },
           "3month_avg_yoy": {
-            "current_3mo": 361.0,
-            "change": -267.6667,
-            "pct_change": -42.58
+            "current_3mo": 438.0,
+            "change": -167.3333,
+            "pct_change": -27.64
           }
         },
         "home_price_index": {
@@ -4890,20 +4890,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 534.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 511.0,
+          "latest_date": "2025-10-01",
           "series_id": "STLBPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 546.6666666666666,
+          "3month_average": 550.6666666666666,
           "yoy_change": {
-            "current": 534.0,
-            "change": 35.0,
-            "pct_change": 7.01
+            "current": 511.0,
+            "change": -147.0,
+            "pct_change": -22.34
           },
           "3month_avg_yoy": {
-            "current_3mo": 546.6667,
-            "change": -78.6667,
-            "pct_change": -12.58
+            "current_3mo": 550.6667,
+            "change": -45.6667,
+            "pct_change": -7.66
           }
         },
         "home_price_index": {
@@ -5105,20 +5105,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 643.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 582.0,
+          "latest_date": "2025-10-01",
           "series_id": "SANA748BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 773.6666666666666,
+          "3month_average": 629.3333333333334,
           "yoy_change": {
-            "current": 643.0,
-            "change": -215.0,
-            "pct_change": -25.06
+            "current": 582.0,
+            "change": -821.0,
+            "pct_change": -58.52
           },
           "3month_avg_yoy": {
-            "current_3mo": 773.6667,
-            "change": -424.0,
-            "pct_change": -35.4
+            "current_3mo": 629.3333,
+            "change": -605.6667,
+            "pct_change": -49.04
           }
         },
         "home_price_index": {
@@ -5320,20 +5320,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 2623.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 2558.0,
+          "latest_date": "2025-10-01",
           "series_id": "AUST448BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 2250.0,
+          "3month_average": 2130.3333333333335,
           "yoy_change": {
-            "current": 2623.0,
-            "change": 387.0,
-            "pct_change": 17.31
+            "current": 2558.0,
+            "change": -138.0,
+            "pct_change": -5.12
           },
           "3month_avg_yoy": {
-            "current_3mo": 2250.0,
-            "change": -667.3333,
-            "pct_change": -22.87
+            "current_3mo": 2130.3333,
+            "change": -517.3333,
+            "pct_change": -19.54
           }
         },
         "home_price_index": {
@@ -5535,20 +5535,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 543.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 666.0,
+          "latest_date": "2025-10-01",
           "series_id": "PORT941BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 570.6666666666666,
+          "3month_average": 593.0,
           "yoy_change": {
-            "current": 543.0,
-            "change": -52.0,
-            "pct_change": -8.74
+            "current": 666.0,
+            "change": -67.0,
+            "pct_change": -9.14
           },
           "3month_avg_yoy": {
-            "current_3mo": 570.6667,
-            "change": -156.0,
-            "pct_change": -21.47
+            "current_3mo": 593.0,
+            "change": -122.3333,
+            "pct_change": -17.1
           }
         },
         "home_price_index": {
@@ -5750,20 +5750,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 611.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1136.0,
+          "latest_date": "2025-10-01",
           "series_id": "SACR906BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 740.3333333333334,
+          "3month_average": 867.3333333333334,
           "yoy_change": {
-            "current": 611.0,
-            "change": 40.0,
-            "pct_change": 7.01
+            "current": 1136.0,
+            "change": 374.0,
+            "pct_change": 49.08
           },
           "3month_avg_yoy": {
-            "current_3mo": 740.3333,
-            "change": -182.3333,
-            "pct_change": -19.76
+            "current_3mo": 867.3333,
+            "change": 139.6667,
+            "pct_change": 19.19
           }
         },
         "home_price_index": {
@@ -5965,20 +5965,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 405.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 420.0,
+          "latest_date": "2025-10-01",
           "series_id": "PITT342BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 413.6666666666667,
+          "3month_average": 409.6666666666667,
           "yoy_change": {
-            "current": 405.0,
-            "change": -44.0,
-            "pct_change": -9.8
+            "current": 420.0,
+            "change": -61.0,
+            "pct_change": -12.68
           },
           "3month_avg_yoy": {
-            "current_3mo": 413.6667,
-            "change": -112.3333,
-            "pct_change": -21.36
+            "current_3mo": 409.6667,
+            "change": -94.3333,
+            "pct_change": -18.72
           }
         },
         "home_price_index": {
@@ -6180,20 +6180,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 894.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1886.0,
+          "latest_date": "2025-10-01",
           "series_id": "LASV832BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 782.3333333333334,
+          "3month_average": 1128.6666666666667,
           "yoy_change": {
-            "current": 894.0,
-            "change": 139.0,
-            "pct_change": 18.41
+            "current": 1886.0,
+            "change": 1174.0,
+            "pct_change": 164.89
           },
           "3month_avg_yoy": {
-            "current_3mo": 782.3333,
-            "change": -255.6667,
-            "pct_change": -24.63
+            "current_3mo": 1128.6667,
+            "change": 268.6667,
+            "pct_change": 31.24
           }
         },
         "home_price_index": {
@@ -6395,20 +6395,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1204.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 498.0,
+          "latest_date": "2025-10-01",
           "series_id": "CINC139BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 704.3333333333334,
+          "3month_average": 703.0,
           "yoy_change": {
-            "current": 1204.0,
-            "change": 676.0,
-            "pct_change": 128.03
+            "current": 498.0,
+            "change": -245.0,
+            "pct_change": -32.97
           },
           "3month_avg_yoy": {
-            "current_3mo": 704.3333,
-            "change": 193.6667,
-            "pct_change": 37.92
+            "current_3mo": 703.0,
+            "change": 105.6667,
+            "pct_change": 17.69
           }
         },
         "home_price_index": {
@@ -6610,20 +6610,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 511.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 727.0,
+          "latest_date": "2025-10-01",
           "series_id": "KANS129BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 718.3333333333334,
+          "3month_average": 727.0,
           "yoy_change": {
-            "current": 511.0,
-            "change": 19.0,
-            "pct_change": 3.86
+            "current": 727.0,
+            "change": -562.0,
+            "pct_change": -43.6
           },
           "3month_avg_yoy": {
-            "current_3mo": 718.3333,
-            "change": -54.6667,
-            "pct_change": -7.07
+            "current_3mo": 727.0,
+            "change": -311.6667,
+            "pct_change": -30.01
           }
         },
         "home_price_index": {
@@ -6825,20 +6825,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 974.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1389.0,
+          "latest_date": "2025-10-01",
           "series_id": "COLU139BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1170.6666666666667,
+          "3month_average": 1149.6666666666667,
           "yoy_change": {
-            "current": 974.0,
-            "change": -194.0,
-            "pct_change": -16.61
+            "current": 1389.0,
+            "change": 302.0,
+            "pct_change": 27.78
           },
           "3month_avg_yoy": {
-            "current_3mo": 1170.6667,
-            "change": 53.0,
-            "pct_change": 4.74
+            "current_3mo": 1149.6667,
+            "change": 31.6667,
+            "pct_change": 2.83
           }
         },
         "home_price_index": {
@@ -7040,20 +7040,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1046.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1358.0,
+          "latest_date": "2025-10-01",
           "series_id": "INDI918BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1034.6666666666667,
+          "3month_average": 1122.3333333333333,
           "yoy_change": {
-            "current": 1046.0,
-            "change": -87.0,
-            "pct_change": -7.68
+            "current": 1358.0,
+            "change": 42.0,
+            "pct_change": 3.19
           },
           "3month_avg_yoy": {
-            "current_3mo": 1034.6667,
-            "change": -49.3333,
-            "pct_change": -4.55
+            "current_3mo": 1122.3333,
+            "change": -70.0,
+            "pct_change": -5.87
           }
         },
         "home_price_index": {
@@ -7478,20 +7478,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1587.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1445.0,
+          "latest_date": "2025-10-01",
           "series_id": "NASH947BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1698.0,
+          "3month_average": 1480.0,
           "yoy_change": {
-            "current": 1587.0,
-            "change": -618.0,
-            "pct_change": -28.03
+            "current": 1445.0,
+            "change": 325.0,
+            "pct_change": 29.02
           },
           "3month_avg_yoy": {
-            "current_3mo": 1698.0,
-            "change": -50.3333,
-            "pct_change": -2.88
+            "current_3mo": 1480.0,
+            "change": -110.6667,
+            "pct_change": -6.96
           }
         },
         "home_price_index": {
@@ -7693,20 +7693,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 546.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 680.0,
+          "latest_date": "2025-10-01",
           "series_id": "SANJ906BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 801.0,
+          "3month_average": 820.0,
           "yoy_change": {
-            "current": 546.0,
-            "change": 346.0,
-            "pct_change": 173.0
+            "current": 680.0,
+            "change": 320.0,
+            "pct_change": 88.89
           },
           "3month_avg_yoy": {
-            "current_3mo": 801.0,
-            "change": 589.3333,
-            "pct_change": 278.43
+            "current_3mo": 820.0,
+            "change": 557.0,
+            "pct_change": 211.79
           }
         },
         "home_price_index": {
@@ -7908,20 +7908,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 362.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 258.0,
+          "latest_date": "2025-10-01",
           "series_id": "VIRG251BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 389.6666666666667,
+          "3month_average": 299.6666666666667,
           "yoy_change": {
-            "current": 362.0,
-            "change": 31.0,
-            "pct_change": 9.37
+            "current": 258.0,
+            "change": -63.0,
+            "pct_change": -19.63
           },
           "3month_avg_yoy": {
-            "current_3mo": 389.6667,
-            "change": 30.3333,
-            "pct_change": 8.44
+            "current_3mo": 299.6667,
+            "change": -24.6667,
+            "pct_change": -7.61
           }
         },
         "home_price_index": {
@@ -8123,20 +8123,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1140.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1124.0,
+          "latest_date": "2025-10-01",
           "series_id": "JACK212BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1280.0,
+          "3month_average": 1202.3333333333333,
           "yoy_change": {
-            "current": 1140.0,
-            "change": 67.0,
-            "pct_change": 6.24
+            "current": 1124.0,
+            "change": -313.0,
+            "pct_change": -21.78
           },
           "3month_avg_yoy": {
-            "current_3mo": 1280.0,
-            "change": 37.0,
-            "pct_change": 2.98
+            "current_3mo": 1202.3333,
+            "change": -31.6667,
+            "pct_change": -2.57
           }
         },
         "home_price_index": {
@@ -8561,20 +8561,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 212.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 244.0,
+          "latest_date": "2025-10-01",
           "series_id": "MILW355BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 293.3333333333333,
+          "3month_average": 229.66666666666666,
           "yoy_change": {
-            "current": 212.0,
-            "change": 8.0,
-            "pct_change": 3.92
+            "current": 244.0,
+            "change": -139.0,
+            "pct_change": -36.29
           },
           "3month_avg_yoy": {
-            "current_3mo": 293.3333,
-            "change": -21.6667,
-            "pct_change": -6.88
+            "current_3mo": 229.6667,
+            "change": -81.3333,
+            "pct_change": -26.15
           }
         },
         "home_price_index": {
@@ -8776,20 +8776,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 1190.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1159.0,
+          "latest_date": "2025-10-01",
           "series_id": "RALE537BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1683.0,
+          "3month_average": 1451.6666666666667,
           "yoy_change": {
-            "current": 1190.0,
-            "change": -257.0,
-            "pct_change": -17.76
+            "current": 1159.0,
+            "change": -295.0,
+            "pct_change": -20.29
           },
           "3month_avg_yoy": {
-            "current_3mo": 1683.0,
-            "change": -522.3333,
-            "pct_change": -23.69
+            "current_3mo": 1451.6667,
+            "change": -491.3333,
+            "pct_change": -25.29
           }
         },
         "home_price_index": {
@@ -8991,20 +8991,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 713.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 674.0,
+          "latest_date": "2025-10-01",
           "series_id": "OKLA440BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 670.0,
+          "3month_average": 697.0,
           "yoy_change": {
-            "current": 713.0,
-            "change": 199.0,
-            "pct_change": 38.72
+            "current": 674.0,
+            "change": 93.0,
+            "pct_change": 16.01
           },
           "3month_avg_yoy": {
-            "current_3mo": 670.0,
-            "change": 109.6667,
-            "pct_change": 19.57
+            "current_3mo": 697.0,
+            "change": 134.6667,
+            "pct_change": 23.95
           }
         },
         "home_price_index": {
@@ -9206,20 +9206,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 644.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 352.0,
+          "latest_date": "2025-10-01",
           "series_id": "LOIBPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 676.3333333333334,
+          "3month_average": 590.0,
           "yoy_change": {
-            "current": 644.0,
-            "change": 28.0,
-            "pct_change": 4.55
+            "current": 352.0,
+            "change": -50.0,
+            "pct_change": -12.44
           },
           "3month_avg_yoy": {
-            "current_3mo": 676.3333,
-            "change": 78.3333,
-            "pct_change": 13.1
+            "current_3mo": 590.0,
+            "change": 59.6667,
+            "pct_change": 11.25
           }
         },
         "home_price_index": {
@@ -9421,20 +9421,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 417.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 1221.0,
+          "latest_date": "2025-10-01",
           "series_id": "RICH051BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 419.3333333333333,
+          "3month_average": 671.3333333333334,
           "yoy_change": {
-            "current": 417.0,
-            "change": -44.0,
-            "pct_change": -9.54
+            "current": 1221.0,
+            "change": 553.0,
+            "pct_change": 82.78
           },
           "3month_avg_yoy": {
-            "current_3mo": 419.3333,
-            "change": -188.0,
-            "pct_change": -30.95
+            "current_3mo": 671.3333,
+            "change": 92.6667,
+            "pct_change": 16.01
           }
         },
         "home_price_index": {
@@ -9636,20 +9636,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 301.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 249.0,
+          "latest_date": "2025-10-01",
           "series_id": "MPHBPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 272.0,
+          "3month_average": 262.3333333333333,
           "yoy_change": {
-            "current": 301.0,
-            "change": 68.0,
-            "pct_change": 29.18
+            "current": 249.0,
+            "change": -31.0,
+            "pct_change": -11.07
           },
           "3month_avg_yoy": {
-            "current_3mo": 272.0,
-            "change": -130.0,
-            "pct_change": -32.34
+            "current_3mo": 262.3333,
+            "change": -126.0,
+            "pct_change": -32.45
           }
         },
         "home_price_index": {
@@ -9851,20 +9851,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 586.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 542.0,
+          "latest_date": "2025-10-01",
           "series_id": "SALT649BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 641.6666666666666,
+          "3month_average": 621.3333333333334,
           "yoy_change": {
-            "current": 586.0,
-            "change": 4.0,
-            "pct_change": 0.69
+            "current": 542.0,
+            "change": -135.0,
+            "pct_change": -19.94
           },
           "3month_avg_yoy": {
-            "current_3mo": 641.6667,
-            "change": 165.3333,
-            "pct_change": 34.71
+            "current_3mo": 621.3333,
+            "change": 54.6667,
+            "pct_change": 9.65
           }
         },
         "home_price_index": {
@@ -10066,20 +10066,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 592.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 279.0,
+          "latest_date": "2025-10-01",
           "series_id": "BIRM801BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 402.3333333333333,
+          "3month_average": 389.6666666666667,
           "yoy_change": {
-            "current": 592.0,
-            "change": 321.0,
-            "pct_change": 118.45
+            "current": 279.0,
+            "change": -36.0,
+            "pct_change": -11.43
           },
           "3month_avg_yoy": {
-            "current_3mo": 402.3333,
-            "change": 113.0,
-            "pct_change": 39.06
+            "current_3mo": 389.6667,
+            "change": 95.0,
+            "pct_change": 32.24
           }
         },
         "home_price_index": {
@@ -10496,20 +10496,20 @@
           }
         },
         "building_permits": {
-          "latest_value": 534.0,
-          "latest_date": "2025-09-01",
+          "latest_value": 457.0,
+          "latest_date": "2025-10-01",
           "series_id": "GRAN326BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 391.6666666666667,
+          "3month_average": 427.6666666666667,
           "yoy_change": {
-            "current": 534.0,
-            "change": 163.0,
-            "pct_change": 43.94
+            "current": 457.0,
+            "change": 44.0,
+            "pct_change": 10.65
           },
           "3month_avg_yoy": {
-            "current_3mo": 391.6667,
-            "change": 51.6667,
-            "pct_change": 15.2
+            "current_3mo": 427.6667,
+            "change": 71.0,
+            "pct_change": 19.91
           }
         },
         "home_price_index": {

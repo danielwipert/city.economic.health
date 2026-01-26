@@ -2,20 +2,18 @@
 
 ## Polished, cautious FT-style column
 
-The economic data for the Nashville-Davidson–Murfreesboro–Franklin metropolitan area presents a mixed picture across various indicators. The unemployment rate is 3.2%, placing it in the 90th percentile nationally, indicating a strong labour market. The labour force participation rate is 76.17%, ranking in the 98th percentile, suggesting high engagement in the workforce.
+The Nashville-Davidson–Murfreesboro–Franklin metropolitan area's economic data shows a mixed performance across various indicators. The unemployment rate is 3.2%, placing it in the 90th percentile nationally, indicating a strong labor market. The labor force participation rate is 76.17%, ranking in the 98th percentile, suggesting high engagement among the working-age population. However, earnings growth year-over-year is 4.05%, which is in the 40th percentile, possibly reflecting moderate wage pressures or a stabilizing trend in income growth.
 
-However, earnings growth year-over-year is 4.05%, placing it in the 40th percentile, indicating moderate wage increases relative to other regions. Housing market indicators show a more nuanced picture. The home price index has increased by 7.88% year-over-year, placing it in the 54th percentile, which may reflect steady demand for housing.
+Housing market indicators present a more complex picture. The housing price index has increased by 7.88% year-over-year, indicating continued appreciation in property values, albeit at a pace that is in the 54th percentile. Building permits have declined by 6.96% year-over-year, which may suggest a slowdown in new construction activity. The median days on market for properties is 71 days, a figure that is within a range suggesting a balanced buyer-seller environment.
 
-In contrast, building permits have declined by 2.88% year-over-year, ranking in the 48th percentile, potentially indicating a slowdown in new construction activity. The days on market metric stands at 71 days, in the 28th percentile, suggesting that properties are taking longer to sell compared to many other markets.
-
-The data suggests that while Nashville's labour market remains strong, there are signs of moderation in both wage growth and housing market dynamics.
+The data suggests that Nashville's economy is performing above average, with strong labor market metrics offset by more moderate indicators in earnings growth and housing construction.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-The economic data for the Nashville-Davidson–Murfreesboro–Franklin metropolitan area suggests a mixed but generally positive performance across various indicators. The unemployment rate stands at 3.2%, placing it in the 90th percentile nationally, which indicates a robust labor market. The labor force participation rate of 76.17% further supports this, ranking in the 98th percentile, suggesting high engagement in the workforce. However, earnings growth year-over-year is at 4.05%, placing it in the 40th percentile, indicating moderate wage increases relative to other regions.
+The economic data for the Nashville-Davidson–Murfreesboro–Franklin metropolitan area suggests a mixed but generally positive performance across various indicators. The unemployment rate stands at 3.2%, placing it in the 90th percentile nationally, which indicates a robust labor market. The labor force participation rate of 76.17% further supports this, ranking in the 98th percentile, suggesting high engagement among the working-age population. However, earnings growth year-over-year is at 4.05%, placing it in the 40th percentile, which may reflect moderate wage pressures or a stabilizing trend in income growth.
 
-Housing market indicators present a more nuanced picture. The home price index has increased by 7.88% year-over-year, placing it in the 54th percentile, which may reflect steady demand for housing. In contrast, building permits have declined by 2.88% year-over-year, ranking in the 48th percentile, potentially indicating a slowdown in new construction activity. The days on market metric stands at 71 days, in the 28th percentile, suggesting that properties are taking longer to sell compared to many other markets.
+Housing market indicators show a more nuanced picture. The housing price index has increased by 7.88% year-over-year, indicating continued appreciation in property values, albeit at a pace that is in the 54th percentile, suggesting a moderate rate of growth relative to other markets. In contrast, building permits have declined by 6.96% year-over-year, which may reflect a slowdown in new construction activity. The median days on market for properties is 71 days, which, while not indicative of a particularly fast-moving market, is still within a range that suggests a balanced buyer-seller environment.
 
-Overall, the data suggests that while Nashville's labor market remains strong, there are signs of moderation in both wage growth and housing market dynamics.
+Overall, the data suggests that Nashville's economy is performing above average, with strong labor market metrics offset by more moderate indicators in earnings growth and housing construction.
