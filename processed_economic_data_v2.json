@@ -1,19 +1,19 @@
 {
-  "processing_timestamp": "2026-02-09T10:08:53.432709",
-  "processing_date": "2026-02-09 10:08:53",
+  "processing_timestamp": "2026-02-16T10:00:15.474082",
+  "processing_date": "2026-02-16 10:00:15",
   "version": 2,
   "metrics_count": 11,
   "metrics_scored": 10,
   "metrics_collected_only": 1,
-  "source_data": "2026-02-09 10:08:53",
+  "source_data": "2026-02-16 10:00:15",
   "msa_averages": {
     "unemployment_rate": {
       "msa_average": 3.926,
       "metros_with_data": 50
     },
     "civilian_labor_force": {
-      "msa_average": 64.4095,
-      "metros_with_data": 50
+      "msa_average": 64.4061,
+      "metros_with_data": 49
     },
     "hourly_earnings": {
       "msa_average": 37.1856,
@@ -1344,7 +1344,7 @@
       "metro_name": "Washington-Arlington-Alexandria",
       "primary_city": "Washington DC",
       "civilian_population": 5175994,
-      "metrics_processed": 13,
+      "metrics_processed": 12,
       "data": {
         "unemployment_rate": {
           "latest_value": 3.8,
@@ -1372,23 +1372,6 @@
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
-        },
-        "all_employees": {
-          "latest_value": 3369.1,
-          "latest_date": "2025-12-01",
-          "series_id": "WASH911NAN",
-          "metric_name": "All Employees",
-          "3month_average": 3372.8333333333335,
-          "yoy_change": {
-            "current": 3369.1,
-            "change": -55.9,
-            "pct_change": -1.63
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 3372.8333,
-            "change": -50.4,
-            "pct_change": -1.47
-          }
         },
         "hourly_earnings": {
           "latest_value": 44.25,
@@ -1559,7 +1542,7 @@
       "metro_name": "Atlanta-Sandy Springs-Roswell",
       "primary_city": "Atlanta",
       "civilian_population": 5131103,
-      "metrics_processed": 13,
+      "metrics_processed": 12,
       "data": {
         "unemployment_rate": {
           "latest_value": 3.3,
@@ -1573,20 +1556,6 @@
             "pct_change": 0.0
           },
           "3month_avg_yoy": null
-        },
-        "civilian_labor_force": {
-          "latest_value": 64.5739,
-          "latest_date": "2025-12-01",
-          "series_id": "ATLA013LFN",
-          "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.4754,
-          "yoy_change": {
-            "current": 64.5739,
-            "change": 0.3245,
-            "pct_change": 0.51
-          },
-          "3month_avg_yoy": null,
-          "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
         },
         "all_employees": {
           "latest_value": 3152.0,
