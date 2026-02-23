@@ -2,18 +2,18 @@
 
 ## Polished, cautious FT-style column
 
-The economic data for the Charlotte-Concord-Gastonia metropolitan area presents a mixed picture. The unemployment rate stands at 3.6%, in line with national averages, and the labor force participation rate of 65.43% suggests a relatively engaged workforce. However, earnings have declined year-over-year by 1.52%, indicating a softening in the job market's financial rewards. Inflation, as measured by the cost of living index, has increased by 5.19%.
+The economic data for the Charlotte-Concord-Gastonia metropolitan area presents a mixed picture. The unemployment rate is 3.6%, in line with national averages, and the labor force participation rate is 65.43%, placing it in the 66th percentile among comparable regions. However, earnings growth has declined by 1.52% over the past year, and weekly hours worked have decreased to 33.5 hours.
 
-Housing market indicators show a nuanced picture. The year-over-year change in housing prices has been modest, increasing by 0.34%, while the number of building permits has dropped by 22.8%, suggesting a slowdown in new construction activity. The days on market for homes have risen to 78 days, higher than historical averages. The overall weighted percentile score of 37.8 places Charlotte in the lower half of metropolitan areas, with a grade of C+, described as "Poor" based on the provided grading system.
+In the housing sector, annual home price growth has been modest at 0.34%, while the number of building permits has fallen by 22.8% year-over-year. The days-on-market metric has risen to 78 days, indicating a slower pace of sales. The weighted percentile score of 37.8 and corresponding grade of C+ suggest that Charlotte's economic performance is below average relative to other metropolitan areas.
 
-The data points suggest a region with both strengths and challenges, with no clear trend emerging that would suggest a definitive direction for the local economy.
+The data highlights both areas of strength and emerging challenges in Charlotte's economy.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-The economic data for the Charlotte-Concord-Gastonia metropolitan area reveals a mixed picture, with some indicators showing resilience while others point to areas of concern. The unemployment rate stands at 3.6%, which is in line with national averages, and the labor force participation rate of 65.43% suggests a relatively engaged workforce. However, earnings have declined year-over-year by 1.52%, indicating a potential softening in the job market's financial rewards. Inflation, as measured by the cost of living index, has increased by 5.19%, which may be placing additional pressure on household budgets.
+The economic data for the Charlotte-Concord-Gastonia metropolitan area reveals a mixed picture, with some indicators showing resilience while others point to challenges. The unemployment rate stands at 3.6%, which is in line with national averages, and the labor force participation rate is relatively robust at 65.43%, placing it in the 66th percentile among comparable regions. However, earnings growth has been negative over the past year, declining by 1.52%, and weekly hours worked have also decreased slightly to 33.5 hours, suggesting a moderation in labor market conditions.
 
-Housing market indicators present a more nuanced story. The year-over-year change in housing prices has been modest, increasing by only 0.34%, while the number of building permits has dropped significantly by 22.8%, suggesting a slowdown in new construction activity. The days on market for homes have risen to 78 days, which is higher than historical averages and may reflect a cooling in buyer demand. The overall weighted percentile score of 37.8 places Charlotte in the lower half of metropolitan areas, with a grade of C+, described as "Poor" based on the provided grading system.
+In the housing sector, the annual change in home prices has been modest, increasing by only 0.34%, while the number of building permits has fallen sharply by 22.8% year-over-year. This decline in permits may reflect a slowdown in construction activity or a shift in demand dynamics. Additionally, the days-on-market metric has risen to 78 days, indicating a less brisk pace of sales compared to previous periods. The overall weighted percentile score of 37.8 and the corresponding grade of C+ suggest that Charlotte's economic performance is below average relative to other metropolitan areas, but not in a state of crisis.
 
-These data points indicate a region that is experiencing both strengths and challenges, with no clear trend emerging that would suggest a definitive direction for the local economy.
+These data points indicate a cautious outlook for Charlotte's economy, highlighting both areas of strength and emerging challenges.
