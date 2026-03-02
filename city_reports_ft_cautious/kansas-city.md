@@ -2,18 +2,18 @@
 
 ## Polished, cautious FT-style column
 
-Kansas City's economic indicators present a mixed picture. The unemployment rate stands at 3.5%, placing it in the 68th percentile, indicating a relatively low level of joblessness compared to other metropolitan areas. The labor force participation rate of 67.91% is high, ranking in the 82nd percentile, suggesting a strong engagement of the working-age population in the labor market. Annual earnings growth of 6.8% is notable, placing the city in the 84th percentile.
+Kansas City's economic performance is reflected in a mixed set of recent data. The unemployment rate stands at 3.5%, placing it in the 68th percentile among comparable metropolitan areas. Labour force participation is 67.91%, ranking in the 82nd percentile, indicating a high level of engagement among the working-age population. Earnings growth year-over-year is 6.8%, a figure that ranks in the 84th percentile, suggesting a healthy increase in income levels.
 
-On the housing front, the year-over-year increase in the housing price index is 17.0%, placing Kansas City in the 82nd percentile. However, the year-over-year change in building permits has declined by 30.01%, ranking in the 4th percentile, which suggests a slowdown in new residential construction. The median days on market for homes is 71 days, in the 42nd percentile, indicating a moderate pace of home sales. The cost of living, measured by the consumer price index, has increased by 4.5% year-over-year, placing it in the 72nd percentile, in line with broader inflation trends.
+The housing market presents a complex picture. The Home Price Index has increased by 17.56% year-over-year, placing it in the 78th percentile. Meanwhile, the number of building permits has declined by 5.01% over the same period, ranking in the 44th percentile. The average days on market for properties is 71 days, in the 42nd percentile.
 
-Kansas City's economic performance is above average, as indicated by its weighted percentile score of 60.5 and a grade of B+.
+Kansas City's economic indicators show a varied performance, with some areas of strength and others exhibiting more moderate trends.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-Kansas City's economic indicators present a mixed picture, with some areas showing strength while others lag behind. The unemployment rate stands at 3.5%, placing it in the 68th percentile, which suggests a relatively low level of joblessness compared to other metropolitan areas. The labor force participation rate of 67.91% is notably high, ranking in the 82nd percentile, indicating a robust engagement of the working-age population in the labor market. Annual earnings growth of 6.8% is strong, placing the city in the 84th percentile, which may reflect a healthy demand for labor and wage pressures.
+The economic landscape of Kansas City, as reflected in recent data, suggests a mixed but generally positive performance across several key indicators. The unemployment rate stands at 3.5%, placing it in the 68th percentile among comparable metropolitan areas, which indicates a relatively robust labor market. Labor force participation is notably high at 67.91%, ranking in the 82nd percentile, suggesting a strong engagement of the working-age population in the economy. Earnings growth year-over-year is reported at 6.8%, a figure that ranks in the 84th percentile, indicating a healthy increase in income levels.
 
-On the housing front, the year-over-year increase in the housing price index of 17.0% is significant, placing Kansas City in the 82nd percentile, suggesting a strong housing market. However, the year-over-year change in building permits has declined by 30.01%, ranking in the 4th percentile, which could indicate a slowdown in new residential construction. The median days on market for homes is 71 days, in the 42nd percentile, suggesting a moderate pace of home sales. The cost of living, measured by the consumer price index, has increased by 4.5% year-over-year, placing it in the 72nd percentile, which is in line with broader inflation trends.
+Housing market dynamics show a complex picture. The Home Price Index has increased by 17.56% year-over-year, placing it in the 78th percentile, which may reflect a strong demand for housing in the area. However, the number of building permits has declined by 5.01% over the same period, ranking in the 44th percentile, potentially signaling a moderation in new construction activity. The average days on market for properties is 71 days, in the 42nd percentile, which could suggest a balanced market where neither buyers nor sellers have a significant advantage.
 
-Overall, Kansas City's economic performance is above average, as indicated by its weighted percentile score of 60.5 and a grade of B+.
+Overall, Kansas City's economic indicators suggest an above-average performance with some areas of strength and others showing more moderate trends.

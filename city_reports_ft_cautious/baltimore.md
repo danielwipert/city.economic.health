@@ -2,18 +2,20 @@
 
 ## Polished, cautious FT-style column
 
-The Baltimore-Columbia-Towson metropolitan area ranks 22nd among U.S. metro areas, with a weighted percentile score of 49.7, placing it below the national average. The unemployment rate is 3.6%, in line with national trends, and the labor force participation rate is 64.19%, indicating a moderate level of workforce engagement. Year-over-year earnings growth is 1.22%, while the cost of living index is 1.34, suggesting that residents may face higher expenses compared to other regions.
+The Baltimore-Columbia-Towson metropolitan area received a grade of B in a recent economic assessment, ranking 22nd out of the assessed regions. The unemployment rate stands at 3.6%, placing it at the 50th percentile, indicating a labour market performance that is neither particularly strong nor weak compared to national standards.
 
-Housing market indicators show mixed trends. The year-over-year change in housing permits has declined by 27.64%, which may indicate a slowdown in new construction activity. However, the housing price index has increased by 14.35% over the same period, suggesting continued demand for existing homes. The number of days properties remain on the market is 56, which is relatively low, further indicating a competitive market. Weekly hours worked stand at 33.2, below the national average, potentially signalling a more part-time or flexible work environment.
+The labour force participation rate is 64.19%, which is slightly below the median, at the 46th percentile. This may suggest a moderate level of engagement in the workforce. Earnings growth over the past year has been 1.22%, ranking in the 22nd percentile, indicating a slower pace of income expansion relative to other areas.
 
-The data suggests a region with stable economic conditions, characterised by moderate employment and wage growth, high living costs, and a dynamic but potentially constrained housing market.
+The cost of living index is 1.34, placing the region in the 84th percentile, suggesting that living costs are relatively high. Housing market indicators show a year-over-year growth in home prices of 14.35%, at the 68th percentile, while the number of housing permits issued has grown by 1.86%, placing the region in the 54th percentile. The average days on market for homes is 56 days, in the 88th percentile.
+
+The data presents a mixed economic picture for Baltimore, with some areas showing strength and others lagging behind national trends.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-The Baltimore-Columbia-Towson metropolitan area ranks 22nd among U.S. metro areas, with a weighted percentile score of 49.7, placing it slightly below average. The unemployment rate stands at 3.6%, which is in line with national trends, and the labor force participation rate is 64.19%, suggesting a moderate level of engagement in the workforce. Year-over-year earnings growth is modest at 1.22%, while the cost of living index is relatively high at 1.34, indicating that residents may face higher expenses compared to other regions.
+The Baltimore-Columbia-Towson metropolitan area ranks 22nd in a recent economic assessment, with an overall grade of B, indicating average performance relative to other regions. The unemployment rate stands at 3.6%, placing it at the 50th percentile, which suggests that the labor market is neither particularly strong nor weak compared to national standards. The labor force participation rate of 64.19% is slightly below the median, at the 46th percentile, potentially reflecting a moderate level of engagement in the workforce.
 
-Housing market indicators show mixed signals. The year-over-year change in housing permits has declined by 27.64%, which may reflect a slowdown in new construction activity. However, the housing price index has increased by 14.35% over the same period, suggesting continued demand for existing homes. The number of days properties remain on the market is 56, which is relatively low, further indicating a competitive market. Weekly hours worked stand at 33.2, which is below the national average, potentially signaling a more part-time or flexible work environment.
+Earnings growth over the past year has been modest, at 1.22%, ranking in the 22nd percentile, which may indicate a slower pace of income expansion relative to other areas. The cost of living index of 1.34 places the region in the 84th percentile, suggesting that living costs are relatively high. Housing market indicators show a robust increase in home prices, with a year-over-year growth of 14.35% at the 68th percentile, while the number of housing permits issued has grown by 1.86%, placing the region in the 54th percentile. These figures suggest a strong but not exceptional housing market. The average days on market for homes is 56 days, in the 88th percentile, which may reflect a competitive real estate environment.
 
-Overall, the data suggests a region with stable but not robust economic conditions, characterized by moderate employment and wage growth, high living costs, and a dynamic but potentially constrained housing market.
+Overall, the data indicates a mixed economic picture for Baltimore, with some areas showing strength and others lagging behind national trends.

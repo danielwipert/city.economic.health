@@ -2,18 +2,18 @@
 
 ## Polished, cautious FT-style column
 
-The Minneapolis-St. Paul-Bloomington metropolitan area ranks 16th among major U.S. metros, with a weighted percentile score of 38.9, placing it in the lower half of the distribution. The unemployment rate is 4.0%, slightly above the national average, and the labor force participation rate is 69.03%, ranking in the 88th percentile nationally. This indicates a relatively high level of engagement among the working-age population in the labor market, despite the moderate unemployment rate.
+The Minneapolis-St. Paul-Bloomington metropolitan area's economic data presents a mixed picture. The unemployment rate stands at 4.0%, placing it in the 34th percentile among comparable regions. The labour force participation is high at 69.03%, ranking in the 88th percentile. However, earnings growth year-over-year is 3.0%, situated in the 10th percentile.
 
-Earnings growth over the past year has been 3.0%, placing the metro area in the 10th percentile, indicating slower wage growth compared to peers. Housing market indicators show a mixed picture: the housing price index has risen by 2.87% year-over-year, while the number of building permits has declined by 7.67% over the same period. The median days on market for homes is 63 days, which is relatively high and may reflect a balanced market between buyers and sellers. The cost of living index is 7.28, and weekly hours worked average 33.3 hours, both of which are below the median when compared to other metros.
+In the housing sector, the year-over-year change in housing prices is 2.74%, placing it in the 32nd percentile. The number of building permits has declined by 22.23% year-over-year, a significant drop that ranks in the 18th percentile. The days on market for homes have increased to 63 days, in the 66th percentile.
 
-The data suggests a stable economic environment in Minneapolis-St. Paul-Bloomington, with no clear indication of significant dynamism.
+The data suggests a range of economic conditions in Minneapolis, with labour force participation rates higher than average, but earnings growth and housing market dynamics weaker than some other regions.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-The Minneapolis-St. Paul-Bloomington metropolitan area ranks 16th among major U.S. metros, with a weighted percentile score of 38.9, placing it in the lower half of the distribution. The unemployment rate stands at 4.0%, which is slightly above the national average, and the labor force participation rate is robust at 69.03%, ranking in the 88th percentile nationally. This suggests a relatively strong engagement of the working-age population in the labor market despite the moderate unemployment level.
+The economic data for the Minneapolis-St. Paul-Bloomington metropolitan area reveals a mixed picture, with some indicators performing better than others. The unemployment rate stands at 4.0%, placing it in the 34th percentile among comparable regions, which suggests a moderate level of labor market activity. The labor force participation rate is notably high at 69.03%, ranking in the 88th percentile, indicating a robust engagement of the working-age population in the labor market. However, earnings growth year-over-year is relatively low at 3.0%, situated in the 10th percentile, which may reflect subdued wage pressures or slower economic expansion.
 
-Earnings growth over the past year has been modest, increasing by 3.0%, which places the metro area in the 10th percentile, indicating slower wage growth compared to peers. Housing market indicators show a mixed picture: the housing price index has risen by 2.87% year-over-year, while the number of building permits has declined by 7.67% over the same period. The median days on market for homes is 63 days, which is relatively high and may reflect a more balanced market between buyers and sellers. Additionally, the cost of living index stands at 7.28, and weekly hours worked average 33.3 hours, both of which are below the median when compared to other metros.
+In the housing sector, the year-over-year change in housing prices is 2.74%, placing it in the 32nd percentile, suggesting a modest pace of appreciation. The number of building permits has declined by 22.23% year-over-year, a significant drop that ranks in the 18th percentile, potentially indicating a slowdown in construction activity. The days on market for homes have increased to 63 days, in the 66th percentile, which could suggest a less dynamic real estate market compared to previous periods.
 
-Overall, the data suggests a stable but not particularly dynamic economic environment in Minneapolis-St. Paul-Bloomington.
+Overall, the data indicates a range of economic conditions in Minneapolis, with strengths in labor force participation offset by weaker performance in earnings growth and housing market dynamics.

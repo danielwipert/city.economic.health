@@ -2,18 +2,20 @@
 
 ## Polished, cautious FT-style column
 
-St. Louis's economic data presents a mixed picture. The unemployment rate of 3.5% places the city in the 68th percentile nationally, suggesting a relatively healthy labor market. However, the labor force participation rate of 65.27% is below the national median, indicating that some working-age individuals are not in the labor force.
+St. Louis's economic data presents a mixed picture, with various indicators pointing to both strengths and areas of concern. The city's unemployment rate of 3.5% places it in the 68th percentile among comparable metropolitan areas, indicating relatively low joblessness. However, the labor force participation rate of 65.27% is at the 64th percentile, suggesting some underutilization of the workforce.
 
-Earnings growth year-over-year is 0.66%, ranking in the 18th percentile, which may reflect slower wage increases compared to other regions. In the housing sector, home prices have increased by 18.79% annually, placing St. Louis in the 86th percentile, indicating strong demand for residential properties. However, building permits have declined by 7.66% year-over-year, which may suggest a slowdown in new construction activity.
+Earnings growth over the past year has been modest, increasing by 0.66%, which ranks St. Louis in the lower 18th percentile. This suggests limited wage gains compared to other regions. In the housing market, home prices have risen by 18.78% annually, placing the city in the 84th percentile. The supply of homes for sale has grown by 5.31%, ranking St. Louis in the 92nd percentile.
 
-The cost of living index of 0.5 is below the national average, and the average weekly hours worked of 32.9 are lower than in many other metropolitan areas. Overall, the data suggests a stable economy with some notable strengths, including housing appreciation and affordability, but also areas where improvement could be beneficial.
+The number of building permits issued has declined by 18.7% year-over-year, which may indicate a slowdown in construction activity. The average number of days a property remains on the market is 68 days, indicating a moderate pace of sales.
+
+The data suggests that St. Louis maintains a stable but not particularly dynamic economic environment, with some sectors showing resilience and others facing challenges.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-The economic landscape of St. Louis, as reflected in recent data, presents a mixed picture with some indicators suggesting stability while others point to areas of concern. The unemployment rate stands at 3.5%, placing it in the 68th percentile nationally, which suggests a relatively healthy labor market. However, the labor force participation rate of 65.27% is slightly below the national median, indicating that a portion of the working-age population remains outside the labor force. Earnings growth year-over-year is modest at 0.66%, ranking in the 18th percentile, which may reflect a slower pace of wage increases compared to other regions.
+The economic landscape of St. Louis, as reflected in recent data, presents a mixed picture with several indicators suggesting both strengths and areas of concern. The unemployment rate stands at 3.5%, placing it in the 68th percentile among comparable metropolitan areas, which indicates a relatively low level of joblessness. However, the labor force participation rate of 65.27% is slightly below the median, at the 64th percentile, potentially signaling some underutilization of the workforce. Earnings growth over the past year has been modest, increasing by 0.66%, which places St. Louis in the lower 18th percentile, suggesting that wage gains have been limited compared to other regions.
 
-In the housing sector, the annual increase in home prices of 18.79% is robust, placing St. Louis in the 86th percentile, suggesting strong demand for residential properties. However, this is juxtaposed with a decline in building permits of 7.66% year-over-year, which may indicate a slowdown in new construction activity. The cost of living index of 0.5, significantly below the national average, and the relatively low weekly hours worked of 32.9, suggest that living costs and work hours in St. Louis are lower than in many other metropolitan areas.
+In the housing market, the annual increase in home prices of 18.78% is robust, ranking in the 84th percentile, while the supply of homes for sale has grown by 5.31%, placing the city in the 92nd percentile. This combination suggests a strong but possibly moderating housing market. The number of building permits issued has declined by 18.7% year-over-year, which may reflect a slowdown in construction activity. Additionally, the average number of days a property remains on the market is 68 days, indicating a moderate pace of sales.
 
-Overall, the data indicates a region with a stable but not rapidly growing economy, with notable strengths in housing appreciation and affordability, but also areas where improvement could be beneficial.
+Overall, the data suggests that St. Louis maintains a stable but not particularly dynamic economic environment, with some sectors showing resilience and others facing challenges.
