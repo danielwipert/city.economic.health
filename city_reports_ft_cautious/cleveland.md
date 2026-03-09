@@ -2,18 +2,22 @@
 
 ## Polished, cautious FT-style column
 
-Cleveland's economic indicators present a mixed picture, reflecting both areas of strength and concern. The city's unemployment rate stands at 3.4%, placing it in the 76th percentile among metropolitan areas, suggesting a relatively robust labour market. However, the labour force participation rate of 58.01% is low, ranking in the 2nd percentile, which may indicate challenges in engaging a larger portion of the population in the workforce. Earnings growth has been negative, with a year-over-year decrease of 1.79%, placing Cleveland at the bottom of the percentile rankings in this category.
+Cleveland's economic indicators present a mixed picture, reflecting both areas of strength and concern. The unemployment rate stands at 3.4%, placing it in the 76th percentile among comparable metropolitan areas. This suggests a relatively robust labour market. However, the labour force participation rate of 58.01% is low, ranking in the 2nd percentile. This indicates a significant portion of the working-age population is not actively engaged in the labour market.
 
-On the housing front, Cleveland shows some positive trends. The year-over-year increase in housing prices of 4.05% and a significant rise in building permits of 14.96% suggest ongoing demand in the real estate sector. The days on market for homes have decreased to 55 days, indicating a relatively quick turnover in the housing market. These figures, combined with a 12.86% year-over-year increase in permits for single-family homes, point to a resilient housing market.
+Earnings have declined year-over-year by 1.79%, placing Cleveland at the bottom of the percentile rankings in this category. This may reflect broader economic challenges or sector-specific issues.
 
-Overall, Cleveland's economic performance appears to be average, with strengths in housing and employment metrics offset by concerns over labour force participation and earnings growth.
+In the housing market, Cleveland shows some positive trends. The year-over-year increase in housing prices of 4.05% and a 12.86% rise in permits for new construction suggest ongoing demand and investment in the real estate sector. The median days on market for homes is 55 days, which is in line with national averages. This indicates a balanced market where neither buyers nor sellers have a significant advantage.
+
+These housing metrics contrast with the decline in earnings, suggesting that while the housing market is stable, other economic factors may be exerting downward pressure on income levels.
+
+Overall, Cleveland's economic profile indicates a region with a strong labour market but facing challenges in labour force engagement and earnings growth, alongside a stable housing market.
 
 ---
 
 ## Original Qwen draft (for reference)
 
-Cleveland's economic indicators present a mixed picture, reflecting both areas of strength and concern. The unemployment rate stands at 3.4%, placing the city in the 76th percentile among metropolitan areas, suggesting a relatively robust labor market. However, the labor force participation rate of 58.01% is notably low, ranking in the 2nd percentile, which may indicate challenges in engaging a larger portion of the population in the workforce. Earnings growth has been negative, with a year-over-year decrease of 1.79%, placing Cleveland at the bottom of the percentile rankings in this category. This decline in earnings could be a cause for concern, particularly if it persists.
+Cleveland's economic indicators present a mixed picture, reflecting both areas of strength and concern. The unemployment rate stands at 3.4%, placing it in the 76th percentile among comparable metropolitan areas, which suggests a relatively robust labor market. However, the labor force participation rate of 58.01% is notably low, ranking in the 2nd percentile, indicating a significant portion of the working-age population is not actively engaged in the labor market. Earnings have declined year-over-year by 1.79%, placing Cleveland at the bottom of the percentile rankings in this category, which may reflect broader economic challenges or sector-specific issues.
 
-On the housing front, Cleveland shows some positive trends. The year-over-year increase in housing prices of 4.05% and a significant rise in building permits of 14.96% suggest ongoing demand in the real estate sector. Additionally, the days on market for homes have decreased to 55 days, indicating a relatively quick turnover in the housing market. These figures, combined with a 12.86% year-over-year increase in permits for single-family homes, point to a resilient housing market despite broader economic challenges.
+In the housing market, Cleveland shows some positive trends. The year-over-year increase in housing prices of 4.05% and a 12.86% rise in permits for new construction suggest ongoing demand and investment in the real estate sector. The median days on market for homes is 55 days, which is in line with national averages, indicating a balanced market where neither buyers nor sellers have a significant advantage. These housing metrics contrast with the decline in earnings, suggesting that while the housing market is stable, other economic factors may be exerting downward pressure on income levels.
 
-Overall, Cleveland's economic performance appears to be average, with strengths in housing and employment metrics offset by concerns over labor force participation and earnings growth.
+Overall, Cleveland's economic profile indicates a region with a strong labor market but facing challenges in labor force engagement and earnings growth, alongside a stable housing market.
