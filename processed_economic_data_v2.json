@@ -1,11 +1,11 @@
 {
-  "processing_timestamp": "2026-03-16T10:11:22.403082",
-  "processing_date": "2026-03-16 10:11:22",
+  "processing_timestamp": "2026-03-23T10:12:02.072570",
+  "processing_date": "2026-03-23 10:12:02",
   "version": 2,
   "metrics_count": 11,
   "metrics_scored": 10,
   "metrics_collected_only": 1,
-  "source_data": "2026-03-16 10:11:22",
+  "source_data": "2026-03-23 10:12:01",
   "msa_averages": {
     "unemployment_rate": {
       "msa_average": 3.926,
@@ -24,7 +24,7 @@
       "metros_with_data": 50
     },
     "office_worker_ratio": {
-      "msa_average": 10.003,
+      "msa_average": 9.8394,
       "metros_with_data": 49
     },
     "building_permits": {
@@ -40,8 +40,8 @@
       "metros_with_data": 50
     },
     "housing_price": {
-      "msa_average": 478714.1837,
-      "metros_with_data": 49
+      "msa_average": 480907.68,
+      "metros_with_data": 50
     },
     "median_days_on_market": {
       "msa_average": 55.56,
@@ -2427,7 +2427,7 @@
       "metro_name": "Riverside-San Bernardino-Ontario",
       "primary_city": "Riverside",
       "civilian_population": 3753449,
-      "metrics_processed": 10,
+      "metrics_processed": 13,
       "data": {
         "unemployment_rate": {
           "latest_value": 5.1,
@@ -2507,6 +2507,23 @@
             "pct_change": -2.3
           }
         },
+        "office_workers": {
+          "latest_value": 161.0286,
+          "latest_date": "2025-12-01",
+          "series_id": "RIVE106PBSV",
+          "metric_name": "Office Workers",
+          "3month_average": 160.39914561543065,
+          "yoy_change": {
+            "current": 161.0286,
+            "change": -0.2105,
+            "pct_change": -0.13
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 160.3991,
+            "change": -0.5024,
+            "pct_change": -0.31
+          }
+        },
         "building_permits": {
           "latest_value": 1227.0,
           "latest_date": "2025-12-01",
@@ -2558,6 +2575,23 @@
             "pct_change": -0.59
           }
         },
+        "housing_price": {
+          "latest_value": 588389.0,
+          "latest_date": "2026-02-01",
+          "series_id": "MEDLISPRI40140",
+          "metric_name": "Median Housing Price",
+          "3month_average": 586968.0,
+          "yoy_change": {
+            "current": 588389.0,
+            "change": -11061.0,
+            "pct_change": -1.85
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 586968.0,
+            "change": -11515.3333,
+            "pct_change": -1.92
+          }
+        },
         "median_days_on_market": {
           "latest_value": 60.0,
           "latest_date": "2026-02-01",
@@ -2587,6 +2621,19 @@
             "pct_change": -8.1
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
+        },
+        "office_worker_ratio": {
+          "latest_value": 4.2902,
+          "latest_date": "2025-12-01",
+          "series_id": "RIVE106PBSV",
+          "metric_name": "Office Worker Ratio",
+          "3month_average": 4.2734,
+          "yoy_change": {
+            "current": 4.2902,
+            "change": -0.0056,
+            "pct_change": -0.13
+          },
+          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
@@ -2595,7 +2642,7 @@
       "metro_name": "San Francisco-Oakland-Fremont",
       "primary_city": "San Francisco",
       "civilian_population": 3891217,
-      "metrics_processed": 12,
+      "metrics_processed": 10,
       "data": {
         "unemployment_rate": {
           "latest_value": 4.1,
@@ -2656,23 +2703,6 @@
             "current_3mo": 47.9233,
             "change": 1.09,
             "pct_change": 2.33
-          }
-        },
-        "office_workers": {
-          "latest_value": 478.88,
-          "latest_date": "2025-12-01",
-          "series_id": "SANF806PBSV",
-          "metric_name": "Office Workers",
-          "3month_average": 479.3262946465903,
-          "yoy_change": {
-            "current": 478.88,
-            "change": -11.3059,
-            "pct_change": -2.31
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 479.3263,
-            "change": -11.2773,
-            "pct_change": -2.3
           }
         },
         "building_permits": {
@@ -2772,19 +2802,6 @@
             "pct_change": -2.93
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
-        },
-        "office_worker_ratio": {
-          "latest_value": 12.3067,
-          "latest_date": "2025-12-01",
-          "series_id": "SANF806PBSV",
-          "metric_name": "Office Worker Ratio",
-          "3month_average": 12.3182,
-          "yoy_change": {
-            "current": 12.3067,
-            "change": -0.2905,
-            "pct_change": -2.31
-          },
-          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
