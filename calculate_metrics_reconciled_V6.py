@@ -118,82 +118,60 @@ def calculate_col_component1(metro_data: Dict) -> float:
 
 def calculate_col_component2(metro_data: Dict) -> float:
     """
-    Component 2: Direction of Affordability
-    Is affordability getting better or worse? (change in COL ratio)
+    Component 2: Direction of Affordability — YoY % change in COL ratio.
+    Returns the percentage change in (PSF / hourly_earnings) over 12 months.
+    Positive = affordability worsening; negative = affordability improving.
+    Returns 0 if data is unavailable.
     """
     if 'price_per_sqft' not in metro_data['data'] or 'hourly_earnings' not in metro_data['data']:
         return 0
-    
-    psf_metric = metro_data['data']['price_per_sqft']
+
+    psf_metric      = metro_data['data']['price_per_sqft']
     earnings_metric = metro_data['data']['hourly_earnings']
-    
-    # Current COL ratio
-    psf_current = psf_metric.get('latest_value')
+
+    psf_current      = psf_metric.get('latest_value')
     earnings_current = earnings_metric.get('latest_value')
-    
+
     if psf_current is None or earnings_current is None or earnings_current == 0:
         return 0
-    
+
     col_current = psf_current / earnings_current
-    
-    # Historical COL ratio (12 months ago if available)
-    psf_yoy = psf_metric.get('yoy_change')
+
+    psf_yoy      = psf_metric.get('yoy_change')
     earnings_yoy = earnings_metric.get('yoy_change')
-    
+
     if psf_yoy and earnings_yoy:
-        psf_prev = psf_yoy.get('current') - psf_yoy.get('change')
+        psf_prev      = psf_yoy.get('current') - psf_yoy.get('change')
         earnings_prev = earnings_yoy.get('current') - earnings_yoy.get('change')
-        
+
         if psf_prev and earnings_prev and earnings_prev != 0:
             col_prev = psf_prev / earnings_prev
-            col_change = col_current - col_prev
-            return col_change
-    
+            if col_prev != 0:
+                col_yoy_pct = (col_current - col_prev) / col_prev * 100
+                return col_yoy_pct
+
     return 0
 
 
 def calculate_col_component3(metro_data: Dict) -> float:
     """
-    Component 3: Stability/Volatility
-    Lower volatility = more stable (better for planning)
-    Uses recent months to measure stability
+    Component 3: Peer-relative affordability trend.
+    Returns the same YoY % change in COL ratio as component 2.
+    The actual peer-relative score is computed inside calculate_col_final_score,
+    where the full cross-city distribution is available to derive the median.
     """
-    if 'price_per_sqft' not in metro_data['data']:
-        return None
-    
-    psf_metric = metro_data['data']['price_per_sqft']
-    earnings_metric = metro_data['data']['hourly_earnings']
-    
-    psf_current = psf_metric.get('latest_value')
-    earnings_current = earnings_metric.get('latest_value')
-    
-    if psf_current is None or earnings_current is None or earnings_current == 0:
-        return None
-    
-    # We'll estimate volatility as the range of recent changes
-    # In real data, this would use multiple observations
-    # For now, use a proxy: if data is stable, volatility is low
-    
-    psf_yoy = psf_metric.get('yoy_change')
-    earnings_yoy = earnings_metric.get('yoy_change')
-    
-    if psf_yoy and earnings_yoy:
-        psf_pct = abs(psf_yoy.get('pct_change', 0))
-        earnings_pct = abs(earnings_yoy.get('pct_change', 0))
-        volatility = (psf_pct + earnings_pct) / 2
-        return volatility
-    
-    return 0
+    return calculate_col_component2(metro_data)
 
 
 def calculate_col_final_score(metro_data: Dict, all_metros: List[Dict], 
                              col_component2_all: Dict, col_component3_all: Dict) -> float:
     """
-    Combine 3 COL components into final 0-10 score:
-    - Component 1 (absolute affordability): 0-3 points
-    - Component 2 (direction): 0-4 points  
-    - Component 3 (stability): 0-3 points
-    Total: 0-10 points (lower is better affordability)
+    Combine 3 COL components into final 0-10 score (lower = better affordability):
+    - Component 1 (absolute affordability): 0-3 pts — min-max normalized PSF/earnings ratio
+    - Component 2 (direction, graduated): 0-4 pts — YoY % change in COL ratio;
+        ≤ -5% (improving) → 0, flat → 2, ≥ +5% (worsening) → 4
+    - Component 3 (peer-relative trend): 0-3 pts — deviation from national median YoY%;
+        worsening much faster than peers → 3, in line with peers → 1.5, improving faster → 0
     """
     metro_name = metro_data['metro_name']
     
@@ -221,29 +199,38 @@ def calculate_col_final_score(metro_data: Dict, all_metros: List[Dict],
     else:
         c1_score = 1.5
     
-    # Component 2: Direction of change (0-4 points)
-    # Total COL score uses invert=True: lower score = better city.
-    # Affordability improving (col_change < 0) is good → low c2_score.
-    # Affordability worsening (col_change > 0) is bad  → high c2_score.
-    col_change = col_component2_all.get(metro_name, 0)
-    if col_change < 0:
-        c2_score = 0.0  # Improving affordability = good = low score
-    elif col_change > 0:
-        c2_score = 4.0  # Worsening affordability = bad = high score
+    # Component 2: Direction of change (0-4 points) — graduated, not binary.
+    # Uses YoY % change in COL ratio. Neutral at 0%, full penalty at ±5%.
+    # Old binary cliff (any positive → 4.0) wrongly gave max penalty to cities
+    # with tiny upticks while still being far more affordable than coastal metros.
+    col_yoy_pct = col_component2_all.get(metro_name, 0)
+    if col_yoy_pct <= -5:
+        c2_score = 0.0   # Strong improvement → lowest penalty
+    elif col_yoy_pct >= 5:
+        c2_score = 4.0   # Strong worsening  → highest penalty
     else:
-        c2_score = 2.0
+        c2_score = (col_yoy_pct + 5) / 10.0 * 4.0  # Linear -5%→0→+5% maps to 0→2→4
 
-    # Component 3: Volatility (0-3 points)
-    # Low volatility = stable = good → low c3_score.
-    # High volatility = unstable = bad → high c3_score.
-    # Smooth linear scale: 0 at volatility=1, 3 at volatility=5.
-    volatility = col_component3_all.get(metro_name, 0)
-    if volatility < 1:
-        c3_score = 0.0  # Low volatility = good = low score
-    elif volatility > 5:
-        c3_score = 3.0  # High volatility = bad = high score
+    # Component 3: Peer-relative trend (0-3 points).
+    # Measures how this city's affordability trend compares to the national median.
+    # A city worsening much faster than peers is penalized; improving faster is rewarded.
+    # This replaces the old "volatility" proxy (avg of |PSF_YoY%| + |earnings_YoY%|)
+    # which double-counted c2 and wrongly penalized all cities with any price movement.
+    all_yoy_pcts = [v for v in col_component3_all.values() if v is not None]
+    if all_yoy_pcts:
+        sorted_pcts = sorted(all_yoy_pcts)
+        n = len(sorted_pcts)
+        median_yoy = (sorted_pcts[n // 2 - 1] + sorted_pcts[n // 2]) / 2 if n % 2 == 0 else sorted_pcts[n // 2]
     else:
-        c3_score = (volatility - 1) / 4.0 * 3.0  # Smooth 0→3 as volatility goes 1→5
+        median_yoy = 0
+
+    deviation = col_yoy_pct - median_yoy  # positive = worsening vs peers
+    if deviation <= -10:
+        c3_score = 0.0   # Improving much faster than peers → lowest penalty
+    elif deviation >= 10:
+        c3_score = 3.0   # Worsening much faster than peers → highest penalty
+    else:
+        c3_score = (deviation + 10) / 20.0 * 3.0  # Linear ±10% range maps to 0→3
     
     total = c1_score + c2_score + c3_score
     return min(10.0, max(0.0, total))
