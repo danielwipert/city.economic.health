@@ -222,24 +222,28 @@ def calculate_col_final_score(metro_data: Dict, all_metros: List[Dict],
         c1_score = 1.5
     
     # Component 2: Direction of change (0-4 points)
+    # Total COL score uses invert=True: lower score = better city.
+    # Affordability improving (col_change < 0) is good → low c2_score.
+    # Affordability worsening (col_change > 0) is bad  → high c2_score.
     col_change = col_component2_all.get(metro_name, 0)
     if col_change < 0:
-        # Affordability improving (negative change is good)
-        c2_score = 4.0
+        c2_score = 0.0  # Improving affordability = good = low score
     elif col_change > 0:
-        # Affordability worsening (positive change is bad)
-        c2_score = 0.0
+        c2_score = 4.0  # Worsening affordability = bad = high score
     else:
         c2_score = 2.0
-    
+
     # Component 3: Volatility (0-3 points)
+    # Low volatility = stable = good → low c3_score.
+    # High volatility = unstable = bad → high c3_score.
+    # Smooth linear scale: 0 at volatility=1, 3 at volatility=5.
     volatility = col_component3_all.get(metro_name, 0)
-    if volatility > 5:
-        c3_score = 0.0  # High volatility = bad
-    elif volatility < 1:
-        c3_score = 3.0  # Low volatility = good
+    if volatility < 1:
+        c3_score = 0.0  # Low volatility = good = low score
+    elif volatility > 5:
+        c3_score = 3.0  # High volatility = bad = high score
     else:
-        c3_score = (5 - volatility) / 2.5 * 0.6  # Scale between 0-3
+        c3_score = (volatility - 1) / 4.0 * 3.0  # Smooth 0→3 as volatility goes 1→5
     
     total = c1_score + c2_score + c3_score
     return min(10.0, max(0.0, total))

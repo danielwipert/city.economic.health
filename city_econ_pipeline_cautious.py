@@ -5,25 +5,25 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import pandas as pd
-from huggingface_hub import InferenceClient
+from together import Together
 
 
 # --------------------------------------------------------
 # CONFIG
 # --------------------------------------------------------
 
-HF_TOKEN = os.getenv("HF_TOKEN")
-if HF_TOKEN is None:
+TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
+if TOGETHER_API_KEY is None:
     raise RuntimeError(
-        "HF_TOKEN not set. In PowerShell run:\n"
-        "$env:HF_TOKEN = 'hf_your_token_here'"
+        "TOGETHER_API_KEY not set. In PowerShell run:\n"
+        "$env:TOGETHER_API_KEY = 'your_together_api_key_here'"
     )
 
 # Analysis model (econ reasoning)
-ANALYSIS_MODEL_ID = "Qwen/Qwen2.5-72B-Instruct"
+ANALYSIS_MODEL_ID = "Qwen/Qwen2.5-72B-Instruct-Turbo"
 
 # Stylist model (prose polish, 8B for speed/cost)
-STYLE_MODEL_ID = "meta-llama/Llama-3.1-8B-Instruct"
+STYLE_MODEL_ID = "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
 
 # Input JSON
 JSON_PATH = "calculated_metrics_reconciled.json"
@@ -137,11 +137,12 @@ def build_polish_prompt(raw_text: str, city_name: str) -> str:
 
 def call_qwen_analysis(prompt: str) -> str:
     """
-    Call Qwen 2.5 72B Instruct to produce the economic analysis.
+    Call Qwen 2.5 72B Instruct Turbo via Together to produce the economic analysis.
     """
-    client = InferenceClient(model=ANALYSIS_MODEL_ID, token=HF_TOKEN)
+    client = Together(api_key=TOGETHER_API_KEY)
 
-    completion = client.chat_completion(
+    completion = client.chat.completions.create(
+        model=ANALYSIS_MODEL_ID,
         messages=[
             {
                 "role": "system",
@@ -154,20 +155,21 @@ def call_qwen_analysis(prompt: str) -> str:
             {"role": "user", "content": prompt},
         ],
         max_tokens=800,
-        temperature=0.25,  # lower for more consistent, less creative output
+        temperature=0.25,
         top_p=0.9,
     )
 
-    return completion.choices[0].message["content"]
+    return completion.choices[0].message.content
 
 
 def call_llama_polish(prompt: str) -> str:
     """
-    Call Llama 3.1 8B Instruct to polish the Qwen draft with a cautious tone.
+    Call Llama 3.1 8B Instruct Turbo via Together to polish the Qwen draft.
     """
-    client = InferenceClient(model=STYLE_MODEL_ID, token=HF_TOKEN)
+    client = Together(api_key=TOGETHER_API_KEY)
 
-    completion = client.chat_completion(
+    completion = client.chat.completions.create(
+        model=STYLE_MODEL_ID,
         messages=[
             {
                 "role": "system",
@@ -180,11 +182,11 @@ def call_llama_polish(prompt: str) -> str:
             {"role": "user", "content": prompt},
         ],
         max_tokens=600,
-        temperature=0.15,  # very low for tight, controlled edits
+        temperature=0.15,
         top_p=0.9,
     )
 
-    return completion.choices[0].message["content"]
+    return completion.choices[0].message.content
 
 
 # --------------------------------------------------------
