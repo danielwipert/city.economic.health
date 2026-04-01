@@ -1,168 +1,139 @@
-# Economic City Health Report System
+# City Economic Health — Scoring & Report System
 
-A data-driven analysis platform that ranks the top 50 U.S. metropolitan areas by economic health and generates automated LinkedIn content.
+Ranks the top 50 U.S. metropolitan areas by economic health using live BLS/FRED data. Produces a percentile-based composite score, letter grade, and AI-generated analytical report for each metro. Runs automatically every Monday via GitHub Actions.
 
-## Overview
-
-This system analyzes 10 economic indicators across 50 major U.S. metros, assigns a letter grade (A-F) to each, and generates professional LinkedIn copy explaining each city's economic performance.
+---
 
 ## Pipeline
 
 ```
-FRED API → Economic Data → Percentile Scoring → Grades → LinkedIn Copy → Automated Posts
+FRED API ──► pull_economic_data_unified_FIXED.py
+                    │
+                    ▼
+             economic_data_combined.json
+                    │
+                    ▼
+      process_historical_data_v2_FIXED.py
+                    │
+                    ▼
+          processed_economic_data_v2.json
+                    │
+                    ▼
+       calculate_metrics_reconciled_V6.py
+                    │
+                    ▼
+    calculated_metrics_reconciled.json
+    Economic_Metrics_All_Metros.xlsx
+                    │
+                    ▼
+       city_econ_pipeline_cautious.py
+                    │
+                    ▼
+          city_reports_ft_cautious/
+          (one .md report per city)
 ```
 
-### Step 1: Pull Economic Data (`pull_economic_data.py`)
-- **Source:** Federal Reserve Economic Data (FRED) API
-- **Data:** 10 indicators × 50 metros × 15 observations per metric
-- **Output:** `raw_economic_data.json`
+### Step 1 — Data Pull (`pull_economic_data_unified_FIXED.py`)
+Fetches 11 data series x 50 metros from the FRED API (~552 calls). Collects 15 monthly observations per series for trend and average calculations. Output: `economic_data_combined.json`.
 
-### Step 2: Process Historical Data (`process_historical_data.py`)
-- Calculates 3-month averages
-- Computes year-over-year growth rates
-- Handles data validation and conversion
+### Step 2 — Historical Processor (`process_historical_data_v2_FIXED.py`)
+Calculates derived fields for each series: 3-month average, 12-month average, YoY change (absolute and percent), 3-month smoothed YoY. The 12-month average is required for the weekly hours trend deviation metric (106D). Output: `processed_economic_data_v2.json`.
 
-### Step 3: Calculate Metrics & Grades (`calculate_metrics_65_35.py`)
-- **Scoring:** 100-point percentile-based system
-- **Weighting:** 65% Employment / 35% Housing
-- **Output:** `calculated_metrics_reconciled.json`
+### Step 3 — Scoring Engine (`calculate_metrics_reconciled_V6.py`)
+Builds percentile scores for 9 metrics across 50 metros, applies weights, calculates composite grades. Includes composite scoring logic for COL (3-component), OWR (2-component), and Days on Market (2-component). Outputs JSON and a formatted Excel workbook (5 sheets).
 
-### Step 4: Generate LinkedIn Copy (`generate_city_summaries_pro.py`)
-- **LLM:** Hugging Face API (Llama-2 70B)
-- **Content:** 3-4 sentence professional analysis per city
-- **Output:** `generated_city_copy.json`
+### Step 4 — LLM Reports (`city_econ_pipeline_cautious.py`)
+Generates a two-pass AI report per city using Together AI:
+- Pass 1 (Qwen 2.5 72B): evidence-based economic analysis from the metric data
+- Pass 2 (Llama 3.1 8B): copy-editing pass for FT-style tone and restraint
 
-## Scoring System
-
-### Employment Metrics (65 points)
-- Unemployment Rate (15 pts)
-- Labor Force Participation (15 pts)
-- Hourly Earnings Growth YoY (10 pts)
-- Cost of Living (10 pts)
-- Office Worker Ratio (5 pts)
-- Weekly Hours Worked (10 pts)
-
-### Housing Metrics (35 points)
-- Building Permits Growth YoY (10 pts)
-- Home Price Index Growth YoY (10 pts)
-- Price Per Sqft Growth YoY (10 pts)
-- Median Days on Market (5 pts)
-
-**Grading Scale:**
-- A: 75-100 percentile (Excellent)
-- B+: 65-74 percentile (Above Average)
-- B: 50-64 percentile (Average)
-- B-: 40-49 percentile (Below Average)
-- C+: 30-39 percentile (Poor)
-- C: 20-29 percentile (Very Poor)
-- C-: 0-19 percentile (Critical)
-
-## Key Features
-
-✅ **Percentile-Based Scoring** - Intuitive interpretation (75th percentile = better than 75% of metros)  
-✅ **Automated Data Pipeline** - Monthly updates via GitHub Actions  
-✅ **Smart API Usage** - 552 total API calls for all 10 metrics across 50 metros  
-✅ **Professional Copy Generation** - AI-powered LinkedIn content with economic insights  
-✅ **Cross-Platform Compatible** - Runs on Windows, Mac, Linux  
-
-## Data Sources
-
-| Data | Source | Frequency |
-|------|--------|-----------|
-| Employment metrics | FRED API | Monthly |
-| Housing metrics | FRED API | Monthly |
-| Cost of living | FRED API | Quarterly |
-
-Free API keys: https://fred.stlouisfed.org/docs/api/
-
-## Local Setup
-
-### Prerequisites
-- Python 3.8+
-- Hugging Face Pro account (for LLM access)
-
-### Quick Start
-```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Create .env file with API keys
-FRED_API_KEY=your_key
-HUGGING_FACE_API_KEY=your_key
-
-# 3. Test the setup
-python test_pro_account.py
-
-# 4. Generate copy for all 50 cities
-python generate_city_summaries_pro.py
-```
-
-## Output Format
-
-### JSON Output Example
-```json
-{
-  "rank": 1,
-  "city": "New York",
-  "grade": "C",
-  "percentile": 27.5,
-  "generated_copy": "New York ranks 1st out of 50 metros but scores a C grade due to structural employment challenges. While wage growth outpaces most cities (70th percentile), unemployment remains elevated (12th percentile) and labor force participation lags significantly (32nd percentile)..."
-}
-```
-
-## Content Strategy
-
-**Monthly rotation across 4 weeks:**
-- Week 1: Top 10 metros (ranks 1-10)
-- Week 2: Mid-major metros (ranks 11-20)
-- Week 3: Smaller metros (ranks 21-30)
-- Week 4: Monthly analysis & insights
-
-## Technology Stack
-
-- **Data Processing:** Python (pandas, requests)
-- **Spreadsheets:** Excel (openpyxl)
-- **LLM API:** Hugging Face Hub
-- **Automation:** GitHub Actions
-- **Data Source:** FRED API
-
-## Current State
-
-✅ Complete 3-script data pipeline with 100% API success rate  
-✅ All 10 metrics properly calculated with 65/35 weighting  
-✅ JSON data ready for all 50 metros  
-⏳ LinkedIn copy generation in progress  
-⏳ Automated carousel image generation (planned)  
-⏳ AI-powered economic commentary integration (planned)  
-
-## Files
-
-| File | Purpose |
-|------|---------|
-| `pull_economic_data.py` | Fetch data from FRED API |
-| `process_historical_data.py` | Calculate derived metrics |
-| `calculate_metrics_65_35.py` | Score and grade metros |
-| `generate_city_summaries_pro.py` | Generate LinkedIn copy |
-| `calculated_metrics_reconciled.json` | Complete economic data for all 50 metros |
-
-## Next Steps
-
-1. ✅ Test Hugging Face API setup
-2. ✅ Generate LinkedIn copy for all 50 cities
-3. ⏳ Build carousel image generator (Canva → HTML/CSS → Playwright)
-4. ⏳ Schedule automated LinkedIn posts
-5. ⏳ Add real-time cost of living calculations
-
-## Project Goals
-
-**Short-term:** Automated monthly LinkedIn content with professional economic analysis  
-**Long-term:** Comprehensive economic intelligence platform for metro-level decision making
-
-## Questions or Contributions?
-
-This is an active project. Updates and improvements are ongoing.
+Output: one Markdown file per city in `city_reports_ft_cautious/`.
 
 ---
 
-**Last Updated:** November 2025  
-**Status:** Active Development
+## Automation
+
+GitHub Actions runs the full pipeline every Monday at 9:00 AM UTC (`.github/workflows/economic-data-weekly.yml`). Results are committed back to the repo automatically. Requires two repository secrets: `FRED_API_KEY` and `TOGETHER_API_KEY`.
+
+---
+
+## Local Setup
+
+**Requirements:** Python 3.11+
+
+```bash
+pip install requests pandas openpyxl pillow together python-dotenv
+```
+
+Create `.env` in `final.1/`:
+```
+FRED_API_KEY=your_fred_api_key
+TOGETHER_API_KEY=your_together_api_key
+```
+
+**Run the full pipeline:**
+```bash
+python pull_economic_data_unified_FIXED.py
+python process_historical_data_v2_FIXED.py
+python calculate_metrics_reconciled_V6.py
+python city_econ_pipeline_cautious.py   # optional — requires TOGETHER_API_KEY
+```
+
+Free FRED API key: https://fred.stlouisfed.org/docs/api/api_key.html
+
+---
+
+## Output Files
+
+| File | Description |
+|------|-------------|
+| `economic_data_combined.json` | Raw pull output — 15 observations per series per metro |
+| `processed_economic_data_v2.json` | Processed data with averages, YoY changes, trend fields |
+| `calculated_metrics_reconciled.json` | Final scores, grades, and raw values for all 50 metros |
+| `Economic_Metrics_All_Metros.xlsx` | Excel workbook — Summary, Metric Scores, Raw Values, By Rank, Top vs Bottom |
+| `city_reports_ft_cautious/*.md` | AI-generated FT-style economic report per city |
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Data source | FRED API (Federal Reserve Economic Data) |
+| Data processing | Python — pandas, requests |
+| Scoring engine | Python — custom percentile ranking |
+| Excel output | openpyxl |
+| LLM inference | Together AI (Qwen 2.5 72B + Llama 3.1 8B) |
+| Automation | GitHub Actions |
+
+---
+
+## Scoring Overview
+
+9 metrics, percentile-ranked across 50 metros, weighted composite score. See `SCORING_README.md` for full methodology including composite metric details, grade calibration, and design rationale.
+
+**Weight split: 85% employment-side / 15% housing-side**
+
+| Code | Metric | Weight |
+|------|--------|--------|
+| 101A | Unemployment Rate | 20% |
+| 102A | Labor Force Participation | 15% |
+| 103B | Hourly Earnings YoY | 10% |
+| 104C | Cost of Living (3-component composite) | 10% |
+| 105C | Office Worker Ratio (2-component composite) | 5% |
+| 106D | Weekly Hours Trend Deviation | 10% |
+| 107E | Total Nonfarm Employment Growth YoY | 15% |
+| 200B | Building Permits YoY | 10% |
+| 204A | Days on Market (2-component composite) | 5% |
+
+---
+
+## Current Status
+
+- Full pipeline operational and automated weekly
+- 49/50 cities have live weekly hours trend scoring (106D); Jacksonville populates on next run as 12-month history accumulates
+- Grade thresholds calibrated to the achievable weighted-average range (~24-79)
+
+---
+
+**Last updated:** April 2026
