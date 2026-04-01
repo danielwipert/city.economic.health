@@ -250,6 +250,56 @@ def calculate_col_final_score(metro_data: Dict, all_metros: List[Dict],
 
 
 # ============================================================================
+# 204A: DAYS ON MARKET 2-COMPONENT COMPOSITE
+# ============================================================================
+
+def calculate_dom_composite_score(days_yoy, dom_level):
+    """
+    2-component composite for Days on Market (204A). Total: 0-10, higher = better.
+    Percentile-ranked with invert=False.
+
+    c1 (60% = 6 pts): YoY % change in DoM — trend signal.
+        Rising DoM = market loosening = better accessibility for incoming workers.
+        -30% or worse → 0 pts | flat → 3 pts | +30% or more → 6 pts.
+
+    c2 (40% = 4 pts): Absolute DoM level — context and distress filter.
+        Normal range (35-80 days) peaks at 4 pts.
+        Extreme tightness (<15 days) → 0 pts — accessibility problem.
+        Severe softness (>130 days) → 0 pts — potential demand destruction.
+        This prevents a loosening trend in an already-distressed soft market
+        from scoring the same as a healthy market loosening from moderate tightness.
+    """
+    # --- c1: Trend (0-6 points) ---
+    if days_yoy is None:
+        c1_score = 3.0  # default to midpoint
+    elif days_yoy >= 30:
+        c1_score = 6.0
+    elif days_yoy <= -30:
+        c1_score = 0.0
+    else:
+        c1_score = (days_yoy + 30) / 60.0 * 6.0  # linear -30→0→+30 maps to 0→3→6
+
+    # --- c2: Level context (0-4 points) ---
+    TIGHT_FLOOR  = 15   # at or below: full tightness penalty
+    NORMAL_LOW   = 35   # lower bound of healthy/accessible range
+    NORMAL_HIGH  = 80   # upper bound of healthy range
+    SOFT_CEILING = 130  # at or above: full softness/distress penalty
+
+    if dom_level is None:
+        c2_score = 2.0  # default to midpoint
+    elif NORMAL_LOW <= dom_level <= NORMAL_HIGH:
+        c2_score = 4.0  # in the healthy zone
+    elif dom_level < NORMAL_LOW:
+        # Linear from 0 (at TIGHT_FLOOR) → 4 (at NORMAL_LOW)
+        c2_score = max(0.0, (dom_level - TIGHT_FLOOR) / (NORMAL_LOW - TIGHT_FLOOR) * 4.0)
+    else:
+        # Linear from 4 (at NORMAL_HIGH) → 0 (at SOFT_CEILING)
+        c2_score = max(0.0, 4.0 - (dom_level - NORMAL_HIGH) / (SOFT_CEILING - NORMAL_HIGH) * 4.0)
+
+    return min(10.0, max(0.0, c1_score + c2_score))
+
+
+# ============================================================================
 # STEP 2: PERCENTILE-BASED SCORING
 # ============================================================================
 
@@ -369,11 +419,11 @@ def calculate_metrics():
         # with genuine economic demand.
         emp_yoy = data.get('all_employees', {}).get('yoy_change', {}).get('pct_change')
         permits_yoy = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')
-        # 204A: YoY change in days on market — captures the trend, not the level.
-        # Rising DoM = market loosening = more inventory available for relocating employees = good.
-        # Falling DoM = market tightening = less inventory = bad for workers.
-        # invert=False: higher (looser market) gets higher percentile score.
-        days_yoy = data.get('median_days_on_market', {}).get('yoy_change', {}).get('pct_change')
+        # 204A: 2-component composite — trend (60%) + level context (40%).
+        # Trend captures loosening/tightening; level filters out distress signals.
+        days_yoy   = data.get('median_days_on_market', {}).get('yoy_change', {}).get('pct_change')
+        dom_level  = data.get('median_days_on_market', {}).get('latest_value')
+        dom_composite = calculate_dom_composite_score(days_yoy, dom_level)
 
         # Add to collections (only if not None)
         if unemp is not None:
@@ -392,8 +442,8 @@ def calculate_metrics():
             metrics_data['107E'].append(emp_yoy)
         if permits_yoy is not None:
             metrics_data['200B'].append(permits_yoy)
-        if days_yoy is not None:
-            metrics_data['204A'].append(days_yoy)
+        if days_yoy is not None or dom_level is not None:
+            metrics_data['204A'].append(dom_composite)
     
     print(f"✓ Collected metrics from {len(all_metros)} metros")
     
@@ -437,9 +487,11 @@ def calculate_metrics():
         wh_deviation = ((wh_3mo - wh_12mo) / wh_12mo * 100
                         if wh_3mo is not None and wh_12mo and wh_12mo != 0
                         else None)
-        emp_yoy = data.get('all_employees', {}).get('yoy_change', {}).get('pct_change')
-        permits_yoy = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')
-        days_yoy = data.get('median_days_on_market', {}).get('yoy_change', {}).get('pct_change')
+        emp_yoy      = data.get('all_employees', {}).get('yoy_change', {}).get('pct_change')
+        permits_yoy  = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')
+        days_yoy     = data.get('median_days_on_market', {}).get('yoy_change', {}).get('pct_change')
+        dom_level    = data.get('median_days_on_market', {}).get('latest_value')
+        dom_composite = calculate_dom_composite_score(days_yoy, dom_level)
 
         # Calculate percentile scores
         percentiles = {
@@ -451,7 +503,7 @@ def calculate_metrics():
             '106D': calculate_percentile_score(wh_deviation, metrics_data['106D'], invert=False) if wh_deviation is not None else 50,
             '107E': calculate_percentile_score(emp_yoy, metrics_data['107E'], invert=False) if emp_yoy is not None else 50,
             '200B': calculate_percentile_score(permits_yoy, metrics_data['200B'], invert=False) if permits_yoy is not None else 50,
-            '204A': calculate_percentile_score(days_yoy, metrics_data['204A'], invert=False) if days_yoy is not None else 50,
+            '204A': calculate_percentile_score(dom_composite, metrics_data['204A'], invert=False),
         }
         
         # Calculate weighted percentile score
@@ -497,7 +549,9 @@ def calculate_metrics():
                 "106D_wh_trend_deviation_pct": round(wh_deviation, 3) if wh_deviation is not None else None,
                 "107E_employment_growth_yoy": round(emp_yoy, 2) if emp_yoy is not None else None,
                 "200B_permits_yoy": round(permits_yoy, 2) if permits_yoy is not None else None,
+                "204A_dom_composite": round(dom_composite, 2),
                 "204A_dom_yoy_pct": round(days_yoy, 2) if days_yoy is not None else None,
+                "204A_dom_level_days": round(dom_level, 0) if dom_level is not None else None,
             },
             "percentile_scores": {code: round(p, 1) for code, p in percentiles.items()},
             "scores_100": {code: int(round(p)) for code, p in percentiles.items()},
@@ -532,7 +586,7 @@ def calculate_metrics():
             "106D": "weekly_hours_trend_deviation_pct (10)",
             "107E": "total_nonfarm_employment_growth_yoy (15)",
             "200B": "building_permits_3month_smoothed_yoy (10)",
-            "204A": "median_days_on_market_yoy_pct_change (5)",
+            "204A": "median_days_on_market_2component_composite (5)",
         },
         "metros": results
     }
@@ -663,7 +717,8 @@ def create_excel_from_metrics(output_data):
         '103B_earnings_yoy': 'Earnings YoY %', '104C_col': 'COL Score',
         '105C_owr': 'Office Worker %', '106D_wh_trend_deviation_pct': 'WH Trend Dev %',
         '107E_employment_growth_yoy': 'Emp Growth YoY %', '200B_permits_yoy': 'Permits YoY %',
-        '204A_dom_yoy_pct': 'DoM YoY %'
+        '204A_dom_composite': 'DoM Composite (0-10)',
+        '204A_dom_yoy_pct': 'DoM YoY %', '204A_dom_level_days': 'DoM Level (days)'
     }
     
     raw_keys = list(raw_metric_names.keys())
