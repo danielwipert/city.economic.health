@@ -442,24 +442,27 @@ def calculate_metrics():
         weighted_percentile = sum(percentiles[code] * weights[code] for code in weights) / total_weight
         weighted_score = int(round(weighted_percentile))
         
-        # Assign grade based on percentile
-        if weighted_percentile >= 90:
+        # Assign grade based on weighted percentile score.
+        # Thresholds are calibrated to the achievable range (~24-70) that
+        # results from averaging 10 percentile scores across 50 metros —
+        # no city can realistically score above ~70 on the weighted average.
+        if weighted_percentile >= 68:
             grade_letter, emoji, description = "A+", "🚀", "Excellent"
-        elif weighted_percentile >= 80:
+        elif weighted_percentile >= 63:
             grade_letter, emoji, description = "A", "✅", "Very Good"
-        elif weighted_percentile >= 70:
+        elif weighted_percentile >= 59:
             grade_letter, emoji, description = "A-", "👍", "Good"
-        elif weighted_percentile >= 60:
+        elif weighted_percentile >= 55:
             grade_letter, emoji, description = "B+", "📈", "Above Average"
         elif weighted_percentile >= 50:
             grade_letter, emoji, description = "B", "➡️", "Average"
-        elif weighted_percentile >= 40:
+        elif weighted_percentile >= 44:
             grade_letter, emoji, description = "B-", "⚠️", "Below Average"
-        elif weighted_percentile >= 30:
+        elif weighted_percentile >= 38:
             grade_letter, emoji, description = "C+", "📉", "Poor"
-        elif weighted_percentile >= 20:
+        elif weighted_percentile >= 32:
             grade_letter, emoji, description = "C", "⛔", "Very Poor"
-        elif weighted_percentile >= 10:
+        elif weighted_percentile >= 26:
             grade_letter, emoji, description = "C-", "🚨", "Critical"
         else:
             grade_letter, emoji, description = "D", "💥", "Emergency"
