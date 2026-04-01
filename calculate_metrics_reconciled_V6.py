@@ -339,11 +339,10 @@ def calculate_metrics():
         '102A': [],  # Labor force participation
         '103B': [],  # Hourly earnings YoY
         '104C': [],  # Cost of living (final score)
-        '105C': [],  # Office worker ratio (new 2-component score)
+        '105C': [],  # Office worker ratio (2-component score)
         '106D': [],  # Weekly hours deviation from 12-month trend (pct)
+        '107E': [],  # Total nonfarm employment growth YoY (demand signal)
         '200B': [],  # Building permits YoY
-        '201': [],   # Home price index YoY
-        '202': [],   # Price per sqft YoY
         '204A': [],  # Median days on market
     }
 
@@ -357,17 +356,19 @@ def calculate_metrics():
         col_score = calculate_col_final_score(metro, all_metros, col_component2_all, col_component3_all)
         owr = owr_scores_all.get(metro['metro_name'])
         # 106D: deviation of recent 3-month avg from 12-month trailing average.
-        # Captures whether the labor market is running above or below its own
-        # recent baseline — removes industry-composition bias from level comparison.
+        # Captures whether labor demand is running above or below its own baseline —
+        # removes industry-composition bias from cross-metro level comparison.
         wh_data = data.get('weekly_hours', {})
         wh_3mo = wh_data.get('3month_average')
         wh_12mo = wh_data.get('12month_average')
         wh_deviation = ((wh_3mo - wh_12mo) / wh_12mo * 100
                         if wh_3mo is not None and wh_12mo and wh_12mo != 0
                         else None)
+        # 107E: total nonfarm payroll YoY growth — the direct demand signal.
+        # Replaces HPI/PSF which were noisy proxies conflating supply constraints
+        # with genuine economic demand.
+        emp_yoy = data.get('all_employees', {}).get('yoy_change', {}).get('pct_change')
         permits_yoy = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')
-        hpi_yoy = data.get('home_price_index', {}).get('yoy_change', {}).get('pct_change')
-        psf_yoy = data.get('price_per_sqft', {}).get('3month_avg_yoy', {}).get('pct_change')
         days = data.get('median_days_on_market', {}).get('latest_value')
 
         # Add to collections (only if not None)
@@ -383,28 +384,29 @@ def calculate_metrics():
             metrics_data['105C'].append(owr)
         if wh_deviation is not None:
             metrics_data['106D'].append(wh_deviation)
+        if emp_yoy is not None:
+            metrics_data['107E'].append(emp_yoy)
         if permits_yoy is not None:
             metrics_data['200B'].append(permits_yoy)
-        if hpi_yoy is not None:
-            metrics_data['201'].append(hpi_yoy)
-        if psf_yoy is not None:
-            metrics_data['202'].append(psf_yoy)
         if days is not None:
             metrics_data['204A'].append(days)
     
     print(f"✓ Collected metrics from {len(all_metros)} metros")
     
-    # Weight configuration
+    # Weight configuration — total = 100
+    # Employment (85%): unemployment, LFP, earnings, COL, OWR, weekly hours, payroll growth
+    # Housing (15%): building permits, days on market
+    # HPI and PSF removed: housing price appreciation conflates supply constraints
+    # with genuine demand; payroll growth (107E) captures the demand signal directly.
     weights = {
-        '101A': 15,  # Unemployment (lower is better)
+        '101A': 20,  # Unemployment (lower is better) — increased from 15; most-watched labor indicator
         '102A': 15,  # LFP (higher is better)
-        '103B': 10,  # Earnings growth (higher is better)
+        '103B': 10,  # Earnings growth YoY (higher is better)
         '104C': 10,  # Cost of living (lower is better)
         '105C': 5,   # Office worker ratio (higher is better)
-        '106D': 10,  # Weekly hours deviation from 12-month trend (higher = running above trend = better)
-        '200B': 10,  # Permits growth (higher is better)
-        '201': 10,   # HPI growth (higher is better)
-        '202': 10,   # PSF growth (higher is better)
+        '106D': 10,  # Weekly hours deviation from 12-month trend (higher = above trend = better)
+        '107E': 15,  # Total nonfarm employment growth YoY (higher is better)
+        '200B': 10,  # Building permits YoY (higher is better)
         '204A': 5,   # Days on market (lower is better)
     }
     
@@ -431,9 +433,8 @@ def calculate_metrics():
         wh_deviation = ((wh_3mo - wh_12mo) / wh_12mo * 100
                         if wh_3mo is not None and wh_12mo and wh_12mo != 0
                         else None)
+        emp_yoy = data.get('all_employees', {}).get('yoy_change', {}).get('pct_change')
         permits_yoy = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')
-        hpi_yoy = data.get('home_price_index', {}).get('yoy_change', {}).get('pct_change')
-        psf_yoy = data.get('price_per_sqft', {}).get('3month_avg_yoy', {}).get('pct_change')
         days = data.get('median_days_on_market', {}).get('latest_value')
 
         # Calculate percentile scores
@@ -444,9 +445,8 @@ def calculate_metrics():
             '104C': calculate_percentile_score(col_score, metrics_data['104C'], invert=True) if col_score else 50,
             '105C': calculate_percentile_score(owr, metrics_data['105C'], invert=False) if owr is not None else 50,
             '106D': calculate_percentile_score(wh_deviation, metrics_data['106D'], invert=False) if wh_deviation is not None else 50,
+            '107E': calculate_percentile_score(emp_yoy, metrics_data['107E'], invert=False) if emp_yoy is not None else 50,
             '200B': calculate_percentile_score(permits_yoy, metrics_data['200B'], invert=False) if permits_yoy is not None else 50,
-            '201': calculate_percentile_score(hpi_yoy, metrics_data['201'], invert=False) if hpi_yoy is not None else 50,
-            '202': calculate_percentile_score(psf_yoy, metrics_data['202'], invert=False) if psf_yoy is not None else 50,
             '204A': calculate_percentile_score(days, metrics_data['204A'], invert=True) if days else 50,
         }
         
@@ -491,9 +491,8 @@ def calculate_metrics():
                 "104C_col": round(col_score, 2) if col_score else None,
                 "105C_owr": round(owr, 2) if owr is not None else None,
                 "106D_wh_trend_deviation_pct": round(wh_deviation, 3) if wh_deviation is not None else None,
+                "107E_employment_growth_yoy": round(emp_yoy, 2) if emp_yoy is not None else None,
                 "200B_permits_yoy": round(permits_yoy, 2) if permits_yoy is not None else None,
-                "201_hpi_yoy": round(hpi_yoy, 2) if hpi_yoy is not None else None,
-                "202_psf_yoy": round(psf_yoy, 2) if psf_yoy is not None else None,
                 "204A_days_on_market": round(days, 0) if days else None,
             },
             "percentile_scores": {code: round(p, 1) for code, p in percentiles.items()},
@@ -515,21 +514,20 @@ def calculate_metrics():
     output = {
         "calculation_timestamp": datetime.now().isoformat(),
         "calculation_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "version": "4.2",
+        "version": "5.0",
         "scoring_method": "Percentile-Based (Rank Order)",
-        "rubric": "10-Metric Percentile System with 3-Component COL, 2-Component OWR, and Smoothed Metrics",
-        "note": "Percentile scoring: Score of 75 = Better than 75% of metros. 105C OWR uses YoY growth (3pts) + absolute % (2pts). 104C COL uses absolute affordability (3pts) + direction (4pts) + volatility (3pts). 200B Building Permits and 202 PSF both use 3-month average YoY (smoothed).",
+        "rubric": "9-Metric Percentile System: 85% Employment / 15% Housing",
+        "note": "HPI and PSF YoY removed — housing price appreciation conflates supply constraints with genuine demand; payroll growth (107E) captures demand directly. 106D weekly hours scored as deviation from own 12-month trend to remove industry-composition bias. 104C COL: absolute affordability (3pts) + direction (4pts) + volatility (3pts). 105C OWR: YoY growth (3pts) + absolute % (2pts). 200B permits uses 3-month smoothed YoY.",
         "weight_configuration": weights,
         "score_codes": {
-            "101A": "unemployment_rate (15)",
+            "101A": "unemployment_rate (20)",
             "102A": "labor_force_participation (15)",
             "103B": "hourly_earnings_yoy (10)",
             "104C": "cost_of_living_3component (10)",
             "105C": "office_worker_ratio_2component (5)",
             "106D": "weekly_hours_trend_deviation_pct (10)",
+            "107E": "total_nonfarm_employment_growth_yoy (15)",
             "200B": "building_permits_3month_smoothed_yoy (10)",
-            "201": "home_price_index_yoy (10)",
-            "202": "price_per_sqft_3month_smoothed_yoy (10)",
             "204A": "median_days_on_market (5)",
         },
         "metros": results
