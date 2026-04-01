@@ -259,7 +259,7 @@ def calculate_percentile_score(value: float, all_values: List[float],
     Calculate percentile score for a single value (0-100 scale)
     
     invert=False: Higher value = higher percentile (good for earnings, permits, etc)
-    invert=True:  Lower value = higher percentile (good for unemployment, days_on_market)
+    invert=True:  Lower value = higher percentile (good for unemployment, COL)
     """
     if not all_values or len(all_values) < 2:
         return 50.0
@@ -369,7 +369,11 @@ def calculate_metrics():
         # with genuine economic demand.
         emp_yoy = data.get('all_employees', {}).get('yoy_change', {}).get('pct_change')
         permits_yoy = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')
-        days = data.get('median_days_on_market', {}).get('latest_value')
+        # 204A: YoY change in days on market — captures the trend, not the level.
+        # Rising DoM = market loosening = more inventory available for relocating employees = good.
+        # Falling DoM = market tightening = less inventory = bad for workers.
+        # invert=False: higher (looser market) gets higher percentile score.
+        days_yoy = data.get('median_days_on_market', {}).get('yoy_change', {}).get('pct_change')
 
         # Add to collections (only if not None)
         if unemp is not None:
@@ -388,8 +392,8 @@ def calculate_metrics():
             metrics_data['107E'].append(emp_yoy)
         if permits_yoy is not None:
             metrics_data['200B'].append(permits_yoy)
-        if days is not None:
-            metrics_data['204A'].append(days)
+        if days_yoy is not None:
+            metrics_data['204A'].append(days_yoy)
     
     print(f"✓ Collected metrics from {len(all_metros)} metros")
     
@@ -407,7 +411,7 @@ def calculate_metrics():
         '106D': 10,  # Weekly hours deviation from 12-month trend (higher = above trend = better)
         '107E': 15,  # Total nonfarm employment growth YoY (higher is better)
         '200B': 10,  # Building permits YoY (higher is better)
-        '204A': 5,   # Days on market (lower is better)
+        '204A': 5,   # Days on market YoY change (rising = loosening market = better for employees)
     }
     
     # Calculate percentile scores for each metro
@@ -435,7 +439,7 @@ def calculate_metrics():
                         else None)
         emp_yoy = data.get('all_employees', {}).get('yoy_change', {}).get('pct_change')
         permits_yoy = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')
-        days = data.get('median_days_on_market', {}).get('latest_value')
+        days_yoy = data.get('median_days_on_market', {}).get('yoy_change', {}).get('pct_change')
 
         # Calculate percentile scores
         percentiles = {
@@ -447,7 +451,7 @@ def calculate_metrics():
             '106D': calculate_percentile_score(wh_deviation, metrics_data['106D'], invert=False) if wh_deviation is not None else 50,
             '107E': calculate_percentile_score(emp_yoy, metrics_data['107E'], invert=False) if emp_yoy is not None else 50,
             '200B': calculate_percentile_score(permits_yoy, metrics_data['200B'], invert=False) if permits_yoy is not None else 50,
-            '204A': calculate_percentile_score(days, metrics_data['204A'], invert=True) if days else 50,
+            '204A': calculate_percentile_score(days_yoy, metrics_data['204A'], invert=False) if days_yoy is not None else 50,
         }
         
         # Calculate weighted percentile score
@@ -493,7 +497,7 @@ def calculate_metrics():
                 "106D_wh_trend_deviation_pct": round(wh_deviation, 3) if wh_deviation is not None else None,
                 "107E_employment_growth_yoy": round(emp_yoy, 2) if emp_yoy is not None else None,
                 "200B_permits_yoy": round(permits_yoy, 2) if permits_yoy is not None else None,
-                "204A_days_on_market": round(days, 0) if days else None,
+                "204A_dom_yoy_pct": round(days_yoy, 2) if days_yoy is not None else None,
             },
             "percentile_scores": {code: round(p, 1) for code, p in percentiles.items()},
             "scores_100": {code: int(round(p)) for code, p in percentiles.items()},
@@ -528,7 +532,7 @@ def calculate_metrics():
             "106D": "weekly_hours_trend_deviation_pct (10)",
             "107E": "total_nonfarm_employment_growth_yoy (15)",
             "200B": "building_permits_3month_smoothed_yoy (10)",
-            "204A": "median_days_on_market (5)",
+            "204A": "median_days_on_market_yoy_pct_change (5)",
         },
         "metros": results
     }
@@ -619,11 +623,11 @@ def create_excel_from_metrics(output_data):
     # ========== SHEET 2: METRIC SCORES ==========
     ws_scores = wb.create_sheet("Metric Scores", 1)
     
-    metric_codes = ['101A', '102A', '103B', '104C', '105C', '106D', '200B', '201', '202', '204A']
+    metric_codes = ['101A', '102A', '103B', '104C', '105C', '106D', '107E', '200B', '204A']
     metric_names = {
         '101A': 'Unemployment', '102A': 'LFP', '103B': 'Earnings YoY', '104C': 'COL',
-        '105C': 'Office Workers', '106D': 'Weekly Hours', '200B': 'Permits YoY',
-        '201': 'HPI YoY', '202': 'PSF YoY', '204A': 'Days on Market'
+        '105C': 'Office Workers', '106D': 'Weekly Hours', '107E': 'Emp Growth YoY',
+        '200B': 'Permits YoY', '204A': 'DoM YoY'
     }
     
     headers_scores = ['Metro Name', 'Weighted Score'] + [f"{code}\n({metric_names[code]})" for code in metric_codes]
@@ -657,9 +661,9 @@ def create_excel_from_metrics(output_data):
     raw_metric_names = {
         '101A_unemployment': 'Unemployment %', '102A_lfp': 'LFP %',
         '103B_earnings_yoy': 'Earnings YoY %', '104C_col': 'COL Score',
-        '105C_owr': 'Office Worker %', '106D_weekly_hours': 'Weekly Hours',
-        '200B_permits_yoy': 'Permits YoY %', '201_hpi_yoy': 'HPI YoY %',
-        '202_psf_yoy': 'PSF YoY %', '204A_days_on_market': 'Days on Market'
+        '105C_owr': 'Office Worker %', '106D_wh_trend_deviation_pct': 'WH Trend Dev %',
+        '107E_employment_growth_yoy': 'Emp Growth YoY %', '200B_permits_yoy': 'Permits YoY %',
+        '204A_dom_yoy_pct': 'DoM YoY %'
     }
     
     raw_keys = list(raw_metric_names.keys())
