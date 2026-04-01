@@ -167,11 +167,12 @@ def calculate_col_final_score(metro_data: Dict, all_metros: List[Dict],
                              col_component2_all: Dict, col_component3_all: Dict) -> float:
     """
     Combine 3 COL components into final 0-10 score (lower = better affordability):
-    - Component 1 (absolute affordability): 0-3 pts — min-max normalized PSF/earnings ratio
-    - Component 2 (direction, graduated): 0-4 pts — YoY % change in COL ratio;
-        ≤ -5% (improving) → 0, flat → 2, ≥ +5% (worsening) → 4
-    - Component 3 (peer-relative trend): 0-3 pts — deviation from national median YoY%;
-        worsening much faster than peers → 3, in line with peers → 1.5, improving faster → 0
+    - Component 1 (absolute affordability): 0-5 pts — min-max normalized PSF/earnings ratio.
+        Dominates at 50% so expensive cities can't escape their absolute cost via trend credit alone.
+    - Component 2 (direction, graduated): 0-3 pts — YoY % change in COL ratio;
+        ≤ -5% (improving) → 0, flat → 1.5, ≥ +5% (worsening) → 3
+    - Component 3 (peer-relative trend): 0-2 pts — deviation from national median YoY%;
+        improving much faster than peers → 0, in line → 1, worsening much faster → 2
     """
     metro_name = metro_data['metro_name']
     
@@ -195,9 +196,9 @@ def calculate_col_final_score(metro_data: Dict, all_metros: List[Dict],
     max_col = max(col_indices)
     
     if max_col > min_col:
-        c1_score = ((col_index - min_col) / (max_col - min_col)) * 3.0
+        c1_score = ((col_index - min_col) / (max_col - min_col)) * 5.0
     else:
-        c1_score = 1.5
+        c1_score = 2.5
     
     # Component 2: Direction of change (0-4 points) — graduated, not binary.
     # Uses YoY % change in COL ratio. Neutral at 0%, full penalty at ±5%.
@@ -207,9 +208,9 @@ def calculate_col_final_score(metro_data: Dict, all_metros: List[Dict],
     if col_yoy_pct <= -5:
         c2_score = 0.0   # Strong improvement → lowest penalty
     elif col_yoy_pct >= 5:
-        c2_score = 4.0   # Strong worsening  → highest penalty
+        c2_score = 3.0   # Strong worsening  → highest penalty
     else:
-        c2_score = (col_yoy_pct + 5) / 10.0 * 4.0  # Linear -5%→0→+5% maps to 0→2→4
+        c2_score = (col_yoy_pct + 5) / 10.0 * 3.0  # Linear -5%→0→+5% maps to 0→1.5→3
 
     # Component 3: Peer-relative trend (0-3 points).
     # Measures how this city's affordability trend compares to the national median.
@@ -228,9 +229,9 @@ def calculate_col_final_score(metro_data: Dict, all_metros: List[Dict],
     if deviation <= -10:
         c3_score = 0.0   # Improving much faster than peers → lowest penalty
     elif deviation >= 10:
-        c3_score = 3.0   # Worsening much faster than peers → highest penalty
+        c3_score = 2.0   # Worsening much faster than peers → highest penalty
     else:
-        c3_score = (deviation + 10) / 20.0 * 3.0  # Linear ±10% range maps to 0→3
+        c3_score = (deviation + 10) / 20.0 * 2.0  # Linear ±10% range maps to 0→1→2
     
     total = c1_score + c2_score + c3_score
     return min(10.0, max(0.0, total))
