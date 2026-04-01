@@ -101,14 +101,27 @@ class HistoricalDataProcessor:
         """Average of last 3 observations"""
         if not observations or len(observations) < 3:
             return None
-        
+
         last_3_values = []
         for i in range(3):
             value = self.safe_float(observations[i].get('value'))
             if value is not None:
                 last_3_values.append(value)
-        
+
         return mean(last_3_values) if len(last_3_values) == 3 else None
+
+    def calculate_12month_average(self, observations):
+        """Average of last 12 observations (12-month trailing baseline)"""
+        if not observations:
+            return None
+
+        values = []
+        for i in range(min(12, len(observations))):
+            value = self.safe_float(observations[i].get('value'))
+            if value is not None:
+                values.append(value)
+
+        return mean(values) if len(values) >= 3 else None
     
     def calculate_yoy_change(self, observations):
         """Year-over-year change (current vs 12 months ago)"""
@@ -182,6 +195,7 @@ class HistoricalDataProcessor:
             'series_id': metric_info.get('series_id'),
             'metric_name': metric_info.get('metric_name'),
             '3month_average': self.calculate_3month_average(observations),
+            '12month_average': self.calculate_12month_average(observations),
             'yoy_change': self.calculate_yoy_change(observations),
             '3month_avg_yoy': self.calculate_3month_avg_yoy(observations)
         }

@@ -340,28 +340,36 @@ def calculate_metrics():
         '103B': [],  # Hourly earnings YoY
         '104C': [],  # Cost of living (final score)
         '105C': [],  # Office worker ratio (new 2-component score)
-        '106D': [],  # Weekly hours
+        '106D': [],  # Weekly hours deviation from 12-month trend (pct)
         '200B': [],  # Building permits YoY
         '201': [],   # Home price index YoY
         '202': [],   # Price per sqft YoY
         '204A': [],  # Median days on market
     }
-    
+
     for metro in all_metros:
         data = metro['data']
-        
+
         # Extract latest values for each metric
         unemp = data.get('unemployment_rate', {}).get('latest_value')
         lfp = data.get('civilian_labor_force', {}).get('latest_value')
         earnings_yoy = data.get('hourly_earnings', {}).get('yoy_change', {}).get('pct_change')
         col_score = calculate_col_final_score(metro, all_metros, col_component2_all, col_component3_all)
         owr = owr_scores_all.get(metro['metro_name'])
-        weekly_hours = data.get('weekly_hours', {}).get('latest_value')
-        permits_yoy = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')  # SMOOTHED 3-month YoY
+        # 106D: deviation of recent 3-month avg from 12-month trailing average.
+        # Captures whether the labor market is running above or below its own
+        # recent baseline — removes industry-composition bias from level comparison.
+        wh_data = data.get('weekly_hours', {})
+        wh_3mo = wh_data.get('3month_average')
+        wh_12mo = wh_data.get('12month_average')
+        wh_deviation = ((wh_3mo - wh_12mo) / wh_12mo * 100
+                        if wh_3mo is not None and wh_12mo and wh_12mo != 0
+                        else None)
+        permits_yoy = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')
         hpi_yoy = data.get('home_price_index', {}).get('yoy_change', {}).get('pct_change')
-        psf_yoy = data.get('price_per_sqft', {}).get('3month_avg_yoy', {}).get('pct_change')  # SMOOTHED 3-month YoY
+        psf_yoy = data.get('price_per_sqft', {}).get('3month_avg_yoy', {}).get('pct_change')
         days = data.get('median_days_on_market', {}).get('latest_value')
-        
+
         # Add to collections (only if not None)
         if unemp is not None:
             metrics_data['101A'].append(unemp)
@@ -373,8 +381,8 @@ def calculate_metrics():
             metrics_data['104C'].append(col_score)
         if owr is not None:
             metrics_data['105C'].append(owr)
-        if weekly_hours is not None:
-            metrics_data['106D'].append(weekly_hours)
+        if wh_deviation is not None:
+            metrics_data['106D'].append(wh_deviation)
         if permits_yoy is not None:
             metrics_data['200B'].append(permits_yoy)
         if hpi_yoy is not None:
@@ -393,7 +401,7 @@ def calculate_metrics():
         '103B': 10,  # Earnings growth (higher is better)
         '104C': 10,  # Cost of living (lower is better)
         '105C': 5,   # Office worker ratio (higher is better)
-        '106D': 10,  # Weekly hours (higher is better)
+        '106D': 10,  # Weekly hours deviation from 12-month trend (higher = running above trend = better)
         '200B': 10,  # Permits growth (higher is better)
         '201': 10,   # HPI growth (higher is better)
         '202': 10,   # PSF growth (higher is better)
@@ -417,24 +425,29 @@ def calculate_metrics():
         earnings_yoy = data.get('hourly_earnings', {}).get('yoy_change', {}).get('pct_change')
         col_score = calculate_col_final_score(metro, all_metros, col_component2_all, col_component3_all)
         owr = owr_scores_all.get(metro_name)
-        weekly_hours = data.get('weekly_hours', {}).get('latest_value')
-        permits_yoy = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')  # SMOOTHED 3-month YoY
+        wh_data = data.get('weekly_hours', {})
+        wh_3mo = wh_data.get('3month_average')
+        wh_12mo = wh_data.get('12month_average')
+        wh_deviation = ((wh_3mo - wh_12mo) / wh_12mo * 100
+                        if wh_3mo is not None and wh_12mo and wh_12mo != 0
+                        else None)
+        permits_yoy = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')
         hpi_yoy = data.get('home_price_index', {}).get('yoy_change', {}).get('pct_change')
-        psf_yoy = data.get('price_per_sqft', {}).get('3month_avg_yoy', {}).get('pct_change')  # SMOOTHED 3-month YoY
+        psf_yoy = data.get('price_per_sqft', {}).get('3month_avg_yoy', {}).get('pct_change')
         days = data.get('median_days_on_market', {}).get('latest_value')
-        
+
         # Calculate percentile scores
         percentiles = {
             '101A': calculate_percentile_score(unemp, metrics_data['101A'], invert=True) if unemp else 50,
             '102A': calculate_percentile_score(lfp, metrics_data['102A'], invert=False) if lfp else 50,
             '103B': calculate_percentile_score(earnings_yoy, metrics_data['103B'], invert=False) if earnings_yoy is not None else 50,
-            '104C': calculate_percentile_score(col_score, metrics_data['104C'], invert=True) if col_score else 50,  # Lower COL = better
-            '105C': calculate_percentile_score(owr, metrics_data['105C'], invert=False) if owr is not None else 50,  # Higher OWR score = better
-            '106D': calculate_percentile_score(weekly_hours, metrics_data['106D'], invert=False) if weekly_hours else 50,
+            '104C': calculate_percentile_score(col_score, metrics_data['104C'], invert=True) if col_score else 50,
+            '105C': calculate_percentile_score(owr, metrics_data['105C'], invert=False) if owr is not None else 50,
+            '106D': calculate_percentile_score(wh_deviation, metrics_data['106D'], invert=False) if wh_deviation is not None else 50,
             '200B': calculate_percentile_score(permits_yoy, metrics_data['200B'], invert=False) if permits_yoy is not None else 50,
             '201': calculate_percentile_score(hpi_yoy, metrics_data['201'], invert=False) if hpi_yoy is not None else 50,
             '202': calculate_percentile_score(psf_yoy, metrics_data['202'], invert=False) if psf_yoy is not None else 50,
-            '204A': calculate_percentile_score(days, metrics_data['204A'], invert=True) if days else 50,  # Fewer days = better
+            '204A': calculate_percentile_score(days, metrics_data['204A'], invert=True) if days else 50,
         }
         
         # Calculate weighted percentile score
@@ -477,7 +490,7 @@ def calculate_metrics():
                 "103B_earnings_yoy": round(earnings_yoy, 2) if earnings_yoy is not None else None,
                 "104C_col": round(col_score, 2) if col_score else None,
                 "105C_owr": round(owr, 2) if owr is not None else None,
-                "106D_weekly_hours": round(weekly_hours, 1) if weekly_hours else None,
+                "106D_wh_trend_deviation_pct": round(wh_deviation, 3) if wh_deviation is not None else None,
                 "200B_permits_yoy": round(permits_yoy, 2) if permits_yoy is not None else None,
                 "201_hpi_yoy": round(hpi_yoy, 2) if hpi_yoy is not None else None,
                 "202_psf_yoy": round(psf_yoy, 2) if psf_yoy is not None else None,
@@ -513,7 +526,7 @@ def calculate_metrics():
             "103B": "hourly_earnings_yoy (10)",
             "104C": "cost_of_living_3component (10)",
             "105C": "office_worker_ratio_2component (5)",
-            "106D": "weekly_hours (10)",
+            "106D": "weekly_hours_trend_deviation_pct (10)",
             "200B": "building_permits_3month_smoothed_yoy (10)",
             "201": "home_price_index_yoy (10)",
             "202": "price_per_sqft_3month_smoothed_yoy (10)",
