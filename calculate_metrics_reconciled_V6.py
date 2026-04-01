@@ -874,14 +874,18 @@ def main():
         col_score = metro['raw_values']['104C_col']
         owr_score = metro['raw_values']['105C_owr']
         percentile = metro['weighted_percentile']
-        print(f"  {i:2d}. {metro['metro_name']:<40} {metro['grade_display']:8s} ({percentile:5.1f}th percentile) | COL: {col_score:.2f} OWR: {owr_score:.2f}")
-    
+        col_str = f"{col_score:.2f}" if col_score is not None else "N/A"
+        owr_str = f"{owr_score:.2f}" if owr_score is not None else "N/A"
+        print(f"  {i:2d}. {metro['metro_name']:<40} {metro['grade_display']:8s} ({percentile:5.1f}th percentile) | COL: {col_str} OWR: {owr_str}")
+
     print("\nBOTTOM 5 METROS:")
     for i, metro in enumerate(sorted_metros[-5:], 1):
         col_score = metro['raw_values']['104C_col']
         owr_score = metro['raw_values']['105C_owr']
         percentile = metro['weighted_percentile']
-        print(f"  {i}. {metro['metro_name']:<40} {metro['grade_display']:8s} ({percentile:5.1f}th percentile) | COL: {col_score:.2f} OWR: {owr_score:.2f}")
+        col_str = f"{col_score:.2f}" if col_score is not None else "N/A"
+        owr_str = f"{owr_score:.2f}" if owr_score is not None else "N/A"
+        print(f"  {i}. {metro['metro_name']:<40} {metro['grade_display']:8s} ({percentile:5.1f}th percentile) | COL: {col_str} OWR: {owr_str}")
     
     print("\n" + "=" * 80)
     print("📊 OUTPUT FILES GENERATED")

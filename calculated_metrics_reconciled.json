@@ -1,6 +1,6 @@
 {
-  "calculation_timestamp": "2026-04-01T17:22:21.147045",
-  "calculation_date": "2026-04-01 17:22:21",
+  "calculation_timestamp": "2026-04-01T17:43:56.714962",
+  "calculation_date": "2026-04-01 17:43:56",
   "version": "5.0",
   "scoring_method": "Percentile-Based (Rank Order)",
   "rubric": "9-Metric Percentile System: 85% Employment / 15% Housing",
@@ -37,8 +37,8 @@
         "102A_lfp": 63.3,
         "103B_earnings_yoy": 4.84,
         "104C_col": 4.78,
-        "105C_owr": 2.98,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 3.04,
+        "106D_wh_trend_deviation_pct": 0.814,
         "107E_employment_growth_yoy": 0.48,
         "200B_permits_yoy": 14.97,
         "204A_dom_composite": 7.0,
@@ -46,14 +46,14 @@
         "204A_dom_level_days": 68.0
       },
       "percentile_scores": {
-        "101A": 20.0,
+        "101A": 20.4,
         "102A": 36.0,
         "103B": 66.0,
         "104C": 16.0,
-        "105C": 64.0,
-        "106D": 50,
+        "105C": 69.4,
+        "106D": 84.0,
         "107E": 54.0,
-        "200B": 68.0,
+        "200B": 67.3,
         "204A": 28.0
       },
       "scores_100": {
@@ -61,21 +61,21 @@
         "102A": 36,
         "103B": 66,
         "104C": 16,
-        "105C": 64,
-        "106D": 50,
+        "105C": 69,
+        "106D": 84,
         "107E": 54,
-        "200B": 68,
+        "200B": 67,
         "204A": 28
       },
-      "weighted_percentile": 42.1,
-      "weighted_score": 42,
+      "weighted_percentile": 45.8,
+      "weighted_score": 46,
       "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
-        "percentile": 42.1
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
+        "percentile": 45.8
       },
-      "grade_display": "\ud83d\udcc9 C+"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "Los Angeles-Long Beach-Anaheim",
@@ -86,8 +86,8 @@
         "102A_lfp": 63.61,
         "103B_earnings_yoy": 5.33,
         "104C_col": 5.59,
-        "105C_owr": 0.96,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 0.98,
+        "106D_wh_trend_deviation_pct": -0.274,
         "107E_employment_growth_yoy": 1.83,
         "200B_permits_yoy": 20.24,
         "204A_dom_composite": 8.28,
@@ -95,14 +95,14 @@
         "204A_dom_level_days": 44.0
       },
       "percentile_scores": {
-        "101A": 10.0,
+        "101A": 10.2,
         "102A": 38.0,
         "103B": 76.0,
         "104C": 8.0,
-        "105C": 8.0,
-        "106D": 50,
+        "105C": 8.2,
+        "106D": 22.0,
         "107E": 92.0,
-        "200B": 80.0,
+        "200B": 79.6,
         "204A": 80.0
       },
       "scores_100": {
@@ -111,18 +111,18 @@
         "103B": 76,
         "104C": 8,
         "105C": 8,
-        "106D": 50,
+        "106D": 22,
         "107E": 92,
         "200B": 80,
         "204A": 80
       },
-      "weighted_percentile": 47.3,
-      "weighted_score": 47,
+      "weighted_percentile": 44.5,
+      "weighted_score": 45,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 47.3
+        "percentile": 44.5
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -135,8 +135,8 @@
         "102A_lfp": 64.75,
         "103B_earnings_yoy": 2.84,
         "104C_col": 3.0,
-        "105C_owr": 2.3,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.35,
+        "106D_wh_trend_deviation_pct": -0.275,
         "107E_employment_growth_yoy": 0.6,
         "200B_permits_yoy": -27.41,
         "204A_dom_composite": 6.3,
@@ -144,14 +144,14 @@
         "204A_dom_level_days": 40.0
       },
       "percentile_scores": {
-        "101A": 20.0,
+        "101A": 20.4,
         "102A": 60.0,
         "103B": 42.0,
         "104C": 48.0,
-        "105C": 44.0,
-        "106D": 50,
+        "105C": 44.9,
+        "106D": 20.0,
         "107E": 64.0,
-        "200B": 14.0,
+        "200B": 12.2,
         "204A": 12.0
       },
       "scores_100": {
@@ -159,21 +159,21 @@
         "102A": 60,
         "103B": 42,
         "104C": 48,
-        "105C": 44,
-        "106D": 50,
+        "105C": 45,
+        "106D": 20,
         "107E": 64,
-        "200B": 14,
+        "200B": 12,
         "204A": 12
       },
-      "weighted_percentile": 40.8,
-      "weighted_score": 41,
+      "weighted_percentile": 37.8,
+      "weighted_score": 38,
       "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
-        "percentile": 40.8
+        "letter": "C",
+        "emoji": "\u26d4",
+        "description": "Very Poor",
+        "percentile": 37.8
       },
-      "grade_display": "\ud83d\udcc9 C+"
+      "grade_display": "\u26d4 C"
     },
     {
       "metro_name": "Dallas-Fort Worth-Arlington",
@@ -184,8 +184,8 @@
         "102A_lfp": 69.61,
         "103B_earnings_yoy": 3.1,
         "104C_col": 1.41,
-        "105C_owr": 2.26,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.27,
+        "106D_wh_trend_deviation_pct": -0.14,
         "107E_employment_growth_yoy": 0.33,
         "200B_permits_yoy": -20.96,
         "204A_dom_composite": 7.18,
@@ -193,34 +193,34 @@
         "204A_dom_level_days": 57.0
       },
       "percentile_scores": {
-        "101A": 50.0,
+        "101A": 51.0,
         "102A": 90.0,
         "103B": 44.0,
         "104C": 86.0,
-        "105C": 42.0,
-        "106D": 50,
+        "105C": 40.8,
+        "106D": 30.0,
         "107E": 48.0,
-        "200B": 16.0,
+        "200B": 14.3,
         "204A": 34.0
       },
       "scores_100": {
-        "101A": 50,
+        "101A": 51,
         "102A": 90,
         "103B": 44,
         "104C": 86,
-        "105C": 42,
-        "106D": 50,
+        "105C": 41,
+        "106D": 30,
         "107E": 48,
-        "200B": 16,
+        "200B": 14,
         "204A": 34
       },
-      "weighted_percentile": 54.1,
-      "weighted_score": 54,
+      "weighted_percentile": 52.1,
+      "weighted_score": 52,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 54.1
+        "percentile": 52.1
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -233,8 +233,8 @@
         "102A_lfp": 64.52,
         "103B_earnings_yoy": 2.61,
         "104C_col": 1.17,
-        "105C_owr": 0.82,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 0.84,
+        "106D_wh_trend_deviation_pct": 0.639,
         "107E_employment_growth_yoy": 0.43,
         "200B_permits_yoy": -12.89,
         "204A_dom_composite": 7.0,
@@ -242,34 +242,34 @@
         "204A_dom_level_days": 54.0
       },
       "percentile_scores": {
-        "101A": 30.0,
+        "101A": 30.6,
         "102A": 54.0,
         "103B": 40.0,
         "104C": 94.0,
-        "105C": 6.0,
-        "106D": 50,
+        "105C": 6.1,
+        "106D": 78.0,
         "107E": 52.0,
-        "200B": 28.0,
+        "200B": 26.5,
         "204A": 28.0
       },
       "scores_100": {
-        "101A": 30,
+        "101A": 31,
         "102A": 54,
         "103B": 40,
         "104C": 94,
         "105C": 6,
-        "106D": 50,
+        "106D": 78,
         "107E": 52,
-        "200B": 28,
+        "200B": 27,
         "204A": 28
       },
-      "weighted_percentile": 44.8,
-      "weighted_score": 45,
+      "weighted_percentile": 47.6,
+      "weighted_score": 48,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 44.8
+        "percentile": 47.6
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -282,8 +282,8 @@
         "102A_lfp": 62.53,
         "103B_earnings_yoy": 7.12,
         "104C_col": 3.36,
-        "105C_owr": 1.86,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 1.9,
+        "106D_wh_trend_deviation_pct": 0.071,
         "107E_employment_growth_yoy": 0.25,
         "200B_permits_yoy": 41.11,
         "204A_dom_composite": 7.98,
@@ -291,34 +291,34 @@
         "204A_dom_level_days": 83.0
       },
       "percentile_scores": {
-        "101A": 68.0,
+        "101A": 69.4,
         "102A": 26.0,
         "103B": 86.0,
         "104C": 34.0,
-        "105C": 24.0,
-        "106D": 50,
+        "105C": 24.5,
+        "106D": 38.0,
         "107E": 44.0,
-        "200B": 84.0,
+        "200B": 83.7,
         "204A": 62.0
       },
       "scores_100": {
-        "101A": 68,
+        "101A": 69,
         "102A": 26,
         "103B": 86,
         "104C": 34,
         "105C": 24,
-        "106D": 50,
+        "106D": 38,
         "107E": 44,
         "200B": 84,
         "204A": 62
       },
-      "weighted_percentile": 53.8,
-      "weighted_score": 54,
+      "weighted_percentile": 52.9,
+      "weighted_score": 53,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 53.8
+        "percentile": 52.9
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -332,7 +332,7 @@
         "103B_earnings_yoy": 1.37,
         "104C_col": 1.9,
         "105C_owr": 2.22,
-        "106D_wh_trend_deviation_pct": null,
+        "106D_wh_trend_deviation_pct": -0.215,
         "107E_employment_growth_yoy": -1.63,
         "200B_permits_yoy": -3.97,
         "204A_dom_composite": 8.18,
@@ -340,36 +340,36 @@
         "204A_dom_level_days": 38.0
       },
       "percentile_scores": {
-        "101A": 46.0,
+        "101A": 46.9,
         "102A": 78.0,
         "103B": 24.0,
         "104C": 70.0,
-        "105C": 38.0,
-        "106D": 50,
+        "105C": 36.7,
+        "106D": 28.0,
         "107E": 0,
-        "200B": 50.0,
+        "200B": 49.0,
         "204A": 72.0
       },
       "scores_100": {
-        "101A": 46,
+        "101A": 47,
         "102A": 78,
         "103B": 24,
         "104C": 70,
-        "105C": 38,
-        "106D": 50,
+        "105C": 37,
+        "106D": 28,
         "107E": 0,
-        "200B": 50,
+        "200B": 49,
         "204A": 72
       },
-      "weighted_percentile": 45.8,
-      "weighted_score": 46,
+      "weighted_percentile": 43.6,
+      "weighted_score": 44,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
-        "percentile": 45.8
+        "letter": "C+",
+        "emoji": "\ud83d\udcc9",
+        "description": "Poor",
+        "percentile": 43.6
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\ud83d\udcc9 C+"
     },
     {
       "metro_name": "Atlanta-Sandy Springs-Roswell",
@@ -380,23 +380,23 @@
         "102A_lfp": 64.57,
         "103B_earnings_yoy": 8.27,
         "104C_col": 1.02,
-        "105C_owr": 3.52,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": null,
+        "106D_wh_trend_deviation_pct": 0.531,
         "107E_employment_growth_yoy": -0.01,
-        "200B_permits_yoy": -30.9,
+        "200B_permits_yoy": null,
         "204A_dom_composite": 6.66,
         "204A_dom_yoy_pct": -3.45,
         "204A_dom_level_days": 56.0
       },
       "percentile_scores": {
-        "101A": 80.0,
+        "101A": 79.6,
         "102A": 56.0,
         "103B": 94.0,
         "104C": 96.0,
-        "105C": 82.0,
-        "106D": 50,
+        "105C": 50,
+        "106D": 68.0,
         "107E": 26.0,
-        "200B": 10.0,
+        "200B": 50,
         "204A": 14.0
       },
       "scores_100": {
@@ -404,21 +404,21 @@
         "102A": 56,
         "103B": 94,
         "104C": 96,
-        "105C": 82,
-        "106D": 50,
+        "105C": 50,
+        "106D": 68,
         "107E": 26,
-        "200B": 10,
+        "200B": 50,
         "204A": 14
       },
-      "weighted_percentile": 58.1,
-      "weighted_score": 58,
+      "weighted_percentile": 62.2,
+      "weighted_score": 62,
       "grade": {
-        "letter": "B+",
-        "emoji": "\ud83d\udcc8",
-        "description": "Above Average",
-        "percentile": 58.1
+        "letter": "A-",
+        "emoji": "\ud83d\udc4d",
+        "description": "Good",
+        "percentile": 62.2
       },
-      "grade_display": "\ud83d\udcc8 B+"
+      "grade_display": "\ud83d\udc4d A-"
     },
     {
       "metro_name": "Philadelphia-Camden-Wilmington",
@@ -429,8 +429,8 @@
         "102A_lfp": 63.96,
         "103B_earnings_yoy": 2.21,
         "104C_col": 3.07,
-        "105C_owr": 3.56,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 3.57,
+        "106D_wh_trend_deviation_pct": 0.844,
         "107E_employment_growth_yoy": 1.16,
         "200B_permits_yoy": 4.14,
         "204A_dom_composite": 7.19,
@@ -438,34 +438,34 @@
         "204A_dom_level_days": 53.0
       },
       "percentile_scores": {
-        "101A": 34.0,
+        "101A": 34.7,
         "102A": 42.0,
         "103B": 34.0,
         "104C": 44.0,
-        "105C": 86.0,
-        "106D": 50,
+        "105C": 85.7,
+        "106D": 86.0,
         "107E": 86.0,
-        "200B": 58.0,
+        "200B": 57.1,
         "204A": 36.0
       },
       "scores_100": {
-        "101A": 34,
+        "101A": 35,
         "102A": 42,
         "103B": 34,
         "104C": 44,
         "105C": 86,
-        "106D": 50,
+        "106D": 86,
         "107E": 86,
-        "200B": 58,
+        "200B": 57,
         "204A": 36
       },
-      "weighted_percentile": 50.7,
-      "weighted_score": 51,
+      "weighted_percentile": 54.3,
+      "weighted_score": 54,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 50.7
+        "percentile": 54.3
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -474,12 +474,12 @@
       "rank": 10,
       "primary_city": "Phoenix",
       "raw_values": {
-        "101A_unemployment": 3.5,
+        "101A_unemployment": null,
         "102A_lfp": 66.34,
         "103B_earnings_yoy": 4.52,
         "104C_col": 2.08,
-        "105C_owr": 3.58,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 3.59,
+        "106D_wh_trend_deviation_pct": -1.243,
         "107E_employment_growth_yoy": 0.87,
         "200B_permits_yoy": 16.86,
         "204A_dom_composite": 6.82,
@@ -487,36 +487,36 @@
         "204A_dom_level_days": 55.0
       },
       "percentile_scores": {
-        "101A": 68.0,
+        "101A": 50,
         "102A": 74.0,
         "103B": 60.0,
         "104C": 66.0,
-        "105C": 88.0,
-        "106D": 50,
+        "105C": 87.8,
+        "106D": 2.0,
         "107E": 76.0,
-        "200B": 72.0,
+        "200B": 71.4,
         "204A": 24.0
       },
       "scores_100": {
-        "101A": 68,
+        "101A": 50,
         "102A": 74,
         "103B": 60,
         "104C": 66,
         "105C": 88,
-        "106D": 50,
+        "106D": 2,
         "107E": 76,
-        "200B": 72,
+        "200B": 71,
         "204A": 24
       },
-      "weighted_percentile": 66.5,
-      "weighted_score": 66,
+      "weighted_percentile": 58.0,
+      "weighted_score": 58,
       "grade": {
-        "letter": "A",
-        "emoji": "\u2705",
-        "description": "Very Good",
-        "percentile": 66.5
+        "letter": "B+",
+        "emoji": "\ud83d\udcc8",
+        "description": "Above Average",
+        "percentile": 58.0
       },
-      "grade_display": "\u2705 A"
+      "grade_display": "\ud83d\udcc8 B+"
     },
     {
       "metro_name": "Boston-Cambridge-Newton",
@@ -527,8 +527,8 @@
         "102A_lfp": 68.47,
         "103B_earnings_yoy": 1.42,
         "104C_col": 5.47,
-        "105C_owr": 3.14,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 3.16,
+        "106D_wh_trend_deviation_pct": 0.174,
         "107E_employment_growth_yoy": 0.73,
         "200B_permits_yoy": -14.97,
         "204A_dom_composite": 9.73,
@@ -536,34 +536,34 @@
         "204A_dom_level_days": 42.0
       },
       "percentile_scores": {
-        "101A": 44.0,
+        "101A": 44.9,
         "102A": 86.0,
         "103B": 26.0,
         "104C": 10.0,
-        "105C": 76.0,
-        "106D": 50,
+        "105C": 77.6,
+        "106D": 44.0,
         "107E": 72.0,
-        "200B": 26.0,
+        "200B": 24.5,
         "204A": 98.0
       },
       "scores_100": {
-        "101A": 44,
+        "101A": 45,
         "102A": 86,
         "103B": 26,
         "104C": 10,
-        "105C": 76,
-        "106D": 50,
+        "105C": 78,
+        "106D": 44,
         "107E": 72,
-        "200B": 26,
+        "200B": 24,
         "204A": 98
       },
-      "weighted_percentile": 52.4,
+      "weighted_percentile": 51.9,
       "weighted_score": 52,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 52.4
+        "percentile": 51.9
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -576,8 +576,8 @@
         "102A_lfp": 60.37,
         "103B_earnings_yoy": 7.54,
         "104C_col": 2.93,
-        "105C_owr": 1.3,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 1.33,
+        "106D_wh_trend_deviation_pct": -0.875,
         "107E_employment_growth_yoy": 0.18,
         "200B_permits_yoy": 18.04,
         "204A_dom_composite": 7.0,
@@ -585,14 +585,14 @@
         "204A_dom_level_days": 60.0
       },
       "percentile_scores": {
-        "101A": 4.0,
+        "101A": 4.1,
         "102A": 14.0,
         "103B": 88.0,
         "104C": 52.0,
-        "105C": 16.0,
-        "106D": 50,
+        "105C": 16.3,
+        "106D": 8.0,
         "107E": 38.0,
-        "200B": 74.0,
+        "200B": 73.5,
         "204A": 28.0
       },
       "scores_100": {
@@ -601,18 +601,18 @@
         "103B": 88,
         "104C": 52,
         "105C": 16,
-        "106D": 50,
+        "106D": 8,
         "107E": 38,
-        "200B": 74,
+        "200B": 73,
         "204A": 28
       },
-      "weighted_percentile": 37.2,
-      "weighted_score": 37,
+      "weighted_percentile": 33.0,
+      "weighted_score": 33,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 37.2
+        "percentile": 33.0
       },
       "grade_display": "\u26d4 C"
     },
@@ -626,7 +626,7 @@
         "103B_earnings_yoy": 0.49,
         "104C_col": 5.62,
         "105C_owr": 2.14,
-        "106D_wh_trend_deviation_pct": null,
+        "106D_wh_trend_deviation_pct": 0.396,
         "107E_employment_growth_yoy": -0.52,
         "200B_permits_yoy": 86.01,
         "204A_dom_composite": 6.0,
@@ -634,34 +634,34 @@
         "204A_dom_level_days": 30.0
       },
       "percentile_scores": {
-        "101A": 32.0,
+        "101A": 32.7,
         "102A": 52.0,
         "103B": 14.0,
         "104C": 6.0,
-        "105C": 34.0,
-        "106D": 50,
+        "105C": 32.7,
+        "106D": 60.0,
         "107E": 10.0,
-        "200B": 94.0,
+        "200B": 93.9,
         "204A": 8.0
       },
       "scores_100": {
-        "101A": 32,
+        "101A": 33,
         "102A": 52,
         "103B": 14,
         "104C": 6,
-        "105C": 34,
-        "106D": 50,
+        "105C": 33,
+        "106D": 60,
         "107E": 10,
         "200B": 94,
         "204A": 8
       },
-      "weighted_percentile": 34.2,
-      "weighted_score": 34,
+      "weighted_percentile": 35.3,
+      "weighted_score": 35,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 34.2
+        "percentile": 35.3
       },
       "grade_display": "\u26d4 C"
     },
@@ -674,8 +674,8 @@
         "102A_lfp": 61.27,
         "103B_earnings_yoy": -1.13,
         "104C_col": 4.06,
-        "105C_owr": 1.96,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.0,
+        "106D_wh_trend_deviation_pct": -0.34,
         "107E_employment_growth_yoy": 0.01,
         "200B_permits_yoy": -10.94,
         "204A_dom_composite": 7.77,
@@ -683,14 +683,14 @@
         "204A_dom_level_days": 56.0
       },
       "percentile_scores": {
-        "101A": 14.0,
+        "101A": 14.3,
         "102A": 22.0,
         "103B": 4.0,
         "104C": 20.0,
-        "105C": 26.0,
-        "106D": 50,
+        "105C": 26.5,
+        "106D": 18.0,
         "107E": 30.0,
-        "200B": 34.0,
+        "200B": 32.7,
         "204A": 50.0
       },
       "scores_100": {
@@ -698,19 +698,19 @@
         "102A": 22,
         "103B": 4,
         "104C": 20,
-        "105C": 26,
-        "106D": 50,
+        "105C": 27,
+        "106D": 18,
         "107E": 30,
-        "200B": 34,
+        "200B": 33,
         "204A": 50
       },
-      "weighted_percentile": 25.2,
-      "weighted_score": 25,
+      "weighted_percentile": 21.9,
+      "weighted_score": 22,
       "grade": {
         "letter": "D",
         "emoji": "\ud83d\udca5",
         "description": "Emergency",
-        "percentile": 25.2
+        "percentile": 21.9
       },
       "grade_display": "\ud83d\udca5 D"
     },
@@ -723,8 +723,8 @@
         "102A_lfp": 68.24,
         "103B_earnings_yoy": 7.63,
         "104C_col": 2.92,
-        "105C_owr": 3.26,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 3.29,
+        "106D_wh_trend_deviation_pct": 0.359,
         "107E_employment_growth_yoy": -0.15,
         "200B_permits_yoy": -0.7,
         "204A_dom_composite": 7.29,
@@ -732,14 +732,14 @@
         "204A_dom_level_days": 36.0
       },
       "percentile_scores": {
-        "101A": 6.0,
+        "101A": 6.1,
         "102A": 84.0,
         "103B": 92.0,
         "104C": 54.0,
-        "105C": 78.0,
-        "106D": 50,
+        "105C": 79.6,
+        "106D": 58.0,
         "107E": 20.0,
-        "200B": 52.0,
+        "200B": 51.0,
         "204A": 40.0
       },
       "scores_100": {
@@ -747,19 +747,19 @@
         "102A": 84,
         "103B": 92,
         "104C": 54,
-        "105C": 78,
-        "106D": 50,
+        "105C": 80,
+        "106D": 58,
         "107E": 20,
-        "200B": 52,
+        "200B": 51,
         "204A": 40
       },
-      "weighted_percentile": 47.5,
+      "weighted_percentile": 48.3,
       "weighted_score": 48,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 47.5
+        "percentile": 48.3
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -772,8 +772,8 @@
         "102A_lfp": 69.03,
         "103B_earnings_yoy": 0.03,
         "104C_col": 2.83,
-        "105C_owr": 2.56,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.61,
+        "106D_wh_trend_deviation_pct": -0.271,
         "107E_employment_growth_yoy": 0.55,
         "200B_permits_yoy": -12.25,
         "204A_dom_composite": 6.76,
@@ -781,34 +781,34 @@
         "204A_dom_level_days": 40.0
       },
       "percentile_scores": {
-        "101A": 34.0,
+        "101A": 34.7,
         "102A": 88.0,
         "103B": 10.0,
         "104C": 56.0,
-        "105C": 54.0,
-        "106D": 50,
+        "105C": 57.1,
+        "106D": 24.0,
         "107E": 60.0,
-        "200B": 30.0,
+        "200B": 28.6,
         "204A": 18.0
       },
       "scores_100": {
-        "101A": 34,
+        "101A": 35,
         "102A": 88,
         "103B": 10,
         "104C": 56,
-        "105C": 54,
-        "106D": 50,
+        "105C": 57,
+        "106D": 24,
         "107E": 60,
-        "200B": 30,
+        "200B": 29,
         "204A": 18
       },
-      "weighted_percentile": 47.2,
-      "weighted_score": 47,
+      "weighted_percentile": 44.8,
+      "weighted_score": 45,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 47.2
+        "percentile": 44.8
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -821,8 +821,8 @@
         "102A_lfp": 59.95,
         "103B_earnings_yoy": 4.86,
         "104C_col": 1.87,
-        "105C_owr": 3.08,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 3.14,
+        "106D_wh_trend_deviation_pct": -0.048,
         "107E_employment_growth_yoy": 0.92,
         "200B_permits_yoy": -8.56,
         "204A_dom_composite": 9.12,
@@ -830,14 +830,14 @@
         "204A_dom_level_days": 80.0
       },
       "percentile_scores": {
-        "101A": 16.0,
+        "101A": 16.3,
         "102A": 6.0,
         "103B": 68.0,
         "104C": 74.0,
-        "105C": 74.0,
-        "106D": 50,
+        "105C": 75.5,
+        "106D": 32.0,
         "107E": 78.0,
-        "200B": 46.0,
+        "200B": 44.9,
         "204A": 92.0
       },
       "scores_100": {
@@ -845,19 +845,19 @@
         "102A": 6,
         "103B": 68,
         "104C": 74,
-        "105C": 74,
-        "106D": 50,
+        "105C": 76,
+        "106D": 32,
         "107E": 78,
-        "200B": 46,
+        "200B": 45,
         "204A": 92
       },
-      "weighted_percentile": 47.9,
-      "weighted_score": 48,
+      "weighted_percentile": 46.1,
+      "weighted_score": 46,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 47.9
+        "percentile": 46.1
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -870,8 +870,8 @@
         "102A_lfp": 62.01,
         "103B_earnings_yoy": 2.43,
         "104C_col": 5.24,
-        "105C_owr": 1.34,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 1.37,
+        "106D_wh_trend_deviation_pct": -0.758,
         "107E_employment_growth_yoy": 0.35,
         "200B_permits_yoy": -0.37,
         "204A_dom_composite": 8.18,
@@ -879,14 +879,14 @@
         "204A_dom_level_days": 38.0
       },
       "percentile_scores": {
-        "101A": 24.0,
+        "101A": 24.5,
         "102A": 24.0,
         "103B": 36.0,
         "104C": 12.0,
-        "105C": 18.0,
-        "106D": 50,
+        "105C": 18.4,
+        "106D": 10.0,
         "107E": 50.0,
-        "200B": 54.0,
+        "200B": 53.1,
         "204A": 72.0
       },
       "scores_100": {
@@ -895,20 +895,20 @@
         "103B": 36,
         "104C": 12,
         "105C": 18,
-        "106D": 50,
+        "106D": 10,
         "107E": 50,
-        "200B": 54,
+        "200B": 53,
         "204A": 72
       },
-      "weighted_percentile": 35.6,
-      "weighted_score": 36,
+      "weighted_percentile": 31.6,
+      "weighted_score": 32,
       "grade": {
-        "letter": "C",
-        "emoji": "\u26d4",
-        "description": "Very Poor",
-        "percentile": 35.6
+        "letter": "C-",
+        "emoji": "\ud83d\udea8",
+        "description": "Critical",
+        "percentile": 31.6
       },
-      "grade_display": "\u26d4 C"
+      "grade_display": "\ud83d\udea8 C-"
     },
     {
       "metro_name": "Denver-Aurora-Centennial",
@@ -919,8 +919,8 @@
         "102A_lfp": 70.39,
         "103B_earnings_yoy": 6.57,
         "104C_col": 1.48,
-        "105C_owr": 2.76,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.78,
+        "106D_wh_trend_deviation_pct": 0.074,
         "107E_employment_growth_yoy": 0.13,
         "200B_permits_yoy": -15.96,
         "204A_dom_composite": 5.64,
@@ -928,36 +928,36 @@
         "204A_dom_level_days": 38.0
       },
       "percentile_scores": {
-        "101A": 50.0,
+        "101A": 51.0,
         "102A": 92.0,
         "103B": 80.0,
         "104C": 82.0,
-        "105C": 58.0,
-        "106D": 50,
+        "105C": 59.2,
+        "106D": 40.0,
         "107E": 36.0,
-        "200B": 22.0,
+        "200B": 20.4,
         "204A": 6.0
       },
       "scores_100": {
-        "101A": 50,
+        "101A": 51,
         "102A": 92,
         "103B": 80,
         "104C": 82,
-        "105C": 58,
-        "106D": 50,
+        "105C": 59,
+        "106D": 40,
         "107E": 36,
-        "200B": 22,
+        "200B": 20,
         "204A": 6
       },
-      "weighted_percentile": 55.8,
-      "weighted_score": 56,
+      "weighted_percentile": 54.9,
+      "weighted_score": 55,
       "grade": {
-        "letter": "B+",
-        "emoji": "\ud83d\udcc8",
-        "description": "Above Average",
-        "percentile": 55.8
+        "letter": "B",
+        "emoji": "\u27a1\ufe0f",
+        "description": "Average",
+        "percentile": 54.9
       },
-      "grade_display": "\ud83d\udcc8 B+"
+      "grade_display": "\u27a1\ufe0f B"
     },
     {
       "metro_name": "Orlando-Kissimmee-Sanford",
@@ -968,8 +968,8 @@
         "102A_lfp": 63.98,
         "103B_earnings_yoy": 0.37,
         "104C_col": 3.06,
-        "105C_owr": 3.0,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 3.02,
+        "106D_wh_trend_deviation_pct": -0.245,
         "107E_employment_growth_yoy": 0.24,
         "200B_permits_yoy": -35.64,
         "204A_dom_composite": 7.92,
@@ -977,14 +977,14 @@
         "204A_dom_level_days": 82.0
       },
       "percentile_scores": {
-        "101A": 24.0,
+        "101A": 24.5,
         "102A": 44.0,
         "103B": 12.0,
         "104C": 46.0,
-        "105C": 66.0,
-        "106D": 50,
+        "105C": 65.3,
+        "106D": 26.0,
         "107E": 42.0,
-        "200B": 6.0,
+        "200B": 6.1,
         "204A": 60.0
       },
       "scores_100": {
@@ -992,19 +992,19 @@
         "102A": 44,
         "103B": 12,
         "104C": 46,
-        "105C": 66,
-        "106D": 50,
+        "105C": 65,
+        "106D": 26,
         "107E": 42,
         "200B": 6,
         "204A": 60
       },
-      "weighted_percentile": 35.4,
-      "weighted_score": 35,
+      "weighted_percentile": 33.1,
+      "weighted_score": 33,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 35.4
+        "percentile": 33.1
       },
       "grade_display": "\u26d4 C"
     },
@@ -1017,8 +1017,8 @@
         "102A_lfp": 65.43,
         "103B_earnings_yoy": -1.52,
         "104C_col": 3.62,
-        "105C_owr": 4.14,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 4.16,
+        "106D_wh_trend_deviation_pct": 0.397,
         "107E_employment_growth_yoy": 2.69,
         "200B_permits_yoy": -39.5,
         "204A_dom_composite": 9.32,
@@ -1026,34 +1026,34 @@
         "204A_dom_level_days": 69.0
       },
       "percentile_scores": {
-        "101A": 50.0,
+        "101A": 51.0,
         "102A": 66.0,
         "103B": 2.0,
         "104C": 30.0,
-        "105C": 94.0,
-        "106D": 50,
+        "105C": 93.9,
+        "106D": 62.0,
         "107E": 98.0,
         "200B": 2.0,
         "204A": 94.0
       },
       "scores_100": {
-        "101A": 50,
+        "101A": 51,
         "102A": 66,
         "103B": 2,
         "104C": 30,
         "105C": 94,
-        "106D": 50,
+        "106D": 62,
         "107E": 98,
         "200B": 2,
         "204A": 94
       },
-      "weighted_percentile": 52.4,
-      "weighted_score": 52,
+      "weighted_percentile": 53.8,
+      "weighted_score": 54,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 52.4
+        "percentile": 53.8
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -1066,8 +1066,8 @@
         "102A_lfp": 64.19,
         "103B_earnings_yoy": 1.22,
         "104C_col": 3.16,
-        "105C_owr": 2.88,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.94,
+        "106D_wh_trend_deviation_pct": 0.324,
         "107E_employment_growth_yoy": -0.14,
         "200B_permits_yoy": -11.14,
         "204A_dom_composite": 7.98,
@@ -1075,34 +1075,34 @@
         "204A_dom_level_days": 45.0
       },
       "percentile_scores": {
-        "101A": 50.0,
+        "101A": 51.0,
         "102A": 46.0,
         "103B": 22.0,
         "104C": 42.0,
-        "105C": 62.0,
-        "106D": 50,
+        "105C": 63.3,
+        "106D": 56.0,
         "107E": 22.0,
-        "200B": 32.0,
+        "200B": 30.6,
         "204A": 62.0
       },
       "scores_100": {
-        "101A": 50,
+        "101A": 51,
         "102A": 46,
         "103B": 22,
         "104C": 42,
-        "105C": 62,
-        "106D": 50,
+        "105C": 63,
+        "106D": 56,
         "107E": 22,
-        "200B": 32,
+        "200B": 31,
         "204A": 62
       },
-      "weighted_percentile": 41.0,
-      "weighted_score": 41,
+      "weighted_percentile": 41.7,
+      "weighted_score": 42,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Poor",
-        "percentile": 41.0
+        "percentile": 41.7
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -1115,8 +1115,8 @@
         "102A_lfp": 65.27,
         "103B_earnings_yoy": 0.66,
         "104C_col": 4.24,
-        "105C_owr": 2.34,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.39,
+        "106D_wh_trend_deviation_pct": -1.805,
         "107E_employment_growth_yoy": -0.01,
         "200B_permits_yoy": -6.99,
         "204A_dom_composite": 7.38,
@@ -1124,36 +1124,36 @@
         "204A_dom_level_days": 55.0
       },
       "percentile_scores": {
-        "101A": 68.0,
+        "101A": 69.4,
         "102A": 64.0,
         "103B": 18.0,
         "104C": 18.0,
-        "105C": 46.0,
-        "106D": 50,
+        "105C": 49.0,
+        "106D": 0,
         "107E": 26.0,
-        "200B": 48.0,
+        "200B": 46.9,
         "204A": 42.0
       },
       "scores_100": {
-        "101A": 68,
+        "101A": 69,
         "102A": 64,
         "103B": 18,
         "104C": 18,
-        "105C": 46,
-        "106D": 50,
+        "105C": 49,
+        "106D": 0,
         "107E": 26,
-        "200B": 48,
+        "200B": 47,
         "204A": 42
       },
-      "weighted_percentile": 44.9,
-      "weighted_score": 45,
+      "weighted_percentile": 40.2,
+      "weighted_score": 40,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
-        "percentile": 44.9
+        "letter": "C+",
+        "emoji": "\ud83d\udcc9",
+        "description": "Poor",
+        "percentile": 40.2
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\ud83d\udcc9 C+"
     },
     {
       "metro_name": "San Antonio-New Braunfels",
@@ -1164,8 +1164,8 @@
         "102A_lfp": 62.78,
         "103B_earnings_yoy": 1.78,
         "104C_col": 1.38,
-        "105C_owr": 1.24,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 1.27,
+        "106D_wh_trend_deviation_pct": 0.618,
         "107E_employment_growth_yoy": 1.09,
         "200B_permits_yoy": -37.55,
         "204A_dom_composite": 7.4,
@@ -1173,34 +1173,34 @@
         "204A_dom_level_days": 79.0
       },
       "percentile_scores": {
-        "101A": 48.0,
+        "101A": 49.0,
         "102A": 30.0,
         "103B": 32.0,
         "104C": 88.0,
-        "105C": 14.0,
-        "106D": 50,
+        "105C": 14.3,
+        "106D": 76.0,
         "107E": 84.0,
-        "200B": 4.0,
+        "200B": 4.1,
         "204A": 44.0
       },
       "scores_100": {
-        "101A": 48,
+        "101A": 49,
         "102A": 30,
         "103B": 32,
         "104C": 88,
         "105C": 14,
-        "106D": 50,
+        "106D": 76,
         "107E": 84,
         "200B": 4,
         "204A": 44
       },
-      "weighted_percentile": 47.0,
-      "weighted_score": 47,
+      "weighted_percentile": 49.8,
+      "weighted_score": 50,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 47.0
+        "percentile": 49.8
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -1213,8 +1213,8 @@
         "102A_lfp": 73.99,
         "103B_earnings_yoy": 3.18,
         "104C_col": 1.44,
-        "105C_owr": 2.44,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.45,
+        "106D_wh_trend_deviation_pct": -0.918,
         "107E_employment_growth_yoy": 0.73,
         "200B_permits_yoy": -29.44,
         "204A_dom_composite": 8.52,
@@ -1222,14 +1222,14 @@
         "204A_dom_level_days": 76.0
       },
       "percentile_scores": {
-        "101A": 84.0,
+        "101A": 83.7,
         "102A": 96.0,
         "103B": 50.0,
         "104C": 84.0,
-        "105C": 50.0,
-        "106D": 50,
+        "105C": 51.0,
+        "106D": 6.0,
         "107E": 72.0,
-        "200B": 12.0,
+        "200B": 10.2,
         "204A": 86.0
       },
       "scores_100": {
@@ -1237,21 +1237,21 @@
         "102A": 96,
         "103B": 50,
         "104C": 84,
-        "105C": 50,
-        "106D": 50,
+        "105C": 51,
+        "106D": 6,
         "107E": 72,
-        "200B": 12,
+        "200B": 10,
         "204A": 86
       },
-      "weighted_percentile": 68.4,
-      "weighted_score": 68,
+      "weighted_percentile": 63.8,
+      "weighted_score": 64,
       "grade": {
-        "letter": "A+",
-        "emoji": "\ud83d\ude80",
-        "description": "Excellent",
-        "percentile": 68.4
+        "letter": "A",
+        "emoji": "\u2705",
+        "description": "Very Good",
+        "percentile": 63.8
       },
-      "grade_display": "\ud83d\ude80 A+"
+      "grade_display": "\u2705 A"
     },
     {
       "metro_name": "Portland-Vancouver-Hillsboro",
@@ -1262,8 +1262,8 @@
         "102A_lfp": 66.17,
         "103B_earnings_yoy": 4.78,
         "104C_col": 2.18,
-        "105C_owr": 1.22,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 1.24,
+        "106D_wh_trend_deviation_pct": -0.582,
         "107E_employment_growth_yoy": -0.69,
         "200B_permits_yoy": -18.14,
         "204A_dom_composite": 6.07,
@@ -1271,14 +1271,14 @@
         "204A_dom_level_days": 68.0
       },
       "percentile_scores": {
-        "101A": 8.0,
+        "101A": 8.2,
         "102A": 72.0,
         "103B": 64.0,
         "104C": 62.0,
-        "105C": 12.0,
-        "106D": 50,
+        "105C": 12.2,
+        "106D": 14.0,
         "107E": 8.0,
-        "200B": 20.0,
+        "200B": 18.4,
         "204A": 10.0
       },
       "scores_100": {
@@ -1287,20 +1287,20 @@
         "103B": 64,
         "104C": 62,
         "105C": 12,
-        "106D": 50,
+        "106D": 14,
         "107E": 8,
-        "200B": 20,
+        "200B": 18,
         "204A": 10
       },
-      "weighted_percentile": 34.3,
-      "weighted_score": 34,
+      "weighted_percentile": 30.6,
+      "weighted_score": 31,
       "grade": {
-        "letter": "C",
-        "emoji": "\u26d4",
-        "description": "Very Poor",
-        "percentile": 34.3
+        "letter": "C-",
+        "emoji": "\ud83d\udea8",
+        "description": "Critical",
+        "percentile": 30.6
       },
-      "grade_display": "\u26d4 C"
+      "grade_display": "\ud83d\udea8 C-"
     },
     {
       "metro_name": "Sacramento-Roseville-Folsom",
@@ -1312,7 +1312,7 @@
         "103B_earnings_yoy": 2.48,
         "104C_col": 3.72,
         "105C_owr": 0.12,
-        "106D_wh_trend_deviation_pct": null,
+        "106D_wh_trend_deviation_pct": 0.203,
         "107E_employment_growth_yoy": -0.27,
         "200B_permits_yoy": -15.51,
         "204A_dom_composite": 7.51,
@@ -1320,14 +1320,14 @@
         "204A_dom_level_days": 41.0
       },
       "percentile_scores": {
-        "101A": 10.0,
+        "101A": 10.2,
         "102A": 8.0,
         "103B": 38.0,
         "104C": 24.0,
         "105C": 0,
-        "106D": 50,
+        "106D": 46.0,
         "107E": 16.0,
-        "200B": 24.0,
+        "200B": 22.4,
         "204A": 48.0
       },
       "scores_100": {
@@ -1336,18 +1336,18 @@
         "103B": 38,
         "104C": 24,
         "105C": 0,
-        "106D": 50,
+        "106D": 46,
         "107E": 16,
-        "200B": 24,
+        "200B": 22,
         "204A": 48
       },
-      "weighted_percentile": 21.6,
-      "weighted_score": 22,
+      "weighted_percentile": 21.1,
+      "weighted_score": 21,
       "grade": {
         "letter": "D",
         "emoji": "\ud83d\udca5",
         "description": "Emergency",
-        "percentile": 21.6
+        "percentile": 21.1
       },
       "grade_display": "\ud83d\udca5 D"
     },
@@ -1360,8 +1360,8 @@
         "102A_lfp": 60.33,
         "103B_earnings_yoy": 8.65,
         "104C_col": 1.88,
-        "105C_owr": 3.38,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 3.39,
+        "106D_wh_trend_deviation_pct": 1.165,
         "107E_employment_growth_yoy": 1.07,
         "200B_permits_yoy": -10.55,
         "204A_dom_composite": 6.67,
@@ -1369,36 +1369,36 @@
         "204A_dom_level_days": 90.0
       },
       "percentile_scores": {
-        "101A": 50.0,
+        "101A": 51.0,
         "102A": 10.0,
         "103B": 96.0,
         "104C": 72.0,
-        "105C": 80.0,
-        "106D": 50,
+        "105C": 81.6,
+        "106D": 92.0,
         "107E": 82.0,
-        "200B": 36.0,
+        "200B": 34.7,
         "204A": 16.0
       },
       "scores_100": {
-        "101A": 50,
+        "101A": 51,
         "102A": 10,
         "103B": 96,
         "104C": 72,
-        "105C": 80,
-        "106D": 50,
+        "105C": 82,
+        "106D": 92,
         "107E": 82,
-        "200B": 36,
+        "200B": 35,
         "204A": 16
       },
-      "weighted_percentile": 54.0,
-      "weighted_score": 54,
+      "weighted_percentile": 58.4,
+      "weighted_score": 58,
       "grade": {
-        "letter": "B",
-        "emoji": "\u27a1\ufe0f",
-        "description": "Average",
-        "percentile": 54.0
+        "letter": "B+",
+        "emoji": "\ud83d\udcc8",
+        "description": "Above Average",
+        "percentile": 58.4
       },
-      "grade_display": "\u27a1\ufe0f B"
+      "grade_display": "\ud83d\udcc8 B+"
     },
     {
       "metro_name": "Las Vegas-Henderson-North Las Vegas",
@@ -1409,8 +1409,8 @@
         "102A_lfp": 65.02,
         "103B_earnings_yoy": 6.71,
         "104C_col": 2.19,
-        "105C_owr": 2.5,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.49,
+        "106D_wh_trend_deviation_pct": 0.27,
         "107E_employment_growth_yoy": -0.76,
         "200B_permits_yoy": -9.83,
         "204A_dom_composite": 8.28,
@@ -1422,10 +1422,10 @@
         "102A": 62.0,
         "103B": 82.0,
         "104C": 60.0,
-        "105C": 52.0,
-        "106D": 50,
+        "105C": 53.1,
+        "106D": 52.0,
         "107E": 6.0,
-        "200B": 42.0,
+        "200B": 40.8,
         "204A": 78.0
       },
       "scores_100": {
@@ -1433,19 +1433,19 @@
         "102A": 62,
         "103B": 82,
         "104C": 60,
-        "105C": 52,
-        "106D": 50,
+        "105C": 53,
+        "106D": 52,
         "107E": 6,
-        "200B": 42,
+        "200B": 41,
         "204A": 78
       },
-      "weighted_percentile": 40.5,
-      "weighted_score": 40,
+      "weighted_percentile": 40.6,
+      "weighted_score": 41,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Poor",
-        "percentile": 40.5
+        "percentile": 40.6
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -1458,8 +1458,8 @@
         "102A_lfp": 63.08,
         "103B_earnings_yoy": 1.53,
         "104C_col": 3.69,
-        "105C_owr": 2.02,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.06,
+        "106D_wh_trend_deviation_pct": 0.72,
         "107E_employment_growth_yoy": -0.52,
         "200B_permits_yoy": 57.47,
         "204A_dom_composite": 7.4,
@@ -1467,34 +1467,34 @@
         "204A_dom_level_days": 52.0
       },
       "percentile_scores": {
-        "101A": 50.0,
+        "101A": 51.0,
         "102A": 32.0,
         "103B": 28.0,
         "104C": 28.0,
-        "105C": 28.0,
-        "106D": 50,
+        "105C": 30.6,
+        "106D": 82.0,
         "107E": 10.0,
-        "200B": 90.0,
+        "200B": 89.8,
         "204A": 46.0
       },
       "scores_100": {
-        "101A": 50,
+        "101A": 51,
         "102A": 32,
         "103B": 28,
         "104C": 28,
-        "105C": 28,
-        "106D": 50,
+        "105C": 31,
+        "106D": 82,
         "107E": 10,
         "200B": 90,
         "204A": 46
       },
-      "weighted_percentile": 39.6,
-      "weighted_score": 40,
+      "weighted_percentile": 43.1,
+      "weighted_score": 43,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Poor",
-        "percentile": 39.6
+        "percentile": 43.1
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -1507,8 +1507,8 @@
         "102A_lfp": 67.91,
         "103B_earnings_yoy": 6.8,
         "104C_col": 1.49,
-        "105C_owr": 1.2,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 1.22,
+        "106D_wh_trend_deviation_pct": 1.425,
         "107E_employment_growth_yoy": -0.31,
         "200B_permits_yoy": 5.41,
         "204A_dom_composite": 4.6,
@@ -1516,36 +1516,36 @@
         "204A_dom_level_days": 57.0
       },
       "percentile_scores": {
-        "101A": 68.0,
+        "101A": 69.4,
         "102A": 82.0,
         "103B": 84.0,
         "104C": 80.0,
-        "105C": 10.0,
-        "106D": 50,
+        "105C": 10.2,
+        "106D": 96.0,
         "107E": 14.0,
-        "200B": 60.0,
+        "200B": 59.2,
         "204A": 0
       },
       "scores_100": {
-        "101A": 68,
+        "101A": 69,
         "102A": 82,
         "103B": 84,
         "104C": 80,
         "105C": 10,
-        "106D": 50,
+        "106D": 96,
         "107E": 14,
-        "200B": 60,
+        "200B": 59,
         "204A": 0
       },
-      "weighted_percentile": 55.9,
-      "weighted_score": 56,
+      "weighted_percentile": 60.7,
+      "weighted_score": 61,
       "grade": {
-        "letter": "B+",
-        "emoji": "\ud83d\udcc8",
-        "description": "Above Average",
-        "percentile": 55.9
+        "letter": "A-",
+        "emoji": "\ud83d\udc4d",
+        "description": "Good",
+        "percentile": 60.7
       },
-      "grade_display": "\ud83d\udcc8 B+"
+      "grade_display": "\ud83d\udc4d A-"
     },
     {
       "metro_name": "Columbus",
@@ -1556,8 +1556,8 @@
         "102A_lfp": 65.61,
         "103B_earnings_yoy": 0.86,
         "104C_col": 2.99,
-        "105C_owr": 3.76,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 3.78,
+        "106D_wh_trend_deviation_pct": 0.609,
         "107E_employment_growth_yoy": 1.17,
         "200B_permits_yoy": 8.67,
         "204A_dom_composite": 8.22,
@@ -1565,34 +1565,34 @@
         "204A_dom_level_days": 55.0
       },
       "percentile_scores": {
-        "101A": 50.0,
+        "101A": 51.0,
         "102A": 68.0,
         "103B": 20.0,
         "104C": 50.0,
-        "105C": 90.0,
-        "106D": 50,
+        "105C": 89.8,
+        "106D": 74.0,
         "107E": 88.0,
-        "200B": 62.0,
+        "200B": 61.2,
         "204A": 76.0
       },
       "scores_100": {
-        "101A": 50,
+        "101A": 51,
         "102A": 68,
         "103B": 20,
         "104C": 50,
         "105C": 90,
-        "106D": 50,
+        "106D": 74,
         "107E": 88,
-        "200B": 62,
+        "200B": 61,
         "204A": 76
       },
-      "weighted_percentile": 59.9,
-      "weighted_score": 60,
+      "weighted_percentile": 62.4,
+      "weighted_score": 62,
       "grade": {
         "letter": "A-",
         "emoji": "\ud83d\udc4d",
         "description": "Good",
-        "percentile": 59.9
+        "percentile": 62.4
       },
       "grade_display": "\ud83d\udc4d A-"
     },
@@ -1605,8 +1605,8 @@
         "102A_lfp": 66.86,
         "103B_earnings_yoy": 5.1,
         "104C_col": 3.94,
-        "105C_owr": 3.54,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 3.55,
+        "106D_wh_trend_deviation_pct": -0.373,
         "107E_employment_growth_yoy": 0.11,
         "200B_permits_yoy": -10.26,
         "204A_dom_composite": 8.59,
@@ -1614,14 +1614,14 @@
         "204A_dom_level_days": 73.0
       },
       "percentile_scores": {
-        "101A": 96.0,
+        "101A": 95.9,
         "102A": 76.0,
         "103B": 72.0,
         "104C": 22.0,
-        "105C": 84.0,
-        "106D": 50,
+        "105C": 83.7,
+        "106D": 16.0,
         "107E": 34.0,
-        "200B": 40.0,
+        "200B": 38.8,
         "204A": 88.0
       },
       "scores_100": {
@@ -1630,18 +1630,18 @@
         "103B": 72,
         "104C": 22,
         "105C": 84,
-        "106D": 50,
+        "106D": 16,
         "107E": 34,
-        "200B": 40,
+        "200B": 39,
         "204A": 88
       },
-      "weighted_percentile": 62.7,
-      "weighted_score": 63,
+      "weighted_percentile": 59.1,
+      "weighted_score": 59,
       "grade": {
         "letter": "A-",
         "emoji": "\ud83d\udc4d",
         "description": "Good",
-        "percentile": 62.7
+        "percentile": 59.1
       },
       "grade_display": "\ud83d\udc4d A-"
     },
@@ -1655,7 +1655,7 @@
         "103B_earnings_yoy": -1.79,
         "104C_col": 5.0,
         "105C_owr": 3.02,
-        "106D_wh_trend_deviation_pct": null,
+        "106D_wh_trend_deviation_pct": 0.168,
         "107E_employment_growth_yoy": 0.57,
         "200B_permits_yoy": 14.96,
         "204A_dom_composite": 7.78,
@@ -1663,14 +1663,14 @@
         "204A_dom_level_days": 55.0
       },
       "percentile_scores": {
-        "101A": 76.0,
+        "101A": 75.5,
         "102A": 2.0,
         "103B": 0,
         "104C": 14.0,
-        "105C": 68.0,
-        "106D": 50,
+        "105C": 65.3,
+        "106D": 42.0,
         "107E": 62.0,
-        "200B": 66.0,
+        "200B": 65.3,
         "204A": 52.0
       },
       "scores_100": {
@@ -1678,19 +1678,19 @@
         "102A": 2,
         "103B": 0,
         "104C": 14,
-        "105C": 68,
-        "106D": 50,
+        "105C": 65,
+        "106D": 42,
         "107E": 62,
-        "200B": 66,
+        "200B": 65,
         "204A": 52
       },
-      "weighted_percentile": 43.8,
-      "weighted_score": 44,
+      "weighted_percentile": 42.7,
+      "weighted_score": 43,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Poor",
-        "percentile": 43.8
+        "percentile": 42.7
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -1703,8 +1703,8 @@
         "102A_lfp": 76.27,
         "103B_earnings_yoy": 1.62,
         "104C_col": 3.3,
-        "105C_owr": 3.9,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 3.88,
+        "106D_wh_trend_deviation_pct": 0.594,
         "107E_employment_growth_yoy": 1.03,
         "200B_permits_yoy": -8.94,
         "204A_dom_composite": 7.91,
@@ -1712,14 +1712,14 @@
         "204A_dom_level_days": 60.0
       },
       "percentile_scores": {
-        "101A": 90.0,
+        "101A": 89.8,
         "102A": 98.0,
         "103B": 30.0,
         "104C": 38.0,
-        "105C": 92.0,
-        "106D": 50,
+        "105C": 91.8,
+        "106D": 72.0,
         "107E": 80.0,
-        "200B": 44.0,
+        "200B": 42.9,
         "204A": 56.0
       },
       "scores_100": {
@@ -1728,18 +1728,18 @@
         "103B": 30,
         "104C": 38,
         "105C": 92,
-        "106D": 50,
+        "106D": 72,
         "107E": 80,
-        "200B": 44,
+        "200B": 43,
         "204A": 56
       },
-      "weighted_percentile": 68.3,
-      "weighted_score": 68,
+      "weighted_percentile": 70.3,
+      "weighted_score": 70,
       "grade": {
         "letter": "A+",
         "emoji": "\ud83d\ude80",
         "description": "Excellent",
-        "percentile": 68.3
+        "percentile": 70.3
       },
       "grade_display": "\ud83d\ude80 A+"
     },
@@ -1753,7 +1753,7 @@
         "103B_earnings_yoy": 0.59,
         "104C_col": 6.96,
         "105C_owr": 2.02,
-        "106D_wh_trend_deviation_pct": null,
+        "106D_wh_trend_deviation_pct": 0.0,
         "107E_employment_growth_yoy": -0.16,
         "200B_permits_yoy": 195.09,
         "204A_dom_composite": 5.05,
@@ -1761,34 +1761,34 @@
         "204A_dom_level_days": 23.0
       },
       "percentile_scores": {
-        "101A": 34.0,
+        "101A": 34.7,
         "102A": 50.0,
         "103B": 16.0,
         "104C": 2.0,
-        "105C": 28.0,
-        "106D": 50,
+        "105C": 28.6,
+        "106D": 34.0,
         "107E": 18.0,
         "200B": 98.0,
         "204A": 2.0
       },
       "scores_100": {
-        "101A": 34,
+        "101A": 35,
         "102A": 50,
         "103B": 16,
         "104C": 2,
-        "105C": 28,
-        "106D": 50,
+        "105C": 29,
+        "106D": 34,
         "107E": 18,
         "200B": 98,
         "204A": 2
       },
-      "weighted_percentile": 35.1,
-      "weighted_score": 35,
+      "weighted_percentile": 33.7,
+      "weighted_score": 34,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 35.1
+        "percentile": 33.7
       },
       "grade_display": "\u26d4 C"
     },
@@ -1801,8 +1801,8 @@
         "102A_lfp": 58.99,
         "103B_earnings_yoy": 10.22,
         "104C_col": 1.57,
-        "105C_owr": 2.2,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.24,
+        "106D_wh_trend_deviation_pct": 0.705,
         "107E_employment_growth_yoy": -1.34,
         "200B_permits_yoy": -46.79,
         "204A_dom_composite": 7.26,
@@ -1810,36 +1810,36 @@
         "204A_dom_level_days": 40.0
       },
       "percentile_scores": {
-        "101A": 50.0,
+        "101A": 51.0,
         "102A": 4.0,
         "103B": 98.0,
         "104C": 76.0,
-        "105C": 36.0,
-        "106D": 50,
+        "105C": 38.8,
+        "106D": 80.0,
         "107E": 2.0,
         "200B": 0,
         "204A": 38.0
       },
       "scores_100": {
-        "101A": 50,
+        "101A": 51,
         "102A": 4,
         "103B": 98,
         "104C": 76,
-        "105C": 36,
-        "106D": 50,
+        "105C": 39,
+        "106D": 80,
         "107E": 2,
         "200B": 0,
         "204A": 38
       },
-      "weighted_percentile": 37.0,
-      "weighted_score": 37,
+      "weighted_percentile": 40.3,
+      "weighted_score": 40,
       "grade": {
-        "letter": "C",
-        "emoji": "\u26d4",
-        "description": "Very Poor",
-        "percentile": 37.0
+        "letter": "C+",
+        "emoji": "\ud83d\udcc9",
+        "description": "Poor",
+        "percentile": 40.3
       },
-      "grade_display": "\u26d4 C"
+      "grade_display": "\ud83d\udcc9 C+"
     },
     {
       "metro_name": "Jacksonville",
@@ -1850,8 +1850,8 @@
         "102A_lfp": 60.38,
         "103B_earnings_yoy": 5.0,
         "104C_col": 1.31,
-        "105C_owr": 2.24,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.29,
+        "106D_wh_trend_deviation_pct": 0.249,
         "107E_employment_growth_yoy": 0.68,
         "200B_permits_yoy": -32.7,
         "204A_dom_composite": 7.91,
@@ -1859,14 +1859,14 @@
         "204A_dom_level_days": 72.0
       },
       "percentile_scores": {
-        "101A": 16.0,
+        "101A": 16.3,
         "102A": 16.0,
         "103B": 70.0,
         "104C": 92.0,
-        "105C": 40.0,
-        "106D": 50,
+        "105C": 42.9,
+        "106D": 50.0,
         "107E": 70.0,
-        "200B": 8.0,
+        "200B": 8.2,
         "204A": 56.0
       },
       "scores_100": {
@@ -1874,19 +1874,19 @@
         "102A": 16,
         "103B": 70,
         "104C": 92,
-        "105C": 40,
+        "105C": 43,
         "106D": 50,
         "107E": 70,
         "200B": 8,
         "204A": 56
       },
-      "weighted_percentile": 42.9,
+      "weighted_percentile": 43.1,
       "weighted_score": 43,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Poor",
-        "percentile": 42.9
+        "percentile": 43.1
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -1900,7 +1900,7 @@
         "103B_earnings_yoy": 3.63,
         "104C_col": 7.01,
         "105C_owr": 2.78,
-        "106D_wh_trend_deviation_pct": null,
+        "106D_wh_trend_deviation_pct": 0.0,
         "107E_employment_growth_yoy": 0.6,
         "200B_permits_yoy": 144.37,
         "204A_dom_composite": 9.56,
@@ -1908,34 +1908,34 @@
         "204A_dom_level_days": 49.0
       },
       "percentile_scores": {
-        "101A": 28.0,
+        "101A": 28.6,
         "102A": 0,
         "103B": 54.0,
         "104C": 0,
-        "105C": 60.0,
-        "106D": 50,
+        "105C": 59.2,
+        "106D": 36.0,
         "107E": 64.0,
-        "200B": 96.0,
+        "200B": 95.9,
         "204A": 96.0
       },
       "scores_100": {
-        "101A": 28,
+        "101A": 29,
         "102A": 0,
         "103B": 54,
         "104C": 0,
-        "105C": 60,
-        "106D": 50,
+        "105C": 59,
+        "106D": 36,
         "107E": 64,
         "200B": 96,
         "204A": 96
       },
-      "weighted_percentile": 43.0,
-      "weighted_score": 43,
+      "weighted_percentile": 41.7,
+      "weighted_score": 42,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Poor",
-        "percentile": 43.0
+        "percentile": 41.7
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -1948,8 +1948,8 @@
         "102A_lfp": 63.19,
         "103B_earnings_yoy": 3.73,
         "104C_col": 3.7,
-        "105C_owr": 1.56,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 1.59,
+        "106D_wh_trend_deviation_pct": 0.413,
         "107E_employment_growth_yoy": -0.91,
         "200B_permits_yoy": -10.47,
         "204A_dom_composite": 7.83,
@@ -1957,14 +1957,14 @@
         "204A_dom_level_days": 39.0
       },
       "percentile_scores": {
-        "101A": 86.0,
+        "101A": 85.7,
         "102A": 34.0,
         "103B": 56.0,
         "104C": 26.0,
-        "105C": 22.0,
-        "106D": 50,
+        "105C": 22.4,
+        "106D": 64.0,
         "107E": 4.0,
-        "200B": 38.0,
+        "200B": 36.7,
         "204A": 54.0
       },
       "scores_100": {
@@ -1973,20 +1973,20 @@
         "103B": 56,
         "104C": 26,
         "105C": 22,
-        "106D": 50,
+        "106D": 64,
         "107E": 4,
-        "200B": 38,
+        "200B": 37,
         "204A": 54
       },
-      "weighted_percentile": 43.7,
-      "weighted_score": 44,
+      "weighted_percentile": 44.9,
+      "weighted_score": 45,
       "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
-        "percentile": 43.7
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
+        "percentile": 44.9
       },
-      "grade_display": "\ud83d\udcc9 C+"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "Raleigh-Cary",
@@ -1997,8 +1997,8 @@
         "102A_lfp": 67.67,
         "103B_earnings_yoy": 4.51,
         "104C_col": 1.55,
-        "105C_owr": 4.4,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 4.39,
+        "106D_wh_trend_deviation_pct": 0.226,
         "107E_employment_growth_yoy": 1.25,
         "200B_permits_yoy": 38.82,
         "204A_dom_composite": 8.32,
@@ -2006,14 +2006,14 @@
         "204A_dom_level_days": 60.0
       },
       "percentile_scores": {
-        "101A": 90.0,
+        "101A": 89.8,
         "102A": 80.0,
         "103B": 58.0,
         "104C": 78.0,
-        "105C": 96.0,
-        "106D": 50,
+        "105C": 95.9,
+        "106D": 48.0,
         "107E": 90.0,
-        "200B": 82.0,
+        "200B": 81.6,
         "204A": 82.0
       },
       "scores_100": {
@@ -2022,18 +2022,18 @@
         "103B": 58,
         "104C": 78,
         "105C": 96,
-        "106D": 50,
+        "106D": 48,
         "107E": 90,
         "200B": 82,
         "204A": 82
       },
-      "weighted_percentile": 79.2,
+      "weighted_percentile": 78.9,
       "weighted_score": 79,
       "grade": {
         "letter": "A+",
         "emoji": "\ud83d\ude80",
         "description": "Excellent",
-        "percentile": 79.2
+        "percentile": 78.9
       },
       "grade_display": "\ud83d\ude80 A+"
     },
@@ -2046,8 +2046,8 @@
         "102A_lfp": 65.65,
         "103B_earnings_yoy": 4.7,
         "104C_col": 1.32,
-        "105C_owr": 2.6,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.59,
+        "106D_wh_trend_deviation_pct": 1.079,
         "107E_employment_growth_yoy": 0.52,
         "200B_permits_yoy": 20.14,
         "204A_dom_composite": 8.15,
@@ -2055,34 +2055,34 @@
         "204A_dom_level_days": 58.0
       },
       "percentile_scores": {
-        "101A": 50.0,
+        "101A": 51.0,
         "102A": 70.0,
         "103B": 62.0,
         "104C": 90.0,
-        "105C": 56.0,
-        "106D": 50,
+        "105C": 55.1,
+        "106D": 90.0,
         "107E": 58.0,
-        "200B": 78.0,
+        "200B": 77.6,
         "204A": 70.0
       },
       "scores_100": {
-        "101A": 50,
+        "101A": 51,
         "102A": 70,
         "103B": 62,
         "104C": 90,
-        "105C": 56,
-        "106D": 50,
+        "105C": 55,
+        "106D": 90,
         "107E": 58,
         "200B": 78,
         "204A": 70
       },
-      "weighted_percentile": 63.5,
-      "weighted_score": 64,
+      "weighted_percentile": 67.6,
+      "weighted_score": 68,
       "grade": {
         "letter": "A",
         "emoji": "\u2705",
         "description": "Very Good",
-        "percentile": 63.5
+        "percentile": 67.6
       },
       "grade_display": "\u2705 A"
     },
@@ -2095,8 +2095,8 @@
         "102A_lfp": 62.74,
         "103B_earnings_yoy": 3.37,
         "104C_col": 3.32,
-        "105C_owr": 2.38,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.37,
+        "106D_wh_trend_deviation_pct": -0.665,
         "107E_employment_growth_yoy": -0.06,
         "200B_permits_yoy": 2.98,
         "204A_dom_composite": 6.8,
@@ -2104,14 +2104,14 @@
         "204A_dom_level_days": 50.0
       },
       "percentile_scores": {
-        "101A": 86.0,
+        "101A": 85.7,
         "102A": 28.0,
         "103B": 52.0,
         "104C": 36.0,
-        "105C": 48.0,
-        "106D": 50,
+        "105C": 46.9,
+        "106D": 12.0,
         "107E": 24.0,
-        "200B": 56.0,
+        "200B": 55.1,
         "204A": 22.0
       },
       "scores_100": {
@@ -2119,21 +2119,21 @@
         "102A": 28,
         "103B": 52,
         "104C": 36,
-        "105C": 48,
-        "106D": 50,
+        "105C": 47,
+        "106D": 12,
         "107E": 24,
-        "200B": 56,
+        "200B": 55,
         "204A": 22
       },
-      "weighted_percentile": 47.9,
-      "weighted_score": 48,
+      "weighted_percentile": 43.9,
+      "weighted_score": 44,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
-        "percentile": 47.9
+        "letter": "C+",
+        "emoji": "\ud83d\udcc9",
+        "description": "Poor",
+        "percentile": 43.9
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\ud83d\udcc9 C+"
     },
     {
       "metro_name": "Richmond",
@@ -2144,8 +2144,8 @@
         "102A_lfp": 64.24,
         "103B_earnings_yoy": 5.12,
         "104C_col": 2.71,
-        "105C_owr": 3.02,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 3.08,
+        "106D_wh_trend_deviation_pct": 1.282,
         "107E_employment_growth_yoy": 0.29,
         "200B_permits_yoy": -20.27,
         "204A_dom_composite": 6.8,
@@ -2153,14 +2153,14 @@
         "204A_dom_level_days": 48.0
       },
       "percentile_scores": {
-        "101A": 80.0,
+        "101A": 79.6,
         "102A": 48.0,
         "103B": 74.0,
         "104C": 58.0,
-        "105C": 68.0,
-        "106D": 50,
+        "105C": 73.5,
+        "106D": 94.0,
         "107E": 46.0,
-        "200B": 18.0,
+        "200B": 16.3,
         "204A": 20.0
       },
       "scores_100": {
@@ -2168,21 +2168,21 @@
         "102A": 48,
         "103B": 74,
         "104C": 58,
-        "105C": 68,
-        "106D": 50,
+        "105C": 73,
+        "106D": 94,
         "107E": 46,
-        "200B": 18,
+        "200B": 16,
         "204A": 20
       },
-      "weighted_percentile": 54.5,
-      "weighted_score": 54,
+      "weighted_percentile": 58.9,
+      "weighted_score": 59,
       "grade": {
-        "letter": "B",
-        "emoji": "\u27a1\ufe0f",
-        "description": "Average",
-        "percentile": 54.5
+        "letter": "B+",
+        "emoji": "\ud83d\udcc8",
+        "description": "Above Average",
+        "percentile": 58.9
       },
-      "grade_display": "\u27a1\ufe0f B"
+      "grade_display": "\ud83d\udcc8 B+"
     },
     {
       "metro_name": "Memphis",
@@ -2193,8 +2193,8 @@
         "102A_lfp": 60.48,
         "103B_earnings_yoy": 6.16,
         "104C_col": 0.4,
-        "105C_owr": 0.6,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 0.61,
+        "106D_wh_trend_deviation_pct": 1.058,
         "107E_employment_growth_yoy": 0.06,
         "200B_permits_yoy": 19.69,
         "204A_dom_composite": 8.13,
@@ -2202,36 +2202,36 @@
         "204A_dom_level_days": 79.0
       },
       "percentile_scores": {
-        "101A": 34.0,
+        "101A": 34.7,
         "102A": 18.0,
         "103B": 78.0,
         "104C": 98.0,
         "105C": 2.0,
-        "106D": 50,
+        "106D": 88.0,
         "107E": 32.0,
-        "200B": 76.0,
+        "200B": 75.5,
         "204A": 68.0
       },
       "scores_100": {
-        "101A": 34,
+        "101A": 35,
         "102A": 18,
         "103B": 78,
         "104C": 98,
         "105C": 2,
-        "106D": 50,
+        "106D": 88,
         "107E": 32,
         "200B": 76,
         "204A": 68
       },
-      "weighted_percentile": 48.0,
-      "weighted_score": 48,
+      "weighted_percentile": 51.9,
+      "weighted_score": 52,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
-        "percentile": 48.0
+        "letter": "B",
+        "emoji": "\u27a1\ufe0f",
+        "description": "Average",
+        "percentile": 51.9
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\u27a1\ufe0f B"
     },
     {
       "metro_name": "Salt Lake City-Murray",
@@ -2243,7 +2243,7 @@
         "103B_earnings_yoy": 3.15,
         "104C_col": 1.97,
         "105C_owr": 4.76,
-        "106D_wh_trend_deviation_pct": null,
+        "106D_wh_trend_deviation_pct": 0.564,
         "107E_employment_growth_yoy": 1.83,
         "200B_permits_yoy": 14.73,
         "204A_dom_composite": 5.45,
@@ -2251,14 +2251,14 @@
         "204A_dom_level_days": 49.0
       },
       "percentile_scores": {
-        "101A": 76.0,
+        "101A": 75.5,
         "102A": 94.0,
         "103B": 48.0,
         "104C": 68.0,
         "105C": 98.0,
-        "106D": 50,
+        "106D": 70.0,
         "107E": 92.0,
-        "200B": 64.0,
+        "200B": 63.3,
         "204A": 4.0
       },
       "scores_100": {
@@ -2267,18 +2267,18 @@
         "103B": 48,
         "104C": 68,
         "105C": 98,
-        "106D": 50,
+        "106D": 70,
         "107E": 92,
-        "200B": 64,
+        "200B": 63,
         "204A": 4
       },
-      "weighted_percentile": 71.2,
-      "weighted_score": 71,
+      "weighted_percentile": 73.0,
+      "weighted_score": 73,
       "grade": {
         "letter": "A+",
         "emoji": "\ud83d\ude80",
         "description": "Excellent",
-        "percentile": 71.2
+        "percentile": 73.0
       },
       "grade_display": "\ud83d\ude80 A+"
     },
@@ -2291,8 +2291,8 @@
         "102A_lfp": 60.56,
         "103B_earnings_yoy": -0.12,
         "104C_col": 3.17,
-        "105C_owr": 1.44,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 1.47,
+        "106D_wh_trend_deviation_pct": 1.729,
         "107E_employment_growth_yoy": 0.61,
         "200B_permits_yoy": 55.25,
         "204A_dom_composite": 6.86,
@@ -2304,10 +2304,10 @@
         "102A": 20.0,
         "103B": 8.0,
         "104C": 40.0,
-        "105C": 20.0,
-        "106D": 50,
+        "105C": 20.4,
+        "106D": 98.0,
         "107E": 68.0,
-        "200B": 88.0,
+        "200B": 87.8,
         "204A": 26.0
       },
       "scores_100": {
@@ -2316,20 +2316,20 @@
         "103B": 8,
         "104C": 40,
         "105C": 20,
-        "106D": 50,
+        "106D": 98,
         "107E": 68,
         "200B": 88,
         "204A": 26
       },
-      "weighted_percentile": 53.7,
-      "weighted_score": 54,
+      "weighted_percentile": 58.5,
+      "weighted_score": 58,
       "grade": {
-        "letter": "B",
-        "emoji": "\u27a1\ufe0f",
-        "description": "Average",
-        "percentile": 53.7
+        "letter": "B+",
+        "emoji": "\ud83d\udcc8",
+        "description": "Above Average",
+        "percentile": 58.5
       },
-      "grade_display": "\u27a1\ufe0f B"
+      "grade_display": "\ud83d\udcc8 B+"
     },
     {
       "metro_name": "Fresno",
@@ -2340,8 +2340,8 @@
         "102A_lfp": 60.33,
         "103B_earnings_yoy": 7.6,
         "104C_col": 2.08,
-        "105C_owr": 0.78,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 0.8,
+        "106D_wh_trend_deviation_pct": -1.104,
         "107E_employment_growth_yoy": 0.22,
         "200B_permits_yoy": 61.97,
         "204A_dom_composite": 8.04,
@@ -2353,10 +2353,10 @@
         "102A": 12.0,
         "103B": 90.0,
         "104C": 64.0,
-        "105C": 4.0,
-        "106D": 50,
+        "105C": 4.1,
+        "106D": 4.0,
         "107E": 40.0,
-        "200B": 92.0,
+        "200B": 91.8,
         "204A": 66.0
       },
       "scores_100": {
@@ -2365,20 +2365,20 @@
         "103B": 90,
         "104C": 64,
         "105C": 4,
-        "106D": 50,
+        "106D": 4,
         "107E": 40,
         "200B": 92,
         "204A": 66
       },
-      "weighted_percentile": 40.9,
-      "weighted_score": 41,
+      "weighted_percentile": 36.3,
+      "weighted_score": 36,
       "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
-        "percentile": 40.9
+        "letter": "C",
+        "emoji": "\u26d4",
+        "description": "Very Poor",
+        "percentile": 36.3
       },
-      "grade_display": "\ud83d\udcc9 C+"
+      "grade_display": "\u26d4 C"
     },
     {
       "metro_name": "Grand Rapids-Wyoming-Kentwood",
@@ -2390,7 +2390,7 @@
         "103B_earnings_yoy": 3.13,
         "104C_col": 5.76,
         "105C_owr": 3.06,
-        "106D_wh_trend_deviation_pct": null,
+        "106D_wh_trend_deviation_pct": 0.29,
         "107E_employment_growth_yoy": 0.51,
         "200B_permits_yoy": 55.17,
         "204A_dom_composite": 8.43,
@@ -2398,34 +2398,34 @@
         "204A_dom_level_days": 64.0
       },
       "percentile_scores": {
-        "101A": 34.0,
+        "101A": 34.7,
         "102A": 40.0,
         "103B": 46.0,
         "104C": 4.0,
-        "105C": 72.0,
-        "106D": 50,
+        "105C": 71.4,
+        "106D": 54.0,
         "107E": 56.0,
-        "200B": 86.0,
+        "200B": 85.7,
         "204A": 84.0
       },
       "scores_100": {
-        "101A": 34,
+        "101A": 35,
         "102A": 40,
         "103B": 46,
         "104C": 4,
-        "105C": 72,
-        "106D": 50,
+        "105C": 71,
+        "106D": 54,
         "107E": 56,
         "200B": 86,
         "204A": 84
       },
-      "weighted_percentile": 47.6,
+      "weighted_percentile": 48.1,
       "weighted_score": 48,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 47.6
+        "percentile": 48.1
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -2438,8 +2438,8 @@
         "102A_lfp": 64.7,
         "103B_earnings_yoy": -0.36,
         "104C_col": 3.5,
-        "105C_owr": 2.12,
-        "106D_wh_trend_deviation_pct": null,
+        "105C_owr": 2.16,
+        "106D_wh_trend_deviation_pct": 0.445,
         "107E_employment_growth_yoy": 1.88,
         "200B_permits_yoy": 16.13,
         "204A_dom_composite": 9.11,
@@ -2447,14 +2447,14 @@
         "204A_dom_level_days": 46.0
       },
       "percentile_scores": {
-        "101A": 94.0,
+        "101A": 93.9,
         "102A": 58.0,
         "103B": 6.0,
         "104C": 32.0,
-        "105C": 32.0,
-        "106D": 50,
+        "105C": 34.7,
+        "106D": 66.0,
         "107E": 96.0,
-        "200B": 70.0,
+        "200B": 69.4,
         "204A": 90.0
       },
       "scores_100": {
@@ -2462,19 +2462,19 @@
         "102A": 58,
         "103B": 6,
         "104C": 32,
-        "105C": 32,
-        "106D": 50,
+        "105C": 35,
+        "106D": 66,
         "107E": 96,
-        "200B": 70,
+        "200B": 69,
         "204A": 90
       },
-      "weighted_percentile": 63.8,
-      "weighted_score": 64,
+      "weighted_percentile": 65.4,
+      "weighted_score": 65,
       "grade": {
         "letter": "A",
         "emoji": "\u2705",
         "description": "Very Good",
-        "percentile": 63.8
+        "percentile": 65.4
       },
       "grade_display": "\u2705 A"
     }

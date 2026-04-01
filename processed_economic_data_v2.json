@@ -1,15 +1,15 @@
 {
-  "processing_timestamp": "2026-03-30T10:23:18.102216",
-  "processing_date": "2026-03-30 10:23:18",
+  "processing_timestamp": "2026-04-01T17:43:38.815996",
+  "processing_date": "2026-04-01 17:43:38",
   "version": 2,
   "metrics_count": 11,
   "metrics_scored": 10,
   "metrics_collected_only": 1,
-  "source_data": "2026-03-30 10:23:17",
+  "source_data": "2026-04-01 17:42:55",
   "msa_averages": {
     "unemployment_rate": {
-      "msa_average": 3.926,
-      "metros_with_data": 50
+      "msa_average": 3.9347,
+      "metros_with_data": 49
     },
     "civilian_labor_force": {
       "msa_average": 64.4095,
@@ -24,15 +24,15 @@
       "metros_with_data": 50
     },
     "office_worker_ratio": {
-      "msa_average": 9.8887,
-      "metros_with_data": 50
+      "msa_average": 9.8614,
+      "metros_with_data": 49
     },
     "building_permits": {
-      "msa_average": 1223.08,
-      "metros_with_data": 50
+      "msa_average": 1202.7959,
+      "metros_with_data": 49
     },
     "home_price_index": {
-      "msa_average": 362.2314,
+      "msa_average": 362.3951,
       "metros_with_data": 50
     },
     "price_per_sqft": {
@@ -40,8 +40,8 @@
       "metros_with_data": 50
     },
     "housing_price": {
-      "msa_average": 480907.68,
-      "metros_with_data": 50
+      "msa_average": 482476.1633,
+      "metros_with_data": 49
     },
     "median_days_on_market": {
       "msa_average": 55.56,
@@ -62,6 +62,7 @@
           "series_id": "NEWY636URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.627272727272727,
           "yoy_change": {
             "current": 4.5,
             "change": 0.2,
@@ -89,6 +90,7 @@
           "series_id": "NEWY636NAN",
           "metric_name": "All Employees",
           "3month_average": 10165.666666666666,
+          "12month_average": 10062.3,
           "yoy_change": {
             "current": 10196.8,
             "change": 48.4,
@@ -106,6 +108,7 @@
           "series_id": "SMU36356200500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 40.78666666666667,
+          "12month_average": 39.85,
           "yoy_change": {
             "current": 40.92,
             "change": 1.89,
@@ -123,6 +126,7 @@
           "series_id": "SMU36356200500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.03333333333333,
+          "12month_average": 32.766666666666666,
           "yoy_change": {
             "current": 32.9,
             "change": -0.2,
@@ -140,6 +144,7 @@
           "series_id": "NEWY636PBSV",
           "metric_name": "Office Workers",
           "3month_average": 1635.7177275219133,
+          "12month_average": 1623.8898586701416,
           "yoy_change": {
             "current": 1641.9034,
             "change": 12.3775,
@@ -157,6 +162,7 @@
           "series_id": "NEWY636BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 5655.333333333333,
+          "12month_average": 4120.166666666667,
           "yoy_change": {
             "current": 6012.0,
             "change": 1812.0,
@@ -169,20 +175,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 336.7491,
-          "latest_date": "2025-12-01",
+          "latest_value": 338.3539,
+          "latest_date": "2026-01-01",
           "series_id": "NYXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 335.10037251771666,
+          "3month_average": 337.2278425580437,
+          "12month_average": 332.37924874140367,
           "yoy_change": {
-            "current": 336.7491,
-            "change": 16.4724,
-            "pct_change": 5.14
+            "current": 338.3539,
+            "change": 15.9978,
+            "pct_change": 4.96
           },
           "3month_avg_yoy": {
-            "current_3mo": 335.1004,
-            "change": 16.4176,
-            "pct_change": 5.15
+            "current_3mo": 337.2278,
+            "change": 16.706,
+            "pct_change": 5.21
           }
         },
         "price_per_sqft": {
@@ -191,6 +198,7 @@
           "series_id": "MEDLISPRIPERSQUFEE35620",
           "metric_name": "Price per Sqft",
           "3month_average": 527.6666666666666,
+          "12month_average": 522.1666666666666,
           "yoy_change": {
             "current": 537.0,
             "change": -1.0,
@@ -208,6 +216,7 @@
           "series_id": "MEDLISPRI35620",
           "metric_name": "Median Housing Price",
           "3month_average": 749463.0,
+          "12month_average": 767190.75,
           "yoy_change": {
             "current": 749450.0,
             "change": -17439.0,
@@ -225,6 +234,7 @@
           "series_id": "MEDDAYONMAR35620",
           "metric_name": "Median Days on Market",
           "3month_average": 71.66666666666667,
+          "12month_average": 57.166666666666664,
           "yoy_change": {
             "current": 68.0,
             "change": 0.0,
@@ -277,6 +287,7 @@
           "series_id": "LOSA106URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 5.345454545454546,
           "yoy_change": {
             "current": 4.8,
             "change": -0.4,
@@ -304,6 +315,7 @@
           "series_id": "LOSA106NAN",
           "metric_name": "All Employees",
           "3month_average": 5758.433333333333,
+          "12month_average": 5674.816666666667,
           "yoy_change": {
             "current": 5778.3,
             "change": 104.1,
@@ -321,6 +333,7 @@
           "series_id": "SMU06310800500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 40.986666666666665,
+          "12month_average": 40.27583333333333,
           "yoy_change": {
             "current": 41.48,
             "change": 2.1,
@@ -338,6 +351,7 @@
           "series_id": "SMU06310800500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.4,
+          "12month_average": 33.49166666666667,
           "yoy_change": {
             "current": 32.9,
             "change": -1.2,
@@ -355,6 +369,7 @@
           "series_id": "SMU06310806000000001SA",
           "metric_name": "Office Workers",
           "3month_average": 945.960806616663,
+          "12month_average": 958.3743592197791,
           "yoy_change": {
             "current": 942.8092,
             "change": -27.479,
@@ -372,6 +387,7 @@
           "series_id": "LOSA106BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 2830.3333333333335,
+          "12month_average": 2380.5,
           "yoy_change": {
             "current": 2616.0,
             "change": 941.0,
@@ -384,20 +400,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 446.9704,
-          "latest_date": "2025-12-01",
+          "latest_value": 447.5253,
+          "latest_date": "2026-01-01",
           "series_id": "LXXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 444.214442019416,
+          "3month_average": 446.25741551543666,
+          "12month_average": 443.6754185128316,
           "yoy_change": {
-            "current": 446.9704,
-            "change": 3.8019,
-            "pct_change": 0.86
+            "current": 447.5253,
+            "change": 1.1713,
+            "pct_change": 0.26
           },
           "3month_avg_yoy": {
-            "current_3mo": 444.2144,
-            "change": 2.1063,
-            "pct_change": 0.48
+            "current_3mo": 446.2574,
+            "change": 2.2644,
+            "pct_change": 0.51
           }
         },
         "price_per_sqft": {
@@ -406,6 +423,7 @@
           "series_id": "MEDLISPRIPERSQUFEE31080",
           "metric_name": "Price per Sqft",
           "3month_average": 658.0,
+          "12month_average": 670.25,
           "yoy_change": {
             "current": 661.0,
             "change": -22.0,
@@ -423,6 +441,7 @@
           "series_id": "MEDLISPRI31080",
           "metric_name": "Median Housing Price",
           "3month_average": 1047300.0,
+          "12month_average": 1118656.9166666667,
           "yoy_change": {
             "current": 1054400.0,
             "change": -64600.0,
@@ -440,6 +459,7 @@
           "series_id": "MEDDAYONMAR31080",
           "metric_name": "Median Days on Market",
           "3month_average": 59.333333333333336,
+          "12month_average": 52.666666666666664,
           "yoy_change": {
             "current": 44.0,
             "change": 5.0,
@@ -492,6 +512,7 @@
           "series_id": "CHIC917URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.7727272727272725,
           "yoy_change": {
             "current": 4.5,
             "change": 0.0,
@@ -519,6 +540,7 @@
           "series_id": "CHIC917NAN",
           "metric_name": "All Employees",
           "3month_average": 4792.4,
+          "12month_average": 4749.833333333333,
           "yoy_change": {
             "current": 4787.8,
             "change": 28.5,
@@ -536,6 +558,7 @@
           "series_id": "SMU17169800500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 36.693333333333335,
+          "12month_average": 36.149166666666666,
           "yoy_change": {
             "current": 36.53,
             "change": 1.01,
@@ -553,6 +576,7 @@
           "series_id": "SMU17169800500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.266666666666666,
+          "12month_average": 33.358333333333334,
           "yoy_change": {
             "current": 33.1,
             "change": -0.9,
@@ -570,6 +594,7 @@
           "series_id": "CHIC917PBSV",
           "metric_name": "Office Workers",
           "3month_average": 803.9980484598937,
+          "12month_average": 806.2832290086876,
           "yoy_change": {
             "current": 809.3843,
             "change": 0.0942,
@@ -587,6 +612,7 @@
           "series_id": "CHIC917BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 894.3333333333334,
+          "12month_average": 1349.4166666666667,
           "yoy_change": {
             "current": 889.0,
             "change": 70.0,
@@ -599,20 +625,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 224.6793,
-          "latest_date": "2025-12-01",
+          "latest_value": 225.3351,
+          "latest_date": "2026-01-01",
           "series_id": "CHXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 223.30667400669833,
+          "3month_average": 224.27081878129968,
+          "12month_average": 220.23559525987025,
           "yoy_change": {
-            "current": 224.6793,
-            "change": 11.4406,
-            "pct_change": 5.37
+            "current": 225.3351,
+            "change": 9.9861,
+            "pct_change": 4.64
           },
           "3month_avg_yoy": {
-            "current_3mo": 223.3067,
-            "change": 11.7879,
-            "pct_change": 5.57
+            "current_3mo": 224.2708,
+            "change": 11.034,
+            "pct_change": 5.17
           }
         },
         "price_per_sqft": {
@@ -621,6 +648,7 @@
           "series_id": "MEDLISPRIPERSQUFEE16980",
           "metric_name": "Price per Sqft",
           "3month_average": 208.0,
+          "12month_average": 212.08333333333334,
           "yoy_change": {
             "current": 210.0,
             "change": 3.0,
@@ -638,6 +666,7 @@
           "series_id": "MEDLISPRI16980",
           "metric_name": "Median Housing Price",
           "3month_average": 347616.6666666667,
+          "12month_average": 365105.5,
           "yoy_change": {
             "current": 349950.0,
             "change": 500.0,
@@ -655,6 +684,7 @@
           "series_id": "MEDDAYONMAR16980",
           "metric_name": "Median Days on Market",
           "3month_average": 51.333333333333336,
+          "12month_average": 40.0,
           "yoy_change": {
             "current": 40.0,
             "change": -3.0,
@@ -707,6 +737,7 @@
           "series_id": "DALL148URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.909090909090909,
           "yoy_change": {
             "current": 3.6,
             "change": 0.1,
@@ -734,6 +765,7 @@
           "series_id": "DALL148NAN",
           "metric_name": "All Employees",
           "3month_average": 4333.599999999999,
+          "12month_average": 4300.058333333333,
           "yoy_change": {
             "current": 4338.5,
             "change": 14.2,
@@ -751,6 +783,7 @@
           "series_id": "SMU48191000500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 37.24666666666667,
+          "12month_average": 36.653333333333336,
           "yoy_change": {
             "current": 37.27,
             "change": 1.12,
@@ -768,6 +801,7 @@
           "series_id": "SMU48191000500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 35.766666666666666,
+          "12month_average": 35.81666666666666,
           "yoy_change": {
             "current": 35.5,
             "change": -0.6,
@@ -785,6 +819,7 @@
           "series_id": "DALL148PBSV",
           "metric_name": "Office Workers",
           "3month_average": 760.7973792888037,
+          "12month_average": 767.380511932197,
           "yoy_change": {
             "current": 759.3413,
             "change": -21.795,
@@ -802,6 +837,7 @@
           "series_id": "DALL148BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 4042.0,
+          "12month_average": 5392.083333333333,
           "yoy_change": {
             "current": 4053.0,
             "change": -823.0,
@@ -814,20 +850,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 295.534,
-          "latest_date": "2025-12-01",
+          "latest_value": 295.8487,
+          "latest_date": "2026-01-01",
           "series_id": "DAXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 294.73320720510367,
+          "3month_average": 295.292298769271,
+          "12month_average": 294.8900172485377,
           "yoy_change": {
-            "current": 295.534,
-            "change": -4.5552,
-            "pct_change": -1.52
+            "current": 295.8487,
+            "change": -4.3913,
+            "pct_change": -1.46
           },
           "3month_avg_yoy": {
-            "current_3mo": 294.7332,
-            "change": -4.3673,
-            "pct_change": -1.46
+            "current_3mo": 295.2923,
+            "change": -4.4094,
+            "pct_change": -1.47
           }
         },
         "price_per_sqft": {
@@ -836,6 +873,7 @@
           "series_id": "MEDLISPRIPERSQUFEE19100",
           "metric_name": "Price per Sqft",
           "3month_average": 199.66666666666666,
+          "12month_average": 203.16666666666666,
           "yoy_change": {
             "current": 200.0,
             "change": -4.0,
@@ -853,6 +891,7 @@
           "series_id": "MEDLISPRI19100",
           "metric_name": "Median Housing Price",
           "3month_average": 409500.0,
+          "12month_average": 425158.5833333333,
           "yoy_change": {
             "current": 411000.0,
             "change": -4950.0,
@@ -870,6 +909,7 @@
           "series_id": "MEDDAYONMAR19100",
           "metric_name": "Median Days on Market",
           "3month_average": 66.66666666666667,
+          "12month_average": 57.083333333333336,
           "yoy_change": {
             "current": 57.0,
             "change": 1.0,
@@ -922,6 +962,7 @@
           "series_id": "HOUS448URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.409090909090909,
           "yoy_change": {
             "current": 4.2,
             "change": 0.2,
@@ -949,6 +990,7 @@
           "series_id": "HOUS448NAN",
           "metric_name": "All Employees",
           "3month_average": 3489.3,
+          "12month_average": 3467.425,
           "yoy_change": {
             "current": 3494.0,
             "change": 14.8,
@@ -966,6 +1008,7 @@
           "series_id": "SMU48264200500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 36.66,
+          "12month_average": 36.159166666666664,
           "yoy_change": {
             "current": 36.58,
             "change": 0.93,
@@ -983,6 +1026,7 @@
           "series_id": "SMU48264200500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 36.733333333333334,
+          "12month_average": 36.5,
           "yoy_change": {
             "current": 36.5,
             "change": -0.3,
@@ -1000,6 +1044,7 @@
           "series_id": "HOUS448PBSV",
           "metric_name": "Office Workers",
           "3month_average": 550.4629473309731,
+          "12month_average": 557.1239255908354,
           "yoy_change": {
             "current": 549.6458,
             "change": -18.7273,
@@ -1017,6 +1062,7 @@
           "series_id": "HOUS448BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 4546.666666666667,
+          "12month_average": 5288.833333333333,
           "yoy_change": {
             "current": 4206.0,
             "change": -1525.0,
@@ -1034,6 +1080,7 @@
           "series_id": "ATNHPIUS26420Q",
           "metric_name": "Home Price Index",
           "3month_average": 407.00666666666666,
+          "12month_average": 396.4725,
           "yoy_change": {
             "current": 409.56,
             "change": 32.81,
@@ -1051,6 +1098,7 @@
           "series_id": "MEDLISPRIPERSQUFEE26420",
           "metric_name": "Price per Sqft",
           "3month_average": 170.33333333333334,
+          "12month_average": 173.25,
           "yoy_change": {
             "current": 171.0,
             "change": -4.0,
@@ -1068,6 +1116,7 @@
           "series_id": "MEDLISPRI26420",
           "metric_name": "Median Housing Price",
           "3month_average": 349966.3333333333,
+          "12month_average": 361681.0833333333,
           "yoy_change": {
             "current": 349999.0,
             "change": -8001.0,
@@ -1085,6 +1134,7 @@
           "series_id": "MEDDAYONMAR26420",
           "metric_name": "Median Days on Market",
           "3month_average": 61.333333333333336,
+          "12month_average": 52.833333333333336,
           "yoy_change": {
             "current": 54.0,
             "change": 0.0,
@@ -1137,6 +1187,7 @@
           "series_id": "MIAM112URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.3545454545454545,
           "yoy_change": {
             "current": 3.5,
             "change": 0.8,
@@ -1164,6 +1215,7 @@
           "series_id": "MIAM112NAN",
           "metric_name": "All Employees",
           "3month_average": 3015.9333333333334,
+          "12month_average": 2992.0666666666666,
           "yoy_change": {
             "current": 3025.3,
             "change": 7.6,
@@ -1181,6 +1233,7 @@
           "series_id": "SMU12331000500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 33.376666666666665,
+          "12month_average": 32.346666666666664,
           "yoy_change": {
             "current": 33.56,
             "change": 2.23,
@@ -1198,6 +1251,7 @@
           "series_id": "SMU12331000500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 35.1,
+          "12month_average": 35.075,
           "yoy_change": {
             "current": 35.2,
             "change": -0.2,
@@ -1215,6 +1269,7 @@
           "series_id": "MIAM112PBSV",
           "metric_name": "Office Workers",
           "3month_average": 515.054890923083,
+          "12month_average": 518.8045605727738,
           "yoy_change": {
             "current": 513.5853,
             "change": -6.4175,
@@ -1232,6 +1287,7 @@
           "series_id": "MIAM112BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 1742.6666666666667,
+          "12month_average": 1854.5,
           "yoy_change": {
             "current": 1769.0,
             "change": 651.0,
@@ -1244,20 +1300,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 439.624,
-          "latest_date": "2025-12-01",
+          "latest_value": 442.3631,
+          "latest_date": "2026-01-01",
           "series_id": "MIXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 438.089140299346,
+          "3month_average": 440.09517760728033,
+          "12month_average": 438.98947126198095,
           "yoy_change": {
-            "current": 439.624,
-            "change": -6.5375,
-            "pct_change": -1.47
+            "current": 442.3631,
+            "change": -3.9974,
+            "pct_change": -0.9
           },
           "3month_avg_yoy": {
-            "current_3mo": 438.0891,
-            "change": -5.213,
-            "pct_change": -1.18
+            "current_3mo": 440.0952,
+            "change": -5.0738,
+            "pct_change": -1.14
           }
         },
         "price_per_sqft": {
@@ -1266,6 +1323,7 @@
           "series_id": "MEDLISPRIPERSQUFEE33100",
           "metric_name": "Price per Sqft",
           "3month_average": 362.0,
+          "12month_average": 361.4166666666667,
           "yoy_change": {
             "current": 362.0,
             "change": -7.0,
@@ -1283,6 +1341,7 @@
           "series_id": "MEDLISPRI33100",
           "metric_name": "Median Housing Price",
           "3month_average": 499999.6666666667,
+          "12month_average": 504320.6666666667,
           "yoy_change": {
             "current": 499999.0,
             "change": -15001.0,
@@ -1300,6 +1359,7 @@
           "series_id": "MEDDAYONMAR33100",
           "metric_name": "Median Days on Market",
           "3month_average": 85.66666666666667,
+          "12month_average": 82.75,
           "yoy_change": {
             "current": 83.0,
             "change": 9.0,
@@ -1352,6 +1412,7 @@
           "series_id": "WASH911URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.809090909090909,
           "yoy_change": {
             "current": 3.8,
             "change": 1.1,
@@ -1379,6 +1440,7 @@
           "series_id": "WASH911NAN",
           "metric_name": "All Employees",
           "3month_average": 3372.8333333333335,
+          "12month_average": 3386.6833333333334,
           "yoy_change": {
             "current": 3369.1,
             "change": -55.9,
@@ -1396,6 +1458,7 @@
           "series_id": "SMU11479000500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 44.056666666666665,
+          "12month_average": 43.305,
           "yoy_change": {
             "current": 44.25,
             "change": 0.6,
@@ -1413,6 +1476,7 @@
           "series_id": "SMU11479000500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.733333333333334,
+          "12month_average": 34.80833333333333,
           "yoy_change": {
             "current": 34.5,
             "change": -1.1,
@@ -1430,6 +1494,7 @@
           "series_id": "WASH911PBSV",
           "metric_name": "Office Workers",
           "3month_average": 793.6736776079864,
+          "12month_average": 801.0539332590704,
           "yoy_change": {
             "current": 793.6572,
             "change": -23.1625,
@@ -1447,6 +1512,7 @@
           "series_id": "WASH911BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 1539.6666666666667,
+          "12month_average": 1464.3333333333333,
           "yoy_change": {
             "current": 2313.0,
             "change": 133.0,
@@ -1459,20 +1525,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 336.0977,
-          "latest_date": "2025-12-01",
+          "latest_value": 336.587,
+          "latest_date": "2026-01-01",
           "series_id": "WDXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 335.245998943208,
+          "3month_average": 335.814861744321,
+          "12month_average": 334.5563736342195,
           "yoy_change": {
-            "current": 336.0977,
-            "change": 0.9737,
-            "pct_change": 0.29
+            "current": 336.587,
+            "change": 0.6603,
+            "pct_change": 0.2
           },
           "3month_avg_yoy": {
-            "current_3mo": 335.246,
-            "change": 1.1406,
-            "pct_change": 0.34
+            "current_3mo": 335.8149,
+            "change": 0.7809,
+            "pct_change": 0.23
           }
         },
         "price_per_sqft": {
@@ -1481,6 +1548,7 @@
           "series_id": "MEDLISPRIPERSQUFEE47900",
           "metric_name": "Price per Sqft",
           "3month_average": 302.3333333333333,
+          "12month_average": 310.25,
           "yoy_change": {
             "current": 305.0,
             "change": -16.0,
@@ -1498,6 +1566,7 @@
           "series_id": "MEDLISPRI47900",
           "metric_name": "Median Housing Price",
           "3month_average": 549950.0,
+          "12month_average": 593286.0833333334,
           "yoy_change": {
             "current": 550000.0,
             "change": -29995.0,
@@ -1515,6 +1584,7 @@
           "series_id": "MEDDAYONMAR47900",
           "metric_name": "Median Days on Market",
           "3month_average": 51.0,
+          "12month_average": 38.583333333333336,
           "yoy_change": {
             "current": 38.0,
             "change": 4.0,
@@ -1559,7 +1629,7 @@
       "metro_name": "Atlanta-Sandy Springs-Roswell",
       "primary_city": "Atlanta",
       "civilian_population": 5131103,
-      "metrics_processed": 13,
+      "metrics_processed": 9,
       "data": {
         "unemployment_rate": {
           "latest_value": 3.3,
@@ -1567,6 +1637,7 @@
           "series_id": "ATLA013URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.4636363636363634,
           "yoy_change": {
             "current": 3.3,
             "change": 0.0,
@@ -1594,6 +1665,7 @@
           "series_id": "ATLA013NAN",
           "metric_name": "All Employees",
           "3month_average": 3145.133333333333,
+          "12month_average": 3121.116666666667,
           "yoy_change": {
             "current": 3152.0,
             "change": -0.3,
@@ -1611,6 +1683,7 @@
           "series_id": "SMU13120600500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 37.7,
+          "12month_average": 36.285,
           "yoy_change": {
             "current": 38.1,
             "change": 2.91,
@@ -1628,6 +1701,7 @@
           "series_id": "SMU13120600500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.7,
+          "12month_average": 34.516666666666666,
           "yoy_change": {
             "current": 34.6,
             "change": -0.2,
@@ -1639,55 +1713,22 @@
             "pct_change": 0.19
           }
         },
-        "office_workers": {
-          "latest_value": 576.0793,
-          "latest_date": "2025-12-01",
-          "series_id": "ATLA013PBSV",
-          "metric_name": "Office Workers",
-          "3month_average": 573.520923958875,
-          "yoy_change": {
-            "current": 576.0793,
-            "change": 7.7893,
-            "pct_change": 1.37
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 573.5209,
-            "change": 5.6824,
-            "pct_change": 1.0
-          }
-        },
-        "building_permits": {
-          "latest_value": 2217.0,
-          "latest_date": "2026-01-01",
-          "series_id": "ATLA013BPPRIV",
-          "metric_name": "Building Permits",
-          "3month_average": 2144.3333333333335,
-          "yoy_change": {
-            "current": 2217.0,
-            "change": -916.0,
-            "pct_change": -29.24
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 2144.3333,
-            "change": -959.0,
-            "pct_change": -30.9
-          }
-        },
         "home_price_index": {
-          "latest_value": 249.83,
-          "latest_date": "2025-12-01",
+          "latest_value": 249.7624,
+          "latest_date": "2026-01-01",
           "series_id": "ATXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 248.97988805041368,
+          "3month_average": 249.467699304739,
+          "12month_average": 249.22143593226158,
           "yoy_change": {
-            "current": 249.83,
-            "change": 0.4108,
-            "pct_change": 0.16
+            "current": 249.7624,
+            "change": -0.281,
+            "pct_change": -0.11
           },
           "3month_avg_yoy": {
-            "current_3mo": 248.9799,
-            "change": 0.0224,
-            "pct_change": 0.01
+            "current_3mo": 249.4677,
+            "change": -0.0024,
+            "pct_change": -0.0
           }
         },
         "price_per_sqft": {
@@ -1696,6 +1737,7 @@
           "series_id": "MEDLISPRIPERSQUFEE12060",
           "metric_name": "Price per Sqft",
           "3month_average": 194.66666666666666,
+          "12month_average": 196.08333333333334,
           "yoy_change": {
             "current": 196.0,
             "change": 0.0,
@@ -1707,29 +1749,13 @@
             "pct_change": -0.34
           }
         },
-        "housing_price": {
-          "latest_value": 404052.0,
-          "latest_date": "2026-02-01",
-          "series_id": "MEDLISPRI12060",
-          "metric_name": "Median Housing Price",
-          "3month_average": 401350.6666666667,
-          "yoy_change": {
-            "current": 404052.0,
-            "change": 5158.0,
-            "pct_change": 1.29
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 401350.6667,
-            "change": 2069.3333,
-            "pct_change": 0.52
-          }
-        },
         "median_days_on_market": {
           "latest_value": 56.0,
           "latest_date": "2026-02-01",
           "series_id": "MEDDAYONMAR12060",
           "metric_name": "Median Days on Market",
           "3month_average": 65.66666666666667,
+          "12month_average": 56.666666666666664,
           "yoy_change": {
             "current": 56.0,
             "change": -2.0,
@@ -1753,19 +1779,6 @@
             "pct_change": -7.64
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
-        },
-        "office_worker_ratio": {
-          "latest_value": 11.2272,
-          "latest_date": "2025-12-01",
-          "series_id": "ATLA013PBSV",
-          "metric_name": "Office Worker Ratio",
-          "3month_average": 11.1773,
-          "yoy_change": {
-            "current": 11.2272,
-            "change": 0.1518,
-            "pct_change": 1.37
-          },
-          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
@@ -1782,6 +1795,7 @@
           "series_id": "PHIL942URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.345454545454546,
           "yoy_change": {
             "current": 4.0,
             "change": 0.6,
@@ -1809,6 +1823,7 @@
           "series_id": "PHIL942NAN",
           "metric_name": "All Employees",
           "3month_average": 3178.633333333333,
+          "12month_average": 3144.3083333333334,
           "yoy_change": {
             "current": 3183.6,
             "change": 36.4,
@@ -1826,6 +1841,7 @@
           "series_id": "SMU42379800500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 35.74666666666666,
+          "12month_average": 35.415,
           "yoy_change": {
             "current": 36.0,
             "change": 0.78,
@@ -1843,6 +1859,7 @@
           "series_id": "SMU42379800500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.86666666666667,
+          "12month_average": 34.575,
           "yoy_change": {
             "current": 34.9,
             "change": 0.1,
@@ -1860,6 +1877,7 @@
           "series_id": "PHIL942PBSV",
           "metric_name": "Office Workers",
           "3month_average": 507.96996402776534,
+          "12month_average": 504.12285527128165,
           "yoy_change": {
             "current": 508.295,
             "change": 10.6143,
@@ -1877,6 +1895,7 @@
           "series_id": "PHIL942BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 1232.0,
+          "12month_average": 1138.4166666666667,
           "yoy_change": {
             "current": 1136.0,
             "change": 205.0,
@@ -1894,6 +1913,7 @@
           "series_id": "ATNHPIUS37964Q",
           "metric_name": "Home Price Index",
           "3month_average": 408.38666666666666,
+          "12month_average": 385.44416666666666,
           "yoy_change": {
             "current": 411.8,
             "change": 52.73,
@@ -1911,6 +1931,7 @@
           "series_id": "MEDLISPRIPERSQUFEE37980",
           "metric_name": "Price per Sqft",
           "3month_average": 226.33333333333334,
+          "12month_average": 229.41666666666666,
           "yoy_change": {
             "current": 226.0,
             "change": 1.0,
@@ -1928,6 +1949,7 @@
           "series_id": "MEDLISPRI37980",
           "metric_name": "Median Housing Price",
           "3month_average": 355458.3333333333,
+          "12month_average": 372718.75,
           "yoy_change": {
             "current": 356425.0,
             "change": 6425.0,
@@ -1945,6 +1967,7 @@
           "series_id": "MEDDAYONMAR37980",
           "metric_name": "Median Days on Market",
           "3month_average": 58.333333333333336,
+          "12month_average": 45.666666666666664,
           "yoy_change": {
             "current": 53.0,
             "change": 1.0,
@@ -1989,21 +2012,8 @@
       "metro_name": "Phoenix-Mesa-Chandler",
       "primary_city": "Phoenix",
       "civilian_population": 4201372,
-      "metrics_processed": 13,
+      "metrics_processed": 12,
       "data": {
-        "unemployment_rate": {
-          "latest_value": 3.5,
-          "latest_date": "2025-12-01",
-          "series_id": "PHOE004URN",
-          "metric_name": "Unemployment Rate",
-          "3month_average": null,
-          "yoy_change": {
-            "current": 3.5,
-            "change": 0.4,
-            "pct_change": 12.9
-          },
-          "3month_avg_yoy": null
-        },
         "civilian_labor_force": {
           "latest_value": 66.3375,
           "latest_date": "2025-12-01",
@@ -2024,6 +2034,7 @@
           "series_id": "PHOE004NAN",
           "metric_name": "All Employees",
           "3month_average": 2496.7333333333336,
+          "12month_average": 2459.5833333333335,
           "yoy_change": {
             "current": 2507.3,
             "change": 21.7,
@@ -2041,6 +2052,7 @@
           "series_id": "SMU04380600500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 37.09,
+          "12month_average": 36.56916666666667,
           "yoy_change": {
             "current": 36.99,
             "change": 1.6,
@@ -2058,6 +2070,7 @@
           "series_id": "SMU04380600500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.43333333333333,
+          "12month_average": 34.86666666666667,
           "yoy_change": {
             "current": 34.2,
             "change": -1.7,
@@ -2075,6 +2088,7 @@
           "series_id": "PHOE004PBSV",
           "metric_name": "Office Workers",
           "3month_average": 393.0776231821277,
+          "12month_average": 387.5085260834524,
           "yoy_change": {
             "current": 393.5134,
             "change": 10.9776,
@@ -2092,6 +2106,7 @@
           "series_id": "PHOE004BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 3374.6666666666665,
+          "12month_average": 3239.8333333333335,
           "yoy_change": {
             "current": 2114.0,
             "change": -573.0,
@@ -2104,20 +2119,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 324.4988,
-          "latest_date": "2025-12-01",
+          "latest_value": 324.7115,
+          "latest_date": "2026-01-01",
           "series_id": "PHXRNSA",
           "metric_name": "Home Price Index",
-          "3month_average": 324.858512630559,
+          "3month_average": 324.86729422733436,
+          "12month_average": 327.0083193397259,
           "yoy_change": {
-            "current": 324.4988,
-            "change": -5.055,
-            "pct_change": -1.53
+            "current": 324.7115,
+            "change": -5.2471,
+            "pct_change": -1.59
           },
           "3month_avg_yoy": {
-            "current_3mo": 324.8585,
-            "change": -4.8669,
-            "pct_change": -1.48
+            "current_3mo": 324.8673,
+            "change": -4.9125,
+            "pct_change": -1.49
           }
         },
         "price_per_sqft": {
@@ -2126,6 +2142,7 @@
           "series_id": "MEDLISPRIPERSQUFEE38060",
           "metric_name": "Price per Sqft",
           "3month_average": 269.6666666666667,
+          "12month_average": 271.5833333333333,
           "yoy_change": {
             "current": 271.0,
             "change": -6.0,
@@ -2143,6 +2160,7 @@
           "series_id": "MEDLISPRI38060",
           "metric_name": "Median Housing Price",
           "3month_average": 488832.6666666667,
+          "12month_average": 503624.8333333333,
           "yoy_change": {
             "current": 494998.0,
             "change": -20002.0,
@@ -2160,6 +2178,7 @@
           "series_id": "MEDDAYONMAR38060",
           "metric_name": "Median Days on Market",
           "3month_average": 66.66666666666667,
+          "12month_average": 62.416666666666664,
           "yoy_change": {
             "current": 55.0,
             "change": -1.0,
@@ -2212,6 +2231,7 @@
           "series_id": "BOST625URN",
           "metric_name": "Unemployment Rate",
           "3month_average": 3.7333333333333334,
+          "12month_average": 3.6083333333333334,
           "yoy_change": {
             "current": 3.9,
             "change": 0.9,
@@ -2247,6 +2267,7 @@
           "series_id": "BOST625NAN",
           "metric_name": "All Employees",
           "3month_average": 2840.4333333333334,
+          "12month_average": 2821.7,
           "yoy_change": {
             "current": 2835.2,
             "change": 20.5,
@@ -2264,6 +2285,7 @@
           "series_id": "SMU25144600500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 45.406666666666666,
+          "12month_average": 44.7525,
           "yoy_change": {
             "current": 45.05,
             "change": 0.63,
@@ -2281,6 +2303,7 @@
           "series_id": "SMU25144600500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.6,
+          "12month_average": 33.541666666666664,
           "yoy_change": {
             "current": 33.5,
             "change": -0.5,
@@ -2298,6 +2321,7 @@
           "series_id": "BOST625PBSV",
           "metric_name": "Office Workers",
           "3month_average": 527.437032980957,
+          "12month_average": 528.6427864281252,
           "yoy_change": {
             "current": 528.6055,
             "change": -0.5119,
@@ -2315,6 +2339,7 @@
           "series_id": "BOST625BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 687.3333333333334,
+          "12month_average": 768.0833333333334,
           "yoy_change": {
             "current": 711.0,
             "change": -78.0,
@@ -2327,20 +2352,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 349.2434,
-          "latest_date": "2025-12-01",
+          "latest_value": 351.2219,
+          "latest_date": "2026-01-01",
           "series_id": "BOXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 348.87973544523567,
+          "3month_average": 349.9066102224903,
+          "12month_average": 348.1763934712195,
           "yoy_change": {
-            "current": 349.2434,
-            "change": 3.311,
-            "pct_change": 0.96
+            "current": 351.2219,
+            "change": 4.5519,
+            "pct_change": 1.31
           },
           "3month_avg_yoy": {
-            "current_3mo": 348.8797,
-            "change": 6.565,
-            "pct_change": 1.92
+            "current_3mo": 349.9066,
+            "change": 4.9458,
+            "pct_change": 1.43
           }
         },
         "price_per_sqft": {
@@ -2349,6 +2375,7 @@
           "series_id": "MEDLISPRIPERSQUFEE14460",
           "metric_name": "Price per Sqft",
           "3month_average": 469.3333333333333,
+          "12month_average": 479.3333333333333,
           "yoy_change": {
             "current": 486.0,
             "change": 4.0,
@@ -2366,6 +2393,7 @@
           "series_id": "MEDLISPRI14460",
           "metric_name": "Median Housing Price",
           "3month_average": 777000.0,
+          "12month_average": 820893.6666666666,
           "yoy_change": {
             "current": 799000.0,
             "change": -40450.0,
@@ -2383,6 +2411,7 @@
           "series_id": "MEDDAYONMAR14460",
           "metric_name": "Median Days on Market",
           "3month_average": 54.333333333333336,
+          "12month_average": 39.5,
           "yoy_change": {
             "current": 42.0,
             "change": 9.0,
@@ -2435,6 +2464,7 @@
           "series_id": "RIVE106URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 5.463636363636364,
           "yoy_change": {
             "current": 5.1,
             "change": 0.2,
@@ -2462,6 +2492,7 @@
           "series_id": "RIVE106NAN",
           "metric_name": "All Employees",
           "3month_average": 1737.1666666666667,
+          "12month_average": 1709.6666666666667,
           "yoy_change": {
             "current": 1744.5,
             "change": 3.2,
@@ -2479,6 +2510,7 @@
           "series_id": "SMU06401400500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 34.38666666666667,
+          "12month_average": 33.685833333333335,
           "yoy_change": {
             "current": 34.81,
             "change": 2.44,
@@ -2496,6 +2528,7 @@
           "series_id": "SMU06401400500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.96666666666667,
+          "12month_average": 34.266666666666666,
           "yoy_change": {
             "current": 34.2,
             "change": -1.1,
@@ -2513,6 +2546,7 @@
           "series_id": "RIVE106PBSV",
           "metric_name": "Office Workers",
           "3month_average": 160.39914561543065,
+          "12month_average": 160.89490079058066,
           "yoy_change": {
             "current": 161.0286,
             "change": -0.2105,
@@ -2530,6 +2564,7 @@
           "series_id": "RIVE106BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 1193.0,
+          "12month_average": 1250.6666666666667,
           "yoy_change": {
             "current": 1319.0,
             "change": 158.0,
@@ -2547,6 +2582,7 @@
           "series_id": "ATNHPIUS40140Q",
           "metric_name": "Home Price Index",
           "3month_average": 498.99666666666667,
+          "12month_average": 482.18333333333334,
           "yoy_change": {
             "current": 499.6,
             "change": 45.55,
@@ -2564,6 +2600,7 @@
           "series_id": "MEDLISPRIPERSQUFEE40140",
           "metric_name": "Price per Sqft",
           "3month_average": 338.0,
+          "12month_average": 339.5,
           "yoy_change": {
             "current": 338.0,
             "change": -4.0,
@@ -2581,6 +2618,7 @@
           "series_id": "MEDLISPRI40140",
           "metric_name": "Median Housing Price",
           "3month_average": 586968.0,
+          "12month_average": 595641.5,
           "yoy_change": {
             "current": 588389.0,
             "change": -11061.0,
@@ -2598,6 +2636,7 @@
           "series_id": "MEDDAYONMAR40140",
           "metric_name": "Median Days on Market",
           "3month_average": 68.33333333333333,
+          "12month_average": 61.5,
           "yoy_change": {
             "current": 60.0,
             "change": 0.0,
@@ -2650,6 +2689,7 @@
           "series_id": "SANF806URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.372727272727273,
           "yoy_change": {
             "current": 4.1,
             "change": 0.1,
@@ -2677,6 +2717,7 @@
           "series_id": "SANF806NAN",
           "metric_name": "All Employees",
           "3month_average": 2442.2666666666664,
+          "12month_average": 2426.775,
           "yoy_change": {
             "current": 2445.2,
             "change": -12.9,
@@ -2694,6 +2735,7 @@
           "series_id": "SMU06418600500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 47.92333333333333,
+          "12month_average": 47.5925,
           "yoy_change": {
             "current": 47.55,
             "change": 0.23,
@@ -2711,6 +2753,7 @@
           "series_id": "SMU06418600500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.766666666666666,
+          "12month_average": 33.63333333333333,
           "yoy_change": {
             "current": 33.6,
             "change": -0.8,
@@ -2728,6 +2771,7 @@
           "series_id": "SANF806PBSV",
           "metric_name": "Office Workers",
           "3month_average": 479.3262946465903,
+          "12month_average": 483.1971011204185,
           "yoy_change": {
             "current": 478.88,
             "change": -11.3059,
@@ -2745,6 +2789,7 @@
           "series_id": "SANF806BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 726.6666666666666,
+          "12month_average": 626.1666666666666,
           "yoy_change": {
             "current": 605.0,
             "change": 40.0,
@@ -2757,20 +2802,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 361.722,
-          "latest_date": "2025-12-01",
+          "latest_value": 361.0773,
+          "latest_date": "2026-01-01",
           "series_id": "SFXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 360.793967826818,
+          "3month_average": 361.0237186613227,
+          "12month_average": 356.4271783719013,
           "yoy_change": {
-            "current": 361.722,
-            "change": -0.2026,
-            "pct_change": -0.06
+            "current": 361.0773,
+            "change": -1.5537,
+            "pct_change": -0.43
           },
           "3month_avg_yoy": {
-            "current_3mo": 360.794,
-            "change": 0.77,
-            "pct_change": 0.21
+            "current_3mo": 361.0237,
+            "change": -0.1606,
+            "pct_change": -0.04
           }
         },
         "price_per_sqft": {
@@ -2779,6 +2825,7 @@
           "series_id": "MEDLISPRIPERSQUFEE41860",
           "metric_name": "Price per Sqft",
           "3month_average": 618.6666666666666,
+          "12month_average": 651.5833333333334,
           "yoy_change": {
             "current": 634.0,
             "change": -16.0,
@@ -2796,6 +2843,7 @@
           "series_id": "MEDLISPRI41860",
           "metric_name": "Median Housing Price",
           "3month_average": 879333.3333333334,
+          "12month_average": 948066.6666666666,
           "yoy_change": {
             "current": 907000.0,
             "change": 7056.0,
@@ -2813,6 +2861,7 @@
           "series_id": "MEDDAYONMAR41860",
           "metric_name": "Median Days on Market",
           "3month_average": 49.0,
+          "12month_average": 42.416666666666664,
           "yoy_change": {
             "current": 30.0,
             "change": 0.0,
@@ -2865,6 +2914,7 @@
           "series_id": "DETR826URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.890909090909091,
           "yoy_change": {
             "current": 4.7,
             "change": 0.0,
@@ -2892,6 +2942,7 @@
           "series_id": "DETR826NAN",
           "metric_name": "All Employees",
           "3month_average": 2075.0333333333333,
+          "12month_average": 2063.3333333333335,
           "yoy_change": {
             "current": 2073.5,
             "change": 0.3,
@@ -2909,6 +2960,7 @@
           "series_id": "SMU26198200500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 36.153333333333336,
+          "12month_average": 36.285833333333336,
           "yoy_change": {
             "current": 35.83,
             "change": -0.41,
@@ -2926,6 +2978,7 @@
           "series_id": "SMU26198200500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.199999999999996,
+          "12month_average": 34.31666666666666,
           "yoy_change": {
             "current": 34.0,
             "change": -0.2,
@@ -2943,6 +2996,7 @@
           "series_id": "DETR826PBSV",
           "metric_name": "Office Workers",
           "3month_average": 375.46581844773334,
+          "12month_average": 377.9022706172843,
           "yoy_change": {
             "current": 374.8739,
             "change": -7.3242,
@@ -2960,6 +3014,7 @@
           "series_id": "DETR826BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 491.3333333333333,
+          "12month_average": 748.8333333333334,
           "yoy_change": {
             "current": 312.0,
             "change": -82.0,
@@ -2972,20 +3027,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 197.1223,
-          "latest_date": "2025-11-01",
+          "latest_value": 196.6571,
+          "latest_date": "2025-12-01",
           "series_id": "DEXRNSA",
           "metric_name": "Home Price Index",
-          "3month_average": 197.89081880238766,
+          "3month_average": 197.41124398606533,
+          "12month_average": 195.97627188852283,
           "yoy_change": {
-            "current": 197.1223,
-            "change": 7.2166,
-            "pct_change": 3.8
+            "current": 196.6571,
+            "change": 7.784,
+            "pct_change": 4.12
           },
           "3month_avg_yoy": {
-            "current_3mo": 197.8908,
-            "change": 7.2107,
-            "pct_change": 3.78
+            "current_3mo": 197.4112,
+            "change": 7.6554,
+            "pct_change": 4.03
           }
         },
         "price_per_sqft": {
@@ -2994,6 +3050,7 @@
           "series_id": "MEDLISPRIPERSQUFEE19820",
           "metric_name": "Price per Sqft",
           "3month_average": 170.66666666666666,
+          "12month_average": 177.66666666666666,
           "yoy_change": {
             "current": 171.0,
             "change": 2.0,
@@ -3011,6 +3068,7 @@
           "series_id": "MEDLISPRI19820",
           "metric_name": "Median Housing Price",
           "3month_average": 238800.0,
+          "12month_average": 260156.25,
           "yoy_change": {
             "current": 235000.0,
             "change": -4900.0,
@@ -3028,6 +3086,7 @@
           "series_id": "MEDDAYONMAR19820",
           "metric_name": "Median Days on Market",
           "3month_average": 57.666666666666664,
+          "12month_average": 43.666666666666664,
           "yoy_change": {
             "current": 56.0,
             "change": 4.0,
@@ -3080,6 +3139,7 @@
           "series_id": "SEAT653URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.5181818181818185,
           "yoy_change": {
             "current": 5.0,
             "change": 1.4,
@@ -3107,6 +3167,7 @@
           "series_id": "SEAT653NAN",
           "metric_name": "All Employees",
           "3month_average": 2161.5666666666666,
+          "12month_average": 2156.3416666666667,
           "yoy_change": {
             "current": 2163.5,
             "change": -3.3,
@@ -3124,6 +3185,7 @@
           "series_id": "SMU53426600500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 46.69,
+          "12month_average": 45.21666666666667,
           "yoy_change": {
             "current": 46.82,
             "change": 3.32,
@@ -3141,6 +3203,7 @@
           "series_id": "SMU53426600500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.96666666666667,
+          "12month_average": 34.84166666666667,
           "yoy_change": {
             "current": 34.8,
             "change": -0.5,
@@ -3158,6 +3221,7 @@
           "series_id": "SEAT653PBSV",
           "metric_name": "Office Workers",
           "3month_average": 389.21127533163934,
+          "12month_average": 389.9514945391461,
           "yoy_change": {
             "current": 388.1321,
             "change": -0.0097,
@@ -3175,6 +3239,7 @@
           "series_id": "SEAT653BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 1507.0,
+          "12month_average": 1303.9166666666667,
           "yoy_change": {
             "current": 1259.0,
             "change": 56.0,
@@ -3187,20 +3252,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 385.0397,
-          "latest_date": "2025-12-01",
+          "latest_value": 382.7823,
+          "latest_date": "2026-01-01",
           "series_id": "SEXRNSA",
           "metric_name": "Home Price Index",
-          "3month_average": 386.49613428809135,
+          "3month_average": 384.69581468792865,
+          "12month_average": 393.44355553334253,
           "yoy_change": {
-            "current": 385.0397,
-            "change": -0.4959,
-            "pct_change": -0.13
+            "current": 382.7823,
+            "change": -2.3868,
+            "pct_change": -0.62
           },
           "3month_avg_yoy": {
-            "current_3mo": 386.4961,
-            "change": -0.8826,
-            "pct_change": -0.23
+            "current_3mo": 384.6958,
+            "change": -1.1499,
+            "pct_change": -0.3
           }
         },
         "price_per_sqft": {
@@ -3209,6 +3275,7 @@
           "series_id": "MEDLISPRIPERSQUFEE42660",
           "metric_name": "Price per Sqft",
           "3month_average": 432.6666666666667,
+          "12month_average": 445.25,
           "yoy_change": {
             "current": 443.0,
             "change": 0.0,
@@ -3226,6 +3293,7 @@
           "series_id": "MEDLISPRI42660",
           "metric_name": "Median Housing Price",
           "3month_average": 737150.0,
+          "12month_average": 765302.5833333334,
           "yoy_change": {
             "current": 754950.0,
             "change": 17550.0,
@@ -3243,6 +3311,7 @@
           "series_id": "MEDDAYONMAR42660",
           "metric_name": "Median Days on Market",
           "3month_average": 60.0,
+          "12month_average": 45.166666666666664,
           "yoy_change": {
             "current": 36.0,
             "change": 1.0,
@@ -3295,6 +3364,7 @@
           "series_id": "MINN427URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.5727272727272728,
           "yoy_change": {
             "current": 4.0,
             "change": 1.6,
@@ -3322,6 +3392,7 @@
           "series_id": "MINN427NAN",
           "metric_name": "All Employees",
           "3month_average": 2014.9333333333334,
+          "12month_average": 1999.4916666666668,
           "yoy_change": {
             "current": 2004.0,
             "change": 11.0,
@@ -3339,6 +3410,7 @@
           "series_id": "SMU27334600500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 39.76,
+          "12month_average": 39.7325,
           "yoy_change": {
             "current": 39.36,
             "change": 0.01,
@@ -3356,6 +3428,7 @@
           "series_id": "SMU27334600500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.733333333333334,
+          "12month_average": 33.825,
           "yoy_change": {
             "current": 33.3,
             "change": -0.5,
@@ -3373,6 +3446,7 @@
           "series_id": "MINN427PBSV",
           "metric_name": "Office Workers",
           "3month_average": 289.8421474995717,
+          "12month_average": 290.56269792258644,
           "yoy_change": {
             "current": 290.1806,
             "change": 1.6967,
@@ -3390,6 +3464,7 @@
           "series_id": "MINN427BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 948.0,
+          "12month_average": 1176.0833333333333,
           "yoy_change": {
             "current": 913.0,
             "change": 215.0,
@@ -3402,20 +3477,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 250.2061,
-          "latest_date": "2025-12-01",
+          "latest_value": 250.8577,
+          "latest_date": "2026-01-01",
           "series_id": "MNXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 249.09920819015733,
+          "3month_average": 250.03678933537802,
+          "12month_average": 246.19942940360184,
           "yoy_change": {
-            "current": 250.2061,
-            "change": 6.6832,
-            "pct_change": 2.74
+            "current": 250.8577,
+            "change": 6.1459,
+            "pct_change": 2.51
           },
           "3month_avg_yoy": {
-            "current_3mo": 249.0992,
-            "change": 6.6561,
-            "pct_change": 2.75
+            "current_3mo": 250.0368,
+            "change": 6.5524,
+            "pct_change": 2.69
           }
         },
         "price_per_sqft": {
@@ -3424,6 +3500,7 @@
           "series_id": "MEDLISPRIPERSQUFEE33460",
           "metric_name": "Price per Sqft",
           "3month_average": 210.66666666666666,
+          "12month_average": 212.25,
           "yoy_change": {
             "current": 213.0,
             "change": -3.0,
@@ -3441,6 +3518,7 @@
           "series_id": "MEDLISPRI33460",
           "metric_name": "Median Housing Price",
           "3month_average": 409941.6666666667,
+          "12month_average": 428375.0,
           "yoy_change": {
             "current": 422400.0,
             "change": -12550.0,
@@ -3458,6 +3536,7 @@
           "series_id": "MEDDAYONMAR33460",
           "metric_name": "Median Days on Market",
           "3month_average": 53.666666666666664,
+          "12month_average": 41.583333333333336,
           "yoy_change": {
             "current": 40.0,
             "change": -1.0,
@@ -3510,6 +3589,7 @@
           "series_id": "TAMP312URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.045454545454545,
           "yoy_change": {
             "current": 4.6,
             "change": 1.3,
@@ -3537,6 +3617,7 @@
           "series_id": "TAMP312NAN",
           "metric_name": "All Employees",
           "3month_average": 1579.7333333333333,
+          "12month_average": 1564.3416666666667,
           "yoy_change": {
             "current": 1583.3,
             "change": 14.4,
@@ -3554,6 +3635,7 @@
           "series_id": "SMU12453000500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 36.483333333333334,
+          "12month_average": 35.63666666666667,
           "yoy_change": {
             "current": 36.23,
             "change": 1.68,
@@ -3571,6 +3653,7 @@
           "series_id": "SMU12453000500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.6,
+          "12month_average": 34.61666666666667,
           "yoy_change": {
             "current": 34.8,
             "change": 0.1,
@@ -3588,6 +3671,7 @@
           "series_id": "TAMP312PBSV",
           "metric_name": "Office Workers",
           "3month_average": 289.1580562961193,
+          "12month_average": 288.1310007350781,
           "yoy_change": {
             "current": 289.0061,
             "change": 1.996,
@@ -3605,6 +3689,7 @@
           "series_id": "TAMP312BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 1232.0,
+          "12month_average": 1840.8333333333333,
           "yoy_change": {
             "current": 1255.0,
             "change": -917.0,
@@ -3617,20 +3702,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 370.475,
-          "latest_date": "2025-12-01",
+          "latest_value": 371.357,
+          "latest_date": "2026-01-01",
           "series_id": "TPXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 368.685430711158,
+          "3month_average": 369.9512319880993,
+          "12month_average": 372.49203022216466,
           "yoy_change": {
-            "current": 370.475,
-            "change": -10.788,
-            "pct_change": -2.83
+            "current": 371.357,
+            "change": -9.6429,
+            "pct_change": -2.53
           },
           "3month_avg_yoy": {
-            "current_3mo": 368.6854,
-            "change": -13.7635,
-            "pct_change": -3.6
+            "current_3mo": 369.9512,
+            "change": -11.7098,
+            "pct_change": -3.07
           }
         },
         "price_per_sqft": {
@@ -3639,6 +3725,7 @@
           "series_id": "MEDLISPRIPERSQUFEE45300",
           "metric_name": "Price per Sqft",
           "3month_average": 243.0,
+          "12month_average": 246.33333333333334,
           "yoy_change": {
             "current": 243.0,
             "change": -3.0,
@@ -3656,6 +3743,7 @@
           "series_id": "MEDLISPRI45300",
           "metric_name": "Median Housing Price",
           "3month_average": 399842.3333333333,
+          "12month_average": 408114.75,
           "yoy_change": {
             "current": 399900.0,
             "change": 900.0,
@@ -3673,6 +3761,7 @@
           "series_id": "MEDDAYONMAR45300",
           "metric_name": "Median Days on Market",
           "3month_average": 81.66666666666667,
+          "12month_average": 72.83333333333333,
           "yoy_change": {
             "current": 80.0,
             "change": 14.0,
@@ -3725,6 +3814,7 @@
           "series_id": "SAND706URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.572727272727273,
           "yoy_change": {
             "current": 4.4,
             "change": 0.2,
@@ -3752,6 +3842,7 @@
           "series_id": "SAND706NAN",
           "metric_name": "All Employees",
           "3month_average": 1580.2666666666667,
+          "12month_average": 1567.0916666666667,
           "yoy_change": {
             "current": 1584.1,
             "change": 5.5,
@@ -3769,6 +3860,7 @@
           "series_id": "SMU06417400500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 41.05,
+          "12month_average": 40.58166666666666,
           "yoy_change": {
             "current": 41.37,
             "change": 0.98,
@@ -3786,6 +3878,7 @@
           "series_id": "SMU06417400500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 32.733333333333334,
+          "12month_average": 32.983333333333334,
           "yoy_change": {
             "current": 32.6,
             "change": -1.2,
@@ -3803,6 +3896,7 @@
           "series_id": "SAND706PBSV",
           "metric_name": "Office Workers",
           "3month_average": 259.79337237563067,
+          "12month_average": 262.3007019561621,
           "yoy_change": {
             "current": 260.0848,
             "change": -6.1751,
@@ -3820,6 +3914,7 @@
           "series_id": "SAND706BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 892.6666666666666,
+          "12month_average": 988.5833333333334,
           "yoy_change": {
             "current": 761.0,
             "change": 218.0,
@@ -3832,20 +3927,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 449.962,
-          "latest_date": "2025-12-01",
+          "latest_value": 448.202,
+          "latest_date": "2026-01-01",
           "series_id": "SDXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 445.50329711733434,
+          "3month_average": 448.0904259128367,
+          "12month_average": 440.77054696891724,
           "yoy_change": {
-            "current": 449.962,
-            "change": 3.4866,
-            "pct_change": 0.78
+            "current": 448.202,
+            "change": 2.1924,
+            "pct_change": 0.49
           },
           "3month_avg_yoy": {
-            "current_3mo": 445.5033,
-            "change": 0.7681,
-            "pct_change": 0.17
+            "current_3mo": 448.0904,
+            "change": 2.5341,
+            "pct_change": 0.57
           }
         },
         "price_per_sqft": {
@@ -3854,6 +3950,7 @@
           "series_id": "MEDLISPRIPERSQUFEE41740",
           "metric_name": "Price per Sqft",
           "3month_average": 600.0,
+          "12month_average": 612.5833333333334,
           "yoy_change": {
             "current": 603.0,
             "change": -22.0,
@@ -3871,6 +3968,7 @@
           "series_id": "MEDLISPRI41740",
           "metric_name": "Median Housing Price",
           "3month_average": 899649.6666666666,
+          "12month_average": 945620.75,
           "yoy_change": {
             "current": 899950.0,
             "change": -50045.0,
@@ -3888,6 +3986,7 @@
           "series_id": "MEDDAYONMAR41740",
           "metric_name": "Median Days on Market",
           "3month_average": 50.333333333333336,
+          "12month_average": 44.666666666666664,
           "yoy_change": {
             "current": 38.0,
             "change": 4.0,
@@ -3940,6 +4039,7 @@
           "series_id": "DENV708URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.263636363636364,
           "yoy_change": {
             "current": 3.6,
             "change": -1.0,
@@ -3967,6 +4067,7 @@
           "series_id": "DENV708NAN",
           "metric_name": "All Employees",
           "3month_average": 1649.6333333333334,
+          "12month_average": 1639.6916666666666,
           "yoy_change": {
             "current": 1650.2,
             "change": 2.2,
@@ -3984,6 +4085,7 @@
           "series_id": "SMU08197400500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 43.82333333333333,
+          "12month_average": 42.471666666666664,
           "yoy_change": {
             "current": 44.47,
             "change": 2.74,
@@ -4001,6 +4103,7 @@
           "series_id": "SMU08197400500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.83333333333333,
+          "12month_average": 33.80833333333333,
           "yoy_change": {
             "current": 33.4,
             "change": -0.9,
@@ -4018,6 +4121,7 @@
           "series_id": "DENV708PBSV",
           "metric_name": "Office Workers",
           "3month_average": 318.20748196298234,
+          "12month_average": 317.68679597170967,
           "yoy_change": {
             "current": 318.0484,
             "change": -3.7159,
@@ -4035,6 +4139,7 @@
           "series_id": "DENV708BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 1063.3333333333333,
+          "12month_average": 1300.5833333333333,
           "yoy_change": {
             "current": 825.0,
             "change": -160.0,
@@ -4047,20 +4152,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 315.3881,
-          "latest_date": "2025-12-01",
+          "latest_value": 315.3043,
+          "latest_date": "2026-01-01",
           "series_id": "DNXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 315.461955827663,
+          "3month_average": 315.502706080181,
+          "12month_average": 316.1902646707821,
           "yoy_change": {
-            "current": 315.3881,
-            "change": -6.6528,
-            "pct_change": -2.07
+            "current": 315.3043,
+            "change": -6.5455,
+            "pct_change": -2.03
           },
           "3month_avg_yoy": {
-            "current_3mo": 315.462,
-            "change": -5.0499,
-            "pct_change": -1.58
+            "current_3mo": 315.5027,
+            "change": -5.7394,
+            "pct_change": -1.79
           }
         },
         "price_per_sqft": {
@@ -4069,6 +4175,7 @@
           "series_id": "MEDLISPRIPERSQUFEE19740",
           "metric_name": "Price per Sqft",
           "3month_average": 288.0,
+          "12month_average": 292.5,
           "yoy_change": {
             "current": 291.0,
             "change": -9.0,
@@ -4086,6 +4193,7 @@
           "series_id": "MEDLISPRI19740",
           "metric_name": "Median Housing Price",
           "3month_average": 557498.3333333334,
+          "12month_average": 586652.9166666666,
           "yoy_change": {
             "current": 564995.0,
             "change": -7505.0,
@@ -4103,6 +4211,7 @@
           "series_id": "MEDDAYONMAR19740",
           "metric_name": "Median Days on Market",
           "3month_average": 63.0,
+          "12month_average": 53.416666666666664,
           "yoy_change": {
             "current": 38.0,
             "change": -6.0,
@@ -4155,6 +4264,7 @@
           "series_id": "ORLA712URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.8636363636363638,
           "yoy_change": {
             "current": 4.4,
             "change": 1.4,
@@ -4182,6 +4292,7 @@
           "series_id": "ORLA712NAN",
           "metric_name": "All Employees",
           "3month_average": 1528.7666666666667,
+          "12month_average": 1521.3833333333332,
           "yoy_change": {
             "current": 1532.5,
             "change": 3.7,
@@ -4199,6 +4310,7 @@
           "series_id": "SMU12367400500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 32.336666666666666,
+          "12month_average": 32.11833333333333,
           "yoy_change": {
             "current": 32.28,
             "change": 0.12,
@@ -4216,6 +4328,7 @@
           "series_id": "SMU12367400500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.86666666666667,
+          "12month_average": 33.95,
           "yoy_change": {
             "current": 33.7,
             "change": -1.0,
@@ -4233,6 +4346,7 @@
           "series_id": "ORLA712PBSV",
           "metric_name": "Office Workers",
           "3month_average": 289.922040424371,
+          "12month_average": 291.2008841819962,
           "yoy_change": {
             "current": 290.5947,
             "change": -1.6765,
@@ -4250,6 +4364,7 @@
           "series_id": "ORLA712BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 1540.0,
+          "12month_average": 2096.3333333333335,
           "yoy_change": {
             "current": 1394.0,
             "change": -2238.0,
@@ -4267,6 +4382,7 @@
           "series_id": "ATNHPIUS36740Q",
           "metric_name": "Home Price Index",
           "3month_average": 455.5133333333333,
+          "12month_average": 440.79833333333335,
           "yoy_change": {
             "current": 458.38,
             "change": 44.64,
@@ -4284,6 +4400,7 @@
           "series_id": "MEDLISPRIPERSQUFEE36740",
           "metric_name": "Price per Sqft",
           "3month_average": 226.0,
+          "12month_average": 228.91666666666666,
           "yoy_change": {
             "current": 226.0,
             "change": -5.0,
@@ -4301,6 +4418,7 @@
           "series_id": "MEDLISPRI36740",
           "metric_name": "Median Housing Price",
           "3month_average": 415166.6666666667,
+          "12month_average": 421642.3333333333,
           "yoy_change": {
             "current": 415000.0,
             "change": -3950.0,
@@ -4318,6 +4436,7 @@
           "series_id": "MEDDAYONMAR36740",
           "metric_name": "Median Days on Market",
           "3month_average": 84.33333333333333,
+          "12month_average": 75.16666666666667,
           "yoy_change": {
             "current": 82.0,
             "change": 8.0,
@@ -4370,6 +4489,7 @@
           "series_id": "CHAR737URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.8181818181818183,
           "yoy_change": {
             "current": 3.6,
             "change": 0.2,
@@ -4397,6 +4517,7 @@
           "series_id": "CHAR737NAN",
           "metric_name": "All Employees",
           "3month_average": 1430.3,
+          "12month_average": 1409.725,
           "yoy_change": {
             "current": 1433.8,
             "change": 37.6,
@@ -4414,6 +4535,7 @@
           "series_id": "SMU37167400500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 37.73,
+          "12month_average": 37.095,
           "yoy_change": {
             "current": 37.61,
             "change": -0.58,
@@ -4431,6 +4553,7 @@
           "series_id": "SMU37167400500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.699999999999996,
+          "12month_average": 33.56666666666666,
           "yoy_change": {
             "current": 33.5,
             "change": -0.4,
@@ -4448,6 +4571,7 @@
           "series_id": "CHAR737PBSV",
           "metric_name": "Office Workers",
           "3month_average": 235.78871305610733,
+          "12month_average": 232.4136033624555,
           "yoy_change": {
             "current": 236.1047,
             "change": 10.2722,
@@ -4465,6 +4589,7 @@
           "series_id": "CHAR737BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 1248.6666666666667,
+          "12month_average": 1688.5,
           "yoy_change": {
             "current": 1431.0,
             "change": -873.0,
@@ -4477,20 +4602,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 281.8098,
-          "latest_date": "2025-12-01",
+          "latest_value": 282.4776,
+          "latest_date": "2026-01-01",
           "series_id": "CRXRNSA",
           "metric_name": "Home Price Index",
-          "3month_average": 281.8839687523107,
+          "3month_average": 282.0361631415573,
+          "12month_average": 283.82233394054214,
           "yoy_change": {
-            "current": 281.8098,
-            "change": 1.797,
-            "pct_change": 0.64
+            "current": 282.4776,
+            "change": 3.1551,
+            "pct_change": 1.13
           },
           "3month_avg_yoy": {
-            "current_3mo": 281.884,
-            "change": 1.2747,
-            "pct_change": 0.45
+            "current_3mo": 282.0362,
+            "change": 1.9777,
+            "pct_change": 0.71
           }
         },
         "price_per_sqft": {
@@ -4499,6 +4625,7 @@
           "series_id": "MEDLISPRIPERSQUFEE16740",
           "metric_name": "Price per Sqft",
           "3month_average": 217.33333333333334,
+          "12month_average": 220.66666666666666,
           "yoy_change": {
             "current": 218.0,
             "change": -3.0,
@@ -4516,6 +4643,7 @@
           "series_id": "MEDLISPRI16740",
           "metric_name": "Median Housing Price",
           "3month_average": 417505.3333333333,
+          "12month_average": 434794.6666666667,
           "yoy_change": {
             "current": 415000.0,
             "change": -4475.0,
@@ -4533,6 +4661,7 @@
           "series_id": "MEDDAYONMAR16740",
           "metric_name": "Median Days on Market",
           "3month_average": 73.0,
+          "12month_average": 57.083333333333336,
           "yoy_change": {
             "current": 69.0,
             "change": 13.0,
@@ -4585,6 +4714,7 @@
           "series_id": "BALT524URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.609090909090909,
           "yoy_change": {
             "current": 3.6,
             "change": 0.9,
@@ -4612,6 +4742,7 @@
           "series_id": "BALT524NAN",
           "metric_name": "All Employees",
           "3month_average": 1465.2,
+          "12month_average": 1460.4416666666666,
           "yoy_change": {
             "current": 1466.5,
             "change": -2.1,
@@ -4629,6 +4760,7 @@
           "series_id": "SMU24125800500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 35.46,
+          "12month_average": 35.405,
           "yoy_change": {
             "current": 35.6,
             "change": 0.43,
@@ -4646,6 +4778,7 @@
           "series_id": "SMU24125800500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.53333333333334,
+          "12month_average": 33.425000000000004,
           "yoy_change": {
             "current": 33.2,
             "change": -0.2,
@@ -4663,6 +4796,7 @@
           "series_id": "BALT524PBSV",
           "metric_name": "Office Workers",
           "3month_average": 256.985383204779,
+          "12month_average": 257.58683974104474,
           "yoy_change": {
             "current": 257.729,
             "change": 0.7493,
@@ -4680,6 +4814,7 @@
           "series_id": "BALT524BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 516.0,
+          "12month_average": 513.4166666666666,
           "yoy_change": {
             "current": 582.0,
             "change": -126.0,
@@ -4697,6 +4832,7 @@
           "series_id": "ATNHPIUS12580Q",
           "metric_name": "Home Price Index",
           "3month_average": 341.8333333333333,
+          "12month_average": 326.7675,
           "yoy_change": {
             "current": 343.07,
             "change": 43.04,
@@ -4714,6 +4850,7 @@
           "series_id": "MEDLISPRIPERSQUFEE12580",
           "metric_name": "Price per Sqft",
           "3month_average": 213.66666666666666,
+          "12month_average": 218.5,
           "yoy_change": {
             "current": 213.0,
             "change": 0.0,
@@ -4731,6 +4868,7 @@
           "series_id": "MEDLISPRI12580",
           "metric_name": "Median Housing Price",
           "3month_average": 352461.6666666667,
+          "12month_average": 380364.25,
           "yoy_change": {
             "current": 349900.0,
             "change": -100.0,
@@ -4748,6 +4886,7 @@
           "series_id": "MEDDAYONMAR12580",
           "metric_name": "Median Days on Market",
           "3month_average": 52.0,
+          "12month_average": 39.833333333333336,
           "yoy_change": {
             "current": 45.0,
             "change": 4.0,
@@ -4800,6 +4939,7 @@
           "series_id": "STLURN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.9727272727272727,
           "yoy_change": {
             "current": 3.5,
             "change": 0.2,
@@ -4827,6 +4967,7 @@
           "series_id": "STLNAN",
           "metric_name": "All Employees",
           "3month_average": 1441.1333333333332,
+          "12month_average": 1429.875,
           "yoy_change": {
             "current": 1442.0,
             "change": -0.1,
@@ -4844,6 +4985,7 @@
           "series_id": "SMU29411800500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 36.43,
+          "12month_average": 36.525,
           "yoy_change": {
             "current": 36.63,
             "change": 0.24,
@@ -4861,6 +5003,7 @@
           "series_id": "SMU29411800500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.1,
+          "12month_average": 33.708333333333336,
           "yoy_change": {
             "current": 32.9,
             "change": -1.7,
@@ -4878,6 +5021,7 @@
           "series_id": "STLPBSV",
           "metric_name": "Office Workers",
           "3month_average": 214.50643233336066,
+          "12month_average": 214.01082977860983,
           "yoy_change": {
             "current": 215.4573,
             "change": 0.4317,
@@ -4895,6 +5039,7 @@
           "series_id": "STLBPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 452.6666666666667,
+          "12month_average": 516.0,
           "yoy_change": {
             "current": 460.0,
             "change": 75.0,
@@ -4912,6 +5057,7 @@
           "series_id": "ATNHPIUS41180Q",
           "metric_name": "Home Price Index",
           "3month_average": 313.7366666666667,
+          "12month_average": 295.7925,
           "yoy_change": {
             "current": 315.09,
             "change": 49.82,
@@ -4929,6 +5075,7 @@
           "series_id": "MEDLISPRIPERSQUFEE41180",
           "metric_name": "Price per Sqft",
           "3month_average": 165.0,
+          "12month_average": 165.33333333333334,
           "yoy_change": {
             "current": 165.0,
             "change": 6.0,
@@ -4946,6 +5093,7 @@
           "series_id": "MEDLISPRI41180",
           "metric_name": "Median Housing Price",
           "3month_average": 282675.0,
+          "12month_average": 293353.8333333333,
           "yoy_change": {
             "current": 278175.0,
             "change": 1376.0,
@@ -4963,6 +5111,7 @@
           "series_id": "MEDDAYONMAR41180",
           "metric_name": "Median Days on Market",
           "3month_average": 60.666666666666664,
+          "12month_average": 47.333333333333336,
           "yoy_change": {
             "current": 55.0,
             "change": 2.0,
@@ -5015,6 +5164,7 @@
           "series_id": "SANA748URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.8727272727272726,
           "yoy_change": {
             "current": 3.7,
             "change": 0.3,
@@ -5042,6 +5192,7 @@
           "series_id": "SANA748NAN",
           "metric_name": "All Employees",
           "3month_average": 1212.2,
+          "12month_average": 1203.0583333333334,
           "yoy_change": {
             "current": 1215.0,
             "change": 13.1,
@@ -5059,6 +5210,7 @@
           "series_id": "SMU48417000500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 31.82,
+          "12month_average": 31.651666666666667,
           "yoy_change": {
             "current": 31.37,
             "change": 0.55,
@@ -5076,6 +5228,7 @@
           "series_id": "SMU48417000500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 35.3,
+          "12month_average": 35.083333333333336,
           "yoy_change": {
             "current": 35.1,
             "change": -0.1,
@@ -5093,6 +5246,7 @@
           "series_id": "SANA748PBSV",
           "metric_name": "Office Workers",
           "3month_average": 157.93806049026733,
+          "12month_average": 158.921047012104,
           "yoy_change": {
             "current": 157.641,
             "change": -2.1028,
@@ -5110,6 +5264,7 @@
           "series_id": "SANA748BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 679.0,
+          "12month_average": 842.0,
           "yoy_change": {
             "current": 893.0,
             "change": 17.0,
@@ -5127,6 +5282,7 @@
           "series_id": "ATNHPIUS41700Q",
           "metric_name": "Home Price Index",
           "3month_average": 383.08666666666664,
+          "12month_average": 375.615,
           "yoy_change": {
             "current": 386.0,
             "change": 16.81,
@@ -5144,6 +5300,7 @@
           "series_id": "MEDLISPRIPERSQUFEE41700",
           "metric_name": "Price per Sqft",
           "3month_average": 172.66666666666666,
+          "12month_average": 177.16666666666666,
           "yoy_change": {
             "current": 173.0,
             "change": -7.0,
@@ -5161,6 +5318,7 @@
           "series_id": "MEDLISPRI41700",
           "metric_name": "Median Housing Price",
           "3month_average": 320075.0,
+          "12month_average": 330703.3333333333,
           "yoy_change": {
             "current": 319990.0,
             "change": -7010.0,
@@ -5178,6 +5336,7 @@
           "series_id": "MEDDAYONMAR41700",
           "metric_name": "Median Days on Market",
           "3month_average": 80.66666666666667,
+          "12month_average": 69.25,
           "yoy_change": {
             "current": 79.0,
             "change": 3.0,
@@ -5230,6 +5389,7 @@
           "series_id": "AUST448URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.5,
           "yoy_change": {
             "current": 3.2,
             "change": 0.1,
@@ -5257,6 +5417,7 @@
           "series_id": "AUST448NAN",
           "metric_name": "All Employees",
           "3month_average": 1386.4,
+          "12month_average": 1373.9583333333333,
           "yoy_change": {
             "current": 1389.4,
             "change": 10.1,
@@ -5274,6 +5435,7 @@
           "series_id": "SMU48124200500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 36.53,
+          "12month_average": 36.00416666666666,
           "yoy_change": {
             "current": 36.29,
             "change": 1.12,
@@ -5291,6 +5453,7 @@
           "series_id": "SMU48124200500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 35.06666666666666,
+          "12month_average": 35.391666666666666,
           "yoy_change": {
             "current": 34.9,
             "change": -1.2,
@@ -5308,6 +5471,7 @@
           "series_id": "AUST448PBSV",
           "metric_name": "Office Workers",
           "3month_average": 274.319734531096,
+          "12month_average": 277.60727397544423,
           "yoy_change": {
             "current": 274.931,
             "change": -6.1547,
@@ -5325,6 +5489,7 @@
           "series_id": "AUST448BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 1891.0,
+          "12month_average": 2246.25,
           "yoy_change": {
             "current": 1425.0,
             "change": -483.0,
@@ -5342,6 +5507,7 @@
           "series_id": "ATNHPIUS12420Q",
           "metric_name": "Home Price Index",
           "3month_average": 507.06333333333333,
+          "12month_average": 511.23583333333335,
           "yoy_change": {
             "current": 505.7,
             "change": -30.02,
@@ -5359,6 +5525,7 @@
           "series_id": "MEDLISPRIPERSQUFEE12420",
           "metric_name": "Price per Sqft",
           "3month_average": 236.33333333333334,
+          "12month_average": 249.5,
           "yoy_change": {
             "current": 236.0,
             "change": -16.0,
@@ -5376,6 +5543,7 @@
           "series_id": "MEDLISPRI12420",
           "metric_name": "Median Housing Price",
           "3month_average": 457333.3333333333,
+          "12month_average": 494227.3333333333,
           "yoy_change": {
             "current": 455000.0,
             "change": -44000.0,
@@ -5393,6 +5561,7 @@
           "series_id": "MEDDAYONMAR12420",
           "metric_name": "Median Days on Market",
           "3month_average": 85.0,
+          "12month_average": 68.75,
           "yoy_change": {
             "current": 76.0,
             "change": 10.0,
@@ -5445,6 +5614,7 @@
           "series_id": "PORT941URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.790909090909091,
           "yoy_change": {
             "current": 4.9,
             "change": 0.8,
@@ -5472,6 +5642,7 @@
           "series_id": "PORT941NAN",
           "metric_name": "All Employees",
           "3month_average": 1245.9666666666667,
+          "12month_average": 1244.5333333333333,
           "yoy_change": {
             "current": 1244.7,
             "change": -8.6,
@@ -5489,6 +5660,7 @@
           "series_id": "SMU41389000500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 40.916666666666664,
+          "12month_average": 40.05083333333333,
           "yoy_change": {
             "current": 41.41,
             "change": 1.89,
@@ -5506,6 +5678,7 @@
           "series_id": "SMU41389000500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.166666666666664,
+          "12month_average": 34.36666666666667,
           "yoy_change": {
             "current": 33.9,
             "change": -1.3,
@@ -5523,6 +5696,7 @@
           "series_id": "PORT941PBSV",
           "metric_name": "Office Workers",
           "3month_average": 190.784243471764,
+          "12month_average": 193.32252060131924,
           "yoy_change": {
             "current": 190.914,
             "change": -3.4802,
@@ -5540,6 +5714,7 @@
           "series_id": "PORT941BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 666.3333333333334,
+          "12month_average": 691.1666666666666,
           "yoy_change": {
             "current": 691.0,
             "change": -117.0,
@@ -5552,20 +5727,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 331.5033,
-          "latest_date": "2025-12-01",
+          "latest_value": 331.7548,
+          "latest_date": "2026-01-01",
           "series_id": "POXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 330.55634652922936,
+          "3month_average": 331.30696368237466,
+          "12month_average": 330.681744038676,
           "yoy_change": {
-            "current": 331.5033,
-            "change": -3.6909,
-            "pct_change": -1.1
+            "current": 331.7548,
+            "change": -3.4013,
+            "pct_change": -1.01
           },
           "3month_avg_yoy": {
-            "current_3mo": 330.5563,
-            "change": -2.6376,
-            "pct_change": -0.79
+            "current_3mo": 331.307,
+            "change": -3.0847,
+            "pct_change": -0.92
           }
         },
         "price_per_sqft": {
@@ -5574,6 +5750,7 @@
           "series_id": "MEDLISPRIPERSQUFEE38900",
           "metric_name": "Price per Sqft",
           "3month_average": 311.3333333333333,
+          "12month_average": 313.25,
           "yoy_change": {
             "current": 313.0,
             "change": -6.0,
@@ -5591,6 +5768,7 @@
           "series_id": "MEDLISPRI38900",
           "metric_name": "Median Housing Price",
           "3month_average": 577450.0,
+          "12month_average": 596596.0,
           "yoy_change": {
             "current": 572400.0,
             "change": -26015.0,
@@ -5608,6 +5786,7 @@
           "series_id": "MEDDAYONMAR38900",
           "metric_name": "Median Days on Market",
           "3month_average": 80.33333333333333,
+          "12month_average": 62.916666666666664,
           "yoy_change": {
             "current": 68.0,
             "change": -7.0,
@@ -5660,6 +5839,7 @@
           "series_id": "SACR906URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.9818181818181815,
           "yoy_change": {
             "current": 4.8,
             "change": 0.3,
@@ -5687,6 +5867,7 @@
           "series_id": "SACR906NAN",
           "metric_name": "All Employees",
           "3month_average": 1098.3333333333333,
+          "12month_average": 1093.025,
           "yoy_change": {
             "current": 1099.7,
             "change": -3.0,
@@ -5704,6 +5885,7 @@
           "series_id": "SMU06409000500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 38.093333333333334,
+          "12month_average": 37.735,
           "yoy_change": {
             "current": 38.06,
             "change": 0.92,
@@ -5721,6 +5903,7 @@
           "series_id": "SMU06409000500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 32.93333333333334,
+          "12month_average": 32.86666666666667,
           "yoy_change": {
             "current": 32.7,
             "change": -0.5,
@@ -5738,6 +5921,7 @@
           "series_id": "SACR906PBSV",
           "metric_name": "Office Workers",
           "3month_average": 127.16951365053367,
+          "12month_average": 130.36157552207442,
           "yoy_change": {
             "current": 127.4055,
             "change": -6.4078,
@@ -5755,6 +5939,7 @@
           "series_id": "SACR906BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 728.0,
+          "12month_average": 861.5,
           "yoy_change": {
             "current": 632.0,
             "change": -169.0,
@@ -5772,6 +5957,7 @@
           "series_id": "ATNHPIUS40900Q",
           "metric_name": "Home Price Index",
           "3month_average": 410.49666666666667,
+          "12month_average": 401.1775,
           "yoy_change": {
             "current": 410.81,
             "change": 31.93,
@@ -5789,6 +5975,7 @@
           "series_id": "MEDLISPRIPERSQUFEE40900",
           "metric_name": "Price per Sqft",
           "3month_average": 339.6666666666667,
+          "12month_average": 341.3333333333333,
           "yoy_change": {
             "current": 341.0,
             "change": -2.0,
@@ -5806,6 +5993,7 @@
           "series_id": "MEDLISPRI40900",
           "metric_name": "Median Housing Price",
           "3month_average": 600261.6666666666,
+          "12month_average": 618046.0833333334,
           "yoy_change": {
             "current": 601795.0,
             "change": -17205.0,
@@ -5823,6 +6011,7 @@
           "series_id": "MEDDAYONMAR40900",
           "metric_name": "Median Days on Market",
           "3month_average": 58.0,
+          "12month_average": 50.25,
           "yoy_change": {
             "current": 41.0,
             "change": 2.0,
@@ -5875,6 +6064,7 @@
           "series_id": "PITT342URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.009090909090909,
           "yoy_change": {
             "current": 3.6,
             "change": 0.3,
@@ -5902,6 +6092,7 @@
           "series_id": "PITT342NAN",
           "metric_name": "All Employees",
           "3month_average": 1228.0333333333333,
+          "12month_average": 1216.275,
           "yoy_change": {
             "current": 1225.3,
             "change": 13.0,
@@ -5919,6 +6110,7 @@
           "series_id": "SMU42383000500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 33.276666666666664,
+          "12month_average": 32.15833333333333,
           "yoy_change": {
             "current": 33.4,
             "change": 2.66,
@@ -5936,6 +6128,7 @@
           "series_id": "SMU42383000500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.0,
+          "12month_average": 33.608333333333334,
           "yoy_change": {
             "current": 33.9,
             "change": 1.1,
@@ -5953,6 +6146,7 @@
           "series_id": "PITT342PBSV",
           "metric_name": "Office Workers",
           "3month_average": 191.337254737407,
+          "12month_average": 189.7124527013444,
           "yoy_change": {
             "current": 191.4294,
             "change": 4.4445,
@@ -5970,6 +6164,7 @@
           "series_id": "PITT342BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 424.0,
+          "12month_average": 434.25,
           "yoy_change": {
             "current": 421.0,
             "change": -7.0,
@@ -5987,6 +6182,7 @@
           "series_id": "ATNHPIUS38300Q",
           "metric_name": "Home Price Index",
           "3month_average": 327.39,
+          "12month_average": 308.435,
           "yoy_change": {
             "current": 328.32,
             "change": 49.95,
@@ -6004,6 +6200,7 @@
           "series_id": "MEDLISPRIPERSQUFEE38300",
           "metric_name": "Price per Sqft",
           "3month_average": 165.0,
+          "12month_average": 168.25,
           "yoy_change": {
             "current": 166.0,
             "change": 8.0,
@@ -6021,6 +6218,7 @@
           "series_id": "MEDLISPRI38300",
           "metric_name": "Median Housing Price",
           "3month_average": 239150.0,
+          "12month_average": 246779.33333333334,
           "yoy_change": {
             "current": 238450.0,
             "change": 9450.0,
@@ -6038,6 +6236,7 @@
           "series_id": "MEDDAYONMAR38300",
           "metric_name": "Median Days on Market",
           "3month_average": 82.0,
+          "12month_average": 59.416666666666664,
           "yoy_change": {
             "current": 90.0,
             "change": 4.0,
@@ -6090,6 +6289,7 @@
           "series_id": "LASV832URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 5.636363636363637,
           "yoy_change": {
             "current": 5.2,
             "change": -0.7,
@@ -6117,6 +6317,7 @@
           "series_id": "LASV832NAN",
           "metric_name": "All Employees",
           "3month_average": 1157.1,
+          "12month_average": 1148.775,
           "yoy_change": {
             "current": 1155.4,
             "change": -8.9,
@@ -6134,6 +6335,7 @@
           "series_id": "SMU32298200500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 32.25666666666667,
+          "12month_average": 31.736666666666668,
           "yoy_change": {
             "current": 32.45,
             "change": 2.04,
@@ -6151,6 +6353,7 @@
           "series_id": "SMU32298200500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.03333333333333,
+          "12month_average": 33.94166666666667,
           "yoy_change": {
             "current": 34.1,
             "change": -0.2,
@@ -6168,6 +6371,7 @@
           "series_id": "LASV832PBSV",
           "metric_name": "Office Workers",
           "3month_average": 165.28647606637435,
+          "12month_average": 165.38488538209901,
           "yoy_change": {
             "current": 163.0813,
             "change": -2.3554,
@@ -6185,6 +6389,7 @@
           "series_id": "LASV832BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 975.0,
+          "12month_average": 1107.75,
           "yoy_change": {
             "current": 1056.0,
             "change": -236.0,
@@ -6197,20 +6402,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 301.2926,
-          "latest_date": "2025-12-01",
+          "latest_value": 302.7299,
+          "latest_date": "2026-01-01",
           "series_id": "LVXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 300.14154287327665,
+          "3month_average": 301.528987388999,
+          "12month_average": 301.62939739298577,
           "yoy_change": {
-            "current": 301.2926,
-            "change": -2.6902,
-            "pct_change": -0.88
+            "current": 302.7299,
+            "change": -2.8878,
+            "pct_change": -0.94
           },
           "3month_avg_yoy": {
-            "current_3mo": 300.1415,
-            "change": -1.9901,
-            "pct_change": -0.66
+            "current_3mo": 301.529,
+            "change": -2.2941,
+            "pct_change": -0.76
           }
         },
         "price_per_sqft": {
@@ -6219,6 +6425,7 @@
           "series_id": "MEDLISPRIPERSQUFEE29820",
           "metric_name": "Price per Sqft",
           "3month_average": 263.6666666666667,
+          "12month_average": 266.75,
           "yoy_change": {
             "current": 264.0,
             "change": -7.0,
@@ -6236,6 +6443,7 @@
           "series_id": "MEDLISPRI29820",
           "metric_name": "Median Housing Price",
           "3month_average": 465150.0,
+          "12month_average": 472568.0833333333,
           "yoy_change": {
             "current": 464950.0,
             "change": -5024.0,
@@ -6253,6 +6461,7 @@
           "series_id": "MEDDAYONMAR29820",
           "metric_name": "Median Days on Market",
           "3month_average": 66.0,
+          "12month_average": 55.833333333333336,
           "yoy_change": {
             "current": 53.0,
             "change": 6.0,
@@ -6305,6 +6514,7 @@
           "series_id": "CINC139URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.527272727272727,
           "yoy_change": {
             "current": 3.6,
             "change": -0.5,
@@ -6332,6 +6542,7 @@
           "series_id": "CINC139NAN",
           "metric_name": "All Employees",
           "3month_average": 1168.0,
+          "12month_average": 1166.0416666666667,
           "yoy_change": {
             "current": 1162.1,
             "change": -6.1,
@@ -6349,6 +6560,7 @@
           "series_id": "SMU39171400500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 34.126666666666665,
+          "12month_average": 33.53,
           "yoy_change": {
             "current": 34.44,
             "change": 0.52,
@@ -6366,6 +6578,7 @@
           "series_id": "SMU39171400500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.8,
+          "12month_average": 33.55833333333334,
           "yoy_change": {
             "current": 33.5,
             "change": -0.5,
@@ -6383,6 +6596,7 @@
           "series_id": "CINC139PBSV",
           "metric_name": "Office Workers",
           "3month_average": 176.937261819481,
+          "12month_average": 177.38675033909493,
           "yoy_change": {
             "current": 176.2857,
             "change": -1.2343,
@@ -6400,6 +6614,7 @@
           "series_id": "CINC139BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 688.6666666666666,
+          "12month_average": 660.4166666666666,
           "yoy_change": {
             "current": 980.0,
             "change": 516.0,
@@ -6417,6 +6632,7 @@
           "series_id": "ATNHPIUS17140Q",
           "metric_name": "Home Price Index",
           "3month_average": 309.6433333333333,
+          "12month_average": 291.0625,
           "yoy_change": {
             "current": 311.82,
             "change": 55.27,
@@ -6434,6 +6650,7 @@
           "series_id": "MEDLISPRIPERSQUFEE17140",
           "metric_name": "Price per Sqft",
           "3month_average": 190.0,
+          "12month_average": 191.16666666666666,
           "yoy_change": {
             "current": 191.0,
             "change": 4.0,
@@ -6451,6 +6668,7 @@
           "series_id": "MEDLISPRI17140",
           "metric_name": "Median Housing Price",
           "3month_average": 333397.0,
+          "12month_average": 342316.8333333333,
           "yoy_change": {
             "current": 338841.0,
             "change": 13891.0,
@@ -6468,6 +6686,7 @@
           "series_id": "MEDDAYONMAR17140",
           "metric_name": "Median Days on Market",
           "3month_average": 54.666666666666664,
+          "12month_average": 41.166666666666664,
           "yoy_change": {
             "current": 52.0,
             "change": 2.0,
@@ -6520,6 +6739,7 @@
           "series_id": "KANS129URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.9909090909090907,
           "yoy_change": {
             "current": 3.5,
             "change": 0.3,
@@ -6547,6 +6767,7 @@
           "series_id": "KANS129NAN",
           "metric_name": "All Employees",
           "3month_average": 1156.3666666666668,
+          "12month_average": 1148.8333333333335,
           "yoy_change": {
             "current": 1155.5,
             "change": -3.6,
@@ -6564,6 +6785,7 @@
           "series_id": "SMU29281400500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 34.67666666666666,
+          "12month_average": 33.692499999999995,
           "yoy_change": {
             "current": 34.72,
             "change": 2.21,
@@ -6581,6 +6803,7 @@
           "series_id": "SMU29281400500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.8,
+          "12month_average": 33.325,
           "yoy_change": {
             "current": 33.6,
             "change": -0.1,
@@ -6598,6 +6821,7 @@
           "series_id": "KANS129PBSV",
           "metric_name": "Office Workers",
           "3month_average": 178.58263999719634,
+          "12month_average": 179.8943373864244,
           "yoy_change": {
             "current": 179.3013,
             "change": -5.3819,
@@ -6615,6 +6839,7 @@
           "series_id": "KANS129BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 649.0,
+          "12month_average": 749.75,
           "yoy_change": {
             "current": 398.0,
             "change": -342.0,
@@ -6632,6 +6857,7 @@
           "series_id": "ATNHPIUS28140Q",
           "metric_name": "Home Price Index",
           "3month_average": 368.22333333333336,
+          "12month_average": 349.30333333333334,
           "yoy_change": {
             "current": 369.74,
             "change": 55.24,
@@ -6649,6 +6875,7 @@
           "series_id": "MEDLISPRIPERSQUFEE28140",
           "metric_name": "Price per Sqft",
           "3month_average": 196.0,
+          "12month_average": 194.91666666666666,
           "yoy_change": {
             "current": 199.0,
             "change": 2.0,
@@ -6666,6 +6893,7 @@
           "series_id": "MEDLISPRI28140",
           "metric_name": "Median Housing Price",
           "3month_average": 382224.3333333333,
+          "12month_average": 391422.5833333333,
           "yoy_change": {
             "current": 394975.0,
             "change": 15525.0,
@@ -6683,6 +6911,7 @@
           "series_id": "MEDDAYONMAR28140",
           "metric_name": "Median Days on Market",
           "3month_average": 64.66666666666667,
+          "12month_average": 53.416666666666664,
           "yoy_change": {
             "current": 57.0,
             "change": -18.0,
@@ -6735,6 +6964,7 @@
           "series_id": "COLU139URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.4363636363636365,
           "yoy_change": {
             "current": 3.6,
             "change": -0.3,
@@ -6762,6 +6992,7 @@
           "series_id": "COLU139NAN",
           "metric_name": "All Employees",
           "3month_average": 1193.8333333333333,
+          "12month_average": 1183.4416666666666,
           "yoy_change": {
             "current": 1191.1,
             "change": 13.8,
@@ -6779,6 +7010,7 @@
           "series_id": "SMU39181400500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 32.973333333333336,
+          "12month_average": 33.04333333333334,
           "yoy_change": {
             "current": 32.96,
             "change": 0.28,
@@ -6796,6 +7028,7 @@
           "series_id": "SMU39181400500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.4,
+          "12month_average": 34.19166666666667,
           "yoy_change": {
             "current": 34.3,
             "change": -0.7,
@@ -6813,6 +7046,7 @@
           "series_id": "COLU139PBSV",
           "metric_name": "Office Workers",
           "3month_average": 194.88037021381666,
+          "12month_average": 194.92357216431384,
           "yoy_change": {
             "current": 194.4818,
             "change": 2.8796,
@@ -6830,6 +7064,7 @@
           "series_id": "COLU139BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 902.6666666666666,
+          "12month_average": 1343.1666666666667,
           "yoy_change": {
             "current": 888.0,
             "change": 231.0,
@@ -6847,6 +7082,7 @@
           "series_id": "ATNHPIUS18140Q",
           "metric_name": "Home Price Index",
           "3month_average": 342.32,
+          "12month_average": 323.55333333333334,
           "yoy_change": {
             "current": 344.02,
             "change": 55.85,
@@ -6864,6 +7100,7 @@
           "series_id": "MEDLISPRIPERSQUFEE18140",
           "metric_name": "Price per Sqft",
           "3month_average": 201.66666666666666,
+          "12month_average": 204.91666666666666,
           "yoy_change": {
             "current": 203.0,
             "change": -2.0,
@@ -6881,6 +7118,7 @@
           "series_id": "MEDLISPRI18140",
           "metric_name": "Median Housing Price",
           "3month_average": 349916.6666666667,
+          "12month_average": 370195.8333333333,
           "yoy_change": {
             "current": 349900.0,
             "change": 200.0,
@@ -6898,6 +7136,7 @@
           "series_id": "MEDDAYONMAR18140",
           "metric_name": "Median Days on Market",
           "3month_average": 61.0,
+          "12month_average": 45.166666666666664,
           "yoy_change": {
             "current": 55.0,
             "change": 6.0,
@@ -6950,6 +7189,7 @@
           "series_id": "INDI918URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.3545454545454545,
           "yoy_change": {
             "current": 2.5,
             "change": -1.2,
@@ -6977,6 +7217,7 @@
           "series_id": "INDI918NAN",
           "metric_name": "All Employees",
           "3month_average": 1192.3,
+          "12month_average": 1180.0,
           "yoy_change": {
             "current": 1187.3,
             "change": 1.3,
@@ -6994,6 +7235,7 @@
           "series_id": "SMU18269000500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 33.73,
+          "12month_average": 33.32083333333333,
           "yoy_change": {
             "current": 33.8,
             "change": 1.64,
@@ -7011,6 +7253,7 @@
           "series_id": "SMU18269000500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.36666666666667,
+          "12month_average": 33.49166666666667,
           "yoy_change": {
             "current": 33.1,
             "change": -1.1,
@@ -7028,6 +7271,7 @@
           "series_id": "INDI918PBSV",
           "metric_name": "Office Workers",
           "3month_average": 187.20114505056767,
+          "12month_average": 186.3941333343345,
           "yoy_change": {
             "current": 184.9097,
             "change": -0.8229,
@@ -7045,6 +7289,7 @@
           "series_id": "INDI918BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 851.3333333333334,
+          "12month_average": 1032.4166666666667,
           "yoy_change": {
             "current": 1236.0,
             "change": 463.0,
@@ -7062,6 +7307,7 @@
           "series_id": "ATNHPIUS26900Q",
           "metric_name": "Home Price Index",
           "3month_average": 312.83,
+          "12month_average": 296.8691666666667,
           "yoy_change": {
             "current": 315.41,
             "change": 45.31,
@@ -7079,6 +7325,7 @@
           "series_id": "MEDLISPRIPERSQUFEE26900",
           "metric_name": "Price per Sqft",
           "3month_average": 164.66666666666666,
+          "12month_average": 159.66666666666666,
           "yoy_change": {
             "current": 167.0,
             "change": 11.0,
@@ -7096,6 +7343,7 @@
           "series_id": "MEDLISPRI26900",
           "metric_name": "Median Housing Price",
           "3month_average": 308308.0,
+          "12month_average": 321571.5,
           "yoy_change": {
             "current": 309950.0,
             "change": 9950.0,
@@ -7113,6 +7361,7 @@
           "series_id": "MEDDAYONMAR26900",
           "metric_name": "Median Days on Market",
           "3month_average": 70.33333333333333,
+          "12month_average": 51.333333333333336,
           "yoy_change": {
             "current": 73.0,
             "change": 10.0,
@@ -7165,6 +7414,7 @@
           "series_id": "CLEV439URN",
           "metric_name": "Unemployment Rate",
           "3month_average": 3.033333333333333,
+          "12month_average": 3.9583333333333335,
           "yoy_change": {
             "current": 3.4,
             "change": 0.4,
@@ -7200,6 +7450,7 @@
           "series_id": "CLEV439NAN",
           "metric_name": "All Employees",
           "3month_average": 1078.1333333333334,
+          "12month_average": 1069.3083333333334,
           "yoy_change": {
             "current": 1075.4,
             "change": 6.1,
@@ -7217,6 +7468,7 @@
           "series_id": "SMU39174100500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 33.52666666666667,
+          "12month_average": 33.759166666666665,
           "yoy_change": {
             "current": 33.52,
             "change": -0.61,
@@ -7234,6 +7486,7 @@
           "series_id": "SMU39174100500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.7,
+          "12month_average": 34.641666666666666,
           "yoy_change": {
             "current": 34.5,
             "change": -0.3,
@@ -7251,6 +7504,7 @@
           "series_id": "CLEV439PBSV",
           "metric_name": "Office Workers",
           "3month_average": 154.66670850153068,
+          "12month_average": 153.79093827261508,
           "yoy_change": {
             "current": 154.4856,
             "change": 3.1259,
@@ -7268,6 +7522,7 @@
           "series_id": "CLEV439BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 269.0,
+          "12month_average": 249.58333333333334,
           "yoy_change": {
             "current": 230.0,
             "change": 6.0,
@@ -7280,20 +7535,21 @@
           }
         },
         "home_price_index": {
-          "latest_value": 202.7433,
-          "latest_date": "2025-12-01",
+          "latest_value": 203.7683,
+          "latest_date": "2026-01-01",
           "series_id": "CEXRSA",
           "metric_name": "Home Price Index",
-          "3month_average": 201.98465950650166,
+          "3month_average": 202.67526282289,
+          "12month_average": 200.53822211080217,
           "yoy_change": {
-            "current": 202.7433,
-            "change": 7.8828,
-            "pct_change": 4.05
+            "current": 203.7683,
+            "change": 7.0339,
+            "pct_change": 3.58
           },
           "3month_avg_yoy": {
-            "current_3mo": 201.9847,
-            "change": 7.4519,
-            "pct_change": 3.83
+            "current_3mo": 202.6753,
+            "change": 7.1235,
+            "pct_change": 3.64
           }
         },
         "price_per_sqft": {
@@ -7302,6 +7558,7 @@
           "series_id": "MEDLISPRIPERSQUFEE17460",
           "metric_name": "Price per Sqft",
           "3month_average": 143.33333333333334,
+          "12month_average": 141.08333333333334,
           "yoy_change": {
             "current": 143.0,
             "change": 17.0,
@@ -7319,6 +7576,7 @@
           "series_id": "MEDLISPRI17460",
           "metric_name": "Median Housing Price",
           "3month_average": 246616.66666666666,
+          "12month_average": 250728.16666666666,
           "yoy_change": {
             "current": 239950.0,
             "change": 20050.0,
@@ -7336,6 +7594,7 @@
           "series_id": "MEDDAYONMAR17460",
           "metric_name": "Median Days on Market",
           "3month_average": 47.333333333333336,
+          "12month_average": 42.166666666666664,
           "yoy_change": {
             "current": 55.0,
             "change": 4.0,
@@ -7388,6 +7647,7 @@
           "series_id": "NASH947URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.0727272727272728,
           "yoy_change": {
             "current": 3.0,
             "change": 0.0,
@@ -7415,6 +7675,7 @@
           "series_id": "NASH947NAN",
           "metric_name": "All Employees",
           "3month_average": 1211.9,
+          "12month_average": 1197.9,
           "yoy_change": {
             "current": 1213.2,
             "change": 12.4,
@@ -7432,6 +7693,7 @@
           "series_id": "SMU47349800500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 35.233333333333334,
+          "12month_average": 34.3475,
           "yoy_change": {
             "current": 35.12,
             "change": 0.56,
@@ -7449,6 +7711,7 @@
           "series_id": "SMU47349800500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 35.266666666666666,
+          "12month_average": 35.05833333333334,
           "yoy_change": {
             "current": 34.9,
             "change": -0.3,
@@ -7466,6 +7729,7 @@
           "series_id": "NASH947PBSV",
           "metric_name": "Office Workers",
           "3month_average": 196.96156562978865,
+          "12month_average": 194.98128523110316,
           "yoy_change": {
             "current": 196.7649,
             "change": 3.0457,
@@ -7483,6 +7747,7 @@
           "series_id": "NASH947BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 1354.3333333333333,
+          "12month_average": 1585.75,
           "yoy_change": {
             "current": 1248.0,
             "change": -321.0,
@@ -7500,6 +7765,7 @@
           "series_id": "ATNHPIUS34980Q",
           "metric_name": "Home Price Index",
           "3month_average": 479.9566666666667,
+          "12month_average": 462.74583333333334,
           "yoy_change": {
             "current": 482.24,
             "change": 47.3,
@@ -7517,6 +7783,7 @@
           "series_id": "MEDLISPRIPERSQUFEE34980",
           "metric_name": "Price per Sqft",
           "3month_average": 260.0,
+          "12month_average": 262.0833333333333,
           "yoy_change": {
             "current": 259.0,
             "change": -2.0,
@@ -7534,6 +7801,7 @@
           "series_id": "MEDLISPRI34980",
           "metric_name": "Median Housing Price",
           "3month_average": 527241.6666666666,
+          "12month_average": 537961.8333333334,
           "yoy_change": {
             "current": 527225.0,
             "change": -2225.0,
@@ -7551,6 +7819,7 @@
           "series_id": "MEDDAYONMAR34980",
           "metric_name": "Median Days on Market",
           "3month_average": 67.33333333333333,
+          "12month_average": 57.833333333333336,
           "yoy_change": {
             "current": 60.0,
             "change": 5.0,
@@ -7603,6 +7872,7 @@
           "series_id": "SANJ906URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.327272727272727,
           "yoy_change": {
             "current": 4.0,
             "change": 0.0,
@@ -7630,6 +7900,7 @@
           "series_id": "SANJ906NAN",
           "metric_name": "All Employees",
           "3month_average": 1155.4,
+          "12month_average": 1148.2666666666667,
           "yoy_change": {
             "current": 1160.0,
             "change": -1.9,
@@ -7647,6 +7918,7 @@
           "series_id": "SMU06419400500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 55.00666666666667,
+          "12month_average": 54.29416666666667,
           "yoy_change": {
             "current": 54.87,
             "change": 0.32,
@@ -7664,6 +7936,7 @@
           "series_id": "SMU06419400500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.63333333333333,
+          "12month_average": 34.63333333333333,
           "yoy_change": {
             "current": 34.7,
             "change": -0.6,
@@ -7681,6 +7954,7 @@
           "series_id": "SANJ906PBSV",
           "metric_name": "Office Workers",
           "3month_average": 274.8741013230393,
+          "12month_average": 278.87375690171956,
           "yoy_change": {
             "current": 275.5434,
             "change": -8.5813,
@@ -7698,6 +7972,7 @@
           "series_id": "SANJ906BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 620.6666666666666,
+          "12month_average": 533.6666666666666,
           "yoy_change": {
             "current": 540.0,
             "change": 325.0,
@@ -7715,6 +7990,7 @@
           "series_id": "ATNHPIUS41940Q",
           "metric_name": "Home Price Index",
           "3month_average": 561.0433333333333,
+          "12month_average": 549.335,
           "yoy_change": {
             "current": 561.97,
             "change": 50.98,
@@ -7732,6 +8008,7 @@
           "series_id": "MEDLISPRIPERSQUFEE41940",
           "metric_name": "Price per Sqft",
           "3month_average": 799.3333333333334,
+          "12month_average": 832.25,
           "yoy_change": {
             "current": 832.0,
             "change": -8.0,
@@ -7749,6 +8026,7 @@
           "series_id": "MEDLISPRI41940",
           "metric_name": "Median Housing Price",
           "3month_average": 1247825.0,
+          "12month_average": 1345809.1666666667,
           "yoy_change": {
             "current": 1349975.0,
             "change": 45475.0,
@@ -7766,6 +8044,7 @@
           "series_id": "MEDDAYONMAR41940",
           "metric_name": "Median Days on Market",
           "3month_average": 39.333333333333336,
+          "12month_average": 34.916666666666664,
           "yoy_change": {
             "current": 23.0,
             "change": 1.0,
@@ -7818,6 +8097,7 @@
           "series_id": "VIRG251URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.727272727272727,
           "yoy_change": {
             "current": 3.6,
             "change": 0.8,
@@ -7845,6 +8125,7 @@
           "series_id": "VIRG251NAN",
           "metric_name": "All Employees",
           "3month_average": 818.8333333333334,
+          "12month_average": 821.15,
           "yoy_change": {
             "current": 816.9,
             "change": -11.1,
@@ -7862,6 +8143,7 @@
           "series_id": "SMU51472600500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 34.82333333333333,
+          "12month_average": 33.77666666666667,
           "yoy_change": {
             "current": 34.83,
             "change": 3.23,
@@ -7879,6 +8161,7 @@
           "series_id": "SMU51472600500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.333333333333336,
+          "12month_average": 33.1,
           "yoy_change": {
             "current": 33.1,
             "change": -1.0,
@@ -7896,6 +8179,7 @@
           "series_id": "VIRG251PBSV",
           "metric_name": "Office Workers",
           "3month_average": 123.69989461457733,
+          "12month_average": 123.524321971795,
           "yoy_change": {
             "current": 124.1621,
             "change": 0.8118,
@@ -7913,6 +8197,7 @@
           "series_id": "VIRG251BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 301.0,
+          "12month_average": 315.1666666666667,
           "yoy_change": {
             "current": 296.0,
             "change": -220.0,
@@ -7930,6 +8215,7 @@
           "series_id": "ATNHPIUS47260Q",
           "metric_name": "Home Price Index",
           "3month_average": 379.22333333333336,
+          "12month_average": 356.355,
           "yoy_change": {
             "current": 381.37,
             "change": 59.3,
@@ -7947,6 +8233,7 @@
           "series_id": "MEDLISPRIPERSQUFEE47260",
           "metric_name": "Price per Sqft",
           "3month_average": 218.66666666666666,
+          "12month_average": 218.0,
           "yoy_change": {
             "current": 220.0,
             "change": 5.0,
@@ -7964,6 +8251,7 @@
           "series_id": "MEDLISPRI47260",
           "metric_name": "Median Housing Price",
           "3month_average": 399933.3333333333,
+          "12month_average": 407059.6666666667,
           "yoy_change": {
             "current": 400000.0,
             "change": 7500.0,
@@ -7981,6 +8269,7 @@
           "series_id": "MEDDAYONMAR47260",
           "metric_name": "Median Days on Market",
           "3month_average": 49.333333333333336,
+          "12month_average": 42.333333333333336,
           "yoy_change": {
             "current": 40.0,
             "change": 1.0,
@@ -8033,6 +8322,7 @@
           "series_id": "JACK212URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.118181818181818,
           "yoy_change": {
             "current": 4.6,
             "change": 1.4,
@@ -8060,6 +8350,7 @@
           "series_id": "JACK212NAN",
           "metric_name": "All Employees",
           "3month_average": 823.9666666666667,
+          "12month_average": 814.5833333333334,
           "yoy_change": {
             "current": 825.8,
             "change": 5.6,
@@ -8077,6 +8368,7 @@
           "series_id": "SMU12272600500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 37.47333333333333,
+          "12month_average": 36.685833333333335,
           "yoy_change": {
             "current": 37.14,
             "change": 1.77,
@@ -8094,6 +8386,7 @@
           "series_id": "SMU12272600500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.6,
+          "12month_average": 33.516666666666666,
           "yoy_change": {
             "current": 33.7,
             "change": -0.4,
@@ -8111,6 +8404,7 @@
           "series_id": "JACK212PBSV",
           "metric_name": "Office Workers",
           "3month_average": 121.44197152757566,
+          "12month_average": 121.48615069606925,
           "yoy_change": {
             "current": 121.5275,
             "change": -0.208,
@@ -8128,6 +8422,7 @@
           "series_id": "JACK212BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 653.6666666666666,
+          "12month_average": 1060.5833333333333,
           "yoy_change": {
             "current": 647.0,
             "change": -418.0,
@@ -8145,6 +8440,7 @@
           "series_id": "ATNHPIUS27260Q",
           "metric_name": "Home Price Index",
           "3month_average": 460.59333333333336,
+          "12month_average": 448.9941666666667,
           "yoy_change": {
             "current": 460.33,
             "change": 31.21,
@@ -8162,6 +8458,7 @@
           "series_id": "MEDLISPRIPERSQUFEE27260",
           "metric_name": "Price per Sqft",
           "3month_average": 213.66666666666666,
+          "12month_average": 218.33333333333334,
           "yoy_change": {
             "current": 214.0,
             "change": -6.0,
@@ -8179,6 +8476,7 @@
           "series_id": "MEDLISPRI27260",
           "metric_name": "Median Housing Price",
           "3month_average": 379833.3333333333,
+          "12month_average": 394369.5833333333,
           "yoy_change": {
             "current": 382000.0,
             "change": -6098.0,
@@ -8196,6 +8494,7 @@
           "series_id": "MEDDAYONMAR27260",
           "metric_name": "Median Days on Market",
           "3month_average": 78.66666666666667,
+          "12month_average": 71.0,
           "yoy_change": {
             "current": 72.0,
             "change": 6.0,
@@ -8248,6 +8547,7 @@
           "series_id": "PROV244URN",
           "metric_name": "Unemployment Rate",
           "3month_average": 4.266666666666667,
+          "12month_average": 4.475,
           "yoy_change": {
             "current": 4.3,
             "change": 0.8,
@@ -8283,6 +8583,7 @@
           "series_id": "PROV244NAN",
           "metric_name": "All Employees",
           "3month_average": 610.1,
+          "12month_average": 605.0583333333334,
           "yoy_change": {
             "current": 608.1,
             "change": 3.6,
@@ -8300,6 +8601,7 @@
           "series_id": "SMU44393000500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 36.22,
+          "12month_average": 35.527499999999996,
           "yoy_change": {
             "current": 36.54,
             "change": 1.28,
@@ -8317,6 +8619,7 @@
           "series_id": "SMU44393000500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.06666666666667,
+          "12month_average": 33.06666666666666,
           "yoy_change": {
             "current": 33.1,
             "change": 0.3,
@@ -8334,6 +8637,7 @@
           "series_id": "PROV244PBSV",
           "metric_name": "Office Workers",
           "3month_average": 79.31266372659721,
+          "12month_average": 78.5646139930183,
           "yoy_change": {
             "current": 79.184,
             "change": 1.286,
@@ -8351,6 +8655,7 @@
           "series_id": "BPPRIV044007",
           "metric_name": "Building Permits",
           "3month_average": 637.0,
+          "12month_average": 500.5833333333333,
           "yoy_change": {
             "current": 782.0,
             "change": 574.0,
@@ -8368,6 +8673,7 @@
           "series_id": "ATNHPIUS39300Q",
           "metric_name": "Home Price Index",
           "3month_average": 437.4066666666667,
+          "12month_average": 407.28416666666664,
           "yoy_change": {
             "current": 440.83,
             "change": 85.95,
@@ -8385,6 +8691,7 @@
           "series_id": "MEDLISPRIPERSQUFEE39300",
           "metric_name": "Price per Sqft",
           "3month_average": 355.6666666666667,
+          "12month_average": 338.1666666666667,
           "yoy_change": {
             "current": 354.0,
             "change": 27.0,
@@ -8402,6 +8709,7 @@
           "series_id": "MEDLISPRI39300",
           "metric_name": "Median Housing Price",
           "3month_average": 549083.3333333334,
+          "12month_average": 575672.9166666666,
           "yoy_change": {
             "current": 547450.0,
             "change": 12550.0,
@@ -8419,6 +8727,7 @@
           "series_id": "MEDDAYONMAR39300",
           "metric_name": "Median Days on Market",
           "3month_average": 52.666666666666664,
+          "12month_average": 39.333333333333336,
           "yoy_change": {
             "current": 49.0,
             "change": 10.0,
@@ -8471,6 +8780,7 @@
           "series_id": "MILW355URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.4909090909090907,
           "yoy_change": {
             "current": 3.1,
             "change": 0.1,
@@ -8498,6 +8808,7 @@
           "series_id": "MILW355NAN",
           "metric_name": "All Employees",
           "3month_average": 858.1333333333333,
+          "12month_average": 858.825,
           "yoy_change": {
             "current": 857.4,
             "change": -7.9,
@@ -8515,6 +8826,7 @@
           "series_id": "SMU55333400500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 36.49666666666667,
+          "12month_average": 35.9625,
           "yoy_change": {
             "current": 36.47,
             "change": 1.31,
@@ -8532,6 +8844,7 @@
           "series_id": "SMU55333400500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.46666666666667,
+          "12month_average": 34.325,
           "yoy_change": {
             "current": 34.2,
             "change": -0.4,
@@ -8549,6 +8862,7 @@
           "series_id": "MILW355PBSV",
           "metric_name": "Office Workers",
           "3month_average": 119.44164659073667,
+          "12month_average": 119.923372042782,
           "yoy_change": {
             "current": 118.4079,
             "change": -3.1101,
@@ -8566,6 +8880,7 @@
           "series_id": "MILW355BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 239.33333333333334,
+          "12month_average": 262.25,
           "yoy_change": {
             "current": 221.0,
             "change": -1.0,
@@ -8583,6 +8898,7 @@
           "series_id": "ATNHPIUS33340Q",
           "metric_name": "Home Price Index",
           "3month_average": 333.84333333333336,
+          "12month_average": 310.56166666666667,
           "yoy_change": {
             "current": 335.33,
             "change": 64.66,
@@ -8600,6 +8916,7 @@
           "series_id": "MEDLISPRIPERSQUFEE33340",
           "metric_name": "Price per Sqft",
           "3month_average": 222.66666666666666,
+          "12month_average": 221.58333333333334,
           "yoy_change": {
             "current": 225.0,
             "change": 8.0,
@@ -8617,6 +8934,7 @@
           "series_id": "MEDLISPRI33340",
           "metric_name": "Median Housing Price",
           "3month_average": 369033.3333333333,
+          "12month_average": 387854.1666666667,
           "yoy_change": {
             "current": 372450.0,
             "change": -2500.0,
@@ -8634,6 +8952,7 @@
           "series_id": "MEDDAYONMAR33340",
           "metric_name": "Median Days on Market",
           "3month_average": 49.0,
+          "12month_average": 35.916666666666664,
           "yoy_change": {
             "current": 39.0,
             "change": 3.0,
@@ -8686,6 +9005,7 @@
           "series_id": "RALE537URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.2,
           "yoy_change": {
             "current": 3.0,
             "change": 0.2,
@@ -8713,6 +9033,7 @@
           "series_id": "RALE537NAN",
           "metric_name": "All Employees",
           "3month_average": 766.7333333333333,
+          "12month_average": 760.3583333333333,
           "yoy_change": {
             "current": 767.6,
             "change": 9.5,
@@ -8730,6 +9051,7 @@
           "series_id": "SMU37395800500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 37.43,
+          "12month_average": 36.81583333333334,
           "yoy_change": {
             "current": 37.51,
             "change": 1.62,
@@ -8747,6 +9069,7 @@
           "series_id": "SMU37395800500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.33333333333333,
+          "12month_average": 33.25833333333333,
           "yoy_change": {
             "current": 32.9,
             "change": -0.4,
@@ -8764,6 +9087,7 @@
           "series_id": "RALE537PBSV",
           "metric_name": "Office Workers",
           "3month_average": 150.42254116560633,
+          "12month_average": 149.1571510471605,
           "yoy_change": {
             "current": 150.4493,
             "change": 3.5364,
@@ -8781,6 +9105,7 @@
           "series_id": "RALE537BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 1313.6666666666667,
+          "12month_average": 1517.1666666666667,
           "yoy_change": {
             "current": 1583.0,
             "change": 516.0,
@@ -8798,6 +9123,7 @@
           "series_id": "ATNHPIUS39580Q",
           "metric_name": "Home Price Index",
           "3month_average": 365.17,
+          "12month_average": 354.3,
           "yoy_change": {
             "current": 363.79,
             "change": 34.28,
@@ -8815,6 +9141,7 @@
           "series_id": "MEDLISPRIPERSQUFEE39580",
           "metric_name": "Price per Sqft",
           "3month_average": 217.66666666666666,
+          "12month_average": 220.25,
           "yoy_change": {
             "current": 218.0,
             "change": -2.0,
@@ -8832,6 +9159,7 @@
           "series_id": "MEDLISPRI39580",
           "metric_name": "Median Housing Price",
           "3month_average": 441653.6666666667,
+          "12month_average": 451338.0,
           "yoy_change": {
             "current": 444961.0,
             "change": 8999.0,
@@ -8849,6 +9177,7 @@
           "series_id": "MEDDAYONMAR39580",
           "metric_name": "Median Days on Market",
           "3month_average": 68.66666666666667,
+          "12month_average": 56.583333333333336,
           "yoy_change": {
             "current": 60.0,
             "change": 7.0,
@@ -8901,6 +9230,7 @@
           "series_id": "OKLA440URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.1999999999999997,
           "yoy_change": {
             "current": 3.6,
             "change": 0.8,
@@ -8928,6 +9258,7 @@
           "series_id": "OKLA440NAN",
           "metric_name": "All Employees",
           "3month_average": 721.8333333333334,
+          "12month_average": 715.4083333333333,
           "yoy_change": {
             "current": 721.5,
             "change": 3.7,
@@ -8945,6 +9276,7 @@
           "series_id": "SMU40364200500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 32.913333333333334,
+          "12month_average": 32.35,
           "yoy_change": {
             "current": 32.75,
             "change": 1.47,
@@ -8962,6 +9294,7 @@
           "series_id": "SMU40364200500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 35.9,
+          "12month_average": 35.516666666666666,
           "yoy_change": {
             "current": 35.8,
             "change": -0.8,
@@ -8979,6 +9312,7 @@
           "series_id": "OKLA440PBSV",
           "metric_name": "Office Workers",
           "3month_average": 93.2352195349889,
+          "12month_average": 92.76102687460246,
           "yoy_change": {
             "current": 93.996,
             "change": 3.0937,
@@ -8996,6 +9330,7 @@
           "series_id": "OKLA440BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 652.3333333333334,
+          "12month_average": 702.9166666666666,
           "yoy_change": {
             "current": 715.0,
             "change": 71.0,
@@ -9013,6 +9348,7 @@
           "series_id": "ATNHPIUS36420Q",
           "metric_name": "Home Price Index",
           "3month_average": 342.8,
+          "12month_average": 330.345,
           "yoy_change": {
             "current": 347.52,
             "change": 39.15,
@@ -9030,6 +9366,7 @@
           "series_id": "MEDLISPRIPERSQUFEE36420",
           "metric_name": "Price per Sqft",
           "3month_average": 171.0,
+          "12month_average": 171.66666666666666,
           "yoy_change": {
             "current": 172.0,
             "change": -1.0,
@@ -9047,6 +9384,7 @@
           "series_id": "MEDLISPRI36420",
           "metric_name": "Median Housing Price",
           "3month_average": 314966.6666666667,
+          "12month_average": 320231.6666666667,
           "yoy_change": {
             "current": 315000.0,
             "change": 8.0,
@@ -9064,6 +9402,7 @@
           "series_id": "MEDDAYONMAR36420",
           "metric_name": "Median Days on Market",
           "3month_average": 63.333333333333336,
+          "12month_average": 52.416666666666664,
           "yoy_change": {
             "current": 58.0,
             "change": 6.0,
@@ -9116,6 +9455,7 @@
           "series_id": "LOIURN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.3,
           "yoy_change": {
             "current": 3.1,
             "change": -1.3,
@@ -9143,6 +9483,7 @@
           "series_id": "LOINAN",
           "metric_name": "All Employees",
           "3month_average": 726.2,
+          "12month_average": 721.7083333333334,
           "yoy_change": {
             "current": 726.1,
             "change": -0.4,
@@ -9160,6 +9501,7 @@
           "series_id": "SMU21311400500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 31.226666666666667,
+          "12month_average": 30.8425,
           "yoy_change": {
             "current": 31.6,
             "change": 1.03,
@@ -9177,6 +9519,7 @@
           "series_id": "SMU21311400500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.6,
+          "12month_average": 33.825,
           "yoy_change": {
             "current": 33.3,
             "change": -0.9,
@@ -9194,6 +9537,7 @@
           "series_id": "LOIPBSV",
           "metric_name": "Office Workers",
           "3month_average": 87.62003458310373,
+          "12month_average": 87.59524438011559,
           "yoy_change": {
             "current": 87.6018,
             "change": 0.6327,
@@ -9211,6 +9555,7 @@
           "series_id": "LOIBPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 346.0,
+          "12month_average": 542.0,
           "yoy_change": {
             "current": 461.0,
             "change": 206.0,
@@ -9228,6 +9573,7 @@
           "series_id": "ATNHPIUS31140Q",
           "metric_name": "Home Price Index",
           "3month_average": 326.9633333333333,
+          "12month_average": 309.06083333333333,
           "yoy_change": {
             "current": 328.14,
             "change": 44.43,
@@ -9245,6 +9591,7 @@
           "series_id": "MEDLISPRIPERSQUFEE31140",
           "metric_name": "Price per Sqft",
           "3month_average": 179.66666666666666,
+          "12month_average": 178.5,
           "yoy_change": {
             "current": 180.0,
             "change": 5.0,
@@ -9262,6 +9609,7 @@
           "series_id": "MEDLISPRI31140",
           "metric_name": "Median Housing Price",
           "3month_average": 300730.0,
+          "12month_average": 315558.5833333333,
           "yoy_change": {
             "current": 300000.0,
             "change": -9950.0,
@@ -9279,6 +9627,7 @@
           "series_id": "MEDDAYONMAR31140",
           "metric_name": "Median Days on Market",
           "3month_average": 53.666666666666664,
+          "12month_average": 43.25,
           "yoy_change": {
             "current": 50.0,
             "change": -1.0,
@@ -9331,6 +9680,7 @@
           "series_id": "RICH051URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.463636363636364,
           "yoy_change": {
             "current": 3.3,
             "change": 0.7,
@@ -9358,6 +9708,7 @@
           "series_id": "RICH051NAN",
           "metric_name": "All Employees",
           "3month_average": 731.5666666666667,
+          "12month_average": 729.3833333333333,
           "yoy_change": {
             "current": 729.3,
             "change": 2.1,
@@ -9375,6 +9726,7 @@
           "series_id": "SMU51400600500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 36.17333333333333,
+          "12month_average": 35.34583333333333,
           "yoy_change": {
             "current": 36.16,
             "change": 1.76,
@@ -9392,6 +9744,7 @@
           "series_id": "SMU51400600500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.233333333333334,
+          "12month_average": 33.8,
           "yoy_change": {
             "current": 33.9,
             "change": -0.4,
@@ -9409,6 +9762,7 @@
           "series_id": "RICH051PBSV",
           "metric_name": "Office Workers",
           "3month_average": 124.172890483158,
+          "12month_average": 124.2115519300825,
           "yoy_change": {
             "current": 124.1951,
             "change": 0.6085,
@@ -9426,6 +9780,7 @@
           "series_id": "RICH051BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 856.3333333333334,
+          "12month_average": 774.0,
           "yoy_change": {
             "current": 1494.0,
             "change": 181.0,
@@ -9443,6 +9798,7 @@
           "series_id": "ATNHPIUS40060Q",
           "metric_name": "Home Price Index",
           "3month_average": 389.6933333333333,
+          "12month_average": 368.12416666666667,
           "yoy_change": {
             "current": 391.87,
             "change": 64.9,
@@ -9460,6 +9816,7 @@
           "series_id": "MEDLISPRIPERSQUFEE40060",
           "metric_name": "Price per Sqft",
           "3month_average": 229.0,
+          "12month_average": 226.75,
           "yoy_change": {
             "current": 231.0,
             "change": 5.0,
@@ -9477,6 +9834,7 @@
           "series_id": "MEDLISPRI40060",
           "metric_name": "Median Housing Price",
           "3month_average": 428336.0,
+          "12month_average": 439131.5833333333,
           "yoy_change": {
             "current": 429900.0,
             "change": 247.0,
@@ -9494,6 +9852,7 @@
           "series_id": "MEDDAYONMAR40060",
           "metric_name": "Median Days on Market",
           "3month_average": 55.333333333333336,
+          "12month_average": 46.166666666666664,
           "yoy_change": {
             "current": 48.0,
             "change": -1.0,
@@ -9546,6 +9905,7 @@
           "series_id": "MPHURN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.4,
           "yoy_change": {
             "current": 4.0,
             "change": -0.2,
@@ -9573,6 +9933,7 @@
           "series_id": "MPHNAN",
           "metric_name": "All Employees",
           "3month_average": 664.6,
+          "12month_average": 658.9833333333333,
           "yoy_change": {
             "current": 666.5,
             "change": 0.4,
@@ -9590,6 +9951,7 @@
           "series_id": "SMU47328200500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 32.303333333333335,
+          "12month_average": 31.42,
           "yoy_change": {
             "current": 32.24,
             "change": 1.87,
@@ -9607,6 +9969,7 @@
           "series_id": "SMU47328200500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.233333333333334,
+          "12month_average": 33.875,
           "yoy_change": {
             "current": 33.9,
             "change": -0.8,
@@ -9624,6 +9987,7 @@
           "series_id": "MPHPBSV",
           "metric_name": "Office Workers",
           "3month_average": 86.85866894170394,
+          "12month_average": 88.87141497721701,
           "yoy_change": {
             "current": 86.3877,
             "change": -2.4233,
@@ -9641,6 +10005,7 @@
           "series_id": "MPHBPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 283.6666666666667,
+          "12month_average": 276.0833333333333,
           "yoy_change": {
             "current": 240.0,
             "change": 3.0,
@@ -9658,6 +10023,7 @@
           "series_id": "ATNHPIUS32820Q",
           "metric_name": "Home Price Index",
           "3month_average": 277.99333333333334,
+          "12month_average": 272.56416666666667,
           "yoy_change": {
             "current": 278.92,
             "change": 13.86,
@@ -9675,6 +10041,7 @@
           "series_id": "MEDLISPRIPERSQUFEE32820",
           "metric_name": "Price per Sqft",
           "3month_average": 153.33333333333334,
+          "12month_average": 159.83333333333334,
           "yoy_change": {
             "current": 153.0,
             "change": -11.0,
@@ -9692,6 +10059,7 @@
           "series_id": "MEDLISPRI32820",
           "metric_name": "Median Housing Price",
           "3month_average": 304766.6666666667,
+          "12month_average": 327938.75,
           "yoy_change": {
             "current": 299450.0,
             "change": -28600.0,
@@ -9709,6 +10077,7 @@
           "series_id": "MEDDAYONMAR32820",
           "metric_name": "Median Days on Market",
           "3month_average": 79.33333333333333,
+          "12month_average": 66.41666666666667,
           "yoy_change": {
             "current": 79.0,
             "change": 8.0,
@@ -9761,6 +10130,7 @@
           "series_id": "SALT649URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 3.4545454545454546,
           "yoy_change": {
             "current": 3.4,
             "change": 0.4,
@@ -9788,6 +10158,7 @@
           "series_id": "SALT649NAN",
           "metric_name": "All Employees",
           "3month_average": 849.0,
+          "12month_average": 841.975,
           "yoy_change": {
             "current": 850.6,
             "change": 15.3,
@@ -9805,6 +10176,7 @@
           "series_id": "SMU49416200500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 38.123333333333335,
+          "12month_average": 37.64333333333333,
           "yoy_change": {
             "current": 38.03,
             "change": 1.16,
@@ -9822,6 +10194,7 @@
           "series_id": "SMU49416200500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 35.666666666666664,
+          "12month_average": 35.46666666666667,
           "yoy_change": {
             "current": 35.4,
             "change": 0.2,
@@ -9839,6 +10212,7 @@
           "series_id": "SALT649PBSV",
           "metric_name": "Office Workers",
           "3month_average": 147.58181920602502,
+          "12month_average": 145.43834803386233,
           "yoy_change": {
             "current": 148.2848,
             "change": 5.1029,
@@ -9856,6 +10230,7 @@
           "series_id": "SALT649BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 758.3333333333334,
+          "12month_average": 566.6666666666666,
           "yoy_change": {
             "current": 379.0,
             "change": -564.0,
@@ -9873,6 +10248,7 @@
           "series_id": "ATNHPIUS41620Q",
           "metric_name": "Home Price Index",
           "3month_average": 489.7266666666667,
+          "12month_average": 470.0491666666667,
           "yoy_change": {
             "current": 491.23,
             "change": 44.21,
@@ -9890,6 +10266,7 @@
           "series_id": "MEDLISPRIPERSQUFEE41620",
           "metric_name": "Price per Sqft",
           "3month_average": 259.3333333333333,
+          "12month_average": 261.5,
           "yoy_change": {
             "current": 259.0,
             "change": -6.0,
@@ -9907,6 +10284,7 @@
           "series_id": "MEDLISPRI41620",
           "metric_name": "Median Housing Price",
           "3month_average": 552500.0,
+          "12month_average": 574322.75,
           "yoy_change": {
             "current": 550000.0,
             "change": -14900.0,
@@ -9924,6 +10302,7 @@
           "series_id": "MEDDAYONMAR41620",
           "metric_name": "Median Days on Market",
           "3month_average": 65.33333333333333,
+          "12month_average": 55.583333333333336,
           "yoy_change": {
             "current": 49.0,
             "change": -9.0,
@@ -9976,6 +10355,7 @@
           "series_id": "BIRM801URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 2.7545454545454544,
           "yoy_change": {
             "current": 2.2,
             "change": -0.8,
@@ -10003,6 +10383,7 @@
           "series_id": "BIRM801NAN",
           "metric_name": "All Employees",
           "3month_average": 575.3,
+          "12month_average": 571.7583333333333,
           "yoy_change": {
             "current": 576.3,
             "change": 3.5,
@@ -10020,6 +10401,7 @@
           "series_id": "SMU01138200500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 32.79333333333334,
+          "12month_average": 32.784166666666664,
           "yoy_change": {
             "current": 32.96,
             "change": -0.04,
@@ -10037,6 +10419,7 @@
           "series_id": "SMU01138200500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 35.8,
+          "12month_average": 35.19166666666666,
           "yoy_change": {
             "current": 35.5,
             "change": 0.5,
@@ -10054,6 +10437,7 @@
           "series_id": "BIRM801PBSV",
           "metric_name": "Office Workers",
           "3month_average": 73.42724713435207,
+          "12month_average": 73.98086773168995,
           "yoy_change": {
             "current": 73.9745,
             "change": 0.0964,
@@ -10071,6 +10455,7 @@
           "series_id": "BIRM801BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 379.3333333333333,
+          "12month_average": 356.0,
           "yoy_change": {
             "current": 291.0,
             "change": 30.0,
@@ -10088,6 +10473,7 @@
           "series_id": "ATNHPIUS13820Q",
           "metric_name": "Home Price Index",
           "3month_average": 310.21,
+          "12month_average": 296.3366666666667,
           "yoy_change": {
             "current": 311.89,
             "change": 39.23,
@@ -10105,6 +10491,7 @@
           "series_id": "MEDLISPRIPERSQUFEE13820",
           "metric_name": "Price per Sqft",
           "3month_average": 156.33333333333334,
+          "12month_average": 159.0,
           "yoy_change": {
             "current": 157.0,
             "change": 0.0,
@@ -10122,6 +10509,7 @@
           "series_id": "MEDLISPRI13820",
           "metric_name": "Median Housing Price",
           "3month_average": 289379.3333333333,
+          "12month_average": 297578.1666666667,
           "yoy_change": {
             "current": 289000.0,
             "change": 4000.0,
@@ -10139,6 +10527,7 @@
           "series_id": "MEDDAYONMAR13820",
           "metric_name": "Median Days on Market",
           "3month_average": 73.66666666666667,
+          "12month_average": 60.583333333333336,
           "yoy_change": {
             "current": 70.0,
             "change": -1.0,
@@ -10191,6 +10580,7 @@
           "series_id": "FRES406URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 8.336363636363636,
           "yoy_change": {
             "current": 8.2,
             "change": 0.3,
@@ -10218,6 +10608,7 @@
           "series_id": "FRES406NAN",
           "metric_name": "All Employees",
           "3month_average": 449.8,
+          "12month_average": 445.375,
           "yoy_change": {
             "current": 449.3,
             "change": 1.0,
@@ -10235,6 +10626,7 @@
           "series_id": "SMU06234200500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 33.06,
+          "12month_average": 32.12416666666667,
           "yoy_change": {
             "current": 33.56,
             "change": 2.37,
@@ -10252,6 +10644,7 @@
           "series_id": "SMU06234200500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.6,
+          "12month_average": 33.975,
           "yoy_change": {
             "current": 33.5,
             "change": -1.6,
@@ -10269,6 +10662,7 @@
           "series_id": "FRES406PBSV",
           "metric_name": "Office Workers",
           "3month_average": 35.1606307141665,
+          "12month_average": 35.38341879773639,
           "yoy_change": {
             "current": 35.5425,
             "change": -0.3773,
@@ -10286,6 +10680,7 @@
           "series_id": "BPPRIV006019",
           "metric_name": "Building Permits",
           "3month_average": 3085.0,
+          "12month_average": 2952.6666666666665,
           "yoy_change": {
             "current": 2439.0,
             "change": 595.0,
@@ -10303,6 +10698,7 @@
           "series_id": "ATNHPIUS23420Q",
           "metric_name": "Home Price Index",
           "3month_average": 384.0333333333333,
+          "12month_average": 372.8591666666667,
           "yoy_change": {
             "current": 388.56,
             "change": 41.37,
@@ -10320,6 +10716,7 @@
           "series_id": "MEDLISPRIPERSQUFEE23420",
           "metric_name": "Price per Sqft",
           "3month_average": 259.3333333333333,
+          "12month_average": 261.3333333333333,
           "yoy_change": {
             "current": 260.0,
             "change": -3.0,
@@ -10337,6 +10734,7 @@
           "series_id": "MEDLISPRI23420",
           "metric_name": "Median Housing Price",
           "3month_average": 459830.0,
+          "12month_average": 467709.9166666667,
           "yoy_change": {
             "current": 456990.0,
             "change": -18010.0,
@@ -10354,6 +10752,7 @@
           "series_id": "MEDDAYONMAR23420",
           "metric_name": "Median Days on Market",
           "3month_average": 62.666666666666664,
+          "12month_average": 55.666666666666664,
           "yoy_change": {
             "current": 53.0,
             "change": 5.0,
@@ -10406,6 +10805,7 @@
           "series_id": "GRAN326URN",
           "metric_name": "Unemployment Rate",
           "3month_average": null,
+          "12month_average": 4.663636363636364,
           "yoy_change": {
             "current": 4.0,
             "change": -0.3,
@@ -10433,6 +10833,7 @@
           "series_id": "GRAN326NAN",
           "metric_name": "All Employees",
           "3month_average": 611.6,
+          "12month_average": 605.4166666666666,
           "yoy_change": {
             "current": 608.5,
             "change": 3.1,
@@ -10450,6 +10851,7 @@
           "series_id": "SMU26243400500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 32.68,
+          "12month_average": 32.13583333333333,
           "yoy_change": {
             "current": 32.92,
             "change": 1.0,
@@ -10467,6 +10869,7 @@
           "series_id": "SMU26243400500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 34.56666666666666,
+          "12month_average": 34.46666666666667,
           "yoy_change": {
             "current": 34.4,
             "change": 0.3,
@@ -10484,6 +10887,7 @@
           "series_id": "GRAN326PBSV",
           "metric_name": "Office Workers",
           "3month_average": 81.09284729441524,
+          "12month_average": 80.04038221877435,
           "yoy_change": {
             "current": 80.9822,
             "change": 2.28,
@@ -10501,6 +10905,7 @@
           "series_id": "GRAN326BPPRIV",
           "metric_name": "Building Permits",
           "3month_average": 390.0,
+          "12month_average": 362.3333333333333,
           "yoy_change": {
             "current": 413.0,
             "change": 114.0,
@@ -10518,6 +10923,7 @@
           "series_id": "ATNHPIUS24340Q",
           "metric_name": "Home Price Index",
           "3month_average": 376.70666666666665,
+          "12month_average": 353.74833333333333,
           "yoy_change": {
             "current": 378.7,
             "change": 66.42,
@@ -10535,6 +10941,7 @@
           "series_id": "MEDLISPRIPERSQUFEE24340",
           "metric_name": "Price per Sqft",
           "3month_average": 218.0,
+          "12month_average": 211.33333333333334,
           "yoy_change": {
             "current": 221.0,
             "change": 16.0,
@@ -10552,6 +10959,7 @@
           "series_id": "MEDLISPRI24340",
           "metric_name": "Median Housing Price",
           "3month_average": 398633.3333333333,
+          "12month_average": 401479.1666666667,
           "yoy_change": {
             "current": 399900.0,
             "change": 15175.0,
@@ -10569,6 +10977,7 @@
           "series_id": "MEDDAYONMAR24340",
           "metric_name": "Median Days on Market",
           "3month_average": 62.666666666666664,
+          "12month_average": 43.833333333333336,
           "yoy_change": {
             "current": 64.0,
             "change": 8.0,
@@ -10621,6 +11030,7 @@
           "series_id": "HART409URN",
           "metric_name": "Unemployment Rate",
           "3month_average": 2.6,
+          "12month_average": 3.4833333333333334,
           "yoy_change": {
             "current": 2.7,
             "change": -1.3,
@@ -10656,6 +11066,7 @@
           "series_id": "HART409NAN",
           "metric_name": "All Employees",
           "3month_average": 595.6333333333333,
+          "12month_average": 587.125,
           "yoy_change": {
             "current": 596.4,
             "change": 11.0,
@@ -10673,6 +11084,7 @@
           "series_id": "SMU09255400500000003",
           "metric_name": "Hourly Earnings",
           "3month_average": 38.733333333333334,
+          "12month_average": 38.55083333333333,
           "yoy_change": {
             "current": 38.87,
             "change": -0.14,
@@ -10690,6 +11102,7 @@
           "series_id": "SMU09255400500000002",
           "metric_name": "Weekly Hours",
           "3month_average": 33.833333333333336,
+          "12month_average": 33.68333333333334,
           "yoy_change": {
             "current": 33.9,
             "change": -0.4,
@@ -10707,6 +11120,7 @@
           "series_id": "HART409PBSV",
           "metric_name": "Office Workers",
           "3month_average": 74.60070716366133,
+          "12month_average": 75.0087859556669,
           "yoy_change": {
             "current": 74.5346,
             "change": 1.3409,
@@ -10724,6 +11138,7 @@
           "series_id": "BPPRIV009003",
           "metric_name": "Building Permits",
           "3month_average": 1029.3333333333333,
+          "12month_average": 982.0833333333334,
           "yoy_change": {
             "current": 1403.0,
             "change": 593.0,
@@ -10741,6 +11156,7 @@
           "series_id": "ATNHPIUS25540Q",
           "metric_name": "Home Price Index",
           "3month_average": 307.78000000000003,
+          "12month_average": 283.16583333333335,
           "yoy_change": {
             "current": 309.07,
             "change": 68.15,
@@ -10758,6 +11174,7 @@
           "series_id": "MEDLISPRIPERSQUFEE25540",
           "metric_name": "Price per Sqft",
           "3month_average": 247.0,
+          "12month_average": 248.08333333333334,
           "yoy_change": {
             "current": 250.0,
             "change": -3.0,
@@ -10775,6 +11192,7 @@
           "series_id": "MEDLISPRI25540",
           "metric_name": "Median Housing Price",
           "3month_average": 430775.0,
+          "12month_average": 445050.0,
           "yoy_change": {
             "current": 444950.0,
             "change": 11250.0,
@@ -10792,6 +11210,7 @@
           "series_id": "MEDDAYONMAR25540",
           "metric_name": "Median Days on Market",
           "3month_average": 50.333333333333336,
+          "12month_average": 37.666666666666664,
           "yoy_change": {
             "current": 46.0,
             "change": 8.0,
