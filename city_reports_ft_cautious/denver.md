@@ -1,19 +1,11 @@
-# Denver — Economic Overview (Cautious FT Style)
+# Denver-Aurora-Centennial
 
-## Polished, cautious FT-style column
-
-The Denver-Aurora-Centennial metropolitan area's economic data shows a mixed performance across various indicators. The unemployment rate of 3.6% is in line with national averages, suggesting a relatively stable labour market. The labour force participation rate of 70.39% is above the median, indicating a high level of workforce engagement. Year-over-year earnings growth of 6.57% suggests modest income gains, while the cost of living increase of 4.64% may reflect broader inflationary pressures.
-
-Housing market indicators show some softening, with a year-over-year decline in housing prices of 2.07% and a decrease in building permits of 15.96%. The days on market metric of 38.0 days remains relatively low, indicating that properties are selling at a steady pace despite price declines. The overall weighted percentile score of 50 and the grade of "B" suggest that Denver's economy is performing at an average level compared to other metropolitan areas.
-
-The data indicates a balanced economic environment in Denver, with some strengths in labour market participation and earnings growth, and some weakening in the housing sector.
+**Grade: B (Average) | 54.9th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Denver-Aurora-Centennial metro area earns a B grade, reflecting a market with a highly engaged workforce, characterized by a 70.39% labor force participation rate and 6.57% year-over-year wage growth. However, this dynamism is tempered by sluggish nonfarm employment growth of just 0.13% year-over-year, suggesting that while existing workers are seeing gains, the overall job market is not expanding rapidly.
 
-The economic data for the Denver-Aurora-Centennial metropolitan area indicates a mixed but generally stable performance across various indicators. The unemployment rate stands at 3.6%, which is in line with national averages, suggesting that the labor market remains relatively robust. The labor force participation rate of 70.39% places Denver well above the median, indicating a high level of engagement in the workforce. Year-over-year earnings growth of 6.57% suggests modest income gains, while the cost of living increase of 4.64% may reflect broader inflationary pressures affecting the region.
+The market's overall average grade is tempered by notable areas of tension. The cost of living composite score of 1.48, ranking in the 82nd percentile, indicates that Denver is relatively affordable. However, the housing market is showing signs of strain, with building permits plummeting 15.96% year-over-year and homes selling quickly, with days on market down 13.6% to just 38 days. This suggests that the area may be experiencing growing pains, with housing supply struggling to keep pace with demand.
 
-Housing market indicators show some softening, with a year-over-year decline in housing prices of 2.07% and a decrease in building permits of 15.96%. These figures suggest a cooling in the housing sector, which may be a response to broader economic conditions or local market dynamics. The days on market metric of 38.0 days, however, remains relatively low, indicating that properties are still selling at a steady pace despite the price declines. The overall weighted percentile score of 50 and the grade of "B" suggest that Denver's economy is performing at an average level compared to other metropolitan areas.
-
-In summary, the data indicates a balanced but not exceptional economic environment in Denver, with strengths in labor market participation and earnings growth, offset by some weakening in the housing sector.
+Denver offers businesses a highly engaged and relatively affordable workforce, with opportunities for growth driven by strong wage gains. However, the primary risk is that the area's housing market and labor supply may become increasingly constrained, potentially driving up costs and limiting the ability to attract and retain top talent, with a low unemployment rate of 3.60%.

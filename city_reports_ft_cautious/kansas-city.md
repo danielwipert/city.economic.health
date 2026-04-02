@@ -1,19 +1,11 @@
-# Kansas City — Economic Overview (Cautious FT Style)
+# Kansas City
 
-## Polished, cautious FT-style column
-
-Kansas City's economic data shows a mixed picture across various indicators. The unemployment rate stands at 3.5%, placing it in the 68th percentile among metropolitan areas. The labor force participation rate of 67.91% ranks higher, at the 82nd percentile, indicating a relatively high level of engagement in the labor market. Earnings growth year-over-year is reported at 6.8%, scoring in the 84th percentile.
-
-Housing market indicators show a housing price index increase of 17.56% year-over-year, placing Kansas City in the 78th percentile. However, the number of days properties remain on the market has increased to 57 days. Construction activity, as measured by building permits, has grown by 5.41% year-over-year, ranking in the 60th percentile. The cost of living index of 4.64 is near the median, at the 68th percentile.
-
-Kansas City's economic profile suggests a stable and moderately growing economy, with strong labor market conditions and rising property values. However, some indicators point to potential moderations in certain sectors.
+**Grade: A- (Good) | 60.7th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Kansas City earns an overall grade of A-, driven by a strong labor market with a top-tier labor force participation rate of 67.91% and impressive wage growth of 6.80% year-over-year, indicating a city with a skilled and engaged workforce. The cost of living composite score of 1.49, ranking in the 80th percentile, makes Kansas City a relatively affordable place to live, a major draw for businesses looking to attract and retain talent.
 
-The economic data for Kansas City indicates a mixed but generally positive performance across various indicators. The unemployment rate stands at 3.5%, placing it in the 68th percentile among metropolitan areas, which suggests a relatively low level of joblessness. The labor force participation rate of 67.91% ranks higher, at the 82nd percentile, indicating a robust engagement of the working-age population in the labor market. Earnings growth year-over-year is reported at 6.8%, scoring in the 84th percentile, which appears to reflect a strong income environment for workers.
+However, the data reveals some concerns. Nonfarm employment growth is a concern, with a year-over-year change of -0.31%, a slowdown that contrasts with the top-tier wage growth and labor force participation. This suggests that while businesses may be paying their employees well, they may not be hiring as many new workers. The housing market also shows signs of tension, with building permits increasing by 5.41% year-over-year, but days on market decreasing by 24.0%, indicating a potentially tightening market.
 
-Housing market indicators show a housing price index increase of 17.56% year-over-year, placing Kansas City in the 78th percentile, suggesting a significant rise in property values. However, the number of days properties remain on the market has increased to 57 days, which may indicate a slight cooling in the pace of sales. Construction activity, as measured by building permits, has grown by 5.41% year-over-year, ranking in the 60th percentile, which could suggest ongoing investment in residential and commercial development. The cost of living index of 4.64 is near the median, at the 68th percentile, indicating that living costs are moderate relative to other U.S. cities.
-
-Overall, Kansas City's economic profile suggests a stable and moderately growing economy with strong labor market conditions and rising property values, though some indicators point to potential moderations in certain sectors.
+Kansas City offers businesses a talented and productive workforce, as well as a relatively affordable cost of living. However, the primary risk is the slowing employment growth, which may indicate that the city's economy is not creating as many new job opportunities as it could be, potentially limiting the pool of available workers for businesses looking to expand.

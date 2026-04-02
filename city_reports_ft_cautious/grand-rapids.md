@@ -1,19 +1,11 @@
-# Grand Rapids — Economic Overview (Cautious FT Style)
+# Grand Rapids-Wyoming-Kentwood
 
-## Polished, cautious FT-style column
-
-The economic data for the Grand Rapids-Wyoming-Kentwood metropolitan area presents a mixed picture across several key indicators. The unemployment rate of 4.0% places it in the 34th percentile nationally, indicating a relatively stable labour market. The labour force participation rate of 63.89% is slightly above the median, suggesting moderate engagement in the workforce. Year-over-year earnings growth of 3.13% ranks in the 46th percentile, suggesting modest wage increases that may reflect broader economic conditions.
-
-Housing market indicators show notable activity. The year-over-year increase in housing permits is 55.17%, ranking in the 86th percentile, which suggests robust construction activity. The home price index has risen by 21.27% year-over-year, placing it in the 90th percentile, indicative of a strong housing market. However, the days on market metric at 64 days is in the 26th percentile, suggesting that properties are selling at a pace that is not exceptionally fast compared to other markets.
-
-The data suggests that Grand Rapids is experiencing steady economic activity, with the housing sector showing particular strength.
+**Grade: B- (Below Average) | 48.1th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Grand Rapids-Wyoming-Kentwood metro area earns a B- overall grade, driven by a below-average economic performance, with a 4.0% unemployment rate and 63.89% labor force participation rate indicating a stable but unremarkable workforce. The area's cost of living composite score of 5.76, ranking in the bottom tier, makes it one of the most affordable metros in the country, with a 4th percentile score.
 
-The economic data for the Grand Rapids-Wyoming-Kentwood metropolitan area indicates a mixed but generally positive performance across several key indicators. The unemployment rate stands at 4.0%, placing it in the 34th percentile nationally, which suggests a relatively stable labor market. The labor force participation rate of 63.89% is slightly above the median, indicating moderate engagement in the workforce. Year-over-year earnings growth of 3.13% is in the 46th percentile, suggesting modest wage increases that may reflect broader economic conditions.
+The housing supply metrics reveal rapid growth, with building permits up 55.17% year-over-year and days on market increasing by 14.3% to 64 days, indicating a booming construction sector. In contrast, nonfarm employment growth is only 0.51% year-over-year, and the office and professional share of the workforce is a notable strength, with a composite score of 3.06 indicating a high proportion of skilled workers.
 
-Housing market indicators show significant activity. The year-over-year increase in housing permits is 55.17%, ranking in the 86th percentile, which points to robust construction activity. The home price index has risen by 21.27% year-over-year, placing it in the 90th percentile, indicative of a strong housing market. However, the days on market metric at 64 days is in the 26th percentile, suggesting that while properties are selling, the pace is not exceptionally fast compared to other markets.
-
-Overall, the data suggests that Grand Rapids is experiencing a period of steady economic activity with particular strength in the housing sector.
+The Grand Rapids-Wyoming-Kentwood metro area offers businesses an attractive cost of living and a skilled workforce, making it a viable location for companies seeking to reduce costs without sacrificing talent. However, the primary risk is that the area's economic growth may not be sufficient to support long-term business expansion, given its below-average overall grade and relatively slow nonfarm employment growth.

@@ -1,19 +1,11 @@
-# Austin — Economic Overview (Cautious FT Style)
+# Austin-Round Rock-San Marcos
 
-## Polished, cautious FT-style column
-
-The economic data for the Austin-Round Rock-San Marcos metropolitan area presents a mixed picture. The unemployment rate stands at 3.2%, placing the region in the 84th percentile nationally. The labour force participation rate of 73.99% ranks in the 96th percentile, indicating a high level of engagement of the working-age population in the economy. Weekly hours worked average 34.9 hours, placing the region in the 80th percentile.
-
-Earnings growth over the past year has been 3.18%, aligning with the national median as indicated by its 50th percentile score. Inflation, as measured by the cost of living index, is at 4.63%, slightly above the national average. Housing indicators show a decline, with a 29.44% decrease in building permits and a 5.6% drop in home prices over the year. These falls place both indicators in the lower percentiles, suggesting a cooling in the housing market. The days on market for homes have increased to 76 days, further indicating a less dynamic real estate sector.
-
-The data suggests that while the Austin area maintains a strong labour market, there are signs of moderation in earnings growth and a significant slowdown in the housing sector.
+**Grade: A (Very Good) | 63.8th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Austin-Round Rock-San Marcos metro earns an A grade, driven by its strong labor market and attractive cost of living. With an unemployment rate of 3.20% and labor force participation at 73.99%, the market boasts a highly engaged and employed workforce. The cost of living composite score of 1.44, ranking in the 84th percentile, makes Austin an attractive location for businesses and talent alike.
 
-The economic data for the Austin-Round Rock-San Marcos metropolitan area presents a mixed picture. The unemployment rate stands at 3.2%, which is relatively low and places the region in the 84th percentile nationally, suggesting a robust labor market. The labor force participation rate of 73.99% is notably high, ranking in the 96th percentile, indicating a strong engagement of the working-age population in the economy. Weekly hours worked average 34.9 hours, placing the region in the 80th percentile, which may reflect a balance between employment intensity and work-life balance.
+However, signs of tension emerge beneath the surface. The 29.44% year-over-year decline in building permits suggests a tightening housing supply, which could drive up costs. The -0.92% deviation in weekly hours worked versus trend indicates potential labor market softness. The 15.2% year-over-year increase in days on market for homes, with homes now staying on the market for 76 days, may signal shifting market conditions.
 
-Earnings growth over the past year has been moderate at 3.18%, aligning with the national median as indicated by its 50th percentile score. Inflation, as measured by the cost of living index, is at 4.63%, slightly above the national average, which could impact purchasing power. Housing indicators show a decline, with a 29.44% decrease in building permits and a 5.6% drop in home prices over the year, both of which fall in the lower percentiles. This suggests a cooling in the housing market, possibly reflecting broader economic adjustments or shifts in demand. The days on market for homes have increased to 76 days, further indicating a less dynamic real estate sector.
-
-Overall, the data suggests that while the Austin area maintains a strong labor market, there are signs of moderation in earnings growth and a significant slowdown in the housing sector.
+Austin offers a unique combination of a highly engaged workforce and relatively affordable cost of living, making it an attractive location for investment. However, the primary risk lies in the potential tightening of the housing supply, which could drive up costs and impact the market's overall affordability, making it essential for businesses to monitor the local real estate market closely.

@@ -1,19 +1,11 @@
-# Orlando — Economic Overview (Cautious FT Style)
+# Orlando-Kissimmee-Sanford
 
-## Polished, cautious FT-style column
-
-The economic indicators for the Orlando-Kissimmee-Sanford metropolitan area present a mixed picture. The unemployment rate stands at 4.4%, placing it in the 24th percentile among comparable regions. The labour force participation rate is 63.98%, ranking in the 44th percentile. Earnings growth over the past year has been 0.37%, ranking in the 12th percentile.
-
-The housing market shows variation. The housing price index has risen by 10.79% year-over-year, placing Orlando in the 60th percentile. However, the number of building permits has declined by 35.64% year-over-year, ranking in the 6th percentile. The days on market metric is 82 days, in the 4th percentile. The cost of living index is 5.6% above the national average, and the owner-occupied housing rate is 3.0%, both of which are within the middle range of the distribution.
-
-The data suggests that Orlando's economy exhibits a mixed performance, with some resilience in the housing market and signs of moderation in employment and construction.
+**Grade: C (Very Poor) | 33.1th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Orlando-Kissimmee-Sanford metro area earns a C grade, reflecting a lackluster economic performance, with stagnant wage growth at 0.37% year-over-year and a decline in weekly hours worked, down 0.24% from trend. The area's building permits have plummeted by 35.64% year-over-year, indicating a severe slowdown in housing supply growth, which could have long-term implications for the local economy.
 
-The economic indicators for the Orlando-Kissimmee-Sanford metropolitan area present a mixed picture, reflecting both areas of strength and concern. The unemployment rate stands at 4.4%, placing it in the 24th percentile among comparable regions, which suggests a relatively stable labor market. The labor force participation rate of 63.98% is at the 44th percentile, indicating moderate engagement in the workforce. Earnings growth over the past year has been modest, with a 0.37% increase, ranking in the 12th percentile, which may reflect a slower pace of wage gains compared to other areas.
+The office and professional share of the workforce is a notable strength, with a composite score of 3.02, indicating a relatively high proportion of skilled workers. However, this is offset by the fact that wage growth is in the bottom tier, at just 0.37% year-over-year, making it difficult for businesses to attract and retain top talent. The cost of living composite, at 3.06, is near the median, but its 46th percentile ranking means that the area is slightly less affordable than average.
 
-Housing market dynamics show significant variation. The housing price index has risen by 10.79% year-over-year, placing Orlando in the 60th percentile, suggesting continued appreciation in home values. However, the number of building permits has declined sharply by 35.64% year-over-year, ranking in the 6th percentile, which could indicate a slowdown in new construction activity. The days on market metric stands at 82 days, in the 4th percentile, pointing to a less active market for home sales. Additionally, the cost of living index is 5.6% above the national average, and the owner-occupied housing rate is 3.0%, both of which are within the middle range of the distribution.
-
-Overall, the data suggests that while Orlando's economy exhibits some resilience, particularly in the housing market, there are also signs of moderation in key areas such as employment and construction.
+The Orlando-Kissimmee-Sanford metro area offers a relatively affordable and skilled workforce, but its stagnant wage growth and declining housing supply growth pose significant risks. Businesses considering locating in this area should be cautious about the potential long-term implications of these trends, particularly the impact on talent attraction and retention.

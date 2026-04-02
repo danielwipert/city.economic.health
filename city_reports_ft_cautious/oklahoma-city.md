@@ -1,19 +1,11 @@
-# Oklahoma City — Economic Overview (Cautious FT Style)
+# Oklahoma City
 
-## Polished, cautious FT-style column
-
-Oklahoma City's economic indicators show a mixed picture, according to the latest data. The unemployment rate of 3.6% is in line with the national average, placing the city at the 50th percentile. The labour force participation rate of 65.65% is relatively high, ranking in the 70th percentile. Earnings growth year-over-year is 4.7%, slightly above the median. The cost of living index of 4.82 indicates moderate living costs compared to other metropolitan areas.
-
-In the housing market, home prices have risen by 12.7% year-over-year, placing the city in the 66th percentile. However, the number of days properties remain on the market has increased to 58 days, placing it in the lower 34th percentile. Construction activity, as measured by building permits, has grown by 20.14% year-over-year, ranking in the 78th percentile.
-
-The data indicates that Oklahoma City is performing above average in several key economic indicators, with notable strengths in labour market participation and construction activity.
+**Grade: A (Very Good) | 67.6th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Oklahoma City's A grade, ranking in the 67.6th percentile, reflects a very good economic environment, driven by a combination of factors, including a low unemployment rate of 3.60% and strong labor force participation of 65.65%, indicating a talented and available workforce.
 
-Oklahoma City's economic indicators present a mixed but generally positive picture, according to the latest data. The unemployment rate stands at 3.6%, which is in line with the national average, placing the city at the 50th percentile. The labor force participation rate of 65.65% is relatively high, ranking in the 70th percentile, suggesting a robust engagement of the workforce. Earnings growth year-over-year is at 4.7%, slightly above the median, and the cost of living index of 4.82 indicates moderate living costs compared to other metropolitan areas.
+The city's cost of living composite index of 1.32, ranking in the 90th percentile, makes it one of the most affordable cities in the US, a major draw for businesses and employees alike. However, the rapidly expanding housing supply, with building permits growth of 20.14% year-over-year and days on market increasing by 11.5% year-over-year to 58 days, may lead to increased costs and competition for labor in the future.
 
-In the housing market, the year-over-year increase in home prices is 12.7%, a significant rise that places the city in the 66th percentile. However, the number of days properties remain on the market has increased to 58 days, placing it in the lower 34th percentile, which may reflect a cooling in demand or an increase in supply. Construction activity, as measured by building permits, has grown by 20.14% year-over-year, a strong indicator of ongoing development and economic activity, ranking in the 78th percentile.
-
-Overall, the data suggests that Oklahoma City is performing above average in several key economic indicators, with notable strengths in labor market participation and construction activity.
+Oklahoma City offers businesses a unique combination of affordability, productivity, and a talented workforce, making it an attractive location for investment. However, the rapidly expanding housing supply and potential for increased labor competition pose a risk to the city's long-term affordability and competitiveness, and businesses should carefully consider these factors when making location decisions.

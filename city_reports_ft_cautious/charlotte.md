@@ -1,19 +1,11 @@
-# Charlotte — Economic Overview (Cautious FT Style)
+# Charlotte-Concord-Gastonia
 
-## Polished, cautious FT-style column
-
-The economic data for the Charlotte-Concord-Gastonia metropolitan area presents a mixed picture across various indicators. The unemployment rate of 3.6% places it at the 50th percentile nationally, indicating a moderate level of labor market activity. The labor force participation rate of 65.43% ranks higher, at the 66th percentile, suggesting a relatively engaged workforce. However, earnings growth has been negative, declining by 1.52% year-over-year.
-
-Housing and construction metrics also show contrasting trends. The housing price index has increased by 0.64% year-over-year, while the number of building permits has dropped by 39.5% over the same period. This disparity could indicate a slowdown in new residential construction. The average days on market for properties stands at 69 days, which is relatively high. The cost of living index of 1.25 indicates that Charlotte remains more affordable compared to many other major metropolitan areas.
-
-The data suggests that Charlotte's economy exhibits both strengths and weaknesses. While it has a relatively high labor force participation rate and a low cost of living, it faces challenges in earnings growth and housing market dynamics.
+**Grade: B (Average) | 53.8th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Charlotte-Concord-Gastonia metro area earns a B grade, driven by a strong labor market with 2.69% year-over-year nonfarm employment growth, outpacing wage growth at -1.52% year-over-year. This dichotomy suggests a thriving job market, but one where pay is not keeping pace. The area's cost of living composite of 3.62, ranking in the 30th percentile, makes it relatively affordable, a potential draw for businesses and workers.
 
-The economic data for the Charlotte-Concord-Gastonia metropolitan area suggests a mixed performance across various indicators. The unemployment rate stands at 3.6%, placing it at the 50th percentile nationally, indicating a moderate level of labor market activity. The labor force participation rate of 65.43% ranks higher, at the 66th percentile, suggesting a relatively engaged workforce. However, earnings growth has been negative, declining by 1.52% year-over-year, which may reflect broader economic pressures or sector-specific challenges.
+The data reveals notable tensions, with a top-tier office and professional share of 4.16 indicating a highly skilled workforce, but a -39.50% year-over-year decline in building permits growth, contrasting with a 23.2% year-over-year increase in days on market to 69, hinting at a potentially tightening housing market. These conflicting signals suggest that the area's growth may be constrained by its ability to supply new housing and commercial space.
 
-Housing and construction metrics also show contrasting trends. The housing price index has increased by 0.64% year-over-year, while the number of building permits has dropped significantly by 39.5% over the same period. This disparity could indicate a slowdown in new residential construction despite stable home prices. Additionally, the average days on market for properties stands at 69 days, which is relatively high and may suggest a less dynamic real estate market. The cost of living index of 1.25 indicates that Charlotte remains more affordable compared to many other major metropolitan areas, potentially supporting its attractiveness for both residents and businesses.
-
-Overall, the data suggests that while Charlotte's economy exhibits some strengths, particularly in labor force participation and cost of living, it faces challenges in earnings growth and housing market dynamics.
+The Charlotte-Concord-Gastonia metro area offers a unique combination of a strong labor market and relatively low cost of living, making it an attractive location for companies looking to expand. However, the primary risk is the area's inability to supply new housing and commercial space, limiting its long-term growth potential. Businesses must carefully consider their space needs and plan accordingly to mitigate this risk.

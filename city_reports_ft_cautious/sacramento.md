@@ -1,19 +1,11 @@
-# Sacramento — Economic Overview (Cautious FT Style)
+# Sacramento-Roseville-Folsom
 
-## Polished, cautious FT-style column
-
-The economic data for the Sacramento-Roseville-Folsom metropolitan area presents a mixed picture. The unemployment rate is 4.8%, placing the region in the 10th percentile nationally, indicating a relatively tight labor market. The labor force participation rate is 60.12%, ranking in the 8th percentile, suggesting a moderate level of engagement in the workforce. Year-over-year earnings growth is 2.48%, situated in the 38th percentile, indicating a steady but not robust increase in income levels.
-
-The housing market shows a year-over-year increase in home prices of 8.43%, placing the region in the 48th percentile. However, the number of building permits has declined by 15.51% year-over-year, ranking in the 24th percentile. The median days on market for homes is 41 days, well above the national average and in the 78th percentile. The weighted percentile score is 24.2 and the overall grade is "C", suggesting that Sacramento is performing adequately but has areas for improvement.
-
-These data points collectively provide a snapshot of an economy with stable performance across key indicators.
+**Grade: D (Emergency) | 21.1th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Sacramento-Roseville-Folsom metro area earns a dismal overall grade of D, reflecting a struggling labor market and weak economic fundamentals, with a 4.80% unemployment rate and a labor force participation rate of just 60.12%. Nonfarm employment growth has actually declined by 0.27% year-over-year, indicating a contracting job market.
 
-The economic data for the Sacramento-Roseville-Folsom metropolitan area presents a mixed picture, with some indicators showing modest growth while others indicate contraction. The unemployment rate stands at 4.8%, placing the region in the 10th percentile nationally, which suggests a relatively tight labor market. The labor force participation rate of 60.12% is slightly below average, ranking in the 8th percentile, indicating a moderate level of engagement in the workforce. Year-over-year earnings growth is at 2.48%, situated in the 38th percentile, suggesting a steady but not robust increase in income levels.
+The area's cost of living composite is 3.72, ranking at the 24th percentile, making it more affordable than many other metros. However, the office and professional share of the workforce is a mere 0.12, ranking at the very bottom, raising concerns about the availability of skilled labor. Building permits have plummeted by 15.51% year-over-year, suggesting a lack of investment in new construction and development.
 
-Housing market dynamics show a year-over-year increase in home prices of 8.43%, placing the region in the 48th percentile, which may reflect continued demand despite broader economic uncertainties. However, the number of building permits has declined by 15.51% year-over-year, ranking in the 24th percentile, potentially signaling a slowdown in construction activity. The median days on market for homes is 41 days, well above the national average and in the 78th percentile, which could indicate a more balanced market compared to the seller's market conditions observed in previous years. The weighted percentile score of 24.2 and the overall grade of "C" suggest that while Sacramento is performing adequately, there are areas where improvement is needed.
-
-These data points collectively provide a snapshot of an economy with stable but not dynamic performance across key indicators.
+The Sacramento-Roseville-Folsom metro area offers a relatively low cost of living, but its stagnant labor market and lack of skilled workers pose significant risks to businesses considering location here. The area's limited economic growth prospects may hinder a company's ability to attract and retain top talent, ultimately affecting its long-term viability.

@@ -1,19 +1,11 @@
-# Las Vegas — Economic Overview (Cautious FT Style)
+# Las Vegas-Henderson-North Las Vegas
 
-## Polished, cautious FT-style column
-
-The Las Vegas-Henderson-North Las Vegas metropolitan area has a weighted percentile score of 41.3 in a recent economic assessment, placing it in the "Below Average" category. The unemployment rate is 5.2%, which is lower than historical averages but ranks the region in the 2nd percentile nationally, indicating a tight labour market. The labour force participation rate of 65.02% is close to the national median.
-
-Earnings growth over the past year has been 6.71%, placing the region in the 82nd percentile. However, construction permits have fallen by 9.83% year-over-year, ranking the region in the 42nd percentile. This decline may be related to a slowdown in the housing market, which is also indicated by a 0.88% decrease in home prices and a 2.22% drop in single-family home sales, both below national averages. The average days on market for properties is 53 days, which is within a typical range.
-
-The data suggests that while Las Vegas has experienced strong earnings growth and a tight labour market, there are signs of moderation in the housing sector.
+**Grade: C+ (Poor) | 40.6th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+The Las Vegas-Henderson-North Las Vegas metro area earns a C+ overall grade, with a struggling job market and strong wage growth defining its economic character, marked by a mismatch between labor supply and demand. A 5.20% unemployment rate and -0.76% year-over-year nonfarm employment growth suggest significant challenges, while hourly wages have increased by 6.71% year-over-year, indicating that employers are competing for talent.
 
-The Las Vegas-Henderson-North Las Vegas metropolitan area ranks 29th in a recent economic assessment, with a weighted percentile score of 41.3, placing it in the "Below Average" category. The unemployment rate stands at 5.2%, which is relatively low compared to historical averages but places the region in the 2nd percentile nationally, suggesting a tight labor market. The labor force participation rate of 65.02% is near the national median, indicating a moderate level of engagement in the workforce.
+Despite these struggles, the top-tier wage growth of 6.71% year-over-year is a notable bright spot. However, the bottom-tier nonfarm employment growth of -0.76% year-over-year and a 12.8% year-over-year increase in days on market for housing, now at 53 days, are concerns. The slowing housing market and down 9.83% year-over-year building permits also suggest a city in transition.
 
-Earnings growth over the past year has been robust, increasing by 6.71%, placing the region in the 82nd percentile, a strong indicator of wage health. However, this contrasts with a decline in construction permits, which have fallen by 9.83% year-over-year, placing the region in the 42nd percentile. This may reflect a slowdown in the housing market, further supported by a 0.88% decrease in home prices and a 2.22% drop in single-family home sales, both below national averages. The average days on market for properties stands at 53 days, which is within a typical range, suggesting a balanced market.
-
-In summary, while Las Vegas shows strong earnings growth and a tight labor market, there are signs of moderation in the housing sector.
+The Las Vegas-Henderson-North Las Vegas metro area offers businesses a unique opportunity to attract talent with competitive wages, but the primary risk is the struggling job market and slowing housing sector. With a cost of living composite of 2.19, placing it in the 60th percentile, the city is less affordable than many of its peers, which may impact businesses' ability to recruit and retain employees.

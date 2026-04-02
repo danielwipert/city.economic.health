@@ -1,19 +1,11 @@
-# San Jose — Economic Overview (Cautious FT Style)
+# San Jose-Sunnyvale-Santa Clara
 
-## Polished, cautious FT-style column
-
-The economic data for the San Jose-Sunnyvale-Santa Clara metropolitan area presents a mixed picture. The unemployment rate stands at 4.0%, placing it in the 34th percentile among comparable regions. Labour force participation is at 64.34%, aligning with the national average as indicated by its 50th percentile ranking.
-
-Earnings growth over the past year has been modest, increasing by 0.59%, which places the region in the 16th percentile. Housing market indicators show significant activity, with housing prices rising by 9.98% year-over-year, placing the region in the 54th percentile. Building permits have surged, up by 195.09% year-over-year, ranking in the 98th percentile.
-
-However, the supply of for-sale homes has decreased by 2.36% year-over-year, placing the region in the 20th percentile. This has contributed to competitive market conditions, as evidenced by the median days on market being 23 days, in the 98th percentile. The data suggests a dynamic but uneven economic landscape in San Jose, with strong housing market activity contrasting with moderate labour market performance.
+**Grade: C (Very Poor) | 33.7th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+The San Jose-Sunnyvale-Santa Clara metro area earns a C grade, with a struggling economy and stagnant labor force participation, reflected in a 4.00% unemployment rate and 0.16% year-over-year nonfarm employment growth rate. The job market lacks momentum, with wage growth at just 0.59% year-over-year.
 
-The economic data for the San Jose-Sunnyvale-Santa Clara metropolitan area presents a mixed picture, with some indicators showing strength while others suggest areas of concern. The unemployment rate stands at 4.0%, placing it in the 34th percentile among comparable regions, which may reflect a relatively stable labor market. Labor force participation is at 64.34%, aligning with the national average as indicated by its 50th percentile ranking. Earnings growth over the past year has been modest, increasing by 0.59%, which places the region in the 16th percentile, suggesting slower wage growth compared to other areas.
+The city's high cost of living composite score of 6.96, placing it in the bottom tier, is a significant drawback. However, a 195.09% year-over-year increase in building permits suggests a potential shift towards more affordable housing options, a leading indicator worth watching. The 4.5% year-over-year increase in days on market also indicates a slowing housing market.
 
-Housing market indicators show significant activity, with housing prices rising by 9.98% year-over-year, placing the region in the 54th percentile. This growth is accompanied by a surge in building permits, up by 195.09% year-over-year, which ranks in the 98th percentile, indicating robust construction activity. However, the supply of for-sale homes has decreased by 2.36% year-over-year, placing the region in the 20th percentile, which may contribute to competitive market conditions, as evidenced by the median days on market being 23 days, in the 98th percentile.
-
-Overall, the data suggests a dynamic but uneven economic landscape in San Jose, with strong housing market activity contrasting with moderate labor market performance.
+The metro area offers a highly educated and skilled workforce, but the high cost of living is a primary risk, potentially deterring talent and driving up operational costs. Companies considering this location must weigh the benefits of a skilled workforce against the significant expense of doing business in one of the most expensive cities in the US.

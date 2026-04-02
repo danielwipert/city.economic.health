@@ -1,25 +1,11 @@
-# Providence — Economic Overview (Cautious FT Style)
+# Providence-Warwick
 
-## Polished, cautious FT-style column
-
-The economic data for the Providence-Warwick metropolitan area presents a mixed picture. The unemployment rate stands at 4.3%, placing it in the 28th percentile nationally. This suggests that the local job market is performing modestly compared to other regions.
-
-The labor force participation rate of 50.77% is low, ranking at the bottom of the percentile scale. This indicates that a significant portion of the working-age population is not actively engaged in the labor market.
-
-Earnings growth over the past year has been moderate, at 3.63%, placing the region in the 54th percentile. This suggests that income levels are rising, but at a pace in line with broader national trends.
-
-Housing market indicators are robust, with a 24.22% year-over-year increase in home prices and a 144.37% rise in building permits, both of which are in the 96th percentile. These figures indicate a strong demand for housing and ongoing construction activity.
-
-However, the cost of living index is 1.39, suggesting that living costs are relatively high. The weekly hours worked average 33.1 hours, which is below average. These factors may reflect challenges in balancing affordability and productivity.
-
-The data suggests that Providence-Warwick's economy is experiencing average performance, with notable strengths in the housing sector.
+**Grade: C+ (Poor) | 41.7th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+The Providence-Warwick metro area earns a C+ overall grade, with a labor market that struggles with a low labor force participation rate of 50.77%, ranking at the bottom tier. This is offset by a nonfarm employment growth rate of +0.60% year-over-year, above average, and a relatively low unemployment rate of 4.30%. However, the overall labor market story is one of untapped potential, with a large portion of the workforce not actively participating.
 
-The economic data for the Providence-Warwick metropolitan area reveals a mixed picture, with some indicators showing relative strength while others lag behind national trends. The unemployment rate stands at 4.3%, placing it in the 28th percentile nationally, which suggests that the local job market is performing modestly compared to other regions. The labor force participation rate of 50.77% is notably low, ranking at the bottom of the percentile scale, indicating a significant portion of the working-age population is not actively engaged in the labor market.
+The city's housing supply tells a more optimistic story, with building permits surging +144.37% year-over-year and days on market increasing by +25.6% to 49 days, both top-tier performances. This suggests a rapidly changing housing landscape, potentially driven by new development and investment. The cost of living composite score of 7.01, ranking at the bottom tier, indicates that the area is one of the more expensive places to live.
 
-Earnings growth over the past year has been moderate, with a 3.63% increase, placing the region in the 54th percentile. This suggests that while income levels are rising, the pace is in line with broader national trends. Housing market indicators are particularly robust, with a 24.22% year-over-year increase in home prices and a 144.37% rise in building permits, both of which are in the 96th percentile. These figures indicate a strong demand for housing and ongoing construction activity. However, the cost of living index at 1.39 and the weekly hours worked at 33.1 hours suggest that living costs are relatively high, and work hours are below average, which may reflect challenges in balancing affordability and productivity.
-
-Overall, the data indicates that Providence-Warwick's economy is experiencing average performance with notable strengths in the housing sector.
+The Providence-Warwick metro area offers businesses a unique combination of a relatively low unemployment rate and rapid housing development, but the primary risk is the high cost of living, which may deter workers and limit the area's long-term growth potential.

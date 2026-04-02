@@ -1,19 +1,11 @@
-# Seattle — Economic Overview (Cautious FT Style)
+# Seattle-Tacoma-Bellevue
 
-## Polished, cautious FT-style column
-
-The Seattle-Tacoma-Bellevue metropolitan area's economic data presents a mixed picture, with some indicators showing strength and others suggesting areas of concern. The unemployment rate stands at 5.0%, placing it in the 6th percentile nationally, indicating a relatively higher unemployment level compared to other regions. The labour force participation rate is 68.24%, ranking in the 84th percentile, suggesting a high level of engagement in the workforce. Earnings growth year-over-year is 7.63%, placing it in the 92nd percentile, indicating significant wage increases.
-
-Housing and construction indicators show varied trends. Building permits have decreased by 0.7% year-over-year, placing the region in the 52nd percentile, suggesting a moderate slowdown in new construction activity. The housing price index has declined by 0.13% year-over-year, ranking in the 16th percentile, which may indicate cooling in the housing market. The days on market for properties have increased to 36 days, placing it in the 94th percentile, which could suggest a less competitive selling environment or a shift in buyer preferences.
-
-The data suggests a complex economic landscape in Seattle, with strong labour market indicators and wage growth contrasting with moderating housing and construction activity.
+**Grade: B- (Below Average) | 48.3th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Seattle-Tacoma-Bellevue metro area earns a below-average overall grade, with a 5.00% unemployment rate, in the bottom tier, and a labor force participation rate of 68.24%, indicating a challenging job market and a highly skilled and highly compensated workforce. The city's economic character is defined by a high-cost, high-reward environment, where businesses can tap into a talented pool of workers, but may struggle to find available labor.
 
-The economic data for the Seattle-Tacoma-Bellevue metropolitan area presents a mixed picture, with some indicators showing strength while others suggest areas of concern. The unemployment rate stands at 5.0%, placing it in the 6th percentile nationally, which indicates a relatively higher unemployment level compared to other regions. However, the labor force participation rate is robust at 68.24%, ranking in the 84th percentile, suggesting a high level of engagement in the workforce. Earnings growth year-over-year is strong at 7.63%, placing it in the 92nd percentile, indicating significant wage increases that may reflect a tight labor market or other economic factors.
+The top-tier wage growth and high labor force participation rate are at odds with the bottom-tier unemployment rate and below-average nonfarm employment growth, suggesting that while workers are highly skilled and well-compensated, the job market itself is not particularly dynamic. The office and professional share of the workforce, at 3.29, is above average, indicating a strong presence of white-collar industries. The nonfarm employment growth rate, at -0.15% year-over-year, may signal a shift in the city's economic trajectory.
 
-Housing and construction indicators show more varied trends. Building permits have decreased by 0.7% year-over-year, placing the region in the 52nd percentile, which suggests a moderate slowdown in new construction activity. The housing price index has declined slightly by 0.13% year-over-year, ranking in the 16th percentile, which may indicate cooling in the housing market. However, the days on market for properties have increased to 36 days, placing it in the 94th percentile, which could suggest a less competitive selling environment or a shift in buyer preferences.
-
-Overall, the data suggests a complex economic landscape in Seattle, with strong labor market indicators and wage growth contrasting with moderating housing and construction activity.
+The primary risk for businesses is a tight labor market, with a high unemployment rate and limited job growth, which may constrain a company's ability to expand or hire new talent. However, the city offers access to a highly skilled and well-compensated workforce, with wage growth outpacing many other cities.

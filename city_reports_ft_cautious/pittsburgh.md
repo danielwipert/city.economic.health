@@ -1,21 +1,11 @@
-# Pittsburgh — Economic Overview (Cautious FT Style)
+# Pittsburgh
 
-## Polished, cautious FT-style column
-
-Pittsburgh's economic indicators present a mixed picture, with both areas of strength and concern evident. The city's unemployment rate of 3.6% is in line with the national average, placing it in the 50th percentile among metropolitan areas. Labour force participation, however, is lower at 60.33%, ranking in the 10th percentile, which may be related to broader demographic or regional labour market factors.
-
-Earnings growth year-over-year is robust at 8.65%, placing Pittsburgh in the 96th percentile, indicating strong wage increases that could support consumer spending and economic activity. This growth is a notable positive trend.
-
-The housing market trend is complex. The housing price index has increased by 17.94% year-over-year, placing the city in the 80th percentile, suggesting a strong demand for housing. However, building permits have declined by 10.55% over the same period, ranking in the 36th percentile, which may indicate a slowdown in new construction or a shift in development priorities. The days on market metric, at 90 days, is higher than the median, placing the city in the lowest percentile, which could suggest challenges in matching supply with demand in the housing market.
-
-Overall, Pittsburgh's economic performance appears to be average, with strengths in wage growth and housing prices offset by concerns in labour force participation and housing supply dynamics.
+**Grade: B+ (Above Average) | 58.4th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Pittsburgh's B+ overall grade reflects a market with strong momentum, driven by top-tier wage growth of 8.65% year-over-year and nonfarm employment growth of 1.07% year-over-year, making it an attractive location for businesses looking to tap into a talented and growing workforce.
 
-Pittsburgh's economic indicators present a mixed picture, suggesting both areas of strength and concern. The unemployment rate stands at 3.6%, which aligns with the national average, placing the city in the 50th percentile among metropolitan areas. Labor force participation is notably lower, at 60.33%, ranking in the 10th percentile, which may reflect broader demographic or regional labor market dynamics. On a more positive note, earnings growth year-over-year is robust at 8.65%, placing Pittsburgh in the 96th percentile, indicating strong wage increases that could support consumer spending and economic activity.
+The city's office and professional workforce is a notable strength, with a composite score of 3.39, indicating a high concentration of skilled workers. However, the labor force participation rate is a concern, sitting at just 60.33%, which is in the bottom tier, suggesting that while the city is creating jobs and driving wage growth, there may be challenges in finding workers to fill those positions.
 
-Housing market indicators show a complex trend. The housing price index has increased by 17.94% year-over-year, placing the city in the 80th percentile, suggesting a strong demand for housing. However, building permits have declined by 10.55% over the same period, ranking in the 36th percentile, which may indicate a slowdown in new construction or a shift in development priorities. The days on market metric, at 90 days, is significantly higher than the median, placing the city in the lowest percentile, which could suggest challenges in matching supply with demand in the housing market.
-
-Overall, Pittsburgh's economic performance appears to be average, with strengths in wage growth and housing prices offset by concerns in labor force participation and housing supply dynamics.
+Pittsburgh's housing market is also showing signs of slowing, with building permits down 10.55% year-over-year and days on market increasing by 4.7% to 90 days, indicating a potential shift in the market. While the city offers businesses a talented and growing workforce, the primary risk is the potential labor supply constraints, which could limit the city's ability to sustain its current growth trajectory, and businesses should carefully consider this factor when making a location decision.

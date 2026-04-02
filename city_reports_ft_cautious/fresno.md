@@ -1,19 +1,11 @@
-# Fresno — Economic Overview (Cautious FT Style)
+# Fresno
 
-## Polished, cautious FT-style column
-
-Fresno's economic indicators present a mixed picture, with some areas showing relative strength while others lag behind national trends. The unemployment rate stands at 8.2%, placing it at the lower end of the percentile rankings. The labour force participation rate of 60.33% is slightly above the median.
-
-Earnings growth over the past year has been 7.6%, ranking in the 90th percentile. Housing market dynamics are also noteworthy, with a year-over-year increase in home prices of 11.92%, placing it in the 64th percentile. The number of days properties remain on the market (53 days) is near the median.
-
-Construction activity, as measured by building permits, has seen a substantial year-over-year increase of 61.97%, ranking in the 92nd percentile. However, the overall economic performance, as reflected in the weighted percentile score of 41.1, suggests that Fresno is performing below average compared to other metropolitan areas. This nuanced performance highlights both areas of strength and potential vulnerabilities in the local economy.
+**Grade: C (Very Poor) | 36.3th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Fresno's C grade, ranking it in the 36.3rd percentile among US metros, reflects a labor market struggling to gain traction, with an 8.20% unemployment rate and 60.33% labor force participation rate, indicating a significant portion of the workforce is either out of a job or not actively seeking employment. However, hourly wages have increased by 7.60% year-over-year, suggesting that those who are employed are seeing meaningful income gains.
 
-Fresno's economic indicators present a mixed picture, with some areas showing relative strength while others lag behind national trends. The unemployment rate stands at 8.2%, placing it at the lower end of the percentile rankings, which may reflect challenges in the local job market. However, the labor force participation rate of 60.33% is slightly above the median, suggesting that a moderate proportion of the working-age population remains engaged in the labor market.
+Fresno is experiencing a housing boom, with building permits surging 61.97% year-over-year, which could be a leading indicator that the city is poised for growth. However, the fact that office and professional workers make up only 0.80 of the workforce raises questions about the city's ability to support high-skilled industries. The cost of living, ranking in the 64th percentile, may impact the city's attractiveness to businesses and talent.
 
-Earnings growth over the past year has been robust, increasing by 7.6%, which ranks in the 90th percentile, indicating that those employed are experiencing significant wage gains. Housing market dynamics are also noteworthy, with a year-over-year increase in home prices of 11.92%, placing it in the 64th percentile. This suggests a relatively strong housing market, although the number of days properties remain on the market (53 days) is near the median, indicating a balanced market without signs of overheating or stagnation.
-
-Construction activity, as measured by building permits, has seen a substantial year-over-year increase of 61.97%, ranking in the 92nd percentile, which could indicate ongoing investment in residential and commercial development. However, the overall economic performance, as reflected in the weighted percentile score of 41.1, suggests that Fresno is performing below average compared to other metropolitan areas. This nuanced performance highlights both areas of strength and potential vulnerabilities in the local economy.
+Fresno offers businesses a unique combination of affordable labor and rapid housing development, but the primary risk is the city's struggling labor market, which may limit the availability of skilled workers. With wage growth outpacing many other metros, businesses that can navigate the city's labor challenges may find opportunities for growth and investment in Fresno.

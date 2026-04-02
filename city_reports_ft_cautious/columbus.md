@@ -1,19 +1,11 @@
-# Columbus — Economic Overview (Cautious FT Style)
+# Columbus
 
-## Polished, cautious FT-style column
-
-Columbus's economic data reveals a mixed picture across various indicators. The unemployment rate stands at 3.6%, placing it at the 50th percentile nationally, indicating a moderate level of labor market tightness. The labor force participation rate of 65.61% ranks higher, at the 68th percentile, suggesting a relatively engaged workforce. Year-over-year earnings growth is 0.86%, placing it in the 20th percentile, indicating slower wage growth compared to other metropolitan areas.
-
-Housing market indicators show a more varied picture. The year-over-year increase in housing prices is 19.38%, ranking in the 86th percentile, indicating a strong appreciation in property values. The year-over-year change in permits for new residential construction is 8.67%, in the 62nd percentile, suggesting a steady pace of new housing development. The median days on market for homes is 55 days, in the 44th percentile, which could indicate a balanced market.
-
-Overall, Columbus's economic environment appears stable, with some areas of strength, including housing price appreciation and labor force participation.
+**Grade: A- (Good) | 62.4th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Columbus earns an A- grade, driven by a strong labor market with 1.17% year-over-year nonfarm employment growth, outpacing many peers. The city's 65.61% labor force participation rate indicates a talented and engaged workforce. The office and professional share of the workforce is a notable 3.78, reflecting a high degree of specialization and expertise.
 
-The economic data for Columbus suggests a mixed but generally stable performance across various indicators. The unemployment rate stands at 3.6%, placing it at the 50th percentile nationally, indicating a moderate level of labor market tightness. The labor force participation rate of 65.61% ranks higher, at the 68th percentile, which may reflect a relatively engaged workforce. Year-over-year earnings growth is modest at 0.86%, placing it in the 20th percentile, suggesting slower wage growth compared to other metropolitan areas.
+However, beneath this strong surface, wage growth lags at 0.86% year-over-year, behind the national average. This may impact the city's ability to attract and retain top talent. On the other hand, building permits are up 8.67% year-over-year, suggesting a strong pipeline of new development.
 
-Housing market indicators show a more dynamic picture. The year-over-year increase in housing prices is robust at 19.38%, ranking in the 86th percentile, which indicates a strong appreciation in property values. However, the year-over-year change in permits for new residential construction is more moderate at 8.67%, in the 62nd percentile, suggesting a steady but not explosive pace of new housing development. The median days on market for homes is 55 days, in the 44th percentile, which could indicate a balanced market with neither a significant buyer nor seller advantage.
-
-Overall, Columbus appears to maintain a stable economic environment with some areas of strength, particularly in housing price appreciation and labor force participation.
+Columbus offers a unique combination of a skilled workforce, strong labor market growth, and high specialization, making it an attractive location for companies seeking to expand or relocate. However, the slow pace of wage growth poses a risk, potentially limiting the city's long-term growth prospects.

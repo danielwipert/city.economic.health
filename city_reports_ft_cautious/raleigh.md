@@ -1,19 +1,11 @@
-# Raleigh — Economic Overview (Cautious FT Style)
+# Raleigh-Cary
 
-## Polished, cautious FT-style column
-
-Raleigh-Cary's economic data shows a mixed picture across various indicators. The unemployment rate of 3.0% places the area in the 90th percentile, indicating a relatively low joblessness rate. The labour force participation rate of 67.67% ranks in the 80th percentile, suggesting a significant portion of the working-age population is engaged in the labour market. However, year-over-year earnings growth of 4.51% is in the 58th percentile, indicating some wage pressure but not a strong increase compared to other regions.
-
-In the housing sector, the year-over-year change in housing prices is 10.4%, in the 58th percentile, reflecting steady appreciation. The number of building permits issued has grown by 38.82% year-over-year, a figure in the 82nd percentile, suggesting ongoing construction activity. Conversely, the year-over-year change in single-family home sales is negative at -0.91%, in the 48th percentile, which may indicate a cooling in demand or supply constraints. The average days on market for homes is 60 days, in the 28th percentile, indicating a relatively balanced market.
-
-The data suggests that Raleigh-Cary's economy is performing above average, with strengths in employment and construction activity, but with more moderate growth in wages and housing sales.
+**Grade: A+ (Excellent) | 78.9th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Raleigh-Cary metro area earns an A+ grade, driven by its exceptional economic character, with a remarkably low 3.0% unemployment rate and 1.25% year-over-year nonfarm employment growth. This strong and expanding labor force is further underscored by a high office and professional share of 4.39, indicating a highly skilled and educated workforce.
 
-The economic data for the Raleigh-Cary metropolitan area suggests a mixed but generally positive performance across various indicators. The unemployment rate stands at 3.0%, placing it in the 90th percentile, which indicates a robust labor market with low joblessness. The labor force participation rate of 67.67% is also relatively high, ranking in the 80th percentile, suggesting that a significant portion of the working-age population is engaged in the labor market. However, the year-over-year earnings growth of 4.51% is more moderate, sitting in the 58th percentile, indicating some wage pressure but not a particularly strong increase compared to other regions.
+While the city's economy appears robust, there are underlying concerns. The cost of living composite score of 78th percentile reveals that Raleigh-Cary is less affordable than many of its peers. This tension between a strong labor market and rising costs is worth monitoring, particularly as wage growth of 4.51% year-over-year is not exceptionally high. The 38.82% year-over-year increase in building permits may signal an influx of new residents and businesses, potentially exacerbating affordability concerns.
 
-In the housing sector, the year-over-year change in housing prices is 10.4%, which is in the 58th percentile, reflecting steady appreciation but not an exceptionally rapid increase. The number of building permits issued has grown by 38.82% year-over-year, a figure in the 82nd percentile, suggesting ongoing construction activity and potential expansion in the housing market. Conversely, the year-over-year change in single-family home sales is negative at -0.91%, placing it in the 48th percentile, which may reflect a cooling in demand or supply constraints. The average days on market for homes is 60 days, in the 28th percentile, indicating a relatively balanced market where neither buyers nor sellers have a significant advantage.
-
-Overall, the data suggests that Raleigh-Cary's economy is performing above average, with strengths in employment and construction activity, but with more moderate growth in wages and housing sales.
+The Raleigh-Cary metro area offers businesses a highly skilled and growing workforce, making it an attractive location. However, the primary risk is that the city's rising cost of living may erode its competitive edge, making it essential for decision-makers to carefully weigh the benefits of this market against its growing affordability challenges.

@@ -1,19 +1,11 @@
-# Jacksonville — Economic Overview (Cautious FT Style)
+# Jacksonville
 
-## Polished, cautious FT-style column
-
-Jacksonville's economic indicators present a mixed picture, with some areas showing relative strength while others trail national trends. The unemployment rate stands at 4.6%, placing it in the 16th percentile nationally. The labour force participation rate of 60.38% also ranks in the 16th percentile. Earnings growth year-over-year is 5.0%, a figure that places Jacksonville in the 70th percentile. However, the cost of living index at 4.66, in the 66th percentile, may indicate higher living costs.
-
-In the housing market, the year-over-year change in home prices is 7.27%, placing Jacksonville in the 46th percentile. Conversely, the year-over-year change in permits for new residential construction has declined by 32.7%, ranking in the 8th percentile. The days on market for homes is 72 days, in the 16th percentile. The year-over-year change in the price per square foot of -2.58%, in the 14th percentile, suggests a softening in the housing market.
-
-Overall, Jacksonville's economic performance, as reflected in these indicators, appears to be characterised by moderate wage growth and a slowing housing market, with labour market metrics lagging behind national averages.
+**Grade: C+ (Poor) | 43.1th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Jacksonville's C+ grade is driven by its struggling labor market and housing supply, with a 4.60% unemployment rate and 60.38% labor force participation rate, both ranking in the bottom tier, making it challenging for businesses to attract and retain talent. The city's 32.70% year-over-year decline in building permits further exacerbates labor shortages.
 
-Jacksonville's economic indicators present a mixed picture, with some areas showing relative strength while others lag behind national trends. The unemployment rate stands at 4.6%, placing it in the 16th percentile nationally, which suggests a labor market that is performing modestly compared to other metropolitan areas. The labor force participation rate of 60.38% also ranks in the 16th percentile, indicating a similar level of engagement in the workforce. Earnings growth year-over-year is at 5.0%, a figure that places Jacksonville in the 70th percentile, suggesting a relatively robust increase in wages. However, the cost of living index at 4.66, in the 66th percentile, may reflect higher living costs, which could offset some of the gains in earnings.
+Despite these challenges, Jacksonville's 5.00% year-over-year increase in hourly wages and 0.68% growth in nonfarm employment suggest a degree of economic vitality. The city's cost of living composite ranking in the 92nd percentile indicates that Jacksonville is one of the more affordable cities, which could be a draw for businesses and talent alike.
 
-In the housing market, the year-over-year change in home prices is 7.27%, placing Jacksonville in the 46th percentile, which indicates moderate appreciation. Conversely, the year-over-year change in permits for new residential construction has declined by 32.7%, ranking in the 8th percentile, a significant drop that may reflect a slowdown in new housing development. The days on market for homes is 72 days, in the 16th percentile, suggesting a relatively slow pace of sales. The year-over-year change in the price per square foot of -2.58%, in the 14th percentile, further indicates a softening in the housing market.
-
-Overall, Jacksonville's economic performance, as reflected in these indicators, appears to be characterized by moderate wage growth and a slowing housing market, with labor market metrics lagging behind national averages.
+Ultimately, Jacksonville offers businesses an affordable cost of living and a growing economy, but the primary risk lies in its struggling labor market and housing supply. As a business location, Jacksonville's appeal is tempered by the need to navigate these challenges, making it a higher-risk, higher-reward proposition that demands careful consideration.

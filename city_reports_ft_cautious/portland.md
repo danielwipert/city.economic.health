@@ -1,19 +1,11 @@
-# Portland — Economic Overview (Cautious FT Style)
+# Portland-Vancouver-Hillsboro
 
-## Polished, cautious FT-style column
-
-The Portland-Vancouver-Hillsboro metropolitan area's economic data presents a mixed picture. The unemployment rate of 4.9% ranks in the 8th percentile among similar regions, indicating a relatively tight labor market. The labor force participation rate of 66.17% is more favourable, ranking in the 72nd percentile, suggesting a higher proportion of the working-age population is engaged in the labor force. Year-over-year earnings growth of 4.78% is moderate, positioned in the 64th percentile, indicating modest income gains for workers.
-
-In contrast, housing and construction metrics show a different trend. Building permits have declined by 18.14% year-over-year, placing this indicator in the 20th percentile. The housing price index has decreased by 1.1% over the same period, also in the lower percentiles. The days on market for properties have increased to 68 days, which is in the 22nd percentile. These trends in the housing sector differ from the more stable employment and earnings figures.
-
-The weighted percentile score of 34.1 and the grade of C+ suggest that Portland's economy exhibits some resilience in labour market conditions, while facing challenges in the housing and construction sectors.
+**Grade: C- (Critical) | 30.6th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Portland-Vancouver-Hillsboro metro area earns a C- overall grade, reflecting a struggling labor market and stagnant economic growth, with a 4.90% unemployment rate and -0.69% year-over-year nonfarm employment growth. The -0.58% deviation from the trend in weekly hours worked exacerbates the economic slowdown, as even employed individuals are not seeing a full workload.
 
-The economic data for the Portland-Vancouver-Hillsboro metropolitan area reveals a mixed picture, with some indicators showing relative strength while others indicate areas of concern. The unemployment rate stands at 4.9%, placing it in the 8th percentile among similar regions, which suggests a relatively tight labor market. The labor force participation rate of 66.17% is more favorable, ranking in the 72nd percentile, indicating a higher proportion of the working-age population is engaged in the labor force. Year-over-year earnings growth of 4.78% is moderate, positioned in the 64th percentile, suggesting modest income gains for workers.
+Despite these challenges, hourly wage growth is a strong 4.78% year-over-year, indicating that businesses are willing to pay more for the labor they can find. However, the office and professional share of the workforce is a bottom-tier 1.24, suggesting a lack of high-skilled jobs to drive innovation and growth. The cost of living composite, at 2.18, is in the 62nd percentile, making it more affordable than many other metros.
 
-Housing and construction metrics present a different story. Building permits have declined by 18.14% year-over-year, placing this indicator in the 20th percentile, which may reflect a slowdown in residential construction activity. The housing price index has decreased by 1.1% over the same period, also in the lower percentiles, indicating a slight cooling in the housing market. Additionally, the days on market for properties have increased to 68 days, which is in the 22nd percentile, suggesting a less brisk pace of home sales. These trends in the housing sector contrast with the more stable employment and earnings figures.
-
-Overall, the weighted percentile score of 34.1 and the grade of C+ suggest that while Portland's economy exhibits some resilience in labor market conditions, it faces challenges in the housing and construction sectors.
+The bottom line is that Portland-Vancouver-Hillsboro offers a relatively affordable cost of living, but its sluggish labor market and stagnant economic growth pose significant risks for businesses looking to expand or relocate. The primary caveat for decision-makers is that the metro's economic fundamentals are not currently supportive of rapid growth or expansion, making it a challenging location for businesses seeking to thrive in a dynamic environment.

@@ -1,19 +1,11 @@
-# Birmingham — Economic Overview (Cautious FT Style)
+# Birmingham
 
-## Polished, cautious FT-style column
-
-Birmingham's economic indicators present a mixed picture. The city's unemployment rate of 2.2% places it in the 98th percentile, suggesting a relatively strong labor market in terms of job availability. However, the labor force participation rate of 60.56% is in the 20th percentile, indicating that a portion of the working-age population remains outside the labor force.
-
-Earnings growth has been modest, with a year-over-year decline of 0.12%, ranking in the 8th percentile. This may reflect broader economic challenges or sector-specific issues. In the housing market, Birmingham has seen a year-over-year increase in home prices of 14.39%, placing it in the 70th percentile. However, the number of days properties remain on the market has increased to 70 days, in the 18th percentile.
-
-Construction activity, as measured by building permits, has shown a significant year-over-year increase of 55.25%, ranking in the 88th percentile. This may reflect ongoing development and investment in the region. Overall, Birmingham's economic performance appears to be average, with some indicators showing relative strength while others lag behind national trends.
+**Grade: B+ (Above Average) | 58.5th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Birmingham's B+ overall grade reflects a city with a strong labor market, driven by a remarkably low unemployment rate of 2.20% and a surge in nonfarm employment growth of 0.61% year-over-year. The city's top-tier performance in weekly hours worked, with a 1.73% increase versus its own trend, further underscores its economic vitality. However, this growth is not without its challenges, as wage growth has been stagnant, with a -0.12% year-over-year decline, suggesting that the city's low unemployment rate may be putting upward pressure on labor costs.
 
-Birmingham's economic indicators present a mixed picture, with some areas showing relative strength while others lag behind national trends. The city's unemployment rate stands at 2.2%, placing it in the 98th percentile, which suggests a robust labor market in terms of job availability. However, the labor force participation rate of 60.56% is in the 20th percentile, indicating that a significant portion of the working-age population remains outside the labor force. Earnings growth has been modest, with a year-over-year decline of 0.12%, ranking in the 8th percentile, which may reflect broader economic challenges or sector-specific issues.
+The city's low labor force participation rate of 60.56% and below-average office and professional share of 1.47 suggest that the city's workforce may not be as skilled or deep as its low unemployment rate would suggest. The bottom-tier wage growth and the relatively slow days on market for housing, with a -1.4% year-over-year decline, indicate that the city's economy may be facing some headwinds. The top-tier building permits growth of 55.25% year-over-year is a leading indicator worth watching, as it suggests that the city is investing in its future and may be poised for further growth.
 
-In the housing market, Birmingham has seen a year-over-year increase in home prices of 14.39%, placing it in the 70th percentile, suggesting a relatively strong demand for housing. However, the number of days properties remain on the market has increased to 70 days, in the 18th percentile, which could indicate a slowdown in sales activity or a shift in buyer behavior. Construction activity, as measured by building permits, has shown a significant year-over-year increase of 55.25%, ranking in the 88th percentile, which may reflect ongoing development and investment in the region.
-
-Overall, Birmingham's economic performance appears to be average, with strengths in employment and construction activity offset by lower labor force participation and earnings growth.
+Birmingham offers businesses a highly competitive labor market with extremely low unemployment, but the primary risk is that stagnant wage growth may limit the city's ability to attract and retain top talent. The city's unique combination of low unemployment and sluggish wage growth makes it an attractive location for businesses seeking to minimize labor costs, but it may require additional investment in workforce development to unlock its full potential.

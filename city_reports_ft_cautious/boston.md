@@ -1,19 +1,11 @@
-# Boston — Economic Overview (Cautious FT Style)
+# Boston-Cambridge-Newton
 
-## Polished, cautious FT-style column
-
-Boston-Cambridge-Newton metropolitan area economic data reveals a mixed picture across various indicators. The unemployment rate stands at 3.9%, placing it in the 44th percentile nationally, indicating a relatively stable labour market. The labour force participation rate of 68.47% ranks higher, at the 86th percentile, suggesting a high level of engagement of the working-age population in the economy. However, earnings growth year-over-year is modest at 1.42%, ranking in the 26th percentile, which may reflect slower wage increases compared to other regions.
-
-Housing market indicators show a year-over-year decline in building permits of 14.97%, placing this metric in the 26th percentile, suggesting a slowdown in construction activity. The housing price index has increased by 0.96% over the same period, ranking in the 30th percentile, indicating a relatively stable real estate market. The number of days properties remain on the market is 42 days, a figure that is in the 76th percentile, potentially indicating a balanced market.
-
-The weighted percentile score of 46.1 and the grade of B- suggest that Boston's economic performance is below average relative to other metropolitan areas. Strengths include labour force participation and housing market balance, while challenges exist in earnings growth and construction activity.
+**Grade: B (Average) | 51.9th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Boston-Cambridge-Newton metro area earns a B grade, with a strong and engaged workforce, as evident from its 68.47% labor force participation rate. However, wage growth lags at 1.42% year-over-year, suggesting that while workers are plentiful, they may not be seeing significant increases in pay. The cost of living composite score of 5.47, ranking in the bottom 10th percentile, implies that the area is quite expensive, impacting both business and employee costs.
 
-The economic data for the Boston-Cambridge-Newton metropolitan area indicates a mixed performance across various indicators. The unemployment rate stands at 3.9%, placing it in the 44th percentile nationally, which suggests a relatively stable labor market. The labor force participation rate of 68.47% ranks higher, at the 86th percentile, indicating a robust engagement of the working-age population in the economy. However, earnings growth year-over-year is modest at 1.42%, ranking in the 26th percentile, which may reflect a slower pace of wage increases compared to other regions.
+The metro area's office and professional workforce is a notable strength, with a composite score of 3.16, ranking in the 78th percentile. However, the housing supply is constrained, with building permits down 14.97% year-over-year, and homes selling quickly, with days on market increasing by 27.3% to 42 days, ranking in the 98th percentile. This tension between a strong, professional workforce and a tight housing market could lead to challenges in attracting and retaining talent.
 
-Housing market indicators show a year-over-year decline in building permits by 14.97%, placing this metric in the 26th percentile, suggesting a slowdown in construction activity. The housing price index has increased by 0.96% over the same period, ranking in the 30th percentile, which indicates a relatively stable but not rapidly growing real estate market. The number of days properties remain on the market is 42 days, a figure that is in the 76th percentile, potentially indicating a balanced market where neither buyers nor sellers have a significant advantage.
-
-Overall, the weighted percentile score of 46.1 and the grade of B- suggest that Boston's economic performance is below average relative to other metropolitan areas, with strengths in labor force participation and housing market balance, but challenges in earnings growth and construction activity.
+The Boston-Cambridge-Newton metro area offers businesses a highly skilled and engaged workforce, but at a high cost of living. The primary risk for businesses locating in this area is the potential for talent attraction and retention challenges due to the expensive and competitive housing market, which could ultimately impact wage pressures and overall business costs.

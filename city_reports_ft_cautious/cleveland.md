@@ -1,19 +1,11 @@
-# Cleveland — Economic Overview (Cautious FT Style)
+# Cleveland
 
-## Polished, cautious FT-style column
-
-Cleveland's economic indicators present a mixed picture, reflecting both areas of strength and concern. The unemployment rate stands at 3.4%, placing it in the 76th percentile among comparable metropolitan areas. However, the labour force participation rate of 58.01% ranks in the 2nd percentile, indicating a relatively low level of engagement in the labour market. Year-over-year earnings have declined by 1.79%, a figure that ranks at the bottom percentile, suggesting a weakening in wage growth.
-
-In the housing sector, home prices have increased by 4.05% annually, while permits issued for new residential construction have risen by 12.86%. The median days on market for homes has increased to 55 days, which may indicate a more balanced market. Cleveland's overall weighted percentile score is 49.1, placing it in the "Below Average" category, with a grade of B-. This suggests that while some sectors show positive trends, others lag behind national averages.
-
-These data points highlight the nuanced economic landscape of Cleveland, with varying degrees of performance across different indicators.
+**Grade: C+ (Poor) | 42.7th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Cleveland's C+ grade is defined by its struggling labor market, with a labor force participation rate of 58.01% ranking at the 2nd percentile, indicating a significant portion of the potential workforce is not engaged. This is compounded by a -1.79% year-over-year decline in hourly wage growth, which sits at the 0th percentile, suggesting that the city's workforce is not only underutilized but also experiencing declining earning power.
 
-Cleveland's economic indicators present a mixed picture, reflecting both areas of strength and concern. The unemployment rate stands at 3.4%, placing it in the 76th percentile among comparable metropolitan areas, which suggests a relatively robust labor market. However, the labor force participation rate of 58.01% is notably low, ranking in the 2nd percentile, indicating a significant portion of the working-age population is not actively engaged in the labor market. Earnings have declined year-over-year by 1.79%, a figure that ranks at the bottom percentile, suggesting a weakening in wage growth.
+Despite these challenges, the office and professional share of the workforce, at 3.02, is above average, and the unemployment rate of 3.40% is relatively low. However, the tension between these metrics and the labor market's overall weakness is notable. The 14.96% year-over-year increase in building permits could be a leading indicator of shifting conditions, potentially signaling investment and growth in the city.
 
-In the housing sector, the annual increase in home prices of 4.05% and a 12.86% rise in permits issued for new residential construction suggest a modestly growing demand for housing. The median days on market for homes has increased to 55 days, which may reflect a more balanced market compared to periods of high seller activity. The overall weighted percentile score of 49.1 places Cleveland in the "Below Average" category, with a grade of B-, indicating that while some sectors show positive trends, others lag behind national averages.
-
-These data points highlight the nuanced economic landscape of Cleveland, with varying degrees of performance across different indicators.
+Cleveland offers a unique combination of a skilled office and professional workforce and a relatively low unemployment rate, but the primary risk is the city's stagnant and even declining wage growth, which could impact talent attraction and retention. Businesses must carefully weigh the benefits of Cleveland's workforce against the potential drawbacks of a labor market that is not only underutilized but also experiencing declining earning power.

@@ -1,23 +1,11 @@
-# Minneapolis — Economic Overview (Cautious FT Style)
+# Minneapolis-St. Paul-Bloomington
 
-## Polished, cautious FT-style column
-
-The Minneapolis-St. Paul-Bloomington metropolitan area has a weighted percentile score of 38.8 in a recent economic assessment, placing it 16th among the assessed areas. The unemployment rate is 4.0%, ranking in the 34th percentile nationally, indicating a labour market that is neither particularly strong nor weak compared to other regions.
-
-The labour force participation rate is 69.03%, ranking in the 88th percentile, suggesting a high level of engagement among the working-age population in the labour market. Year-over-year earnings growth is 3.0%, placing it in the 10th percentile, which may reflect a slower pace of wage increases relative to other areas.
-
-In the housing sector, the year-over-year change in housing prices is 2.74%, a moderate increase that places the region in the 32nd percentile. Building permits have declined by 12.25% year-over-year, ranking in the 30th percentile, which could indicate a slowdown in new construction activity. The median days on market for homes is 40 days, a relatively low figure that ranks in the 80th percentile, suggesting a competitive market where properties are sold relatively quickly.
-
-The cost of living index is 7.29, below the national average and ranking in the 8th percentile, indicating that living costs in Minneapolis are lower than in many other metropolitan areas.
-
-The data presents a mixed economic picture for Minneapolis, with some strengths in labour force participation and housing market liquidity, but more modest performance in earnings growth and new construction activity.
+**Grade: B- (Below Average) | 44.8th percentile | April 2026**
 
 ---
 
-## Original Qwen draft (for reference)
+Minneapolis-St. Paul-Bloomington metro area earns a below-average overall grade, with a 4.0% unemployment rate and 0.03% year-over-year hourly wage growth, a bottom-tier performance that hinders its ability to attract and retain top talent.
 
-The Minneapolis-St. Paul-Bloomington metropolitan area ranks 16th in a recent economic assessment, with a weighted percentile score of 38.8, corresponding to a grade of C+. The unemployment rate stands at 4.0%, placing it in the 34th percentile nationally, which suggests a labor market that is neither particularly strong nor weak compared to other regions. The labor force participation rate of 69.03% is notably high, ranking in the 88th percentile, indicating a robust engagement of the working-age population in the labor market. Year-over-year earnings growth is modest at 3.0%, placing it in the 10th percentile, which may reflect a slower pace of wage increases relative to other areas.
+The labor force participation rate of 69.03% is a notable strength, but this is at odds with the sluggish wage growth and decline in weekly hours worked, which is 0.27% below its own trend. The housing market also shows signs of slowing momentum, with building permits down 12.25% year-over-year and days on market increasing, albeit slightly. These indicators suggest that the market may be shifting, and decision-makers should be cautious of potential downturns.
 
-In the housing sector, the year-over-year change in housing prices is 2.74%, a moderate increase that places the region in the 32nd percentile. This suggests a stable but not rapidly growing real estate market. Building permits have declined by 12.25% year-over-year, ranking in the 30th percentile, which could indicate a slowdown in new construction activity. The median days on market for homes is 40 days, a relatively low figure that ranks in the 80th percentile, suggesting a competitive market where properties are sold relatively quickly. The cost of living index of 7.29, while below the national average, is still in the 8th percentile, indicating that living costs in Minneapolis are lower than in many other metropolitan areas.
-
-Overall, the data suggests a mixed economic picture for Minneapolis, with strengths in labor force participation and housing market liquidity, but more modest performance in earnings growth and new construction activity.
+The area's highly engaged workforce is a significant advantage, but the primary risk is the inability to offer competitive wages, which may lead to talent retention issues. Companies considering this location must weigh the benefits of a motivated workforce against the potential costs of a stagnant wage environment, which could impact their ability to attract and retain top performers.
