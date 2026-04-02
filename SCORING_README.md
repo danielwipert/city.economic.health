@@ -19,11 +19,11 @@ This approach has several deliberate advantages over z-scores or absolute thresh
 - **Interpretability:** A score of 72 is immediately meaningful to a non-technical audience.
 - **Outlier resistance:** Extreme values (e.g., San Jose housing costs) don't distort every other city's score — they simply define one end of the distribution.
 - **Self-calibrating:** As city conditions change over time, rankings shift naturally. No threshold values ever need manual recalibration except the grade boundaries.
-- **Cross-metric comparability:** All 9 metrics live on the same 0-100 scale before weighting, making the weighted average mathematically clean.
+- **Cross-metric comparability:** All 8 metrics live on the same 0-100 scale before weighting, making the weighted average mathematically clean.
 
 ---
 
-## The 9 Metrics
+## The 8 Metrics
 
 ### 101A — Unemployment Rate (Weight: 20%)
 
@@ -37,37 +37,39 @@ This approach has several deliberate advantages over z-scores or absolute thresh
 
 ---
 
-### 102A — Labor Force Participation Rate (Weight: 15%)
+### 102A — Labor Force Participation Rate (Weight: 10%)
 
 **What it measures:** The share of the civilian non-institutional population (age 16+) that is either employed or actively looking for work. Sourced from BLS LAUS.
 
 **Direction:** `invert=False` — higher LFP = higher percentile score.
 
-**Why 15% weight:** LFP captures what unemployment misses. A city can have low unemployment simply because discouraged workers stopped looking — LFP exposes this. High LFP means a larger available talent pool and a more engaged workforce. Together, 101A and 102A jointly hold 35% of the total score, reflecting that labor market availability and engagement are the foundation of economic health.
+**Why 10% weight:** LFP captures what unemployment misses — a city can have low unemployment simply because discouraged workers stopped looking. However, LFP is anchored to annual population benchmarks from BLS, meaning the denominator only updates meaningfully once per year. This makes it a slow-moving structural snapshot rather than a dynamic monthly signal. It retains genuine value as a measure of workforce engagement depth, but does not deserve equal footing with monthly dynamic signals. Weight reduced from 15% to reflect this cadence constraint.
 
-**Structural caveat:** LFP varies by demographic composition. Cities with older populations or higher student populations will have structurally lower LFP independent of economic conditions. The percentile ranking partially mitigates this by comparing cities against each other rather than against a fixed standard.
+**Structural caveat:** LFP varies significantly by demographic composition — cities with older populations (Tampa, Cleveland, Pittsburgh), large student populations (Providence), or significant military presence (Virginia Beach) will have structurally lower LFP independent of economic conditions. The percentile ranking compares cities against each other, which partially mitigates absolute level bias but does not eliminate it.
 
 ---
 
-### 103B — Hourly Earnings YoY Growth (Weight: 10%)
+### 103B — Hourly Earnings YoY Growth (Weight: 15%)
 
 **What it measures:** The year-over-year percent change in average hourly earnings for all private-sector employees in the metro. Sourced from BLS State and Metro Area Employment, Hours, and Earnings (SAE).
 
 **Direction:** `invert=False` — stronger wage growth = higher percentile score.
 
-**Why 10% weight:** Rising wages are a demand signal — employers bid up labor prices when they need workers and expect revenue growth. It also directly affects worker purchasing power and quality of life. However, wage growth in isolation can reflect either genuine prosperity or a tight supply-constrained market with few workers, so it is complemented by 101A and 102A.
+**Why 15% weight:** Rising wages are a real-time demand signal — employers bid up labor prices when they need workers and expect revenue growth. It also directly affects worker purchasing power and quality of life. Weight increased from 10% to 15%: earnings data updates monthly and reflects genuine labor market tightness more dynamically than the annual-anchored LFP rate. The 5% redistributed from 102A reflects the relative timeliness advantage of earnings data.
 
 **What to watch:** A city with strong wage growth but rising unemployment (a rare but possible leading indicator of overheating or layoffs in progress) would show split signals across 101A and 103B — exactly the kind of nuance the multi-metric composite is designed to surface.
 
 ---
 
-### 104C — Cost of Living Composite (Weight: 10%)
+### 104C — Cost of Living Composite (Weight: 12%)
 
 **What it measures:** A 3-component composite assessing housing cost burden relative to local wages, including the current level, the trend direction, and how that trend compares to other metros.
 
 **Underlying data:** `Price Per Square Foot / Average Hourly Earnings` — a ratio measuring how many hours of local work it takes to buy one square foot of housing. This normalizes housing costs against local wage levels rather than using a national price index.
 
 **Direction:** `invert=True` — lower composite score = more affordable = higher percentile score.
+
+**Why 12% weight:** The cost of living environment is a critical factor in business location decisions — it determines how far wages stretch for workers and directly affects recruitment and retention. Weight increased from 10% to 12% (2% redistributed from 105C) to reflect its importance as a location signal alongside labor metrics.
 
 #### Component 1 — Absolute Affordability (0-5 points, 50% of composite)
 
@@ -109,11 +111,11 @@ Scored on a ±10% deviation range:
 | 0% (in line with peers) | 1.0 |
 | +10% or worse (worsening much faster than peers) | 2.0 |
 
-This component answers a different question than c2: not "is affordability improving?" but "is it improving faster or slower than everywhere else?" A city that's worsening when the national trend is also worsening is less alarming than one bucking a broad national improvement. It replaced a previous "volatility" proxy that was calculated as `(|PSF_YoY%| + |earnings_YoY%|) / 2` — which was not volatility at all, but the average magnitude of price movement, effectively double-counting the direction component.
+This component answers a different question than c2: not "is affordability improving?" but "is it improving faster or slower than everywhere else?" A city that's worsening when the national trend is also worsening is less alarming than one bucking a broad national improvement.
 
 ---
 
-### 105C — Office Worker Ratio Composite (Weight: 5%)
+### 105C — Office Worker Ratio Composite (Weight: 3%)
 
 **What it measures:** A 2-component composite assessing the concentration and growth of professional/office-based employment, used as a proxy for knowledge-economy job density.
 
@@ -127,49 +129,48 @@ Percentile-ranks the YoY growth rate in the 3-month smoothed office worker count
 #### Component 2 — Absolute Percentage (0-2 points)
 Percentile-ranks the raw share of jobs that are office-based. Captures structural depth of the professional economy independent of recent trends.
 
-**Why 5% weight:** Office worker density is a valuable structural signal for business location decisions but has lower direct economic-health predictive power than unemployment or wage growth. It is intentionally modest in weight.
+**Why 3% weight:** Office worker density is a useful tiebreaker signal — it differentiates knowledge-economy metros from industrial, logistics, and energy-dominated metros. However, it structurally penalizes legitimate economic models (Houston energy, Memphis logistics, Kansas City distribution) that happen to carry fewer office workers, not because of weakness but because of industry composition. Weight reduced from 5% to 3% to keep it as a mild directional signal rather than a meaningful scoring factor. The 2% redistributed to 104C (cost of living).
 
 ---
 
-### 106D — Weekly Hours Trend Deviation (Weight: 10%)
+### 107E — Labor Demand Composite (Weight: 25%)
 
-**What it measures:** How much the recent 3-month average of weekly hours worked deviates from that metro's own 12-month trailing baseline:
+**What it measures:** A 2-component composite combining total nonfarm employment growth (primary signal) with weekly hours deviation from each city's own 12-month baseline (context-adjusted secondary signal). Sourced from BLS SAE (employment) and BLS SAE (weekly hours).
 
-```
-deviation = (3mo_avg - 12mo_avg) / 12mo_avg * 100
-```
+**Direction:** `invert=False` — higher composite = stronger labor demand = higher percentile score.
 
-A positive value means workers are currently putting in more hours than their own recent average — a leading demand signal. A negative value means hours are trending below their own baseline.
+**Why 25% weight:** This is the single most impactful metric in the system, absorbing the former standalone 107E (employment growth, 15%) and 106D (weekly hours deviation, 10%). The two signals are more valuable combined than separate because the hours signal has opposite economic meaning depending on whether employment is growing or contracting. Combined weight of 25% reflects that labor demand is the central question this scoring system is designed to answer.
 
-**Direction:** `invert=False` — positive deviation (above trend) = higher percentile score.
+#### Component 1 — Employment Growth YoY (70% = 7 pts)
 
-**Why this formulation instead of raw hours level:**
+Year-over-year percent change in total nonfarm payroll employment. Scaled linearly:
 
-Raw weekly hours are heavily confounded by industry composition. Mining and logging workers average ~45.7 hours/week; Information sector workers average ~37.7 hours/week — an 8.0 hour / 21% structural difference that has nothing to do with economic health. A metro with a large oil and gas sector will always score higher on raw hours than a tech hub, regardless of actual labor market conditions.
+| Employment YoY | c1 Score |
+|----------------|----------|
+| -2% or worse | 0.0 |
+| 0% (flat) | 3.5 |
+| +3% or better | 7.0 |
 
-Scoring deviation from each city's own baseline removes this structural bias. It answers: "relative to this city's own normal, is demand for labor currently elevated or depressed?" A 0.5-hour increase above a city's own 12-month average is a statistically meaningful demand signal even though the absolute level means little in cross-city comparison.
+#### Component 2 — Weekly Hours Deviation, Employment-Conditioned (30% = 3 pts)
 
-**Base effect protection:** Using the 12-month trailing average rather than a point-in-time prior-year comparison prevents false positives from depressed baselines. A city with chronically low hours that ticks up slightly still scores below neutral on this metric — the 12-month average reflects its depressed state, not a pre-depression peak.
+How much the recent 3-month average of weekly hours deviates from that metro's own 12-month trailing baseline. The **direction of the signal flips based on whether employment is growing or contracting**, capturing four economically distinct scenarios:
 
-**Data dependency:** Requires `12month_average` to be populated in `processed_economic_data_v2.json`, which requires at least 12 monthly observations. New metros or first-run scenarios default to the 50th percentile (neutral).
+| Scenario | Employment | Hours vs Trend | Interpretation | c2 Treatment |
+|---|---|---|---|---|
+| STRONG | Growing | Above | Genuine demand confirmation | Rewarded (up to 3 pts) |
+| GROWING | Growing | Below | Expansion with hours softening — mild caution | Partial credit |
+| SQUEEZE | Contracting | Above | Survivor squeeze — remaining workers overloaded | Penalized (near 0) |
+| WEAK | Contracting | Below | Consistent contraction | Neutral (1.5 pts) — c1 captures the decline |
 
----
+**Why the survivor squeeze matters:** When a company lays off workers, remaining employees often absorb more hours. Under the former standalone 106D metric, this registered as a *positive* signal — hours above trend = good. Kansas City (-0.31% employment, +1.43% hours deviation) scored at the 96th percentile on 106D while actively shedding jobs. The composite correctly penalizes this pattern.
 
-### 107E — Total Nonfarm Employment Growth YoY (Weight: 15%)
+**Why hours below trend during contraction is neutral (not rewarded):** If employment is falling and hours are also falling, that is consistent contraction. It is not a positive signal — c1 already scores the employment decline. No bonus is awarded for hours falling alongside payrolls.
 
-**What it measures:** The year-over-year percent change in total nonfarm payroll employment for the metro. Sourced from BLS SAE.
+**Hours deviation formulation:** `(3mo_avg - 12mo_avg) / 12mo_avg * 100`. Uses the 12-month trailing average rather than a point-in-time prior-year comparison to prevent false positives from depressed baselines. Scores deviation on a ±1.5% range when employment is growing.
 
-**Direction:** `invert=False` — stronger employment growth = higher percentile score.
+**Why this replaced standalone 106D and 107E:**
 
-**Why 15% weight:** Employment growth is the most direct measure of labor demand. When businesses are expanding headcount, they are expressing confidence in revenue expectations. It captures growth that unemployment and LFP may miss — a market can have stable unemployment while employment is growing rapidly if the labor force is also expanding.
-
-**Why this replaced HPI and PSF as standalone metrics:**
-
-The original scoring included Home Price Index (HPI) YoY and Price Per Square Foot (PSF) YoY as separate housing metrics. This created two problems:
-
-1. **Double-counting:** PSF appears in the COL composite (104C) AND was scored as a standalone metric (202), giving housing price appreciation approximately 20% combined weight with partial cancellation.
-
-2. **Signal contamination:** Rising housing prices can reflect either genuine demand (people moving to a growing city) or supply constraints in a stagnant or contracting market. Milwaukee and Cincinnati showed rising prices despite contracting employment — the price signal was misleading about economic health. Employment growth directly measures actual labor demand without the supply-constraint contamination.
+The original standalone 106D metric rewarded cities where hours were above trend regardless of employment direction. Analysis of the 50-metro dataset revealed a systematic flaw: cities in active contraction — shedding payrolls while the remaining workforce was being squeezed — scored in the 80th–96th percentile on 106D. Meanwhile, growing cities where workers were shifting to flexible/hybrid arrangements scored near the bottom. The composite resolves this by making the hours signal employment-conditional.
 
 ---
 
@@ -187,23 +188,33 @@ The original scoring included Home Price Index (HPI) YoY and Price Per Square Fo
 
 ### 204A — Days on Market Composite (Weight: 5%)
 
-**What it measures:** A 2-component composite assessing housing market accessibility for incoming workers, combining the trend direction with a level-based context filter.
+**What it measures:** A 2-component composite assessing housing market health for workers, combining a level-dependent trend signal with a level-based context filter.
 
 **Underlying data:** Median days a listing spends on market before going under contract. Sourced from Realtor.com/FRED.
 
-**Direction:** `invert=False` — higher composite score = more accessible/healthy market = higher percentile score.
+**Direction:** `invert=False` — higher composite score = healthier market = higher percentile score.
 
 #### Component 1 — YoY Trend (0-6 points, 60% of composite)
 
-Scores the YoY percent change in median days on market on a linear scale:
+The direction of the trend signal depends on the current DoM level. A **60-day inflection point** separates two economically distinct regimes:
+
+**When DoM < 60 days (tight/healthy-low market):** rising DoM is good — the market is gaining inventory and accessibility for incoming workers.
 
 | YoY Change | c1 Score | Interpretation |
 |------------|----------|----------------|
-| -30% or worse | 0.0 | Market tightening sharply — harder for workers to find housing |
+| -30% or worse | 0.0 | Tightening sharply — harder for workers to find housing |
 | 0% (flat) | 3.0 | Neutral |
-| +30% or better | 6.0 | Market loosening significantly — more inventory for incoming workers |
+| +30% or better | 6.0 | Loosening — more inventory, more time to transact |
 
-Rising days on market (loosening) is scored as better for incoming workers because more inventory means more options, less competition, and more time to find the right home. Falling days on market (tightening) means workers must compete aggressively for scarce inventory.
+**When DoM ≥ 60 days (elevated/soft market):** direction inverts — rising DoM is demand destruction, penalized. A market at 60+ days that keeps softening signals that buyers cannot or will not transact at current prices. Existing owners are locked in, labor mobility is impaired.
+
+| YoY Change | c1 Score | Interpretation |
+|------------|----------|----------------|
+| +30% or worse | 0.0 | Worsening demand destruction |
+| 0% (flat) | 3.0 | Neutral |
+| -30% or better | 6.0 | Recovering — demand returning, market tightening from soft base |
+
+**Why the inflection:** a market loosening from 25→40 days is gaining healthy inventory. A market softening from 65→80 days means no one is buying — the same direction change has the opposite economic meaning depending on where you start. Rising DoM in an already-soft market also signals labor mobility impairment: homeowners who cannot sell are unable to relocate for better opportunities, reducing workforce flexibility for both workers and employers.
 
 #### Component 2 — Level Context (0-4 points, 40% of composite)
 
@@ -213,13 +224,11 @@ Scores the absolute level of days on market against a "healthy market" anchor us
 |-------|----------|----------------|
 | 35-80 days | 4.0 | Healthy, accessible range — peaks here |
 | Below 15 days | 0.0 | Extreme tightness — workers cannot compete effectively |
-| Above 130 days | 0.0 | Potential demand destruction / market distress |
+| Above 130 days | 0.0 | Demand destruction / market distress |
 | Between 15-35 days | Linear 0-4 | Transitioning from tight to healthy |
 | Between 80-130 days | Linear 4-0 | Transitioning from healthy to soft |
 
-This component exists to prevent a single misleading signal from the trend alone. A market loosening from a distressed-soft base (rising from 100 to 120 days) gets trend credit from c1 but is appropriately penalized by a low c2, resulting in a middling composite. A market loosening from a healthy-tight base (rising from 45 to 60 days) gets full credit on both components.
-
-**Why not just score the level (lower = better):** The original metric scored raw DoM level with `invert=True` (fewer days = better). This systematically rewarded supply-constrained coastal metros — San Jose at 23 days scored at the 98th percentile, Charlotte at 69 days scored at the 20th percentile — despite San Jose having contracting employment and Charlotte having some of the strongest payroll growth in the country. The composite captures both accessibility (trend) and context (level).
+**Why not just score the level (lower = better):** The original metric scored raw DoM level with `invert=True` (fewer days = better). This systematically rewarded supply-constrained coastal metros while penalizing markets with healthy inventory levels. The composite captures both market health (trend) and context (level).
 
 ---
 
@@ -231,7 +240,23 @@ weighted_percentile = sum(percentile[metric] * weight[metric]) / sum(weights)
 
 Since all weights sum to 100, this simplifies to a weighted average of percentile scores.
 
-The resulting `weighted_percentile` represents approximately what percentile the metro occupies on the joint distribution of all 9 metrics, weighted by their economic importance.
+The resulting `weighted_percentile` represents approximately what percentile the metro occupies on the joint distribution of all 8 metrics, weighted by their economic importance.
+
+---
+
+## Weight Summary
+
+| Code | Metric | Weight | Category |
+|------|--------|--------|----------|
+| 107E | Labor Demand Composite (employment + hours) | 25% | Employment |
+| 101A | Unemployment Rate | 20% | Employment |
+| 103B | Hourly Earnings YoY | 15% | Employment |
+| 104C | Cost of Living Composite | 12% | Employment |
+| 102A | Labor Force Participation Rate | 10% | Employment |
+| 200B | Building Permits YoY | 10% | Housing |
+| 204A | Days on Market Composite | 5% | Housing |
+| 105C | Office Worker Ratio Composite | 3% | Employment |
+| | **Total** | **100%** | **85% Employment / 15% Housing** |
 
 ---
 
@@ -239,7 +264,7 @@ The resulting `weighted_percentile` represents approximately what percentile the
 
 Grade thresholds are calibrated to the **actual achievable range** of weighted percentile scores, not the theoretical 0-100 range.
 
-Because the weighted score is an average of 9 individual percentile scores across 50 cities, the distribution compresses. No city can plausibly average 90+ across all 9 metrics simultaneously, and no city averages below 20. The practical range observed is approximately 21-79.
+Because the weighted score is an average of 8 individual percentile scores across 50 cities, the distribution compresses. No city can plausibly average 90+ across all 8 metrics simultaneously, and no city averages below 20. The practical range observed is approximately 21-79.
 
 Thresholds are set so the grade distribution is meaningful and discriminating across the full spectrum:
 
@@ -278,7 +303,7 @@ This produces a natural bell-curve distribution across the 50 metros with meanin
 
 **Why percentile ranking rather than z-scores?** Percentile ranks are bounded 0-100, immune to outliers pulling the scale, and immediately interpretable by business audiences who are not statisticians. Z-scores require knowing what a "good" vs. "bad" z-score is; percentile ranks are self-explanatory.
 
-**Why composite scoring for COL, OWR, and DoM?** Simple single-value metrics can miss important nuance. COL measured as a single ratio misses whether affordability is improving or worsening. OWR measured as a snapshot misses whether the professional economy is growing. DoM measured as a level misses whether the market is loosening or tightening. Composite scoring lets each metric carry multiple economic signals in proportion to their importance.
+**Why composite scoring for COL, OWR, DoM, and LDC?** Simple single-value metrics can miss important nuance. COL measured as a single ratio misses whether affordability is improving or worsening. OWR measured as a snapshot misses whether the professional economy is growing. DoM measured as a level misses whether the market is loosening or tightening. The Labor Demand Composite is the most important example: hours deviation has opposite economic meaning (demand signal vs. survivor squeeze) depending on whether employment is growing or contracting — a single-value metric cannot capture this.
 
 ---
 

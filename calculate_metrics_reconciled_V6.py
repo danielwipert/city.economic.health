@@ -246,26 +246,42 @@ def calculate_dom_composite_score(days_yoy, dom_level):
     2-component composite for Days on Market (204A). Total: 0-10, higher = better.
     Percentile-ranked with invert=False.
 
-    c1 (60% = 6 pts): YoY % change in DoM — trend signal.
-        Rising DoM = market loosening = better accessibility for incoming workers.
-        -30% or worse → 0 pts | flat → 3 pts | +30% or more → 6 pts.
+    c1 (60% = 6 pts): YoY % change in DoM — direction depends on level.
+        When DoM is LOW/HEALTHY (< 60 days): rising = loosening = good for incoming workers.
+            -30% or worse → 0 pts | flat → 3 pts | +30% or more → 6 pts.
+        When DoM is ELEVATED (>= 60 days): rising = demand destruction = bad.
+            Direction inverts — falling = recovering demand = good.
+            +30% or worse → 0 pts | flat → 3 pts | -30% or better → 6 pts.
+        Rationale: a market softening from 25→40 days is gaining healthy inventory.
+        A market softening from 65→80 days signals that buyers cannot or will not
+        transact — existing owners are locked in, labor mobility is impaired.
 
     c2 (40% = 4 pts): Absolute DoM level — context and distress filter.
         Normal range (35-80 days) peaks at 4 pts.
         Extreme tightness (<15 days) → 0 pts — accessibility problem.
         Severe softness (>130 days) → 0 pts — potential demand destruction.
-        This prevents a loosening trend in an already-distressed soft market
-        from scoring the same as a healthy market loosening from moderate tightness.
     """
-    # --- c1: Trend (0-6 points) ---
+    TREND_INFLECTION = 60  # above this level, rising DoM is demand destruction (penalized)
+
+    # --- c1: Trend (0-6 points) — direction depends on level ---
     if days_yoy is None:
         c1_score = 3.0  # default to midpoint
-    elif days_yoy >= 30:
-        c1_score = 6.0
-    elif days_yoy <= -30:
-        c1_score = 0.0
+    elif dom_level is None or dom_level < TREND_INFLECTION:
+        # Tight/healthy-low market: rising = loosening = good
+        if days_yoy >= 30:
+            c1_score = 6.0
+        elif days_yoy <= -30:
+            c1_score = 0.0
+        else:
+            c1_score = (days_yoy + 30) / 60.0 * 6.0  # linear -30→0→+30 maps to 0→3→6
     else:
-        c1_score = (days_yoy + 30) / 60.0 * 6.0  # linear -30→0→+30 maps to 0→3→6
+        # Elevated/soft market: rising = demand destruction = bad (direction inverted)
+        if days_yoy <= -30:
+            c1_score = 6.0  # recovering strongly
+        elif days_yoy >= 30:
+            c1_score = 0.0  # worsening sharply
+        else:
+            c1_score = (-days_yoy + 30) / 60.0 * 6.0  # linear +30→0→-30 maps to 0→3→6
 
     # --- c2: Level context (0-4 points) ---
     TIGHT_FLOOR  = 15   # at or below: full tightness penalty
@@ -285,6 +301,56 @@ def calculate_dom_composite_score(days_yoy, dom_level):
         c2_score = max(0.0, 4.0 - (dom_level - NORMAL_HIGH) / (SOFT_CEILING - NORMAL_HIGH) * 4.0)
 
     return min(10.0, max(0.0, c1_score + c2_score))
+
+
+# ============================================================================
+# 107E/106D: LABOR DEMAND COMPOSITE
+# ============================================================================
+
+def calculate_labor_demand_composite(emp_yoy, wh_deviation):
+    """
+    Labor Demand Composite — replaces separate 107E and 106D metrics.
+    0-10 scale, higher = stronger labor demand. Percentile-ranked invert=False.
+
+    c1 (70% = 7 pts): Employment growth YoY — primary demand signal.
+        Scale: -2% → 0 pts | 0% → 3.5 pts | +3% → 7 pts (linear).
+
+    c2 (30% = 3 pts): Weekly hours deviation, employment-conditioned.
+        The direction of the hours signal depends on whether employment is growing
+        or contracting, capturing four economically distinct scenarios:
+
+        STRONG  (emp ≥ 0, hours above trend): genuine demand confirmation — rewarded.
+        GROWING (emp ≥ 0, hours below trend): jobs expanding but hours soft — mild caution.
+        SQUEEZE (emp < 0, hours above trend): survivor squeeze — employers cutting
+            headcount while squeezing remaining workers harder. Penalized.
+        WEAK    (emp < 0, hours below trend): consistent contraction — neutral on c2,
+            c1 already captures the employment decline.
+
+    Combined weight: 25% (absorbs former 107E 15% + 106D 10%).
+    """
+    # c1: Employment growth (0-7 pts)
+    if emp_yoy is None:
+        c1 = 3.5  # neutral default
+    else:
+        c1 = max(0.0, min(7.0, (emp_yoy + 2.0) / 5.0 * 7.0))
+
+    # c2: Hours deviation, employment-conditioned (0-3 pts)
+    if wh_deviation is None:
+        c2 = 1.5  # neutral default
+    elif emp_yoy is None or emp_yoy >= 0:
+        # Growing/stable employment: hours above trend confirms demand
+        # Scale: -1.5% → 0 pts | 0% → 1.5 pts | +1.5% → 3 pts
+        c2 = max(0.0, min(3.0, (wh_deviation + 1.5) / 3.0 * 3.0))
+    else:
+        # Contracting employment: hours above trend = survivor squeeze (penalized)
+        # Hours below trend = consistent contraction (neutral — c1 already captures it)
+        if wh_deviation >= 0:
+            squeeze_penalty = min(1.5, wh_deviation / 1.5 * 1.5)
+            c2 = max(0.0, 1.5 - squeeze_penalty)
+        else:
+            c2 = 1.5  # consistent contraction, no bonus/penalty on c2
+
+    return min(10.0, max(0.0, c1 + c2))
 
 
 # ============================================================================
@@ -378,8 +444,7 @@ def calculate_metrics():
         '103B': [],  # Hourly earnings YoY
         '104C': [],  # Cost of living (final score)
         '105C': [],  # Office worker ratio (2-component score)
-        '106D': [],  # Weekly hours deviation from 12-month trend (pct)
-        '107E': [],  # Total nonfarm employment growth YoY (demand signal)
+        '107E': [],  # Labor demand composite (employment growth + hours, employment-conditioned)
         '200B': [],  # Building permits YoY
         '204A': [],  # Median days on market
     }
@@ -393,22 +458,18 @@ def calculate_metrics():
         earnings_yoy = data.get('hourly_earnings', {}).get('yoy_change', {}).get('pct_change')
         col_score = calculate_col_final_score(metro, all_metros, col_component2_all, col_component3_all)
         owr = owr_scores_all.get(metro['metro_name'])
-        # 106D: deviation of recent 3-month avg from 12-month trailing average.
-        # Captures whether labor demand is running above or below its own baseline —
-        # removes industry-composition bias from cross-metro level comparison.
         wh_data = data.get('weekly_hours', {})
         wh_3mo = wh_data.get('3month_average')
         wh_12mo = wh_data.get('12month_average')
         wh_deviation = ((wh_3mo - wh_12mo) / wh_12mo * 100
                         if wh_3mo is not None and wh_12mo and wh_12mo != 0
                         else None)
-        # 107E: total nonfarm payroll YoY growth — the direct demand signal.
-        # Replaces HPI/PSF which were noisy proxies conflating supply constraints
-        # with genuine economic demand.
         emp_yoy = data.get('all_employees', {}).get('yoy_change', {}).get('pct_change')
+        # 107E: Labor Demand Composite — employment growth (primary) + hours deviation
+        # (employment-conditioned). Combines former 107E and 106D into one signal.
+        ldc = calculate_labor_demand_composite(emp_yoy, wh_deviation)
         permits_yoy = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')
         # 204A: 2-component composite — trend (60%) + level context (40%).
-        # Trend captures loosening/tightening; level filters out distress signals.
         days_yoy   = data.get('median_days_on_market', {}).get('yoy_change', {}).get('pct_change')
         dom_level  = data.get('median_days_on_market', {}).get('latest_value')
         dom_composite = calculate_dom_composite_score(days_yoy, dom_level)
@@ -424,10 +485,8 @@ def calculate_metrics():
             metrics_data['104C'].append(col_score)
         if owr is not None:
             metrics_data['105C'].append(owr)
-        if wh_deviation is not None:
-            metrics_data['106D'].append(wh_deviation)
-        if emp_yoy is not None:
-            metrics_data['107E'].append(emp_yoy)
+        if emp_yoy is not None or wh_deviation is not None:
+            metrics_data['107E'].append(ldc)
         if permits_yoy is not None:
             metrics_data['200B'].append(permits_yoy)
         if days_yoy is not None or dom_level is not None:
@@ -436,20 +495,19 @@ def calculate_metrics():
     print(f"✓ Collected metrics from {len(all_metros)} metros")
     
     # Weight configuration — total = 100
-    # Employment (85%): unemployment, LFP, earnings, COL, OWR, weekly hours, payroll growth
+    # Employment (85%): unemployment, LFP, earnings, COL, OWR, labor demand composite
     # Housing (15%): building permits, days on market
-    # HPI and PSF removed: housing price appreciation conflates supply constraints
-    # with genuine demand; payroll growth (107E) captures the demand signal directly.
+    # 107E is now the Labor Demand Composite (employment growth + employment-conditioned hours).
+    # Absorbs former 107E (15%) + 106D (10%) = 25% combined.
     weights = {
-        '101A': 20,  # Unemployment (lower is better) — increased from 15; most-watched labor indicator
-        '102A': 15,  # LFP (higher is better)
-        '103B': 10,  # Earnings growth YoY (higher is better)
-        '104C': 10,  # Cost of living (lower is better)
-        '105C': 5,   # Office worker ratio (higher is better)
-        '106D': 10,  # Weekly hours deviation from 12-month trend (higher = above trend = better)
-        '107E': 15,  # Total nonfarm employment growth YoY (higher is better)
+        '101A': 20,  # Unemployment (lower is better)
+        '102A': 10,  # LFP (higher is better) — structural/annual signal, reduced from 15%
+        '103B': 15,  # Earnings growth YoY (higher is better) — increased from 10%; real-time demand signal
+        '104C': 12,  # Cost of living (lower is better) — increased from 10%; key business location signal
+        '105C': 3,   # Office worker ratio (higher is better) — reduced from 5%; tiebreaker signal only
+        '107E': 25,  # Labor demand composite: employment growth + hours (employment-conditioned)
         '200B': 10,  # Building permits YoY (higher is better)
-        '204A': 5,   # Days on market YoY change (rising = loosening market = better for employees)
+        '204A': 5,   # Days on market composite
     }
     
     # Calculate percentile scores for each metro
@@ -476,6 +534,7 @@ def calculate_metrics():
                         if wh_3mo is not None and wh_12mo and wh_12mo != 0
                         else None)
         emp_yoy      = data.get('all_employees', {}).get('yoy_change', {}).get('pct_change')
+        ldc          = calculate_labor_demand_composite(emp_yoy, wh_deviation)
         permits_yoy  = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')
         days_yoy     = data.get('median_days_on_market', {}).get('yoy_change', {}).get('pct_change')
         dom_level    = data.get('median_days_on_market', {}).get('latest_value')
@@ -488,8 +547,7 @@ def calculate_metrics():
             '103B': calculate_percentile_score(earnings_yoy, metrics_data['103B'], invert=False) if earnings_yoy is not None else 50,
             '104C': calculate_percentile_score(col_score, metrics_data['104C'], invert=True) if col_score else 50,
             '105C': calculate_percentile_score(owr, metrics_data['105C'], invert=False) if owr is not None else 50,
-            '106D': calculate_percentile_score(wh_deviation, metrics_data['106D'], invert=False) if wh_deviation is not None else 50,
-            '107E': calculate_percentile_score(emp_yoy, metrics_data['107E'], invert=False) if emp_yoy is not None else 50,
+            '107E': calculate_percentile_score(ldc, metrics_data['107E'], invert=False),
             '200B': calculate_percentile_score(permits_yoy, metrics_data['200B'], invert=False) if permits_yoy is not None else 50,
             '204A': calculate_percentile_score(dom_composite, metrics_data['204A'], invert=False),
         }
@@ -534,8 +592,9 @@ def calculate_metrics():
                 "103B_earnings_yoy": round(earnings_yoy, 2) if earnings_yoy is not None else None,
                 "104C_col": round(col_score, 2) if col_score else None,
                 "105C_owr": round(owr, 2) if owr is not None else None,
-                "106D_wh_trend_deviation_pct": round(wh_deviation, 3) if wh_deviation is not None else None,
+                "107E_ldc_composite": round(ldc, 2),
                 "107E_employment_growth_yoy": round(emp_yoy, 2) if emp_yoy is not None else None,
+                "107E_wh_trend_deviation_pct": round(wh_deviation, 3) if wh_deviation is not None else None,
                 "200B_permits_yoy": round(permits_yoy, 2) if permits_yoy is not None else None,
                 "204A_dom_composite": round(dom_composite, 2),
                 "204A_dom_yoy_pct": round(days_yoy, 2) if days_yoy is not None else None,
@@ -899,19 +958,21 @@ def main():
     print("   • Sheet 4: By Rank (original MSA ranking)")
     print("   • Sheet 5: Top vs Bottom (leaders vs laggards)")
     print("\n✅ READY FOR LINKEDIN CONTENT GENERATION\n")
-    print("📊 Scoring Changes in V4.2 (V6):")
-    print("  • 202 PSF: Now uses 3-month average YoY (smoothed)")
-    print("    - Reduces monthly volatility noise")
-    print("    - More stable trend indicator")
-    print("  • 200B Permits: Uses 3-month average YoY (smoothed)")
-    print("    - Reduces monthly volatility noise")
-    print("  • 105C OWR: 2-component scoring")
-    print("    - Component 1: YoY growth (3-mo avg vs prev year) = 3 points")
-    print("    - Component 2: Absolute % office workers = 2 points")
-    print("  • 104C COL: Updated weighting")
-    print("    - Component 1: Absolute affordability = 3 points")
-    print("    - Component 2: Direction of change = 4 points")
-    print("    - Component 3: Volatility = 3 points\n")
+    print("📊 Current Scoring — 8 Metrics (April 2026):")
+    print("  Weights: 107E LDC 25% | 101A Unemp 20% | 103B Earnings 15% | 104C COL 12%")
+    print("           102A LFP 10% | 200B Permits 10% | 204A DoM 5% | 105C OWR 3%")
+    print("  Split: 85% Employment / 15% Housing\n")
+    print("  Key design decisions:")
+    print("  • 107E Labor Demand Composite: employment growth (70%) + hours deviation (30%)")
+    print("    - Hours signal conditioned on employment direction — fixes survivor squeeze")
+    print("    - Absorbs former standalone 106D (10%) + 107E (15%) = 25% combined")
+    print("  • 204A DoM: 60-day inflection — rising DoM penalized above 60 days (demand destruction)")
+    print("    - Below 60 days: loosening = good (inventory for workers)")
+    print("    - Above 60 days: loosening = bad (owners locked in, labor mobility impaired)")
+    print("  • 102A LFP reduced 15%→10%: annual population benchmark anchor limits dynamic value")
+    print("  • 103B Earnings increased 10%→15%: real-time monthly signal, redistributed from LFP")
+    print("  • 104C COL increased 10%→12%: redistributed from OWR reduction")
+    print("  • 105C OWR reduced 5%→3%: tiebreaker only, avoids penalising industrial/energy metros\n")
 
 
 if __name__ == '__main__':
