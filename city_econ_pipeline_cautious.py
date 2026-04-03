@@ -335,6 +335,13 @@ def main():
 
     print("\nDone. Reports in:", OUTPUT_DIR.resolve())
 
+    # Generate PDF report now that all city narratives are fresh
+    print("\n" + "=" * 60)
+    print("  Generating PDF report...")
+    print("=" * 60)
+    import generate_pdf_report
+    generate_pdf_report.main()
+
 
 if __name__ == "__main__":
     main()

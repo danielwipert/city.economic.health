@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+
+/* ─── PAGE SETUP ─────────────────────────────────────────────── */
+@page {
+  size: letter;
+  margin: 14mm 16mm 14mm 16mm;
+}
+@page cover { margin: 0; }
+@page rankings { margin: 14mm 16mm 14mm 16mm; }
+@page city { margin: 0; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 9pt;
+  color: #0F172A;
+  background: #fff;
+}
+
+.page { page-break-after: always; }
+.page:last-child { page-break-after: avoid; }
+
+/* ─── COVER PAGE ─────────────────────────────────────────────── */
+.cover {
+  page: cover;
+  width: 100%;
+  height: 100vh;
+  background: #0F2137;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.cover-top {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 28mm 22mm 16mm 22mm;
+}
+
+.cover-eyebrow {
+  font-size: 8pt;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #94A3B8;
+  margin-bottom: 14px;
+}
+
+.cover-title {
+  font-size: 36pt;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #F8FAFC;
+  margin-bottom: 10px;
+}
+
+.cover-title span {
+  color: #38BDF8;
+}
+
+.cover-subtitle {
+  font-size: 12pt;
+  color: #94A3B8;
+  margin-bottom: 28px;
+  font-weight: 400;
+}
+
+.cover-divider {
+  width: 60px;
+  height: 3px;
+  background: #38BDF8;
+  margin-bottom: 28px;
+}
+
+.cover-meta {
+  font-size: 9pt;
+  color: #64748B;
+  line-height: 1.8;
+}
+
+.cover-bottom {
+  background: #162032;
+  padding: 16mm 22mm;
+  display: flex;
+  gap: 20px;
+}
+
+.cover-leaderboard {
+  flex: 1;
+}
+
+.cover-leaderboard-title {
+  font-size: 7pt;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #64748B;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #1E3A5F;
+}
+
+.cover-city-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid #1E3A5F;
+}
+
+.cover-city-row:last-child { border-bottom: none; }
+
+.cover-rank {
+  font-size: 8pt;
+  color: #475569;
+  width: 20px;
+  text-align: right;
+}
+
+.cover-grade-badge {
+  font-size: 8pt;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 3px;
+  min-width: 30px;
+  text-align: center;
+}
+
+.cover-city-name {
+  font-size: 9pt;
+  color: #E2E8F0;
+  flex: 1;
+}
+
+.cover-score {
+  font-size: 8pt;
+  color: #94A3B8;
+  font-variant-numeric: tabular-nums;
+}
+
+.cover-footer {
+  background: #0A1628;
+  padding: 8mm 22mm;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cover-footer-left {
+  font-size: 7.5pt;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.cover-footer-right {
+  font-size: 7.5pt;
+  color: #475569;
+  text-align: right;
+}
+
+/* ─── RANKINGS PAGE ──────────────────────────────────────────── */
+.rankings-page { page: rankings; }
+
+.section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #0F2137;
+}
+
+.section-title {
+  font-size: 16pt;
+  font-weight: 700;
+  color: #0F2137;
+}
+
+.section-subtitle {
+  font-size: 8.5pt;
+  color: #64748B;
+}
+
+.rankings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 8pt;
+}
+
+.rankings-table thead tr {
+  background: #0F2137;
+  color: #fff;
+}
+
+.rankings-table thead th {
+  padding: 7px 8px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 7.5pt;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.rankings-table thead th.num { text-align: right; }
+
+.rankings-table tbody tr:nth-child(even) { background: #F8FAFC; }
+.rankings-table tbody tr:hover { background: #EFF6FF; }
+
+.rankings-table tbody td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #E2E8F0;
+  vertical-align: middle;
+}
+
+.rankings-table tbody td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: #374151;
+}
+
+.rank-num {
+  color: #9CA3AF;
+  font-weight: 600;
+  font-size: 7.5pt;
+}
+
+.city-name-cell { font-weight: 600; color: #0F172A; }
+.metro-name-cell { font-size: 7pt; color: #9CA3AF; }
+
+.grade-pill {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 8pt;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #fff;
+  min-width: 34px;
+  text-align: center;
+}
+
+.score-bar-cell { width: 90px; }
+
+.score-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.score-bar-bg {
+  flex: 1;
+  height: 6px;
+  background: #E2E8F0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.score-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+}
+
+.score-val {
+  font-size: 7.5pt;
+  font-variant-numeric: tabular-nums;
+  color: #374151;
+  width: 22px;
+  text-align: right;
+}
+
+/* ─── CITY PAGE ──────────────────────────────────────────────── */
+.city-page {
+  page: city;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.city-header {
+  padding: 10mm 16mm 8mm 16mm;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.city-header-left {}
+
+.city-eyebrow {
+  font-size: 7pt;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 4px;
+}
+
+.city-name {
+  font-size: 22pt;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 3px;
+}
+
+.city-metro-name {
+  font-size: 8.5pt;
+  opacity: 0.75;
+}
+
+.city-header-right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.grade-large {
+  font-size: 36pt;
+  font-weight: 800;
+  line-height: 1;
+  color: #fff;
+}
+
+.grade-description {
+  font-size: 8pt;
+  opacity: 0.75;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.percentile-display {
+  font-size: 9pt;
+  opacity: 0.85;
+}
+
+.rank-display {
+  font-size: 8pt;
+  opacity: 0.6;
+}
+
+/* city body */
+.city-body {
+  flex: 1;
+  display: flex;
+  padding: 0 16mm 6mm 16mm;
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.city-left { flex: 0 0 56%; }
+.city-right { flex: 0 0 44%; }
+
+/* ─── METRIC SCORECARD ───────────────────────────────────────── */
+.scorecard-title {
+  font-size: 7pt;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #64748B;
+  margin-bottom: 8px;
+  padding-bottom: 5px;
+  border-bottom: 1.5px solid #E2E8F0;
+}
+
+.metric-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 7px;
+}
+
+.metric-label-wrap {
+  width: 110px;
+  flex-shrink: 0;
+}
+
+.metric-label {
+  font-size: 8pt;
+  color: #374151;
+  font-weight: 500;
+  display: block;
+}
+
+.metric-weight {
+  font-size: 6.5pt;
+  color: #9CA3AF;
+}
+
+.metric-bar-wrap {
+  flex: 1;
+  height: 8px;
+  background: #F1F5F9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.metric-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+}
+
+.metric-score {
+  width: 26px;
+  text-align: right;
+  font-size: 8pt;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ─── KEY INDICATORS ─────────────────────────────────────────── */
+.indicators-title {
+  font-size: 7pt;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #64748B;
+  margin-bottom: 8px;
+  padding-bottom: 5px;
+  border-bottom: 1.5px solid #E2E8F0;
+}
+
+.indicators-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 10px;
+}
+
+.stat-box {
+  flex: 0 0 calc(50% - 3.5px);
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 5px;
+  padding: 7px 9px;
+}
+
+.stat-label {
+  font-size: 6.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #9CA3AF;
+  margin-bottom: 2px;
+}
+
+.stat-value {
+  font-size: 13pt;
+  font-weight: 700;
+  color: #0F172A;
+  line-height: 1.1;
+}
+
+.stat-subtext {
+  font-size: 6.5pt;
+  color: #9CA3AF;
+  margin-top: 1px;
+}
+
+/* scenario badge */
+.scenario-wrap {
+  margin-bottom: 10px;
+}
+
+.scenario-label {
+  font-size: 6.5pt;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #9CA3AF;
+  margin-bottom: 4px;
+}
+
+.scenario-badge {
+  display: inline-block;
+  font-size: 8.5pt;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.scenario-desc {
+  font-size: 7pt;
+  color: #64748B;
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+/* ─── NARRATIVE ──────────────────────────────────────────────── */
+.narrative-section {
+  padding: 0 16mm 8mm 16mm;
+}
+
+.narrative-divider {
+  border: none;
+  border-top: 1.5px solid #E2E8F0;
+  margin-bottom: 10px;
+}
+
+.narrative-header {
+  font-size: 7pt;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #64748B;
+  margin-bottom: 8px;
+}
+
+.narrative-text {
+  font-size: 8.5pt;
+  color: #1E293B;
+  line-height: 1.65;
+}
+
+.narrative-text p {
+  margin-bottom: 7px;
+}
+
+.narrative-text p:last-child { margin-bottom: 0; }
+
+/* ─── CITY FOOTER ────────────────────────────────────────────── */
+.city-footer {
+  padding: 4px 16mm 5mm 16mm;
+  border-top: 1px solid #E2E8F0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city-footer-left {
+  font-size: 6.5pt;
+  color: #94A3B8;
+}
+
+.city-footer-right {
+  font-size: 6.5pt;
+  color: #94A3B8;
+  text-align: right;
+}
+
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--  COVER PAGE                                                 -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="page cover">
+  <div class="cover-top">
+    <div class="cover-eyebrow">Economic Intelligence Series</div>
+    <div class="cover-title">U.S. Metro<br><span>Economic Health</span><br>Report</div>
+    <div class="cover-subtitle">50 Metropolitan Statistical Areas</div>
+    <div class="cover-divider"></div>
+    <div class="cover-meta">
+      Percentile-Based Composite Scoring &nbsp;·&nbsp; 8 Metrics &nbsp;·&nbsp; BLS &amp; FRED Data<br>
+      85% Employment / 15% Housing &nbsp;·&nbsp; {{ calculation_date }}
+    </div>
+  </div>
+
+  <div class="cover-bottom">
+    <!-- Top performers -->
+    <div class="cover-leaderboard">
+      <div class="cover-leaderboard-title">Top Performers</div>
+      {% for city in top_cities %}
+      <div class="cover-city-row">
+        <span class="cover-rank">#{{ city.rank_display }}</span>
+        <span class="cover-grade-badge" style="background:{{ city.grade_color }}">{{ city.grade }}</span>
+        <span class="cover-city-name">{{ city.primary_city }}</span>
+        <span class="cover-score">{{ "%.1f"|format(city.score) }}</span>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Bottom performers -->
+    <div class="cover-leaderboard">
+      <div class="cover-leaderboard-title">Markets Under Pressure</div>
+      {% for city in bottom_cities %}
+      <div class="cover-city-row">
+        <span class="cover-rank">#{{ city.rank_display }}</span>
+        <span class="cover-grade-badge" style="background:{{ city.grade_color }}">{{ city.grade }}</span>
+        <span class="cover-city-name">{{ city.primary_city }}</span>
+        <span class="cover-score">{{ "%.1f"|format(city.score) }}</span>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Grade distribution -->
+    <div class="cover-leaderboard">
+      <div class="cover-leaderboard-title">Grade Distribution</div>
+      {% for tier in grade_distribution %}
+      <div class="cover-city-row">
+        <span class="cover-grade-badge" style="background:{{ tier.color }}">{{ tier.grade }}</span>
+        <span class="cover-city-name" style="font-size:8pt; color:#94A3B8;">{{ tier.description }}</span>
+        <span class="cover-score">{{ tier.count }} cities</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="cover-footer">
+    <div class="cover-footer-left">
+      Data sources: U.S. Bureau of Labor Statistics (BLS) · Federal Reserve Economic Data (FRED)<br>
+      Unemployment, LFP, Earnings, Employment, Weekly Hours sourced from BLS LAUS / SAE.<br>
+      Building Permits from Census Bureau via FRED. Days on Market from Realtor.com / FRED.
+    </div>
+    <div class="cover-footer-right">
+      Scoring methodology: percentile ranking across all 50 metros.<br>
+      Full methodology: SCORING_README.md<br>
+      Pipeline runs weekly via GitHub Actions.
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--  RANKINGS PAGE                                              -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="page rankings-page">
+  <div class="section-header">
+    <div class="section-title">Full Rankings</div>
+    <div class="section-subtitle">All 50 Metropolitan Statistical Areas · Sorted by composite score · {{ calculation_date }}</div>
+  </div>
+
+  <table class="rankings-table">
+    <thead>
+      <tr>
+        <th style="width:28px">#</th>
+        <th>Metro</th>
+        <th style="width:46px">Grade</th>
+        <th class="num" style="width:80px">Score</th>
+        <th class="num" style="width:60px">Unemp.</th>
+        <th class="num" style="width:68px">Wage YoY</th>
+        <th class="num" style="width:68px">Emp. YoY</th>
+        <th class="num" style="width:52px">LFP</th>
+        <th class="num" style="width:58px">DoM</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for city in all_cities %}
+      <tr>
+        <td><span class="rank-num">{{ loop.index }}</span></td>
+        <td>
+          <div class="city-name-cell">{{ city.primary_city }}</div>
+          <div class="metro-name-cell">{{ city.metro_name }}</div>
+        </td>
+        <td>
+          <span class="grade-pill" style="background:{{ city.grade_color }}">{{ city.grade }}</span>
+        </td>
+        <td class="score-bar-cell">
+          <div class="score-bar-wrap">
+            <div class="score-bar-bg">
+              <div class="score-bar-fill" style="width:{{ city.score }}%; background:{{ city.grade_color }}"></div>
+            </div>
+            <span class="score-val">{{ city.score }}</span>
+          </div>
+        </td>
+        <td class="num">{{ city.unemp_fmt }}</td>
+        <td class="num">{{ city.earnings_fmt }}</td>
+        <td class="num">{{ city.emp_fmt }}</td>
+        <td class="num">{{ city.lfp_fmt }}</td>
+        <td class="num">{{ city.dom_fmt }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--  CITY PAGES                                                 -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+{% for city in all_cities %}
+<div class="page city-page">
+
+  <!-- Header -->
+  <div class="city-header" style="background:{{ city.grade_color }}">
+    <div class="city-header-left">
+      <div class="city-eyebrow">U.S. Metro Economic Health · Rank #{{ loop.index }} of 50</div>
+      <div class="city-name">{{ city.primary_city }}</div>
+      <div class="city-metro-name">{{ city.metro_name }}</div>
+    </div>
+    <div class="city-header-right">
+      <div class="grade-large">{{ city.grade }}</div>
+      <div class="grade-description">{{ city.grade_description }}</div>
+      <div class="percentile-display">{{ "%.1f"|format(city.score) }}th percentile</div>
+      <div class="rank-display">Rank {{ loop.index }} of 50 metros</div>
+    </div>
+  </div>
+
+  <!-- Body -->
+  <div class="city-body">
+
+    <!-- LEFT: Metric Scorecard -->
+    <div class="city-left">
+      <div class="scorecard-title">Metric Scorecard — Percentile Scores (0–100)</div>
+      {% for metric in city.metrics %}
+      <div class="metric-row">
+        <div class="metric-label-wrap">
+          <span class="metric-label">{{ metric.label }}</span>
+          <span class="metric-weight">{{ metric.weight }} weight</span>
+        </div>
+        <div class="metric-bar-wrap">
+          <div class="metric-bar-fill" style="width:{{ metric.score }}%; background:{{ metric.bar_color }}"></div>
+        </div>
+        <span class="metric-score" style="color:{{ metric.bar_color }}">{{ metric.score }}</span>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- RIGHT: Indicators + Scenario -->
+    <div class="city-right">
+      <div class="indicators-title">Key Indicators</div>
+      <div class="indicators-grid">
+        <div class="stat-box">
+          <div class="stat-label">Unemployment</div>
+          <div class="stat-value">{{ city.stats.unemp }}</div>
+          <div class="stat-subtext">of civilian labor force</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Wage Growth YoY</div>
+          <div class="stat-value">{{ city.stats.earnings }}</div>
+          <div class="stat-subtext">avg hourly earnings</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Employment Growth</div>
+          <div class="stat-value">{{ city.stats.emp_growth }}</div>
+          <div class="stat-subtext">nonfarm payrolls YoY</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Labor Force Part.</div>
+          <div class="stat-value">{{ city.stats.lfp }}</div>
+          <div class="stat-subtext">working-age population</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Building Permits</div>
+          <div class="stat-value">{{ city.stats.permits }}</div>
+          <div class="stat-subtext">residential YoY (3mo avg)</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Days on Market</div>
+          <div class="stat-value">{{ city.stats.dom }}</div>
+          <div class="stat-subtext">median, {{ city.stats.dom_yoy }} YoY</div>
+        </div>
+      </div>
+
+      <div class="scenario-wrap">
+        <div class="scenario-label">Labor Market Signal</div>
+        <span class="scenario-badge" style="background:{{ city.scenario_color }}">{{ city.scenario }}</span>
+        <div class="scenario-desc">{{ city.scenario_desc }}</div>
+      </div>
+    </div>
+
+  </div><!-- /city-body -->
+
+  <!-- Narrative -->
+  <div class="narrative-section">
+    <hr class="narrative-divider">
+    <div class="narrative-header">Economic Analysis</div>
+    <div class="narrative-text">{{ city.narrative|safe }}</div>
+  </div>
+
+  <!-- Footer -->
+  <div class="city-footer">
+    <div class="city-footer-left">
+      Sources: BLS LAUS / SAE · Census Bureau / FRED · Realtor.com / FRED &nbsp;·&nbsp; 85% Employment / 15% Housing composite
+    </div>
+    <div class="city-footer-right">
+      {{ calculation_date }} &nbsp;·&nbsp; U.S. Metro Economic Health Report
+    </div>
+  </div>
+
+</div><!-- /city-page -->
+{% endfor %}
+
+</body>
+</html>

@@ -1,1 +1,10 @@
-.env
+.env*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PDF output — track only latest.pdf, exclude dated files and debug HTML
+pdf_output/city_economic_report_20*.pdf
+pdf_output/report_debug.html
