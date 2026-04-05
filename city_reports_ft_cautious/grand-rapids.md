@@ -1,11 +1,11 @@
 # Grand Rapids-Wyoming-Kentwood
 
-**Grade: B- (Below Average) | 48.1th percentile | April 2026**
+**Grade: B- (Below Average) | 44.8th percentile | April 2026**
 
 ---
 
-Grand Rapids-Wyoming-Kentwood metro area earns a B- overall grade, driven by a below-average economic performance, with a 4.0% unemployment rate and 63.89% labor force participation rate indicating a stable but unremarkable workforce. The area's cost of living composite score of 5.76, ranking in the bottom tier, makes it one of the most affordable metros in the country, with a 4th percentile score.
+Grand Rapids-Wyoming-Kentwood's B- grade and 44.8th percentile ranking out of 50 US metros indicate a complex economic landscape. The city's 0.51% nonfarm employment growth outpaces the national average, suggesting a healthy expansion. However, its 4.00% unemployment rate signals labor market slack, making it easier for businesses to hire but potentially weakening local consumer demand.
 
-The housing supply metrics reveal rapid growth, with building permits up 55.17% year-over-year and days on market increasing by 14.3% to 64 days, indicating a booming construction sector. In contrast, nonfarm employment growth is only 0.51% year-over-year, and the office and professional share of the workforce is a notable strength, with a composite score of 3.06 indicating a high proportion of skilled workers.
+The housing market presents a nuanced story, with building permits increasing by 55.17% YoY, a top-tier performance indicating aggressive supply growth. However, the days on market have increased by 14.3% YoY, with homes taking an average of 64 days to sell, placing the city in the bottom tier. This suggests a slowing market, but given the strong employment growth and rising permits, this can be seen as a healthy normalization.
 
-The Grand Rapids-Wyoming-Kentwood metro area offers businesses an attractive cost of living and a skilled workforce, making it a viable location for companies seeking to reduce costs without sacrificing talent. However, the primary risk is that the area's economic growth may not be sufficient to support long-term business expansion, given its below-average overall grade and relatively slow nonfarm employment growth.
+Grand Rapids offers a growing economy with an expanding workforce and increasing housing supply, making it an attractive location for businesses. However, the high cost of living and competitive housing market, with homes selling relatively quickly, pose a risk to talent acquisition and affordability, which businesses should carefully consider when making location decisions.

@@ -1,11 +1,11 @@
 # Phoenix-Mesa-Chandler
 
-**Grade: B+ (Above Average) | 58.0th percentile | April 2026**
+**Grade: B+ (Above Average) | 55.9th percentile | April 2026**
 
 ---
 
-Phoenix's B+ grade reflects its strong economic performance, with a labor force participation rate of 66.34% and nonfarm employment growth of 0.87% year-over-year, indicating a highly engaged workforce. The office and professional share of the workforce is a notable 3.59, highlighting a high concentration of skilled workers. This combination of metrics defines Phoenix as a vibrant and skilled labor market, making it an attractive location for businesses seeking talented employees.
+Phoenix-Mesa-Chandler earns a B+ overall grade, driven by solid wage growth and a deep professional talent pool, making it an attractive location for knowledge-economy companies. Hourly earnings increased 4.52% year-over-year, ensuring robust consumer spending, albeit with some cost pressure for businesses. The city's office and professional worker share ranks in the 88th percentile, solidifying its foundation for knowledge-economy businesses and roles requiring specialized skills.
 
-However, the weekly hours worked versus trend is a concerning -1.24%, ranking in the bottom tier, which may indicate underlying weaknesses in the labor market. On the other hand, the building permits growth of 16.86% year-over-year is a top-tier performance, suggesting a thriving construction sector. The cost of living composite score of 2.08, corresponding to a 66th percentile ranking, implies that Phoenix is more affordable than many other cities.
+However, beneath this positive surface, signs of economic deceleration emerge. Nonfarm employment growth lags at +0.87% year-over-year, a risk worth watching. The housing market shows mixed signals, with homes selling in 55 days on average, but building permits are growing at an above-average rate of +16.86% year-over-year, indicating that housing supply is keeping pace with demand.
 
-Phoenix offers businesses a skilled and engaged workforce, as well as a relatively affordable cost of living, making it an attractive location for corporate investment. However, the potential for labor market weaknesses to emerge, as hinted at by the decline in weekly hours worked, could impact businesses relying on a stable and productive workforce.
+Phoenix-Mesa-Chandler offers a talented workforce and a relatively affordable cost of living, with a cost of living composite score of 2.08, making it more affordable than many of its peers. However, the primary risk is the city's below-average job growth, which may indicate a slowing economy and potentially impact the long-term viability of business operations in the area.

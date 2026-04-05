@@ -1,11 +1,11 @@
 # Nashville-Davidson--Murfreesboro--Franklin
 
-**Grade: A+ (Excellent) | 70.3th percentile | April 2026**
+**Grade: A (Very Good) | 65.4th percentile | April 2026**
 
 ---
 
-Nashville-Davidson--Murfreesboro--Franklin boasts an A+ overall grade, reflecting its exceptional labor market and workforce profile, with a 3.0% unemployment rate and 76.27% labor force participation, indicating a highly engaged and employed workforce.
+Nashville's economy earns an A grade, driven by its exceptionally tight labor market, with a 3.00% unemployment rate, and a deep labor pool, reflected in a 76.27% labor force participation rate. The city's +1.03% nonfarm employment growth YoY underscores its economically expanding market, making it an attractive location for businesses. A highly engaged workforce positions Nashville as a hub for knowledge-economy businesses and HQ locations.
 
-The city's strong labor market is characterized by a high office and professional share of the workforce, at 3.88, and a cost of living composite of 3.30, ranking in the 38th percentile, making it more affordable than many of its peers. This affordability, combined with the city's strong labor market, makes it an attractive location for businesses.
+Despite its strong labor market, wage growth remains sluggish at +1.62% YoY, indicating a lower cost environment for employers but potentially weak worker bargaining power. The housing market is slowing, with homes taking 9.1% more days to sell than last year, averaging 60 days on market. This slowdown, paired with a below-average cost of living score of 3.30, suggests normalization or softening demand.
 
-However, wage growth, at +1.62% YoY, is surprisingly sluggish, ranking below average, which may suggest that workers are not yet seeing significant pay increases, despite the city's overall economic strength. This disparity between a tight labor market and modest wage growth is a primary risk, as the city's wage growth may eventually catch up with its strong labor market, potentially increasing labor costs and eroding the city's competitive advantage.
+Nashville offers businesses a unique combination of a tight labor market, deep professional talent pool, and relatively low costs, making it an attractive location for companies seeking to tap into a skilled workforce. However, the primary risk lies in the potential for softening demand, as indicated by the slowing housing market and sluggish wage growth, which could impact the city's long-term economic momentum.

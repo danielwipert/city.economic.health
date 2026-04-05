@@ -1,11 +1,11 @@
 # Chicago-Naperville-Elgin
 
-**Grade: C (Very Poor) | 37.8th percentile | April 2026**
+**Grade: C+ (Poor) | 39.9th percentile | April 2026**
 
 ---
 
-Chicago-Naperville-Elgin metro area earns a C grade, reflecting a lackluster economic performance, with a high unemployment rate of 4.50% and a 27.41% year-over-year decline in building permits, indicating limited job opportunities and a stagnant construction sector.
+Chicago's economic character is defined by its labor market slack and housing supply constraints, with a single most important takeaway being the city's housing supply constraints posing a significant risk to businesses. With an unemployment rate of 4.50%, the city's labor market is experiencing slack, which could make hiring easier but also potentially weaken local consumer demand. The labor force participation rate of 64.75% is a mild positive, indicating a relatively available workforce.
 
-The labor force participation rate is a notable bright spot, with 64.75% of the population actively working or seeking employment, suggesting a mismatch between available jobs and skilled workers. The sharp decline in building permits and days on market, with homes selling 7% faster than last year, may indicate a tightening housing market, which could lead to increased costs and reduced affordability for businesses and employees.
+The sharp decline in building permits, down 27.41% year-over-year, suggests a contracting housing supply, which could lead to future affordability stress and workforce attraction difficulties. Homes are selling faster than in most metros, with an average of 40 days on market, and this pace is accelerating, with a 7.0% year-over-year decline in days on market. This could be a sign of a competitive market for buyers, but given the weak building permits, it may also be a thin-supply illusion rather than genuine demand strength.
 
-The Chicago-Naperville-Elgin metro area offers a relatively stable labor market, but its sluggish construction sector and potential housing affordability issues pose significant risks. Businesses considering this location must weigh the benefits of a skilled and active workforce against the potential drawbacks of a stagnant economy and rising housing costs.
+Chicago offers a business a labor market with some slack and a relatively available workforce, but the primary risk is the city's housing supply constraints, which could lead to affordability stress and workforce attraction difficulties. The sharp decline in building permits and the accelerating pace of home sales suggest a potentially challenging environment for relocating workers to find affordable housing, which could be a significant caveat for businesses considering locating in the city.

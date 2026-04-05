@@ -1,11 +1,11 @@
 # St. Louis
 
-**Grade: C+ (Poor) | 40.2th percentile | April 2026**
+**Grade: B- (Below Average) | 44.5th percentile | April 2026**
 
 ---
 
-St. Louis metro area earns a C+ overall grade, with a notable weakness in its labor market, characterized by stagnant nonfarm employment growth of -0.01% year-over-year and hourly wage growth of just 0.66%, placing it in the bottom tier.
+St. Louis earns a B- grade, ranking 44.5th among 50 US metros, with a low unemployment rate of 3.50% and above-average labor force participation of 65.27%, indicating a constructive labor market. However, stagnant wage growth of +0.66% YoY raises concerns about consumer spending power and market health.
 
-The cost of living composite score of 4.24, indicating a low cost of living, is an attractive feature for businesses and talent alike. However, this advantage is tempered by the lackluster performance of key labor market indicators, including a 3.50% unemployment rate, above average but overshadowed by stagnant growth. The decline in weekly hours worked, down 1.80% from its own trend, suggests a lack of momentum in the local economy.
+The housing market is nuanced, with homes taking an average of 55 days to sell, a moderate pace that is slowing down with a +3.8% YoY increase in days on market. The high cost of living composite score of 4.24, indicating one of the most expensive metros, exacerbates concerns about talent acquisition and real consumer spending power.
 
-The bottom line is that St. Louis offers a low-cost operating environment, but businesses must be cautious about the sluggish labor market and lack of wage growth. The primary risk is that the area's economic stagnation may limit the availability of skilled workers and hinder long-term growth prospects, making it a challenging location for businesses seeking to expand or relocate.
+St. Louis offers a relatively stable labor market, but with significant concerns around affordability and consumer spending power. The primary risk for businesses locating in St. Louis is the potential for softening demand and decreased affordability, which could impact growth and profitability.

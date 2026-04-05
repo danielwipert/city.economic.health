@@ -1,11 +1,11 @@
 # Raleigh-Cary
 
-**Grade: A+ (Excellent) | 78.9th percentile | April 2026**
+**Grade: A+ (Excellent) | 75.6th percentile | April 2026**
 
 ---
 
-Raleigh-Cary metro area earns an A+ grade, driven by its exceptional economic character, with a remarkably low 3.0% unemployment rate and 1.25% year-over-year nonfarm employment growth. This strong and expanding labor force is further underscored by a high office and professional share of 4.39, indicating a highly skilled and educated workforce.
+Raleigh's A+ overall grade is driven by its exceptional labor market, with a 3.0% unemployment rate and 67.67% labor force participation, indicating a deep and engaged workforce. The city's 1.25% year-over-year nonfarm employment growth further underscores its economic vitality, making it a highly competitive market where businesses face significant hiring challenges.
 
-While the city's economy appears robust, there are underlying concerns. The cost of living composite score of 78th percentile reveals that Raleigh-Cary is less affordable than many of its peers. This tension between a strong labor market and rising costs is worth monitoring, particularly as wage growth of 4.51% year-over-year is not exceptionally high. The 38.82% year-over-year increase in building permits may signal an influx of new residents and businesses, potentially exacerbating affordability concerns.
+Despite an above-average cost of living, Raleigh's housing market is characterized by a moderate 60-day average time on market, which is slowing down by 13.2% year-over-year. This stabilization is a positive development, given the city's strong employment growth and aggressive expansion of housing supply, as evidenced by a 38.82% year-over-year increase in building permits. The tension between a fast-moving housing market and an affordable cost of living is worth monitoring, as demand may eventually outpace supply and erode the city's affordability advantage.
 
-The Raleigh-Cary metro area offers businesses a highly skilled and growing workforce, making it an attractive location. However, the primary risk is that the city's rising cost of living may erode its competitive edge, making it essential for decision-makers to carefully weigh the benefits of this market against its growing affordability challenges.
+Raleigh offers businesses a highly skilled and dedicated workforce, a strong and expanding economy, and a relatively affordable cost of living. However, the primary risk is that the city's housing market, while currently stabilizing, may eventually become a barrier to attracting and retaining talent if demand continues to outpace supply.

@@ -1,11 +1,11 @@
 # Birmingham
 
-**Grade: B+ (Above Average) | 58.5th percentile | April 2026**
+**Grade: A- (Good) | 61.7th percentile | April 2026**
 
 ---
 
-Birmingham's B+ overall grade reflects a city with a strong labor market, driven by a remarkably low unemployment rate of 2.20% and a surge in nonfarm employment growth of 0.61% year-over-year. The city's top-tier performance in weekly hours worked, with a 1.73% increase versus its own trend, further underscores its economic vitality. However, this growth is not without its challenges, as wage growth has been stagnant, with a -0.12% year-over-year decline, suggesting that the city's low unemployment rate may be putting upward pressure on labor costs.
+Birmingham's economy is characterized by a remarkably tight labor market, with an unemployment rate of 2.20%, indicating intense competition for workers, and a 0.61% year-over-year increase in nonfarm employment, suggesting an economically expanding market. The labor force participation rate of 60.56% reveals a shallow labor pool, which may constrain business growth despite the low unemployment rate.
 
-The city's low labor force participation rate of 60.56% and below-average office and professional share of 1.47 suggest that the city's workforce may not be as skilled or deep as its low unemployment rate would suggest. The bottom-tier wage growth and the relatively slow days on market for housing, with a -1.4% year-over-year decline, indicate that the city's economy may be facing some headwinds. The top-tier building permits growth of 55.25% year-over-year is a leading indicator worth watching, as it suggests that the city is investing in its future and may be poised for further growth.
+The city's labor market tells a nuanced story, with conflicting signals. While the low unemployment rate and strong employment growth suggest a thriving economy, the stagnant wage growth of -0.12% year-over-year raises concerns about consumer spending power. The below-average office and professional worker share, ranking in the 20th percentile, may pose challenges for businesses seeking specialized talent.
 
-Birmingham offers businesses a highly competitive labor market with extremely low unemployment, but the primary risk is that stagnant wage growth may limit the city's ability to attract and retain top talent. The city's unique combination of low unemployment and sluggish wage growth makes it an attractive location for businesses seeking to minimize labor costs, but it may require additional investment in workforce development to unlock its full potential.
+Birmingham offers businesses a dynamic and growing economy with a highly competitive labor market, but the primary risk lies in the potential constraints posed by a shallow labor pool and stagnant wage growth. Decision-makers should carefully weigh the benefits of rapid job creation against the challenges of attracting and retaining top talent in this tight labor market.

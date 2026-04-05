@@ -1,11 +1,11 @@
 # Columbus
 
-**Grade: A- (Good) | 62.4th percentile | April 2026**
+**Grade: A- (Good) | 60.2th percentile | April 2026**
 
 ---
 
-Columbus earns an A- grade, driven by a strong labor market with 1.17% year-over-year nonfarm employment growth, outpacing many peers. The city's 65.61% labor force participation rate indicates a talented and engaged workforce. The office and professional share of the workforce is a notable 3.78, reflecting a high degree of specialization and expertise.
+Columbus earns an A- grade, driven by its strong economic momentum, with nonfarm employment growth of +1.17% YoY, ranking in the 84th percentile, and a deep professional talent pool, ranking in the 90th percentile for office and professional worker share. This combination suggests a knowledge-economy hub with a strong foundation for businesses requiring specialized skills.
 
-However, beneath this strong surface, wage growth lags at 0.86% year-over-year, behind the national average. This may impact the city's ability to attract and retain top talent. On the other hand, building permits are up 8.67% year-over-year, suggesting a strong pipeline of new development.
+Despite the strong employment growth, wage growth remains sluggish at +0.86% YoY, ranking in the 20th percentile, indicating a lower cost environment for employers, but also raising concerns about worker bargaining power or softening demand. The housing market is slowing, with days on market increasing by 12.2% YoY to an average of 55 days, ranking in the 88th percentile.
 
-Columbus offers a unique combination of a skilled workforce, strong labor market growth, and high specialization, making it an attractive location for companies seeking to expand or relocate. However, the slow pace of wage growth poses a risk, potentially limiting the city's long-term growth prospects.
+Columbus offers businesses a unique combination of strong job growth, a deep professional talent pool, and a stabilizing housing market. However, the primary risk lies in the sluggish wage growth, which may signal underlying weaknesses in the labor market and potentially impact the city's long-term economic momentum.

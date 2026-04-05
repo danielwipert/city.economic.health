@@ -1,0 +1,495 @@
+:root {
+  --color-primary:    #0D9488;
+  --color-primary-dk: #0A7A70;
+  --color-bg:         #FFFFFF;
+  --color-bg-alt:     #F9FAFB;
+  --color-text:       #111827;
+  --color-text-muted: #6B7280;
+  --color-border:     #E5E7EB;
+  --color-green:      #059669;
+  --color-amber:      #D97706;
+  --color-red:        #DC2626;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Segoe UI", Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+a { color: var(--color-primary); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--color-primary-dk); }
+
+/* ── NAV ── */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  border-bottom: 2px solid var(--color-primary);
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+.nav-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-brand {
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  text-decoration: none;
+}
+.nav-brand:hover { color: var(--color-primary); text-decoration: none; }
+.nav-links { display: flex; gap: 24px; }
+.nav-links a { font-size: 0.9rem; font-weight: 500; color: var(--color-text-muted); }
+.nav-links a:hover { color: var(--color-primary); text-decoration: none; }
+
+/* ── SITE MAIN ── */
+.site-main { min-height: calc(100vh - 56px - 120px); }
+
+.content-wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ── HERO ── */
+.hero {
+  background: var(--color-primary);
+  padding: 60px 20px;
+  color: #fff;
+}
+.hero-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.hero-eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+.hero-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+.hero-subtitle {
+  font-size: 1.05rem;
+  opacity: 0.9;
+  margin-bottom: 6px;
+}
+.hero-date {
+  font-size: 0.85rem;
+  opacity: 0.75;
+  margin-bottom: 28px;
+}
+.hero-tagline {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  max-width: 500px;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.btn:hover { opacity: 0.88; text-decoration: none; }
+.btn-white { background: #fff; color: var(--color-primary); }
+.btn-teal { background: var(--color-primary); color: #fff; border: 1px solid rgba(255,255,255,0.3); }
+.btn-outline { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,0.6); }
+
+/* ── PERFORMERS STRIPS ── */
+.strip-section { padding: 40px 0; }
+.strip-section + .strip-section { padding-top: 0; }
+.strip-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: var(--color-text-muted);
+}
+.city-cards {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.city-card {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 120px;
+  flex: 1;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: box-shadow 0.15s;
+}
+.city-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-decoration: none; color: var(--color-text); }
+.card-rank {
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+.card-name { font-weight: 700; font-size: 0.9rem; line-height: 1.2; }
+.card-bottom { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 2px; }
+.card-score { font-size: 0.8rem; color: var(--color-text-muted); }
+
+/* ── GRADE BADGE ── */
+.grade-badge {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* ── GRADE DISTRIBUTION ── */
+.grade-dist {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 36px 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+.grade-dist-block {
+  flex: 1;
+  min-width: 120px;
+  text-align: center;
+  padding: 20px 12px;
+  background: var(--color-bg-alt);
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
+.dist-count {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+.dist-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 4px;
+}
+.dist-grades { font-size: 0.75rem; color: var(--color-text-muted); }
+
+/* ── CTA ── */
+.cta-section {
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 1px solid var(--color-border);
+}
+.cta-section h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.cta-section p {
+  color: var(--color-text-muted);
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+/* ── RANKINGS TABLE ── */
+.rankings-page { padding: 40px 0; }
+.page-header { margin-bottom: 28px; }
+.page-header h1 { font-size: 1.8rem; font-weight: 800; margin-bottom: 6px; }
+.page-header p { color: var(--color-text-muted); font-size: 0.9rem; }
+
+.rankings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+.rankings-table th {
+  text-align: left;
+  padding: 10px 12px;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  border-bottom: 2px solid var(--color-border);
+  white-space: nowrap;
+}
+.rankings-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: middle;
+}
+.rankings-table tbody tr:hover { background: var(--color-bg-alt); }
+.rankings-table tbody tr:hover td { }
+.rank-num { color: var(--color-text-muted); font-size: 0.8rem; font-weight: 600; }
+.metro-primary { font-weight: 700; }
+.metro-secondary { font-size: 0.78rem; color: var(--color-text-muted); display: block; }
+.score-val { font-weight: 700; }
+.metric-val { color: var(--color-text-muted); }
+td a { color: var(--color-text); font-weight: 700; }
+td a:hover { color: var(--color-primary); text-decoration: none; }
+
+/* ── CITY HEADER BAND ── */
+.city-header {
+  color: #fff;
+  padding: 36px 20px;
+}
+.city-header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+.city-header-left { flex: 1; }
+.city-header-right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+.rank-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+.city-title { font-size: 2.5rem; font-weight: 700; line-height: 1.1; margin-bottom: 4px; }
+.metro-name { font-size: 1rem; opacity: 0.85; }
+.grade-letter { font-size: 4rem; font-weight: 800; line-height: 1; }
+.grade-desc { font-size: 1rem; font-weight: 600; opacity: 0.9; text-transform: uppercase; letter-spacing: 0.05em; }
+.percentile-score { font-size: 1.2rem; font-weight: 700; opacity: 0.9; margin-top: 4px; }
+.rank-of { font-size: 0.85rem; opacity: 0.75; }
+
+/* ── CITY BODY ── */
+.city-body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 36px 20px;
+}
+.city-columns {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  gap: 40px;
+  margin-bottom: 36px;
+}
+
+/* ── SCORECARD ── */
+.section-title {
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border);
+}
+.metric-row {
+  display: grid;
+  grid-template-columns: 140px 1fr 32px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.metric-label { }
+.metric-name { font-size: 0.82rem; font-weight: 600; display: block; }
+.metric-weight { font-size: 0.65rem; color: var(--color-text-muted); display: block; }
+.metric-bar-track {
+  height: 8px;
+  background: var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.metric-bar-fill { height: 8px; border-radius: 4px; }
+.metric-score { font-size: 0.78rem; font-weight: 700; text-align: right; }
+
+/* ── KEY INDICATORS ── */
+.indicators-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.stat-tile {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+.stat-label {
+  font-size: 0.62rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 6px;
+}
+.stat-value { font-size: 1.5rem; font-weight: 800; line-height: 1; margin-bottom: 3px; }
+.stat-sub { font-size: 0.7rem; color: var(--color-text-muted); }
+
+/* ── SIGNAL ── */
+.signal-section { margin-bottom: 28px; }
+.signal-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.signal-desc { font-size: 0.88rem; color: var(--color-text-muted); }
+
+/* ── ECONOMIC ANALYSIS ── */
+.analysis-section { margin-bottom: 36px; }
+.analysis-section p {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  margin-bottom: 14px;
+}
+.analysis-section p:last-child { margin-bottom: 0; }
+
+/* ── CITY NAVIGATION ── */
+.city-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.88rem;
+}
+.city-nav a { color: var(--color-primary); font-weight: 600; }
+.city-nav-back { color: var(--color-text-muted); font-size: 0.82rem; }
+
+/* ── METHODOLOGY ── */
+.methodology-body { padding: 48px 0; }
+.methodology-body h1 { font-size: 1.8rem; font-weight: 800; margin-bottom: 8px; }
+.methodology-body .subtitle { color: var(--color-text-muted); margin-bottom: 40px; font-size: 0.9rem; }
+.methodology-body h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text);
+  margin: 36px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border);
+}
+.methodology-body p {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  margin-bottom: 12px;
+}
+.methodology-body ul {
+  margin: 0 0 16px 20px;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+.methodology-body li { margin-bottom: 6px; }
+.meth-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  margin-bottom: 20px;
+}
+.meth-table th {
+  text-align: left;
+  padding: 8px 12px;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  border-bottom: 2px solid var(--color-border);
+}
+.meth-table td {
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--color-border);
+}
+.meth-table tr:last-child td { border-bottom: none; }
+.grade-threshold-table { }
+.weight-bold { font-weight: 700; }
+
+/* ── FOOTER ── */
+.site-footer {
+  background: var(--color-bg-alt);
+  border-top: 1px solid var(--color-border);
+  padding: 24px 20px;
+  margin-top: 0;
+}
+.footer-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footer-sources { font-size: 0.75rem; color: var(--color-text-muted); line-height: 1.5; }
+.footer-note { font-size: 0.72rem; color: var(--color-text-muted); opacity: 0.75; }
+
+/* ── UTILITY ── */
+.mt-8  { margin-top: 8px; }
+.mt-16 { margin-top: 16px; }
+.mt-24 { margin-top: 24px; }
+.text-muted { color: var(--color-text-muted); }
+
+/* ── MOBILE ── */
+@media (max-width: 768px) {
+  .hero-title { font-size: 1.7rem; }
+  .city-title { font-size: 1.8rem; }
+  .grade-letter { font-size: 2.8rem; }
+  .city-columns { grid-template-columns: 1fr; gap: 24px; }
+  .city-header-inner { flex-direction: column; }
+  .city-header-right { align-items: flex-start; text-align: left; }
+  .city-cards { flex-direction: column; }
+  .city-card { min-width: auto; }
+  .grade-dist { gap: 10px; }
+  .indicators-grid { grid-template-columns: 1fr 1fr; }
+
+  /* Rankings: hide lower-priority columns */
+  .hide-mobile { display: none; }
+
+  .metric-row { grid-template-columns: 110px 1fr 28px; }
+  .nav-links { gap: 14px; }
+  .nav-brand { font-size: 0.8rem; }
+}
+
+@media (max-width: 480px) {
+  .indicators-grid { grid-template-columns: 1fr; }
+  .hero { padding: 36px 16px; }
+  .city-header { padding: 24px 16px; }
+  .city-body { padding: 24px 16px; }
+}

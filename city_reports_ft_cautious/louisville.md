@@ -1,11 +1,11 @@
 # Louisville-Jefferson County
 
-**Grade: C+ (Poor) | 43.9th percentile | April 2026**
+**Grade: B (Average) | 50.2th percentile | April 2026**
 
 ---
 
-A C+ overall grade for the Louisville-Jefferson County metro area reflects a labor market with notable strengths and weaknesses, with a 3.10% unemployment rate indicating a tight job market. However, this is offset by a labor force participation rate of 62.74%, indicating a relatively small share of the population is actively working or seeking work.
+Louisville's economy earns a B grade, reflecting its average standing among 50 US metros, with a tight labor market and low unemployment rate of 3.10% posing significant hiring competition for businesses. However, this is offset by a below-average labor force participation rate of 62.74%, indicating a shallow labor pool.
 
-The labor market is under pressure, with a nonfarm employment growth rate contracting by 0.06% year-over-year, and a labor force participation rate below average. The cost of living composite, at 3.32, is below average, suggesting a relatively affordable environment, but this is not enough to offset the labor market concerns.
+The city's nonfarm employment growth has been sluggish, with a year-over-year change of -0.06%, signaling economic deceleration. The cost of living composite score of 3.32, below average, suggests that businesses may need to offer wage premiums to attract talent. The housing market is also notable, with homes selling in 50 days on market, a relatively fast pace.
 
-The Louisville-Jefferson County metro offers a business a relatively low-cost environment and a tight labor market, but the primary risk is the potential for labor underutilization and reduced productivity. With weekly hours worked declining and labor force participation lagging, companies may face challenges in finding and retaining skilled workers, or in maximizing their output, making this market a cautious choice for business expansion or relocation.
+In summary, Louisville's business environment offers a tight labor market and relatively low cost of living, but the primary risk is the shallow labor pool and sluggish employment growth, posing hiring challenges and the need to offer competitive wages to attract talent.

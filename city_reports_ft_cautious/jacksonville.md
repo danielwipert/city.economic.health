@@ -1,11 +1,11 @@
 # Jacksonville
 
-**Grade: C+ (Poor) | 43.1th percentile | April 2026**
+**Grade: B- (Below Average) | 46.5th percentile | April 2026**
 
 ---
 
-Jacksonville's C+ grade is driven by its struggling labor market and housing supply, with a 4.60% unemployment rate and 60.38% labor force participation rate, both ranking in the bottom tier, making it challenging for businesses to attract and retain talent. The city's 32.70% year-over-year decline in building permits further exacerbates labor shortages.
+Jacksonville's economic character is defined by its labor market weaknesses, with an unemployment rate of 4.60% and labor force participation at 60.38%, making it a challenging location for businesses. However, the city's cost of living composite of 1.31, indicating it is among the most affordable metros, and above-average wage growth of 5.00% YoY, suggest it could offer a competitive edge for talent attraction and retention.
 
-Despite these challenges, Jacksonville's 5.00% year-over-year increase in hourly wages and 0.68% growth in nonfarm employment suggest a degree of economic vitality. The city's cost of living composite ranking in the 92nd percentile indicates that Jacksonville is one of the more affordable cities, which could be a draw for businesses and talent alike.
+The city's housing market is experiencing a sharp decline in building permits, down 32.70% YoY, and an increase in days on market, up 9.1% YoY to an average of 72 days, indicating a contraction in housing supply and a slowing market. This slowdown may be a sign of demand erosion rather than a healthy normalization of the market, putting upward pressure on prices and eroding the affordability advantage.
 
-Ultimately, Jacksonville offers businesses an affordable cost of living and a growing economy, but the primary risk lies in its struggling labor market and housing supply. As a business location, Jacksonville's appeal is tempered by the need to navigate these challenges, making it a higher-risk, higher-reward proposition that demands careful consideration.
+In summary, Jacksonville's unique combination of affordability and wage growth makes it an attractive location for talent attraction and retention, but its labor market weaknesses and declining housing supply pose significant risks, particularly if demand erosion continues to slow the housing market and put upward pressure on prices.

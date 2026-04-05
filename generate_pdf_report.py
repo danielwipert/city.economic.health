@@ -9,10 +9,17 @@ Playwright uses full Chromium — identical CSS support, better output quality.
 Output: pdf_output/city_economic_report_YYYY-MM-DD.pdf
 """
 
+import sys
 import json
 import re
 from pathlib import Path
 from datetime import datetime
+
+# Ensure UTF-8 output on Windows (avoids charmap errors with → ✓ — characters)
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8")
+if sys.stderr.encoding and sys.stderr.encoding.lower() != "utf-8":
+    sys.stderr.reconfigure(encoding="utf-8")
 from jinja2 import Environment, FileSystemLoader
 from playwright.sync_api import sync_playwright
 
@@ -292,6 +299,12 @@ def main():
     print(f'\n✓ PDF saved:    {pdf_path.name}')
     print(f'✓ Latest copy:  {latest_path.name}')
     print(f'  Pages: cover + rankings + {len(metros)} city pages = ~{len(metros) + 2} total')
+
+    # Generate website after PDF
+    print('\n→ Generating website...')
+    import subprocess
+    subprocess.run([sys.executable, str(SCRIPT_DIR / 'generate_site.py')], check=True)
+
     print('\nDone.')
 
 

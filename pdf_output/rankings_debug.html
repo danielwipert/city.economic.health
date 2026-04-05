@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+
+/* ─── PAGE SETUP ─────────────────────────────────────────────── */
+@page {
+  size: letter landscape;
+  margin: 14mm 16mm 14mm 16mm;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 9pt;
+  color: #0F172A;
+  background: #fff;
+}
+
+/* ─── PAGE HEADER ────────────────────────────────────────────── */
+.page-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 2.5px solid #0F2137;
+}
+
+.page-header-left {}
+
+.report-eyebrow {
+  font-size: 7pt;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #94A3B8;
+  margin-bottom: 4px;
+}
+
+.report-title {
+  font-size: 20pt;
+  font-weight: 700;
+  color: #0F2137;
+  line-height: 1.1;
+}
+
+.report-title span { color: #0284C7; }
+
+.page-header-right {
+  text-align: right;
+}
+
+.report-meta {
+  font-size: 7.5pt;
+  color: #64748B;
+  line-height: 1.7;
+}
+
+/* ─── RANKINGS TABLE ─────────────────────────────────────────── */
+.rankings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 8pt;
+}
+
+.rankings-table thead tr {
+  background: #0F2137;
+  color: #fff;
+}
+
+.rankings-table thead th {
+  padding: 8px 9px 7px 9px;
+  text-align: left;
+  font-weight: 600;
+  white-space: normal;
+  vertical-align: bottom;
+  line-height: 1.3;
+}
+
+.rankings-table thead th.num {
+  text-align: right;
+}
+
+.th-main {
+  display: block;
+  font-size: 7.5pt;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #F8FAFC;
+}
+
+.th-sub {
+  display: block;
+  font-size: 6pt;
+  font-weight: 400;
+  color: #94A3B8;
+  margin-top: 2px;
+  letter-spacing: 0.2px;
+}
+
+.rankings-table tbody tr:nth-child(even) { background: #F8FAFC; }
+
+.rankings-table tbody td {
+  padding: 6px 9px;
+  border-bottom: 1px solid #E2E8F0;
+  vertical-align: middle;
+}
+
+.rankings-table tbody td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: #374151;
+}
+
+/* zebra dividers every 10 rows */
+.rankings-table tbody tr:nth-child(10n) td {
+  border-bottom: 2px solid #CBD5E1;
+}
+
+.rank-num {
+  color: #9CA3AF;
+  font-weight: 600;
+  font-size: 7.5pt;
+}
+
+.city-name-cell {
+  font-weight: 600;
+  color: #0F172A;
+  font-size: 8.5pt;
+}
+
+.metro-name-cell {
+  font-size: 6.5pt;
+  color: #9CA3AF;
+  margin-top: 1px;
+}
+
+.grade-pill {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 8pt;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #fff;
+  min-width: 34px;
+  text-align: center;
+}
+
+.score-bar-cell { width: 100px; }
+
+.score-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.score-bar-bg {
+  flex: 1;
+  height: 6px;
+  background: #E2E8F0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.score-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+}
+
+.score-val {
+  font-size: 7.5pt;
+  font-variant-numeric: tabular-nums;
+  color: #374151;
+  width: 28px;
+  text-align: right;
+  font-weight: 600;
+}
+
+/* ─── PAGE FOOTER ────────────────────────────────────────────── */
+.page-footer {
+  margin-top: 14px;
+  padding-top: 8px;
+  border-top: 1px solid #E2E8F0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  font-size: 6.5pt;
+  color: #94A3B8;
+  line-height: 1.6;
+}
+
+.footer-right {
+  font-size: 6.5pt;
+  color: #94A3B8;
+  text-align: right;
+}
+
+</style>
+</head>
+<body>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="page-header-left">
+    <div class="report-eyebrow">Economic Intelligence Series</div>
+    <div class="report-title">U.S. Metro <span>Economic Health</span> — Full Rankings</div>
+  </div>
+  <div class="page-header-right">
+    <div class="report-meta">
+      50 Metropolitan Statistical Areas &nbsp;·&nbsp; Sorted by Composite Score<br>
+      85% Employment / 15% Housing Weighting &nbsp;·&nbsp; April 2026<br>
+      Sources: BLS · FRED · Census Bureau · Realtor.com
+    </div>
+  </div>
+</div>
+
+<!-- RANKINGS TABLE -->
+<table class="rankings-table">
+  <thead>
+    <tr>
+      <th style="width:26px">
+        <span class="th-main">#</span>
+      </th>
+      <th style="min-width:130px">
+        <span class="th-main">Metro Area</span>
+        <span class="th-sub">Metropolitan Statistical Area</span>
+      </th>
+      <th style="width:50px">
+        <span class="th-main">Grade</span>
+        <span class="th-sub">Letter grade</span>
+      </th>
+      <th class="num score-bar-cell">
+        <span class="th-main">Composite Score</span>
+        <span class="th-sub">Weighted percentile rank</span>
+      </th>
+      <th class="num" style="width:72px">
+        <span class="th-main">Unemployment Rate</span>
+        <span class="th-sub">% of labor force</span>
+      </th>
+      <th class="num" style="width:78px">
+        <span class="th-main">Wage Growth</span>
+        <span class="th-sub">Avg hourly earnings YoY</span>
+      </th>
+      <th class="num" style="width:82px">
+        <span class="th-main">Employment Growth</span>
+        <span class="th-sub">Nonfarm payrolls YoY</span>
+      </th>
+      <th class="num" style="width:78px">
+        <span class="th-main">Labor Force Participation</span>
+        <span class="th-sub">% of working-age adults</span>
+      </th>
+      <th class="num" style="width:82px">
+        <span class="th-main">Housing — Days on Market</span>
+        <span class="th-sub">Median days, current level</span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <td><span class="rank-num">1</span></td>
+      <td>
+        <div class="city-name-cell">Raleigh</div>
+        <div class="metro-name-cell">Raleigh-Cary</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#059669">A+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:75.6%; background:#059669"></div>
+          </div>
+          <span class="score-val">75.6</span>
+        </div>
+      </td>
+      <td class="num">3.0%</td>
+      <td class="num">+4.5%</td>
+      <td class="num">+1.2%</td>
+      <td class="num">67.7%</td>
+      <td class="num">60 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">2</span></td>
+      <td>
+        <div class="city-name-cell">Salt Lake City</div>
+        <div class="metro-name-cell">Salt Lake City-Murray</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#059669">A+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:73.6%; background:#059669"></div>
+          </div>
+          <span class="score-val">73.6</span>
+        </div>
+      </td>
+      <td class="num">3.4%</td>
+      <td class="num">+3.1%</td>
+      <td class="num">+1.8%</td>
+      <td class="num">72.8%</td>
+      <td class="num">49 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">3</span></td>
+      <td>
+        <div class="city-name-cell">Oklahoma City</div>
+        <div class="metro-name-cell">Oklahoma City</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#059669">A+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:69.8%; background:#059669"></div>
+          </div>
+          <span class="score-val">69.8</span>
+        </div>
+      </td>
+      <td class="num">3.6%</td>
+      <td class="num">+4.7%</td>
+      <td class="num">+0.5%</td>
+      <td class="num">65.7%</td>
+      <td class="num">58 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">4</span></td>
+      <td>
+        <div class="city-name-cell">Hartford</div>
+        <div class="metro-name-cell">Hartford-West Hartford-East Hartford</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#0D9488">A</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:65.5%; background:#0D9488"></div>
+          </div>
+          <span class="score-val">65.5</span>
+        </div>
+      </td>
+      <td class="num">2.7%</td>
+      <td class="num">-0.4%</td>
+      <td class="num">+1.9%</td>
+      <td class="num">64.7%</td>
+      <td class="num">46 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">5</span></td>
+      <td>
+        <div class="city-name-cell">Nashville</div>
+        <div class="metro-name-cell">Nashville-Davidson--Murfreesboro--Franklin</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#0D9488">A</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:65.4%; background:#0D9488"></div>
+          </div>
+          <span class="score-val">65.4</span>
+        </div>
+      </td>
+      <td class="num">3.0%</td>
+      <td class="num">+1.6%</td>
+      <td class="num">+1.0%</td>
+      <td class="num">76.3%</td>
+      <td class="num">60 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">6</span></td>
+      <td>
+        <div class="city-name-cell">Pittsburgh</div>
+        <div class="metro-name-cell">Pittsburgh</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#0D9488">A</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:64.3%; background:#0D9488"></div>
+          </div>
+          <span class="score-val">64.3</span>
+        </div>
+      </td>
+      <td class="num">3.6%</td>
+      <td class="num">+8.7%</td>
+      <td class="num">+1.1%</td>
+      <td class="num">60.3%</td>
+      <td class="num">90 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">7</span></td>
+      <td>
+        <div class="city-name-cell">Richmond</div>
+        <div class="metro-name-cell">Richmond</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#0D9488">A</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:63.2%; background:#0D9488"></div>
+          </div>
+          <span class="score-val">63.2</span>
+        </div>
+      </td>
+      <td class="num">3.3%</td>
+      <td class="num">+5.1%</td>
+      <td class="num">+0.3%</td>
+      <td class="num">64.2%</td>
+      <td class="num">48 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">8</span></td>
+      <td>
+        <div class="city-name-cell">Birmingham</div>
+        <div class="metro-name-cell">Birmingham</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#0284C7">A-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:61.7%; background:#0284C7"></div>
+          </div>
+          <span class="score-val">61.7</span>
+        </div>
+      </td>
+      <td class="num">2.2%</td>
+      <td class="num">-0.1%</td>
+      <td class="num">+0.6%</td>
+      <td class="num">60.6%</td>
+      <td class="num">70 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">9</span></td>
+      <td>
+        <div class="city-name-cell">Atlanta</div>
+        <div class="metro-name-cell">Atlanta-Sandy Springs-Roswell</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#0284C7">A-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:61.5%; background:#0284C7"></div>
+          </div>
+          <span class="score-val">61.5</span>
+        </div>
+      </td>
+      <td class="num">3.3%</td>
+      <td class="num">+8.3%</td>
+      <td class="num">-0.0%</td>
+      <td class="num">64.6%</td>
+      <td class="num">56 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">10</span></td>
+      <td>
+        <div class="city-name-cell">Columbus</div>
+        <div class="metro-name-cell">Columbus</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#0284C7">A-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:60.2%; background:#0284C7"></div>
+          </div>
+          <span class="score-val">60.2</span>
+        </div>
+      </td>
+      <td class="num">3.6%</td>
+      <td class="num">+0.9%</td>
+      <td class="num">+1.2%</td>
+      <td class="num">65.6%</td>
+      <td class="num">55 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">11</span></td>
+      <td>
+        <div class="city-name-cell">Austin</div>
+        <div class="metro-name-cell">Austin-Round Rock-San Marcos</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#2563EB">B+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:58.1%; background:#2563EB"></div>
+          </div>
+          <span class="score-val">58.1</span>
+        </div>
+      </td>
+      <td class="num">3.2%</td>
+      <td class="num">+3.2%</td>
+      <td class="num">+0.7%</td>
+      <td class="num">74.0%</td>
+      <td class="num">76 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">12</span></td>
+      <td>
+        <div class="city-name-cell">Denver</div>
+        <div class="metro-name-cell">Denver-Aurora-Centennial</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#2563EB">B+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:57.5%; background:#2563EB"></div>
+          </div>
+          <span class="score-val">57.5</span>
+        </div>
+      </td>
+      <td class="num">3.6%</td>
+      <td class="num">+6.6%</td>
+      <td class="num">+0.1%</td>
+      <td class="num">70.4%</td>
+      <td class="num">38 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">13</span></td>
+      <td>
+        <div class="city-name-cell">Memphis</div>
+        <div class="metro-name-cell">Memphis</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#2563EB">B+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:56.6%; background:#2563EB"></div>
+          </div>
+          <span class="score-val">56.6</span>
+        </div>
+      </td>
+      <td class="num">4.0%</td>
+      <td class="num">+6.2%</td>
+      <td class="num">+0.1%</td>
+      <td class="num">60.5%</td>
+      <td class="num">79 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">14</span></td>
+      <td>
+        <div class="city-name-cell">Phoenix</div>
+        <div class="metro-name-cell">Phoenix-Mesa-Chandler</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#2563EB">B+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:55.9%; background:#2563EB"></div>
+          </div>
+          <span class="score-val">55.9</span>
+        </div>
+      </td>
+      <td class="num">N/A</td>
+      <td class="num">+4.5%</td>
+      <td class="num">+0.9%</td>
+      <td class="num">66.3%</td>
+      <td class="num">55 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">15</span></td>
+      <td>
+        <div class="city-name-cell">Miami</div>
+        <div class="metro-name-cell">Miami-Fort Lauderdale-West Palm Beach</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#2563EB">B+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:55.8%; background:#2563EB"></div>
+          </div>
+          <span class="score-val">55.8</span>
+        </div>
+      </td>
+      <td class="num">3.5%</td>
+      <td class="num">+7.1%</td>
+      <td class="num">+0.2%</td>
+      <td class="num">62.5%</td>
+      <td class="num">83 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">16</span></td>
+      <td>
+        <div class="city-name-cell">Indianapolis</div>
+        <div class="metro-name-cell">Indianapolis-Carmel-Greenwood</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#2563EB">B+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:55.5%; background:#2563EB"></div>
+          </div>
+          <span class="score-val">55.5</span>
+        </div>
+      </td>
+      <td class="num">2.5%</td>
+      <td class="num">+5.1%</td>
+      <td class="num">+0.1%</td>
+      <td class="num">66.9%</td>
+      <td class="num">73 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">17</span></td>
+      <td>
+        <div class="city-name-cell">Philadelphia</div>
+        <div class="metro-name-cell">Philadelphia-Camden-Wilmington</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#2563EB">B+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:55.2%; background:#2563EB"></div>
+          </div>
+          <span class="score-val">55.2</span>
+        </div>
+      </td>
+      <td class="num">4.0%</td>
+      <td class="num">+2.2%</td>
+      <td class="num">+1.2%</td>
+      <td class="num">64.0%</td>
+      <td class="num">53 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">18</span></td>
+      <td>
+        <div class="city-name-cell">Dallas</div>
+        <div class="metro-name-cell">Dallas-Fort Worth-Arlington</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#4F46E5">B</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:53.6%; background:#4F46E5"></div>
+          </div>
+          <span class="score-val">53.6</span>
+        </div>
+      </td>
+      <td class="num">3.6%</td>
+      <td class="num">+3.1%</td>
+      <td class="num">+0.3%</td>
+      <td class="num">69.6%</td>
+      <td class="num">57 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">19</span></td>
+      <td>
+        <div class="city-name-cell">Los Angeles</div>
+        <div class="metro-name-cell">Los Angeles-Long Beach-Anaheim</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#4F46E5">B</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:52.5%; background:#4F46E5"></div>
+          </div>
+          <span class="score-val">52.5</span>
+        </div>
+      </td>
+      <td class="num">4.8%</td>
+      <td class="num">+5.3%</td>
+      <td class="num">+1.8%</td>
+      <td class="num">63.6%</td>
+      <td class="num">44 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">20</span></td>
+      <td>
+        <div class="city-name-cell">Houston</div>
+        <div class="metro-name-cell">Houston-Pasadena-The Woodlands</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#4F46E5">B</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:51.5%; background:#4F46E5"></div>
+          </div>
+          <span class="score-val">51.5</span>
+        </div>
+      </td>
+      <td class="num">4.2%</td>
+      <td class="num">+2.6%</td>
+      <td class="num">+0.4%</td>
+      <td class="num">64.5%</td>
+      <td class="num">54 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">21</span></td>
+      <td>
+        <div class="city-name-cell">Kansas City</div>
+        <div class="metro-name-cell">Kansas City</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#4F46E5">B</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:51.5%; background:#4F46E5"></div>
+          </div>
+          <span class="score-val">51.5</span>
+        </div>
+      </td>
+      <td class="num">3.5%</td>
+      <td class="num">+6.8%</td>
+      <td class="num">-0.3%</td>
+      <td class="num">67.9%</td>
+      <td class="num">57 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">22</span></td>
+      <td>
+        <div class="city-name-cell">San Antonio</div>
+        <div class="metro-name-cell">San Antonio-New Braunfels</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#4F46E5">B</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:51.3%; background:#4F46E5"></div>
+          </div>
+          <span class="score-val">51.3</span>
+        </div>
+      </td>
+      <td class="num">3.7%</td>
+      <td class="num">+1.8%</td>
+      <td class="num">+1.1%</td>
+      <td class="num">62.8%</td>
+      <td class="num">79 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">23</span></td>
+      <td>
+        <div class="city-name-cell">Louisville</div>
+        <div class="metro-name-cell">Louisville-Jefferson County</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#4F46E5">B</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:50.2%; background:#4F46E5"></div>
+          </div>
+          <span class="score-val">50.2</span>
+        </div>
+      </td>
+      <td class="num">3.1%</td>
+      <td class="num">+3.4%</td>
+      <td class="num">-0.1%</td>
+      <td class="num">62.7%</td>
+      <td class="num">50 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">24</span></td>
+      <td>
+        <div class="city-name-cell">New York</div>
+        <div class="metro-name-cell">New York Newark-Jersey City</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#64748B">B-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:48.7%; background:#64748B"></div>
+          </div>
+          <span class="score-val">48.7</span>
+        </div>
+      </td>
+      <td class="num">4.5%</td>
+      <td class="num">+4.8%</td>
+      <td class="num">+0.5%</td>
+      <td class="num">63.3%</td>
+      <td class="num">68 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">25</span></td>
+      <td>
+        <div class="city-name-cell">Boston</div>
+        <div class="metro-name-cell">Boston-Cambridge-Newton</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#64748B">B-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:48.4%; background:#64748B"></div>
+          </div>
+          <span class="score-val">48.4</span>
+        </div>
+      </td>
+      <td class="num">3.9%</td>
+      <td class="num">+1.4%</td>
+      <td class="num">+0.7%</td>
+      <td class="num">68.5%</td>
+      <td class="num">42 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">26</span></td>
+      <td>
+        <div class="city-name-cell">Charlotte</div>
+        <div class="metro-name-cell">Charlotte-Concord-Gastonia</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#64748B">B-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:48.3%; background:#64748B"></div>
+          </div>
+          <span class="score-val">48.3</span>
+        </div>
+      </td>
+      <td class="num">3.6%</td>
+      <td class="num">-1.5%</td>
+      <td class="num">+2.7%</td>
+      <td class="num">65.4%</td>
+      <td class="num">69 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">27</span></td>
+      <td>
+        <div class="city-name-cell">Tampa</div>
+        <div class="metro-name-cell">Tampa-St. Petersburg-Clearwater</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#64748B">B-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:46.9%; background:#64748B"></div>
+          </div>
+          <span class="score-val">46.9</span>
+        </div>
+      </td>
+      <td class="num">4.6%</td>
+      <td class="num">+4.9%</td>
+      <td class="num">+0.9%</td>
+      <td class="num">60.0%</td>
+      <td class="num">80 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">28</span></td>
+      <td>
+        <div class="city-name-cell">Jacksonville</div>
+        <div class="metro-name-cell">Jacksonville</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#64748B">B-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:46.5%; background:#64748B"></div>
+          </div>
+          <span class="score-val">46.5</span>
+        </div>
+      </td>
+      <td class="num">4.6%</td>
+      <td class="num">+5.0%</td>
+      <td class="num">+0.7%</td>
+      <td class="num">60.4%</td>
+      <td class="num">72 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">29</span></td>
+      <td>
+        <div class="city-name-cell">Seattle</div>
+        <div class="metro-name-cell">Seattle-Tacoma-Bellevue</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#64748B">B-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:46.0%; background:#64748B"></div>
+          </div>
+          <span class="score-val">46.0</span>
+        </div>
+      </td>
+      <td class="num">5.0%</td>
+      <td class="num">+7.6%</td>
+      <td class="num">-0.1%</td>
+      <td class="num">68.2%</td>
+      <td class="num">36 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">30</span></td>
+      <td>
+        <div class="city-name-cell">Grand Rapids</div>
+        <div class="metro-name-cell">Grand Rapids-Wyoming-Kentwood</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#64748B">B-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:44.8%; background:#64748B"></div>
+          </div>
+          <span class="score-val">44.8</span>
+        </div>
+      </td>
+      <td class="num">4.0%</td>
+      <td class="num">+3.1%</td>
+      <td class="num">+0.5%</td>
+      <td class="num">63.9%</td>
+      <td class="num">64 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">31</span></td>
+      <td>
+        <div class="city-name-cell">St. Louis</div>
+        <div class="metro-name-cell">St. Louis</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#64748B">B-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:44.5%; background:#64748B"></div>
+          </div>
+          <span class="score-val">44.5</span>
+        </div>
+      </td>
+      <td class="num">3.5%</td>
+      <td class="num">+0.7%</td>
+      <td class="num">-0.0%</td>
+      <td class="num">65.3%</td>
+      <td class="num">55 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">32</span></td>
+      <td>
+        <div class="city-name-cell">Providence</div>
+        <div class="metro-name-cell">Providence-Warwick</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#D97706">C+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:44.0%; background:#D97706"></div>
+          </div>
+          <span class="score-val">44.0</span>
+        </div>
+      </td>
+      <td class="num">4.3%</td>
+      <td class="num">+3.6%</td>
+      <td class="num">+0.6%</td>
+      <td class="num">50.8%</td>
+      <td class="num">49 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">33</span></td>
+      <td>
+        <div class="city-name-cell">Cleveland</div>
+        <div class="metro-name-cell">Cleveland</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#D97706">C+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:43.6%; background:#D97706"></div>
+          </div>
+          <span class="score-val">43.6</span>
+        </div>
+      </td>
+      <td class="num">3.4%</td>
+      <td class="num">-1.8%</td>
+      <td class="num">+0.6%</td>
+      <td class="num">58.0%</td>
+      <td class="num">55 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">34</span></td>
+      <td>
+        <div class="city-name-cell">Minneapolis</div>
+        <div class="metro-name-cell">Minneapolis-St. Paul-Bloomington</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#D97706">C+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:43.5%; background:#D97706"></div>
+          </div>
+          <span class="score-val">43.5</span>
+        </div>
+      </td>
+      <td class="num">4.0%</td>
+      <td class="num">+0.0%</td>
+      <td class="num">+0.6%</td>
+      <td class="num">69.0%</td>
+      <td class="num">40 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">35</span></td>
+      <td>
+        <div class="city-name-cell">Milwaukee</div>
+        <div class="metro-name-cell">Milwaukee-Waukesha</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#D97706">C+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:41.6%; background:#D97706"></div>
+          </div>
+          <span class="score-val">41.6</span>
+        </div>
+      </td>
+      <td class="num">3.1%</td>
+      <td class="num">+3.7%</td>
+      <td class="num">-0.9%</td>
+      <td class="num">63.2%</td>
+      <td class="num">39 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">36</span></td>
+      <td>
+        <div class="city-name-cell">Chicago</div>
+        <div class="metro-name-cell">Chicago-Naperville-Elgin</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#D97706">C+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:39.9%; background:#D97706"></div>
+          </div>
+          <span class="score-val">39.9</span>
+        </div>
+      </td>
+      <td class="num">4.5%</td>
+      <td class="num">+2.8%</td>
+      <td class="num">+0.6%</td>
+      <td class="num">64.8%</td>
+      <td class="num">40 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">37</span></td>
+      <td>
+        <div class="city-name-cell">Washington DC</div>
+        <div class="metro-name-cell">Washington-Arlington-Alexandria</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#D97706">C+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:39.9%; background:#D97706"></div>
+          </div>
+          <span class="score-val">39.9</span>
+        </div>
+      </td>
+      <td class="num">3.8%</td>
+      <td class="num">+1.4%</td>
+      <td class="num">-1.6%</td>
+      <td class="num">67.4%</td>
+      <td class="num">38 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">38</span></td>
+      <td>
+        <div class="city-name-cell">Fresno</div>
+        <div class="metro-name-cell">Fresno</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#D97706">C+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:39.7%; background:#D97706"></div>
+          </div>
+          <span class="score-val">39.7</span>
+        </div>
+      </td>
+      <td class="num">8.2%</td>
+      <td class="num">+7.6%</td>
+      <td class="num">+0.2%</td>
+      <td class="num">60.3%</td>
+      <td class="num">53 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">39</span></td>
+      <td>
+        <div class="city-name-cell">Las Vegas</div>
+        <div class="metro-name-cell">Las Vegas-Henderson-North Las Vegas</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#D97706">C+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:38.8%; background:#D97706"></div>
+          </div>
+          <span class="score-val">38.8</span>
+        </div>
+      </td>
+      <td class="num">5.2%</td>
+      <td class="num">+6.7%</td>
+      <td class="num">-0.8%</td>
+      <td class="num">65.0%</td>
+      <td class="num">53 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">40</span></td>
+      <td>
+        <div class="city-name-cell">Virginia Beach</div>
+        <div class="metro-name-cell">Virginia Beach-Chesapeake-Norfolk</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#D97706">C+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:38.6%; background:#D97706"></div>
+          </div>
+          <span class="score-val">38.6</span>
+        </div>
+      </td>
+      <td class="num">3.6%</td>
+      <td class="num">+10.2%</td>
+      <td class="num">-1.3%</td>
+      <td class="num">59.0%</td>
+      <td class="num">40 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">41</span></td>
+      <td>
+        <div class="city-name-cell">Baltimore</div>
+        <div class="metro-name-cell">Baltimore-Columbia-Towson</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#D97706">C+</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:38.5%; background:#D97706"></div>
+          </div>
+          <span class="score-val">38.5</span>
+        </div>
+      </td>
+      <td class="num">3.6%</td>
+      <td class="num">+1.2%</td>
+      <td class="num">-0.1%</td>
+      <td class="num">64.2%</td>
+      <td class="num">45 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">42</span></td>
+      <td>
+        <div class="city-name-cell">Riverside</div>
+        <div class="metro-name-cell">Riverside-San Bernardino-Ontario</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#EA580C">C</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:36.4%; background:#EA580C"></div>
+          </div>
+          <span class="score-val">36.4</span>
+        </div>
+      </td>
+      <td class="num">5.1%</td>
+      <td class="num">+7.5%</td>
+      <td class="num">+0.2%</td>
+      <td class="num">60.4%</td>
+      <td class="num">60 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">43</span></td>
+      <td>
+        <div class="city-name-cell">Cincinnati</div>
+        <div class="metro-name-cell">Cincinnati</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#EA580C">C</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:36.2%; background:#EA580C"></div>
+          </div>
+          <span class="score-val">36.2</span>
+        </div>
+      </td>
+      <td class="num">3.6%</td>
+      <td class="num">+1.5%</td>
+      <td class="num">-0.5%</td>
+      <td class="num">63.1%</td>
+      <td class="num">52 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">44</span></td>
+      <td>
+        <div class="city-name-cell">Portland</div>
+        <div class="metro-name-cell">Portland-Vancouver-Hillsboro</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#EA580C">C</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:35.4%; background:#EA580C"></div>
+          </div>
+          <span class="score-val">35.4</span>
+        </div>
+      </td>
+      <td class="num">4.9%</td>
+      <td class="num">+4.8%</td>
+      <td class="num">-0.7%</td>
+      <td class="num">66.2%</td>
+      <td class="num">68 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">45</span></td>
+      <td>
+        <div class="city-name-cell">San Jose</div>
+        <div class="metro-name-cell">San Jose-Sunnyvale-Santa Clara</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#EA580C">C</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:33.5%; background:#EA580C"></div>
+          </div>
+          <span class="score-val">33.5</span>
+        </div>
+      </td>
+      <td class="num">4.0%</td>
+      <td class="num">+0.6%</td>
+      <td class="num">-0.2%</td>
+      <td class="num">64.3%</td>
+      <td class="num">23 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">46</span></td>
+      <td>
+        <div class="city-name-cell">San Diego</div>
+        <div class="metro-name-cell">San Diego-Chula Vista-Carlsbad</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#DC2626">C-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:31.7%; background:#DC2626"></div>
+          </div>
+          <span class="score-val">31.7</span>
+        </div>
+      </td>
+      <td class="num">4.4%</td>
+      <td class="num">+2.4%</td>
+      <td class="num">+0.3%</td>
+      <td class="num">62.0%</td>
+      <td class="num">38 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">47</span></td>
+      <td>
+        <div class="city-name-cell">Orlando</div>
+        <div class="metro-name-cell">Orlando-Kissimmee-Sanford</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#DC2626">C-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:30.9%; background:#DC2626"></div>
+          </div>
+          <span class="score-val">30.9</span>
+        </div>
+      </td>
+      <td class="num">4.4%</td>
+      <td class="num">+0.4%</td>
+      <td class="num">+0.2%</td>
+      <td class="num">64.0%</td>
+      <td class="num">82 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">48</span></td>
+      <td>
+        <div class="city-name-cell">San Francisco</div>
+        <div class="metro-name-cell">San Francisco-Oakland-Fremont</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#DC2626">C-</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:29.3%; background:#DC2626"></div>
+          </div>
+          <span class="score-val">29.3</span>
+        </div>
+      </td>
+      <td class="num">4.1%</td>
+      <td class="num">+0.5%</td>
+      <td class="num">-0.5%</td>
+      <td class="num">64.5%</td>
+      <td class="num">30 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">49</span></td>
+      <td>
+        <div class="city-name-cell">Detroit</div>
+        <div class="metro-name-cell">Detroit-Warren-Dearborn</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#7C3AED">D</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:22.6%; background:#7C3AED"></div>
+          </div>
+          <span class="score-val">22.6</span>
+        </div>
+      </td>
+      <td class="num">4.7%</td>
+      <td class="num">-1.1%</td>
+      <td class="num">+0.0%</td>
+      <td class="num">61.3%</td>
+      <td class="num">56 days</td>
+    </tr>
+    
+    <tr>
+      <td><span class="rank-num">50</span></td>
+      <td>
+        <div class="city-name-cell">Sacramento</div>
+        <div class="metro-name-cell">Sacramento-Roseville-Folsom</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:#7C3AED">D</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:22.1%; background:#7C3AED"></div>
+          </div>
+          <span class="score-val">22.1</span>
+        </div>
+      </td>
+      <td class="num">4.8%</td>
+      <td class="num">+2.5%</td>
+      <td class="num">-0.3%</td>
+      <td class="num">60.1%</td>
+      <td class="num">41 days</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+<!-- PAGE FOOTER -->
+<div class="page-footer">
+  <div class="footer-left">
+    Data sources: U.S. Bureau of Labor Statistics (BLS LAUS / SAE) &nbsp;·&nbsp;
+    Federal Reserve Economic Data (FRED) &nbsp;·&nbsp;
+    Census Bureau (Building Permits) &nbsp;·&nbsp;
+    Realtor.com / FRED (Days on Market)<br>
+    Scoring methodology: percentile ranking across all 50 metros. Composite = 85% employment indicators / 15% housing indicators.
+    Lower unemployment and lower days on market score higher (inverted metrics).
+  </div>
+  <div class="footer-right">
+    April 2026 &nbsp;·&nbsp; U.S. Metro Economic Health Report<br>
+    Full methodology: SCORING_README.md
+  </div>
+</div>
+
+</body>
+</html>

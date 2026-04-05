@@ -1,11 +1,11 @@
 # Hartford-West Hartford-East Hartford
 
-**Grade: A (Very Good) | 65.4th percentile | April 2026**
+**Grade: A (Very Good) | 65.5th percentile | April 2026**
 
 ---
 
-Hartford-West Hartford-East Hartford metro earns an A grade, driven by its strong economic character, with a 2.70% unemployment rate and 1.88% year-over-year nonfarm employment growth, indicating a thriving labor market with ample job opportunities. The cost of living composite score of 3.50, ranking in the 32nd percentile, makes the area an attractive location for businesses and employees alike.
+Hartford's economy stands out with an overall grade of A, driven by its exceptionally tight labor market and rapid job creation, with a 2.70% unemployment rate and 1.88% year-over-year nonfarm employment growth. This strong momentum creates a market with significant hiring competition, where businesses face stiff competition for top talent and workers have leverage.
 
-However, wage growth has been sluggish, with a -0.36% year-over-year decline, placing it in the bottom tier, raising concerns about labor shortages and increased competition for talent. On the other hand, the housing market is showing signs of strength, with building permits increasing by 16.13% year-over-year and days on market decreasing, indicating a high demand for housing.
+The -0.36% year-over-year wage growth is a warning sign, suggesting that workers may not be benefiting from the tight labor market as much as expected. The cost of living composite, at 3.50, indicates an above-average cost of living, which may require businesses to offer wage premiums to attract talent. The 21.1% year-over-year increase in days on market, with homes now taking an average of 46 days to sell, could be a sign of stabilization or a warning sign of demand erosion.
 
-Hartford-West Hartford-East Hartford offers businesses a unique combination of a strong labor market, affordable cost of living, and growing housing market, making it an attractive location for investment. However, the sluggish wage growth poses a risk, as it may lead to increased labor costs and competition for talent, which businesses should carefully consider when making their location decision.
+Hartford offers a business a highly competitive and expanding market with a strong labor force, but with the caveat that hiring and retaining talent may be challenging due to the tight labor market and stagnant wage growth. The primary risk for businesses is navigating this complex labor landscape while also considering the potential implications of a slowing housing market on the overall economy.

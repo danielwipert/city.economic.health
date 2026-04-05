@@ -1,11 +1,11 @@
 # Las Vegas-Henderson-North Las Vegas
 
-**Grade: C+ (Poor) | 40.6th percentile | April 2026**
+**Grade: C+ (Poor) | 38.8th percentile | April 2026**
 
 ---
 
-The Las Vegas-Henderson-North Las Vegas metro area earns a C+ overall grade, with a struggling job market and strong wage growth defining its economic character, marked by a mismatch between labor supply and demand. A 5.20% unemployment rate and -0.76% year-over-year nonfarm employment growth suggest significant challenges, while hourly wages have increased by 6.71% year-over-year, indicating that employers are competing for talent.
+Las Vegas-Henderson-North Las Vegas metro area earns a C+ grade, ranking 38.8th out of 50 US metros, driven by a stagnant labor market with an unemployment rate of 5.20% and nonfarm employment growth of -0.76% year-over-year, indicating a contraction in the job market. Despite this, wage growth remains robust at +6.71% year-over-year, suggesting that while jobs may be scarce, those that exist are becoming more lucrative.
 
-Despite these struggles, the top-tier wage growth of 6.71% year-over-year is a notable bright spot. However, the bottom-tier nonfarm employment growth of -0.76% year-over-year and a 12.8% year-over-year increase in days on market for housing, now at 53 days, are concerns. The slowing housing market and down 9.83% year-over-year building permits also suggest a city in transition.
+The wage growth, however, may be driven by a shift towards higher-paying jobs rather than broad labor market health. The housing market is slowing, with days on market increasing by 12.8% year-over-year to an average of 53 days, indicating a relatively slow and buyer-friendly market. This slowdown is notable given the weak employment growth, suggesting that demand may be eroding rather than simply normalizing after a period of rapid growth.
 
-The Las Vegas-Henderson-North Las Vegas metro area offers businesses a unique opportunity to attract talent with competitive wages, but the primary risk is the struggling job market and slowing housing sector. With a cost of living composite of 2.19, placing it in the 60th percentile, the city is less affordable than many of its peers, which may impact businesses' ability to recruit and retain employees.
+Las Vegas presents a complex and potentially high-risk environment for businesses, with a slowing labor market and rising wages posing challenges for employers. The primary risk for businesses considering location in Las Vegas is the risk of demand erosion, driven by weak employment growth and a slowing housing market, which could undermine the viability of new investments.

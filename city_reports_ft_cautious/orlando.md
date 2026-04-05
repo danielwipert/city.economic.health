@@ -1,11 +1,11 @@
 # Orlando-Kissimmee-Sanford
 
-**Grade: C (Very Poor) | 33.1th percentile | April 2026**
+**Grade: C- (Critical) | 30.9th percentile | April 2026**
 
 ---
 
-Orlando-Kissimmee-Sanford metro area earns a C grade, reflecting a lackluster economic performance, with stagnant wage growth at 0.37% year-over-year and a decline in weekly hours worked, down 0.24% from trend. The area's building permits have plummeted by 35.64% year-over-year, indicating a severe slowdown in housing supply growth, which could have long-term implications for the local economy.
+Orlando's economic landscape earns a C- grade, marked by a labor market with significant slack and a housing supply under pressure. The 4.40% unemployment rate indicates flexibility for hiring, but also potential weakness in local consumer demand. Stagnant wage growth at +0.37% YoY suggests workers have limited leverage, which could soften consumer spending.
 
-The office and professional share of the workforce is a notable strength, with a composite score of 3.02, indicating a relatively high proportion of skilled workers. However, this is offset by the fact that wage growth is in the bottom tier, at just 0.37% year-over-year, making it difficult for businesses to attract and retain top talent. The cost of living composite, at 3.06, is near the median, but its 46th percentile ranking means that the area is slightly less affordable than average.
+The housing market is characterized by a sharp decline in building permits, down -35.64% YoY, indicating a contraction in housing supply that could lead to future affordability stress. Homes are taking an average of 82 days to sell, a 10.8% YoY increase in days on market, suggesting demand erosion rather than a healthy normalization. The presence of an above-average professional workforce, ranking in the 65th percentile, offers some positive counterbalance, but it is not enough to offset broader economic concerns.
 
-The Orlando-Kissimmee-Sanford metro area offers a relatively affordable and skilled workforce, but its stagnant wage growth and declining housing supply growth pose significant risks. Businesses considering locating in this area should be cautious about the potential long-term implications of these trends, particularly the impact on talent attraction and retention.
+Orlando presents a labor market with some hiring flexibility, but the primary risk is demand erosion and affordability stress in the housing market. Stagnant wage growth and declining building permits pose significant caveats for businesses considering relocation, as they may face challenges in attracting and retaining workers due to limited housing supply and weakened consumer demand.

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Methodology | U.S. Metro Economic Health Report</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">U.S. METRO ECONOMIC HEALTH</a>
+    <div class="nav-links">
+      <a href="rankings.html">Rankings</a>
+      <a href="methodology.html" style="color:var(--color-primary);">Methodology</a>
+    </div>
+  </div>
+</nav>
+  <main class="site-main">
+    <div class="content-wrap">
+  <div class="methodology-body">
+    <h1>Methodology</h1>
+    <div class="subtitle">How the U.S. Metro Economic Health Score is calculated &mdash; April 2026</div>
+
+    <h2>What This System Measures</h2>
+    <p>
+      This system produces an economic health score for each of the top 50 U.S. metropolitan
+      statistical areas (MSAs). The score answers a specific question: <strong>how healthy is this
+      city's labor market and cost environment</strong> for businesses considering locating or
+      expanding there?
+    </p>
+    <p>
+      It is not a quality-of-life index, a population growth ranking, or a real estate investment
+      guide. It is a signal of current and near-term economic conditions from the perspective of
+      employers and workers making location decisions.
+    </p>
+
+    <h2>Geographic Scope</h2>
+    <p>
+      The report covers the 50 largest U.S. Metropolitan Statistical Areas (MSAs) by population,
+      as defined by the Office of Management and Budget (OMB). Each MSA is represented by its
+      primary city name. All 50 metros are scored simultaneously — each city's percentile rank
+      reflects its position relative to the other 49.
+    </p>
+
+    <h2>Core Mechanism: Percentile Ranking</h2>
+    <p>
+      Every metric is scored as a <strong>percentile rank across all 50 metros simultaneously</strong>.
+      A score of 75 means that metro outperforms 75% of the other 49 cities on that specific metric.
+      A score of 20 means it underperforms 80% of them. The median city scores 50 on any given metric.
+    </p>
+    <p>
+      This approach is intentional: percentile ranks are bounded 0–100, immune to outliers pulling
+      the scale, and immediately interpretable. A score of 72 is meaningful without needing to know
+      what a "normal" value looks like in absolute terms.
+    </p>
+
+    <h2>Metric Framework</h2>
+    <p>
+      Eight metrics are combined into a single weighted composite. The split is
+      <strong>85% Employment / 15% Housing</strong> — employment metrics directly measure labor
+      market conditions that drive business location decisions; housing metrics affect worker
+      recruitment and retention.
+    </p>
+    <table class="meth-table">
+      <thead>
+        <tr>
+          <th>Code</th>
+          <th>Metric</th>
+          <th>Weight</th>
+          <th>Category</th>
+          <th>Data Source</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+  <td><strong>107E</strong></td>
+  <td>Labor Demand Composite</td>
+  <td class="weight-bold">25%</td>
+  <td>Employment</td>
+  <td>BLS SAE — Employment & Weekly Hours</td>
+</tr>
+<tr>
+  <td><strong>101A</strong></td>
+  <td>Unemployment Rate</td>
+  <td class="weight-bold">20%</td>
+  <td>Employment</td>
+  <td>BLS Local Area Unemployment Statistics</td>
+</tr>
+<tr>
+  <td><strong>103B</strong></td>
+  <td>Hourly Earnings YoY</td>
+  <td class="weight-bold">15%</td>
+  <td>Employment</td>
+  <td>BLS SAE — State & Metro Area Earnings</td>
+</tr>
+<tr>
+  <td><strong>104C</strong></td>
+  <td>Cost of Living Composite</td>
+  <td class="weight-bold">12%</td>
+  <td>Employment</td>
+  <td>Realtor.com / FRED / Census Bureau</td>
+</tr>
+<tr>
+  <td><strong>102A</strong></td>
+  <td>Labor Force Participation Rate</td>
+  <td class="weight-bold">10%</td>
+  <td>Employment</td>
+  <td>BLS Local Area Unemployment Statistics</td>
+</tr>
+<tr>
+  <td><strong>200B</strong></td>
+  <td>Building Permits YoY</td>
+  <td class="weight-bold">10%</td>
+  <td>Housing</td>
+  <td>Census Bureau Building Permits Survey / FRED</td>
+</tr>
+<tr>
+  <td><strong>204A</strong></td>
+  <td>Days on Market Composite</td>
+  <td class="weight-bold">5%</td>
+  <td>Housing</td>
+  <td>Realtor.com / FRED</td>
+</tr>
+<tr>
+  <td><strong>105C</strong></td>
+  <td>Office Worker Ratio Composite</td>
+  <td class="weight-bold">3%</td>
+  <td>Employment</td>
+  <td>BLS SAE — Industry Employment</td>
+</tr>
+
+        <tr style="border-top:2px solid var(--color-border);">
+          <td></td>
+          <td><strong>Total</strong></td>
+          <td class="weight-bold">100%</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Composite Score Calculation</h2>
+    <p>
+      The composite score is a weighted average of each metro's 8 individual percentile scores:
+    </p>
+    <p style="font-family:monospace; background:var(--color-bg-alt); padding:12px 16px; border-radius:6px; border:1px solid var(--color-border);">
+      weighted_score = &sum;(percentile[metric] &times; weight[metric])
+    </p>
+    <p>
+      Since all weights sum to 100, the result is a single number on a 0–100 scale representing
+      approximately which percentile the metro occupies on the joint weighted distribution of all
+      8 metrics.
+    </p>
+
+    <h2>Grade Thresholds</h2>
+    <p>
+      Grade thresholds are calibrated to the <strong>actual achievable range</strong> of weighted
+      scores, not the theoretical 0–100. Because the weighted score is an average of 8 individual
+      percentile scores across 50 cities, the distribution compresses. The practical range observed
+      is approximately 21–79. Thresholds are set so the grade distribution is meaningful and
+      discriminating across the full spectrum.
+    </p>
+    <table class="meth-table grade-threshold-table" style="max-width:420px;">
+      <thead>
+        <tr>
+          <th>Score Threshold</th>
+          <th>Grade</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+  <td>68+</td>
+  <td><span class="grade-badge" style="background:#059669;">A+</span></td>
+  <td>Excellent</td>
+</tr>
+<tr>
+  <td>63–67.9</td>
+  <td><span class="grade-badge" style="background:#0D9488;">A</span></td>
+  <td>Very Good</td>
+</tr>
+<tr>
+  <td>59–62.9</td>
+  <td><span class="grade-badge" style="background:#0284C7;">A-</span></td>
+  <td>Good</td>
+</tr>
+<tr>
+  <td>55–58.9</td>
+  <td><span class="grade-badge" style="background:#2563EB;">B+</span></td>
+  <td>Above Average</td>
+</tr>
+<tr>
+  <td>50–54.9</td>
+  <td><span class="grade-badge" style="background:#4F46E5;">B</span></td>
+  <td>Average</td>
+</tr>
+<tr>
+  <td>44–49.9</td>
+  <td><span class="grade-badge" style="background:#64748B;">B-</span></td>
+  <td>Below Average</td>
+</tr>
+<tr>
+  <td>38–43.9</td>
+  <td><span class="grade-badge" style="background:#D97706;">C+</span></td>
+  <td>Poor</td>
+</tr>
+<tr>
+  <td>32–37.9</td>
+  <td><span class="grade-badge" style="background:#EA580C;">C</span></td>
+  <td>Very Poor</td>
+</tr>
+<tr>
+  <td>26–31.9</td>
+  <td><span class="grade-badge" style="background:#DC2626;">C-</span></td>
+  <td>Critical</td>
+</tr>
+<tr>
+  <td>Below 26</td>
+  <td><span class="grade-badge" style="background:#7C3AED;">D</span></td>
+  <td>Emergency</td>
+</tr>
+
+      </tbody>
+    </table>
+
+    <h2>Key Metric Design Notes</h2>
+    <ul>
+      <li>
+        <strong>Labor Demand (107E, 25%):</strong> A composite of employment growth YoY and
+        weekly hours deviation. The hours signal is employment-conditional — above-trend hours
+        during job growth confirm demand; above-trend hours during job loss signal a "survivor
+        squeeze" where remaining workers absorb the load of eliminated positions.
+      </li>
+      <li>
+        <strong>Cost of Living (104C, 12%):</strong> A 3-component composite — absolute
+        affordability (price per sq ft vs. local wages), trend direction, and peer-relative
+        trend. This prevents expensive-but-improving cities from outscoring genuinely affordable
+        cities.
+      </li>
+      <li>
+        <strong>Days on Market (204A, 5%):</strong> A 2-component composite using a
+        60-day inflection point. Below 60 days, rising DoM signals healthy inventory growth;
+        above 60 days, rising DoM signals demand destruction. The level component scores
+        the absolute DoM on a bell-curve scale peaked at 35–80 days.
+      </li>
+      <li>
+        <strong>Labor Force Participation (102A, 10%):</strong> Captures discouraged workers
+        not counted in unemployment. Anchored to annual population benchmarks, making it a
+        slow-moving structural signal rather than a dynamic monthly indicator.
+      </li>
+    </ul>
+
+    <h2>Data Sources</h2>
+    <ul>
+      <li>
+        <strong>BLS LAUS</strong> — Local Area Unemployment Statistics: unemployment rate,
+        labor force participation rate
+      </li>
+      <li>
+        <strong>BLS SAE</strong> — State and Metro Area Employment, Hours, and Earnings:
+        employment growth, hourly earnings, weekly hours, industry employment
+      </li>
+      <li>
+        <strong>Census Bureau Building Permits Survey / FRED</strong> — residential
+        building permits
+      </li>
+      <li>
+        <strong>Realtor.com / FRED</strong> — days on market, housing price per square foot
+      </li>
+    </ul>
+
+    <h2>Update Cadence</h2>
+    <p>
+      The pipeline is designed to run monthly, timed to BLS data release schedules.
+      BLS LAUS and SAE data typically releases the third or fourth week of each month for the
+      prior month. Building permit data from Census is released approximately 16–18 days after
+      month-end. Realtor.com housing data updates monthly.
+    </p>
+    <p>
+      Each run recalculates all 50 metro scores simultaneously. Percentile ranks are recomputed
+      from scratch — a city's score can change without any change in its absolute data if
+      conditions in other cities shift the distribution.
+    </p>
+
+    <h2>Limitations</h2>
+    <ul>
+      <li>
+        <strong>Not a forecast.</strong> The score reflects current and trailing conditions.
+        It is a lagging-to-coincident indicator, not a prediction of future economic performance.
+      </li>
+      <li>
+        <strong>Not size-adjusted.</strong> All metrics are rates and percentages, not absolute
+        counts. A metro with 500,000 workers and one with 5,000,000 are compared on the same
+        basis. This is intentional — the question is economic health, not scale.
+      </li>
+      <li>
+        <strong>Structural composition effects.</strong> Labor force participation varies by
+        age structure, student population, and military presence independent of economic
+        conditions. The percentile ranking partially mitigates but does not eliminate this.
+      </li>
+      <li>
+        <strong>Not a quality-of-life index.</strong> Amenities, climate, culture, walkability,
+        and livability are not measured. A city can score highly and still be expensive, congested,
+        or climatically challenging.
+      </li>
+      <li>
+        <strong>Data lags.</strong> Some BLS metro-level series lag national estimates by
+        1–2 months. Scores reflect the most recently available data, which may not reflect
+        the most recent calendar month for all metros equally.
+      </li>
+    </ul>
+
+  </div>
+</div>
+  </main>
+  <footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-sources">
+      Data sources: BLS LAUS / SAE &middot; Census Bureau / FRED &middot; Realtor.com / FRED
+      &middot; 85% Employment / 15% Housing composite &middot; April 2026 &middot; U.S. Metro Economic Health Report
+    </div>
+    <div class="footer-note">
+      Scores reflect conditions at time of data collection. Not investment advice.
+      &copy; U.S. Metro Economic Health Report
+    </div>
+  </div>
+</footer>
+</body>
+</html>

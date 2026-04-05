@@ -1,11 +1,11 @@
 # Providence-Warwick
 
-**Grade: C+ (Poor) | 41.7th percentile | April 2026**
+**Grade: C+ (Poor) | 44.0th percentile | April 2026**
 
 ---
 
-The Providence-Warwick metro area earns a C+ overall grade, with a labor market that struggles with a low labor force participation rate of 50.77%, ranking at the bottom tier. This is offset by a nonfarm employment growth rate of +0.60% year-over-year, above average, and a relatively low unemployment rate of 4.30%. However, the overall labor market story is one of untapped potential, with a large portion of the workforce not actively participating.
+Providence-Warwick earns a C+ overall grade, reflecting a labor market with significant structural constraints, with a critically low labor force participation rate of 50.77% hindering business expansion or relocation. The cost of living composite score of 7.01 places Providence among the most expensive metros, constraining talent acquisition and real consumer spending power. A relatively low unemployment rate of 4.30% suggests some labor market slack that could facilitate hiring.
 
-The city's housing supply tells a more optimistic story, with building permits surging +144.37% year-over-year and days on market increasing by +25.6% to 49 days, both top-tier performances. This suggests a rapidly changing housing landscape, potentially driven by new development and investment. The cost of living composite score of 7.01, ranking at the bottom tier, indicates that the area is one of the more expensive places to live.
+However, the housing market presents mixed signals. Building permits are surging by 144.37% year-over-year, a top-tier performance that suggests aggressive expansion of the housing supply, potentially alleviating affordability pressures and accommodating a growing workforce. Yet, days on market are increasing by 25.6% year-over-year, with homes taking an average of 49 days to sell, indicating a slowdown in the housing market that could be a sign of normalization or softening demand.
 
-The Providence-Warwick metro area offers businesses a unique combination of a relatively low unemployment rate and rapid housing development, but the primary risk is the high cost of living, which may deter workers and limit the area's long-term growth potential.
+Providence offers a complex landscape for businesses, with significant labor market and cost-of-living challenges. The primary risk is that the city's structural constraints, particularly its low labor force participation rate and high cost of living, could outweigh the potential benefits of a growing housing supply and relatively low unemployment rate.

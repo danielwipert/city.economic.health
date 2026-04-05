@@ -1,11 +1,11 @@
 # Riverside-San Bernardino-Ontario
 
-**Grade: C (Very Poor) | 33.0th percentile | April 2026**
+**Grade: C (Very Poor) | 36.4th percentile | April 2026**
 
 ---
 
-Riverside-San Bernardino-Ontario metro area earns a C grade, with a struggling labor market reflected in a 5.10% unemployment rate and 60.37% labor force participation, both in the bottom tier. This market has significant untapped potential, but is not currently attracting or retaining workers at a competitive rate, with nonfarm employment growth of +0.18% YoY indicating a sluggish economy.
+Riverside-San Bernardino-Ontario metro area earns a C grade, ranking 36.4th out of 50 US metros, driven by severe labor market weakness. Unemployment rates stand at 5.10%, and labor force participation is critically low at 60.37%. This landscape poses significant risks to consumer spending and business growth.
 
-Wage growth is a top-tier 7.54% YoY, suggesting that employers are having to pay a premium to attract and retain talent in a tight labor market. This tension between high wage growth and low labor force participation is worth watching, as it may indicate shifting conditions. The office/professional share of the workforce is a bottom-tier 1.33, a concern for businesses seeking a skilled labor pool.
+Wage growth, however, tells a different story, with hourly earnings rising by +7.54% YoY, placing it in the top tier. This disconnect between strong wage growth and stagnant employment raises questions about the underlying drivers of wage increases, potentially due to a mix shift towards higher-paying industries. The low concentration of office and professional workers, ranking 16th percentile, poses a significant constraint for knowledge-economy businesses.
 
-The city offers a relatively affordable cost of living, with a composite score of 2.93, but comes with significant labor market risks. The area's struggling labor market, with high unemployment and low participation rates, may make it challenging for businesses to find and retain the talent they need to thrive.
+The city's above-average building permit growth of +18.04% YoY offers a mild positive note, suggesting some efforts to address housing supply. However, this is not enough to offset the labor market concerns. Riverside presents a high-risk, potentially high-reward environment for businesses, with strong wage growth but significant labor market challenges. Decision-makers must carefully weigh these factors before making a location decision.

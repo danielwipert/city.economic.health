@@ -1,11 +1,11 @@
 # Oklahoma City
 
-**Grade: A (Very Good) | 67.6th percentile | April 2026**
+**Grade: A+ (Excellent) | 69.8th percentile | April 2026**
 
 ---
 
-Oklahoma City's A grade, ranking in the 67.6th percentile, reflects a very good economic environment, driven by a combination of factors, including a low unemployment rate of 3.60% and strong labor force participation of 65.65%, indicating a talented and available workforce.
+Oklahoma City earns an A+ grade, driven by its top-tier cost of living and strong economic growth. With a composite index of 1.32, it is one of the most affordable metros in the dataset, making it an attractive location for businesses and workers. The city's above-average nonfarm employment growth of 0.52% year-over-year and solid wage growth of 4.70% year-over-year contribute to its strong economic profile.
 
-The city's cost of living composite index of 1.32, ranking in the 90th percentile, makes it one of the most affordable cities in the US, a major draw for businesses and employees alike. However, the rapidly expanding housing supply, with building permits growth of 20.14% year-over-year and days on market increasing by 11.5% year-over-year to 58 days, may lead to increased costs and competition for labor in the future.
+The housing market, however, shows a slowing trend, with days on market increasing by 11.5% year-over-year to an average of 58 days. This is a sign of a stabilizing force, given the city's above-average employment growth and strong building permits growth of 20.14% year-over-year. The cost of living advantage also plays a role, making the city an attractive location for workers and businesses alike.
 
-Oklahoma City offers businesses a unique combination of affordability, productivity, and a talented workforce, making it an attractive location for investment. However, the rapidly expanding housing supply and potential for increased labor competition pose a risk to the city's long-term affordability and competitiveness, and businesses should carefully consider these factors when making location decisions.
+Oklahoma City offers a unique combination of affordability, healthy employment growth, and a stabilizing housing market, making it an attractive location for businesses. However, the primary risk lies in the potential for the housing market to continue slowing, which could impact demand and affordability if not managed carefully.

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+
+/* ─── PAGE SETUP ─────────────────────────────────────────────── */
+@page {
+  size: letter landscape;
+  margin: 14mm 16mm 14mm 16mm;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 9pt;
+  color: #0F172A;
+  background: #fff;
+}
+
+/* ─── PAGE HEADER ────────────────────────────────────────────── */
+.page-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 2.5px solid #0F2137;
+}
+
+.page-header-left {}
+
+.report-eyebrow {
+  font-size: 7pt;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #94A3B8;
+  margin-bottom: 4px;
+}
+
+.report-title {
+  font-size: 20pt;
+  font-weight: 700;
+  color: #0F2137;
+  line-height: 1.1;
+}
+
+.report-title span { color: #0284C7; }
+
+.page-header-right {
+  text-align: right;
+}
+
+.report-meta {
+  font-size: 7.5pt;
+  color: #64748B;
+  line-height: 1.7;
+}
+
+/* ─── RANKINGS TABLE ─────────────────────────────────────────── */
+.rankings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 8pt;
+}
+
+.rankings-table thead tr {
+  background: #0F2137;
+  color: #fff;
+}
+
+.rankings-table thead th {
+  padding: 8px 9px 7px 9px;
+  text-align: left;
+  font-weight: 600;
+  white-space: normal;
+  vertical-align: bottom;
+  line-height: 1.3;
+}
+
+.rankings-table thead th.num {
+  text-align: right;
+}
+
+.th-main {
+  display: block;
+  font-size: 7.5pt;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #F8FAFC;
+}
+
+.th-sub {
+  display: block;
+  font-size: 6pt;
+  font-weight: 400;
+  color: #94A3B8;
+  margin-top: 2px;
+  letter-spacing: 0.2px;
+}
+
+.rankings-table tbody tr:nth-child(even) { background: #F8FAFC; }
+
+.rankings-table tbody td {
+  padding: 6px 9px;
+  border-bottom: 1px solid #E2E8F0;
+  vertical-align: middle;
+}
+
+.rankings-table tbody td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: #374151;
+}
+
+/* zebra dividers every 10 rows */
+.rankings-table tbody tr:nth-child(10n) td {
+  border-bottom: 2px solid #CBD5E1;
+}
+
+.rank-num {
+  color: #9CA3AF;
+  font-weight: 600;
+  font-size: 7.5pt;
+}
+
+.city-name-cell {
+  font-weight: 600;
+  color: #0F172A;
+  font-size: 8.5pt;
+}
+
+.metro-name-cell {
+  font-size: 6.5pt;
+  color: #9CA3AF;
+  margin-top: 1px;
+}
+
+.grade-pill {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 8pt;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #fff;
+  min-width: 34px;
+  text-align: center;
+}
+
+.score-bar-cell { width: 100px; }
+
+.score-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.score-bar-bg {
+  flex: 1;
+  height: 6px;
+  background: #E2E8F0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.score-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+}
+
+.score-val {
+  font-size: 7.5pt;
+  font-variant-numeric: tabular-nums;
+  color: #374151;
+  width: 28px;
+  text-align: right;
+  font-weight: 600;
+}
+
+/* ─── PAGE FOOTER ────────────────────────────────────────────── */
+.page-footer {
+  margin-top: 14px;
+  padding-top: 8px;
+  border-top: 1px solid #E2E8F0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  font-size: 6.5pt;
+  color: #94A3B8;
+  line-height: 1.6;
+}
+
+.footer-right {
+  font-size: 6.5pt;
+  color: #94A3B8;
+  text-align: right;
+}
+
+</style>
+</head>
+<body>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="page-header-left">
+    <div class="report-eyebrow">Economic Intelligence Series</div>
+    <div class="report-title">U.S. Metro <span>Economic Health</span> — Full Rankings</div>
+  </div>
+  <div class="page-header-right">
+    <div class="report-meta">
+      50 Metropolitan Statistical Areas &nbsp;·&nbsp; Sorted by Composite Score<br>
+      85% Employment / 15% Housing Weighting &nbsp;·&nbsp; {{ calculation_date }}<br>
+      Sources: BLS · FRED · Census Bureau · Realtor.com
+    </div>
+  </div>
+</div>
+
+<!-- RANKINGS TABLE -->
+<table class="rankings-table">
+  <thead>
+    <tr>
+      <th style="width:26px">
+        <span class="th-main">#</span>
+      </th>
+      <th style="min-width:130px">
+        <span class="th-main">Metro Area</span>
+        <span class="th-sub">Metropolitan Statistical Area</span>
+      </th>
+      <th style="width:50px">
+        <span class="th-main">Grade</span>
+        <span class="th-sub">Letter grade</span>
+      </th>
+      <th class="num score-bar-cell">
+        <span class="th-main">Composite Score</span>
+        <span class="th-sub">Weighted percentile rank</span>
+      </th>
+      <th class="num" style="width:72px">
+        <span class="th-main">Unemployment Rate</span>
+        <span class="th-sub">% of labor force</span>
+      </th>
+      <th class="num" style="width:78px">
+        <span class="th-main">Wage Growth</span>
+        <span class="th-sub">Avg hourly earnings YoY</span>
+      </th>
+      <th class="num" style="width:82px">
+        <span class="th-main">Employment Growth</span>
+        <span class="th-sub">Nonfarm payrolls YoY</span>
+      </th>
+      <th class="num" style="width:78px">
+        <span class="th-main">Labor Force Participation</span>
+        <span class="th-sub">% of working-age adults</span>
+      </th>
+      <th class="num" style="width:82px">
+        <span class="th-main">Housing — Days on Market</span>
+        <span class="th-sub">Median days, current level</span>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for city in all_cities %}
+    <tr>
+      <td><span class="rank-num">{{ loop.index }}</span></td>
+      <td>
+        <div class="city-name-cell">{{ city.primary_city }}</div>
+        <div class="metro-name-cell">{{ city.metro_name }}</div>
+      </td>
+      <td>
+        <span class="grade-pill" style="background:{{ city.grade_color }}">{{ city.grade }}</span>
+      </td>
+      <td class="score-bar-cell">
+        <div class="score-bar-wrap">
+          <div class="score-bar-bg">
+            <div class="score-bar-fill" style="width:{{ city.score }}%; background:{{ city.grade_color }}"></div>
+          </div>
+          <span class="score-val">{{ "%.1f"|format(city.score) }}</span>
+        </div>
+      </td>
+      <td class="num">{{ city.unemp_fmt }}</td>
+      <td class="num">{{ city.earnings_fmt }}</td>
+      <td class="num">{{ city.emp_fmt }}</td>
+      <td class="num">{{ city.lfp_fmt }}</td>
+      <td class="num">{{ city.dom_fmt }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<!-- PAGE FOOTER -->
+<div class="page-footer">
+  <div class="footer-left">
+    Data sources: U.S. Bureau of Labor Statistics (BLS LAUS / SAE) &nbsp;·&nbsp;
+    Federal Reserve Economic Data (FRED) &nbsp;·&nbsp;
+    Census Bureau (Building Permits) &nbsp;·&nbsp;
+    Realtor.com / FRED (Days on Market)<br>
+    Scoring methodology: percentile ranking across all 50 metros. Composite = 85% employment indicators / 15% housing indicators.
+    Lower unemployment and lower days on market score higher (inverted metrics).
+  </div>
+  <div class="footer-right">
+    {{ calculation_date }} &nbsp;·&nbsp; U.S. Metro Economic Health Report<br>
+    Full methodology: SCORING_README.md
+  </div>
+</div>
+
+</body>
+</html>

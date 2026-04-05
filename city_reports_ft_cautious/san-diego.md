@@ -1,11 +1,11 @@
 # San Diego-Chula Vista-Carlsbad
 
-**Grade: C- (Critical) | 31.6th percentile | April 2026**
+**Grade: C- (Critical) | 31.7th percentile | April 2026**
 
 ---
 
-San Diego-Chula Vista-Carlsbad metro area earns a C- overall grade, struggling to create jobs at a pace that would absorb its workforce, with an unemployment rate of 4.40% and a labor force participation rate of 62.01%, below average. Wage growth is sluggish, at 2.43% year-over-year, indicating that employers are not feeling pressure to increase compensation to attract and retain talent.
+San Diego's sluggish labor market and high cost of living define its economic character, with a 4.40% unemployment rate and 62.01% labor force participation, indicating a shallow and stagnant labor pool. The city's nonfarm employment growth is a mere 0.35% year-over-year, reflecting economic deceleration.
 
-The housing market is a mixed bag, with building permits down 0.37% year-over-year, but days on market increasing by 11.8%, suggesting a supply-demand imbalance. The cost of living composite index of 5.24% puts the city in the bottom tier, making it one of the more expensive places to live, a challenge for businesses looking to attract talent.
+The housing market is slowing, with days on market increasing by 11.8% year-over-year to an average of 38 days, suggesting demand erosion. The low office and professional worker share, ranking in the 18th percentile, constrains knowledge-economy businesses. This combination of factors creates tension, as the slowing housing market and high cost of living may deter talent acquisition and limit real consumer spending power.
 
-The bottom line is that San Diego-Chula Vista-Carlsbad offers a business environment with limited labor market momentum, and the primary risk is the high cost of living, which could make it difficult to attract and retain talent. The city's sluggish wage growth may keep labor costs in check, but the expense of operating in this market could outweigh any potential benefits, making it a challenging location for businesses to thrive.
+San Diego offers a high-cost, slow-growth environment with a shallow labor pool, posing a significant risk of demand erosion driven by weak employment growth and a slowing housing market, which may limit the city's appeal to businesses reliant on a strong, skilled workforce.

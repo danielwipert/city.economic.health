@@ -1,11 +1,11 @@
 # Los Angeles-Long Beach-Anaheim
 
-**Grade: B- (Below Average) | 44.5th percentile | April 2026**
+**Grade: B (Average) | 52.5th percentile | April 2026**
 
 ---
 
-Los Angeles-Long Beach-Anaheim metro area earns a below-average overall grade, with a 4.80% unemployment rate and 63.61% labor force participation rate, indicating significant untapped potential. Nonfarm employment growth of +1.83% year-over-year suggests a strong and expanding job market, but this growth is tempered by a low labor force participation rate. This tension between labor supply and demand defines the city's economic character, making it a challenging yet potentially rewarding location for businesses.
+Los Angeles-Long Beach-Anaheim earns a B grade, ranking 52.5th out of 50 US metros, driven by strong nonfarm employment growth of +1.83% YoY and solid wage growth of +5.33% YoY, indicating a momentum-driven market with expanding job opportunities and increasing consumer spending power. However, the high cost of living, with a composite score of 5.59, constrains talent acquisition and real consumer spending power.
 
-The cost of living composite index of 5.59 places the city in the bottom tier, with an 8th percentile ranking, indicating that it is one of the more expensive cities to live in. Building permits are up 20.24% year-over-year, and days on market have decreased, suggesting a thriving housing market. The office and professional share of the workforce is also a concern, with a composite score of 0.98 ranking in the bottom tier.
+The city's strong employment growth is tempered by a slowing housing market, with a +12.8% YoY rise in days on market, resulting in an average of 44 days. This slowdown can be seen as a stabilizing force, given the city's strong employment growth. The low office and professional worker share, ranking in the 8th percentile, poses a significant constraint for knowledge-economy businesses.
 
-The Los Angeles-Long Beach-Anaheim metro area offers businesses a unique combination of a strong job market and a thriving housing sector, but it comes with the caveat of a high cost of living. With a 4.80% unemployment rate and +1.83% year-over-year nonfarm employment growth, companies must weigh the benefits of a growing economy against the potential drawbacks of expensive living conditions, making it a location that requires careful consideration and planning to navigate successfully.
+In summary, Los Angeles offers a dynamic market with strong job creation and solid wage growth, but at a high cost of living. The primary risk for businesses is the potential for constrained talent acquisition and limited consumer spending power due to the city's expensive nature, which may offset the benefits of its growing economy.

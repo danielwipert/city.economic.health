@@ -1,11 +1,11 @@
 # Kansas City
 
-**Grade: A- (Good) | 60.7th percentile | April 2026**
+**Grade: B (Average) | 51.5th percentile | April 2026**
 
 ---
 
-Kansas City earns an overall grade of A-, driven by a strong labor market with a top-tier labor force participation rate of 67.91% and impressive wage growth of 6.80% year-over-year, indicating a city with a skilled and engaged workforce. The cost of living composite score of 1.49, ranking in the 80th percentile, makes Kansas City a relatively affordable place to live, a major draw for businesses looking to attract and retain talent.
+Kansas City's economy earns a B grade, ranking 51.5th out of 50 US metros, with a low unemployment rate of 3.50% and a high labor force participation rate of 67.91%. However, this is offset by a concerning -0.31% year-over-year nonfarm employment growth, signaling a contraction in the job market.
 
-However, the data reveals some concerns. Nonfarm employment growth is a concern, with a year-over-year change of -0.31%, a slowdown that contrasts with the top-tier wage growth and labor force participation. This suggests that while businesses may be paying their employees well, they may not be hiring as many new workers. The housing market also shows signs of tension, with building permits increasing by 5.41% year-over-year, but days on market decreasing by 24.0%, indicating a potentially tightening market.
+The city's strong wage growth of +6.80% year-over-year may be driven by a shift towards higher-paying jobs, rather than broad labor market health. Kansas City's cost of living is among the most affordable, with a composite score of 1.49, but this advantage is eroding due to a fast-moving housing market, where homes are selling 24% faster than last year, with an average of 57 days on market.
 
-Kansas City offers businesses a talented and productive workforce, as well as a relatively affordable cost of living. However, the primary risk is the slowing employment growth, which may indicate that the city's economy is not creating as many new job opportunities as it could be, potentially limiting the pool of available workers for businesses looking to expand.
+Kansas City offers businesses an affordable cost of living and a deep labor pool, but the primary risk is the potential for labor cost pressures and relocation challenges due to the fast-moving housing market. As the city's job market contracts and wages rise, businesses must carefully consider the implications for talent attraction and retention, weighing the benefits of a low-cost environment against the challenges of a competitive housing market.

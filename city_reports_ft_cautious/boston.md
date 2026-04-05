@@ -1,11 +1,11 @@
 # Boston-Cambridge-Newton
 
-**Grade: B (Average) | 51.9th percentile | April 2026**
+**Grade: B- (Below Average) | 48.4th percentile | April 2026**
 
 ---
 
-Boston-Cambridge-Newton metro area earns a B grade, with a strong and engaged workforce, as evident from its 68.47% labor force participation rate. However, wage growth lags at 1.42% year-over-year, suggesting that while workers are plentiful, they may not be seeing significant increases in pay. The cost of living composite score of 5.47, ranking in the bottom 10th percentile, implies that the area is quite expensive, impacting both business and employee costs.
+Boston's economy, graded a B-, is driven by a strong workforce engagement, with a labor force participation rate of 68.47%, and above-average job growth of 0.73% year-over-year, indicating a healthy expansion. However, the city's high cost of living, with a composite score of 5.47, poses a significant constraint on talent acquisition and real consumer spending power.
 
-The metro area's office and professional workforce is a notable strength, with a composite score of 3.16, ranking in the 78th percentile. However, the housing supply is constrained, with building permits down 14.97% year-over-year, and homes selling quickly, with days on market increasing by 27.3% to 42 days, ranking in the 98th percentile. This tension between a strong, professional workforce and a tight housing market could lead to challenges in attracting and retaining talent.
+The housing market is slowing, with homes taking 42 days to sell on average, and a year-over-year increase of 27.3% in days on market, indicating a potential demand erosion. Sluggish wage growth of 1.42% year-over-year further supports this narrative, implying weak worker bargaining power or softening demand. The above-average professional workforce, with a score of 78th percentile, is a mild positive, but it is overshadowed by the cost of living and housing market concerns.
 
-The Boston-Cambridge-Newton metro area offers businesses a highly skilled and engaged workforce, but at a high cost of living. The primary risk for businesses locating in this area is the potential for talent attraction and retention challenges due to the expensive and competitive housing market, which could ultimately impact wage pressures and overall business costs.
+Boston's economy is defined by its expensive cost of living and slowing housing market, making it essential for businesses to carefully consider these factors when making location decisions. While the city offers a deep labor pool and strong professional workforce, the primary risk is the high cost of living and potential demand erosion in the housing market.

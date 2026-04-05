@@ -1,11 +1,11 @@
 # Minneapolis-St. Paul-Bloomington
 
-**Grade: B- (Below Average) | 44.8th percentile | April 2026**
+**Grade: C+ (Poor) | 43.5th percentile | April 2026**
 
 ---
 
-Minneapolis-St. Paul-Bloomington metro area earns a below-average overall grade, with a 4.0% unemployment rate and 0.03% year-over-year hourly wage growth, a bottom-tier performance that hinders its ability to attract and retain top talent.
+Minneapolis-St. Paul-Bloomington metro area earns a C+ grade, ranking 43.5th out of 50 US metros, driven by a combination of labor market factors, including a top-tier labor force participation rate of 69.03% and a below-average unemployment rate of 4.00%. However, wage growth has been stagnant, with hourly earnings increasing by only 0.03% year-over-year, a bottom-tier performance that signals weakened consumer spending power.
 
-The labor force participation rate of 69.03% is a notable strength, but this is at odds with the sluggish wage growth and decline in weekly hours worked, which is 0.27% below its own trend. The housing market also shows signs of slowing momentum, with building permits down 12.25% year-over-year and days on market increasing, albeit slightly. These indicators suggest that the market may be shifting, and decision-makers should be cautious of potential downturns.
+The strong labor force engagement is not matched by the housing market, where building permits have declined by 12.25% year-over-year, indicating a potential supply squeeze. Homes are selling in fewer days than last year, with an average of 40 days on market, suggesting a thin-supply illusion rather than genuine demand strength. The stagnant wage growth exacerbates this concern, limiting the ability of workers to afford homes in a tightening market.
 
-The area's highly engaged workforce is a significant advantage, but the primary risk is the inability to offer competitive wages, which may lead to talent retention issues. Companies considering this location must weigh the benefits of a motivated workforce against the potential costs of a stagnant wage environment, which could impact their ability to attract and retain top performers.
+Minneapolis offers a strong labor pool with high workforce engagement, but the primary risk lies in stagnant wage growth and potential housing supply constraints. As a business location, Minneapolis provides a strong talent pipeline, but decision-makers must carefully consider the potential affordability and housing challenges that may impact employee attraction and retention.

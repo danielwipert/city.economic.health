@@ -1,11 +1,11 @@
 # Cincinnati
 
-**Grade: C+ (Poor) | 43.1th percentile | April 2026**
+**Grade: C (Very Poor) | 36.2th percentile | April 2026**
 
 ---
 
-Cincinnati's economy earns a C+ overall grade, with a struggling labor market and stagnant income growth, reflected in a -0.52% year-over-year nonfarm employment growth rate and 1.53% wage growth. The city's labor force participation rate of 63.08% is among the lowest in the country, indicating limited job opportunities and stagnant income growth.
+Cincinnati's economic landscape is defined by its struggling labor market, with a bottom-tier nonfarm employment growth of -0.52% year-over-year, indicating job losses and stagnation, and a labor force participation rate of 63.08%, below the national average.
 
-The city's cost of living is relatively low, with a composite score of 3.69, making it more affordable than many other metros. However, the surge in building permits by 57.47% year-over-year suggests a potential influx of new investment and development, which may not be enough to offset the labor market's weakness.
+The city's wage growth is also sluggish, at +1.53% year-over-year, suggesting weak worker bargaining power and softening demand. This is further exacerbated by a cost of living index of 3.69, above average, which may require businesses to offer wage premiums to attract talent. The city's aggressive housing supply expansion, with building permits up 57.47% year-over-year, may not be enough to offset the economic softness.
 
-Cincinnati offers businesses a low-cost operating environment, but the primary risk is the city's stagnant labor market, which may limit access to skilled workers and hinder growth. With employment opportunities and income growth lagging behind, companies may need to carefully consider whether the cost advantages are sufficient to offset the labor market challenges.
+Overall, Cincinnati's business environment offers a relatively low-cost workforce, but the primary risk is the city's stagnant labor market and potential demand erosion. Businesses must carefully consider the local economic conditions, including the slowing housing market, with homes taking 4.0% more days to sell than last year, averaging 52 days, before making a location decision.

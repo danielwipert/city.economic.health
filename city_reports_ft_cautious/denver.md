@@ -1,11 +1,11 @@
 # Denver-Aurora-Centennial
 
-**Grade: B (Average) | 54.9th percentile | April 2026**
+**Grade: B+ (Above Average) | 57.5th percentile | April 2026**
 
 ---
 
-Denver-Aurora-Centennial metro area earns a B grade, reflecting a market with a highly engaged workforce, characterized by a 70.39% labor force participation rate and 6.57% year-over-year wage growth. However, this dynamism is tempered by sluggish nonfarm employment growth of just 0.13% year-over-year, suggesting that while existing workers are seeing gains, the overall job market is not expanding rapidly.
+Denver's economy boasts a strong labor market, with a 70.39% labor force participation rate, driving a competitive job market where workers are in high demand, supported by top-tier wage growth of 6.57% year-over-year.
 
-The market's overall average grade is tempered by notable areas of tension. The cost of living composite score of 1.48, ranking in the 82nd percentile, indicates that Denver is relatively affordable. However, the housing market is showing signs of strain, with building permits plummeting 15.96% year-over-year and homes selling quickly, with days on market down 13.6% to just 38 days. This suggests that the area may be experiencing growing pains, with housing supply struggling to keep pace with demand.
+The city's cost of living composite score of 1.48 ranks it among the most affordable metros, offering a significant advantage in terms of lower real-wage requirements and higher consumer purchasing power. However, beneath this positive surface, tensions emerge. The housing market is moving exceptionally fast, with homes selling in just 38 days on average, and this pace is accelerating, with a 13.6% year-over-year decrease in days on market.
 
-Denver offers businesses a highly engaged and relatively affordable workforce, with opportunities for growth driven by strong wage gains. However, the primary risk is that the area's housing market and labor supply may become increasingly constrained, potentially driving up costs and limiting the ability to attract and retain top talent, with a low unemployment rate of 3.60%.
+Denver offers businesses a unique blend of an engaged workforce, rising wages, and an affordable cost of living, making it an attractive location for talent attraction. However, the rapidly moving housing market, with a 13.6% year-over-year decrease in days on market, and below-average building permit growth of -15.96%, hints at a supply squeeze that could erode Denver's affordability advantage over time, potentially complicating relocation efforts for new hires.

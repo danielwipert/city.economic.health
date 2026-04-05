@@ -1,0 +1,1359 @@
+"""
+generate_site.py
+Generates the U.S. Metro Economic Health website from calculated_metrics_reconciled.json.
+Writes all output to /site/ directory (served by GitHub Pages).
+
+Usage:
+    python generate_site.py          — standalone
+    Called from generate_pdf_report.py after PDF generation.
+
+Output:
+    site/index.html
+    site/rankings.html
+    site/methodology.html
+    site/metros/{slug}.html  (50 files)
+    site/assets/style.css
+    site/pdfs/city_economic_report_latest.pdf
+"""
+
+import sys
+import json
+import re
+import shutil
+from pathlib import Path
+from datetime import datetime
+
+if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8')
+if sys.stderr.encoding and sys.stderr.encoding.lower() != 'utf-8':
+    sys.stderr.reconfigure(encoding='utf-8')
+
+# ─── PATHS ────────────────────────────────────────────────────────────────────
+SCRIPT_DIR   = Path(__file__).parent
+METRICS_FILE = SCRIPT_DIR / 'calculated_metrics_reconciled.json'
+REPORTS_DIR  = SCRIPT_DIR / 'city_reports_ft_cautious'
+PDF_DIR      = SCRIPT_DIR / 'pdf_output'
+SITE_DIR     = SCRIPT_DIR / 'site'
+
+# ─── CONSTANTS ────────────────────────────────────────────────────────────────
+GRADE_COLORS = {
+    'A+': '#059669', 'A':  '#0D9488', 'A-': '#0284C7',
+    'B+': '#2563EB', 'B':  '#4F46E5', 'B-': '#64748B',
+    'C+': '#D97706', 'C':  '#EA580C', 'C-': '#DC2626',
+    'D':  '#7C3AED',
+}
+
+GRADE_DESCRIPTIONS = {
+    'A+': 'Excellent', 'A': 'Very Good', 'A-': 'Good',
+    'B+': 'Above Average', 'B': 'Average', 'B-': 'Below Average',
+    'C+': 'Poor', 'C': 'Very Poor', 'C-': 'Critical', 'D': 'Emergency',
+}
+
+GRADE_TIERS = [
+    ('A Tier',  ['A+', 'A', 'A-'], '#0284C7', 'A+ / A / A-'),
+    ('B Tier',  ['B+', 'B', 'B-'], '#4F46E5', 'B+ / B / B-'),
+    ('C Tier',  ['C+', 'C', 'C-'], '#EA580C', 'C+ / C / C-'),
+    ('D',       ['D'],             '#7C3AED', 'D'),
+]
+
+METRICS = [
+    ('107E', 'Labor Demand',      '25%'),
+    ('101A', 'Unemployment',      '20%'),
+    ('103B', 'Wage Growth',       '15%'),
+    ('104C', 'Cost of Living',    '12%'),
+    ('102A', 'Labor Force Part.', '10%'),
+    ('200B', 'Bldg. Permits',     '10%'),
+    ('204A', 'Housing Access',    ' 5%'),
+    ('105C', 'Office Economy',    ' 3%'),
+]
+
+SCENARIO_COLORS = {
+    'STRONG':  '#059669',
+    'GROWING': '#0284C7',
+    'SQUEEZE': '#D97706',
+    'WEAK':    '#DC2626',
+    'N/A':     '#9CA3AF',
+}
+
+SCENARIO_DESCS = {
+    'STRONG':  'Employment and hours both above trend — genuine demand confirmation.',
+    'GROWING': 'Payrolls expanding; hours softening — healthy growth with some moderation.',
+    'SQUEEZE': 'Payrolls contracting while hours rise — survivor squeeze signal.',
+    'WEAK':    'Both employment and hours declining — broad contraction.',
+    'N/A':     'Insufficient data to determine labor market scenario.',
+}
+
+# ─── CSS ──────────────────────────────────────────────────────────────────────
+CSS = """\
+:root {
+  --color-primary:    #0D9488;
+  --color-primary-dk: #0A7A70;
+  --color-bg:         #FFFFFF;
+  --color-bg-alt:     #F9FAFB;
+  --color-text:       #111827;
+  --color-text-muted: #6B7280;
+  --color-border:     #E5E7EB;
+  --color-green:      #059669;
+  --color-amber:      #D97706;
+  --color-red:        #DC2626;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Segoe UI", Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+a { color: var(--color-primary); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--color-primary-dk); }
+
+/* ── NAV ── */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  border-bottom: 2px solid var(--color-primary);
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+.nav-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-brand {
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  text-decoration: none;
+}
+.nav-brand:hover { color: var(--color-primary); text-decoration: none; }
+.nav-links { display: flex; gap: 24px; }
+.nav-links a { font-size: 0.9rem; font-weight: 500; color: var(--color-text-muted); }
+.nav-links a:hover { color: var(--color-primary); text-decoration: none; }
+
+/* ── SITE MAIN ── */
+.site-main { min-height: calc(100vh - 56px - 120px); }
+
+.content-wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ── HERO ── */
+.hero {
+  background: var(--color-primary);
+  padding: 60px 20px;
+  color: #fff;
+}
+.hero-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.hero-eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+.hero-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+.hero-subtitle {
+  font-size: 1.05rem;
+  opacity: 0.9;
+  margin-bottom: 6px;
+}
+.hero-date {
+  font-size: 0.85rem;
+  opacity: 0.75;
+  margin-bottom: 28px;
+}
+.hero-tagline {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  max-width: 500px;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.btn:hover { opacity: 0.88; text-decoration: none; }
+.btn-white { background: #fff; color: var(--color-primary); }
+.btn-teal { background: var(--color-primary); color: #fff; border: 1px solid rgba(255,255,255,0.3); }
+.btn-outline { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,0.6); }
+
+/* ── PERFORMERS STRIPS ── */
+.strip-section { padding: 40px 0; }
+.strip-section + .strip-section { padding-top: 0; }
+.strip-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: var(--color-text-muted);
+}
+.city-cards {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.city-card {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 120px;
+  flex: 1;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: box-shadow 0.15s;
+}
+.city-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-decoration: none; color: var(--color-text); }
+.card-rank {
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+.card-name { font-weight: 700; font-size: 0.9rem; line-height: 1.2; }
+.card-bottom { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 2px; }
+.card-score { font-size: 0.8rem; color: var(--color-text-muted); }
+
+/* ── GRADE BADGE ── */
+.grade-badge {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* ── GRADE DISTRIBUTION ── */
+.grade-dist {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 36px 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+.grade-dist-block {
+  flex: 1;
+  min-width: 120px;
+  text-align: center;
+  padding: 20px 12px;
+  background: var(--color-bg-alt);
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
+.dist-count {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+.dist-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 4px;
+}
+.dist-grades { font-size: 0.75rem; color: var(--color-text-muted); }
+
+/* ── CTA ── */
+.cta-section {
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 1px solid var(--color-border);
+}
+.cta-section h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.cta-section p {
+  color: var(--color-text-muted);
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+/* ── RANKINGS TABLE ── */
+.rankings-page { padding: 40px 0; }
+.page-header { margin-bottom: 28px; }
+.page-header h1 { font-size: 1.8rem; font-weight: 800; margin-bottom: 6px; }
+.page-header p { color: var(--color-text-muted); font-size: 0.9rem; }
+
+.rankings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+.rankings-table th {
+  text-align: left;
+  padding: 10px 12px;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  border-bottom: 2px solid var(--color-border);
+  white-space: nowrap;
+}
+.rankings-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: middle;
+}
+.rankings-table tbody tr:hover { background: var(--color-bg-alt); }
+.rankings-table tbody tr:hover td { }
+.rank-num { color: var(--color-text-muted); font-size: 0.8rem; font-weight: 600; }
+.metro-primary { font-weight: 700; }
+.metro-secondary { font-size: 0.78rem; color: var(--color-text-muted); display: block; }
+.score-val { font-weight: 700; }
+.metric-val { color: var(--color-text-muted); }
+td a { color: var(--color-text); font-weight: 700; }
+td a:hover { color: var(--color-primary); text-decoration: none; }
+
+/* ── CITY HEADER BAND ── */
+.city-header {
+  color: #fff;
+  padding: 36px 20px;
+}
+.city-header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+.city-header-left { flex: 1; }
+.city-header-right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+.rank-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+.city-title { font-size: 2.5rem; font-weight: 700; line-height: 1.1; margin-bottom: 4px; }
+.metro-name { font-size: 1rem; opacity: 0.85; }
+.grade-letter { font-size: 4rem; font-weight: 800; line-height: 1; }
+.grade-desc { font-size: 1rem; font-weight: 600; opacity: 0.9; text-transform: uppercase; letter-spacing: 0.05em; }
+.percentile-score { font-size: 1.2rem; font-weight: 700; opacity: 0.9; margin-top: 4px; }
+.rank-of { font-size: 0.85rem; opacity: 0.75; }
+
+/* ── CITY BODY ── */
+.city-body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 36px 20px;
+}
+.city-columns {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  gap: 40px;
+  margin-bottom: 36px;
+}
+
+/* ── SCORECARD ── */
+.section-title {
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border);
+}
+.metric-row {
+  display: grid;
+  grid-template-columns: 140px 1fr 32px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.metric-label { }
+.metric-name { font-size: 0.82rem; font-weight: 600; display: block; }
+.metric-weight { font-size: 0.65rem; color: var(--color-text-muted); display: block; }
+.metric-bar-track {
+  height: 8px;
+  background: var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.metric-bar-fill { height: 8px; border-radius: 4px; }
+.metric-score { font-size: 0.78rem; font-weight: 700; text-align: right; }
+
+/* ── KEY INDICATORS ── */
+.indicators-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.stat-tile {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+.stat-label {
+  font-size: 0.62rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 6px;
+}
+.stat-value { font-size: 1.5rem; font-weight: 800; line-height: 1; margin-bottom: 3px; }
+.stat-sub { font-size: 0.7rem; color: var(--color-text-muted); }
+
+/* ── SIGNAL ── */
+.signal-section { margin-bottom: 28px; }
+.signal-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.signal-desc { font-size: 0.88rem; color: var(--color-text-muted); }
+
+/* ── ECONOMIC ANALYSIS ── */
+.analysis-section { margin-bottom: 36px; }
+.analysis-section p {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  margin-bottom: 14px;
+}
+.analysis-section p:last-child { margin-bottom: 0; }
+
+/* ── CITY NAVIGATION ── */
+.city-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.88rem;
+}
+.city-nav a { color: var(--color-primary); font-weight: 600; }
+.city-nav-back { color: var(--color-text-muted); font-size: 0.82rem; }
+
+/* ── METHODOLOGY ── */
+.methodology-body { padding: 48px 0; }
+.methodology-body h1 { font-size: 1.8rem; font-weight: 800; margin-bottom: 8px; }
+.methodology-body .subtitle { color: var(--color-text-muted); margin-bottom: 40px; font-size: 0.9rem; }
+.methodology-body h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text);
+  margin: 36px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border);
+}
+.methodology-body p {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  margin-bottom: 12px;
+}
+.methodology-body ul {
+  margin: 0 0 16px 20px;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+.methodology-body li { margin-bottom: 6px; }
+.meth-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  margin-bottom: 20px;
+}
+.meth-table th {
+  text-align: left;
+  padding: 8px 12px;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  border-bottom: 2px solid var(--color-border);
+}
+.meth-table td {
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--color-border);
+}
+.meth-table tr:last-child td { border-bottom: none; }
+.grade-threshold-table { }
+.weight-bold { font-weight: 700; }
+
+/* ── FOOTER ── */
+.site-footer {
+  background: var(--color-bg-alt);
+  border-top: 1px solid var(--color-border);
+  padding: 24px 20px;
+  margin-top: 0;
+}
+.footer-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footer-sources { font-size: 0.75rem; color: var(--color-text-muted); line-height: 1.5; }
+.footer-note { font-size: 0.72rem; color: var(--color-text-muted); opacity: 0.75; }
+
+/* ── UTILITY ── */
+.mt-8  { margin-top: 8px; }
+.mt-16 { margin-top: 16px; }
+.mt-24 { margin-top: 24px; }
+.text-muted { color: var(--color-text-muted); }
+
+/* ── MOBILE ── */
+@media (max-width: 768px) {
+  .hero-title { font-size: 1.7rem; }
+  .city-title { font-size: 1.8rem; }
+  .grade-letter { font-size: 2.8rem; }
+  .city-columns { grid-template-columns: 1fr; gap: 24px; }
+  .city-header-inner { flex-direction: column; }
+  .city-header-right { align-items: flex-start; text-align: left; }
+  .city-cards { flex-direction: column; }
+  .city-card { min-width: auto; }
+  .grade-dist { gap: 10px; }
+  .indicators-grid { grid-template-columns: 1fr 1fr; }
+
+  /* Rankings: hide lower-priority columns */
+  .hide-mobile { display: none; }
+
+  .metric-row { grid-template-columns: 110px 1fr 28px; }
+  .nav-links { gap: 14px; }
+  .nav-brand { font-size: 0.8rem; }
+}
+
+@media (max-width: 480px) {
+  .indicators-grid { grid-template-columns: 1fr; }
+  .hero { padding: 36px 16px; }
+  .city-header { padding: 24px 16px; }
+  .city-body { padding: 24px 16px; }
+}
+"""
+
+# ─── HELPERS ──────────────────────────────────────────────────────────────────
+
+def city_to_slug(primary_city: str) -> str:
+    slug = primary_city.lower()
+    slug = slug.replace(' ', '-')
+    slug = re.sub(r'[^a-z0-9\-]', '', slug)
+    slug = re.sub(r'-+', '-', slug).strip('-')
+    return slug
+
+
+def fmt_pct(val, decimals=1, plus=True) -> str:
+    if val is None:
+        return 'N/A'
+    sign = '+' if (plus and val > 0) else ''
+    return f'{sign}{val:.{decimals}f}%'
+
+
+def get_scenario(emp_yoy, wh_dev) -> str:
+    if emp_yoy is None or wh_dev is None:
+        return 'N/A'
+    if emp_yoy >= 0 and wh_dev >= 0:
+        return 'STRONG'
+    elif emp_yoy >= 0 and wh_dev < 0:
+        return 'GROWING'
+    elif emp_yoy < 0 and wh_dev >= 0:
+        return 'SQUEEZE'
+    else:
+        return 'WEAK'
+
+
+def bar_color(score: float) -> str:
+    if score >= 60:
+        return '#059669'
+    elif score >= 40:
+        return '#D97706'
+    else:
+        return '#EF4444'
+
+
+def load_narrative(primary_city: str) -> str:
+    slug = city_to_slug(primary_city)
+    for reports_dir in [REPORTS_DIR, SCRIPT_DIR / 'city_reports_ft']:
+        path = reports_dir / f'{slug}.md'
+        if path.exists():
+            text = path.read_text(encoding='utf-8')
+            parts = re.split(r'\n---+\n', text, maxsplit=1)
+            if len(parts) > 1:
+                body = parts[1].strip()
+            else:
+                lines = text.split('\n')
+                body_lines = [l for l in lines if not l.startswith('#') and not l.startswith('**')]
+                body = '\n'.join(body_lines).strip()
+            paragraphs = [p.strip() for p in body.split('\n\n') if p.strip()]
+            return '\n'.join(f'<p>{p}</p>' for p in paragraphs)
+    return '<p>Analysis not available.</p>'
+
+
+# ─── DATA ─────────────────────────────────────────────────────────────────────
+
+def load_data():
+    with open(METRICS_FILE, encoding='utf-8') as f:
+        data = json.load(f)
+    metros = sorted(data['metros'], key=lambda x: x['weighted_percentile'], reverse=True)
+    ts = data.get('calculation_timestamp', '')
+    if ts:
+        calc_date = datetime.fromisoformat(ts).strftime('%B %Y')
+    else:
+        calc_date = data.get('calculation_date', 'April 2026')
+    return metros, calc_date
+
+
+def prepare_city(metro: dict, rank: int) -> dict:
+    raw  = metro['raw_values']
+    pctl = metro['percentile_scores']
+    grade = metro['grade']['letter']
+
+    emp_yoy = raw.get('107E_employment_growth_yoy')
+    wh_dev  = raw.get('107E_wh_trend_deviation_pct')
+    scenario = get_scenario(emp_yoy, wh_dev)
+
+    metrics = []
+    for code, label, weight in METRICS:
+        score = int(round(pctl.get(code, 50)))
+        metrics.append({
+            'label':     label,
+            'weight':    weight,
+            'score':     score,
+            'bar_color': bar_color(score),
+        })
+
+    dom_level = raw.get('204A_dom_level_days')
+    dom_str   = f'{int(dom_level)} days' if dom_level is not None else 'N/A'
+    dom_yoy   = raw.get('204A_dom_yoy_pct')
+
+    slug = city_to_slug(metro['primary_city'])
+
+    return {
+        'primary_city':      metro['primary_city'],
+        'metro_name':        metro['metro_name'],
+        'slug':              slug,
+        'rank':              rank,
+        'grade':             grade,
+        'grade_color':       GRADE_COLORS.get(grade, '#64748B'),
+        'grade_description': GRADE_DESCRIPTIONS.get(grade, ''),
+        'score':             metro['weighted_percentile'],
+        'metrics':           metrics,
+        'scenario':          scenario,
+        'scenario_color':    SCENARIO_COLORS[scenario],
+        'scenario_desc':     SCENARIO_DESCS[scenario],
+        'narrative':         load_narrative(metro['primary_city']),
+        # Formatted stats for key indicators
+        'unemp':      fmt_pct(raw.get('101A_unemployment'), plus=False),
+        'earnings':   fmt_pct(raw.get('103B_earnings_yoy')),
+        'emp_growth': fmt_pct(emp_yoy),
+        'lfp':        fmt_pct(raw.get('102A_lfp'), plus=False),
+        'permits':    fmt_pct(raw.get('200B_permits_yoy')),
+        'dom':        dom_str,
+        'dom_yoy':    fmt_pct(dom_yoy) if dom_yoy is not None else 'N/A',
+    }
+
+
+# ─── HTML COMPONENTS ──────────────────────────────────────────────────────────
+
+def nav_html(css_prefix: str, active: str = '') -> str:
+    def link(href, label, key):
+        cls = ' style="color:var(--color-primary);"' if active == key else ''
+        return f'<a href="{css_prefix}{href}"{cls}>{label}</a>'
+    return f'''\
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="{css_prefix}index.html">U.S. METRO ECONOMIC HEALTH</a>
+    <div class="nav-links">
+      {link("rankings.html", "Rankings", "rankings")}
+      {link("methodology.html", "Methodology", "methodology")}
+    </div>
+  </div>
+</nav>'''
+
+
+def footer_html(date: str) -> str:
+    return f'''\
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-sources">
+      Data sources: BLS LAUS / SAE &middot; Census Bureau / FRED &middot; Realtor.com / FRED
+      &middot; 85% Employment / 15% Housing composite &middot; {date} &middot; U.S. Metro Economic Health Report
+    </div>
+    <div class="footer-note">
+      Scores reflect conditions at time of data collection. Not investment advice.
+      &copy; U.S. Metro Economic Health Report
+    </div>
+  </div>
+</footer>'''
+
+
+def page_shell(title: str, css_path: str, nav: str, main_content: str, footer: str) -> str:
+    return f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title} | U.S. Metro Economic Health Report</title>
+  <link rel="stylesheet" href="{css_path}assets/style.css">
+</head>
+<body>
+  {nav}
+  <main class="site-main">
+    {main_content}
+  </main>
+  {footer}
+</body>
+</html>'''
+
+
+# ─── WRITE CSS ────────────────────────────────────────────────────────────────
+
+def write_css(site_dir: Path):
+    assets_dir = site_dir / 'assets'
+    assets_dir.mkdir(parents=True, exist_ok=True)
+    (assets_dir / 'style.css').write_text(CSS, encoding='utf-8')
+    print('  ✓ style.css')
+
+
+# ─── COPY PDF ─────────────────────────────────────────────────────────────────
+
+def copy_pdf(site_dir: Path) -> str:
+    """Copy latest PDF to site/pdfs/. Returns PDF filename or empty string."""
+    pdfs_dir = site_dir / 'pdfs'
+    pdfs_dir.mkdir(parents=True, exist_ok=True)
+
+    # Find most recently modified dated PDF
+    dated = sorted(PDF_DIR.glob('city_economic_report_2*.pdf'),
+                   key=lambda p: p.stat().st_mtime, reverse=True)
+    latest = PDF_DIR / 'city_economic_report_latest.pdf'
+
+    src = dated[0] if dated else (latest if latest.exists() else None)
+    if src and src.exists():
+        dest = pdfs_dir / 'city_economic_report_latest.pdf'
+        shutil.copy2(src, dest)
+        print(f'  ✓ pdfs/city_economic_report_latest.pdf (from {src.name})')
+        return 'pdfs/city_economic_report_latest.pdf'
+    else:
+        print('  ⚠ No PDF found — download button will be omitted')
+        return ''
+
+
+# ─── WRITE HOMEPAGE ───────────────────────────────────────────────────────────
+
+def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
+    top7    = cities[:7]
+    bottom7 = list(reversed(cities[-7:]))
+
+    # Grade distribution
+    grade_counts = {}
+    for c in cities:
+        g = c['grade']
+        grade_counts[g] = grade_counts.get(g, 0) + 1
+
+    pdf_btn = ''
+    if pdf_rel_path:
+        pdf_btn = f'<a href="{pdf_rel_path}" class="btn btn-white" download>Download PDF Report</a>'
+
+    def card_html(city):
+        return f'''\
+<a class="city-card" href="metros/{city['slug']}.html">
+  <div class="card-rank">#{city['rank']} of 50</div>
+  <div class="card-name">{city['primary_city']}</div>
+  <div class="card-bottom">
+    <span class="grade-badge" style="background:{city['grade_color']};">{city['grade']}</span>
+    <span class="card-score">{city['score']:.1f}</span>
+  </div>
+</a>'''
+
+    top_cards    = '\n'.join(card_html(c) for c in top7)
+    bottom_cards = '\n'.join(card_html(c) for c in bottom7)
+
+    dist_blocks = ''
+    for tier_label, grades, color, grade_str in GRADE_TIERS:
+        count = sum(grade_counts.get(g, 0) for g in grades)
+        dist_blocks += f'''\
+<div class="grade-dist-block">
+  <div class="dist-count" style="color:{color};">{count}</div>
+  <div class="dist-label">{tier_label}</div>
+  <div class="dist-grades">{grade_str}</div>
+</div>
+'''
+
+    main_content = f'''\
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Economic Intelligence Report</div>
+    <h1 class="hero-title">U.S. Metro Economic Health</h1>
+    <div class="hero-subtitle">50 Metropolitan Statistical Areas</div>
+    <div class="hero-date">{date}</div>
+    <p class="hero-tagline">
+      A composite score across 8 economic indicators — labor demand, unemployment,
+      wage growth, cost of living, and housing — ranked across the 50 largest U.S. metros.
+    </p>
+    {pdf_btn}
+    &nbsp;&nbsp;
+    <a href="rankings.html" class="btn btn-outline">View Full Rankings</a>
+  </div>
+</div>
+
+<div class="content-wrap">
+
+  <div class="strip-section mt-24">
+    <div class="strip-label">&#9650; Top Performers</div>
+    <div class="city-cards">{top_cards}</div>
+  </div>
+
+  <div class="strip-section mt-16">
+    <div class="strip-label">&#9660; Markets Under Pressure</div>
+    <div class="city-cards">{bottom_cards}</div>
+  </div>
+
+  <div class="grade-dist mt-8">
+    {dist_blocks}
+  </div>
+
+  <div class="cta-section">
+    <h2>Explore All 50 Metros</h2>
+    <p>Full rankings table with scores, grades, and key metrics for every metropolitan area.</p>
+    <a href="rankings.html" class="btn btn-teal">View Full Rankings</a>
+  </div>
+
+</div>'''
+
+    html = page_shell(
+        title='Home',
+        css_path='',
+        nav=nav_html('', 'home'),
+        main_content=main_content,
+        footer=footer_html(date),
+    )
+    (site_dir / 'index.html').write_text(html, encoding='utf-8')
+    print('  ✓ index.html')
+
+
+# ─── WRITE RANKINGS ───────────────────────────────────────────────────────────
+
+def write_rankings(cities: list, date: str, site_dir: Path):
+    rows = ''
+    for c in cities:
+        rows += f'''\
+<tr>
+  <td class="rank-num">{c['rank']}</td>
+  <td>
+    <a href="metros/{c['slug']}.html">
+      <span class="metro-primary">{c['primary_city']}</span>
+    </a>
+    <span class="metro-secondary">{c['metro_name']}</span>
+  </td>
+  <td><span class="grade-badge" style="background:{c['grade_color']};">{c['grade']}</span></td>
+  <td class="score-val">{c['score']:.1f}</td>
+  <td class="metric-val hide-mobile">{c['unemp']}</td>
+  <td class="metric-val hide-mobile">{c['earnings']}</td>
+  <td class="metric-val hide-mobile">{c['emp_growth']}</td>
+  <td class="metric-val hide-mobile">{c['lfp']}</td>
+  <td class="metric-val hide-mobile">{c['dom']}</td>
+</tr>
+'''
+
+    main_content = f'''\
+<div class="content-wrap rankings-page">
+  <div class="page-header">
+    <h1>Full Rankings</h1>
+    <p>50 metropolitan statistical areas ranked by composite economic health score &mdash; {date}</p>
+  </div>
+  <table class="rankings-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Metro</th>
+        <th>Grade</th>
+        <th>Score</th>
+        <th class="hide-mobile">Unemp.</th>
+        <th class="hide-mobile">Wage YoY</th>
+        <th class="hide-mobile">Emp. YoY</th>
+        <th class="hide-mobile">LFP</th>
+        <th class="hide-mobile">DOM</th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows}
+    </tbody>
+  </table>
+</div>'''
+
+    html = page_shell(
+        title='Rankings',
+        css_path='',
+        nav=nav_html('', 'rankings'),
+        main_content=main_content,
+        footer=footer_html(date),
+    )
+    (site_dir / 'rankings.html').write_text(html, encoding='utf-8')
+    print('  ✓ rankings.html')
+
+
+# ─── WRITE CITY PAGES ─────────────────────────────────────────────────────────
+
+def write_city(city: dict, all_cities: list, site_dir: Path):
+    rank = city['rank']
+    total = len(all_cities)
+
+    prev_link = ''
+    next_link = ''
+    if rank > 1:
+        prev = all_cities[rank - 2]
+        prev_link = f'<a href="{prev["slug"]}.html">&larr; #{prev["rank"]} {prev["primary_city"]}</a>'
+    if rank < total:
+        nxt = all_cities[rank]
+        next_link = f'<a href="{nxt["slug"]}.html">#{nxt["rank"]} {nxt["primary_city"]} &rarr;</a>'
+
+    # Metric scorecard rows
+    metric_rows = ''
+    for m in city['metrics']:
+        metric_rows += f'''\
+<div class="metric-row">
+  <div class="metric-label">
+    <span class="metric-name">{m['label']}</span>
+    <span class="metric-weight">{m['weight']} weight</span>
+  </div>
+  <div class="metric-bar-track">
+    <div class="metric-bar-fill" style="width:{m['score']}%;background:{m['bar_color']};"></div>
+  </div>
+  <div class="metric-score" style="color:{m['bar_color']};">{m['score']}</div>
+</div>
+'''
+
+    # Key indicators grid
+    indicators = [
+        ('Unemployment',          city['unemp'],      'unemployment rate'),
+        ('Wage Growth YoY',       city['earnings'],   'avg hourly earnings'),
+        ('Employment Growth',     city['emp_growth'], 'nonfarm payrolls YoY'),
+        ('Labor Force Part.',     city['lfp'],        'participation rate'),
+        ('Building Permits',      city['permits'],    'permits YoY'),
+        ('Days on Market',        city['dom'],        'median days on market'),
+    ]
+    tiles = ''
+    for label, value, sub in indicators:
+        tiles += f'''\
+<div class="stat-tile">
+  <div class="stat-label">{label}</div>
+  <div class="stat-value">{value}</div>
+  <div class="stat-sub">{sub}</div>
+</div>
+'''
+
+    main_content = f'''\
+<div class="city-header" style="background-color:{city['grade_color']};">
+  <div class="city-header-inner">
+    <div class="city-header-left">
+      <div class="rank-label">U.S. METRO ECONOMIC HEALTH &middot; RANK #{city['rank']} OF {total}</div>
+      <div class="city-title">{city['primary_city']}</div>
+      <div class="metro-name">{city['metro_name']}</div>
+    </div>
+    <div class="city-header-right">
+      <div class="grade-letter">{city['grade']}</div>
+      <div class="grade-desc">{city['grade_description']}</div>
+      <div class="percentile-score">{city['score']:.1f} score</div>
+      <div class="rank-of">Rank {city['rank']} of {total} metros</div>
+    </div>
+  </div>
+</div>
+
+<div class="city-body">
+
+  <div class="city-columns">
+
+    <div class="scorecard">
+      <div class="section-title">Metric Scorecard</div>
+      {metric_rows}
+    </div>
+
+    <div class="key-indicators">
+      <div class="section-title">Key Indicators</div>
+      <div class="indicators-grid">
+        {tiles}
+      </div>
+    </div>
+
+  </div>
+
+  <div class="signal-section">
+    <div class="section-title">Labor Market Signal</div>
+    <div class="signal-badge" style="background:{city['scenario_color']};">{city['scenario']}</div>
+    <div class="signal-desc">{city['scenario_desc']}</div>
+  </div>
+
+  <div class="analysis-section">
+    <div class="section-title">Economic Analysis</div>
+    {city['narrative']}
+  </div>
+
+  <div class="city-nav">
+    <div>{prev_link}</div>
+    <div class="city-nav-back"><a href="../rankings.html">&#8592; All Rankings</a></div>
+    <div>{next_link}</div>
+  </div>
+
+</div>'''
+
+    html = page_shell(
+        title=city['primary_city'],
+        css_path='../',
+        nav=nav_html('../', ''),
+        main_content=main_content,
+        footer=footer_html('April 2026'),
+    )
+    metros_dir = site_dir / 'metros'
+    metros_dir.mkdir(parents=True, exist_ok=True)
+    (metros_dir / f"{city['slug']}.html").write_text(html, encoding='utf-8')
+
+
+# ─── WRITE METHODOLOGY ────────────────────────────────────────────────────────
+
+def write_methodology(date: str, site_dir: Path):
+    metric_rows = ''
+    metric_data = [
+        ('107E', 'Labor Demand Composite',        '25%', 'Employment', 'BLS SAE — Employment & Weekly Hours'),
+        ('101A', 'Unemployment Rate',              '20%', 'Employment', 'BLS Local Area Unemployment Statistics'),
+        ('103B', 'Hourly Earnings YoY',            '15%', 'Employment', 'BLS SAE — State & Metro Area Earnings'),
+        ('104C', 'Cost of Living Composite',       '12%', 'Employment', 'Realtor.com / FRED / Census Bureau'),
+        ('102A', 'Labor Force Participation Rate', '10%', 'Employment', 'BLS Local Area Unemployment Statistics'),
+        ('200B', 'Building Permits YoY',           '10%', 'Housing',    'Census Bureau Building Permits Survey / FRED'),
+        ('204A', 'Days on Market Composite',       ' 5%', 'Housing',    'Realtor.com / FRED'),
+        ('105C', 'Office Worker Ratio Composite',  ' 3%', 'Employment', 'BLS SAE — Industry Employment'),
+    ]
+    for code, label, weight, category, source in metric_data:
+        metric_rows += f'''\
+<tr>
+  <td><strong>{code}</strong></td>
+  <td>{label}</td>
+  <td class="weight-bold">{weight.strip()}</td>
+  <td>{category}</td>
+  <td>{source}</td>
+</tr>
+'''
+
+    grade_rows = ''
+    grade_thresholds = [
+        ('68+',      'A+', 'Excellent'),
+        ('63–67.9',  'A',  'Very Good'),
+        ('59–62.9',  'A-', 'Good'),
+        ('55–58.9',  'B+', 'Above Average'),
+        ('50–54.9',  'B',  'Average'),
+        ('44–49.9',  'B-', 'Below Average'),
+        ('38–43.9',  'C+', 'Poor'),
+        ('32–37.9',  'C',  'Very Poor'),
+        ('26–31.9',  'C-', 'Critical'),
+        ('Below 26', 'D',  'Emergency'),
+    ]
+    for threshold, grade, desc in grade_thresholds:
+        color = GRADE_COLORS.get(grade, '#64748B')
+        grade_rows += f'''\
+<tr>
+  <td>{threshold}</td>
+  <td><span class="grade-badge" style="background:{color};">{grade}</span></td>
+  <td>{desc}</td>
+</tr>
+'''
+
+    main_content = f'''\
+<div class="content-wrap">
+  <div class="methodology-body">
+    <h1>Methodology</h1>
+    <div class="subtitle">How the U.S. Metro Economic Health Score is calculated &mdash; {date}</div>
+
+    <h2>What This System Measures</h2>
+    <p>
+      This system produces an economic health score for each of the top 50 U.S. metropolitan
+      statistical areas (MSAs). The score answers a specific question: <strong>how healthy is this
+      city's labor market and cost environment</strong> for businesses considering locating or
+      expanding there?
+    </p>
+    <p>
+      It is not a quality-of-life index, a population growth ranking, or a real estate investment
+      guide. It is a signal of current and near-term economic conditions from the perspective of
+      employers and workers making location decisions.
+    </p>
+
+    <h2>Geographic Scope</h2>
+    <p>
+      The report covers the 50 largest U.S. Metropolitan Statistical Areas (MSAs) by population,
+      as defined by the Office of Management and Budget (OMB). Each MSA is represented by its
+      primary city name. All 50 metros are scored simultaneously — each city's percentile rank
+      reflects its position relative to the other 49.
+    </p>
+
+    <h2>Core Mechanism: Percentile Ranking</h2>
+    <p>
+      Every metric is scored as a <strong>percentile rank across all 50 metros simultaneously</strong>.
+      A score of 75 means that metro outperforms 75% of the other 49 cities on that specific metric.
+      A score of 20 means it underperforms 80% of them. The median city scores 50 on any given metric.
+    </p>
+    <p>
+      This approach is intentional: percentile ranks are bounded 0–100, immune to outliers pulling
+      the scale, and immediately interpretable. A score of 72 is meaningful without needing to know
+      what a "normal" value looks like in absolute terms.
+    </p>
+
+    <h2>Metric Framework</h2>
+    <p>
+      Eight metrics are combined into a single weighted composite. The split is
+      <strong>85% Employment / 15% Housing</strong> — employment metrics directly measure labor
+      market conditions that drive business location decisions; housing metrics affect worker
+      recruitment and retention.
+    </p>
+    <table class="meth-table">
+      <thead>
+        <tr>
+          <th>Code</th>
+          <th>Metric</th>
+          <th>Weight</th>
+          <th>Category</th>
+          <th>Data Source</th>
+        </tr>
+      </thead>
+      <tbody>
+        {metric_rows}
+        <tr style="border-top:2px solid var(--color-border);">
+          <td></td>
+          <td><strong>Total</strong></td>
+          <td class="weight-bold">100%</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Composite Score Calculation</h2>
+    <p>
+      The composite score is a weighted average of each metro's 8 individual percentile scores:
+    </p>
+    <p style="font-family:monospace; background:var(--color-bg-alt); padding:12px 16px; border-radius:6px; border:1px solid var(--color-border);">
+      weighted_score = &sum;(percentile[metric] &times; weight[metric])
+    </p>
+    <p>
+      Since all weights sum to 100, the result is a single number on a 0–100 scale representing
+      approximately which percentile the metro occupies on the joint weighted distribution of all
+      8 metrics.
+    </p>
+
+    <h2>Grade Thresholds</h2>
+    <p>
+      Grade thresholds are calibrated to the <strong>actual achievable range</strong> of weighted
+      scores, not the theoretical 0–100. Because the weighted score is an average of 8 individual
+      percentile scores across 50 cities, the distribution compresses. The practical range observed
+      is approximately 21–79. Thresholds are set so the grade distribution is meaningful and
+      discriminating across the full spectrum.
+    </p>
+    <table class="meth-table grade-threshold-table" style="max-width:420px;">
+      <thead>
+        <tr>
+          <th>Score Threshold</th>
+          <th>Grade</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {grade_rows}
+      </tbody>
+    </table>
+
+    <h2>Key Metric Design Notes</h2>
+    <ul>
+      <li>
+        <strong>Labor Demand (107E, 25%):</strong> A composite of employment growth YoY and
+        weekly hours deviation. The hours signal is employment-conditional — above-trend hours
+        during job growth confirm demand; above-trend hours during job loss signal a "survivor
+        squeeze" where remaining workers absorb the load of eliminated positions.
+      </li>
+      <li>
+        <strong>Cost of Living (104C, 12%):</strong> A 3-component composite — absolute
+        affordability (price per sq ft vs. local wages), trend direction, and peer-relative
+        trend. This prevents expensive-but-improving cities from outscoring genuinely affordable
+        cities.
+      </li>
+      <li>
+        <strong>Days on Market (204A, 5%):</strong> A 2-component composite using a
+        60-day inflection point. Below 60 days, rising DoM signals healthy inventory growth;
+        above 60 days, rising DoM signals demand destruction. The level component scores
+        the absolute DoM on a bell-curve scale peaked at 35–80 days.
+      </li>
+      <li>
+        <strong>Labor Force Participation (102A, 10%):</strong> Captures discouraged workers
+        not counted in unemployment. Anchored to annual population benchmarks, making it a
+        slow-moving structural signal rather than a dynamic monthly indicator.
+      </li>
+    </ul>
+
+    <h2>Data Sources</h2>
+    <ul>
+      <li>
+        <strong>BLS LAUS</strong> — Local Area Unemployment Statistics: unemployment rate,
+        labor force participation rate
+      </li>
+      <li>
+        <strong>BLS SAE</strong> — State and Metro Area Employment, Hours, and Earnings:
+        employment growth, hourly earnings, weekly hours, industry employment
+      </li>
+      <li>
+        <strong>Census Bureau Building Permits Survey / FRED</strong> — residential
+        building permits
+      </li>
+      <li>
+        <strong>Realtor.com / FRED</strong> — days on market, housing price per square foot
+      </li>
+    </ul>
+
+    <h2>Update Cadence</h2>
+    <p>
+      The pipeline is designed to run monthly, timed to BLS data release schedules.
+      BLS LAUS and SAE data typically releases the third or fourth week of each month for the
+      prior month. Building permit data from Census is released approximately 16–18 days after
+      month-end. Realtor.com housing data updates monthly.
+    </p>
+    <p>
+      Each run recalculates all 50 metro scores simultaneously. Percentile ranks are recomputed
+      from scratch — a city's score can change without any change in its absolute data if
+      conditions in other cities shift the distribution.
+    </p>
+
+    <h2>Limitations</h2>
+    <ul>
+      <li>
+        <strong>Not a forecast.</strong> The score reflects current and trailing conditions.
+        It is a lagging-to-coincident indicator, not a prediction of future economic performance.
+      </li>
+      <li>
+        <strong>Not size-adjusted.</strong> All metrics are rates and percentages, not absolute
+        counts. A metro with 500,000 workers and one with 5,000,000 are compared on the same
+        basis. This is intentional — the question is economic health, not scale.
+      </li>
+      <li>
+        <strong>Structural composition effects.</strong> Labor force participation varies by
+        age structure, student population, and military presence independent of economic
+        conditions. The percentile ranking partially mitigates but does not eliminate this.
+      </li>
+      <li>
+        <strong>Not a quality-of-life index.</strong> Amenities, climate, culture, walkability,
+        and livability are not measured. A city can score highly and still be expensive, congested,
+        or climatically challenging.
+      </li>
+      <li>
+        <strong>Data lags.</strong> Some BLS metro-level series lag national estimates by
+        1–2 months. Scores reflect the most recently available data, which may not reflect
+        the most recent calendar month for all metros equally.
+      </li>
+    </ul>
+
+  </div>
+</div>'''
+
+    html = page_shell(
+        title='Methodology',
+        css_path='',
+        nav=nav_html('', 'methodology'),
+        main_content=main_content,
+        footer=footer_html(date),
+    )
+    (site_dir / 'methodology.html').write_text(html, encoding='utf-8')
+    print('  ✓ methodology.html')
+
+
+# ─── MAIN ─────────────────────────────────────────────────────────────────────
+
+def main():
+    print('=' * 60)
+    print('  U.S. METRO ECONOMIC HEALTH — WEBSITE GENERATOR')
+    print('=' * 60)
+
+    # Setup
+    SITE_DIR.mkdir(parents=True, exist_ok=True)
+    (SITE_DIR / 'metros').mkdir(parents=True, exist_ok=True)
+
+    # Load data
+    print('\n→ Loading data...')
+    metros, calc_date = load_data()
+    print(f'  {len(metros)} metros loaded  |  date: {calc_date}')
+
+    # Prepare city objects
+    print('→ Preparing city data...')
+    all_cities = [prepare_city(m, i + 1) for i, m in enumerate(metros)]
+
+    # Write CSS
+    print('\n→ Writing CSS...')
+    write_css(SITE_DIR)
+
+    # Copy PDF
+    print('→ Copying PDF...')
+    pdf_rel = copy_pdf(SITE_DIR)
+
+    # Write pages
+    print('→ Writing pages...')
+    write_homepage(all_cities, calc_date, pdf_rel, SITE_DIR)
+    write_rankings(all_cities, calc_date, SITE_DIR)
+    write_methodology(calc_date, SITE_DIR)
+
+    # Write city pages
+    print(f'→ Writing {len(all_cities)} city pages...')
+    for city in all_cities:
+        write_city(city, all_cities, SITE_DIR)
+    print(f'  ✓ {len(all_cities)} metro pages written to site/metros/')
+
+    print(f'\n✓ Site written to: {SITE_DIR}')
+    print(f'  Pages: index + rankings + methodology + {len(all_cities)} metros = {len(all_cities) + 3} total')
+    print('\nNext step: commit site/ to GitHub and enable GitHub Pages from /site/ folder.')
+    print('Done.')
+
+
+if __name__ == '__main__':
+    main()

@@ -1,11 +1,11 @@
 # Philadelphia-Camden-Wilmington
 
-**Grade: B (Average) | 54.3th percentile | April 2026**
+**Grade: B+ (Above Average) | 55.2th percentile | April 2026**
 
 ---
 
-Philadelphia-Camden-Wilmington metro area earns a B grade, driven by strong nonfarm employment growth, with a 1.16% year-over-year increase, and a high office and professional share of 3.57, indicating a skilled and educated workforce. Despite this growth, hourly wages have only risen 2.21% year-over-year, suggesting labor market slack.
+Philadelphia's economy earns a B+ grade, driven by its strong nonfarm employment growth of +1.16% YoY, ranking among the top tier. This rapid job creation is supported by a deep professional talent pool, with the city ranking in the 86th percentile for office and professional worker concentration. However, the 4.00% unemployment rate and +2.21% YoY wage growth below average suggest labor market slack and weak worker bargaining power.
 
-The top-tier performance in nonfarm employment growth and weekly hours worked, up 0.84% versus trend, suggests a dynamic and productive labor market. However, below-average wage growth and a 1.9% year-over-year increase in days on market to 53 days may indicate emerging challenges in the housing market.
+The city's housing market shows a nuanced picture, with days on market increasing by 1.9% YoY, indicating a slowing market. Despite this, the average of 53 days on market remains relatively fast compared to peers. While a slowing market may be a sign of healthy normalization, the below-average wage growth and elevated unemployment rate introduce tension, highlighting the need for careful consideration of the local labor market's dynamics.
 
-The Philadelphia-Camden-Wilmington metro area offers businesses a skilled and growing workforce, with a strong foundation in office and professional jobs. However, the primary risk is that the market's slow wage growth may limit its ability to attract and retain top talent, potentially constraining long-term growth and competitiveness.
+Philadelphia offers a dynamic and expanding economy with a deep talent pool, making it an attractive location for knowledge-economy businesses. However, the primary risk lies in the potential for labor market imbalances, with elevated unemployment and sluggish wage growth potentially weakening local consumer demand and signaling a need for careful workforce planning.

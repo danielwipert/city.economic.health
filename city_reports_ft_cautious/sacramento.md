@@ -1,11 +1,11 @@
 # Sacramento-Roseville-Folsom
 
-**Grade: D (Emergency) | 21.1th percentile | April 2026**
+**Grade: D (Emergency) | 22.1th percentile | April 2026**
 
 ---
 
-Sacramento-Roseville-Folsom metro area earns a dismal overall grade of D, reflecting a struggling labor market and weak economic fundamentals, with a 4.80% unemployment rate and a labor force participation rate of just 60.12%. Nonfarm employment growth has actually declined by 0.27% year-over-year, indicating a contracting job market.
+Sacramento-Roseville-Folsom metro area earns a dismal D grade, ranking 22nd out of 50 US metros, driven by severe labor market weakness. The city's unemployment rate stands at 4.80%, with a critically low labor force participation rate of 60.12%. This paints a picture of a struggling labor market, posing significant risks to consumer spending and business growth.
 
-The area's cost of living composite is 3.72, ranking at the 24th percentile, making it more affordable than many other metros. However, the office and professional share of the workforce is a mere 0.12, ranking at the very bottom, raising concerns about the availability of skilled labor. Building permits have plummeted by 15.51% year-over-year, suggesting a lack of investment in new construction and development.
+The data reveals tensions between different metrics. While the cost of living composite is 3.72, indicating a below-average cost of living, the low concentration of professional and office workers, ranking in the 0th percentile, poses a significant constraint for knowledge-economy businesses. The housing market is also showing signs of slowing, with days on market increasing by 5.1% year-over-year to an average of 41 days, indicating softening demand.
 
-The Sacramento-Roseville-Folsom metro area offers a relatively low cost of living, but its stagnant labor market and lack of skilled workers pose significant risks to businesses considering location here. The area's limited economic growth prospects may hinder a company's ability to attract and retain top talent, ultimately affecting its long-term viability.
+The bottom line is that Sacramento offers a low-cost environment, but this is outweighed by significant labor market and workforce constraints. The primary risk for businesses considering relocation to this city is the potential for weak economic growth and limited access to skilled workers, hindering their ability to expand and thrive.
