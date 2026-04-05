@@ -33,7 +33,7 @@ SCRIPT_DIR   = Path(__file__).parent
 METRICS_FILE = SCRIPT_DIR / 'calculated_metrics_reconciled.json'
 REPORTS_DIR  = SCRIPT_DIR / 'city_reports_ft_cautious'
 PDF_DIR      = SCRIPT_DIR / 'pdf_output'
-SITE_DIR     = SCRIPT_DIR / 'site'
+SITE_DIR     = SCRIPT_DIR / 'docs'
 
 # ─── CONSTANTS ────────────────────────────────────────────────────────────────
 GRADE_COLORS = {
