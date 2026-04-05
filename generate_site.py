@@ -63,7 +63,7 @@ METRICS = [
     ('104C', 'Cost of Living',    '12%'),
     ('102A', 'Labor Force Part.', '10%'),
     ('200B', 'Bldg. Permits',     '10%'),
-    ('204A', 'Housing Access',    ' 5%'),
+    ('204A', 'Days on Market',    ' 5%'),
     ('105C', 'Office Economy',    ' 3%'),
 ]
 
@@ -1541,22 +1541,24 @@ def write_city(city: dict, all_cities: list, site_dir: Path):
 # ─── WRITE METHODOLOGY ────────────────────────────────────────────────────────
 
 def write_methodology(date: str, site_dir: Path):
-    metric_rows = ''
     metric_data = [
-        ('107E', 'Labor Demand Composite',        '25%', 'Employment', 'BLS SAE — Employment & Weekly Hours'),
-        ('101A', 'Unemployment Rate',              '20%', 'Employment', 'BLS Local Area Unemployment Statistics'),
-        ('103B', 'Hourly Earnings YoY',            '15%', 'Employment', 'BLS SAE — State & Metro Area Earnings'),
-        ('104C', 'Cost of Living Composite',       '12%', 'Employment', 'Realtor.com / FRED / Census Bureau'),
-        ('102A', 'Labor Force Participation Rate', '10%', 'Employment', 'BLS Local Area Unemployment Statistics'),
-        ('200B', 'Building Permits YoY',           '10%', 'Housing',    'Census Bureau Building Permits Survey / FRED'),
-        ('204A', 'Days on Market Composite',       ' 5%', 'Housing',    'Realtor.com / FRED'),
-        ('105C', 'Office Worker Ratio Composite',  ' 3%', 'Employment', 'BLS SAE — Industry Employment'),
+        ('107E', 'Labor Demand',      'Labor Demand Composite',        '25%', 'Employment', 'BLS SAE &mdash; Employment &amp; Weekly Hours'),
+        ('101A', 'Unemployment',      'Unemployment Rate',              '20%', 'Employment', 'BLS Local Area Unemployment Statistics (LAUS)'),
+        ('103B', 'Wage Growth',       'Hourly Earnings YoY',            '15%', 'Employment', 'BLS SAE &mdash; State &amp; Metro Area Earnings'),
+        ('104C', 'Cost of Living',    'Cost of Living Composite',       '12%', 'Employment', 'Realtor.com / FRED / Census Bureau'),
+        ('102A', 'Labor Force Part.', 'Labor Force Participation Rate', '10%', 'Employment', 'BLS Local Area Unemployment Statistics (LAUS)'),
+        ('200B', 'Bldg. Permits',     'Building Permits YoY',           '10%', 'Housing',    'Census Bureau Building Permits Survey / FRED'),
+        ('204A', 'Days on Market',    'Days on Market Composite',       ' 5%', 'Housing',    'Realtor.com / FRED'),
+        ('105C', 'Office Economy',    'Office Worker Ratio Composite',  ' 3%', 'Employment', 'BLS SAE &mdash; Industry Employment'),
     ]
-    for code, label, weight, category, source in metric_data:
+
+    metric_rows = ''
+    for code, scorecard_label, full_name, weight, category, source in metric_data:
         metric_rows += f'''\
 <tr>
   <td><strong>{code}</strong></td>
-  <td>{label}</td>
+  <td>{scorecard_label}</td>
+  <td>{full_name}</td>
   <td class="weight-bold">{weight.strip()}</td>
   <td>{category}</td>
   <td>{source}</td>
@@ -1566,14 +1568,14 @@ def write_methodology(date: str, site_dir: Path):
     grade_rows = ''
     grade_thresholds = [
         ('68+',      'A+', 'Excellent'),
-        ('63–67.9',  'A',  'Very Good'),
-        ('59–62.9',  'A-', 'Good'),
-        ('55–58.9',  'B+', 'Above Average'),
-        ('50–54.9',  'B',  'Average'),
-        ('44–49.9',  'B-', 'Below Average'),
-        ('38–43.9',  'C+', 'Poor'),
-        ('32–37.9',  'C',  'Very Poor'),
-        ('26–31.9',  'C-', 'Critical'),
+        ('63&ndash;67.9',  'A',  'Very Good'),
+        ('59&ndash;62.9',  'A-', 'Good'),
+        ('55&ndash;58.9',  'B+', 'Above Average'),
+        ('50&ndash;54.9',  'B',  'Average'),
+        ('44&ndash;49.9',  'B-', 'Below Average'),
+        ('38&ndash;43.9',  'C+', 'Poor'),
+        ('32&ndash;37.9',  'C',  'Very Poor'),
+        ('26&ndash;31.9',  'C-', 'Critical'),
         ('Below 26', 'D',  'Emergency'),
     ]
     for threshold, grade, desc in grade_thresholds:
@@ -1582,6 +1584,23 @@ def write_methodology(date: str, site_dir: Path):
 <tr>
   <td>{threshold}</td>
   <td><span class="grade-badge" style="background:{color};">{grade}</span></td>
+  <td>{desc}</td>
+</tr>
+'''
+
+    signal_rows = ''
+    signal_data = [
+        ('STRONG',  '#059669', 'Employment growing &amp; hours above trend',  'Genuine demand confirmation. Employers are adding headcount <em>and</em> running existing workers above their normal hours — a double confirmation of labor demand.'),
+        ('GROWING', '#0284C7', 'Employment growing &amp; hours below trend',  'Healthy expansion with some moderation. Payrolls are rising but hours are softening, suggesting growth is broadening rather than concentrating on a shrinking workforce.'),
+        ('SQUEEZE', '#D97706', 'Employment falling &amp; hours above trend',  'Survivor squeeze. Payrolls are contracting while remaining workers carry elevated hours &mdash; a warning signal that the labor pool is thinning and demand may be masking layoffs.'),
+        ('WEAK',    '#DC2626', 'Employment falling &amp; hours below trend',  'Broad contraction. Both job counts and weekly hours are declining together, indicating generalized demand weakness rather than a transitional squeeze.'),
+        ('N/A',     '#9CA3AF', 'Insufficient data',                           'One or both underlying data series (employment growth or weekly hours deviation) were unavailable for this metro at the time of calculation.'),
+    ]
+    for sig, color, condition, desc in signal_data:
+        signal_rows += f'''\
+<tr>
+  <td><span class="signal-badge" style="background:{color};font-size:0.75rem;padding:2px 10px;">{sig}</span></td>
+  <td>{condition}</td>
   <td>{desc}</td>
 </tr>
 '''
@@ -1596,7 +1615,7 @@ def write_methodology(date: str, site_dir: Path):
     <p>
       This system produces an economic health score for each of the top 50 U.S. metropolitan
       statistical areas (MSAs). The score answers a specific question: <strong>how healthy is this
-      city's labor market and cost environment</strong> for businesses considering locating or
+      city&rsquo;s labor market and cost environment</strong> for businesses considering locating or
       expanding there?
     </p>
     <p>
@@ -1609,7 +1628,7 @@ def write_methodology(date: str, site_dir: Path):
     <p>
       The report covers the 50 largest U.S. Metropolitan Statistical Areas (MSAs) by population,
       as defined by the Office of Management and Budget (OMB). Each MSA is represented by its
-      primary city name. All 50 metros are scored simultaneously — each city's percentile rank
+      primary city name. All 50 metros are scored simultaneously &mdash; each city&rsquo;s percentile rank
       reflects its position relative to the other 49.
     </p>
 
@@ -1620,23 +1639,26 @@ def write_methodology(date: str, site_dir: Path):
       A score of 20 means it underperforms 80% of them. The median city scores 50 on any given metric.
     </p>
     <p>
-      This approach is intentional: percentile ranks are bounded 0–100, immune to outliers pulling
-      the scale, and immediately interpretable. A score of 72 is meaningful without needing to know
-      what a "normal" value looks like in absolute terms.
+      Percentile ranks are bounded 0&ndash;100, immune to outliers pulling the scale, and immediately
+      interpretable without knowing what a &ldquo;normal&rdquo; absolute value looks like. They are also
+      self-calibrating: as conditions shift, rankings update naturally without manual threshold
+      recalibration.
     </p>
 
     <h2>Metric Framework</h2>
     <p>
       Eight metrics are combined into a single weighted composite. The split is
-      <strong>85% Employment / 15% Housing</strong> — employment metrics directly measure labor
-      market conditions that drive business location decisions; housing metrics affect worker
-      recruitment and retention.
+      <strong>85% Employment / 15% Housing</strong> &mdash; employment metrics directly measure labor
+      market conditions; housing metrics capture whether workers can afford to live where businesses
+      need them. The table below maps each scorecard label (shown on city pages) to its full
+      technical name, weight, and data source.
     </p>
     <table class="meth-table">
       <thead>
         <tr>
           <th>Code</th>
-          <th>Metric</th>
+          <th>Scorecard Label</th>
+          <th>Full Name</th>
           <th>Weight</th>
           <th>Category</th>
           <th>Data Source</th>
@@ -1645,35 +1667,250 @@ def write_methodology(date: str, site_dir: Path):
       <tbody>
         {metric_rows}
         <tr style="border-top:2px solid var(--color-border);">
-          <td></td>
+          <td></td><td></td>
           <td><strong>Total</strong></td>
           <td class="weight-bold">100%</td>
-          <td></td>
-          <td></td>
+          <td></td><td></td>
         </tr>
+      </tbody>
+    </table>
+
+    <h2>The 8 Metrics Explained</h2>
+
+    <h2>Labor Demand &mdash; 107E &mdash; 25%</h2>
+    <p>
+      <strong>What it measures:</strong> A 2-component composite combining total nonfarm
+      employment growth year-over-year (70% of the composite) with weekly hours deviation from
+      each city&rsquo;s own 12-month baseline (30%).
+    </p>
+    <p>
+      <strong>Why it&rsquo;s the top-weighted metric:</strong> Labor demand is the central question this
+      system is designed to answer. Employment growth tells you whether payrolls are expanding or
+      contracting. Weekly hours deviation provides context &mdash; but the direction of that signal
+      flips depending on whether employment is growing or shrinking. Hours above trend during job
+      growth confirm genuine demand. Hours above trend during job losses signal a &ldquo;survivor
+      squeeze&rdquo; where remaining workers absorb the load of eliminated positions &mdash; a warning,
+      not a positive. This employment-conditional logic is what makes 107E a composite rather
+      than two standalone metrics.
+    </p>
+    <p>
+      <strong>Scored higher when:</strong> Payrolls are growing and hours are running above
+      each city&rsquo;s own recent baseline.
+    </p>
+
+    <h2>Unemployment &mdash; 101A &mdash; 20%</h2>
+    <p>
+      <strong>What it measures:</strong> The share of the civilian labor force that is unemployed
+      and actively seeking work. Sourced from BLS Local Area Unemployment Statistics (LAUS),
+      which provides monthly metro-level estimates.
+    </p>
+    <p>
+      <strong>Why 20% weight:</strong> Unemployment is the most widely tracked, most politically
+      salient, and most directly actionable labor market signal. A 0.5 percentage point difference
+      represents tens of thousands of workers in a large metro. It is the single most powerful
+      indicator of labor market health in this system.
+    </p>
+    <p>
+      <strong>Scored higher when:</strong> Unemployment is lower. This metric is inverted &mdash;
+      a 3.0% unemployment rate scores better than a 5.0% rate.
+    </p>
+    <p>
+      <strong>Limitation:</strong> Unemployment is a lagging indicator. It peaks after recessions
+      have already begun and falls after recoveries are underway. It also misses discouraged workers
+      who have left the labor force entirely, which is why Labor Force Participation (102A)
+      complements it.
+    </p>
+
+    <h2>Wage Growth &mdash; 103B &mdash; 15%</h2>
+    <p>
+      <strong>What it measures:</strong> The year-over-year percent change in average hourly
+      earnings for all private-sector employees in the metro. Sourced from BLS State and Metro
+      Area Employment, Hours, and Earnings (SAE).
+    </p>
+    <p>
+      <strong>Why 15% weight:</strong> Rising wages are a real-time demand signal &mdash; employers
+      bid up labor prices when they need workers and expect revenue growth. Wage growth also
+      directly affects worker purchasing power and a city&rsquo;s ability to attract and retain talent.
+      BLS earnings data updates monthly and captures genuine labor market tightness more dynamically
+      than annual-anchored metrics.
+    </p>
+    <p>
+      <strong>Scored higher when:</strong> Wage growth is stronger. A city with +5.0% YoY
+      earnings growth scores better than one at +1.5%.
+    </p>
+
+    <h2>Cost of Living &mdash; 104C &mdash; 12%</h2>
+    <p>
+      <strong>What it measures:</strong> A 3-component composite assessing housing cost burden
+      relative to local wages. The underlying unit is price per square foot of housing divided
+      by average hourly earnings &mdash; a ratio measuring how many hours of local work it takes
+      to buy one square foot of housing. This normalizes costs against local wages rather than
+      using a national price index.
+    </p>
+    <p>
+      <strong>The three components:</strong>
+    </p>
+    <ul>
+      <li><strong>Absolute affordability (50%):</strong> Where this metro sits on the min-max
+      range of the PSF/earnings ratio across all 50 cities. Anchors the composite to actual
+      affordability level so improving-but-expensive cities can&rsquo;t outscore genuinely
+      affordable ones.</li>
+      <li><strong>Trend direction (30%):</strong> Year-over-year change in the ratio, scored on
+      a graduated linear scale from &minus;5% (strongly improving) to +5% (strongly worsening).
+      Graduated rather than binary to avoid over-penalizing cities with tiny cost upticks.</li>
+      <li><strong>Peer-relative trend (20%):</strong> How this city&rsquo;s affordability trend
+      compares to the national median. A city worsening when peers are also worsening is less
+      alarming than one bucking a broad national improvement.</li>
+    </ul>
+    <p>
+      <strong>Scored higher when:</strong> The PSF/earnings ratio is lower (more affordable),
+      improving, and improving faster than peers.
+    </p>
+
+    <h2>Labor Force Participation &mdash; 102A &mdash; 10%</h2>
+    <p>
+      <strong>What it measures:</strong> The share of the civilian non-institutional population
+      aged 16+ that is either employed or actively looking for work. Sourced from BLS LAUS.
+    </p>
+    <p>
+      <strong>Why it complements unemployment:</strong> A city can report low unemployment
+      simply because discouraged workers stopped looking &mdash; they exit the labor force and
+      disappear from unemployment counts. LFP captures this hidden workforce disengagement.
+      A city with 3.5% unemployment <em>and</em> 58% LFP is in worse shape than one with
+      4.0% unemployment and 67% LFP.
+    </p>
+    <p>
+      <strong>Limitation:</strong> LFP is anchored to annual population benchmarks from BLS,
+      meaning the denominator only updates meaningfully once per year. This makes it a
+      slow-moving structural snapshot. It also varies significantly by demographic composition &mdash;
+      cities with older populations, large student populations, or significant military presence
+      will have structurally lower LFP independent of economic conditions.
+    </p>
+    <p>
+      <strong>Scored higher when:</strong> Labor force participation is higher.
+    </p>
+
+    <h2>Building Permits &mdash; 200B &mdash; 10%</h2>
+    <p>
+      <strong>What it measures:</strong> The year-over-year percent change in residential
+      building permits, using a 3-month smoothed average to reduce monthly volatility. Sourced
+      from the Census Bureau Building Permits Survey via FRED.
+    </p>
+    <p>
+      <strong>Why it matters:</strong> Rising permits indicate developer confidence in future
+      demand and will eventually translate into housing supply &mdash; relevant both as a measure
+      of current economic activity and as a leading indicator of future housing availability
+      for workers. A city that is attracting investment in new housing is signaling expectations
+      of continued population and employment growth.
+    </p>
+    <p>
+      <strong>Why smoothed:</strong> Building permits are volatile month-to-month due to project
+      timing, seasonal factors, and batch-approval effects. The 3-month smoothed YoY compares
+      the 3-month average ending this month to the 3-month average ending 12 months ago,
+      substantially reducing noise without losing the trend signal.
+    </p>
+    <p>
+      <strong>Scored higher when:</strong> Permit growth is stronger year-over-year.
+    </p>
+
+    <h2>Days on Market &mdash; 204A &mdash; 5%</h2>
+    <p>
+      <strong>What it measures:</strong> A 2-component composite assessing housing market
+      accessibility for workers, using median days a listing spends on market before going
+      under contract. Sourced from Realtor.com via FRED.
+    </p>
+    <p>
+      <strong>The 60-day inflection point:</strong> The direction of the trend signal depends
+      on where the market currently sits. This matters because the same directional change
+      has opposite economic meaning depending on context:
+    </p>
+    <ul>
+      <li><strong>Below 60 days (tight market):</strong> Rising DoM is <em>good</em> &mdash; the market
+      is gaining inventory and accessibility for incoming workers.</li>
+      <li><strong>Above 60 days (soft market):</strong> Rising DoM is <em>bad</em> &mdash; demand is
+      softening, buyers can&rsquo;t or won&rsquo;t transact, and labor mobility is impaired because
+      homeowners who can&rsquo;t sell are unable to relocate.</li>
+    </ul>
+    <p>
+      <strong>The level component (40%):</strong> Scores the absolute DoM against a
+      &ldquo;healthy market&rdquo; anchor using a bell-curve scale peaked at 35&ndash;80 days.
+      Markets below 15 days are too competitive for incoming workers; markets above 130 days
+      signal demand destruction. Both extremes score low.
+    </p>
+    <p>
+      <strong>Scored higher when:</strong> Days on market is in the healthy accessible range
+      and trending in the appropriate direction for its current level.
+    </p>
+
+    <h2>Office Economy &mdash; 105C &mdash; 3%</h2>
+    <p>
+      <strong>What it measures:</strong> A 2-component composite assessing the concentration
+      and growth of professional/office-based employment as a proxy for knowledge-economy
+      job density. Underlying data is BLS employment in Information, Financial Activities,
+      and Professional and Business Services sectors as a share of total nonfarm payroll.
+    </p>
+    <p>
+      <strong>The two components:</strong>
+    </p>
+    <ul>
+      <li><strong>YoY growth (60%):</strong> Whether knowledge-economy jobs are expanding
+      in this market, based on the growth rate in the 3-month smoothed office worker count.</li>
+      <li><strong>Absolute share (40%):</strong> The structural depth of the professional
+      economy &mdash; what percentage of all jobs are office-based, independent of recent trends.</li>
+    </ul>
+    <p>
+      <strong>Why only 3% weight:</strong> Office worker density is a useful tiebreaker
+      signal &mdash; it differentiates knowledge-economy metros from industrial, logistics,
+      and energy-dominated metros. However, it structurally penalizes legitimate economic
+      models (energy, logistics, distribution) that carry fewer office workers by industry
+      composition, not by economic weakness. At 3%, it provides directional signal without
+      meaningfully distorting scores for non-office economies.
+    </p>
+    <p>
+      <strong>Scored higher when:</strong> Office-sector employment is a larger share of
+      total jobs and growing.
+    </p>
+
+    <h2>Labor Market Signal</h2>
+    <p>
+      Each metro page displays a <strong>Labor Market Signal</strong> &mdash; a classification
+      derived from two components of the Labor Demand metric: employment growth year-over-year
+      and weekly hours deviation from each city&rsquo;s own 12-month baseline. The signal captures
+      what employment growth alone cannot: whether strong hours reflect genuine demand or a
+      workforce being squeezed after layoffs.
+    </p>
+    <table class="meth-table">
+      <thead>
+        <tr>
+          <th>Signal</th>
+          <th>Condition</th>
+          <th>Interpretation</th>
+        </tr>
+      </thead>
+      <tbody>
+        {signal_rows}
       </tbody>
     </table>
 
     <h2>Composite Score Calculation</h2>
     <p>
-      The composite score is a weighted average of each metro's 8 individual percentile scores:
+      The composite score is a weighted average of each metro&rsquo;s 8 individual percentile scores:
     </p>
-    <p style="font-family:monospace; background:var(--color-bg-alt); padding:12px 16px; border-radius:6px; border:1px solid var(--color-border);">
+    <p style="font-family:monospace; background:var(--color-bg-alt); padding:12px 16px; border-radius:6px; border:1px solid var(--color-border); font-size:0.9rem;">
       weighted_score = &sum;(percentile[metric] &times; weight[metric])
     </p>
     <p>
-      Since all weights sum to 100, the result is a single number on a 0–100 scale representing
-      approximately which percentile the metro occupies on the joint weighted distribution of all
-      8 metrics.
+      Since all weights sum to 100, the result is a single number on a 0&ndash;100 scale.
+      The practical range observed across 50 metros is approximately 21&ndash;79 &mdash; the
+      distribution compresses because no city can plausibly average 90+ across all 8 metrics
+      simultaneously, and no city averages below 20.
     </p>
 
     <h2>Grade Thresholds</h2>
     <p>
-      Grade thresholds are calibrated to the <strong>actual achievable range</strong> of weighted
-      scores, not the theoretical 0–100. Because the weighted score is an average of 8 individual
-      percentile scores across 50 cities, the distribution compresses. The practical range observed
-      is approximately 21–79. Thresholds are set so the grade distribution is meaningful and
-      discriminating across the full spectrum.
+      Thresholds are calibrated to the actual achievable range of scores, not the theoretical
+      0&ndash;100. They are set so the grade distribution is meaningful and discriminating across
+      the full spectrum of metros.
     </p>
     <table class="meth-table grade-threshold-table" style="max-width:420px;">
       <thead>
@@ -1688,91 +1925,34 @@ def write_methodology(date: str, site_dir: Path):
       </tbody>
     </table>
 
-    <h2>Key Metric Design Notes</h2>
-    <ul>
-      <li>
-        <strong>Labor Demand (107E, 25%):</strong> A composite of employment growth YoY and
-        weekly hours deviation. The hours signal is employment-conditional — above-trend hours
-        during job growth confirm demand; above-trend hours during job loss signal a "survivor
-        squeeze" where remaining workers absorb the load of eliminated positions.
-      </li>
-      <li>
-        <strong>Cost of Living (104C, 12%):</strong> A 3-component composite — absolute
-        affordability (price per sq ft vs. local wages), trend direction, and peer-relative
-        trend. This prevents expensive-but-improving cities from outscoring genuinely affordable
-        cities.
-      </li>
-      <li>
-        <strong>Days on Market (204A, 5%):</strong> A 2-component composite using a
-        60-day inflection point. Below 60 days, rising DoM signals healthy inventory growth;
-        above 60 days, rising DoM signals demand destruction. The level component scores
-        the absolute DoM on a bell-curve scale peaked at 35–80 days.
-      </li>
-      <li>
-        <strong>Labor Force Participation (102A, 10%):</strong> Captures discouraged workers
-        not counted in unemployment. Anchored to annual population benchmarks, making it a
-        slow-moving structural signal rather than a dynamic monthly indicator.
-      </li>
-    </ul>
-
     <h2>Data Sources</h2>
     <ul>
-      <li>
-        <strong>BLS LAUS</strong> — Local Area Unemployment Statistics: unemployment rate,
-        labor force participation rate
-      </li>
-      <li>
-        <strong>BLS SAE</strong> — State and Metro Area Employment, Hours, and Earnings:
-        employment growth, hourly earnings, weekly hours, industry employment
-      </li>
-      <li>
-        <strong>Census Bureau Building Permits Survey / FRED</strong> — residential
-        building permits
-      </li>
-      <li>
-        <strong>Realtor.com / FRED</strong> — days on market, housing price per square foot
-      </li>
+      <li><strong>BLS LAUS</strong> &mdash; Local Area Unemployment Statistics: unemployment rate, labor force participation rate</li>
+      <li><strong>BLS SAE</strong> &mdash; State and Metro Area Employment, Hours, and Earnings: employment growth, hourly earnings, weekly hours, industry employment</li>
+      <li><strong>Census Bureau / FRED</strong> &mdash; residential building permits</li>
+      <li><strong>Realtor.com / FRED</strong> &mdash; median days on market, housing price per square foot</li>
     </ul>
 
     <h2>Update Cadence</h2>
     <p>
-      The pipeline is designed to run monthly, timed to BLS data release schedules.
-      BLS LAUS and SAE data typically releases the third or fourth week of each month for the
-      prior month. Building permit data from Census is released approximately 16–18 days after
-      month-end. Realtor.com housing data updates monthly.
+      The pipeline runs monthly, timed to BLS data release schedules. BLS LAUS and SAE data
+      typically releases in the third or fourth week of each month for the prior month.
+      Building permit data from Census releases approximately 16&ndash;18 days after month-end.
+      Realtor.com housing data updates monthly.
     </p>
     <p>
       Each run recalculates all 50 metro scores simultaneously. Percentile ranks are recomputed
-      from scratch — a city's score can change without any change in its absolute data if
-      conditions in other cities shift the distribution.
+      from scratch &mdash; a city&rsquo;s score can change without any change in its own absolute
+      data if conditions in other cities shift the distribution.
     </p>
 
     <h2>Limitations</h2>
     <ul>
-      <li>
-        <strong>Not a forecast.</strong> The score reflects current and trailing conditions.
-        It is a lagging-to-coincident indicator, not a prediction of future economic performance.
-      </li>
-      <li>
-        <strong>Not size-adjusted.</strong> All metrics are rates and percentages, not absolute
-        counts. A metro with 500,000 workers and one with 5,000,000 are compared on the same
-        basis. This is intentional — the question is economic health, not scale.
-      </li>
-      <li>
-        <strong>Structural composition effects.</strong> Labor force participation varies by
-        age structure, student population, and military presence independent of economic
-        conditions. The percentile ranking partially mitigates but does not eliminate this.
-      </li>
-      <li>
-        <strong>Not a quality-of-life index.</strong> Amenities, climate, culture, walkability,
-        and livability are not measured. A city can score highly and still be expensive, congested,
-        or climatically challenging.
-      </li>
-      <li>
-        <strong>Data lags.</strong> Some BLS metro-level series lag national estimates by
-        1–2 months. Scores reflect the most recently available data, which may not reflect
-        the most recent calendar month for all metros equally.
-      </li>
+      <li><strong>Not a forecast.</strong> The score reflects current and trailing conditions. It is a lagging-to-coincident indicator, not a prediction of future economic performance.</li>
+      <li><strong>Not size-adjusted.</strong> All metrics are rates and percentages. A metro with 500,000 workers and one with 5,000,000 are compared on the same basis &mdash; the question is health, not scale.</li>
+      <li><strong>Structural composition effects.</strong> Labor force participation varies by age structure, student population, and military presence independent of economic conditions. The percentile ranking partially mitigates but does not eliminate this bias.</li>
+      <li><strong>Not a quality-of-life index.</strong> Amenities, climate, culture, and livability are not measured. A city can score highly and still be expensive, congested, or climatically challenging.</li>
+      <li><strong>Data lags.</strong> Some BLS metro-level series lag national estimates by 1&ndash;2 months. Scores reflect the most recently available data, which may not be the same calendar month for all metros.</li>
     </ul>
 
   </div>
