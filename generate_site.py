@@ -553,9 +553,315 @@ td a:hover { color: var(--color-primary); text-decoration: none; }
 .mt-24 { margin-top: 24px; }
 .text-muted { color: var(--color-text-muted); }
 
+/* ── HERO REDESIGN ── */
+.hero { padding: 64px 20px; }
+.hero-layout {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.hero-text { flex: 1; min-width: 0; }
+.hero-pills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.hero-pill {
+  background: rgba(255,255,255,0.18);
+  border: 1px solid rgba(255,255,255,0.35);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.hero-buttons { display: flex; gap: 12px; flex-wrap: wrap; }
+.hero-featured {
+  flex: 0 0 220px;
+  background: rgba(255,255,255,0.14);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 12px;
+  padding: 28px 24px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.2s;
+}
+.hero-featured:hover { background: rgba(255,255,255,0.22); text-decoration: none; color: #fff; }
+.hf-eyebrow { font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.75; }
+.hf-grade { font-size: 3.6rem; font-weight: 800; line-height: 1; margin: 4px 0; }
+.hf-city { font-size: 1.15rem; font-weight: 700; }
+.hf-metro { font-size: 0.78rem; opacity: 0.75; }
+.hf-score { font-size: 0.85rem; opacity: 0.85; margin-top: 4px; }
+.hf-signal {
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 3px;
+  color: #fff;
+  background: rgba(255,255,255,0.25);
+  margin-top: 2px;
+}
+.hf-label { font-size: 0.68rem; opacity: 0.65; margin-top: 6px; }
+
+/* ── SNAPSHOT BAR ── */
+.snapshot-bar {
+  background: #fff;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+}
+.snapshot-stat {
+  flex: 1;
+  padding: 24px 16px;
+  text-align: center;
+  border-right: 1px solid var(--color-border);
+}
+.snapshot-stat:last-child { border-right: none; }
+.snapshot-num {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.snapshot-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+.snapshot-sub { font-size: 0.75rem; color: var(--color-text-muted); margin-top: 2px; }
+
+/* ── PERFORMERS SECTION ── */
+.performers-section {
+  padding: 48px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.performers-section.top-section { background: #F0FDF9; }
+.performers-section.pressure-section { background: #FFF8F6; }
+.perf-section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.perf-section-title {
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.perf-section-title.green { color: #059669; }
+.perf-section-title.red { color: #DC2626; }
+.perf-section-link { font-size: 0.8rem; color: var(--color-primary); font-weight: 500; }
+.perf-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+.perf-card {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-top-width: 3px;
+  border-radius: 8px;
+  padding: 14px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+.perf-card:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: var(--color-text);
+}
+.perf-rank-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.perf-rank-num { font-size: 0.65rem; color: var(--color-text-muted); font-weight: 600; }
+.signal-mini {
+  font-size: 0.5rem;
+  letter-spacing: 0.06em;
+  padding: 1px 5px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.perf-name { font-weight: 700; font-size: 0.88rem; line-height: 1.2; }
+.perf-score-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+.perf-score { font-size: 0.78rem; color: var(--color-text-muted); }
+
+/* ── SIGNAL DISTRIBUTION ── */
+.signal-dist-section {
+  padding: 48px 0;
+  background: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-border);
+}
+.signal-dist-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+.signal-dist-text h2 { font-size: 1.3rem; font-weight: 800; margin-bottom: 8px; }
+.signal-dist-text p { font-size: 0.88rem; color: var(--color-text-muted); line-height: 1.6; }
+.signal-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.signal-bar-label {
+  width: 72px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+.signal-bar-track {
+  flex: 1;
+  height: 22px;
+  background: var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.signal-bar-fill {
+  height: 22px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  transition: width 0.3s;
+}
+.signal-bar-fill-label { font-size: 0.7rem; font-weight: 700; color: #fff; white-space: nowrap; }
+.signal-bar-count {
+  width: 48px;
+  text-align: right;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+/* ── HOW WE SCORE ── */
+.how-section {
+  padding: 56px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.how-header { margin-bottom: 28px; }
+.how-header h2 { font-size: 1.3rem; font-weight: 800; margin-bottom: 6px; }
+.how-header p { font-size: 0.9rem; color: var(--color-text-muted); }
+.how-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.how-card {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 24px;
+}
+.how-number {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.how-title { font-size: 0.92rem; font-weight: 700; margin-bottom: 8px; }
+.how-desc { font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.6; }
+
+/* ── GRADE DISTRIBUTION REDESIGN ── */
+.grade-dist {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 48px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.grade-dist-header {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+.grade-dist-header h2 { font-size: 1.3rem; font-weight: 800; }
+.grade-dist-blocks { display: flex; gap: 16px; flex-wrap: wrap; width: 100%; }
+.grade-dist-block {
+  flex: 1;
+  min-width: 140px;
+  text-align: center;
+  padding: 24px 16px;
+  background: var(--color-bg-alt);
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+}
+.dist-count {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.dist-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 3px;
+  font-weight: 600;
+}
+.dist-grades { font-size: 0.78rem; color: var(--color-text-muted); }
+.dist-pct { font-size: 0.72rem; color: var(--color-text-muted); margin-top: 4px; opacity: 0.8; }
+
+/* ── CTA ── */
+.cta-section {
+  padding: 56px 0;
+  text-align: center;
+}
+.cta-section h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.cta-section p {
+  color: var(--color-text-muted);
+  margin-bottom: 24px;
+  font-size: 0.92rem;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-large { padding: 14px 36px; font-size: 1rem; border-radius: 8px; }
+
 /* ── MOBILE ── */
 @media (max-width: 768px) {
   .hero-title { font-size: 1.7rem; }
+  .hero-layout { flex-direction: column; gap: 28px; }
+  .hero-featured { flex: none; width: 100%; flex-direction: row; text-align: left; align-items: center; padding: 20px; }
   .city-title { font-size: 1.8rem; }
   .grade-letter { font-size: 2.8rem; }
   .city-columns { grid-template-columns: 1fr; gap: 24px; }
@@ -564,7 +870,13 @@ td a:hover { color: var(--color-primary); text-decoration: none; }
   .city-cards { flex-direction: column; }
   .city-card { min-width: auto; }
   .grade-dist { gap: 10px; }
+  .grade-dist-blocks { gap: 10px; }
   .indicators-grid { grid-template-columns: 1fr 1fr; }
+  .perf-grid { grid-template-columns: repeat(2, 1fr); }
+  .snapshot-bar { flex-wrap: wrap; }
+  .snapshot-stat { flex: 0 0 50%; border-bottom: 1px solid var(--color-border); }
+  .signal-dist-inner { grid-template-columns: 1fr; }
+  .how-cards { grid-template-columns: 1fr; }
 
   /* Rankings: hide lower-priority columns */
   .hide-mobile { display: none; }
@@ -579,6 +891,8 @@ td a:hover { color: var(--color-primary); text-decoration: none; }
   .hero { padding: 36px 16px; }
   .city-header { padding: 24px 16px; }
   .city-body { padding: 24px 16px; }
+  .perf-grid { grid-template-columns: repeat(2, 1fr); }
+  .snapshot-stat { flex: 0 0 100%; }
 }
 """
 
@@ -793,6 +1107,14 @@ def copy_pdf(site_dir: Path) -> str:
 def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
     top7    = cities[:7]
     bottom7 = list(reversed(cities[-7:]))
+    top1    = cities[0]
+
+    # Summary stats
+    total       = len(cities)
+    median_score = cities[total // 2]['score']
+    ab_count    = sum(1 for c in cities if c['grade'] in ['A+','A','A-','B+','B','B-'])
+    strong_count = sum(1 for c in cities if c['scenario'] == 'STRONG')
+    growing_count = sum(1 for c in cities if c['scenario'] in ['STRONG','GROWING'])
 
     # Grade distribution
     grade_counts = {}
@@ -800,74 +1122,232 @@ def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
         g = c['grade']
         grade_counts[g] = grade_counts.get(g, 0) + 1
 
+    # Signal distribution
+    signal_order  = ['STRONG', 'GROWING', 'SQUEEZE', 'WEAK', 'N/A']
+    signal_counts = {s: sum(1 for c in cities if c['scenario'] == s) for s in signal_order}
+
+    # PDF button
     pdf_btn = ''
     if pdf_rel_path:
-        pdf_btn = f'<a href="{pdf_rel_path}" class="btn btn-white" download>Download PDF Report</a>'
+        pdf_btn = f'<a href="{pdf_rel_path}" class="btn btn-white" download>&#8595; Download PDF</a>'
 
-    def card_html(city):
+    # ── Hero featured city card ──
+    hero_featured = f'''\
+<a class="hero-featured" href="metros/{top1['slug']}.html">
+  <div class="hf-eyebrow">#1 Ranked Metro &mdash; {date}</div>
+  <div class="hf-grade">{top1['grade']}</div>
+  <div class="hf-city">{top1['primary_city']}</div>
+  <div class="hf-metro">{top1['metro_name']}</div>
+  <div class="hf-score">{top1['score']:.1f} composite score</div>
+  <div class="hf-signal">{top1['scenario']}</div>
+  <div class="hf-label">Click to view full analysis &rarr;</div>
+</a>'''
+
+    # ── Performer cards ──
+    def perf_card(city):
         return f'''\
-<a class="city-card" href="metros/{city['slug']}.html">
-  <div class="card-rank">#{city['rank']} of 50</div>
-  <div class="card-name">{city['primary_city']}</div>
-  <div class="card-bottom">
+<a class="perf-card" href="metros/{city['slug']}.html" style="border-top-color:{city['grade_color']};">
+  <div class="perf-rank-row">
+    <span class="perf-rank-num">#{city['rank']}</span>
+    <span class="signal-mini" style="background:{city['scenario_color']};">{city['scenario']}</span>
+  </div>
+  <div class="perf-name">{city['primary_city']}</div>
+  <div class="perf-score-row">
     <span class="grade-badge" style="background:{city['grade_color']};">{city['grade']}</span>
-    <span class="card-score">{city['score']:.1f}</span>
+    <span class="perf-score">{city['score']:.1f}</span>
   </div>
 </a>'''
 
-    top_cards    = '\n'.join(card_html(c) for c in top7)
-    bottom_cards = '\n'.join(card_html(c) for c in bottom7)
+    top_cards    = '\n'.join(perf_card(c) for c in top7)
+    bottom_cards = '\n'.join(perf_card(c) for c in bottom7)
 
+    # ── Signal distribution bars ──
+    max_sig = max(signal_counts.values()) or 1
+    signal_bars = ''
+    for sig in signal_order:
+        count = signal_counts[sig]
+        color = SCENARIO_COLORS[sig]
+        pct   = int(count / max_sig * 100)
+        metros_label = 'metro' if count == 1 else 'metros'
+        signal_bars += f'''\
+<div class="signal-bar-row">
+  <div class="signal-bar-label" style="color:{color};">{sig}</div>
+  <div class="signal-bar-track">
+    <div class="signal-bar-fill" style="width:{pct}%;background:{color};">
+      <span class="signal-bar-fill-label">{count} {metros_label}</span>
+    </div>
+  </div>
+  <div class="signal-bar-count">{count}</div>
+</div>
+'''
+
+    # ── Grade distribution blocks ──
     dist_blocks = ''
     for tier_label, grades, color, grade_str in GRADE_TIERS:
         count = sum(grade_counts.get(g, 0) for g in grades)
+        pct   = round(count / total * 100)
         dist_blocks += f'''\
 <div class="grade-dist-block">
   <div class="dist-count" style="color:{color};">{count}</div>
   <div class="dist-label">{tier_label}</div>
   <div class="dist-grades">{grade_str}</div>
+  <div class="dist-pct">{pct}% of metros</div>
 </div>
 '''
 
     main_content = f'''\
+<!-- HERO -->
 <div class="hero">
-  <div class="hero-inner">
-    <div class="hero-eyebrow">Economic Intelligence Report</div>
-    <h1 class="hero-title">U.S. Metro Economic Health</h1>
-    <div class="hero-subtitle">50 Metropolitan Statistical Areas</div>
-    <div class="hero-date">{date}</div>
-    <p class="hero-tagline">
-      A composite score across 8 economic indicators — labor demand, unemployment,
-      wage growth, cost of living, and housing — ranked across the 50 largest U.S. metros.
-    </p>
-    {pdf_btn}
-    &nbsp;&nbsp;
-    <a href="rankings.html" class="btn btn-outline">View Full Rankings</a>
+  <div class="hero-layout">
+    <div class="hero-text">
+      <div class="hero-pills">
+        <span class="hero-pill">50 Metro Areas</span>
+        <span class="hero-pill">8 Indicators</span>
+        <span class="hero-pill">{date}</span>
+      </div>
+      <h1 class="hero-title">U.S. Metro Economic Health</h1>
+      <p class="hero-tagline">
+        A composite economic health score for the 50 largest U.S. metros &mdash;
+        ranking labor demand, unemployment, wage growth, cost of living, and housing
+        into a single 0&ndash;100 grade.
+      </p>
+      <div class="hero-buttons">
+        {pdf_btn}
+        <a href="rankings.html" class="btn btn-outline">View Full Rankings</a>
+      </div>
+    </div>
+    {hero_featured}
   </div>
 </div>
 
+<!-- SNAPSHOT BAR -->
+<div class="snapshot-bar">
+  <div class="snapshot-stat">
+    <div class="snapshot-num">{median_score:.1f}</div>
+    <div class="snapshot-label">Median Score</div>
+    <div class="snapshot-sub">across 50 metros</div>
+  </div>
+  <div class="snapshot-stat">
+    <div class="snapshot-num">{ab_count}</div>
+    <div class="snapshot-label">A &amp; B Grade Markets</div>
+    <div class="snapshot-sub">healthy or above average</div>
+  </div>
+  <div class="snapshot-stat">
+    <div class="snapshot-num">{growing_count}</div>
+    <div class="snapshot-label">Growing Markets</div>
+    <div class="snapshot-sub">STRONG or GROWING signal</div>
+  </div>
+  <div class="snapshot-stat">
+    <div class="snapshot-num">{total}</div>
+    <div class="snapshot-label">Metros Scored</div>
+    <div class="snapshot-sub">largest U.S. MSAs</div>
+  </div>
+</div>
+
+<!-- TOP PERFORMERS -->
+<div class="performers-section top-section">
+  <div class="content-wrap">
+    <div class="perf-section-header">
+      <div class="perf-section-title green">&#9650; Top Performing Markets &mdash; {date}</div>
+      <a class="perf-section-link" href="rankings.html">See all 50 &rarr;</a>
+    </div>
+    <div class="perf-grid">{top_cards}</div>
+  </div>
+</div>
+
+<!-- MARKETS UNDER PRESSURE -->
+<div class="performers-section pressure-section">
+  <div class="content-wrap">
+    <div class="perf-section-header">
+      <div class="perf-section-title red">&#9660; Markets Under Pressure</div>
+      <a class="perf-section-link" href="rankings.html">See all 50 &rarr;</a>
+    </div>
+    <div class="perf-grid">{bottom_cards}</div>
+  </div>
+</div>
+
+<!-- SIGNAL DISTRIBUTION -->
+<div class="signal-dist-section">
+  <div class="content-wrap">
+    <div class="signal-dist-inner">
+      <div class="signal-dist-text">
+        <h2>Labor Market Signal Distribution</h2>
+        <p>
+          Each metro is classified by its labor market scenario &mdash; combining employment
+          growth direction with weekly hours deviation from each city's own 12-month baseline.
+          The signal captures what employment alone cannot: whether growth is genuine demand
+          or a survivor squeeze.
+        </p>
+        <p style="margin-top:12px;">
+          <a href="methodology.html">Learn how signals are calculated &rarr;</a>
+        </p>
+      </div>
+      <div class="signal-dist-bars">
+        {signal_bars}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW WE SCORE -->
+<div class="how-section">
+  <div class="content-wrap">
+    <div class="how-header">
+      <h2>How the Score Works</h2>
+      <p>A composite of 8 economic indicators, weighted by their signal quality and data timeliness.</p>
+    </div>
+    <div class="how-cards">
+      <div class="how-card">
+        <div class="how-number">8</div>
+        <div class="how-title">Indicators, One Score</div>
+        <div class="how-desc">
+          Labor demand, unemployment, wage growth, cost of living, labor force participation,
+          building permits, days on market, and office economy &mdash; combined into a single
+          weighted composite.
+        </div>
+      </div>
+      <div class="how-card">
+        <div class="how-number">0&ndash;100</div>
+        <div class="how-title">Percentile-Ranked</div>
+        <div class="how-desc">
+          Every metric is scored as a percentile rank across all 50 metros simultaneously.
+          A score of 75 means this city outperforms 75% of its peers on that measure.
+          Immune to outliers and self-calibrating as conditions change.
+        </div>
+      </div>
+      <div class="how-card">
+        <div class="how-number">85 / 15</div>
+        <div class="how-title">Employment / Housing Split</div>
+        <div class="how-desc">
+          85% of the score comes from employment metrics &mdash; the direct measure of labor
+          market health. Housing gets 15%, capturing whether workers can afford to live where
+          businesses need them.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- GRADE DISTRIBUTION -->
 <div class="content-wrap">
-
-  <div class="strip-section mt-24">
-    <div class="strip-label">&#9650; Top Performers</div>
-    <div class="city-cards">{top_cards}</div>
+  <div class="grade-dist">
+    <div class="grade-dist-header">
+      <h2>Grade Distribution &mdash; {total} Metros</h2>
+      <a href="methodology.html" style="font-size:0.85rem;color:var(--color-primary);">Grade thresholds &rarr;</a>
+    </div>
+    <div class="grade-dist-blocks">
+      {dist_blocks}
+    </div>
   </div>
+</div>
 
-  <div class="strip-section mt-16">
-    <div class="strip-label">&#9660; Markets Under Pressure</div>
-    <div class="city-cards">{bottom_cards}</div>
-  </div>
-
-  <div class="grade-dist mt-8">
-    {dist_blocks}
-  </div>
-
+<!-- CTA -->
+<div class="content-wrap">
   <div class="cta-section">
-    <h2>Explore All 50 Metros</h2>
-    <p>Full rankings table with scores, grades, and key metrics for every metropolitan area.</p>
-    <a href="rankings.html" class="btn btn-teal">View Full Rankings</a>
+    <h2>Explore All 50 Metro Areas</h2>
+    <p>Full rankings table with scores, grades, and key economic metrics for every metropolitan area.</p>
+    <a href="rankings.html" class="btn btn-teal btn-large">View Full Rankings &rarr;</a>
   </div>
-
 </div>'''
 
     html = page_shell(
