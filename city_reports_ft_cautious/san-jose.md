@@ -1,11 +1,11 @@
 # San Jose-Sunnyvale-Santa Clara
 
-**Grade: C (Very Poor) | 33.5th percentile | April 2026**
+**Grade: C (Very Poor) | 33.4th percentile | April 2026**
 
 ---
 
-San Jose's sluggish labor market and extremely high cost of living define its economic character, with a 4.00% unemployment rate and -0.16% year-over-year nonfarm employment growth, indicating deceleration. Wage growth is stagnant at +0.59% year-over-year, limiting workers' leverage and potentially weakening consumer spending.
+San Jose's overall economic grade of C, ranking 33.4th percentile out of 50 US metros, reflects a market with significant challenges, with an unemployment rate of 4.00% and below-average nonfarm employment growth of -0.16% YoY, indicating labor market slack and economic deceleration. Stagnant wage growth of +0.59% YoY suggests that workers have limited leverage, which could weaken local consumer demand.
 
-The city's cost of living composite score of 6.96, among the lowest 2% of metros, underscores the significant affordability challenges faced by residents and businesses. Despite this, San Jose is experiencing a surge in housing supply, with building permits increasing by 195.09% year-over-year. However, the days on market metric suggests a slowing market, with homes taking 23 days to sell on average, increasing by 4.5% year-over-year.
+The city's housing supply is expanding aggressively, with building permits up 195.09% YoY, which could eventually lead to improved affordability. However, the days on market are increasing by 9.1% YoY, with homes selling in just 24 days, indicating a still-competitive housing market. The city's cost of living composite score of 6.03, ranking in the bottom tier, poses a significant constraint on talent acquisition and real consumer spending power.
 
-San Jose offers a highly educated and skilled workforce, but at a significant cost due to its extremely high cost of living. The primary risk for businesses considering locating in San Jose is the potential for weakened consumer demand and limited access to affordable talent, which could hinder long-term growth and profitability.
+San Jose offers a business a highly competitive but potentially softening housing market, with an expanding supply that could improve affordability in the long term. However, the primary risk is the city's high cost of living and weak employment growth, which could limit the availability of skilled workers and undermine consumer demand, making it a challenging location for businesses to thrive.

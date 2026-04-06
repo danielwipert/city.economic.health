@@ -1,11 +1,11 @@
 # Seattle-Tacoma-Bellevue
 
-**Grade: B- (Below Average) | 46.0th percentile | April 2026**
+**Grade: B- (Below Average) | 45.3th percentile | April 2026**
 
 ---
 
-Seattle's economy earns a below-average overall grade of 46.0th percentile, driven by a high unemployment rate of 5.00%, indicating severe labor market weakness and a potential risk to consumer spending. A deep labor pool, with a labor force participation rate of 68.24%, and strong wage growth of 7.63% year-over-year, suggest a highly engaged and well-compensated workforce.
+Seattle's economy earns a below-average grade of B- (45.3rd percentile), with a high unemployment rate of 5.00% and a potential risk to consumer spending. However, the city's strong workforce engagement, with a labor force participation rate of 68.24%, suggests a deep labor pool. Wage growth is also rising fast, with a 7.63% year-over-year increase, excellent for workers but potentially posing a cost pressure for employers.
 
-However, the city's employment growth is a concern, with nonfarm employment declining by 0.15% year-over-year, a below-average performance. This weakness is mirrored in the housing market, where homes take an average of 36 days to sell, with days on market increasing by 2.9% year-over-year. This slowing market may indicate demand erosion, particularly given the lackluster employment growth.
+Despite strong wage growth, total nonfarm employment growth is below average, at -0.15% year-over-year, suggesting economic deceleration. This tension raises questions about the sustainability of the wage growth, driven by a mix shift towards higher-paying jobs or broad labor market health. The city's housing market is also showing signs of slowing, with days on market increasing by 9.7% year-over-year, but the absolute level of 34 days still indicates a relatively fast market.
 
-Seattle offers businesses a highly engaged and well-compensated workforce, but with significant labor market risks. The primary caveat for businesses considering location in Seattle is the potential for demand erosion and labor market instability, which could impact consumer spending and business growth prospects.
+Seattle offers businesses a deep labor pool and strong wage growth, but labor market weakness and potential demand erosion pose a significant risk. The combination of high unemployment and slowing employment growth warrants careful consideration of the potential risks and challenges for businesses considering location decisions in Seattle.

@@ -1,11 +1,11 @@
 # Denver-Aurora-Centennial
 
-**Grade: B+ (Above Average) | 57.5th percentile | April 2026**
+**Grade: A- (Good) | 59.1th percentile | April 2026**
 
 ---
 
-Denver's economy boasts a strong labor market, with a 70.39% labor force participation rate, driving a competitive job market where workers are in high demand, supported by top-tier wage growth of 6.57% year-over-year.
+Denver's economy earns a strong grade of A-, driven by its top-tier labor force participation rate of 70.39% and robust wage growth of 6.57% year-over-year, indicating a deep labor pool with engaged workers, making it an attractive location for businesses looking to hire. The city's cost of living composite score of 1.46, below average, could be a draw for companies and employees alike.
 
-The city's cost of living composite score of 1.48 ranks it among the most affordable metros, offering a significant advantage in terms of lower real-wage requirements and higher consumer purchasing power. However, beneath this positive surface, tensions emerge. The housing market is moving exceptionally fast, with homes selling in just 38 days on average, and this pace is accelerating, with a 13.6% year-over-year decrease in days on market.
+However, the data reveals tensions. Despite the strong labor market, building permits have declined by 15.96% year-over-year, indicating a potential tightening of the housing supply. The days on market have increased by 8.6% year-over-year, with homes now taking an average of 38 days to sell. This slowing of the housing market could be a sign of demand erosion, particularly given the lackluster nonfarm employment growth of 0.13% year-over-year.
 
-Denver offers businesses a unique blend of an engaged workforce, rising wages, and an affordable cost of living, making it an attractive location for talent attraction. However, the rapidly moving housing market, with a 13.6% year-over-year decrease in days on market, and below-average building permit growth of -15.96%, hints at a supply squeeze that could erode Denver's affordability advantage over time, potentially complicating relocation efforts for new hires.
+Denver offers businesses a talented and engaged workforce, as well as a relatively low cost of living. However, the primary risk is the potential for a tightening housing supply and slowing demand, which could erode the city's affordability advantage and make it less attractive to companies and employees in the long run.

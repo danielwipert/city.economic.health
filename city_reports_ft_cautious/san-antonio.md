@@ -1,11 +1,11 @@
 # San Antonio-New Braunfels
 
-**Grade: B (Average) | 51.3th percentile | April 2026**
+**Grade: B (Average) | 50.7th percentile | April 2026**
 
 ---
 
-San Antonio's economy boasts strong job creation, with nonfarm employment growth of +1.09% year-over-year, placing it in the top tier, and an extremely affordable cost of living, with a cost of living composite score of 1.38, ranking it among the most affordable metros. However, this growth is not without its challenges, as the labor force participation rate is a concern, at 62.78%, indicating a shallow labor pool.
+San Antonio's economy earns a grade of B, driven by a momentum-driven market with rapid job creation, with top-tier nonfarm employment growth of +1.09% YoY. However, this growth is accompanied by a shallow labor pool, with labor force participation at 62.78%, indicating that the workforce itself may be aging out or withdrawing.
 
-The sharp decline in building permits, down 37.55% year-over-year, suggests a housing supply squeeze is building, which could lead to affordability and workforce attraction issues. The low concentration of office and professional workers, ranking in the 14th percentile, poses a significant constraint for knowledge-economy businesses. The days on market, at 79 days, is increasing by 4.0% year-over-year, indicating softening demand in the housing market.
+The city's extremely affordable cost of living, with a composite score of 1.33, ranking it among the most affordable metros in the dataset, is a significant strength. However, the housing market is experiencing a sharp decline in building permits, down 37.55% YoY, which could lead to a housing supply squeeze and affordability stress. Additionally, the days on market are increasing by 1.7% YoY, with homes taking an average of 61 days to sell, indicating a slowing market.
 
-San Antonio offers businesses a unique combination of strong job growth and affordability, making it an attractive location for talent attraction and cost management. However, the primary risk is the potential for a housing supply squeeze and affordability issues, which could erode the city's cost advantage and hinder workforce attraction in the long run.
+San Antonio offers businesses a highly affordable cost of living and a rapidly expanding job market, making it an attractive location for companies looking to reduce costs and tap into a growing workforce. However, the primary risk is the potential for a housing supply squeeze and affordability stress, which could erode the city's cost advantage and make it harder to attract and retain talent.

@@ -1,11 +1,11 @@
 # Atlanta-Sandy Springs-Roswell
 
-**Grade: A- (Good) | 61.5th percentile | April 2026**
+**Grade: B+ (Above Average) | 57.1th percentile | April 2026**
 
 ---
 
-Atlanta's economy earns an A- grade with a 61.5th percentile ranking out of 50 US metros, driven by a low unemployment rate of 3.30% and strong wage growth of 8.27% year-over-year. This suggests a healthy labor market, with workers benefiting from rising earnings. However, below-average nonfarm employment growth of -0.01% year-over-year indicates a potential deceleration in the economy.
+Atlanta's economy earns a B+ grade, ranking 57th among 50 US metros, with a single most important takeaway: its exceptionally low unemployment rate of 3.30% and rapid wage growth of 8.27% year-over-year indicate a tight labor market where workers have leverage. The city's cost of living composite score of 1.03 makes it one of the most affordable metros, a significant advantage for businesses looking to attract talent. Atlanta's exceptionally low unemployment rate and rapid wage growth suggest a tight labor market where workers have leverage.
 
-The city's strong wage growth is juxtaposed with stagnant employment growth, raising concerns that wages are rising due to a shift towards higher-paying jobs rather than broad labor market health. The rapidly changing housing market, with homes selling 3.5% faster than last year, may pose a challenge for relocating workers, who face time pressure and competition in securing housing.
+However, beneath this surface, tensions emerge. The sharp decline in building permits, down 30.90% year-over-year, signals a contraction in housing supply, which could erode the city's affordability advantage and create challenges for new hires. The stagnation in total nonfarm employment growth, with a mere 0.01% year-over-year change, raises questions about the broader health of the labor market.
 
-Atlanta's unique combination of low unemployment, strong wage growth, and high affordability, with a cost of living composite score of 1.02, makes it an attractive location for talent attraction and retention. However, the primary risk lies in the potential for economic deceleration, as signaled by below-average employment growth, which may impact the city's long-term economic viability and ability to sustain its current labor market strengths.
+Atlanta offers businesses a unique combination of affordability and access to a deep professional talent pool, with a strong office and professional worker share. However, the primary risk is the potential erosion of its affordability advantage due to a rapidly tightening housing market, which could increase labor costs and make it harder to attract new talent.

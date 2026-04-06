@@ -1,11 +1,11 @@
 # Portland-Vancouver-Hillsboro
 
-**Grade: C (Very Poor) | 35.4th percentile | April 2026**
+**Grade: C (Very Poor) | 33.5th percentile | April 2026**
 
 ---
 
-Portland's economic character is defined by its severe labor market weakness, with an unemployment rate of 4.90% and nonfarm employment growth of -0.69% year-over-year, indicating a contraction story. This is further exacerbated by a low office and professional worker concentration, ranking in the 12th percentile, which poses a significant constraint for knowledge-economy businesses. The city's cost of living is below average, with a composite score of 2.18, offering a mild cost advantage.
+Portland-Vancouver-Hillsboro metro area earns a C grade, ranking 33.5th out of 50 US metros, driven by severe labor market weakness, with an unemployment rate of 4.90% and nonfarm employment growth of -0.69% year-over-year, indicating job losses and stagnation. The office and professional worker share is low, ranking 12th percentile, posing a significant constraint for knowledge-economy businesses.
 
-However, the housing market is a concern, with a sharp decline in building permits of -18.14% year-over-year, which could lead to future affordability stress and workforce attraction difficulty. The city's solid wage growth of +4.78% year-over-year may not be enough to offset the labor market weaknesses and potential housing affordability issues.
+Wage growth is solid at +4.78% year-over-year, supporting consumer spending, but the housing market tells a conflicting story. Homes sell faster than most metros, at an average of 49 days on market, and a year-over-year decrease of -3.9%. This speed is likely driven by a supply contraction, given the -18.14% year-over-year decline in building permits.
 
-In summary, Portland offers a business a cost advantage due to its below-average cost of living, but the primary risk is the city's struggling labor market and potential housing affordability issues. The severe labor market weakness and supply contraction in the housing market pose significant challenges for businesses looking to attract and retain talent, making it a cautious location decision.
+Portland-Vancouver-Hillsboro's labor market weaknesses and constrained housing supply pose significant risks for businesses, making it challenging to attract and retain talent. While the cost of living composite is above average, the rapidly selling homes and weak job market raise concerns about affordability and workforce attraction.

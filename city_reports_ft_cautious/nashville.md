@@ -1,11 +1,11 @@
 # Nashville-Davidson--Murfreesboro--Franklin
 
-**Grade: A (Very Good) | 65.4th percentile | April 2026**
+**Grade: A+ (Excellent) | 68.3th percentile | April 2026**
 
 ---
 
-Nashville's economy earns an A grade, driven by its exceptionally tight labor market, with a 3.00% unemployment rate, and a deep labor pool, reflected in a 76.27% labor force participation rate. The city's +1.03% nonfarm employment growth YoY underscores its economically expanding market, making it an attractive location for businesses. A highly engaged workforce positions Nashville as a hub for knowledge-economy businesses and HQ locations.
+Nashville's A+ overall grade is driven by its exceptional labor market, with a 3.0% unemployment rate and 76.27% labor force participation, indicating a deep and engaged workforce. The city's 1.03% year-over-year nonfarm employment growth solidifies its position as an economically expanding market, with rapid job creation driving momentum.
 
-Despite its strong labor market, wage growth remains sluggish at +1.62% YoY, indicating a lower cost environment for employers but potentially weak worker bargaining power. The housing market is slowing, with homes taking 9.1% more days to sell than last year, averaging 60 days on market. This slowdown, paired with a below-average cost of living score of 3.30, suggests normalization or softening demand.
+While Nashville's labor market is highly competitive, with a 92nd percentile office and professional worker share, wage growth has been sluggish, with hourly earnings increasing by only 1.62% year-over-year. This may signal weak worker bargaining power or softening demand. The housing market is also moderating, with days on market increasing by 12.8% year-over-year to an average of 53 days.
 
-Nashville offers businesses a unique combination of a tight labor market, deep professional talent pool, and relatively low costs, making it an attractive location for companies seeking to tap into a skilled workforce. However, the primary risk lies in the potential for softening demand, as indicated by the slowing housing market and sluggish wage growth, which could impact the city's long-term economic momentum.
+Nashville offers businesses a highly skilled and engaged workforce, as well as a thriving economy with rapid job creation, making it an attractive location for companies seeking to tap into a deep talent pool. However, the intense competition for labor may drive up costs and create challenges for businesses looking to hire and retain top talent.

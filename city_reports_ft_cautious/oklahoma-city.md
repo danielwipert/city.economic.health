@@ -1,11 +1,11 @@
 # Oklahoma City
 
-**Grade: A+ (Excellent) | 69.8th percentile | April 2026**
+**Grade: A+ (Excellent) | 70.0th percentile | April 2026**
 
 ---
 
-Oklahoma City earns an A+ grade, driven by its top-tier cost of living and strong economic growth. With a composite index of 1.32, it is one of the most affordable metros in the dataset, making it an attractive location for businesses and workers. The city's above-average nonfarm employment growth of 0.52% year-over-year and solid wage growth of 4.70% year-over-year contribute to its strong economic profile.
+Oklahoma City earns an A+ grade, driven by its exceptional economic performance, with a strong labor market and above-average nonfarm employment growth of +0.52% YoY and solid wage growth of +4.70% YoY. This healthy expansion is likely to support consumer spending.
 
-The housing market, however, shows a slowing trend, with days on market increasing by 11.5% year-over-year to an average of 58 days. This is a sign of a stabilizing force, given the city's above-average employment growth and strong building permits growth of 20.14% year-over-year. The cost of living advantage also plays a role, making the city an attractive location for workers and businesses alike.
+The city's cost of living composite score of 1.27 ranks it among the most affordable metros, offering a significant cost advantage for businesses and residents. Meanwhile, building permits are growing at an above-average rate of +20.14% YoY, indicating that housing supply is keeping pace with demand. However, the days on market have increased by +17.0% YoY to 55 days, suggesting a slowing market.
 
-Oklahoma City offers a unique combination of affordability, healthy employment growth, and a stabilizing housing market, making it an attractive location for businesses. However, the primary risk lies in the potential for the housing market to continue slowing, which could impact demand and affordability if not managed carefully.
+Oklahoma City presents a unique combination of a strong labor market, affordable cost of living, and a stabilizing housing market, making it an attractive location for businesses. However, the potential for the housing market to continue slowing remains a key risk, which could impact demand and affordability if not managed carefully.

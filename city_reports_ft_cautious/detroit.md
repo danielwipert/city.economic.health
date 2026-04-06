@@ -1,11 +1,11 @@
 # Detroit-Warren-Dearborn
 
-**Grade: D (Emergency) | 22.6th percentile | April 2026**
+**Grade: D (Emergency) | 21.8th percentile | April 2026**
 
 ---
 
-Detroit's economy earns a dismal grade of D, ranking 22.6th percentile out of 50 US metros, with a labor market characterized by severe weakness. The unemployment rate stands at 4.70%, and wage growth has stagnated at -1.13% year-over-year. The labor force participation rate of 61.27% indicates a shallow labor pool, suggesting an aging workforce or withdrawal from the job market.
+Detroit's economic landscape is marked by significant challenges, earning it an overall grade of D, ranking 21.8th percentile out of 50 US metros. The city's labor market is particularly weak, with an unemployment rate of 4.70%, indicating a substantial portion of the workforce is without jobs. This is further exacerbated by stagnant wage growth, with a -1.13% year-over-year change, suggesting that even employed workers are not seeing meaningful increases in their earnings.
 
-The data reveals tensions between the cost of living and the housing market. Despite a below-average cost of living composite score of 4.06, the days on market have increased by 7.7% year-over-year, with homes taking an average of 56 days to sell. This suggests a slowing housing market, which may be a sign of demand erosion, given the weak employment growth of +0.01% year-over-year and declining building permits of -10.94%.
+The city's labor force participation rate is below average at 61.27%, and nonfarm employment growth is sluggish at +0.01% year-over-year. The cost of living composite score of 4.08 suggests that Detroit is relatively affordable, but this advantage may be offset by the lack of job opportunities and stagnant wages. The decline in building permits, down 10.94% year-over-year, raises concerns about the city's ability to meet future housing demand, potentially leading to affordability issues.
 
-Detroit's labor market weakness poses significant risks, constraining consumer spending and limiting access to skilled talent. The slowing housing market and declining building permits exacerbate these risks, making it essential for businesses to carefully consider the potential challenges of operating in this market.
+Detroit presents a high-risk proposition for businesses, with a struggling labor market and limited economic growth opportunities. The primary caveat for businesses considering locating in Detroit is the potential for weak consumer spending and limited access to skilled labor, which could hinder their ability to grow and thrive in this market.

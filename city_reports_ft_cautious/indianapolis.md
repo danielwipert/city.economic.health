@@ -1,11 +1,11 @@
 # Indianapolis-Carmel-Greenwood
 
-**Grade: B+ (Above Average) | 55.5th percentile | April 2026**
+**Grade: A- (Good) | 60.5th percentile | April 2026**
 
 ---
 
-Indianapolis earns a B+ grade, driven by its exceptional labor market, with an unemployment rate of 2.50%, and a deep professional talent pool, ranking 84th percentile for office and professional worker share, making it an attractive location for knowledge-economy businesses. The city's solid wage growth of 5.10% year-over-year suggests a positive outlook for consumer spending, but with some cost pressure for businesses.
+Indianapolis earns an A- grade, driven by its exceptional labor market and attractive workforce profile, with a 2.50% unemployment rate and a 86th percentile ranking for office and professional worker share.
 
-However, beneath this strong surface, there are concerns about economic deceleration and potential housing supply constraints. Nonfarm employment growth lags at 0.11% year-over-year, and building permits have declined 10.26% year-over-year, raising red flags. The cost of living, while not excessively high, is a consideration, with a composite score of 3.94, implying that businesses may need to offer wage premiums to attract talent.
+The city's strong labor market is accompanied by solid wage growth of 5.10% year-over-year, suggesting a positive outlook for consumer spending. However, this growth is tempered by a below-average nonfarm employment growth of 0.11% year-over-year, raising concerns about economic deceleration. The city's above-average cost of living composite score of 3.68 also indicates that businesses may need to offer wage premiums to attract talent.
 
-Indianapolis offers a talented workforce and a relatively affordable cost of living, but the primary risk lies in its slowing economic growth and potential housing supply constraints. Decision-makers should be cautious about the city's ability to sustain its economic momentum, particularly in the face of declining building permits and softening housing demand.
+Indianapolis' slowing housing market, with a 15.9% year-over-year increase in days on market to an average of 51 days, is particularly concerning given the city's weak employment growth and average building permits. This slowdown demands careful consideration of talent acquisition and retention strategies to remain competitive in this market.

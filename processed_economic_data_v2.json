@@ -1,14 +1,14 @@
 {
-  "processing_timestamp": "2026-04-01T17:43:38.815996",
-  "processing_date": "2026-04-01 17:43:38",
+  "processing_timestamp": "2026-04-06T10:16:46.141495",
+  "processing_date": "2026-04-06 10:16:46",
   "version": 2,
   "metrics_count": 11,
   "metrics_scored": 10,
   "metrics_collected_only": 1,
-  "source_data": "2026-04-01 17:42:55",
+  "source_data": "2026-04-06 10:16:45",
   "msa_averages": {
     "unemployment_rate": {
-      "msa_average": 3.9347,
+      "msa_average": 3.9612,
       "metros_with_data": 49
     },
     "civilian_labor_force": {
@@ -20,32 +20,32 @@
       "metros_with_data": 50
     },
     "cost_of_living": {
-      "msa_average": 7.2997,
+      "msa_average": 7.3618,
       "metros_with_data": 50
     },
     "office_worker_ratio": {
-      "msa_average": 9.8614,
+      "msa_average": 9.8898,
       "metros_with_data": 49
     },
     "building_permits": {
-      "msa_average": 1202.7959,
-      "metros_with_data": 49
+      "msa_average": 1223.08,
+      "metros_with_data": 50
     },
     "home_price_index": {
       "msa_average": 362.3951,
       "metros_with_data": 50
     },
     "price_per_sqft": {
-      "msa_average": 279.68,
+      "msa_average": 282.24,
       "metros_with_data": 50
     },
     "housing_price": {
-      "msa_average": 482476.1633,
+      "msa_average": 492309.4898,
       "metros_with_data": 49
     },
     "median_days_on_market": {
-      "msa_average": 55.56,
-      "metros_with_data": 50
+      "msa_average": 46.7143,
+      "metros_with_data": 49
     }
   },
   "metros": {
@@ -193,69 +193,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 537.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 542.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE35620",
           "metric_name": "Price per Sqft",
-          "3month_average": 527.6666666666666,
-          "12month_average": 522.1666666666666,
+          "3month_average": 534.3333333333334,
+          "12month_average": 522.3333333333334,
           "yoy_change": {
-            "current": 537.0,
-            "change": -1.0,
-            "pct_change": -0.19
+            "current": 542.0,
+            "change": 2.0,
+            "pct_change": 0.37
           },
           "3month_avg_yoy": {
-            "current_3mo": 527.6667,
-            "change": -7.6667,
-            "pct_change": -1.43
+            "current_3mo": 534.3333,
+            "change": -3.6667,
+            "pct_change": -0.68
           }
         },
         "housing_price": {
-          "latest_value": 749450.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 750000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI35620",
           "metric_name": "Median Housing Price",
-          "3month_average": 749463.0,
-          "12month_average": 767190.75,
+          "3month_average": 749483.3333333334,
+          "12month_average": 764690.75,
           "yoy_change": {
-            "current": 749450.0,
-            "change": -17439.0,
-            "pct_change": -2.27
+            "current": 750000.0,
+            "change": -30000.0,
+            "pct_change": -3.85
           },
           "3month_avg_yoy": {
-            "current_3mo": 749463.0,
-            "change": -6166.6667,
-            "pct_change": -0.82
+            "current_3mo": 749483.3333,
+            "change": -16146.3333,
+            "pct_change": -2.11
           }
         },
         "median_days_on_market": {
-          "latest_value": 68.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 51.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR35620",
           "metric_name": "Median Days on Market",
-          "3month_average": 71.66666666666667,
-          "12month_average": 57.166666666666664,
+          "3month_average": 65.0,
+          "12month_average": 57.416666666666664,
           "yoy_change": {
-            "current": 68.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 51.0,
+            "change": 3.0,
+            "pct_change": 6.25
           },
           "3month_avg_yoy": {
-            "current_3mo": 71.6667,
-            "change": -1.0,
-            "pct_change": -1.38
+            "current_3mo": 65.0,
+            "change": 0.6667,
+            "pct_change": 1.04
           }
         },
         "cost_of_living": {
-          "latest_value": 13.1232,
-          "latest_date": "2026-02-01",
+          "latest_value": 13.2454,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 12.9372,
+          "3month_average": 13.1007,
           "yoy_change": {
-            "current": 13.1232,
-            "change": -0.6611,
-            "pct_change": -4.8
+            "current": 13.2454,
+            "change": -0.5902,
+            "pct_change": -4.27
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -418,69 +418,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 661.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 666.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE31080",
           "metric_name": "Price per Sqft",
-          "3month_average": 658.0,
-          "12month_average": 670.25,
+          "3month_average": 660.6666666666666,
+          "12month_average": 668.3333333333334,
           "yoy_change": {
-            "current": 661.0,
-            "change": -22.0,
-            "pct_change": -3.22
+            "current": 666.0,
+            "change": -23.0,
+            "pct_change": -3.34
           },
           "3month_avg_yoy": {
-            "current_3mo": 658.0,
-            "change": -16.0,
-            "pct_change": -2.37
+            "current_3mo": 660.6667,
+            "change": -20.0,
+            "pct_change": -2.94
           }
         },
         "housing_price": {
-          "latest_value": 1054400.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 1096500.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI31080",
           "metric_name": "Median Housing Price",
-          "3month_average": 1047300.0,
-          "12month_average": 1118656.9166666667,
+          "3month_average": 1058633.3333333333,
+          "12month_average": 1111781.9166666667,
           "yoy_change": {
-            "current": 1054400.0,
-            "change": -64600.0,
-            "pct_change": -5.77
+            "current": 1096500.0,
+            "change": -82500.0,
+            "pct_change": -7.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 1047300.0,
-            "change": -53533.3333,
-            "pct_change": -4.86
+            "current_3mo": 1058633.3333,
+            "change": -70533.3333,
+            "pct_change": -6.25
           }
         },
         "median_days_on_market": {
-          "latest_value": 44.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 45.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR31080",
           "metric_name": "Median Days on Market",
-          "3month_average": 59.333333333333336,
-          "12month_average": 52.666666666666664,
+          "3month_average": 52.0,
+          "12month_average": 52.916666666666664,
           "yoy_change": {
-            "current": 44.0,
-            "change": 5.0,
-            "pct_change": 12.82
+            "current": 45.0,
+            "change": 3.0,
+            "pct_change": 7.14
           },
           "3month_avg_yoy": {
-            "current_3mo": 59.3333,
-            "change": 4.0,
-            "pct_change": 7.23
+            "current_3mo": 52.0,
+            "change": 3.6667,
+            "pct_change": 7.59
           }
         },
         "cost_of_living": {
-          "latest_value": 15.9354,
-          "latest_date": "2026-02-01",
+          "latest_value": 16.0559,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 16.054,
+          "3month_average": 16.1191,
           "yoy_change": {
-            "current": 15.9354,
-            "change": -1.4084,
-            "pct_change": -8.12
+            "current": 16.0559,
+            "change": -1.4403,
+            "pct_change": -8.23
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -643,69 +643,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 210.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 214.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE16980",
           "metric_name": "Price per Sqft",
-          "3month_average": 208.0,
-          "12month_average": 212.08333333333334,
+          "3month_average": 210.33333333333334,
+          "12month_average": 212.33333333333334,
           "yoy_change": {
-            "current": 210.0,
+            "current": 214.0,
             "change": 3.0,
-            "pct_change": 1.45
+            "pct_change": 1.42
           },
           "3month_avg_yoy": {
-            "current_3mo": 208.0,
+            "current_3mo": 210.3333,
             "change": 3.3333,
-            "pct_change": 1.63
+            "pct_change": 1.61
           }
         },
         "housing_price": {
-          "latest_value": 349950.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 362051.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI16980",
           "metric_name": "Median Housing Price",
-          "3month_average": 347616.6666666667,
-          "12month_average": 365105.5,
+          "3month_average": 352000.3333333333,
+          "12month_average": 365276.4166666667,
           "yoy_change": {
-            "current": 349950.0,
-            "change": 500.0,
-            "pct_change": 0.14
+            "current": 362051.0,
+            "change": 2051.0,
+            "pct_change": 0.57
           },
           "3month_avg_yoy": {
-            "current_3mo": 347616.6667,
-            "change": 817.3333,
-            "pct_change": 0.24
+            "current_3mo": 352000.3333,
+            "change": 1017.6667,
+            "pct_change": 0.29
           }
         },
         "median_days_on_market": {
-          "latest_value": 40.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 35.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR16980",
           "metric_name": "Median Days on Market",
-          "3month_average": 51.333333333333336,
-          "12month_average": 40.0,
+          "3month_average": 45.0,
+          "12month_average": 39.916666666666664,
           "yoy_change": {
-            "current": 40.0,
-            "change": -3.0,
-            "pct_change": -6.98
+            "current": 35.0,
+            "change": -1.0,
+            "pct_change": -2.78
           },
           "3month_avg_yoy": {
-            "current_3mo": 51.3333,
-            "change": 1.0,
-            "pct_change": 1.99
+            "current_3mo": 45.0,
+            "change": -0.3333,
+            "pct_change": -0.74
           }
         },
         "cost_of_living": {
-          "latest_value": 5.7487,
-          "latest_date": "2026-02-01",
+          "latest_value": 5.8582,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.6686,
+          "3month_average": 5.7322,
           "yoy_change": {
-            "current": 5.7487,
-            "change": -0.079,
-            "pct_change": -1.36
+            "current": 5.8582,
+            "change": -0.0821,
+            "pct_change": -1.38
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -868,69 +868,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 200.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 201.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE19100",
           "metric_name": "Price per Sqft",
-          "3month_average": 199.66666666666666,
-          "12month_average": 203.16666666666666,
+          "3month_average": 200.0,
+          "12month_average": 202.83333333333334,
           "yoy_change": {
-            "current": 200.0,
+            "current": 201.0,
             "change": -4.0,
-            "pct_change": -1.96
+            "pct_change": -1.95
           },
           "3month_avg_yoy": {
-            "current_3mo": 199.6667,
-            "change": -3.6667,
-            "pct_change": -1.8
+            "current_3mo": 200.0,
+            "change": -4.0,
+            "pct_change": -1.96
           }
         },
         "housing_price": {
-          "latest_value": 411000.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 420000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI19100",
           "metric_name": "Median Housing Price",
-          "3month_average": 409500.0,
-          "12month_average": 425158.5833333333,
+          "3month_average": 412000.0,
+          "12month_average": 424866.6666666667,
           "yoy_change": {
-            "current": 411000.0,
-            "change": -4950.0,
-            "pct_change": -1.19
+            "current": 420000.0,
+            "change": -3503.0,
+            "pct_change": -0.83
           },
           "3month_avg_yoy": {
-            "current_3mo": 409500.0,
-            "change": -8466.6667,
-            "pct_change": -2.03
+            "current_3mo": 412000.0,
+            "change": -6317.6667,
+            "pct_change": -1.51
           }
         },
         "median_days_on_market": {
-          "latest_value": 57.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 48.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR19100",
           "metric_name": "Median Days on Market",
-          "3month_average": 66.66666666666667,
-          "12month_average": 57.083333333333336,
+          "3month_average": 59.0,
+          "12month_average": 57.333333333333336,
           "yoy_change": {
-            "current": 57.0,
-            "change": 1.0,
-            "pct_change": 1.79
+            "current": 48.0,
+            "change": 3.0,
+            "pct_change": 6.67
           },
           "3month_avg_yoy": {
-            "current_3mo": 66.6667,
-            "change": 3.0,
-            "pct_change": 4.71
+            "current_3mo": 59.0,
+            "change": 2.3333,
+            "pct_change": 4.12
           }
         },
         "cost_of_living": {
-          "latest_value": 5.3662,
-          "latest_date": "2026-02-01",
+          "latest_value": 5.3931,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.3607,
+          "3month_average": 5.3696,
           "yoy_change": {
-            "current": 5.3662,
-            "change": -0.2769,
-            "pct_change": -4.91
+            "current": 5.3931,
+            "change": -0.2777,
+            "pct_change": -4.9
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -1093,69 +1093,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 171.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 172.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE26420",
           "metric_name": "Price per Sqft",
-          "3month_average": 170.33333333333334,
-          "12month_average": 173.25,
+          "3month_average": 171.0,
+          "12month_average": 172.91666666666666,
           "yoy_change": {
-            "current": 171.0,
+            "current": 172.0,
             "change": -4.0,
-            "pct_change": -2.29
+            "pct_change": -2.27
           },
           "3month_avg_yoy": {
-            "current_3mo": 170.3333,
+            "current_3mo": 171.0,
             "change": -4.0,
             "pct_change": -2.29
           }
         },
         "housing_price": {
-          "latest_value": 349999.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 350500.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI26420",
           "metric_name": "Median Housing Price",
-          "3month_average": 349966.3333333333,
-          "12month_average": 361681.0833333333,
+          "3month_average": 350133.0,
+          "12month_average": 360472.75,
           "yoy_change": {
-            "current": 349999.0,
-            "change": -8001.0,
-            "pct_change": -2.23
+            "current": 350500.0,
+            "change": -14500.0,
+            "pct_change": -3.97
           },
           "3month_avg_yoy": {
-            "current_3mo": 349966.3333,
-            "change": -9203.3333,
-            "pct_change": -2.56
+            "current_3mo": 350133.0,
+            "change": -10533.6667,
+            "pct_change": -2.92
           }
         },
         "median_days_on_market": {
-          "latest_value": 54.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 50.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR26420",
           "metric_name": "Median Days on Market",
-          "3month_average": 61.333333333333336,
-          "12month_average": 52.833333333333336,
+          "3month_average": 56.666666666666664,
+          "12month_average": 53.25,
           "yoy_change": {
-            "current": 54.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 50.0,
+            "change": 5.0,
+            "pct_change": 11.11
           },
           "3month_avg_yoy": {
-            "current_3mo": 61.3333,
+            "current_3mo": 56.6667,
             "change": 3.0,
-            "pct_change": 5.14
+            "pct_change": 5.59
           }
         },
         "cost_of_living": {
-          "latest_value": 4.6747,
-          "latest_date": "2026-02-01",
+          "latest_value": 4.702,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 4.6463,
+          "3month_average": 4.6645,
           "yoy_change": {
-            "current": 4.6747,
-            "change": -0.2342,
-            "pct_change": -4.77
+            "current": 4.702,
+            "change": -0.2349,
+            "pct_change": -4.76
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -1318,69 +1318,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 362.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 360.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE33100",
           "metric_name": "Price per Sqft",
-          "3month_average": 362.0,
-          "12month_average": 361.4166666666667,
+          "3month_average": 361.3333333333333,
+          "12month_average": 360.8333333333333,
           "yoy_change": {
-            "current": 362.0,
+            "current": 360.0,
             "change": -7.0,
-            "pct_change": -1.9
+            "pct_change": -1.91
           },
           "3month_avg_yoy": {
-            "current_3mo": 362.0,
-            "change": -9.0,
-            "pct_change": -2.43
+            "current_3mo": 361.3333,
+            "change": -8.0,
+            "pct_change": -2.17
           }
         },
         "housing_price": {
-          "latest_value": 499999.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 499000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI33100",
           "metric_name": "Median Housing Price",
-          "3month_average": 499999.6666666667,
-          "12month_average": 504320.6666666667,
+          "3month_average": 499666.3333333333,
+          "12month_average": 503237.3333333333,
           "yoy_change": {
-            "current": 499999.0,
-            "change": -15001.0,
-            "pct_change": -2.91
+            "current": 499000.0,
+            "change": -13000.0,
+            "pct_change": -2.54
           },
           "3month_avg_yoy": {
-            "current_3mo": 499999.6667,
-            "change": -19167.0,
-            "pct_change": -3.69
+            "current_3mo": 499666.3333,
+            "change": -16000.3333,
+            "pct_change": -3.1
           }
         },
         "median_days_on_market": {
-          "latest_value": 83.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 74.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR33100",
           "metric_name": "Median Days on Market",
-          "3month_average": 85.66666666666667,
-          "12month_average": 82.75,
+          "3month_average": 81.66666666666667,
+          "12month_average": 83.33333333333333,
           "yoy_change": {
-            "current": 83.0,
-            "change": 9.0,
-            "pct_change": 12.16
+            "current": 74.0,
+            "change": 7.0,
+            "pct_change": 10.45
           },
           "3month_avg_yoy": {
-            "current_3mo": 85.6667,
+            "current_3mo": 81.6667,
             "change": 8.3333,
-            "pct_change": 10.78
+            "pct_change": 11.36
           }
         },
         "cost_of_living": {
-          "latest_value": 10.7867,
-          "latest_date": "2026-02-01",
+          "latest_value": 10.7271,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 10.8459,
+          "3month_average": 10.8259,
           "yoy_change": {
-            "current": 10.7867,
-            "change": -0.9912,
-            "pct_change": -8.42
+            "current": 10.7271,
+            "change": -0.987,
+            "pct_change": -8.43
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -1543,69 +1543,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 305.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 309.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE47900",
           "metric_name": "Price per Sqft",
-          "3month_average": 302.3333333333333,
-          "12month_average": 310.25,
+          "3month_average": 304.6666666666667,
+          "12month_average": 309.25,
           "yoy_change": {
-            "current": 305.0,
-            "change": -16.0,
-            "pct_change": -4.98
+            "current": 309.0,
+            "change": -12.0,
+            "pct_change": -3.74
           },
           "3month_avg_yoy": {
-            "current_3mo": 302.3333,
-            "change": -17.6667,
-            "pct_change": -5.52
+            "current_3mo": 304.6667,
+            "change": -15.6667,
+            "pct_change": -4.89
           }
         },
         "housing_price": {
-          "latest_value": 550000.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 572500.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI47900",
           "metric_name": "Median Housing Price",
-          "3month_average": 549950.0,
-          "12month_average": 593286.0833333334,
+          "3month_average": 557466.6666666666,
+          "12month_average": 590586.0833333334,
           "yoy_change": {
-            "current": 550000.0,
-            "change": -29995.0,
-            "pct_change": -5.17
+            "current": 572500.0,
+            "change": -32400.0,
+            "pct_change": -5.36
           },
           "3month_avg_yoy": {
-            "current_3mo": 549950.0,
-            "change": -28181.6667,
-            "pct_change": -4.87
+            "current_3mo": 557466.6667,
+            "change": -29831.6667,
+            "pct_change": -5.08
           }
         },
         "median_days_on_market": {
-          "latest_value": 38.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 30.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR47900",
           "metric_name": "Median Days on Market",
-          "3month_average": 51.0,
-          "12month_average": 38.583333333333336,
+          "3month_average": 41.666666666666664,
+          "12month_average": 39.083333333333336,
           "yoy_change": {
-            "current": 38.0,
-            "change": 4.0,
-            "pct_change": 11.76
+            "current": 30.0,
+            "change": 6.0,
+            "pct_change": 25.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 51.0,
-            "change": 5.6667,
-            "pct_change": 12.5
+            "current_3mo": 41.6667,
+            "change": 5.0,
+            "pct_change": 13.64
           }
         },
         "cost_of_living": {
-          "latest_value": 6.8927,
-          "latest_date": "2026-02-01",
+          "latest_value": 6.9831,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.8624,
+          "3month_average": 6.9153,
           "yoy_change": {
-            "current": 6.8927,
-            "change": -0.4613,
-            "pct_change": -6.27
+            "current": 6.9831,
+            "change": -0.3709,
+            "pct_change": -5.04
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -1629,7 +1629,7 @@
       "metro_name": "Atlanta-Sandy Springs-Roswell",
       "primary_city": "Atlanta",
       "civilian_population": 5131103,
-      "metrics_processed": 9,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 3.3,
@@ -1713,6 +1713,42 @@
             "pct_change": 0.19
           }
         },
+        "office_workers": {
+          "latest_value": 576.0793,
+          "latest_date": "2025-12-01",
+          "series_id": "ATLA013PBSV",
+          "metric_name": "Office Workers",
+          "3month_average": 573.520923958875,
+          "12month_average": 572.1456828248197,
+          "yoy_change": {
+            "current": 576.0793,
+            "change": 7.7893,
+            "pct_change": 1.37
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 573.5209,
+            "change": 5.6824,
+            "pct_change": 1.0
+          }
+        },
+        "building_permits": {
+          "latest_value": 2217.0,
+          "latest_date": "2026-01-01",
+          "series_id": "ATLA013BPPRIV",
+          "metric_name": "Building Permits",
+          "3month_average": 2144.3333333333335,
+          "12month_average": 2664.5833333333335,
+          "yoy_change": {
+            "current": 2217.0,
+            "change": -916.0,
+            "pct_change": -29.24
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 2144.3333,
+            "change": -959.0,
+            "pct_change": -30.9
+          }
+        },
         "home_price_index": {
           "latest_value": 249.7624,
           "latest_date": "2026-01-01",
@@ -1732,53 +1768,48 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 196.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 197.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE12060",
           "metric_name": "Price per Sqft",
-          "3month_average": 194.66666666666666,
+          "3month_average": 195.66666666666666,
           "12month_average": 196.08333333333334,
           "yoy_change": {
-            "current": 196.0,
+            "current": 197.0,
             "change": 0.0,
             "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 194.6667,
-            "change": -0.6667,
-            "pct_change": -0.34
-          }
-        },
-        "median_days_on_market": {
-          "latest_value": 56.0,
-          "latest_date": "2026-02-01",
-          "series_id": "MEDDAYONMAR12060",
-          "metric_name": "Median Days on Market",
-          "3month_average": 65.66666666666667,
-          "12month_average": 56.666666666666664,
-          "yoy_change": {
-            "current": 56.0,
-            "change": -2.0,
-            "pct_change": -3.45
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 65.6667,
-            "change": 2.6667,
-            "pct_change": 4.23
+            "current_3mo": 195.6667,
+            "change": -0.3333,
+            "pct_change": -0.17
           }
         },
         "cost_of_living": {
-          "latest_value": 5.1444,
-          "latest_date": "2026-02-01",
+          "latest_value": 5.1706,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.1636,
+          "3month_average": 5.1901,
           "yoy_change": {
-            "current": 5.1444,
-            "change": -0.4254,
+            "current": 5.1706,
+            "change": -0.4276,
             "pct_change": -7.64
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
+        },
+        "office_worker_ratio": {
+          "latest_value": 11.2272,
+          "latest_date": "2025-12-01",
+          "series_id": "ATLA013PBSV",
+          "metric_name": "Office Worker Ratio",
+          "3month_average": 11.1773,
+          "yoy_change": {
+            "current": 11.2272,
+            "change": 0.1518,
+            "pct_change": 1.37
+          },
+          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
@@ -1787,7 +1818,7 @@
       "metro_name": "Philadelphia-Camden-Wilmington",
       "primary_city": "Philadelphia",
       "civilian_population": 5167681,
-      "metrics_processed": 13,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 4.0,
@@ -1871,24 +1902,6 @@
             "pct_change": 0.38
           }
         },
-        "office_workers": {
-          "latest_value": 508.295,
-          "latest_date": "2025-12-01",
-          "series_id": "PHIL942PBSV",
-          "metric_name": "Office Workers",
-          "3month_average": 507.96996402776534,
-          "12month_average": 504.12285527128165,
-          "yoy_change": {
-            "current": 508.295,
-            "change": 10.6143,
-            "pct_change": 2.13
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 507.97,
-            "change": 12.1908,
-            "pct_change": 2.46
-          }
-        },
         "building_permits": {
           "latest_value": 1136.0,
           "latest_date": "2026-01-01",
@@ -1926,84 +1939,71 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 226.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 228.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE37980",
           "metric_name": "Price per Sqft",
-          "3month_average": 226.33333333333334,
-          "12month_average": 229.41666666666666,
+          "3month_average": 226.66666666666666,
+          "12month_average": 229.5,
           "yoy_change": {
-            "current": 226.0,
+            "current": 228.0,
             "change": 1.0,
             "pct_change": 0.44
           },
           "3month_avg_yoy": {
-            "current_3mo": 226.3333,
+            "current_3mo": 226.6667,
             "change": 1.0,
             "pct_change": 0.44
           }
         },
         "housing_price": {
-          "latest_value": 356425.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 359900.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI37980",
           "metric_name": "Median Housing Price",
-          "3month_average": 355458.3333333333,
-          "12month_average": 372718.75,
+          "3month_average": 355441.6666666667,
+          "12month_average": 372793.75,
           "yoy_change": {
-            "current": 356425.0,
-            "change": 6425.0,
-            "pct_change": 1.84
+            "current": 359900.0,
+            "change": 900.0,
+            "pct_change": 0.25
           },
           "3month_avg_yoy": {
-            "current_3mo": 355458.3333,
-            "change": 2100.0,
-            "pct_change": 0.59
+            "current_3mo": 355441.6667,
+            "change": 1775.0,
+            "pct_change": 0.5
           }
         },
         "median_days_on_market": {
-          "latest_value": 53.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 43.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR37980",
           "metric_name": "Median Days on Market",
-          "3month_average": 58.333333333333336,
-          "12month_average": 45.666666666666664,
+          "3month_average": 53.333333333333336,
+          "12month_average": 46.0,
           "yoy_change": {
-            "current": 53.0,
-            "change": 1.0,
-            "pct_change": 1.92
+            "current": 43.0,
+            "change": 4.0,
+            "pct_change": 10.26
           },
           "3month_avg_yoy": {
-            "current_3mo": 58.3333,
-            "change": 1.0,
-            "pct_change": 1.74
+            "current_3mo": 53.3333,
+            "change": 2.0,
+            "pct_change": 3.9
           }
         },
         "cost_of_living": {
-          "latest_value": 6.2778,
-          "latest_date": "2026-02-01",
+          "latest_value": 6.3333,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.3316,
+          "3month_average": 6.3409,
           "yoy_change": {
-            "current": 6.2778,
-            "change": -0.1106,
-            "pct_change": -1.73
+            "current": 6.3333,
+            "change": -0.1119,
+            "pct_change": -1.74
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
-        },
-        "office_worker_ratio": {
-          "latest_value": 9.836,
-          "latest_date": "2025-12-01",
-          "series_id": "PHIL942PBSV",
-          "metric_name": "Office Worker Ratio",
-          "3month_average": 9.8297,
-          "yoy_change": {
-            "current": 9.836,
-            "change": 0.2054,
-            "pct_change": 2.13
-          },
-          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
@@ -2012,8 +2012,22 @@
       "metro_name": "Phoenix-Mesa-Chandler",
       "primary_city": "Phoenix",
       "civilian_population": 4201372,
-      "metrics_processed": 12,
+      "metrics_processed": 13,
       "data": {
+        "unemployment_rate": {
+          "latest_value": 3.5,
+          "latest_date": "2025-12-01",
+          "series_id": "PHOE004URN",
+          "metric_name": "Unemployment Rate",
+          "3month_average": null,
+          "12month_average": 3.7454545454545456,
+          "yoy_change": {
+            "current": 3.5,
+            "change": 0.4,
+            "pct_change": 12.9
+          },
+          "3month_avg_yoy": null
+        },
         "civilian_labor_force": {
           "latest_value": 66.3375,
           "latest_date": "2025-12-01",
@@ -2137,69 +2151,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 271.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 272.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE38060",
           "metric_name": "Price per Sqft",
-          "3month_average": 269.6666666666667,
-          "12month_average": 271.5833333333333,
+          "3month_average": 271.0,
+          "12month_average": 271.3333333333333,
           "yoy_change": {
-            "current": 271.0,
-            "change": -6.0,
-            "pct_change": -2.17
+            "current": 272.0,
+            "change": -3.0,
+            "pct_change": -1.09
           },
           "3month_avg_yoy": {
-            "current_3mo": 269.6667,
-            "change": -6.0,
-            "pct_change": -2.18
+            "current_3mo": 271.0,
+            "change": -5.0,
+            "pct_change": -1.81
           }
         },
         "housing_price": {
-          "latest_value": 494998.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 496900.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI38060",
           "metric_name": "Median Housing Price",
-          "3month_average": 488832.6666666667,
-          "12month_average": 503624.8333333333,
+          "3month_average": 493632.6666666667,
+          "12month_average": 501699.8333333333,
           "yoy_change": {
-            "current": 494998.0,
-            "change": -20002.0,
-            "pct_change": -3.88
+            "current": 496900.0,
+            "change": -23100.0,
+            "pct_change": -4.44
           },
           "3month_avg_yoy": {
-            "current_3mo": 488832.6667,
-            "change": -20315.6667,
-            "pct_change": -3.99
+            "current_3mo": 493632.6667,
+            "change": -22184.0,
+            "pct_change": -4.3
           }
         },
         "median_days_on_market": {
-          "latest_value": 55.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 54.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR38060",
           "metric_name": "Median Days on Market",
-          "3month_average": 66.66666666666667,
-          "12month_average": 62.416666666666664,
+          "3month_average": 61.333333333333336,
+          "12month_average": 62.666666666666664,
           "yoy_change": {
-            "current": 55.0,
-            "change": -1.0,
-            "pct_change": -1.79
+            "current": 54.0,
+            "change": 3.0,
+            "pct_change": 5.88
           },
           "3month_avg_yoy": {
-            "current_3mo": 66.6667,
-            "change": 3.6667,
-            "pct_change": 5.82
+            "current_3mo": 61.3333,
+            "change": 3.3333,
+            "pct_change": 5.75
           }
         },
         "cost_of_living": {
-          "latest_value": 7.3263,
-          "latest_date": "2026-02-01",
+          "latest_value": 7.3533,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 7.2706,
+          "3month_average": 7.3066,
           "yoy_change": {
-            "current": 7.3263,
-            "change": -0.5008,
-            "pct_change": -6.4
+            "current": 7.3533,
+            "change": -0.4172,
+            "pct_change": -5.37
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -2370,69 +2384,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 486.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 500.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE14460",
           "metric_name": "Price per Sqft",
-          "3month_average": 469.3333333333333,
+          "3month_average": 482.3333333333333,
           "12month_average": 479.3333333333333,
           "yoy_change": {
-            "current": 486.0,
-            "change": 4.0,
-            "pct_change": 0.83
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 469.3333,
+            "current": 500.0,
             "change": 0.0,
             "pct_change": 0.0
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 482.3333,
+            "change": 1.3333,
+            "pct_change": 0.28
           }
         },
         "housing_price": {
-          "latest_value": 799000.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 828750.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI14460",
           "metric_name": "Median Housing Price",
-          "3month_average": 777000.0,
-          "12month_average": 820893.6666666666,
+          "3month_average": 795916.6666666666,
+          "12month_average": 817539.5,
           "yoy_change": {
-            "current": 799000.0,
-            "change": -40450.0,
-            "pct_change": -4.82
+            "current": 828750.0,
+            "change": -40250.0,
+            "pct_change": -4.63
           },
           "3month_avg_yoy": {
-            "current_3mo": 777000.0,
-            "change": -36427.6667,
-            "pct_change": -4.48
+            "current_3mo": 795916.6667,
+            "change": -40050.0,
+            "pct_change": -4.79
           }
         },
         "median_days_on_market": {
-          "latest_value": 42.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 30.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR14460",
           "metric_name": "Median Days on Market",
-          "3month_average": 54.333333333333336,
-          "12month_average": 39.5,
+          "3month_average": 44.333333333333336,
+          "12month_average": 39.916666666666664,
           "yoy_change": {
-            "current": 42.0,
-            "change": 9.0,
-            "pct_change": 27.27
+            "current": 30.0,
+            "change": 5.0,
+            "pct_change": 20.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 54.3333,
-            "change": 4.6667,
-            "pct_change": 9.4
+            "current_3mo": 44.3333,
+            "change": 6.3333,
+            "pct_change": 16.67
           }
         },
         "cost_of_living": {
-          "latest_value": 10.788,
-          "latest_date": "2026-02-01",
+          "latest_value": 11.0988,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 10.3362,
+          "3month_average": 10.6225,
           "yoy_change": {
-            "current": 10.788,
-            "change": -0.063,
-            "pct_change": -0.58
+            "current": 11.0988,
+            "change": -0.1574,
+            "pct_change": -1.4
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -2596,68 +2610,68 @@
         },
         "price_per_sqft": {
           "latest_value": 338.0,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE40140",
           "metric_name": "Price per Sqft",
           "3month_average": 338.0,
-          "12month_average": 339.5,
+          "12month_average": 339.0833333333333,
           "yoy_change": {
             "current": 338.0,
-            "change": -4.0,
-            "pct_change": -1.17
+            "change": -5.0,
+            "pct_change": -1.46
           },
           "3month_avg_yoy": {
             "current_3mo": 338.0,
-            "change": -2.0,
-            "pct_change": -0.59
+            "change": -3.6667,
+            "pct_change": -1.07
           }
         },
         "housing_price": {
-          "latest_value": 588389.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 593795.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI40140",
           "metric_name": "Median Housing Price",
-          "3month_average": 586968.0,
-          "12month_average": 595641.5,
+          "3month_average": 589061.3333333334,
+          "12month_average": 595124.5,
           "yoy_change": {
-            "current": 588389.0,
-            "change": -11061.0,
-            "pct_change": -1.85
+            "current": 593795.0,
+            "change": -6204.0,
+            "pct_change": -1.03
           },
           "3month_avg_yoy": {
-            "current_3mo": 586968.0,
-            "change": -11515.3333,
-            "pct_change": -1.92
+            "current_3mo": 589061.3333,
+            "change": -10421.6667,
+            "pct_change": -1.74
           }
         },
         "median_days_on_market": {
-          "latest_value": 60.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 54.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR40140",
           "metric_name": "Median Days on Market",
-          "3month_average": 68.33333333333333,
-          "12month_average": 61.5,
+          "3month_average": 62.666666666666664,
+          "12month_average": 61.75,
           "yoy_change": {
-            "current": 60.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 54.0,
+            "change": 3.0,
+            "pct_change": 5.88
           },
           "3month_avg_yoy": {
-            "current_3mo": 68.3333,
-            "change": 2.6667,
-            "pct_change": 4.06
+            "current_3mo": 62.6667,
+            "change": 2.0,
+            "pct_change": 3.3
           }
         },
         "cost_of_living": {
           "latest_value": 9.7099,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 9.8294,
           "yoy_change": {
             "current": 9.7099,
-            "change": -0.8555,
-            "pct_change": -8.1
+            "change": -0.8864,
+            "pct_change": -8.37
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -2820,69 +2834,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 634.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 654.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE41860",
           "metric_name": "Price per Sqft",
-          "3month_average": 618.6666666666666,
-          "12month_average": 651.5833333333334,
+          "3month_average": 632.3333333333334,
+          "12month_average": 650.25,
           "yoy_change": {
-            "current": 634.0,
+            "current": 654.0,
             "change": -16.0,
-            "pct_change": -2.46
+            "pct_change": -2.39
           },
           "3month_avg_yoy": {
-            "current_3mo": 618.6667,
-            "change": -23.3333,
-            "pct_change": -3.63
+            "current_3mo": 632.3333,
+            "change": -18.3333,
+            "pct_change": -2.82
           }
         },
         "housing_price": {
-          "latest_value": 907000.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 985000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI41860",
           "metric_name": "Median Housing Price",
-          "3month_average": 879333.3333333334,
-          "12month_average": 948066.6666666666,
+          "3month_average": 917000.0,
+          "12month_average": 950983.3333333334,
           "yoy_change": {
-            "current": 907000.0,
-            "change": 7056.0,
-            "pct_change": 0.78
+            "current": 985000.0,
+            "change": 35000.0,
+            "pct_change": 3.68
           },
           "3month_avg_yoy": {
-            "current_3mo": 879333.3333,
-            "change": -11148.0,
-            "pct_change": -1.25
+            "current_3mo": 917000.0,
+            "change": 6352.0,
+            "pct_change": 0.7
           }
         },
         "median_days_on_market": {
-          "latest_value": 30.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 29.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR41860",
           "metric_name": "Median Days on Market",
-          "3month_average": 49.0,
-          "12month_average": 42.416666666666664,
+          "3month_average": 38.0,
+          "12month_average": 42.25,
           "yoy_change": {
-            "current": 30.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 29.0,
+            "change": -2.0,
+            "pct_change": -6.45
           },
           "3month_avg_yoy": {
-            "current_3mo": 49.0,
+            "current_3mo": 38.0,
             "change": -1.0,
-            "pct_change": -2.0
+            "pct_change": -2.56
           }
         },
         "cost_of_living": {
-          "latest_value": 13.3333,
-          "latest_date": "2026-02-01",
+          "latest_value": 13.7539,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 12.9095,
+          "3month_average": 13.1947,
           "yoy_change": {
-            "current": 13.3333,
-            "change": -0.4029,
-            "pct_change": -2.93
+            "current": 13.7539,
+            "change": -0.405,
+            "pct_change": -2.86
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -3045,69 +3059,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 171.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 173.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE19820",
           "metric_name": "Price per Sqft",
-          "3month_average": 170.66666666666666,
-          "12month_average": 177.66666666666666,
+          "3month_average": 171.0,
+          "12month_average": 177.83333333333334,
           "yoy_change": {
-            "current": 171.0,
+            "current": 173.0,
             "change": 2.0,
-            "pct_change": 1.18
+            "pct_change": 1.17
           },
           "3month_avg_yoy": {
-            "current_3mo": 170.6667,
-            "change": 0.3333,
-            "pct_change": 0.2
+            "current_3mo": 171.0,
+            "change": 1.0,
+            "pct_change": 0.59
           }
         },
         "housing_price": {
-          "latest_value": 235000.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 239900.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI19820",
           "metric_name": "Median Housing Price",
-          "3month_average": 238800.0,
-          "12month_average": 260156.25,
+          "3month_average": 236633.33333333334,
+          "12month_average": 259731.25,
           "yoy_change": {
-            "current": 235000.0,
-            "change": -4900.0,
-            "pct_change": -2.04
+            "current": 239900.0,
+            "change": -5100.0,
+            "pct_change": -2.08
           },
           "3month_avg_yoy": {
-            "current_3mo": 238800.0,
-            "change": -4450.0,
-            "pct_change": -1.83
+            "current_3mo": 236633.3333,
+            "change": -4983.3333,
+            "pct_change": -2.06
           }
         },
         "median_days_on_market": {
-          "latest_value": 56.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 45.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR19820",
           "metric_name": "Median Days on Market",
-          "3month_average": 57.666666666666664,
-          "12month_average": 43.666666666666664,
+          "3month_average": 54.666666666666664,
+          "12month_average": 43.916666666666664,
           "yoy_change": {
-            "current": 56.0,
-            "change": 4.0,
-            "pct_change": 7.69
+            "current": 45.0,
+            "change": 3.0,
+            "pct_change": 7.14
           },
           "3month_avg_yoy": {
-            "current_3mo": 57.6667,
-            "change": 4.6667,
-            "pct_change": 8.81
+            "current_3mo": 54.6667,
+            "change": 4.3333,
+            "pct_change": 8.61
           }
         },
         "cost_of_living": {
-          "latest_value": 4.7725,
-          "latest_date": "2026-02-01",
+          "latest_value": 4.8284,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 4.7206,
+          "3month_average": 4.7299,
           "yoy_change": {
-            "current": 4.7725,
-            "change": 0.1092,
-            "pct_change": 2.34
+            "current": 4.8284,
+            "change": 0.1098,
+            "pct_change": 2.33
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -3270,69 +3284,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 443.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 451.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE42660",
           "metric_name": "Price per Sqft",
-          "3month_average": 432.6666666666667,
-          "12month_average": 445.25,
+          "3month_average": 440.6666666666667,
+          "12month_average": 444.75,
           "yoy_change": {
-            "current": 443.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 451.0,
+            "change": -6.0,
+            "pct_change": -1.31
           },
           "3month_avg_yoy": {
-            "current_3mo": 432.6667,
-            "change": 0.3333,
-            "pct_change": 0.08
+            "current_3mo": 440.6667,
+            "change": -2.3333,
+            "pct_change": -0.53
           }
         },
         "housing_price": {
-          "latest_value": 754950.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 769485.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI42660",
           "metric_name": "Median Housing Price",
-          "3month_average": 737150.0,
-          "12month_average": 765302.5833333334,
+          "3month_average": 751478.3333333334,
+          "12month_average": 766926.3333333334,
           "yoy_change": {
-            "current": 754950.0,
-            "change": 17550.0,
-            "pct_change": 2.38
+            "current": 769485.0,
+            "change": 19485.0,
+            "pct_change": 2.6
           },
           "3month_avg_yoy": {
-            "current_3mo": 737150.0,
-            "change": 7920.6667,
-            "pct_change": 1.09
+            "current_3mo": 751478.3333,
+            "change": 13740.6667,
+            "pct_change": 1.86
           }
         },
         "median_days_on_market": {
-          "latest_value": 36.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 34.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR42660",
           "metric_name": "Median Days on Market",
-          "3month_average": 60.0,
-          "12month_average": 45.166666666666664,
+          "3month_average": 49.0,
+          "12month_average": 45.416666666666664,
           "yoy_change": {
-            "current": 36.0,
-            "change": 1.0,
-            "pct_change": 2.86
+            "current": 34.0,
+            "change": 3.0,
+            "pct_change": 9.68
           },
           "3month_avg_yoy": {
-            "current_3mo": 60.0,
-            "change": 6.6667,
-            "pct_change": 12.5
+            "current_3mo": 49.0,
+            "change": 6.3333,
+            "pct_change": 14.84
           }
         },
         "cost_of_living": {
-          "latest_value": 9.4618,
-          "latest_date": "2026-02-01",
+          "latest_value": 9.6326,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 9.2668,
+          "3month_average": 9.4381,
           "yoy_change": {
-            "current": 9.4618,
-            "change": -0.7221,
-            "pct_change": -7.09
+            "current": 9.6326,
+            "change": -0.8731,
+            "pct_change": -8.31
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -3495,67 +3509,67 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 213.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 214.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE33460",
           "metric_name": "Price per Sqft",
-          "3month_average": 210.66666666666666,
-          "12month_average": 212.25,
+          "3month_average": 212.33333333333334,
+          "12month_average": 212.0,
           "yoy_change": {
-            "current": 213.0,
+            "current": 214.0,
             "change": -3.0,
-            "pct_change": -1.39
+            "pct_change": -1.38
           },
           "3month_avg_yoy": {
-            "current_3mo": 210.6667,
+            "current_3mo": 212.3333,
             "change": -3.3333,
-            "pct_change": -1.56
+            "pct_change": -1.55
           }
         },
         "housing_price": {
-          "latest_value": 422400.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 425000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI33460",
           "metric_name": "Median Housing Price",
-          "3month_average": 409941.6666666667,
-          "12month_average": 428375.0,
+          "3month_average": 417450.0,
+          "12month_average": 426633.3333333333,
           "yoy_change": {
-            "current": 422400.0,
-            "change": -12550.0,
-            "pct_change": -2.89
+            "current": 425000.0,
+            "change": -20900.0,
+            "pct_change": -4.69
           },
           "3month_avg_yoy": {
-            "current_3mo": 409941.6667,
-            "change": -17774.3333,
-            "pct_change": -4.16
+            "current_3mo": 417450.0,
+            "change": -17833.3333,
+            "pct_change": -4.1
           }
         },
         "median_days_on_market": {
-          "latest_value": 40.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 36.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR33460",
           "metric_name": "Median Days on Market",
-          "3month_average": 53.666666666666664,
-          "12month_average": 41.583333333333336,
+          "3month_average": 46.333333333333336,
+          "12month_average": 41.833333333333336,
           "yoy_change": {
-            "current": 40.0,
-            "change": -1.0,
-            "pct_change": -2.44
+            "current": 36.0,
+            "change": 3.0,
+            "pct_change": 9.09
           },
           "3month_avg_yoy": {
-            "current_3mo": 53.6667,
-            "change": 0.6667,
-            "pct_change": 1.26
+            "current_3mo": 46.3333,
+            "change": 2.0,
+            "pct_change": 4.51
           }
         },
         "cost_of_living": {
-          "latest_value": 5.4116,
-          "latest_date": "2026-02-01",
+          "latest_value": 5.437,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.2985,
+          "3month_average": 5.3404,
           "yoy_change": {
-            "current": 5.4116,
+            "current": 5.437,
             "change": -0.0776,
             "pct_change": -1.41
           },
@@ -3721,68 +3735,68 @@
         },
         "price_per_sqft": {
           "latest_value": 243.0,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE45300",
           "metric_name": "Price per Sqft",
           "3month_average": 243.0,
-          "12month_average": 246.33333333333334,
+          "12month_average": 246.0,
           "yoy_change": {
             "current": 243.0,
-            "change": -3.0,
-            "pct_change": -1.22
+            "change": -4.0,
+            "pct_change": -1.62
           },
           "3month_avg_yoy": {
             "current_3mo": 243.0,
-            "change": -1.0,
-            "pct_change": -0.41
+            "change": -2.3333,
+            "pct_change": -0.95
           }
         },
         "housing_price": {
-          "latest_value": 399900.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 400000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI45300",
           "metric_name": "Median Housing Price",
-          "3month_average": 399842.3333333333,
-          "12month_average": 408114.75,
+          "3month_average": 399875.6666666667,
+          "12month_average": 408123.0833333333,
           "yoy_change": {
-            "current": 399900.0,
-            "change": 900.0,
-            "pct_change": 0.23
+            "current": 400000.0,
+            "change": 100.0,
+            "pct_change": 0.03
           },
           "3month_avg_yoy": {
-            "current_3mo": 399842.3333,
-            "change": 2851.3333,
-            "pct_change": 0.72
+            "current_3mo": 399875.6667,
+            "change": 1251.3333,
+            "pct_change": 0.31
           }
         },
         "median_days_on_market": {
-          "latest_value": 80.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 66.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR45300",
           "metric_name": "Median Days on Market",
-          "3month_average": 81.66666666666667,
-          "12month_average": 72.83333333333333,
+          "3month_average": 77.0,
+          "12month_average": 73.58333333333333,
           "yoy_change": {
-            "current": 80.0,
-            "change": 14.0,
-            "pct_change": 21.21
+            "current": 66.0,
+            "change": 9.0,
+            "pct_change": 15.79
           },
           "3month_avg_yoy": {
-            "current_3mo": 81.6667,
-            "change": 12.3333,
-            "pct_change": 17.79
+            "current_3mo": 77.0,
+            "change": 12.6667,
+            "pct_change": 19.69
           }
         },
         "cost_of_living": {
           "latest_value": 6.7071,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 6.6606,
           "yoy_change": {
             "current": 6.7071,
-            "change": -0.413,
-            "pct_change": -5.8
+            "change": -0.4419,
+            "pct_change": -6.18
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -3945,69 +3959,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 603.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 605.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE41740",
           "metric_name": "Price per Sqft",
-          "3month_average": 600.0,
-          "12month_average": 612.5833333333334,
+          "3month_average": 602.3333333333334,
+          "12month_average": 610.6666666666666,
           "yoy_change": {
-            "current": 603.0,
-            "change": -22.0,
-            "pct_change": -3.52
+            "current": 605.0,
+            "change": -23.0,
+            "pct_change": -3.66
           },
           "3month_avg_yoy": {
-            "current_3mo": 600.0,
-            "change": -23.0,
-            "pct_change": -3.69
+            "current_3mo": 602.3333,
+            "change": -23.3333,
+            "pct_change": -3.73
           }
         },
         "housing_price": {
-          "latest_value": 899950.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 925000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI41740",
           "metric_name": "Median Housing Price",
-          "3month_average": 899649.6666666666,
-          "12month_average": 945620.75,
+          "3month_average": 907983.3333333334,
+          "12month_average": 943537.4166666666,
           "yoy_change": {
-            "current": 899950.0,
-            "change": -50045.0,
-            "pct_change": -5.27
+            "current": 925000.0,
+            "change": -25000.0,
+            "pct_change": -2.63
           },
           "3month_avg_yoy": {
-            "current_3mo": 899649.6667,
-            "change": -55257.0,
-            "pct_change": -5.79
+            "current_3mo": 907983.3333,
+            "change": -42015.0,
+            "pct_change": -4.42
           }
         },
         "median_days_on_market": {
           "latest_value": 38.0,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR41740",
           "metric_name": "Median Days on Market",
-          "3month_average": 50.333333333333336,
-          "12month_average": 44.666666666666664,
+          "3month_average": 44.0,
+          "12month_average": 44.833333333333336,
           "yoy_change": {
             "current": 38.0,
-            "change": 4.0,
-            "pct_change": 11.76
+            "change": 2.0,
+            "pct_change": 5.56
           },
           "3month_avg_yoy": {
-            "current_3mo": 50.3333,
+            "current_3mo": 44.0,
             "change": 3.6667,
-            "pct_change": 7.86
+            "pct_change": 9.09
           }
         },
         "cost_of_living": {
-          "latest_value": 14.5758,
-          "latest_date": "2026-02-01",
+          "latest_value": 14.6241,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 14.6163,
+          "3month_average": 14.6732,
           "yoy_change": {
-            "current": 14.5758,
-            "change": -0.8983,
-            "pct_change": -5.81
+            "current": 14.6241,
+            "change": -0.9243,
+            "pct_change": -5.94
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -4170,69 +4184,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 291.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 292.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE19740",
           "metric_name": "Price per Sqft",
-          "3month_average": 288.0,
-          "12month_average": 292.5,
+          "3month_average": 290.0,
+          "12month_average": 291.6666666666667,
           "yoy_change": {
-            "current": 291.0,
-            "change": -9.0,
-            "pct_change": -3.0
+            "current": 292.0,
+            "change": -10.0,
+            "pct_change": -3.31
           },
           "3month_avg_yoy": {
-            "current_3mo": 288.0,
+            "current_3mo": 290.0,
             "change": -10.0,
-            "pct_change": -3.36
+            "pct_change": -3.33
           }
         },
         "housing_price": {
-          "latest_value": 564995.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 577000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI19740",
           "metric_name": "Median Housing Price",
-          "3month_average": 557498.3333333334,
-          "12month_average": 586652.9166666666,
+          "3month_average": 563998.3333333334,
+          "12month_average": 585986.25,
           "yoy_change": {
-            "current": 564995.0,
-            "change": -7505.0,
-            "pct_change": -1.31
+            "current": 577000.0,
+            "change": -8000.0,
+            "pct_change": -1.37
           },
           "3month_avg_yoy": {
-            "current_3mo": 557498.3333,
-            "change": -15768.3333,
-            "pct_change": -2.75
+            "current_3mo": 563998.3333,
+            "change": -11818.3333,
+            "pct_change": -2.05
           }
         },
         "median_days_on_market": {
           "latest_value": 38.0,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR19740",
           "metric_name": "Median Days on Market",
-          "3month_average": 63.0,
-          "12month_average": 53.416666666666664,
+          "3month_average": 49.333333333333336,
+          "12month_average": 53.666666666666664,
           "yoy_change": {
             "current": 38.0,
-            "change": -6.0,
-            "pct_change": -13.64
+            "change": 3.0,
+            "pct_change": 8.57
           },
           "3month_avg_yoy": {
-            "current_3mo": 63.0,
-            "change": -0.3333,
-            "pct_change": -0.53
+            "current_3mo": 49.3333,
+            "change": -1.0,
+            "pct_change": -1.99
           }
         },
         "cost_of_living": {
-          "latest_value": 6.5437,
-          "latest_date": "2026-02-01",
+          "latest_value": 6.5662,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.5718,
+          "3month_average": 6.6175,
           "yoy_change": {
-            "current": 6.5437,
-            "change": -0.6453,
-            "pct_change": -8.98
+            "current": 6.5662,
+            "change": -0.6708,
+            "pct_change": -9.27
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -4395,69 +4409,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 226.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 225.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE36740",
           "metric_name": "Price per Sqft",
-          "3month_average": 226.0,
-          "12month_average": 228.91666666666666,
+          "3month_average": 225.66666666666666,
+          "12month_average": 228.41666666666666,
           "yoy_change": {
-            "current": 226.0,
-            "change": -5.0,
-            "pct_change": -2.16
+            "current": 225.0,
+            "change": -6.0,
+            "pct_change": -2.6
           },
           "3month_avg_yoy": {
-            "current_3mo": 226.0,
+            "current_3mo": 225.6667,
             "change": -5.3333,
             "pct_change": -2.31
           }
         },
         "housing_price": {
-          "latest_value": 415000.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 419000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI36740",
           "metric_name": "Median Housing Price",
-          "3month_average": 415166.6666666667,
-          "12month_average": 421642.3333333333,
+          "3month_average": 416333.3333333333,
+          "12month_average": 421575.6666666667,
           "yoy_change": {
-            "current": 415000.0,
-            "change": -3950.0,
-            "pct_change": -0.94
+            "current": 419000.0,
+            "change": -800.0,
+            "pct_change": -0.19
           },
           "3month_avg_yoy": {
-            "current_3mo": 415166.6667,
-            "change": -4433.3333,
-            "pct_change": -1.06
+            "current_3mo": 416333.3333,
+            "change": -3216.6667,
+            "pct_change": -0.77
           }
         },
         "median_days_on_market": {
-          "latest_value": 82.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 67.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR36740",
           "metric_name": "Median Days on Market",
-          "3month_average": 84.33333333333333,
-          "12month_average": 75.16666666666667,
+          "3month_average": 79.0,
+          "12month_average": 75.75,
           "yoy_change": {
-            "current": 82.0,
-            "change": 8.0,
-            "pct_change": 10.81
+            "current": 67.0,
+            "change": 7.0,
+            "pct_change": 11.67
           },
           "3month_avg_yoy": {
-            "current_3mo": 84.3333,
-            "change": 6.0,
-            "pct_change": 7.66
+            "current_3mo": 79.0,
+            "change": 7.3333,
+            "pct_change": 10.23
           }
         },
         "cost_of_living": {
-          "latest_value": 7.0012,
-          "latest_date": "2026-02-01",
+          "latest_value": 6.9703,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.989,
+          "3month_average": 6.9787,
           "yoy_change": {
-            "current": 7.0012,
-            "change": -0.1816,
-            "pct_change": -2.53
+            "current": 6.9703,
+            "change": -0.2126,
+            "pct_change": -2.96
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -4620,69 +4634,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 218.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 219.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE16740",
           "metric_name": "Price per Sqft",
-          "3month_average": 217.33333333333334,
-          "12month_average": 220.66666666666666,
+          "3month_average": 218.0,
+          "12month_average": 220.33333333333334,
           "yoy_change": {
-            "current": 218.0,
-            "change": -3.0,
-            "pct_change": -1.36
+            "current": 219.0,
+            "change": -4.0,
+            "pct_change": -1.79
           },
           "3month_avg_yoy": {
-            "current_3mo": 217.3333,
-            "change": -3.3333,
-            "pct_change": -1.51
+            "current_3mo": 218.0,
+            "change": -3.6667,
+            "pct_change": -1.65
           }
         },
         "housing_price": {
-          "latest_value": 415000.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 424950.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI16740",
           "metric_name": "Median Housing Price",
-          "3month_average": 417505.3333333333,
-          "12month_average": 434794.6666666667,
+          "3month_average": 418316.6666666667,
+          "12month_average": 434790.5,
           "yoy_change": {
-            "current": 415000.0,
-            "change": -4475.0,
-            "pct_change": -1.07
+            "current": 424950.0,
+            "change": -50.0,
+            "pct_change": -0.01
           },
           "3month_avg_yoy": {
-            "current_3mo": 417505.3333,
-            "change": -3136.3333,
+            "current_3mo": 418316.6667,
+            "change": -3175.0,
             "pct_change": -0.75
           }
         },
         "median_days_on_market": {
-          "latest_value": 69.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 49.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR16740",
           "metric_name": "Median Days on Market",
-          "3month_average": 73.0,
-          "12month_average": 57.083333333333336,
+          "3month_average": 65.33333333333333,
+          "12month_average": 57.583333333333336,
           "yoy_change": {
-            "current": 69.0,
-            "change": 13.0,
-            "pct_change": 23.21
+            "current": 49.0,
+            "change": 6.0,
+            "pct_change": 13.95
           },
           "3month_avg_yoy": {
-            "current_3mo": 73.0,
-            "change": 11.0,
-            "pct_change": 17.74
+            "current_3mo": 65.3333,
+            "change": 10.0,
+            "pct_change": 18.07
           }
         },
         "cost_of_living": {
-          "latest_value": 5.7963,
-          "latest_date": "2026-02-01",
+          "latest_value": 5.8229,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.7602,
+          "3month_average": 5.7779,
           "yoy_change": {
-            "current": 5.7963,
-            "change": 0.0095,
-            "pct_change": 0.16
+            "current": 5.8229,
+            "change": -0.0163,
+            "pct_change": -0.28
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -4845,68 +4859,68 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 213.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 217.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE12580",
           "metric_name": "Price per Sqft",
-          "3month_average": 213.66666666666666,
+          "3month_average": 214.66666666666666,
           "12month_average": 218.5,
           "yoy_change": {
-            "current": 213.0,
+            "current": 217.0,
             "change": 0.0,
             "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 213.6667,
-            "change": 2.0,
-            "pct_change": 0.94
+            "current_3mo": 214.6667,
+            "change": 1.0,
+            "pct_change": 0.47
           }
         },
         "housing_price": {
-          "latest_value": 349900.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 361993.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI12580",
           "metric_name": "Median Housing Price",
-          "3month_average": 352461.6666666667,
-          "12month_average": 380364.25,
+          "3month_average": 353961.0,
+          "12month_average": 379288.6666666667,
           "yoy_change": {
-            "current": 349900.0,
-            "change": -100.0,
-            "pct_change": -0.03
+            "current": 361993.0,
+            "change": -12907.0,
+            "pct_change": -3.44
           },
           "3month_avg_yoy": {
-            "current_3mo": 352461.6667,
-            "change": 2495.0,
-            "pct_change": 0.71
+            "current_3mo": 353961.0,
+            "change": -4305.6667,
+            "pct_change": -1.2
           }
         },
         "median_days_on_market": {
-          "latest_value": 45.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 37.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR12580",
           "metric_name": "Median Days on Market",
-          "3month_average": 52.0,
-          "12month_average": 39.833333333333336,
+          "3month_average": 46.0,
+          "12month_average": 40.5,
           "yoy_change": {
-            "current": 45.0,
-            "change": 4.0,
-            "pct_change": 9.76
+            "current": 37.0,
+            "change": 8.0,
+            "pct_change": 27.59
           },
           "3month_avg_yoy": {
-            "current_3mo": 52.0,
-            "change": 4.3333,
-            "pct_change": 9.09
+            "current_3mo": 46.0,
+            "change": 5.0,
+            "pct_change": 12.2
           }
         },
         "cost_of_living": {
-          "latest_value": 5.9831,
-          "latest_date": "2026-02-01",
+          "latest_value": 6.0955,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.0256,
+          "3month_average": 6.0538,
           "yoy_change": {
-            "current": 5.9831,
-            "change": -0.0732,
+            "current": 6.0955,
+            "change": -0.0745,
             "pct_change": -1.21
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
@@ -5070,69 +5084,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 165.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 166.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE41180",
           "metric_name": "Price per Sqft",
-          "3month_average": 165.0,
-          "12month_average": 165.33333333333334,
+          "3month_average": 165.66666666666666,
+          "12month_average": 165.58333333333334,
           "yoy_change": {
-            "current": 165.0,
-            "change": 6.0,
-            "pct_change": 3.77
+            "current": 166.0,
+            "change": 3.0,
+            "pct_change": 1.84
           },
           "3month_avg_yoy": {
-            "current_3mo": 165.0,
-            "change": 7.6667,
-            "pct_change": 4.87
+            "current_3mo": 165.6667,
+            "change": 6.0,
+            "pct_change": 3.76
           }
         },
         "housing_price": {
-          "latest_value": 278175.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 280900.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI41180",
           "metric_name": "Median Housing Price",
-          "3month_average": 282675.0,
-          "12month_average": 293353.8333333333,
+          "3month_average": 281325.0,
+          "12month_average": 292603.8333333333,
           "yoy_change": {
-            "current": 278175.0,
-            "change": 1376.0,
-            "pct_change": 0.5
+            "current": 280900.0,
+            "change": -9000.0,
+            "pct_change": -3.1
           },
           "3month_avg_yoy": {
-            "current_3mo": 282675.0,
-            "change": 6275.3333,
-            "pct_change": 2.27
+            "current_3mo": 281325.0,
+            "change": 775.3333,
+            "pct_change": 0.28
           }
         },
         "median_days_on_market": {
-          "latest_value": 55.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 46.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR41180",
           "metric_name": "Median Days on Market",
-          "3month_average": 60.666666666666664,
-          "12month_average": 47.333333333333336,
+          "3month_average": 56.333333333333336,
+          "12month_average": 47.916666666666664,
           "yoy_change": {
-            "current": 55.0,
-            "change": 2.0,
-            "pct_change": 3.77
+            "current": 46.0,
+            "change": 7.0,
+            "pct_change": 17.95
           },
           "3month_avg_yoy": {
-            "current_3mo": 60.6667,
-            "change": 3.0,
-            "pct_change": 5.2
+            "current_3mo": 56.3333,
+            "change": 5.0,
+            "pct_change": 9.74
           }
         },
         "cost_of_living": {
-          "latest_value": 4.5045,
-          "latest_date": "2026-02-01",
+          "latest_value": 4.5318,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 4.5292,
+          "3month_average": 4.5475,
           "yoy_change": {
-            "current": 4.5045,
-            "change": 0.1352,
-            "pct_change": 3.09
+            "current": 4.5318,
+            "change": 0.0526,
+            "pct_change": 1.17
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -5296,68 +5310,68 @@
         },
         "price_per_sqft": {
           "latest_value": 173.0,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE41700",
           "metric_name": "Price per Sqft",
           "3month_average": 172.66666666666666,
-          "12month_average": 177.16666666666666,
+          "12month_average": 176.5,
           "yoy_change": {
             "current": 173.0,
-            "change": -7.0,
-            "pct_change": -3.89
+            "change": -8.0,
+            "pct_change": -4.42
           },
           "3month_avg_yoy": {
             "current_3mo": 172.6667,
-            "change": -7.3333,
-            "pct_change": -4.07
+            "change": -7.6667,
+            "pct_change": -4.25
           }
         },
         "housing_price": {
-          "latest_value": 319990.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 323950.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI41700",
           "metric_name": "Median Housing Price",
-          "3month_average": 320075.0,
-          "12month_average": 330703.3333333333,
+          "3month_average": 321310.0,
+          "12month_average": 329783.3333333333,
           "yoy_change": {
-            "current": 319990.0,
-            "change": -7010.0,
-            "pct_change": -2.14
+            "current": 323950.0,
+            "change": -11040.0,
+            "pct_change": -3.3
           },
           "3month_avg_yoy": {
-            "current_3mo": 320075.0,
-            "change": -7241.6667,
-            "pct_change": -2.21
+            "current_3mo": 321310.0,
+            "change": -7686.6667,
+            "pct_change": -2.34
           }
         },
         "median_days_on_market": {
-          "latest_value": 79.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 61.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR41700",
           "metric_name": "Median Days on Market",
-          "3month_average": 80.66666666666667,
-          "12month_average": 69.25,
+          "3month_average": 75.0,
+          "12month_average": 69.33333333333333,
           "yoy_change": {
-            "current": 79.0,
-            "change": 3.0,
-            "pct_change": 3.95
+            "current": 61.0,
+            "change": 1.0,
+            "pct_change": 1.67
           },
           "3month_avg_yoy": {
-            "current_3mo": 80.6667,
-            "change": 4.3333,
-            "pct_change": 5.68
+            "current_3mo": 75.0,
+            "change": 3.6667,
+            "pct_change": 5.14
           }
         },
         "cost_of_living": {
           "latest_value": 5.5148,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 5.4264,
           "yoy_change": {
             "current": 5.5148,
-            "change": -0.3255,
-            "pct_change": -5.57
+            "change": -0.358,
+            "pct_change": -6.1
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -5520,69 +5534,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 236.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 241.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE12420",
           "metric_name": "Price per Sqft",
-          "3month_average": 236.33333333333334,
-          "12month_average": 249.5,
+          "3month_average": 237.66666666666666,
+          "12month_average": 248.0,
           "yoy_change": {
-            "current": 236.0,
-            "change": -16.0,
-            "pct_change": -6.35
+            "current": 241.0,
+            "change": -18.0,
+            "pct_change": -6.95
           },
           "3month_avg_yoy": {
-            "current_3mo": 236.3333,
-            "change": -15.6667,
-            "pct_change": -6.22
+            "current_3mo": 237.6667,
+            "change": -16.3333,
+            "pct_change": -6.43
           }
         },
         "housing_price": {
-          "latest_value": 455000.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 469500.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI12420",
           "metric_name": "Median Housing Price",
-          "3month_average": 457333.3333333333,
-          "12month_average": 494227.3333333333,
+          "3month_average": 459833.3333333333,
+          "12month_average": 490852.3333333333,
           "yoy_change": {
-            "current": 455000.0,
-            "change": -44000.0,
-            "pct_change": -8.82
+            "current": 469500.0,
+            "change": -40500.0,
+            "pct_change": -7.94
           },
           "3month_avg_yoy": {
-            "current_3mo": 457333.3333,
-            "change": -40055.6667,
-            "pct_change": -8.05
+            "current_3mo": 459833.3333,
+            "change": -41389.0,
+            "pct_change": -8.26
           }
         },
         "median_days_on_market": {
-          "latest_value": 76.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 53.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR12420",
           "metric_name": "Median Days on Market",
-          "3month_average": 85.0,
-          "12month_average": 68.75,
+          "3month_average": 73.33333333333333,
+          "12month_average": 69.5,
           "yoy_change": {
-            "current": 76.0,
-            "change": 10.0,
-            "pct_change": 15.15
+            "current": 53.0,
+            "change": 9.0,
+            "pct_change": 20.45
           },
           "3month_avg_yoy": {
-            "current_3mo": 85.0,
-            "change": 9.0,
-            "pct_change": 11.84
+            "current_3mo": 73.3333,
+            "change": 9.3333,
+            "pct_change": 14.58
           }
         },
         "cost_of_living": {
-          "latest_value": 6.5032,
-          "latest_date": "2026-02-01",
+          "latest_value": 6.6409,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.4696,
+          "3month_average": 6.5061,
           "yoy_change": {
-            "current": 6.5032,
-            "change": -0.662,
-            "pct_change": -9.24
+            "current": 6.6409,
+            "change": -0.7233,
+            "pct_change": -9.82
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -5745,69 +5759,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 313.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 312.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE38900",
           "metric_name": "Price per Sqft",
-          "3month_average": 311.3333333333333,
-          "12month_average": 313.25,
+          "3month_average": 312.0,
+          "12month_average": 312.5833333333333,
           "yoy_change": {
-            "current": 313.0,
-            "change": -6.0,
-            "pct_change": -1.88
+            "current": 312.0,
+            "change": -8.0,
+            "pct_change": -2.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 311.3333,
-            "change": -6.3333,
-            "pct_change": -1.99
+            "current_3mo": 312.0,
+            "change": -7.0,
+            "pct_change": -2.19
           }
         },
         "housing_price": {
-          "latest_value": 572400.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 575000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI38900",
           "metric_name": "Median Housing Price",
-          "3month_average": 577450.0,
-          "12month_average": 596596.0,
+          "3month_average": 574133.3333333334,
+          "12month_average": 594521.0,
           "yoy_change": {
-            "current": 572400.0,
-            "change": -26015.0,
-            "pct_change": -4.35
+            "current": 575000.0,
+            "change": -24900.0,
+            "pct_change": -4.15
           },
           "3month_avg_yoy": {
-            "current_3mo": 577450.0,
-            "change": -20596.6667,
-            "pct_change": -3.44
+            "current_3mo": 574133.3333,
+            "change": -24880.0,
+            "pct_change": -4.15
           }
         },
         "median_days_on_market": {
-          "latest_value": 68.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 49.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR38900",
           "metric_name": "Median Days on Market",
-          "3month_average": 80.33333333333333,
-          "12month_average": 62.916666666666664,
+          "3month_average": 68.0,
+          "12month_average": 62.75,
           "yoy_change": {
-            "current": 68.0,
-            "change": -7.0,
-            "pct_change": -9.33
+            "current": 49.0,
+            "change": -2.0,
+            "pct_change": -3.92
           },
           "3month_avg_yoy": {
-            "current_3mo": 80.3333,
-            "change": 1.3333,
-            "pct_change": 1.69
+            "current_3mo": 68.0,
+            "change": -1.3333,
+            "pct_change": -1.92
           }
         },
         "cost_of_living": {
-          "latest_value": 7.5586,
-          "latest_date": "2026-02-01",
+          "latest_value": 7.5344,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 7.609,
+          "3month_average": 7.6253,
           "yoy_change": {
-            "current": 7.5586,
-            "change": -0.5133,
-            "pct_change": -6.36
+            "current": 7.5344,
+            "change": -0.5628,
+            "pct_change": -6.95
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -5970,69 +5984,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 341.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 344.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE40900",
           "metric_name": "Price per Sqft",
-          "3month_average": 339.6666666666667,
-          "12month_average": 341.3333333333333,
+          "3month_average": 341.6666666666667,
+          "12month_average": 341.4166666666667,
           "yoy_change": {
-            "current": 341.0,
-            "change": -2.0,
-            "pct_change": -0.58
+            "current": 344.0,
+            "change": 1.0,
+            "pct_change": 0.29
           },
           "3month_avg_yoy": {
-            "current_3mo": 339.6667,
-            "change": -3.6667,
-            "pct_change": -1.07
+            "current_3mo": 341.6667,
+            "change": -1.6667,
+            "pct_change": -0.49
           }
         },
         "housing_price": {
-          "latest_value": 601795.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 621495.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI40900",
           "metric_name": "Median Housing Price",
-          "3month_average": 600261.6666666666,
-          "12month_average": 618046.0833333334,
+          "3month_average": 607430.0,
+          "12month_average": 617754.0,
           "yoy_change": {
-            "current": 601795.0,
-            "change": -17205.0,
-            "pct_change": -2.78
+            "current": 621495.0,
+            "change": -3505.0,
+            "pct_change": -0.56
           },
           "3month_avg_yoy": {
-            "current_3mo": 600261.6667,
-            "change": -16071.6667,
-            "pct_change": -2.61
+            "current_3mo": 607430.0,
+            "change": -12236.6667,
+            "pct_change": -1.97
           }
         },
         "median_days_on_market": {
-          "latest_value": 41.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 39.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR40900",
           "metric_name": "Median Days on Market",
-          "3month_average": 58.0,
-          "12month_average": 50.25,
+          "3month_average": 48.333333333333336,
+          "12month_average": 50.5,
           "yoy_change": {
-            "current": 41.0,
-            "change": 2.0,
-            "pct_change": 5.13
+            "current": 39.0,
+            "change": 3.0,
+            "pct_change": 8.33
           },
           "3month_avg_yoy": {
-            "current_3mo": 58.0,
-            "change": 4.0,
-            "pct_change": 7.41
+            "current_3mo": 48.3333,
+            "change": 3.0,
+            "pct_change": 6.62
           }
         },
         "cost_of_living": {
-          "latest_value": 8.9595,
-          "latest_date": "2026-02-01",
+          "latest_value": 9.0384,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 8.9167,
+          "3month_average": 8.9692,
           "yoy_change": {
-            "current": 8.9595,
-            "change": -0.2758,
-            "pct_change": -2.99
+            "current": 9.0384,
+            "change": -0.197,
+            "pct_change": -2.13
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -6195,69 +6209,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 166.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 168.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE38300",
           "metric_name": "Price per Sqft",
-          "3month_average": 165.0,
-          "12month_average": 168.25,
+          "3month_average": 166.0,
+          "12month_average": 168.5,
           "yoy_change": {
-            "current": 166.0,
-            "change": 8.0,
-            "pct_change": 5.06
+            "current": 168.0,
+            "change": 3.0,
+            "pct_change": 1.82
           },
           "3month_avg_yoy": {
-            "current_3mo": 165.0,
-            "change": 6.6667,
-            "pct_change": 4.21
+            "current_3mo": 166.0,
+            "change": 5.6667,
+            "pct_change": 3.53
           }
         },
         "housing_price": {
-          "latest_value": 238450.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 239950.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI38300",
           "metric_name": "Median Housing Price",
-          "3month_average": 239150.0,
-          "12month_average": 246779.33333333334,
+          "3month_average": 239133.33333333334,
+          "12month_average": 246858.5,
           "yoy_change": {
-            "current": 238450.0,
-            "change": 9450.0,
-            "pct_change": 4.13
+            "current": 239950.0,
+            "change": 950.0,
+            "pct_change": 0.4
           },
           "3month_avg_yoy": {
-            "current_3mo": 239150.0,
-            "change": 9608.3333,
-            "pct_change": 4.19
+            "current_3mo": 239133.3333,
+            "change": 6566.6667,
+            "pct_change": 2.82
           }
         },
         "median_days_on_market": {
-          "latest_value": 90.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 65.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR38300",
           "metric_name": "Median Days on Market",
-          "3month_average": 82.0,
-          "12month_average": 59.416666666666664,
+          "3month_average": 80.0,
+          "12month_average": 59.666666666666664,
           "yoy_change": {
-            "current": 90.0,
-            "change": 4.0,
-            "pct_change": 4.65
+            "current": 65.0,
+            "change": 3.0,
+            "pct_change": 4.84
           },
           "3month_avg_yoy": {
-            "current_3mo": 82.0,
-            "change": 1.6667,
-            "pct_change": 2.07
+            "current_3mo": 80.0,
+            "change": 2.6667,
+            "pct_change": 3.45
           }
         },
         "cost_of_living": {
-          "latest_value": 4.9701,
-          "latest_date": "2026-02-01",
+          "latest_value": 5.0299,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 4.9584,
+          "3month_average": 4.9885,
           "yoy_change": {
-            "current": 4.9701,
-            "change": -0.1698,
-            "pct_change": -3.3
+            "current": 5.0299,
+            "change": -0.3377,
+            "pct_change": -6.29
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -6420,69 +6434,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 264.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 265.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE29820",
           "metric_name": "Price per Sqft",
-          "3month_average": 263.6666666666667,
-          "12month_average": 266.75,
+          "3month_average": 264.0,
+          "12month_average": 266.3333333333333,
           "yoy_change": {
-            "current": 264.0,
-            "change": -7.0,
-            "pct_change": -2.58
+            "current": 265.0,
+            "change": -5.0,
+            "pct_change": -1.85
           },
           "3month_avg_yoy": {
-            "current_3mo": 263.6667,
+            "current_3mo": 264.0,
             "change": -6.0,
             "pct_change": -2.22
           }
         },
         "housing_price": {
-          "latest_value": 464950.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 468100.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI29820",
           "metric_name": "Median Housing Price",
-          "3month_average": 465150.0,
-          "12month_average": 472568.0833333333,
+          "3month_average": 466016.6666666667,
+          "12month_average": 472414.3333333333,
           "yoy_change": {
-            "current": 464950.0,
-            "change": -5024.0,
-            "pct_change": -1.07
+            "current": 468100.0,
+            "change": -1845.0,
+            "pct_change": -0.39
           },
           "3month_avg_yoy": {
-            "current_3mo": 465150.0,
-            "change": -3491.3333,
-            "pct_change": -0.74
+            "current_3mo": 466016.6667,
+            "change": -3123.0,
+            "pct_change": -0.67
           }
         },
         "median_days_on_market": {
-          "latest_value": 53.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 52.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR29820",
           "metric_name": "Median Days on Market",
-          "3month_average": 66.0,
-          "12month_average": 55.833333333333336,
+          "3month_average": 59.333333333333336,
+          "12month_average": 56.5,
           "yoy_change": {
-            "current": 53.0,
-            "change": 6.0,
-            "pct_change": 12.77
+            "current": 52.0,
+            "change": 8.0,
+            "pct_change": 18.18
           },
           "3month_avg_yoy": {
-            "current_3mo": 66.0,
-            "change": 8.6667,
-            "pct_change": 15.12
+            "current_3mo": 59.3333,
+            "change": 8.3333,
+            "pct_change": 16.34
           }
         },
         "cost_of_living": {
-          "latest_value": 8.1356,
-          "latest_date": "2026-02-01",
+          "latest_value": 8.1664,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 8.174,
+          "3month_average": 8.1844,
           "yoy_change": {
-            "current": 8.1356,
-            "change": -0.7759,
-            "pct_change": -8.71
+            "current": 8.1664,
+            "change": -0.7122,
+            "pct_change": -8.02
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -6645,69 +6659,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 191.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 194.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE17140",
           "metric_name": "Price per Sqft",
-          "3month_average": 190.0,
-          "12month_average": 191.16666666666666,
+          "3month_average": 191.66666666666666,
+          "12month_average": 191.5,
           "yoy_change": {
-            "current": 191.0,
+            "current": 194.0,
             "change": 4.0,
-            "pct_change": 2.14
+            "pct_change": 2.11
           },
           "3month_avg_yoy": {
-            "current_3mo": 190.0,
-            "change": 4.6667,
-            "pct_change": 2.52
+            "current_3mo": 191.6667,
+            "change": 4.3333,
+            "pct_change": 2.31
           }
         },
         "housing_price": {
-          "latest_value": 338841.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 344950.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI17140",
           "metric_name": "Median Housing Price",
-          "3month_average": 333397.0,
-          "12month_average": 342316.8333333333,
+          "3month_average": 338397.0,
+          "12month_average": 343146.0,
           "yoy_change": {
-            "current": 338841.0,
-            "change": 13891.0,
-            "pct_change": 4.27
+            "current": 344950.0,
+            "change": 9950.0,
+            "pct_change": 2.97
           },
           "3month_avg_yoy": {
-            "current_3mo": 333397.0,
-            "change": 12113.6667,
-            "pct_change": 3.77
+            "current_3mo": 338397.0,
+            "change": 11930.3333,
+            "pct_change": 3.65
           }
         },
         "median_days_on_market": {
-          "latest_value": 52.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 45.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR17140",
           "metric_name": "Median Days on Market",
-          "3month_average": 54.666666666666664,
-          "12month_average": 41.166666666666664,
+          "3month_average": 52.0,
+          "12month_average": 41.833333333333336,
           "yoy_change": {
-            "current": 52.0,
-            "change": 2.0,
-            "pct_change": 4.0
+            "current": 45.0,
+            "change": 8.0,
+            "pct_change": 21.62
           },
           "3month_avg_yoy": {
-            "current_3mo": 54.6667,
-            "change": 0.3333,
-            "pct_change": 0.61
+            "current_3mo": 52.0,
+            "change": 2.6667,
+            "pct_change": 5.41
           }
         },
         "cost_of_living": {
-          "latest_value": 5.5459,
-          "latest_date": "2026-02-01",
+          "latest_value": 5.633,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.5675,
+          "3month_average": 5.6163,
           "yoy_change": {
-            "current": 5.5459,
-            "change": 0.0329,
-            "pct_change": 0.6
+            "current": 5.633,
+            "change": 0.0316,
+            "pct_change": 0.56
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -6870,69 +6884,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 199.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 200.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE28140",
           "metric_name": "Price per Sqft",
-          "3month_average": 196.0,
+          "3month_average": 198.66666666666666,
           "12month_average": 194.91666666666666,
           "yoy_change": {
-            "current": 199.0,
-            "change": 2.0,
-            "pct_change": 1.02
+            "current": 200.0,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 196.0,
-            "change": 2.6667,
-            "pct_change": 1.38
+            "current_3mo": 198.6667,
+            "change": 2.0,
+            "pct_change": 1.02
           }
         },
         "housing_price": {
-          "latest_value": 394975.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 400000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI28140",
           "metric_name": "Median Housing Price",
-          "3month_average": 382224.3333333333,
-          "12month_average": 391422.5833333333,
+          "3month_average": 391658.3333333333,
+          "12month_average": 391797.5833333333,
           "yoy_change": {
-            "current": 394975.0,
-            "change": 15525.0,
-            "pct_change": 4.09
+            "current": 400000.0,
+            "change": 4500.0,
+            "pct_change": 1.14
           },
           "3month_avg_yoy": {
-            "current_3mo": 382224.3333,
-            "change": 7426.0,
-            "pct_change": 1.98
+            "current_3mo": 391658.3333,
+            "change": 8358.3333,
+            "pct_change": 2.18
           }
         },
         "median_days_on_market": {
-          "latest_value": 57.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 45.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR28140",
           "metric_name": "Median Days on Market",
-          "3month_average": 64.66666666666667,
-          "12month_average": 53.416666666666664,
+          "3month_average": 57.666666666666664,
+          "12month_average": 52.916666666666664,
           "yoy_change": {
-            "current": 57.0,
-            "change": -18.0,
-            "pct_change": -24.0
+            "current": 45.0,
+            "change": -6.0,
+            "pct_change": -11.76
           },
           "3month_avg_yoy": {
-            "current_3mo": 64.6667,
-            "change": -9.0,
-            "pct_change": -12.22
+            "current_3mo": 57.6667,
+            "change": -10.3333,
+            "pct_change": -15.2
           }
         },
         "cost_of_living": {
-          "latest_value": 5.7316,
-          "latest_date": "2026-02-01",
+          "latest_value": 5.7604,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.6522,
+          "3month_average": 5.7291,
           "yoy_change": {
-            "current": 5.7316,
-            "change": -0.3281,
-            "pct_change": -5.41
+            "current": 5.7604,
+            "change": -0.3916,
+            "pct_change": -6.37
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -7095,69 +7109,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 203.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 204.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE18140",
           "metric_name": "Price per Sqft",
-          "3month_average": 201.66666666666666,
-          "12month_average": 204.91666666666666,
+          "3month_average": 203.0,
+          "12month_average": 204.58333333333334,
           "yoy_change": {
-            "current": 203.0,
-            "change": -2.0,
-            "pct_change": -0.98
+            "current": 204.0,
+            "change": -4.0,
+            "pct_change": -1.92
           },
           "3month_avg_yoy": {
-            "current_3mo": 201.6667,
-            "change": -1.6667,
-            "pct_change": -0.82
+            "current_3mo": 203.0,
+            "change": -2.0,
+            "pct_change": -0.98
           }
         },
         "housing_price": {
-          "latest_value": 349900.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 359900.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI18140",
           "metric_name": "Median Housing Price",
-          "3month_average": 349916.6666666667,
-          "12month_average": 370195.8333333333,
+          "3month_average": 353233.3333333333,
+          "12month_average": 370187.5,
           "yoy_change": {
-            "current": 349900.0,
-            "change": 200.0,
-            "pct_change": 0.06
+            "current": 359900.0,
+            "change": -100.0,
+            "pct_change": -0.03
           },
           "3month_avg_yoy": {
-            "current_3mo": 349916.6667,
-            "change": 3291.6667,
-            "pct_change": 0.95
+            "current_3mo": 353233.3333,
+            "change": 3091.6667,
+            "pct_change": 0.88
           }
         },
         "median_days_on_market": {
-          "latest_value": 55.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 41.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR18140",
           "metric_name": "Median Days on Market",
-          "3month_average": 61.0,
-          "12month_average": 45.166666666666664,
+          "3month_average": 54.333333333333336,
+          "12month_average": 45.5,
           "yoy_change": {
-            "current": 55.0,
-            "change": 6.0,
-            "pct_change": 12.24
+            "current": 41.0,
+            "change": 4.0,
+            "pct_change": 10.81
           },
           "3month_avg_yoy": {
-            "current_3mo": 61.0,
-            "change": 6.3333,
-            "pct_change": 11.59
+            "current_3mo": 54.3333,
+            "change": 6.0,
+            "pct_change": 12.41
           }
         },
         "cost_of_living": {
-          "latest_value": 6.159,
-          "latest_date": "2026-02-01",
+          "latest_value": 6.1893,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.1161,
+          "3month_average": 6.1565,
           "yoy_change": {
-            "current": 6.159,
-            "change": -0.114,
-            "pct_change": -1.82
+            "current": 6.1893,
+            "change": -0.1754,
+            "pct_change": -2.76
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -7320,69 +7334,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 167.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 168.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE26900",
           "metric_name": "Price per Sqft",
-          "3month_average": 164.66666666666666,
-          "12month_average": 159.66666666666666,
+          "3month_average": 167.0,
+          "12month_average": 160.5,
           "yoy_change": {
-            "current": 167.0,
-            "change": 11.0,
-            "pct_change": 7.05
+            "current": 168.0,
+            "change": 10.0,
+            "pct_change": 6.33
           },
           "3month_avg_yoy": {
-            "current_3mo": 164.6667,
-            "change": 9.6667,
-            "pct_change": 6.24
+            "current_3mo": 167.0,
+            "change": 10.6667,
+            "pct_change": 6.82
           }
         },
         "housing_price": {
-          "latest_value": 309950.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 312500.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI26900",
           "metric_name": "Median Housing Price",
-          "3month_average": 308308.0,
-          "12month_average": 321571.5,
+          "3month_average": 309150.0,
+          "12month_average": 321363.1666666667,
           "yoy_change": {
-            "current": 309950.0,
-            "change": 9950.0,
-            "pct_change": 3.32
+            "current": 312500.0,
+            "change": -2500.0,
+            "pct_change": -0.79
           },
           "3month_avg_yoy": {
-            "current_3mo": 308308.0,
-            "change": 4988.3333,
-            "pct_change": 1.64
+            "current_3mo": 309150.0,
+            "change": 4150.0,
+            "pct_change": 1.36
           }
         },
         "median_days_on_market": {
-          "latest_value": 73.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 51.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR26900",
           "metric_name": "Median Days on Market",
-          "3month_average": 70.33333333333333,
-          "12month_average": 51.333333333333336,
+          "3month_average": 66.0,
+          "12month_average": 51.916666666666664,
           "yoy_change": {
-            "current": 73.0,
-            "change": 10.0,
-            "pct_change": 15.87
+            "current": 51.0,
+            "change": 7.0,
+            "pct_change": 15.91
           },
           "3month_avg_yoy": {
-            "current_3mo": 70.3333,
-            "change": 6.6667,
-            "pct_change": 10.47
+            "current_3mo": 66.0,
+            "change": 7.6667,
+            "pct_change": 13.14
           }
         },
         "cost_of_living": {
-          "latest_value": 4.9408,
-          "latest_date": "2026-02-01",
+          "latest_value": 4.9704,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 4.8819,
+          "3month_average": 4.9511,
           "yoy_change": {
-            "current": 4.9408,
-            "change": 0.0901,
-            "pct_change": 1.86
+            "current": 4.9704,
+            "change": 0.0575,
+            "pct_change": 1.17
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -7778,69 +7792,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 259.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 260.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE34980",
           "metric_name": "Price per Sqft",
-          "3month_average": 260.0,
-          "12month_average": 262.0833333333333,
+          "3month_average": 259.6666666666667,
+          "12month_average": 261.8333333333333,
           "yoy_change": {
-            "current": 259.0,
-            "change": -2.0,
-            "pct_change": -0.77
+            "current": 260.0,
+            "change": -3.0,
+            "pct_change": -1.14
           },
           "3month_avg_yoy": {
-            "current_3mo": 260.0,
-            "change": -0.3333,
-            "pct_change": -0.13
+            "current_3mo": 259.6667,
+            "change": -1.3333,
+            "pct_change": -0.51
           }
         },
         "housing_price": {
-          "latest_value": 527225.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 529000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI34980",
           "metric_name": "Median Housing Price",
-          "3month_average": 527241.6666666666,
-          "12month_average": 537961.8333333334,
+          "3month_average": 527075.0,
+          "12month_average": 537461.8333333334,
           "yoy_change": {
-            "current": 527225.0,
-            "change": -2225.0,
-            "pct_change": -0.42
+            "current": 529000.0,
+            "change": -6000.0,
+            "pct_change": -1.12
           },
           "3month_avg_yoy": {
-            "current_3mo": 527241.6667,
-            "change": -3261.0,
-            "pct_change": -0.61
+            "current_3mo": 527075.0,
+            "change": -2741.6667,
+            "pct_change": -0.52
           }
         },
         "median_days_on_market": {
-          "latest_value": 60.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 53.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR34980",
           "metric_name": "Median Days on Market",
-          "3month_average": 67.33333333333333,
-          "12month_average": 57.833333333333336,
+          "3month_average": 61.333333333333336,
+          "12month_average": 58.333333333333336,
           "yoy_change": {
-            "current": 60.0,
-            "change": 5.0,
-            "pct_change": 9.09
+            "current": 53.0,
+            "change": 6.0,
+            "pct_change": 12.77
           },
           "3month_avg_yoy": {
-            "current_3mo": 67.3333,
-            "change": 5.3333,
-            "pct_change": 8.6
+            "current_3mo": 61.3333,
+            "change": 5.6667,
+            "pct_change": 10.18
           }
         },
         "cost_of_living": {
-          "latest_value": 7.3747,
-          "latest_date": "2026-02-01",
+          "latest_value": 7.4032,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 7.3794,
+          "3month_average": 7.3699,
           "yoy_change": {
-            "current": 7.3747,
-            "change": -0.1774,
-            "pct_change": -2.35
+            "current": 7.4032,
+            "change": -0.2068,
+            "pct_change": -2.72
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -8003,69 +8017,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 832.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 844.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE41940",
           "metric_name": "Price per Sqft",
-          "3month_average": 799.3333333333334,
-          "12month_average": 832.25,
+          "3month_average": 819.6666666666666,
+          "12month_average": 829.75,
           "yoy_change": {
-            "current": 832.0,
-            "change": -8.0,
-            "pct_change": -0.95
+            "current": 844.0,
+            "change": -30.0,
+            "pct_change": -3.43
           },
           "3month_avg_yoy": {
-            "current_3mo": 799.3333,
-            "change": -19.3333,
-            "pct_change": -2.36
+            "current_3mo": 819.6667,
+            "change": -21.6667,
+            "pct_change": -2.58
           }
         },
         "housing_price": {
-          "latest_value": 1349975.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 1376500.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI41940",
           "metric_name": "Median Housing Price",
-          "3month_average": 1247825.0,
-          "12month_average": 1345809.1666666667,
+          "3month_average": 1307158.3333333333,
+          "12month_average": 1344772.1666666667,
           "yoy_change": {
-            "current": 1349975.0,
-            "change": 45475.0,
-            "pct_change": 3.49
+            "current": 1376500.0,
+            "change": -12444.0,
+            "pct_change": -0.9
           },
           "3month_avg_yoy": {
-            "current_3mo": 1247825.0,
-            "change": -32508.3333,
-            "pct_change": -2.54
+            "current_3mo": 1307158.3333,
+            "change": -13323.0,
+            "pct_change": -1.01
           }
         },
         "median_days_on_market": {
-          "latest_value": 23.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 24.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR41940",
           "metric_name": "Median Days on Market",
-          "3month_average": 39.333333333333336,
-          "12month_average": 34.916666666666664,
+          "3month_average": 29.0,
+          "12month_average": 35.083333333333336,
           "yoy_change": {
-            "current": 23.0,
-            "change": 1.0,
-            "pct_change": 4.55
+            "current": 24.0,
+            "change": 2.0,
+            "pct_change": 9.09
           },
           "3month_avg_yoy": {
-            "current_3mo": 39.3333,
-            "change": 0.6667,
-            "pct_change": 1.72
+            "current_3mo": 29.0,
+            "change": -0.3333,
+            "pct_change": -1.14
           }
         },
         "cost_of_living": {
-          "latest_value": 15.1631,
-          "latest_date": "2026-02-01",
+          "latest_value": 15.3818,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 14.5316,
+          "3month_average": 14.9012,
           "yoy_change": {
-            "current": 15.1631,
-            "change": -0.2356,
-            "pct_change": -1.53
+            "current": 15.3818,
+            "change": -0.6402,
+            "pct_change": -4.0
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -8228,69 +8242,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 220.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 221.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE47260",
           "metric_name": "Price per Sqft",
-          "3month_average": 218.66666666666666,
-          "12month_average": 218.0,
+          "3month_average": 219.66666666666666,
+          "12month_average": 218.33333333333334,
           "yoy_change": {
-            "current": 220.0,
-            "change": 5.0,
-            "pct_change": 2.33
+            "current": 221.0,
+            "change": 4.0,
+            "pct_change": 1.84
           },
           "3month_avg_yoy": {
-            "current_3mo": 218.6667,
+            "current_3mo": 219.6667,
             "change": 4.3333,
-            "pct_change": 2.02
+            "pct_change": 2.01
           }
         },
         "housing_price": {
-          "latest_value": 400000.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 412500.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI47260",
           "metric_name": "Median Housing Price",
-          "3month_average": 399933.3333333333,
-          "12month_average": 407059.6666666667,
+          "3month_average": 404133.3333333333,
+          "12month_average": 408104.1666666667,
           "yoy_change": {
-            "current": 400000.0,
-            "change": 7500.0,
-            "pct_change": 1.91
+            "current": 412500.0,
+            "change": 12534.0,
+            "pct_change": 3.13
           },
           "3month_avg_yoy": {
-            "current_3mo": 399933.3333,
-            "change": 9300.0,
-            "pct_change": 2.38
+            "current_3mo": 404133.3333,
+            "change": 10161.3333,
+            "pct_change": 2.58
           }
         },
         "median_days_on_market": {
-          "latest_value": 40.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 36.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR47260",
           "metric_name": "Median Days on Market",
-          "3month_average": 49.333333333333336,
-          "12month_average": 42.333333333333336,
+          "3month_average": 44.333333333333336,
+          "12month_average": 42.166666666666664,
           "yoy_change": {
-            "current": 40.0,
-            "change": 1.0,
-            "pct_change": 2.56
+            "current": 36.0,
+            "change": -2.0,
+            "pct_change": -5.26
           },
           "3month_avg_yoy": {
-            "current_3mo": 49.3333,
-            "change": 3.3333,
-            "pct_change": 7.25
+            "current_3mo": 44.3333,
+            "change": 1.3333,
+            "pct_change": 3.1
           }
         },
         "cost_of_living": {
-          "latest_value": 6.3164,
-          "latest_date": "2026-02-01",
+          "latest_value": 6.3451,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.2793,
+          "3month_average": 6.308,
           "yoy_change": {
-            "current": 6.3164,
-            "change": -0.4874,
-            "pct_change": -7.16
+            "current": 6.3451,
+            "change": -0.522,
+            "pct_change": -7.6
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -8453,69 +8467,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 214.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 218.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE27260",
           "metric_name": "Price per Sqft",
-          "3month_average": 213.66666666666666,
-          "12month_average": 218.33333333333334,
+          "3month_average": 215.0,
+          "12month_average": 218.0,
           "yoy_change": {
-            "current": 214.0,
-            "change": -6.0,
-            "pct_change": -2.73
+            "current": 218.0,
+            "change": -4.0,
+            "pct_change": -1.8
           },
           "3month_avg_yoy": {
-            "current_3mo": 213.6667,
-            "change": -5.6667,
-            "pct_change": -2.58
+            "current_3mo": 215.0,
+            "change": -5.3333,
+            "pct_change": -2.42
           }
         },
         "housing_price": {
-          "latest_value": 382000.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 389900.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI27260",
           "metric_name": "Median Housing Price",
-          "3month_average": 379833.3333333333,
-          "12month_average": 394369.5833333333,
+          "3month_average": 382300.0,
+          "12month_average": 393611.25,
           "yoy_change": {
-            "current": 382000.0,
-            "change": -6098.0,
-            "pct_change": -1.57
+            "current": 389900.0,
+            "change": -9100.0,
+            "pct_change": -2.28
           },
           "3month_avg_yoy": {
-            "current_3mo": 379833.3333,
-            "change": -6032.6667,
-            "pct_change": -1.56
+            "current_3mo": 382300.0,
+            "change": -8399.3333,
+            "pct_change": -2.15
           }
         },
         "median_days_on_market": {
-          "latest_value": 72.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 58.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR27260",
           "metric_name": "Median Days on Market",
-          "3month_average": 78.66666666666667,
-          "12month_average": 71.0,
+          "3month_average": 70.33333333333333,
+          "12month_average": 71.08333333333333,
           "yoy_change": {
-            "current": 72.0,
-            "change": 6.0,
-            "pct_change": 9.09
+            "current": 58.0,
+            "change": 1.0,
+            "pct_change": 1.75
           },
           "3month_avg_yoy": {
-            "current_3mo": 78.6667,
-            "change": 6.0,
-            "pct_change": 8.26
+            "current_3mo": 70.3333,
+            "change": 4.6667,
+            "pct_change": 7.11
           }
         },
         "cost_of_living": {
-          "latest_value": 5.762,
-          "latest_date": "2026-02-01",
+          "latest_value": 5.8697,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.7018,
+          "3month_average": 5.7374,
           "yoy_change": {
-            "current": 5.762,
-            "change": -0.458,
-            "pct_change": -7.36
+            "current": 5.8697,
+            "change": -0.4068,
+            "pct_change": -6.48
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -8686,69 +8700,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 354.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 358.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE39300",
           "metric_name": "Price per Sqft",
-          "3month_average": 355.6666666666667,
-          "12month_average": 338.1666666666667,
+          "3month_average": 356.3333333333333,
+          "12month_average": 340.8333333333333,
           "yoy_change": {
-            "current": 354.0,
-            "change": 27.0,
-            "pct_change": 8.26
+            "current": 358.0,
+            "change": 32.0,
+            "pct_change": 9.82
           },
           "3month_avg_yoy": {
-            "current_3mo": 355.6667,
-            "change": 33.0,
-            "pct_change": 10.23
+            "current_3mo": 356.3333,
+            "change": 30.3333,
+            "pct_change": 9.3
           }
         },
         "housing_price": {
-          "latest_value": 547450.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 554950.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI39300",
           "metric_name": "Median Housing Price",
-          "3month_average": 549083.3333333334,
-          "12month_average": 575672.9166666666,
+          "3month_average": 550766.6666666666,
+          "12month_average": 576093.75,
           "yoy_change": {
-            "current": 547450.0,
-            "change": 12550.0,
-            "pct_change": 2.35
+            "current": 554950.0,
+            "change": 5050.0,
+            "pct_change": 0.92
           },
           "3month_avg_yoy": {
-            "current_3mo": 549083.3333,
-            "change": 22075.0,
-            "pct_change": 4.19
+            "current_3mo": 550766.6667,
+            "change": 15441.6667,
+            "pct_change": 2.88
           }
         },
         "median_days_on_market": {
-          "latest_value": 49.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 48.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR39300",
           "metric_name": "Median Days on Market",
-          "3month_average": 52.666666666666664,
-          "12month_average": 39.333333333333336,
+          "3month_average": 51.666666666666664,
+          "12month_average": 40.333333333333336,
           "yoy_change": {
-            "current": 49.0,
-            "change": 10.0,
-            "pct_change": 25.64
+            "current": 48.0,
+            "change": 12.0,
+            "pct_change": 33.33
           },
           "3month_avg_yoy": {
-            "current_3mo": 52.6667,
-            "change": 6.0,
-            "pct_change": 12.86
+            "current_3mo": 51.6667,
+            "change": 9.3333,
+            "pct_change": 22.05
           }
         },
         "cost_of_living": {
-          "latest_value": 9.688,
-          "latest_date": "2026-02-01",
+          "latest_value": 9.7975,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 9.8196,
+          "3month_average": 9.838,
           "yoy_change": {
-            "current": 9.688,
-            "change": 0.414,
-            "pct_change": 4.46
+            "current": 9.7975,
+            "change": 0.5519,
+            "pct_change": 5.97
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -8911,69 +8925,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 225.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 228.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE33340",
           "metric_name": "Price per Sqft",
-          "3month_average": 222.66666666666666,
-          "12month_average": 221.58333333333334,
+          "3month_average": 225.33333333333334,
+          "12month_average": 222.5,
           "yoy_change": {
-            "current": 225.0,
-            "change": 8.0,
-            "pct_change": 3.69
+            "current": 228.0,
+            "change": 11.0,
+            "pct_change": 5.07
           },
           "3month_avg_yoy": {
-            "current_3mo": 222.6667,
-            "change": 9.3333,
-            "pct_change": 4.37
+            "current_3mo": 225.3333,
+            "change": 9.6667,
+            "pct_change": 4.48
           }
         },
         "housing_price": {
-          "latest_value": 372450.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 387858.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI33340",
           "metric_name": "Median Housing Price",
-          "3month_average": 369033.3333333333,
-          "12month_average": 387854.1666666667,
+          "3month_average": 375069.3333333333,
+          "12month_average": 388925.6666666667,
           "yoy_change": {
-            "current": 372450.0,
-            "change": -2500.0,
-            "pct_change": -0.67
+            "current": 387858.0,
+            "change": 12858.0,
+            "pct_change": 3.43
           },
           "3month_avg_yoy": {
-            "current_3mo": 369033.3333,
-            "change": 4183.3333,
+            "current_3mo": 375069.3333,
+            "change": 4252.6667,
             "pct_change": 1.15
           }
         },
         "median_days_on_market": {
-          "latest_value": 39.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 33.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR33340",
           "metric_name": "Median Days on Market",
-          "3month_average": 49.0,
-          "12month_average": 35.916666666666664,
+          "3month_average": 43.333333333333336,
+          "12month_average": 36.083333333333336,
           "yoy_change": {
-            "current": 39.0,
-            "change": 3.0,
-            "pct_change": 8.33
+            "current": 33.0,
+            "change": 2.0,
+            "pct_change": 6.45
           },
           "3month_avg_yoy": {
-            "current_3mo": 49.0,
-            "change": 5.0,
-            "pct_change": 11.36
+            "current_3mo": 43.3333,
+            "change": 4.0,
+            "pct_change": 10.17
           }
         },
         "cost_of_living": {
-          "latest_value": 6.1695,
-          "latest_date": "2026-02-01",
+          "latest_value": 6.2517,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.101,
+          "3month_average": 6.1741,
           "yoy_change": {
-            "current": 6.1695,
-            "change": -0.0023,
-            "pct_change": -0.04
+            "current": 6.2517,
+            "change": 0.0799,
+            "pct_change": 1.3
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -9137,68 +9151,68 @@
         },
         "price_per_sqft": {
           "latest_value": 218.0,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE39580",
           "metric_name": "Price per Sqft",
           "3month_average": 217.66666666666666,
-          "12month_average": 220.25,
+          "12month_average": 220.0,
           "yoy_change": {
             "current": 218.0,
-            "change": -2.0,
-            "pct_change": -0.91
+            "change": -3.0,
+            "pct_change": -1.36
           },
           "3month_avg_yoy": {
             "current_3mo": 217.6667,
-            "change": -2.0,
-            "pct_change": -0.91
+            "change": -2.3333,
+            "pct_change": -1.06
           }
         },
         "housing_price": {
-          "latest_value": 444961.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 449900.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI39580",
           "metric_name": "Median Housing Price",
-          "3month_average": 441653.6666666667,
-          "12month_average": 451338.0,
+          "3month_average": 444953.6666666667,
+          "12month_average": 451746.3333333333,
           "yoy_change": {
-            "current": 444961.0,
-            "change": 8999.0,
-            "pct_change": 2.06
+            "current": 449900.0,
+            "change": 4900.0,
+            "pct_change": 1.1
           },
           "3month_avg_yoy": {
-            "current_3mo": 441653.6667,
-            "change": 1334.6667,
-            "pct_change": 0.3
+            "current_3mo": 444953.6667,
+            "change": 4633.0,
+            "pct_change": 1.05
           }
         },
         "median_days_on_market": {
-          "latest_value": 60.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 46.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR39580",
           "metric_name": "Median Days on Market",
-          "3month_average": 68.66666666666667,
-          "12month_average": 56.583333333333336,
+          "3month_average": 60.0,
+          "12month_average": 56.75,
           "yoy_change": {
-            "current": 60.0,
-            "change": 7.0,
-            "pct_change": 13.21
+            "current": 46.0,
+            "change": 2.0,
+            "pct_change": 4.55
           },
           "3month_avg_yoy": {
-            "current_3mo": 68.6667,
+            "current_3mo": 60.0,
             "change": 4.0,
-            "pct_change": 6.19
+            "pct_change": 7.14
           }
         },
         "cost_of_living": {
           "latest_value": 5.8118,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 5.8153,
           "yoy_change": {
             "current": 5.8118,
-            "change": -0.3181,
-            "pct_change": -5.19
+            "change": -0.3459,
+            "pct_change": -5.62
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -9362,68 +9376,68 @@
         },
         "price_per_sqft": {
           "latest_value": 172.0,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE36420",
           "metric_name": "Price per Sqft",
-          "3month_average": 171.0,
-          "12month_average": 171.66666666666666,
+          "3month_average": 171.66666666666666,
+          "12month_average": 171.5,
           "yoy_change": {
             "current": 172.0,
-            "change": -1.0,
-            "pct_change": -0.58
+            "change": -2.0,
+            "pct_change": -1.15
           },
           "3month_avg_yoy": {
-            "current_3mo": 171.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current_3mo": 171.6667,
+            "change": -1.0,
+            "pct_change": -0.58
           }
         },
         "housing_price": {
-          "latest_value": 315000.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 318450.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI36420",
           "metric_name": "Median Housing Price",
-          "3month_average": 314966.6666666667,
-          "12month_average": 320231.6666666667,
+          "3month_average": 316116.6666666667,
+          "12month_average": 320273.3333333333,
           "yoy_change": {
-            "current": 315000.0,
-            "change": 8.0,
-            "pct_change": 0.0
+            "current": 318450.0,
+            "change": 500.0,
+            "pct_change": 0.16
           },
           "3month_avg_yoy": {
-            "current_3mo": 314966.6667,
-            "change": 2530.0,
-            "pct_change": 0.81
+            "current_3mo": 316116.6667,
+            "change": 1013.3333,
+            "pct_change": 0.32
           }
         },
         "median_days_on_market": {
-          "latest_value": 58.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 55.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR36420",
           "metric_name": "Median Days on Market",
-          "3month_average": 63.333333333333336,
-          "12month_average": 52.416666666666664,
+          "3month_average": 60.0,
+          "12month_average": 53.083333333333336,
           "yoy_change": {
-            "current": 58.0,
-            "change": 6.0,
-            "pct_change": 11.54
+            "current": 55.0,
+            "change": 8.0,
+            "pct_change": 17.02
           },
           "3month_avg_yoy": {
-            "current_3mo": 63.3333,
-            "change": 6.3333,
-            "pct_change": 11.11
+            "current_3mo": 60.0,
+            "change": 6.6667,
+            "pct_change": 12.5
           }
         },
         "cost_of_living": {
           "latest_value": 5.2519,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.1955,
+          "3month_average": 5.2157,
           "yoy_change": {
             "current": 5.2519,
-            "change": -0.2788,
-            "pct_change": -5.04
+            "change": -0.3108,
+            "pct_change": -5.59
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -9587,68 +9601,68 @@
         },
         "price_per_sqft": {
           "latest_value": 180.0,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE31140",
           "metric_name": "Price per Sqft",
-          "3month_average": 179.66666666666666,
-          "12month_average": 178.5,
+          "3month_average": 180.0,
+          "12month_average": 178.75,
           "yoy_change": {
             "current": 180.0,
-            "change": 5.0,
-            "pct_change": 2.86
+            "change": 3.0,
+            "pct_change": 1.69
           },
           "3month_avg_yoy": {
-            "current_3mo": 179.6667,
-            "change": 5.6667,
-            "pct_change": 3.26
+            "current_3mo": 180.0,
+            "change": 4.6667,
+            "pct_change": 2.66
           }
         },
         "housing_price": {
-          "latest_value": 300000.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 302000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI31140",
           "metric_name": "Median Housing Price",
-          "3month_average": 300730.0,
-          "12month_average": 315558.5833333333,
+          "3month_average": 300663.3333333333,
+          "12month_average": 314058.5833333333,
           "yoy_change": {
-            "current": 300000.0,
-            "change": -9950.0,
-            "pct_change": -3.21
+            "current": 302000.0,
+            "change": -18000.0,
+            "pct_change": -5.62
           },
           "3month_avg_yoy": {
-            "current_3mo": 300730.0,
-            "change": -6436.6667,
-            "pct_change": -2.1
+            "current_3mo": 300663.3333,
+            "change": -11303.3333,
+            "pct_change": -3.62
           }
         },
         "median_days_on_market": {
-          "latest_value": 50.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 45.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR31140",
           "metric_name": "Median Days on Market",
-          "3month_average": 53.666666666666664,
-          "12month_average": 43.25,
+          "3month_average": 51.0,
+          "12month_average": 43.583333333333336,
           "yoy_change": {
-            "current": 50.0,
-            "change": -1.0,
-            "pct_change": -1.96
+            "current": 45.0,
+            "change": 4.0,
+            "pct_change": 9.76
           },
           "3month_avg_yoy": {
-            "current_3mo": 53.6667,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current_3mo": 51.0,
+            "change": 0.6667,
+            "pct_change": 1.32
           }
         },
         "cost_of_living": {
           "latest_value": 5.6962,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.7536,
+          "3month_average": 5.7643,
           "yoy_change": {
             "current": 5.6962,
-            "change": -0.0284,
-            "pct_change": -0.5
+            "change": -0.0938,
+            "pct_change": -1.62
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -9811,69 +9825,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 231.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 232.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE40060",
           "metric_name": "Price per Sqft",
-          "3month_average": 229.0,
-          "12month_average": 226.75,
+          "3month_average": 231.0,
+          "12month_average": 227.0,
           "yoy_change": {
-            "current": 231.0,
-            "change": 5.0,
-            "pct_change": 2.21
+            "current": 232.0,
+            "change": 3.0,
+            "pct_change": 1.31
           },
           "3month_avg_yoy": {
-            "current_3mo": 229.0,
-            "change": 4.0,
-            "pct_change": 1.78
+            "current_3mo": 231.0,
+            "change": 4.3333,
+            "pct_change": 1.91
           }
         },
         "housing_price": {
-          "latest_value": 429900.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 441625.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI40060",
           "metric_name": "Median Housing Price",
-          "3month_average": 428336.0,
-          "12month_average": 439131.5833333333,
+          "3month_average": 433554.6666666667,
+          "12month_average": 438858.6666666667,
           "yoy_change": {
-            "current": 429900.0,
-            "change": 247.0,
-            "pct_change": 0.06
+            "current": 441625.0,
+            "change": -3275.0,
+            "pct_change": -0.74
           },
           "3month_avg_yoy": {
-            "current_3mo": 428336.0,
-            "change": 4726.6667,
-            "pct_change": 1.12
+            "current_3mo": 433554.6667,
+            "change": 1628.6667,
+            "pct_change": 0.38
           }
         },
         "median_days_on_market": {
-          "latest_value": 48.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 39.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR40060",
           "metric_name": "Median Days on Market",
-          "3month_average": 55.333333333333336,
-          "12month_average": 46.166666666666664,
+          "3month_average": 48.666666666666664,
+          "12month_average": 45.75,
           "yoy_change": {
-            "current": 48.0,
-            "change": -1.0,
-            "pct_change": -2.04
+            "current": 39.0,
+            "change": -5.0,
+            "pct_change": -11.36
           },
           "3month_avg_yoy": {
-            "current_3mo": 55.3333,
-            "change": 2.3333,
-            "pct_change": 4.4
+            "current_3mo": 48.6667,
+            "change": -1.0,
+            "pct_change": -2.01
           }
         },
         "cost_of_living": {
-          "latest_value": 6.3883,
-          "latest_date": "2026-02-01",
+          "latest_value": 6.4159,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.3306,
+          "3month_average": 6.3859,
           "yoy_change": {
-            "current": 6.3883,
-            "change": -0.1815,
-            "pct_change": -2.76
+            "current": 6.4159,
+            "change": -0.241,
+            "pct_change": -3.62
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -10036,69 +10050,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 153.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 154.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE32820",
           "metric_name": "Price per Sqft",
           "3month_average": 153.33333333333334,
-          "12month_average": 159.83333333333334,
+          "12month_average": 159.0,
           "yoy_change": {
-            "current": 153.0,
-            "change": -11.0,
-            "pct_change": -6.71
+            "current": 154.0,
+            "change": -10.0,
+            "pct_change": -6.1
           },
           "3month_avg_yoy": {
             "current_3mo": 153.3333,
-            "change": -9.0,
-            "pct_change": -5.54
+            "change": -10.0,
+            "pct_change": -6.12
           }
         },
         "housing_price": {
           "latest_value": 299450.0,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI32820",
           "metric_name": "Median Housing Price",
-          "3month_average": 304766.6666666667,
-          "12month_average": 327938.75,
+          "3month_average": 299600.0,
+          "12month_average": 325059.5833333333,
           "yoy_change": {
             "current": 299450.0,
-            "change": -28600.0,
-            "pct_change": -8.72
+            "change": -34550.0,
+            "pct_change": -10.34
           },
           "3month_avg_yoy": {
-            "current_3mo": 304766.6667,
-            "change": -24383.3333,
-            "pct_change": -7.41
+            "current_3mo": 299600.0,
+            "change": -30916.6667,
+            "pct_change": -9.35
           }
         },
         "median_days_on_market": {
-          "latest_value": 79.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 62.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR32820",
           "metric_name": "Median Days on Market",
-          "3month_average": 79.33333333333333,
-          "12month_average": 66.41666666666667,
+          "3month_average": 74.0,
+          "12month_average": 66.75,
           "yoy_change": {
-            "current": 79.0,
-            "change": 8.0,
-            "pct_change": 11.27
+            "current": 62.0,
+            "change": 4.0,
+            "pct_change": 6.9
           },
           "3month_avg_yoy": {
-            "current_3mo": 79.3333,
-            "change": 5.6667,
-            "pct_change": 7.69
+            "current_3mo": 74.0,
+            "change": 5.3333,
+            "pct_change": 7.77
           }
         },
         "cost_of_living": {
-          "latest_value": 4.7457,
-          "latest_date": "2026-02-01",
+          "latest_value": 4.7767,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 4.7467,
           "yoy_change": {
-            "current": 4.7457,
-            "change": -0.6544,
-            "pct_change": -12.12
+            "current": 4.7767,
+            "change": -0.6234,
+            "pct_change": -11.54
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -10261,69 +10275,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 259.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 263.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE41620",
           "metric_name": "Price per Sqft",
-          "3month_average": 259.3333333333333,
-          "12month_average": 261.5,
+          "3month_average": 260.6666666666667,
+          "12month_average": 261.3333333333333,
           "yoy_change": {
-            "current": 259.0,
-            "change": -6.0,
-            "pct_change": -2.26
+            "current": 263.0,
+            "change": -2.0,
+            "pct_change": -0.75
           },
           "3month_avg_yoy": {
-            "current_3mo": 259.3333,
-            "change": -5.0,
-            "pct_change": -1.89
+            "current_3mo": 260.6667,
+            "change": -4.0,
+            "pct_change": -1.51
           }
         },
         "housing_price": {
           "latest_value": 550000.0,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI41620",
           "metric_name": "Median Housing Price",
-          "3month_average": 552500.0,
-          "12month_average": 574322.75,
+          "3month_average": 550000.0,
+          "12month_average": 573031.0833333334,
           "yoy_change": {
             "current": 550000.0,
-            "change": -14900.0,
-            "pct_change": -2.64
+            "change": -15500.0,
+            "pct_change": -2.74
           },
           "3month_avg_yoy": {
-            "current_3mo": 552500.0,
-            "change": -15615.0,
-            "pct_change": -2.75
+            "current_3mo": 550000.0,
+            "change": -15965.0,
+            "pct_change": -2.82
           }
         },
         "median_days_on_market": {
-          "latest_value": 49.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 45.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR41620",
           "metric_name": "Median Days on Market",
-          "3month_average": 65.33333333333333,
+          "3month_average": 56.333333333333336,
           "12month_average": 55.583333333333336,
           "yoy_change": {
-            "current": 49.0,
-            "change": -9.0,
-            "pct_change": -15.52
+            "current": 45.0,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 65.3333,
-            "change": 2.0,
-            "pct_change": 3.16
+            "current_3mo": 56.3333,
+            "change": -0.3333,
+            "pct_change": -0.59
           }
         },
         "cost_of_living": {
-          "latest_value": 6.8104,
-          "latest_date": "2026-02-01",
+          "latest_value": 6.9156,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.8025,
+          "3month_average": 6.8375,
           "yoy_change": {
-            "current": 6.8104,
-            "change": -0.377,
-            "pct_change": -5.25
+            "current": 6.9156,
+            "change": -0.2718,
+            "pct_change": -3.78
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -10347,22 +10361,8 @@
       "metro_name": "Birmingham",
       "primary_city": "Birmingham",
       "civilian_population": 955062,
-      "metrics_processed": 13,
+      "metrics_processed": 12,
       "data": {
-        "unemployment_rate": {
-          "latest_value": 2.2,
-          "latest_date": "2025-12-01",
-          "series_id": "BIRM801URN",
-          "metric_name": "Unemployment Rate",
-          "3month_average": null,
-          "12month_average": 2.7545454545454544,
-          "yoy_change": {
-            "current": 2.2,
-            "change": -0.8,
-            "pct_change": -26.67
-          },
-          "3month_avg_yoy": null
-        },
         "civilian_labor_force": {
           "latest_value": 60.5604,
           "latest_date": "2025-12-01",
@@ -10486,69 +10486,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 157.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 160.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE13820",
           "metric_name": "Price per Sqft",
-          "3month_average": 156.33333333333334,
-          "12month_average": 159.0,
+          "3month_average": 157.66666666666666,
+          "12month_average": 159.16666666666666,
           "yoy_change": {
-            "current": 157.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 160.0,
+            "change": 2.0,
+            "pct_change": 1.27
           },
           "3month_avg_yoy": {
-            "current_3mo": 156.3333,
-            "change": -0.3333,
-            "pct_change": -0.21
+            "current_3mo": 157.6667,
+            "change": 0.3333,
+            "pct_change": 0.21
           }
         },
         "housing_price": {
-          "latest_value": 289000.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 295763.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI13820",
           "metric_name": "Median Housing Price",
-          "3month_average": 289379.3333333333,
-          "12month_average": 297578.1666666667,
+          "3month_average": 291412.6666666667,
+          "12month_average": 298475.0833333333,
           "yoy_change": {
-            "current": 289000.0,
-            "change": 4000.0,
-            "pct_change": 1.4
+            "current": 295763.0,
+            "change": 10763.0,
+            "pct_change": 3.78
           },
           "3month_avg_yoy": {
-            "current_3mo": 289379.3333,
-            "change": 3421.0,
-            "pct_change": 1.2
+            "current_3mo": 291412.6667,
+            "change": 6437.6667,
+            "pct_change": 2.26
           }
         },
         "median_days_on_market": {
-          "latest_value": 70.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 56.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR13820",
           "metric_name": "Median Days on Market",
-          "3month_average": 73.66666666666667,
-          "12month_average": 60.583333333333336,
+          "3month_average": 68.0,
+          "12month_average": 60.75,
           "yoy_change": {
-            "current": 70.0,
-            "change": -1.0,
-            "pct_change": -1.41
+            "current": 56.0,
+            "change": 2.0,
+            "pct_change": 3.7
           },
           "3month_avg_yoy": {
-            "current_3mo": 73.6667,
-            "change": 1.6667,
-            "pct_change": 2.31
+            "current_3mo": 68.0,
+            "change": 1.3333,
+            "pct_change": 2.0
           }
         },
         "cost_of_living": {
-          "latest_value": 4.7633,
-          "latest_date": "2026-02-01",
+          "latest_value": 4.8544,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 4.7672,
+          "3month_average": 4.8079,
           "yoy_change": {
-            "current": 4.7633,
-            "change": 0.0058,
-            "pct_change": 0.12
+            "current": 4.8544,
+            "change": 0.0665,
+            "pct_change": 1.39
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -10711,69 +10711,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 260.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 261.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE23420",
           "metric_name": "Price per Sqft",
-          "3month_average": 259.3333333333333,
-          "12month_average": 261.3333333333333,
+          "3month_average": 260.0,
+          "12month_average": 261.1666666666667,
           "yoy_change": {
-            "current": 260.0,
-            "change": -3.0,
-            "pct_change": -1.14
+            "current": 261.0,
+            "change": -2.0,
+            "pct_change": -0.76
           },
           "3month_avg_yoy": {
-            "current_3mo": 259.3333,
-            "change": -3.0,
-            "pct_change": -1.14
+            "current_3mo": 260.0,
+            "change": -2.6667,
+            "pct_change": -1.02
           }
         },
         "housing_price": {
-          "latest_value": 456990.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 462000.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI23420",
           "metric_name": "Median Housing Price",
-          "3month_average": 459830.0,
-          "12month_average": 467709.9166666667,
+          "3month_average": 459663.3333333333,
+          "12month_average": 466209.9166666667,
           "yoy_change": {
-            "current": 456990.0,
-            "change": -18010.0,
-            "pct_change": -3.79
+            "current": 462000.0,
+            "change": -18000.0,
+            "pct_change": -3.75
           },
           "3month_avg_yoy": {
-            "current_3mo": 459830.0,
-            "change": -15998.3333,
-            "pct_change": -3.36
+            "current_3mo": 459663.3333,
+            "change": -17003.3333,
+            "pct_change": -3.57
           }
         },
         "median_days_on_market": {
-          "latest_value": 53.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 51.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR23420",
           "metric_name": "Median Days on Market",
-          "3month_average": 62.666666666666664,
-          "12month_average": 55.666666666666664,
+          "3month_average": 56.666666666666664,
+          "12month_average": 56.083333333333336,
           "yoy_change": {
-            "current": 53.0,
+            "current": 51.0,
             "change": 5.0,
-            "pct_change": 10.42
+            "pct_change": 10.87
           },
           "3month_avg_yoy": {
-            "current_3mo": 62.6667,
-            "change": 4.3333,
-            "pct_change": 7.43
+            "current_3mo": 56.6667,
+            "change": 4.0,
+            "pct_change": 7.59
           }
         },
         "cost_of_living": {
-          "latest_value": 7.7473,
-          "latest_date": "2026-02-01",
+          "latest_value": 7.7771,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 7.8443,
+          "3month_average": 7.8645,
           "yoy_change": {
-            "current": 7.7473,
-            "change": -0.6849,
-            "pct_change": -8.12
+            "current": 7.7771,
+            "change": -0.6551,
+            "pct_change": -7.77
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -10937,68 +10937,68 @@
         },
         "price_per_sqft": {
           "latest_value": 221.0,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE24340",
           "metric_name": "Price per Sqft",
-          "3month_average": 218.0,
-          "12month_average": 211.33333333333334,
+          "3month_average": 220.33333333333334,
+          "12month_average": 212.58333333333334,
           "yoy_change": {
             "current": 221.0,
-            "change": 16.0,
-            "pct_change": 7.8
+            "change": 15.0,
+            "pct_change": 7.28
           },
           "3month_avg_yoy": {
-            "current_3mo": 218.0,
-            "change": 16.3333,
-            "pct_change": 8.1
+            "current_3mo": 220.3333,
+            "change": 16.6667,
+            "pct_change": 8.18
           }
         },
         "housing_price": {
-          "latest_value": 399900.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 404900.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI24340",
           "metric_name": "Median Housing Price",
-          "3month_average": 398633.3333333333,
-          "12month_average": 401479.1666666667,
+          "3month_average": 401266.6666666667,
+          "12month_average": 403137.5,
           "yoy_change": {
-            "current": 399900.0,
-            "change": 15175.0,
-            "pct_change": 3.94
+            "current": 404900.0,
+            "change": 19900.0,
+            "pct_change": 5.17
           },
           "3month_avg_yoy": {
-            "current_3mo": 398633.3333,
-            "change": 20558.3333,
-            "pct_change": 5.44
+            "current_3mo": 401266.6667,
+            "change": 19858.3333,
+            "pct_change": 5.21
           }
         },
         "median_days_on_market": {
-          "latest_value": 64.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 44.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR24340",
           "metric_name": "Median Days on Market",
-          "3month_average": 62.666666666666664,
-          "12month_average": 43.833333333333336,
+          "3month_average": 58.666666666666664,
+          "12month_average": 44.333333333333336,
           "yoy_change": {
-            "current": 64.0,
-            "change": 8.0,
-            "pct_change": 14.29
+            "current": 44.0,
+            "change": 6.0,
+            "pct_change": 15.79
           },
           "3month_avg_yoy": {
-            "current_3mo": 62.6667,
-            "change": 3.6667,
-            "pct_change": 6.21
+            "current_3mo": 58.6667,
+            "change": 5.6667,
+            "pct_change": 10.69
           }
         },
         "cost_of_living": {
           "latest_value": 6.7132,
-          "latest_date": "2026-02-01",
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.6707,
+          "3month_average": 6.7421,
           "yoy_change": {
             "current": 6.7132,
-            "change": 0.2909,
-            "pct_change": 4.53
+            "change": 0.2596,
+            "pct_change": 4.02
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -11169,69 +11169,69 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 250.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 252.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRIPERSQUFEE25540",
           "metric_name": "Price per Sqft",
-          "3month_average": 247.0,
-          "12month_average": 248.08333333333334,
+          "3month_average": 249.33333333333334,
+          "12month_average": 247.75,
           "yoy_change": {
-            "current": 250.0,
-            "change": -3.0,
-            "pct_change": -1.19
+            "current": 252.0,
+            "change": -4.0,
+            "pct_change": -1.56
           },
           "3month_avg_yoy": {
-            "current_3mo": 247.0,
-            "change": -2.3333,
-            "pct_change": -0.94
+            "current_3mo": 249.3333,
+            "change": -3.3333,
+            "pct_change": -1.32
           }
         },
         "housing_price": {
-          "latest_value": 444950.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 454950.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDLISPRI25540",
           "metric_name": "Median Housing Price",
-          "3month_average": 430775.0,
-          "12month_average": 445050.0,
+          "3month_average": 441600.0,
+          "12month_average": 445470.8333333333,
           "yoy_change": {
-            "current": 444950.0,
-            "change": 11250.0,
-            "pct_change": 2.59
+            "current": 454950.0,
+            "change": 5050.0,
+            "pct_change": 1.12
           },
           "3month_avg_yoy": {
-            "current_3mo": 430775.0,
-            "change": 11766.6667,
-            "pct_change": 2.81
+            "current_3mo": 441600.0,
+            "change": 10941.6667,
+            "pct_change": 2.54
           }
         },
         "median_days_on_market": {
-          "latest_value": 46.0,
-          "latest_date": "2026-02-01",
+          "latest_value": 39.0,
+          "latest_date": "2026-03-01",
           "series_id": "MEDDAYONMAR25540",
           "metric_name": "Median Days on Market",
-          "3month_average": 50.333333333333336,
-          "12month_average": 37.666666666666664,
+          "3month_average": 46.333333333333336,
+          "12month_average": 38.416666666666664,
           "yoy_change": {
-            "current": 46.0,
-            "change": 8.0,
-            "pct_change": 21.05
+            "current": 39.0,
+            "change": 9.0,
+            "pct_change": 30.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 50.3333,
-            "change": 4.0,
-            "pct_change": 8.63
+            "current_3mo": 46.3333,
+            "change": 6.6667,
+            "pct_change": 16.81
           }
         },
         "cost_of_living": {
-          "latest_value": 6.4317,
-          "latest_date": "2026-02-01",
+          "latest_value": 6.4831,
+          "latest_date": "2026-03-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.3769,
+          "3month_average": 6.4372,
           "yoy_change": {
-            "current": 6.4317,
-            "change": -0.0538,
-            "pct_change": -0.83
+            "current": 6.4831,
+            "change": -0.0793,
+            "pct_change": -1.21
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },

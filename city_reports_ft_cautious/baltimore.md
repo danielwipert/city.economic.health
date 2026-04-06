@@ -1,11 +1,11 @@
 # Baltimore-Columbia-Towson
 
-**Grade: C+ (Poor) | 38.5th percentile | April 2026**
+**Grade: C+ (Poor) | 39.0th percentile | April 2026**
 
 ---
 
-Baltimore's economy earns a C+ grade, driven by sluggish wage increases and below-average job growth, with nonfarm employment growth declining 0.14% year-over-year and wage growth at a modest 1.22% year-over-year. This slow pace of economic expansion is further exacerbated by a decline in building permits, down 11.14% year-over-year, indicating a potential tightening of the housing supply.
+Baltimore's economic growth is stagnant, with a nonfarm employment growth rate of -0.14% year-over-year, and below-average wage growth of +1.22% year-over-year, indicating a decelerating job market. This slow pace of economic expansion is also reflected in the city's housing market, where days on market have increased by 27.6% year-over-year, resulting in an average of 37 days on market, signaling a slowing market.
 
-The housing market is characterized by a moderate buyer's market, with days on market increasing 9.8% year-over-year to an average of 45 days. However, this slowdown may be a sign of demand erosion, rather than a healthy normalization, given the weak employment growth and declining building permits. The presence of an above-average professional workforce, ranking in the 63rd percentile, is a mild positive, but it may not be enough to offset the broader economic concerns.
+The city's cost of living composite score of 3.21, indicating an above-average cost of living, adds to the complexity of the narrative. Baltimore boasts an above-average share of office and professional workers, ranking in the 63rd percentile, but this positive aspect is tempered by the city's struggling job market and softening housing demand. The decline in building permits by 11.14% year-over-year further suggests that the city's housing supply is not responding to the slowing demand, potentially leading to a tightening of the market and increased affordability concerns.
 
-Baltimore offers a business a relatively stable, albeit slow-growing, economy with a moderate cost of living, but the primary risk is the potential for demand erosion and a tightening housing supply. Decision-makers should be cautious of the city's below-average job growth and declining building permits, which may signal a weakening economic environment.
+In summary, Baltimore's sluggish economic growth and softening demand pose significant risks, making it challenging to attract and retain talent. While the city offers a relatively low-cost labor environment, businesses must consider the potential for demand erosion, which could undermine the city's economic stability.

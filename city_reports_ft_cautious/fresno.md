@@ -1,11 +1,11 @@
 # Fresno
 
-**Grade: C+ (Poor) | 39.7th percentile | April 2026**
+**Grade: C+ (Poor) | 39.4th percentile | April 2026**
 
 ---
 
-Fresno's economy is characterized by severe labor market weakness, with an 8.20% unemployment rate and a 60.33% labor force participation rate, resulting in near-stagnant job growth of 0.22% year-over-year.
+Fresno's economy is marked by a dismal 8.20% unemployment rate and a lackluster 0.22% annual growth in nonfarm employment, indicating a stagnant job market. Despite this, hourly earnings have increased by 7.60% year-over-year, a top-tier metric suggesting a shift towards higher-paying jobs.
 
-The city's housing market is expanding, with building permits increasing by 61.97% year-over-year, but this growth is not translating to a faster pace of sales, with homes taking 10.4% longer to sell, averaging 53 days. The low concentration of professional and office workers, ranking in the 4th percentile, further constrains the city's appeal for knowledge-economy businesses.
+Fresno's low office and professional worker share, ranking in the 4th percentile, poses a significant constraint for knowledge-economy businesses. The city's aggressive building permit growth, up 61.97% year-over-year, could help alleviate affordability pressures, but the increasing days on market, currently at 51 days and rising 10.9% year-over-year, suggest a slowing market and potential demand erosion.
 
-Fresno's labor market weaknesses and slowing housing market pose significant risks for businesses considering relocation, outweighing the city's relatively affordable cost of living and expanding housing supply. The city's structural labor market challenges make it a less attractive location for businesses dependent on a strong and skilled workforce.
+Fresno's business landscape is characterized by a relatively affordable cost of living and rapidly expanding housing supply, but its severe labor market challenges and low professional worker concentration pose significant risks. The primary caveat for businesses considering relocation to Fresno is the city's stagnant job market, which may limit the availability of skilled workers and hinder long-term growth prospects.

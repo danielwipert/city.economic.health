@@ -1,11 +1,11 @@
 # Sacramento-Roseville-Folsom
 
-**Grade: D (Emergency) | 22.1th percentile | April 2026**
+**Grade: D (Emergency) | 21.1th percentile | April 2026**
 
 ---
 
-Sacramento-Roseville-Folsom metro area earns a dismal D grade, ranking 22nd out of 50 US metros, driven by severe labor market weakness. The city's unemployment rate stands at 4.80%, with a critically low labor force participation rate of 60.12%. This paints a picture of a struggling labor market, posing significant risks to consumer spending and business growth.
+Sacramento-Roseville-Folsom metro area earns a disappointing D grade, ranking 21st percentile out of 50 US metros, driven primarily by severe labor market weakness. With an unemployment rate of 4.80% and a labor force participation rate of 60.12%, the area's economic momentum is stalled.
 
-The data reveals tensions between different metrics. While the cost of living composite is 3.72, indicating a below-average cost of living, the low concentration of professional and office workers, ranking in the 0th percentile, poses a significant constraint for knowledge-economy businesses. The housing market is also showing signs of slowing, with days on market increasing by 5.1% year-over-year to an average of 41 days, indicating softening demand.
+The housing market is also struggling, with building permits declining at a rate of -15.51% year-over-year and days on market increasing by +8.3% year-over-year, indicating a slowing demand for housing. The low office and professional worker share, ranking in the 0th percentile, poses a significant constraint for knowledge-economy businesses.
 
-The bottom line is that Sacramento offers a low-cost environment, but this is outweighed by significant labor market and workforce constraints. The primary risk for businesses considering relocation to this city is the potential for weak economic growth and limited access to skilled workers, hindering their ability to expand and thrive.
+The area's relatively affordable cost of living, at 4.08, is overshadowed by significant labor market and housing market risks. Businesses considering this location should be aware of the potential for weak consumer spending and limited access to skilled workers, which could hinder growth and expansion efforts.
