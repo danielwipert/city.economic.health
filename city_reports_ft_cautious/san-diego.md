@@ -4,7 +4,7 @@
 
 ---
 
-San Diego's sluggish labor market and high cost of living define its economic character, with a 4.40% unemployment rate and 62.01% labor force participation, indicating a shallow and stagnant labor pool. The city's nonfarm employment growth is a mere 0.35% year-over-year, reflecting economic deceleration.
+San Diego's sluggish labor market and high cost of living define its economic character, with a 4.40% unemployment rate and 62.01% labor force participation rate, indicating a shallow and stagnant labor pool. The city's nonfarm employment growth is a mere 0.35% year-over-year, reflecting economic deceleration.
 
 The housing market is marked by a 5.6% year-over-year increase in days on market to an average of 38 days, indicating a slowing pace that may signal softening demand. San Diego's low office and professional worker share, ranking in the 18th percentile, is a concern for knowledge-economy businesses.
 

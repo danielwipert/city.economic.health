@@ -1642,24 +1642,6 @@
             "pct_change": 0.38
           }
         },
-        "office_workers": {
-          "latest_value": 508.295,
-          "latest_date": "2025-12-01",
-          "series_id": "PHIL942PBSV",
-          "metric_name": "Office Workers",
-          "3month_average": 507.96996402776534,
-          "12month_average": 504.12285527128165,
-          "yoy_change": {
-            "current": 508.295,
-            "change": 10.6143,
-            "pct_change": 2.13
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 507.97,
-            "change": 12.1908,
-            "pct_change": 2.46
-          }
-        },
         "building_permits": {
           "latest_value": 1136.0,
           "latest_date": "2026-01-01",
@@ -1726,19 +1708,6 @@
             "pct_change": -1.74
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
-        },
-        "office_worker_ratio": {
-          "latest_value": 9.836,
-          "latest_date": "2025-12-01",
-          "series_id": "PHIL942PBSV",
-          "metric_name": "Office Worker Ratio",
-          "3month_average": 9.8297,
-          "yoy_change": {
-            "current": 9.836,
-            "change": 0.2054,
-            "pct_change": 2.13
-          },
-          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
@@ -8717,20 +8686,6 @@
       "civilian_population": 955062,
       "metrics_processed": 11,
       "data": {
-        "unemployment_rate": {
-          "latest_value": 2.2,
-          "latest_date": "2025-12-01",
-          "series_id": "BIRM801URN",
-          "metric_name": "Unemployment Rate",
-          "3month_average": null,
-          "12month_average": 2.7545454545454544,
-          "yoy_change": {
-            "current": 2.2,
-            "change": -0.8,
-            "pct_change": -26.67
-          },
-          "3month_avg_yoy": null
-        },
         "civilian_labor_force": {
           "latest_value": 60.5604,
           "latest_date": "2025-12-01",

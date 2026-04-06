@@ -167,7 +167,7 @@
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Poor",
-        "percentile": 38.8
+        "percentile": 39.0
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -1592,7 +1592,7 @@
         "204A": 82.0
       },
       "scores_100": {
-        "101A": 96,
+        "101A": 98,
         "102A": 76,
         "103B": 72,
         "104C": 27,
@@ -1620,7 +1620,7 @@
         "102A_lfp": 58.01,
         "103B_earnings_yoy": -1.79,
         "104C_col": 5.0,
-        "105C_owr": 3.02,
+        "105C_owr": 3.08,
         "107E_ldc_composite": 5.27,
         "107E_employment_growth_yoy": 0.57,
         "107E_wh_trend_deviation_pct": 0.168,
@@ -1640,7 +1640,7 @@
         "204A": 52.0
       },
       "scores_100": {
-        "101A": 76,
+        "101A": 78,
         "102A": 2,
         "103B": 0,
         "104C": 16,
@@ -1688,7 +1688,7 @@
         "204A": 74.0
       },
       "scores_100": {
-        "101A": 90,
+        "101A": 92,
         "102A": 98,
         "103B": 30,
         "104C": 39,
@@ -1705,7 +1705,7 @@
         "description": "Very Good",
         "percentile": 67.9
       },
-      "grade_display": "\u2705 A"
+      "grade_display": "\ud83d\ude80 A+"
     },
     {
       "metro_name": "San Jose-Sunnyvale-Santa Clara",
@@ -1841,13 +1841,13 @@
         "200B": 8,
         "204A": 28
       },
-      "weighted_percentile": 44.8,
-      "weighted_score": 45,
+      "weighted_percentile": 48.5,
+      "weighted_score": 49,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 44.8
+        "percentile": 48.5
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -2408,7 +2408,7 @@
         "204A": 96.0
       },
       "scores_100": {
-        "101A": 94,
+        "101A": 96,
         "102A": 58,
         "103B": 6,
         "104C": 33,
