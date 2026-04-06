@@ -1,11 +1,11 @@
 # Riverside-San Bernardino-Ontario
 
-**Grade: C (Very Poor) | 36.4th percentile | April 2026**
+**Grade: C (Very Poor) | 35.0th percentile | April 2026**
 
 ---
 
-Riverside-San Bernardino-Ontario metro area earns a C grade, ranking 36.4th out of 50 US metros, driven by severe labor market weakness. Unemployment rates stand at 5.10%, and labor force participation is critically low at 60.37%. This landscape poses significant risks to consumer spending and business growth.
+Riverside-San Bernardino-Ontario metro area earns a C grade, ranking 35th among 50 US metros, with a struggling labor market and stagnant job creation. Unemployment rates at 5.10% and labor force participation at 60.37% are both bottom-tier metrics, indicating severe weakness.
 
-Wage growth, however, tells a different story, with hourly earnings rising by +7.54% YoY, placing it in the top tier. This disconnect between strong wage growth and stagnant employment raises questions about the underlying drivers of wage increases, potentially due to a mix shift towards higher-paying industries. The low concentration of office and professional workers, ranking 16th percentile, poses a significant constraint for knowledge-economy businesses.
+Despite these challenges, wage growth has been remarkably strong, with hourly earnings rising by 7.54% year-over-year, a top-tier metric. This suggests that certain sectors or industries may be experiencing growth and driving up wages. The office and professional worker share ranks 16th percentile, limiting the appeal for knowledge-economy businesses.
 
-The city's above-average building permit growth of +18.04% YoY offers a mild positive note, suggesting some efforts to address housing supply. However, this is not enough to offset the labor market concerns. Riverside presents a high-risk, potentially high-reward environment for businesses, with strong wage growth but significant labor market challenges. Decision-makers must carefully weigh these factors before making a location decision.
+The bottom line is that Riverside-San Bernardino-Ontario offers a low-cost labor market with rising wages, but the primary risk is the weak labor market and limited workforce availability. Businesses considering relocation must weigh the potential benefits of lower labor costs against the challenges of attracting and retaining skilled workers.

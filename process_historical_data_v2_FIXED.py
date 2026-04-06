@@ -1,23 +1,23 @@
 #!/usr/bin/env python3
 """
-Process Historical Economic Data - V2 (11 Metrics)
+Process Historical Economic Data - V2 (9 Metrics)
 ==================================================
 Processes 15 observations per metric and calculates:
 
-EMPLOYMENT METRICS (65% weight):
+EMPLOYMENT METRICS (85% weight):
 - 101A: Unemployment Rate (MSA Average)
-- 102A: Labor Force Participation Rate (MSA Average) 
+- 102A: Labor Force Participation Rate (MSA Average)
 - 103B: Hourly Earnings (Year over Year)
 - 104C: Cost of Living (MSA Average) - CALCULATED: Price/Sqft ÷ Hourly Earnings
 - 105C: Office Worker Ratio (MSA Average) - CALCULATED: Office Workers ÷ Civilian Pop
-- 106D: Weekly Hours (National Average comparison)
+- 107E: Labor Demand Composite - CALCULATED: Employment growth + Weekly Hours deviation
 
-HOUSING METRICS (35% weight):
+HOUSING METRICS (15% weight):
 - 200B: Building Permits (3-Month Year over Year)
-- 201: Home Price Index Growth (Year over Year)
-- 202: Price per Sqft Growth (3-Month Year over Year)
-- 203: Housing Price Growth (3-Month Year over Year) - COLLECT ONLY (weight=0)
 - 204A: Median Days on Market (MSA Average)
+
+Core housing price series: price_per_sqft (used in 104C COL ratio)
+Dropped: home_price_index, housing_price (redundant given PSF/earnings composite)
 
 Input: economic_data_combined.json (from pull_economic_data_unified_FIXED.py)
 Output: processed_economic_data_v2.json
@@ -33,7 +33,7 @@ SCRIPT_DIR = Path(__file__).parent
 
 
 class HistoricalDataProcessor:
-    """Process raw FRED observations into 11-metric scorecard"""
+    """Process raw FRED observations into 9-metric scorecard"""
     
     def __init__(self):
         self.raw_data = None
@@ -417,7 +417,7 @@ class HistoricalDataProcessor:
         metrics_to_average = [
             'unemployment_rate', 'civilian_labor_force', 'hourly_earnings',
             'cost_of_living', 'office_worker_ratio', 'building_permits',
-            'home_price_index', 'price_per_sqft', 'housing_price', 'median_days_on_market'
+            'price_per_sqft', 'median_days_on_market'
         ]
         
         for metric in metrics_to_average:
@@ -443,9 +443,9 @@ class HistoricalDataProcessor:
             'processing_timestamp': datetime.now().isoformat(),
             'processing_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
             'version': 2,
-            'metrics_count': 11,
-            'metrics_scored': 10,
-            'metrics_collected_only': 1,
+            'metrics_count': 9,
+            'metrics_scored': 9,
+            'metrics_collected_only': 0,
             'source_data': self.raw_data.get('collection_date'),
             'msa_averages': self.national_metrics,
             'metros': self.processed_data,

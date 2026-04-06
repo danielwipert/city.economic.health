@@ -1,11 +1,11 @@
 # Charlotte-Concord-Gastonia
 
-**Grade: B- (Below Average) | 48.3th percentile | April 2026**
+**Grade: B (Average) | 51.9th percentile | April 2026**
 
 ---
 
-Charlotte's top-tier 2.69% year-over-year nonfarm employment growth defines its economic character, with a 94th percentile ranking for office and professional worker share, indicating a deep professional talent pool. However, this growth is not without its challenges, as stagnant wage growth, with a 1.52% year-over-year decline in hourly earnings, places it in the bottom tier.
+Charlotte's economy is characterized by rapid job creation, with nonfarm employment growth reaching 2.69% year-over-year, placing it in the top tier. This momentum is supported by a deep professional talent pool, as evidenced by its 94th percentile ranking for office and professional worker share.
 
-The city's housing market is characterized by a sharp 39.50% year-over-year decline in building permits, accompanied by a 23.2% increase in days on market to an average of 69 days. This suggests a slowing market, with the cost of living score of 3.62, while below average, potentially losing its competitive advantage if the housing supply continues to tighten.
+However, this growth is not without its challenges, as wage growth has been stagnant, with hourly earnings declining by 1.52% year-over-year, a bottom-tier performance. The city's housing market is also experiencing a slowdown, with building permits declining sharply by 39.50% year-over-year, and days on market increasing by 13.9% year-over-year, with homes now taking an average of 49 days to sell.
 
-Charlotte offers businesses a talented workforce and growing economy, but the primary risk lies in its rapidly tightening housing market. As the city's employment growth outpaces its housing supply, businesses may face challenges in attracting and retaining talent due to rising housing costs and decreased affordability.
+Overall, Charlotte offers businesses a talented workforce and a growing economy, but the primary risk is a potential housing supply squeeze and its impact on affordability and workforce attraction. As the city's economy continues to expand, businesses will need to carefully consider the implications of a tightening labor market and rising costs of living on their operations and talent recruitment strategies.

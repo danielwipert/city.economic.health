@@ -1,11 +1,13 @@
 # Minneapolis-St. Paul-Bloomington
 
-**Grade: C+ (Poor) | 43.5th percentile | April 2026**
+**Grade: B- (Below Average) | 44.1th percentile | April 2026**
 
 ---
 
-Minneapolis-St. Paul-Bloomington metro area earns a C+ grade, ranking 43.5th out of 50 US metros, driven by a combination of labor market factors, including a top-tier labor force participation rate of 69.03% and a below-average unemployment rate of 4.00%. However, wage growth has been stagnant, with hourly earnings increasing by only 0.03% year-over-year, a bottom-tier performance that signals weakened consumer spending power.
+Minneapolis-St. Paul-Bloomington Metro Area Earns a B- Grade, with Labor Force Participation Rate of 69.03% and Stagnant Real Wages.
 
-The strong labor force engagement is not matched by the housing market, where building permits have declined by 12.25% year-over-year, indicating a potential supply squeeze. Homes are selling in fewer days than last year, with an average of 40 days on market, suggesting a thin-supply illusion rather than genuine demand strength. The stagnant wage growth exacerbates this concern, limiting the ability of workers to afford homes in a tightening market.
+The Minneapolis-St. Paul-Bloomong area's economic landscape is marked by a labor force participation rate of 69.03%, indicating a deep and engaged labor pool. However, this advantage is tempered by a wage growth rate of +0.03% YoY, suggesting stagnant real wages. The area's unemployment rate of 4.00% also raises concerns about labor market slack, which could facilitate easier hiring but potentially weaken local consumer demand.
 
-Minneapolis offers a strong labor pool with high workforce engagement, but the primary risk lies in stagnant wage growth and potential housing supply constraints. As a business location, Minneapolis provides a strong talent pipeline, but decision-makers must carefully consider the potential affordability and housing challenges that may impact employee attraction and retention.
+The area's housing market is slowing, with days on market increasing by 9.1% YoY to an average of 36 days, and a decline in building permits of -12.25% YoY, suggesting that housing supply may not be keeping pace with demand, potentially leading to affordability risks in the future.
+
+Minneapolis-St. Paul-Bloomington offers businesses a deep and engaged labor pool, but the primary risk lies in the potential for demand erosion due to stagnant wages and slowing housing market activity. As a result, companies should carefully consider the local consumer demand landscape and potential affordability risks when evaluating this metro area as a business location.

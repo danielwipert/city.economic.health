@@ -1,11 +1,11 @@
 # Boston-Cambridge-Newton
 
-**Grade: B- (Below Average) | 48.4th percentile | April 2026**
+**Grade: B- (Below Average) | 46.7th percentile | April 2026**
 
 ---
 
-Boston's economy, graded a B-, is driven by a strong workforce engagement, with a labor force participation rate of 68.47%, and above-average job growth of 0.73% year-over-year, indicating a healthy expansion. However, the city's high cost of living, with a composite score of 5.47, poses a significant constraint on talent acquisition and real consumer spending power.
+Boston's economy earns a B- grade, ranking 46.7th out of 50 US metros, with a labor force participation rate of 68.47%, a top-tier strength indicating a deep and engaged labor pool. However, this is offset by a cost of living composite score of 5.25, making it one of the most expensive metros.
 
-The housing market is slowing, with homes taking 42 days to sell on average, and a year-over-year increase of 27.3% in days on market, indicating a potential demand erosion. Sluggish wage growth of 1.42% year-over-year further supports this narrative, implying weak worker bargaining power or softening demand. The above-average professional workforce, with a score of 78th percentile, is a mild positive, but it is overshadowed by the cost of living and housing market concerns.
+Boston's nonfarm employment growth of +0.73% YoY is above average, suggesting a healthy expansion, but wage growth of +1.42% YoY is below the national average, potentially signaling weak worker bargaining power or softening demand. The housing market is slowing, with days on market increasing by 20.0% YoY to an average of 30 days, and building permits declining by -14.97% YoY, raising concerns about a potential tightening of housing supply and exacerbating affordability issues.
 
-Boston's economy is defined by its expensive cost of living and slowing housing market, making it essential for businesses to carefully consider these factors when making location decisions. While the city offers a deep labor pool and strong professional workforce, the primary risk is the high cost of living and potential demand erosion in the housing market.
+Boston offers businesses a highly engaged and participatory labor force, but at a high cost of living. The primary risk for businesses considering location in Boston is the potential for demand erosion, driven by slowing housing market growth and declining building permits, which could further constrain an already expensive and competitive environment.

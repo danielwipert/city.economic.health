@@ -1,11 +1,11 @@
 # Orlando-Kissimmee-Sanford
 
-**Grade: C- (Critical) | 30.9th percentile | April 2026**
+**Grade: C- (Critical) | 30.1th percentile | April 2026**
 
 ---
 
-Orlando's economic landscape earns a C- grade, marked by a labor market with significant slack and a housing supply under pressure. The 4.40% unemployment rate indicates flexibility for hiring, but also potential weakness in local consumer demand. Stagnant wage growth at +0.37% YoY suggests workers have limited leverage, which could soften consumer spending.
+Orlando's economic character is defined by its struggling labor market and housing supply constraints, earning it a C- overall grade. The city's 4.40% unemployment rate and stagnant wage growth of +0.37% YoY indicate limited leverage for workers. A sharp decline in building permits of -35.64% YoY exacerbates affordability issues and hinders workforce attraction.
 
-The housing market is characterized by a sharp decline in building permits, down -35.64% YoY, indicating a contraction in housing supply that could lead to future affordability stress. Homes are taking an average of 82 days to sell, a 10.8% YoY increase in days on market, suggesting demand erosion rather than a healthy normalization. The presence of an above-average professional workforce, ranking in the 65th percentile, offers some positive counterbalance, but it is not enough to offset broader economic concerns.
+The housing market is slowing, with days on market increasing by 11.7% YoY to 67 days. This slowdown may be a sign of demand erosion, given weak employment growth of +0.24% YoY and declining building permits. Orlando's above-average professional workforce, ranking in the 66th percentile, is a mild positive, but it may not offset broader economic challenges.
 
-Orlando presents a labor market with some hiring flexibility, but the primary risk is demand erosion and affordability stress in the housing market. Stagnant wage growth and declining building permits pose significant caveats for businesses considering relocation, as they may face challenges in attracting and retaining workers due to limited housing supply and weakened consumer demand.
+Orlando offers businesses a labor market with some slack, potentially easing hiring. However, the primary risk is the city's struggling housing supply and stagnant wage growth. The sharp decline in building permits and slowing housing market indicate a deteriorating economic environment, making it essential for businesses to carefully consider these factors when making location decisions.

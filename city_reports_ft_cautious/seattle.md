@@ -1,11 +1,11 @@
 # Seattle-Tacoma-Bellevue
 
-**Grade: B- (Below Average) | 46.0th percentile | April 2026**
+**Grade: B- (Below Average) | 45.2th percentile | April 2026**
 
 ---
 
-Seattle's economy earns a below-average overall grade of 46.0th percentile, driven by a high unemployment rate of 5.00%, indicating severe labor market weakness and a potential risk to consumer spending. A deep labor pool, with a labor force participation rate of 68.24%, and strong wage growth of 7.63% year-over-year, suggest a highly engaged and well-compensated workforce.
+Seattle's economy earns a below-average grade of B- (45.2nd percentile out of 50 US metros), marked by a mix of strengths and weaknesses. The city's labor market is severely weak, with a high unemployment rate of 5.00% in the bottom tier, but this is countered by a deep labor pool, with a labor force participation rate of 68.24% in the top tier.
 
-However, the city's employment growth is a concern, with nonfarm employment declining by 0.15% year-over-year, a below-average performance. This weakness is mirrored in the housing market, where homes take an average of 36 days to sell, with days on market increasing by 2.9% year-over-year. This slowing market may indicate demand erosion, particularly given the lackluster employment growth.
+Wage growth is robust, with hourly earnings increasing by 7.63% year-over-year, also in the top tier. However, job growth is a concern, with nonfarm employment declining by 0.15% year-over-year, a below-average performance. This tension suggests that wages may be rising due to a shift towards higher-paying jobs, rather than broad labor market health.
 
-Seattle offers businesses a highly engaged and well-compensated workforce, but with significant labor market risks. The primary caveat for businesses considering location in Seattle is the potential for demand erosion and labor market instability, which could impact consumer spending and business growth prospects.
+Seattle offers a deep labor pool and strong wage growth, but the primary risk is the city's labor market weakness, characterized by high unemployment and slow job growth. The city's housing market is also showing signs of slowing, with days on market increasing by 9.7% year-over-year, although the absolute level of 34 days remains relatively fast. Decision-makers should carefully consider the potential impact of these factors on consumer spending and labor costs when weighing the advantages and disadvantages of locating in Seattle.

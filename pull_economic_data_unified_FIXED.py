@@ -6,15 +6,19 @@ Pulls BOTH national metrics AND all 50 metros in a single run
 
 Structure:
 1. First: Pull 2 national metrics (AWHAETP, MEDDAYONMARUS)
-2. Then: Pull all 50 metros × 11 indicators = 550 metro calls
+2. Then: Pull all 50 metros × 9 indicators = 450 metro calls
 3. Output: Combined JSON with national benchmarks + all metro data
            NOW INCLUDES ALL 15 OBSERVATIONS per metric for historical analysis
+
+Dropped from pull (not used in scoring or display):
+- home_price_index: redundant — PSF/earnings ratio in 104C covers affordability
+- housing_price: redundant — PSF is superior for cross-city comparison
 
 FRED API Rate Limits:
 - 120 requests per minute (hard limit)
 - Script uses 1.5 second delay between calls = ~40 calls/minute (safe)
-- Total calls: 2 (national) + 550 (metros) = 552 API calls
-- Estimated runtime: ~14-16 minutes
+- Total calls: 2 (national) + 450 (metros) = 452 API calls
+- Estimated runtime: ~11-12 minutes
 
 Before running:
 1. Create a .env file with: FRED_API_KEY=your_key_here
@@ -214,7 +218,7 @@ def pull_national_metrics(api_client, config):
 def estimate_time_remaining(current_metro, total_metros):
     """Estimate remaining time based on current progress"""
     metros_remaining = total_metros - current_metro
-    minutes_per_metro = (DELAY_BETWEEN_CALLS * 11) / 60  # 11 metrics per metro
+    minutes_per_metro = (DELAY_BETWEEN_CALLS * 9) / 60  # 9 metrics per metro
     minutes_remaining = metros_remaining * minutes_per_metro
     return minutes_remaining
 
@@ -234,9 +238,9 @@ def pull_metro_data(api_client, config):
     metros = config.get('metros', [])
     
     print(f"📊 Total Metros to Pull: {len(metros)}")
-    print(f"📈 Metrics per Metro: 11")
-    print(f"📡 Total API Calls: {len(metros) * 11}")
-    print(f"⏱️  Estimated Time: ~{(len(metros) * 11 * DELAY_BETWEEN_CALLS) / 60:.1f} minutes")
+    print(f"📈 Metrics per Metro: 9")
+    print(f"📡 Total API Calls: {len(metros) * 9}")
+    print(f"⏱️  Estimated Time: ~{(len(metros) * 9 * DELAY_BETWEEN_CALLS) / 60:.1f} minutes")
     print(f"💾 Data: 15 observations per metric (for historical analysis)")
     print()
     
@@ -272,9 +276,7 @@ def pull_metro_data(api_client, config):
             ('weekly_hours', 'Weekly Hours'),
             ('office_workers', 'Office Workers'),
             ('building_permits', 'Building Permits'),
-            ('home_price_index', 'Home Price Index'),
             ('price_per_sqft', 'Price per Sqft'),
-            ('housing_price', 'Median Housing Price'),
             ('median_days_on_market', 'Median Days on Market'),
         ]
         
@@ -396,7 +398,7 @@ def main():
     log_progress(f"FRED API Rate Limit: 120 requests/minute")
     log_progress(f"Script Delay: {DELAY_BETWEEN_CALLS} seconds between calls")
     log_progress(f"Expected Runtime: ~14-16 minutes")
-    log_progress(f"Total API Calls: 552 (2 national + 550 metros)")
+    log_progress(f"Total API Calls: 452 (2 national + 450 metros)")
     log_progress(f"Observations per metric: 15 (for historical analysis)")
     log_progress("")
     
@@ -423,7 +425,7 @@ def main():
     print("=" * 80)
     print()
     
-    total_metro_calls = len(metro_data) * 11
+    total_metro_calls = len(metro_data) * 9
     metro_success = sum(len(m['data']) for m in metro_data)
     
     print(f"📊 National Metrics: {len(national_data)}/2 collected")

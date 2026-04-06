@@ -1,11 +1,11 @@
 # San Jose-Sunnyvale-Santa Clara
 
-**Grade: C (Very Poor) | 33.5th percentile | April 2026**
+**Grade: C (Very Poor) | 33.3th percentile | April 2026**
 
 ---
 
-San Jose's sluggish labor market and extremely high cost of living define its economic character, with a 4.00% unemployment rate and -0.16% year-over-year nonfarm employment growth, indicating deceleration. Wage growth is stagnant at +0.59% year-over-year, limiting workers' leverage and potentially weakening consumer spending.
+San Jose's economy earns a C grade, ranking 33rd percentile, due to sluggish growth and high costs. The city's 4.00% unemployment rate and -0.16% nonfarm employment growth suggest a labor market with slack, while stagnant wage growth of +0.59% YoY indicates limited worker leverage.
 
-The city's cost of living composite score of 6.96, among the lowest 2% of metros, underscores the significant affordability challenges faced by residents and businesses. Despite this, San Jose is experiencing a surge in housing supply, with building permits increasing by 195.09% year-over-year. However, the days on market metric suggests a slowing market, with homes taking 23 days to sell on average, increasing by 4.5% year-over-year.
+The housing market is aggressive, with building permits increasing 195.09% YoY, but the days on market have risen 9.1% YoY, with homes selling in just 24 days. This suggests a highly competitive market, with new hires facing significant housing challenges. Weak employment growth and rising days on market may indicate demand erosion, a risk for businesses.
 
-San Jose offers a highly educated and skilled workforce, but at a significant cost due to its extremely high cost of living. The primary risk for businesses considering locating in San Jose is the potential for weakened consumer demand and limited access to affordable talent, which could hinder long-term growth and profitability.
+San Jose offers a highly competitive and expensive market, with a rapidly expanding housing supply, but significant challenges in talent acquisition and consumer spending power. The primary risk for businesses is demand erosion, driven by weak employment growth and a highly competitive housing market, impacting the city's long-term economic viability.

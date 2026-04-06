@@ -1,11 +1,11 @@
 # San Francisco-Oakland-Fremont
 
-**Grade: C- (Critical) | 29.3th percentile | April 2026**
+**Grade: C- (Critical) | 27.6th percentile | April 2026**
 
 ---
 
-San Francisco's economic landscape is marked by stagnant job growth, sluggish wage increases, and a remarkably high cost of living, with nonfarm employment growth contracting by 0.52% year-over-year and wage growth barely inching up by 0.49%. This labor market weakness is further exacerbated by a cost of living composite score of 5.62, making it one of the most expensive metros in the country, which can significantly constrain talent acquisition and real consumer spending power.
+San Francisco's economic character is defined by its struggling labor market and extremely high cost of living, with a nonfarm employment growth rate of -0.52% year-over-year, indicating significant job losses. The city's overall grade of C-, ranking 27.6th percentile out of 50 US metros, reflects its stagnant wage growth at +0.49% year-over-year, indicating little leverage for workers and a softening market.
 
-The housing market is experiencing a surge in building permits, with an 86.01% year-over-year increase, which could potentially alleviate some of the affordability pressures in the long term. However, homes are selling extremely quickly, with an average of 30 days on market, creating a competitive and challenging environment for relocating workers.
+The housing market tells a conflicting story, with building permits increasing by 86.01% year-over-year, indicating an aggressive expansion of housing supply. Homes are selling extremely fast, with an average of 29 days on market, and this velocity is accelerating, with a -6.5% year-over-year change. The cost of living composite score of 5.79, ranking in the bottom tier, highlights the city's extreme expense.
 
-San Francisco offers a highly skilled but expensive workforce, with significant challenges in terms of talent attraction and retention due to its high cost of living. The primary risk for businesses considering locating in San Francisco is the potential for weakened consumer demand and labor market slack, which could undermine the viability of certain business models.
+San Francisco offers a highly competitive and fast-moving housing market, but its struggling labor market and extremely high cost of living pose significant risks. The primary caveat for businesses considering location in San Francisco is the potential difficulty in attracting and retaining talent due to the city's high cost of living and competitive housing market.

@@ -1,11 +1,11 @@
 # Cleveland
 
-**Grade: C+ (Poor) | 43.6th percentile | April 2026**
+**Grade: C+ (Poor) | 41.5th percentile | April 2026**
 
 ---
 
-Cleveland's economic character is defined by low unemployment, critically low labor force participation, and stagnant wage growth, with a 3.40% unemployment rate and a 58.01% labor force participation rate, indicating a shallow pool of available workers.
+Cleveland's economy is defined by low unemployment, critically low labor force participation, and stagnant wage growth, with a single most important takeaway being the city's constrained labor market and high cost of living.
 
-The city's cost of living composite score of 5.00, ranking in the 14th percentile, makes it among the most expensive metros, constraining talent acquisition and consumer spending power. However, the office and professional worker share is above average, ranking in the 65th percentile, providing a mild positive for office-dependent businesses. The housing market is slowing, with days on market increasing by 7.8% year-over-year to an average of 55 days, providing a moderate advantage for relocating workers.
+With an unemployment rate of 3.40%, the labor market appears healthy, but this is tempered by a labor force participation rate of 58.01%, indicating a shallow pool of available workers. Wage growth has been declining, with hourly earnings down 1.79% year-over-year, suggesting a softening market. The city's cost of living is also a significant concern, with a composite score of 5.00 placing it among the most expensive metros.
 
-Cleveland offers a business a low-unemployment environment, but with significant risks related to labor force participation and cost of living, including a shallow labor pool and high cost of living, which could limit the availability of skilled workers and constrain consumer spending, making it essential for businesses to carefully consider these factors when making location decisions.
+The presence of an above-average professional workforce, ranking in the 68th percentile, is a mild positive, but it is overshadowed by the more pressing issues of labor availability and cost of living. Ultimately, Cleveland offers a business a stable, albeit slow-growing, economy with a highly professional workforce, but the primary risk is the constrained labor market and high cost of living, which may hinder the city's economic growth and make it a challenging location for businesses reliant on a deep and skilled labor pool.

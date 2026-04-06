@@ -1,11 +1,11 @@
 # Philadelphia-Camden-Wilmington
 
-**Grade: B+ (Above Average) | 55.2th percentile | April 2026**
+**Grade: B+ (Above Average) | 55.3th percentile | April 2026**
 
 ---
 
-Philadelphia's economy earns a B+ grade, driven by its strong nonfarm employment growth of +1.16% YoY, ranking among the top tier. This rapid job creation is supported by a deep professional talent pool, with the city ranking in the 86th percentile for office and professional worker concentration. However, the 4.00% unemployment rate and +2.21% YoY wage growth below average suggest labor market slack and weak worker bargaining power.
+Philadelphia's economy earns a B+ grade, driven by its strong nonfarm employment growth of +1.16% YoY, ranking it in the top tier and indicating an expanding market. The city's deep professional talent pool, ranking 86th percentile for office and professional worker share, further supports this growth.
 
-The city's housing market shows a nuanced picture, with days on market increasing by 1.9% YoY, indicating a slowing market. Despite this, the average of 53 days on market remains relatively fast compared to peers. While a slowing market may be a sign of healthy normalization, the below-average wage growth and elevated unemployment rate introduce tension, highlighting the need for careful consideration of the local labor market's dynamics.
+However, this growth is accompanied by sluggish wage growth of +2.21% YoY, which may indicate a lower cost environment for employers but also raises concerns about worker bargaining power. The unemployment rate of 4.00% is slightly elevated, suggesting some labor market slack. The days on market for homes has increased by 10.3% YoY, with an average of 43 days, indicating a slowing housing market.
 
-Philadelphia offers a dynamic and expanding economy with a deep talent pool, making it an attractive location for knowledge-economy businesses. However, the primary risk lies in the potential for labor market imbalances, with elevated unemployment and sluggish wage growth potentially weakening local consumer demand and signaling a need for careful workforce planning.
+Philadelphia's economy offers a dynamic and expanding market with a talented workforce, but the primary risk lies in the potential for labor market imbalances and a slowing housing market. As the city continues to grow, businesses must be mindful of these tensions and their potential impact on the local economy and workforce.

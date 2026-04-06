@@ -1,11 +1,11 @@
 # Indianapolis-Carmel-Greenwood
 
-**Grade: B+ (Above Average) | 55.5th percentile | April 2026**
+**Grade: A- (Good) | 60.0th percentile | April 2026**
 
 ---
 
-Indianapolis earns a B+ grade, driven by its exceptional labor market, with an unemployment rate of 2.50%, and a deep professional talent pool, ranking 84th percentile for office and professional worker share, making it an attractive location for knowledge-economy businesses. The city's solid wage growth of 5.10% year-over-year suggests a positive outlook for consumer spending, but with some cost pressure for businesses.
+Indianapolis earns an A- grade, driven by its exceptional labor market and attractive workforce profile, with a 2.50% unemployment rate and 84th percentile ranking for office and professional worker share.
 
-However, beneath this strong surface, there are concerns about economic deceleration and potential housing supply constraints. Nonfarm employment growth lags at 0.11% year-over-year, and building permits have declined 10.26% year-over-year, raising red flags. The cost of living, while not excessively high, is a consideration, with a composite score of 3.94, implying that businesses may need to offer wage premiums to attract talent.
+The city's strong labor market is paired with solid wage growth of 5.10% year-over-year, suggesting a positive outlook for consumer spending. However, nuances in the data reveal tensions that deserve attention, including nonfarm employment growth of +0.11% year-over-year, which flags a potential risk of economic deceleration. The cost of living composite score of 3.68 indicates an above-average cost of living, which may erode the real purchasing power of workers despite their nominal wage gains.
 
-Indianapolis offers a talented workforce and a relatively affordable cost of living, but the primary risk lies in its slowing economic growth and potential housing supply constraints. Decision-makers should be cautious about the city's ability to sustain its economic momentum, particularly in the face of declining building permits and softening housing demand.
+Indianapolis offers businesses a talented and productive workforce, but with a tight labor market that demands competitive hiring practices. The primary risk lies in the city's below-average employment growth and slowing housing market, which may signal underlying demand weakness and warrant careful consideration from decision-makers.

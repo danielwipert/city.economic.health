@@ -1,11 +1,11 @@
 # Raleigh-Cary
 
-**Grade: A+ (Excellent) | 75.6th percentile | April 2026**
+**Grade: A+ (Excellent) | 76.0th percentile | April 2026**
 
 ---
 
-Raleigh's A+ overall grade is driven by its exceptional labor market, with a 3.0% unemployment rate and 67.67% labor force participation, indicating a deep and engaged workforce. The city's 1.25% year-over-year nonfarm employment growth further underscores its economic vitality, making it a highly competitive market where businesses face significant hiring challenges.
+Raleigh's A+ overall grade is driven by its exceptionally tight labor market, with a 3.0% unemployment rate and a 67.67% labor force participation rate, creating a highly competitive hiring environment. This challenges businesses in attracting and retaining top talent.
 
-Despite an above-average cost of living, Raleigh's housing market is characterized by a moderate 60-day average time on market, which is slowing down by 13.2% year-over-year. This stabilization is a positive development, given the city's strong employment growth and aggressive expansion of housing supply, as evidenced by a 38.82% year-over-year increase in building permits. The tension between a fast-moving housing market and an affordable cost of living is worth monitoring, as demand may eventually outpace supply and erode the city's affordability advantage.
+Raleigh's housing market presents a nuanced picture, with a below-average cost of living and an aggressively expanding housing supply, up 38.82% year-over-year. However, the days on market have increased by 4.5% to 46 days, which, given the city's strong employment growth and reasonable cost of living, can be seen as a stabilizing force rather than a warning sign.
 
-Raleigh offers businesses a highly skilled and dedicated workforce, a strong and expanding economy, and a relatively affordable cost of living. However, the primary risk is that the city's housing market, while currently stabilizing, may eventually become a barrier to attracting and retaining talent if demand continues to outpace supply.
+Raleigh offers businesses a unique combination of a highly skilled workforce, a competitive labor market, and a relatively affordable cost of living. However, the primary risk for businesses relocating to Raleigh is the potential erosion of its affordability advantage, as demand for housing continues to outpace supply.
