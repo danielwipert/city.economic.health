@@ -1,11 +1,11 @@
 # Chicago-Naperville-Elgin
 
-**Grade: C+ (Poor) | 38.8th percentile | April 2026**
+**Grade: C (Very Poor) | 37.2th percentile | April 2026**
 
 ---
 
-Chicago's C+ grade and 38.8th percentile ranking out of 50 US metros reflect a labor market with 4.50% unemployment, signaling slack, and a competitive housing market with 35 days on market, indicating a fast pace. The significant 27.41% year-over-year decline in building permits exacerbates affordability concerns and hinders workforce attraction.
+Chicago's economic landscape earns a "C" overall grade, ranking 37.2nd percentile out of 50 US metros, with a critically low labor force participation rate and an unemployment rate of 4.50% indicating labor market slack. The city's labor market is marked by significant structural constraints, making it challenging for businesses to expand or relocate. The unemployment rate of 4.50% potentially weakens local consumer demand.
 
-The labor force participation rate of 64.75% is a mild positive, but the sharp decline in building permits and rapid home sales suggest a supply-driven scarcity rather than genuine demand strength. This dynamic may create challenges for relocating workers, who face a fast-moving market with limited housing options.
+The housing market is experiencing a sharp contraction in supply, with building permits declining by 27.41% year-over-year, while homes are selling extremely quickly, with an average of 35 days on market. This rapid sale of homes, with days on market decreasing by 2.8% year-over-year, suggests a highly competitive housing market, posing a relocation challenge for new hires.
 
-Chicago's labor market offers some slack, potentially easing hiring, but poses significant risks due to its rapidly contracting housing supply and competitive market. The primary caveat for businesses considering location in Chicago is the potential difficulty in attracting and retaining talent due to the city's affordability and housing challenges.
+Chicago's labor market offers some slack, potentially making hiring easier, but poses significant risks, particularly in the housing market. The primary caveat for businesses considering relocation is the city's constrained labor supply and rapidly appreciating housing market, which may hinder talent attraction and retention efforts.

@@ -1,11 +1,11 @@
 # Baltimore-Columbia-Towson
 
-**Grade: C+ (Poor) | 38.6th percentile | April 2026**
+**Grade: C- (Critical) | 31.9th percentile | April 2026**
 
 ---
 
-Baltimore's economy earns a C+ grade, with sluggish growth and affordability concerns being the most significant takeaway. The city's nonfarm employment growth is a notable weakness, with a -0.14% year-over-year change, indicating economic deceleration. Wage growth is also below average, at +1.22% year-over-year, suggesting a lower cost environment for employers but potentially weak worker bargaining power.
+Baltimore's economic landscape earns a C- grade, characterized by labor market slack and stagnant wage growth, with a 3.60% unemployment rate and a -0.14% nonfarm employment growth rate. The city's labor force participation rate is critically low, indicating underlying structural constraints. Wage growth has been sluggish, with hourly earnings increasing by only 1.42% YoY, which may weaken local consumer demand.
 
-The housing market is slowing, with days on market increasing by 27.6% year-over-year to 37 days, a top-tier score indicating a relatively slow market. This slowdown is concerning, particularly when paired with below-average building permits growth, at -11.14% year-over-year, suggesting that demand erosion may be a more significant factor than healthy normalization. The presence of an above-average office and professional worker share, ranked in the 62nd percentile, is a mild positive, but it is overshadowed by the broader economic concerns.
+The housing market is slowing down, with homes taking 37 days to sell on average, a 27.6% YoY increase in days on market. This slowdown, combined with declining building permits, suggests a demand erosion scenario, where fewer qualified buyers are entering the market due to economic softness. The cost of living composite score of 3.11, indicating a below-average affordability, adds to the concern.
 
-Baltimore offers businesses a lower-cost labor environment, but the primary risk is the city's slowing economic growth and potential demand erosion in the housing market. Decision-makers should carefully weigh the benefits of a relatively affordable labor market against the potential long-term risks of a stagnating economy and tightening housing supply.
+Baltimore's labor market offers some hiring flexibility, but businesses must be cautious of the underlying economic softness and stagnant wage growth. The primary risk is demand erosion, which may impact consumer spending and ultimately, business growth, making it essential for decision-makers to carefully weigh the city's economic character before making a location decision.

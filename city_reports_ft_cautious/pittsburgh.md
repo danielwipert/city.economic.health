@@ -1,11 +1,11 @@
 # Pittsburgh
 
-**Grade: A (Very Good) | 66.6th percentile | April 2026**
+**Grade: A+ (Excellent) | 71.5th percentile | April 2026**
 
 ---
 
-Pittsburgh's economy is characterized by rapid job creation, with nonfarm employment growth at +1.07% year-over-year, placing it in the top tier, making it an attractive location for businesses, particularly those in the knowledge economy. The city boasts an extremely affordable cost of living, with a composite index score of 1.11, ranking it among the most affordable metros in the dataset. Pittsburgh also has a deep professional talent pool, with an 80th percentile ranking for office and professional worker share.
+Pittsburgh earns an A+ grade, driven by its exceptional economic character, with top-tier nonfarm employment growth of +1.07% YoY and wage growth of +8.01% YoY, indicating a rapidly expanding market with rising labor costs. The city's highly affordable cost of living, with a composite score of 1.00, makes it one of the most affordable metros in the dataset, and its 82nd percentile rank for office and professional worker share positions it as an attractive location for knowledge-economy businesses.
 
-However, labor force participation is critically low, at 60.33%, indicating a significant structural constraint on workforce availability. Wage growth is rising rapidly at +8.65% year-over-year, posing a real cost pressure for employers. The housing market also presents a challenge, with days on market increasing by +4.8% year-over-year, albeit still at a moderate 65 days.
+Pittsburgh's housing market, however, shows a mixed picture. While homes sell at a moderate pace of 65 days on average, a slowing trend is evident, with days on market increasing by +4.8% YoY. Moreover, building permits have declined by -10.55% YoY, introducing a note of caution.
 
-Pittsburgh offers businesses a unique blend of rapid job growth, affordable cost of living, and access to a deep professional talent pool. However, the primary risk lies in the city's critically low labor force participation and rapidly rising wages, which may pose significant challenges for businesses looking to expand or relocate, particularly in terms of workforce availability and labor costs.
+Pittsburgh offers businesses a unique combination of rapid job creation, rising wages, and an affordable cost of living, making it an attractive location for companies seeking to tap into a deep professional talent pool. However, the primary risk lies in the potential erosion of its affordability advantage due to a fast-moving housing market, which may impact workforce attraction and retention efforts.

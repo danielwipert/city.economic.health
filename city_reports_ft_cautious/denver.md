@@ -1,11 +1,11 @@
 # Denver-Aurora-Centennial
 
-**Grade: B+ (Above Average) | 58.9th percentile | April 2026**
+**Grade: B+ (Above Average) | 58.3th percentile | April 2026**
 
 ---
 
-Denver's economy earns a B+ grade, with its above-average performance across key metrics, driven by a deep labor pool, where 70.39% of working-age adults are employed or actively looking for work, making it an attractive location for businesses looking to hire. Wage growth is robust, with hourly earnings rising 6.57% year-over-year, indicating a competitive job market. However, this rapid wage growth also poses a cost pressure for employers, which must be carefully considered.
+Denver's economy earns a B+ grade, ranking 58th among 50 US metros, with a single most important takeaway: a tight labor market with significant hiring competition and workers having considerable leverage. The city's exceptionally low unemployment rate of 3.60% and solid wage growth of 6.26% year-over-year underscore the competitive nature of the labor market. However, this is paired with critically low labor force participation, indicating a shallow pool of available workers.
 
-Despite these strengths, the data reveals tensions. Building permits have declined by 15.96% year-over-year, suggesting a potential tightening of the housing supply. The days on market have increased by 8.6% year-over-year, with homes now taking an average of 38 days to sell. This slowdown in the housing market, combined with the decline in building permits, may indicate softening demand, which could have broader economic implications.
+The tension between low unemployment and weak labor force participation is a key concern, as it may mask a shrinking workforce rather than just low layoffs. The housing market is showing signs of slowing, with days on market increasing by 8.6% year-over-year to an average of 38 days, indicating a moderate buyer's market. This slowdown is potentially a sign of demand erosion, particularly given the decline in building permits of -15.96% year-over-year.
 
-Overall, Denver offers businesses a talented and engaged workforce, with a strong labor market and rising wages. However, the primary risk is the potential for softening demand, driven by a slowing housing market and declining building permits, which could impact the city's long-term economic growth and affordability.
+In summary, Denver offers businesses a highly competitive labor market with solid wage growth, but also presents significant hiring challenges due to low unemployment and weak labor force participation. The primary risk for businesses considering relocation or expansion in Denver is the potential for demand erosion and a tightening labor market, which could exacerbate hiring difficulties and drive up costs.

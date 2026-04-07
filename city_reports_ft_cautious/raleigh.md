@@ -1,11 +1,11 @@
 # Raleigh-Cary
 
-**Grade: A+ (Excellent) | 76.0th percentile | April 2026**
+**Grade: A+ (Excellent) | 71.7th percentile | April 2026**
 
 ---
 
-Raleigh's A+ overall grade is driven by its exceptionally tight labor market, with a 3.0% unemployment rate and a 67.67% labor force participation rate, creating a highly competitive hiring environment. This challenges businesses in attracting and retaining top talent.
+Raleigh's A+ overall grade is driven by its exceptionally tight labor market, with a 3.00% unemployment rate, making it a highly competitive hiring environment where workers have significant leverage. Above-average job growth, with nonfarm employment increasing by 1.25% year-over-year, signals a healthy expansion. The city's deep professional talent pool, ranking in the 98th percentile for office and professional worker concentration, makes it an attractive location for knowledge-economy businesses.
 
-Raleigh's housing market presents a nuanced picture, with a below-average cost of living and an aggressively expanding housing supply, up 38.82% year-over-year. However, the days on market have increased by 4.5% to 46 days, which, given the city's strong employment growth and reasonable cost of living, can be seen as a stabilizing force rather than a warning sign.
+However, beneath this strong surface, there are nuances and tensions worth exploring. The labor force participation rate is below average, suggesting a shallow labor pool, which could constrain growth. The cost of living is relatively affordable, with a composite index of 1.41, but the housing market is showing signs of stabilization, with days on market increasing by 4.5% year-over-year, indicating a slight cooling.
 
-Raleigh offers businesses a unique combination of a highly skilled workforce, a competitive labor market, and a relatively affordable cost of living. However, the primary risk for businesses relocating to Raleigh is the potential erosion of its affordability advantage, as demand for housing continues to outpace supply.
+Raleigh offers businesses a highly skilled and growing workforce, with a strong economic foundation, making it an excellent location for companies seeking to tap into a deep talent pool. However, the primary risk is the potential for hiring competition and wage pressure, given the exceptionally tight labor market, which could increase costs and constrain growth for businesses that fail to adapt to these market conditions.

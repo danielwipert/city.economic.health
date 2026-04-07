@@ -1,11 +1,11 @@
 # Louisville-Jefferson County
 
-**Grade: B (Average) | 52.9th percentile | April 2026**
+**Grade: B (Average) | 51.8th percentile | April 2026**
 
 ---
 
-Louisville's economy earns a B grade, driven by a tight labor market with an unemployment rate of 3.10%, but tempered by a shallow labor pool with a labor force participation rate of 62.74%. This complex picture presents a challenging environment for businesses, with significant hiring competition and limited labor options.
+Louisville's economy earns a B grade, with a tight labor market and average overall performance among 50 US metros. The city's exceptionally low unemployment rate of 3.10% indicates a strong job market, where businesses face significant hiring competition and workers have considerable leverage. However, this is paired with weak labor force participation and below-average nonfarm employment growth of -0.06% YoY, suggesting a potential shallow labor pool and economic deceleration.
 
-The city's sluggish nonfarm employment growth, at -0.06%, and increasing days on market, up 9.8% year-over-year, suggest a softening of demand. This is further supported by the average of 45 days to sell, indicating a slowing market. The combination of these factors warrants caution, as it may signal a broader economic slowdown.
+The tension between the low unemployment rate and weak labor force participation is particularly noteworthy. The lack of participation suggests that the workforce itself may be aging out or withdrawing, limiting the available talent pool. Below-average wage growth of +2.67% YoY and a thinner professional talent pool, ranking in the 36th percentile, may constrain businesses seeking specialized or senior roles.
 
-In Louisville, businesses face a highly competitive labor market, but also significant hiring challenges due to a shallow labor pool. The primary risk is the potential for economic deceleration, driven by weak employment growth and softening demand, which could impact the city's long-term economic viability.
+In summary, Louisville offers a business environment with a tight labor market, but a relatively slow housing market, which may provide some advantages for relocating workers. However, the primary risk is the potential for demand erosion, driven by weak employment growth and a shallow labor pool, which may impact the city's long-term economic momentum.

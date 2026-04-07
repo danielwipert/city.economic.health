@@ -1,11 +1,11 @@
 # Detroit-Warren-Dearborn
 
-**Grade: D (Emergency) | 25.1th percentile | April 2026**
+**Grade: C- (Critical) | 31.0th percentile | April 2026**
 
 ---
 
-Detroit's economic landscape is marked by severe labor market weakness, with an unemployment rate of 4.70% and stagnant wage growth of -1.13% year-over-year, resulting in a shallow labor pool and limited job opportunities. Below-average labor force participation of 61.27% and sluggish nonfarm employment growth of just 0.01% year-over-year further exacerbate the city's economic struggles.
+Detroit's economy struggles, earning a C- grade and ranking 31st out of 50 US metros, with a single most important takeaway being its stagnant wage growth and limited job opportunities. The labor market is marked by elevated unemployment at 4.70%, stagnant wage growth of +1.03% year-over-year, and below-average nonfarm employment growth of +0.01% year-over-year, indicating a market with labor market slack and limited job opportunities.
 
-The city's housing market is also experiencing challenges, with building permits declining by 10.94% year-over-year and days on market increasing by 7.1% year-over-year, resulting in homes taking an average of 45 days to sell. This slowdown in housing velocity suggests a scenario of demand erosion, rather than a healthy normalization of the market, likely driven by the lack of wage growth and limited job opportunities.
+The housing market presents a mixed picture, with building permits declining by -10.94% year-over-year, and days on market increasing by +7.1% year-over-year, averaging 45 days. This combination suggests a slowing market, potentially driven by weak employment growth and stagnant wages, which rank in the bottom tier at 10th percentile, indicating limited leverage for workers.
 
-Detroit offers a business environment with significant challenges, including a weak labor market and softening housing demand. The primary risk for businesses considering location in Detroit is the potential for prolonged economic stagnation, driven by structural labor market weaknesses and declining housing market momentum.
+Detroit's economy offers a labor market with potential for easier hiring, but at the cost of weakened consumer demand and limited economic growth. The primary risk for businesses locating in this market is the potential for demand erosion, driven by weak employment growth, stagnant wages, and a slowing housing market, which may impact the viability of their operations.

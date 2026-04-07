@@ -1,11 +1,11 @@
 # Washington-Arlington-Alexandria
 
-**Grade: C+ (Poor) | 39.6th percentile | April 2026**
+**Grade: C- (Critical) | 28.7th percentile | April 2026**
 
 ---
 
-Washington D.C.'s economic character is defined by its struggling labor market, with a bottom-tier nonfarm employment growth of -1.63% year-over-year, resulting in job losses and a contraction in the workforce. The city's sluggish wage growth of +1.37% year-over-year suggests a lower cost environment for employers, but also potentially weak worker bargaining power. With a labor force participation rate of 67.37%, the city has a relatively available workforce.
+Washington D.C. earns a C- grade due to its struggling labor market, with a bottom-tier labor force participation rate and a year-over-year nonfarm employment growth of -1.63%, indicating a contraction story. The city's 3.80% unemployment rate signals labor market slack and potentially weakened local consumer demand.
 
-The housing market is also a concern, with days on market increasing by 25.0% year-over-year, and homes now taking an average of 30 days to sell. This slowdown in the housing market, despite being relatively fast compared to other metros, may signal softening demand, particularly given the weak employment growth. The city's below-average office and professional worker share, ranking in the 38th percentile, may pose constraints for businesses seeking specialized or senior talent.
+Despite the economic softness, homes are still selling relatively quickly, with an average of 30 days on market. However, this is slowing down with a 25% year-over-year increase in days on market, suggesting a potential demand erosion. The cost of living composite index of 1.97 indicates a relatively affordable environment, but the thinner professional talent pool, with the city ranking in the 36th percentile for office and professional worker share, may pose constraints for specialized or senior roles.
 
-Washington D.C. offers a relatively affordable cost of living, with a score of 2.06, and an available workforce, but the primary risk lies in its struggling labor market and potential demand erosion. The city's economic contraction and softening housing market demand caution, making it essential for businesses to carefully weigh the pros and cons before making a location decision.
+Washington D.C.'s struggling labor market and potential demand erosion in the housing market pose significant challenges for businesses considering relocation or expansion in this city. The city's relatively affordable cost of living is a silver lining, but the primary risk remains the labor market's contraction and potential demand erosion.

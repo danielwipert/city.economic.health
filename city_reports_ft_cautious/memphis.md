@@ -1,11 +1,11 @@
 # Memphis
 
-**Grade: B+ (Above Average) | 55.9th percentile | April 2026**
+**Grade: A+ (Excellent) | 68.0th percentile | April 2026**
 
 ---
 
-Memphis earns a B+ grade, driven by its strong economic performance, with a low unemployment rate of 4.00% and modest nonfarm employment growth of +0.06% YoY. The city's cost advantage, with a cost of living composite score of 0.48, makes it one of the most affordable metros, supporting a positive environment for consumer spending and business operations. Solid wage growth of +6.16% YoY further underscores this favorable climate.
+Memphis earns an A+ grade, driven by its exceptional economic character, with a top-tier cost of living composite score of 0.36, making it one of the most affordable metros. Above-average nonfarm employment growth of +0.06% YoY and a healthy unemployment rate of 4.00% define its market. This affordability, combined with growing job opportunities, positions Memphis as an attractive location for businesses and workers alike.
 
-However, beneath the surface, tensions emerge. The housing market is slowing, with homes taking an average of 62 days to sell and a year-over-year increase of +6.9% in days on market. This stabilizing force is evident in the strong employment growth and rising building permits. The low office and professional worker share, ranking in the 2nd percentile, poses a significant constraint for knowledge-economy businesses.
+Despite being one of the most affordable metros, Memphis's fast-moving housing market, with homes selling at a pace of 62 days on average, and a year-over-year increase of +6.9% in days on market, may be a stabilizing force. However, the city's low office and professional worker concentration, ranking in the 2nd percentile, presents a significant constraint for knowledge-economy businesses. The rapid wage growth of +7.45% YoY, while excellent for workers, also poses a labor cost pressure for employers.
 
-Memphis offers businesses an attractive combination of affordability, solid wage growth, and a healthy labor market expansion. However, the primary risk lies in the city's limited professional workforce and low labor force participation rate of 60.48%, which may hinder talent attraction and availability. Businesses must carefully evaluate their workforce needs before making a location decision.
+Memphis offers an unbeatable combination of affordability and economic growth, making it an attractive location for investment. However, the primary risk lies in the city's limited professional and office worker pool, which may hinder the growth of knowledge-intensive industries, and the potential for eroding affordability as demand outpaces housing supply.

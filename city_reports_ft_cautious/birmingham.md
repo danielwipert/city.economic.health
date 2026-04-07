@@ -1,11 +1,11 @@
 # Birmingham
 
-**Grade: B+ (Above Average) | 58.7th percentile | April 2026**
+**Grade: A (Very Good) | 64.1th percentile | April 2026**
 
 ---
 
-Birmingham's economy stands out with an overall grade of B+, driven by its exceptionally low unemployment rate of 2.20% and rapid nonfarm employment growth of 0.61% YoY, indicating a tight labor market with strong job creation momentum. The city's labor force participation rate of 60.56% suggests a shallow labor pool, limiting the available workforce.
+Birmingham's A-grade economy, ranking 64.1% in the US metro league, is driven by its exceptionally tight labor market, with a 2.20% unemployment rate, and rapid job creation, with a 0.61% year-over-year increase in nonfarm employment growth. The city's aggressive expansion in housing supply, with a 55.25% year-over-year increase in building permits, further supports its momentum story.
 
-Despite strong employment growth, wage growth has been stagnant, with a -0.12% YoY change, indicating limited leverage for workers. The city's cost of living composite score of 3.72, ranking in the 24th percentile, suggests an above-average cost of living, requiring businesses to offer wage premiums to attract talent. The housing market is showing signs of stabilization, with days on market increasing by 3.7% YoY to an average of 56 days, indicating a moderate market pace.
+However, beneath this strong surface, wage growth is stagnant, with hourly earnings increasing by only 1.16% year-over-year, ranking in the bottom tier. This raises concerns about consumer spending power and the potential for labor market constraints to translate into wage pressure. The city's low professional and office worker concentration, ranking 18th percentile, poses a significant constraint for knowledge-economy businesses.
 
-Birmingham offers businesses a strong job market with rapid employment growth, but with the caveat that the labor pool is shallow and wages are stagnant. The primary risk for businesses is the potential difficulty in attracting and retaining talent due to the high cost of living and limited labor force participation, which may require strategic compensation and benefits packages to remain competitive.
+Birmingham offers businesses a highly competitive labor market and an expanding economy, with a strong housing supply pipeline. However, the primary risk is the potential for labor market constraints to drive up wages, which could be mitigated by the current stagnant wage growth, making it essential for businesses to carefully consider their compensation strategies when locating in this market.

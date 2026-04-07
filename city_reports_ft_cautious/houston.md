@@ -1,11 +1,11 @@
 # Houston-Pasadena-The Woodlands
 
-**Grade: B (Average) | 52.6th percentile | April 2026**
+**Grade: B+ (Above Average) | 56.0th percentile | April 2026**
 
 ---
 
-Houston's economy earns a B grade, ranking 52.6th out of 50 US metros, driven by above-average nonfarm employment growth of +0.43% YoY. The city's cost of living composite score of 1.19 indicates it is among the most affordable metros, but this advantage is tempered by a low office and professional worker share, ranking in the 6th percentile, constraining knowledge-economy businesses.
+Houston's economy earns a B+ grade, ranking 56th among 50 US metros, with a compelling narrative of above-average nonfarm employment growth (+0.43% YoY) and a top-tier cost of living composite score of 1.08, making it one of the most affordable metros. This unique combination of economic growth and affordability makes Houston an attractive location for businesses.
 
-A key tension in the data is the combination of strong employment growth with sharply declining building permits, down 12.89% YoY, suggesting a housing supply squeeze is building, which could erode the city's affordability advantage and make it harder to attract workers. The days on market metric, up 11.1% YoY to 50 days, indicates a slowing housing market, potentially signaling softening demand.
+However, the city's low office and professional worker share, ranking 8th percentile, poses a significant constraint for knowledge-economy businesses. The decline in building permits by -12.89% YoY raises concerns about a potential housing supply squeeze, which could erode the city's affordability advantage. The increase in days on market by +11.1% YoY, resulting in an average of 50 days, suggests a moderating housing market.
 
-Houston offers businesses a unique combination of strong employment growth and affordability, making it an attractive location for expansion. However, the primary risk is the potential for a housing supply squeeze to drive up costs and make it harder to attract top talent, particularly in knowledge-economy sectors.
+Houston offers businesses a rare blend of economic growth and affordability, with a cost of living that is among the lowest in the country. However, the city's limited professional workforce and potential housing supply constraints pose significant risks that decision-makers must carefully consider when evaluating Houston as a business location.

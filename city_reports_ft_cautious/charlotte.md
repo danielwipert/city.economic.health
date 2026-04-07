@@ -1,11 +1,11 @@
 # Charlotte-Concord-Gastonia
 
-**Grade: B (Average) | 51.9th percentile | April 2026**
+**Grade: B+ (Above Average) | 56.4th percentile | April 2026**
 
 ---
 
-Charlotte's economy is characterized by rapid job creation, with nonfarm employment growth reaching 2.69% year-over-year, placing it in the top tier. This momentum is supported by a deep professional talent pool, as evidenced by its 94th percentile ranking for office and professional worker share.
+Charlotte's economy earns a strong B+ grade, driven by its above-average performance. The city's labor market is characterized by rapid job creation, with nonfarm employment growth at 2.69% year-over-year, indicating an economically expanding market. The deep labor pool, with labor force participation in the top tier, is a significant hiring advantage, and the unemployment rate of 3.60% suggests a healthy, low unemployment environment without being a severe constraint.
 
-However, this growth is not without its challenges, as wage growth has been stagnant, with hourly earnings declining by 1.52% year-over-year, a bottom-tier performance. The city's housing market is also experiencing a slowdown, with building permits declining sharply by 39.50% year-over-year, and days on market increasing by 13.9% year-over-year, with homes now taking an average of 49 days to sell.
+However, the data reveals tensions. Stagnant wage growth of 0.14% year-over-year is a warning sign, and the sharply declining building permits, down 39.50% year-over-year, indicate a potential housing supply squeeze. This could lead to affordability and workforce attraction issues in the future. Homes are taking 13.9% more days to sell than last year, suggesting a slowing market.
 
-Overall, Charlotte offers businesses a talented workforce and a growing economy, but the primary risk is a potential housing supply squeeze and its impact on affordability and workforce attraction. As the city's economy continues to expand, businesses will need to carefully consider the implications of a tightening labor market and rising costs of living on their operations and talent recruitment strategies.
+Charlotte offers a strong labor market with rapid job creation and a deep talent pool, making it an attractive location for knowledge-economy businesses. However, the primary risk is the potential housing supply squeeze and its impact on affordability and workforce attraction, which could deteriorate if not addressed.

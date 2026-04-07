@@ -1,11 +1,11 @@
 # Riverside-San Bernardino-Ontario
 
-**Grade: C (Very Poor) | 35.0th percentile | April 2026**
+**Grade: C+ (Poor) | 41.5th percentile | April 2026**
 
 ---
 
-Riverside-San Bernardino-Ontario metro area earns a C grade, ranking 35th among 50 US metros, with a struggling labor market and stagnant job creation. Unemployment rates at 5.10% and labor force participation at 60.37% are both bottom-tier metrics, indicating severe weakness.
+Riverside-San Bernardino-Ontario metro area earns a C+ grade, ranking 41.5th percentile out of 50 US metros, with labor market weakness being the dominant story. The area's 5.10% unemployment rate and near-stagnant nonfarm employment growth of +0.18% YoY suggest a contractionary environment.
 
-Despite these challenges, wage growth has been remarkably strong, with hourly earnings rising by 7.54% year-over-year, a top-tier metric. This suggests that certain sectors or industries may be experiencing growth and driving up wages. The office and professional worker share ranks 16th percentile, limiting the appeal for knowledge-economy businesses.
+Wage growth, however, is a top-tier 7.55% YoY, indicating significant pay increases for existing workers. This could be due to a mix shift towards higher-paying industries or companies, rather than broad labor market health. The housing market is also slowing, with days on market increasing by 5.9% YoY to an average of 54 days, potentially signaling softening demand given the weak employment growth.
 
-The bottom line is that Riverside-San Bernardino-Ontario offers a low-cost labor market with rising wages, but the primary risk is the weak labor market and limited workforce availability. Businesses considering relocation must weigh the potential benefits of lower labor costs against the challenges of attracting and retaining skilled workers.
+Riverside offers a cost-competitive environment with rising wages, but the primary risk is the labor market's structural weakness and potential demand erosion. Businesses considering location here must carefully weigh the benefits of a relatively affordable setting against the challenges of attracting and retaining talent in a market with limited professional and office worker concentration.

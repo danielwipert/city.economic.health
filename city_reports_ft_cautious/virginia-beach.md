@@ -1,11 +1,11 @@
 # Virginia Beach-Chesapeake-Norfolk
 
-**Grade: C (Very Poor) | 35.8th percentile | April 2026**
+**Grade: C (Very Poor) | 33.6th percentile | April 2026**
 
 ---
 
-Virginia Beach-Chesapeake-Norfolk metro area earns a C grade, ranking 35.8th out of 50 US metros, with a challenging economic landscape marked by critically low labor market participation and declining nonfarm employment growth. Only 58.99% of working-age adults are employed or actively looking for work, and nonfarm employment has seen a staggering -1.34% year-over-year decline.
+Virginia Beach-Chesapeake-Norfolk metro area earns a C grade, ranking 33.6th out of 50 US metros, with a dominant story of labor market contraction, including a 1.34% year-over-year decline in nonfarm employment growth and a critically low labor force participation rate. The sharp 46.79% year-over-year decline in building permits exacerbates this contraction, indicating a severe housing supply squeeze.
 
-The housing market is also experiencing significant stress, with building permits plummeting by 46.79% year-over-year and homes selling in just 36 days on average, with a -5.3% year-over-year change indicating a speeding up of the market. This scarcity-driven demand is likely to exacerbate affordability concerns, despite the area's relatively affordable cost of living composite score of 1.53.
+The metro area's top-tier 11.80% year-over-year hourly wage growth is a significant cost pressure for employers, but this strong wage growth is at odds with the stagnant labor market, suggesting a mix shift toward higher-paying jobs rather than broad labor market health. The fast-moving housing market, with homes selling in just 36 days on average, poses a significant relocation challenge, particularly given the declining affordability as demand outpaces supply.
 
-The primary risk for businesses in this metro area is the constrained labor market and accelerating housing costs, which may hinder talent attraction and retention. With rapidly rising wages and a scarce housing supply, the area's affordable cost of living advantage may ultimately erode, making it essential for decision-makers to carefully weigh these factors when considering a location decision.
+Virginia Beach offers a unique combination of strong wage growth and above-average affordability, with a cost of living composite score of 1.44. However, the primary risk for businesses considering relocation is the severe labor market and housing supply constraints, which may limit access to talent and drive up labor costs.

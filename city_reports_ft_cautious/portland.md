@@ -1,11 +1,11 @@
 # Portland-Vancouver-Hillsboro
 
-**Grade: C (Very Poor) | 33.4th percentile | April 2026**
+**Grade: D (Emergency) | 25.1th percentile | April 2026**
 
 ---
 
-Portland-Vancouver-Hillsboro metro area earns a C grade, ranking 33.4th percentile out of 50 US metros, driven by severe labor market weakness. Unemployment rates are high at 4.90%, posing a significant risk to consumer spending. Job losses are evident, with nonfarm employment growth contracting by -0.69% year-over-year, indicating a stagnant job market.
+Portland's struggling labor market, with an unemployment rate of 4.90% and nonfarm employment growth of -0.69% year-over-year, earns a grade of D, ranking in the 25.1st percentile out of 50 US metros. This weakness is exacerbated by a low office and professional worker share, ranking in the 12th percentile, posing a significant constraint for knowledge-economy businesses.
 
-Wage growth remains solid, with hourly earnings increasing by 4.78% year-over-year, providing some support to consumer spending. However, the low office and professional worker share, ranking 12th percentile, constrains knowledge-economy businesses. The housing market is characterized by a supply squeeze, with building permits declining by -18.14% year-over-year, and homes selling faster, with days on market decreasing by -3.9% year-over-year to an average of 49 days.
+The city's housing market, with homes selling in 49 days on market, ranking in the 16th percentile for speed, appears to defy the struggling labor market. However, this fast-moving market may be a thin-supply illusion rather than genuine demand strength, given the weak employment growth and below-average building permits growth of -18.14% year-over-year.
 
-Portland-Vancouver-Hillsboro offers a cost advantage, with above-average affordability, but this comes with significant labor market risks and a tightening housing supply. Businesses considering this location must be aware of the potential for labor market instability and limited access to professional talent, which could hinder growth and competitiveness.
+Portland offers a cost of living advantage, with a composite score of 2.02, but this benefit is outweighed by the significant labor market risks and potential housing affordability challenges. The primary caveat for businesses considering location in Portland is the high unemployment rate and low professional worker concentration, which may hinder talent attraction and retention efforts.

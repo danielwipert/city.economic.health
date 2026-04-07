@@ -1,11 +1,11 @@
 # Salt Lake City-Murray
 
-**Grade: A+ (Excellent) | 73.4th percentile | April 2026**
+**Grade: A (Very Good) | 64.5th percentile | April 2026**
 
 ---
 
-Salt Lake City earns an A+ grade, with a single most important takeaway being its exceptional economic character, driven by a low unemployment rate of 3.40% and top-tier labor force participation of 72.77%. The city's nonfarm employment growth of +1.83% YoY signals a rapidly expanding market, outpacing many of its peers. This momentum story is compelling, making Salt Lake City economically vibrant and attractive to businesses and talent alike.
+Salt Lake City earns an A grade, with a 64.5th percentile ranking out of 50 US metros, reflecting its very good economic character. The city's top-tier nonfarm employment growth of +1.83% YoY and low unemployment rate of 3.40% indicate a rapidly expanding market with a constructive labor environment. Its professional workforce concentration ranks in the 96th percentile, signaling a deep talent pool that can support knowledge-economy businesses and headquarters.
 
-The city's housing market is characterized by homes selling quickly, with an average of just 45 days on market. While the city's above-average building permit growth of +14.73% YoY suggests that housing supply is keeping pace with demand, the rapid sales pace may still create barriers to talent attraction. The city's deep professional talent pool, as evidenced by its 98th percentile ranking for office and professional worker share, makes it an attractive location for knowledge-economy businesses.
+The city's housing market is highly competitive, with homes selling at a fast pace of 45 days on market, ranking in the 26th percentile, and no year-over-year change. This demand surge is driven by strong employment growth, rather than a supply contraction, as evidenced by above-average building permits growth of +14.73% YoY. The tension between a thriving labor market and a competitive housing market deserves attention from decision-makers.
 
-In summary, Salt Lake City offers businesses a unique combination of a healthy labor market, rapid job growth, and a deep professional talent pool, making it an excellent location for companies seeking to expand or establish a presence. However, the city's competitive housing market poses a significant risk, potentially impacting talent attraction and retention efforts.
+Salt Lake City offers businesses a thriving labor market with a deep professional talent pool, making it an attractive location for knowledge-economy companies. However, the primary risk is the highly competitive housing market, which may pose challenges for relocating workers to secure housing quickly and affordably.

@@ -1,11 +1,11 @@
 # Richmond
 
-**Grade: A- (Good) | 61.9th percentile | April 2026**
+**Grade: B (Average) | 53.0th percentile | April 2026**
 
 ---
 
-Richmond's A- grade is driven by its exceptional labor market, with a 3.30% unemployment rate and 0.29% year-over-year nonfarm employment growth, making it an attractive location for businesses. The city's strong labor market, combined with 5.12% year-over-year wage growth, suggests a healthy expansion with workers having leverage.
+Richmond's economy earns a grade of B, or 53rd percentile out of 50 US metros, with above-average nonfarm employment growth of +0.29% YoY and top-tier wage growth of +6.81% YoY, indicating a healthy expansion with rising hourly earnings for workers. However, this growth is tempered by critically low labor force participation, posing a significant structural constraint for businesses considering expansion or relocation.
 
-However, the data reveals tensions beneath the surface. Building permits have declined 20.27% year-over-year, indicating a housing supply squeeze that could lead to affordability stress and workforce attraction difficulties. The extremely fast-moving housing market, with homes selling in just 39 days on average, and a 11.4% year-over-year decrease in days on market, further exacerbate the issue.
+A key tension in Richmond's market is the disconnect between strong employment growth and a sharp decline in building permits, down 20.27% YoY, suggesting a housing supply squeeze is building, which could deteriorate affordability and workforce attraction. Homes are selling in fewer days than last year, averaging just 39 days on market, indicating a fast-moving market that may be driven by a thin-supply illusion rather than genuine demand strength.
 
-Richmond's strong and expanding labor market, with a highly skilled workforce ranking in the 68th percentile, is a significant draw for businesses. However, the emerging housing supply squeeze poses a primary risk, potentially impacting affordability and workforce attraction. With its exceptionally low unemployment rate and solid wage growth, Richmond is an attractive location, but decision-makers must carefully consider the potential long-term consequences of a tightening housing market.
+Richmond offers a business a healthy expansion environment with rising wages, but the primary risk is a potential housing supply squeeze that could impact affordability and workforce attraction. Decision-makers should carefully weigh the benefits of Richmond's growing economy against the potential challenges of a tightening housing market and low labor force participation.

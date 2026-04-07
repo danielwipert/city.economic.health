@@ -1,11 +1,11 @@
 # Jacksonville
 
-**Grade: B- (Below Average) | 44.8th percentile | April 2026**
+**Grade: B- (Below Average) | 49.2th percentile | April 2026**
 
 ---
 
-Jacksonville's economy ranks 44.8th percentile overall, with a mix of strengths and weaknesses. The city's labor market is severely weak, with an unemployment rate of 4.60% and a labor force participation rate of 60.38%. However, nonfarm employment growth is a bright spot, increasing 0.68% year-over-year, indicating a healthy expansion.
+Jacksonville's economy earns a below-average overall grade of 49.2nd percentile, driven by a high unemployment rate of 4.60%, indicating severe labor market weakness and a potential risk to consumer spending. Despite this, the city's job market is marked by above-average job growth of 0.68% year-over-year, signaling a healthy expansion. Hourly earnings are rising 7.53% year-over-year, putting upward pressure on labor costs.
 
-Despite these positives, the city's housing market is a concern. Building permits have declined sharply by 32.70% year-over-year, indicating a contracting housing supply. This, combined with days on market increasing by 1.8% year-over-year to 58 days, suggests a slowing market that may be due to demand erosion rather than a healthy normalization.
+The city's cost of living is a significant advantage, with a composite score of 1.35 placing it among the most affordable metros in the dataset. However, the housing market is more complex. The sharp decline in building permits of 32.70% year-over-year suggests that housing supply is contracting, which could lead to future affordability stress. Homes are taking an average of 58 days to sell, indicating a slowing market that may be a sign of demand erosion given the weak employment growth and declining permits.
 
-In summary, Jacksonville offers a relatively affordable cost of living, with a composite score of 1.44, and solid wage growth, with hourly earnings rising 5.00% year-over-year. However, the city's severe labor market weakness and declining building permits pose a significant threat to its economic health, making it a cautious choice for businesses considering relocation or expansion.
+In summary, Jacksonville offers businesses an affordable cost of living and a growing job market, but the primary risk is the potential for labor market weakness and housing supply constraints to undermine the city's economic momentum. The city's high unemployment rate and declining building permits are particular causes for concern, and businesses should carefully consider these factors when evaluating Jacksonville as a potential location.

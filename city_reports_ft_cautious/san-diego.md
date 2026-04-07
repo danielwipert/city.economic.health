@@ -1,11 +1,11 @@
 # San Diego-Chula Vista-Carlsbad
 
-**Grade: C- (Critical) | 29.4th percentile | April 2026**
+**Grade: C (Very Poor) | 36.1th percentile | April 2026**
 
 ---
 
-San Diego's sluggish labor market and high cost of living define its economic character, with a 4.40% unemployment rate and 62.01% labor force participation rate, indicating a shallow and stagnant labor pool. The city's nonfarm employment growth is a mere 0.35% year-over-year, reflecting economic deceleration.
+San Diego's sluggish growth and high cost of living define its economic character, with a grade of C, ranking 36.1st percentile out of 50 US metros. The city's labor market is marked by deceleration, with an unemployment rate of 4.40% and below-average nonfarm employment growth of +0.35% YoY, making it easier for businesses to hire but potentially weakening local consumer demand.
 
-The housing market is marked by a 5.6% year-over-year increase in days on market to an average of 38 days, indicating a slowing pace that may signal softening demand. San Diego's low office and professional worker share, ranking in the 18th percentile, is a concern for knowledge-economy businesses.
+The city's metrics reveal a complex story, with the cost of living composite score of 5.20, ranking in the bottom tier at 12th percentile, indicating that San Diego is among the most expensive metros, constraining talent acquisition and real consumer spending power. The days on market have increased by 5.6% YoY, with an average of 38 days, signaling softening demand rather than a healthy normalization, given the weak employment growth and average building permits.
 
-San Diego offers a challenging location for businesses, with a high cost of living and a shallow labor pool, making it difficult to attract and retain talent. The city's economic deceleration, reflected in its 0.35% year-over-year nonfarm employment growth, may lead to weakened local consumer demand and limited job opportunities, making it essential for businesses to carefully consider these factors before making a location decision.
+San Diego offers businesses a unique combination of easier hiring and a high-cost environment, but the primary risk lies in its sluggish growth and constrained talent pool. The city's high cost of living and weakening demand signals may ultimately impact businesses' ability to attract and retain top talent, making it essential for decision-makers to weigh these factors carefully in their location decisions.

@@ -1,11 +1,11 @@
 # Miami-Fort Lauderdale-West Palm Beach
 
-**Grade: B+ (Above Average) | 55.5th percentile | April 2026**
+**Grade: B+ (Above Average) | 56.9th percentile | April 2026**
 
 ---
 
-Miami's economy earns a B+ grade, driven by its above-average performance, with a low unemployment rate of 3.50% and robust wage growth of 7.12% year-over-year. The strong wage growth is a significant advantage, but it may be offset by the city's above-average cost of living, with a composite score of 3.31. The labor force participation rate of 62.53% indicates a relatively shallow labor pool, tempering the city's overall performance.
+Miami's economy earns a B+ grade, ranking 56.9th among 50 US metros, with top-tier wage growth of 7.70% year-over-year, making it an attractive location for businesses. However, this growth is paired with a below-average cost of living composite score of 3.26, indicating a higher cost of living that may erode the real purchasing power of workers' increased wages. The city's housing supply is expanding aggressively, with building permits increasing by 41.11% year-over-year, which could help alleviate some of the affordability pressures.
 
-The housing market presents a complex picture, with building permits increasing by 41.11% year-over-year, indicating an aggressive expansion of housing supply. However, the days on market have increased by 10.4% year-over-year, with homes taking an average of 74 days to sell, suggesting a slowing market. This tension is noteworthy, as the strong employment and wage growth would normally be expected to drive housing demand.
+The slowing housing market, with homes taking 10.4% more days to sell than last year, resulting in an average of 74 days on market, may pose challenges for businesses seeking specialized or senior talent. The city's lower-than-average office and professional worker share adds to these concerns. While strong wage growth is a draw, the tension between wage growth and high cost of living means that workers' increased nominal earnings may not translate to equivalent real purchasing power gains.
 
-In summary, Miami offers businesses a dynamic labor market with strong wage growth, but also presents challenges such as a shallow labor pool and high cost of living. The primary risk for businesses is the potential for labor costs to escalate, making it essential to carefully consider compensation packages to attract and retain top talent.
+Miami offers businesses a unique combination of strong wage growth and an expanding housing supply, making it an attractive location for companies seeking to tap into a growing and skilled workforce. However, the primary risk for businesses is the potential for affordability pressures to erode the benefits of the city's strong wage growth, making it essential to consider the total cost of living and talent acquisition strategies when evaluating Miami as a business location.
