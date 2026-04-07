@@ -25,7 +25,7 @@ if TOGETHER_API_KEY is None:
 ANALYSIS_MODEL_ID = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
 
 # Polish model (prose tightening) — Llama 3 8B serverless
-STYLE_MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct-Lite"
+STYLE_MODEL_ID = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
 
 # Input JSON
 JSON_PATH = "calculated_metrics_reconciled.json"
@@ -97,15 +97,15 @@ METRIC_GUIDE = {
         },
     },
     "102A": {
-        "label": "Labor Force Participation",
-        "measures": "Share of working-age adults who are employed or actively looking for work.",
-        "business_relevance": "High LFP signals a deep labor pool. Low LFP — especially paired with low unemployment — indicates a shrinking or demographically constrained workforce, not just a tight market.",
+        "label": "Civilian Labor Force YoY Growth",
+        "measures": "Year-over-year percent change in the total civilian labor force (employed + actively seeking work). This is NOT a participation rate — do not describe it as one.",
+        "business_relevance": "Positive growth signals workforce supply is expanding — workers moving in or re-engaging. Negative or flat growth signals a shrinking labor pool, which can tighten hiring even when unemployment looks low.",
         "tiers": {
-            "top":    "Deep labor pool. Workforce engagement is a genuine strength — mention as a hiring advantage.",
-            "above":  "Good participation rate. Workforce availability is a mild positive.",
+            "top":    "Strong labor force growth — workforce supply is expanding rapidly. Mention as a hiring pipeline positive.",
+            "above":  "Above-average labor force growth. Mild workforce supply positive.",
             "median": "Unremarkable. Do not spend words on this metric.",
-            "below":  "Labor pool is shallow. Even if unemployment looks low, the workforce itself may be aging out or withdrawing.",
-            "bottom": "Critically low participation. Workforce availability is a significant structural constraint. Flag for any business considering expansion or relocation.",
+            "below":  "Labor force is growing slowly or stagnant. Workforce supply may be constraining hiring capacity.",
+            "bottom": "Civilian labor force is shrinking. A significant structural headwind for businesses seeking to expand headcount.",
         },
     },
     "107E": {
@@ -285,7 +285,7 @@ def _detect_tensions(pct: dict, raw: dict) -> list:
     # Tight unemployment + shrinking labor force = pool is narrowing, not just occupied
     if unemp_score >= 70 and lfp_score <= 35:
         tensions.append(
-            "Low unemployment paired with weak labor force participation — the tight headline "
+            "Low unemployment paired with a contracting civilian labor force — the tight headline "
             "rate may mask a shrinking workforce, not just low layoffs. The available pool is genuinely shallow."
         )
 
@@ -354,7 +354,7 @@ def build_writing_guide(record: dict, city_name: str) -> str:
     metric_order = [
         ("101A", "101A_unemployment",           None,  "%"),
         ("107E", "107E_employment_growth_yoy",  "+",   "% YoY"),
-        ("102A", "102A_lfp",                    None,  "%"),
+        ("102A", "102A_clf_yoy",                "+",   "% YoY"),
         ("103B", "103B_earnings_yoy",           "+",   "% YoY"),
         ("106D", "106D_wh_trend_deviation_pct", "+",   "% vs trend"),
         ("104C", "104C_col",                    None,  ""),
@@ -566,7 +566,7 @@ def build_briefing_sheet(record: dict, city_name: str) -> str:
         "",
         "LABOR MARKET",
         row("Unemployment rate",           level("101A_unemployment"),          "101A"),
-        row("Labor force participation",   level("102A_lfp"),                   "102A"),
+        row("Labor force YoY growth",      change("102A_clf_yoy"),              "102A"),
         row("Nonfarm employment growth",   change("107E_employment_growth_yoy"),"107E"),
         row("Wage growth (hourly)",        change("103B_earnings_yoy"),         "103B"),
         row("Weekly hours vs own trend",   change("106D_wh_trend_deviation_pct", suffix="% vs trend"), "106D"),

@@ -18,10 +18,10 @@ if TOGETHER_API_KEY is None:
                        "$env:TOGETHER_API_KEY = 'your_together_api_key_here'")
 
 # Analysis model (econ reasoning)
-ANALYSIS_MODEL_ID = "Qwen/Qwen2.5-72B-Instruct-Turbo"
+ANALYSIS_MODEL_ID = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
 
-# Stylist model (prose polish, 8B for speed/cost)
-STYLE_MODEL_ID = "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+# Stylist model (prose polish)
+STYLE_MODEL_ID = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
 
 # Input JSON
 JSON_PATH = "calculated_metrics_reconciled.json"
@@ -87,6 +87,24 @@ def build_analysis_prompt(df_city: pd.DataFrame, city_name: str) -> str:
     records = df_city.to_dict(orient="records")
     data_json = json.dumps(records, indent=2)
 
+    metric_legend = (
+        "Metric key legend (use these descriptions when referencing metrics):\n"
+        "  101A_unemployment         — Unemployment rate (%); lower is better\n"
+        "  101A_unemp_yoy_pp         — Unemployment rate change YoY (percentage points)\n"
+        "  102A_clf_yoy              — Civilian labor force YoY % change (workforce supply growth); higher is better. "
+                                       "NOTE: this is NOT a labor force participation rate — do not describe it as one.\n"
+        "  103B_earnings_yoy         — Average hourly earnings YoY % change; higher is better\n"
+        "  104C_col                  — Cost of living composite score (PSF/earnings ratio); lower is better\n"
+        "  105C_owr                  — Office worker ratio composite score; higher is better\n"
+        "  107E_ldc_composite        — Labor demand composite score (employment + weekly hours signal)\n"
+        "  107E_employment_growth_yoy— Nonfarm payroll employment YoY % change\n"
+        "  107E_wh_trend_deviation_pct— Weekly hours deviation from each city's own 12-month baseline (%)\n"
+        "  200B_permits_yoy          — Residential building permits YoY % change\n"
+        "  204A_dom_composite        — Days on market composite score\n"
+        "  204A_dom_yoy_pct          — Median days on market YoY % change\n"
+        "  204A_dom_level_days       — Median days on market (current level)\n"
+    )
+
     prompt = (
         f"Write a concise, evidence-based economic analysis of {city_name}.\n\n"
         "Audience: financially literate professional readers.\n"
@@ -97,6 +115,7 @@ def build_analysis_prompt(df_city: pd.DataFrame, city_name: str) -> str:
         "- Discuss labour market, housing, business activity, and any obvious stress points or strengths.\n"
         "- Use specific numbers only when they materially shape the argument.\n"
         "- Produce 2–3 paragraphs and a short closing outlook.\n\n"
+        f"{metric_legend}\n"
         "Dataset (JSON):\n"
         f"{data_json}"
     )
@@ -248,7 +267,7 @@ def main():
             city = futures[future]
             try:
                 path = future.result()
-                print(f"[OK] {city} → {path}")
+                print(f"[OK] {city} -> {path}")
             except Exception as e:
                 print(f"[ERROR] {city}: {e}")
 

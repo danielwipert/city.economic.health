@@ -61,7 +61,7 @@ METRICS = [
     ('101A', 'Unemployment',      '20%'),
     ('103B', 'Wage Growth',       '15%'),
     ('104C', 'Cost of Living',    '12%'),
-    ('102A', 'Labor Force Part.', '10%'),
+    ('102A', 'Labor Force YoY',  '10%'),
     ('200B', 'Bldg. Permits',     '10%'),
     ('204A', 'Days on Market',    ' 5%'),
     ('105C', 'Office Economy',    ' 3%'),
@@ -1010,7 +1010,7 @@ def prepare_city(metro: dict, rank: int) -> dict:
         'unemp':      fmt_pct(raw.get('101A_unemployment'), plus=False),
         'earnings':   fmt_pct(raw.get('103B_earnings_yoy')),
         'emp_growth': fmt_pct(emp_yoy),
-        'lfp':        fmt_pct(raw.get('102A_lfp'), plus=False),
+        'lfp':        fmt_pct(raw.get('102A_clf_yoy'), plus=True),
         'permits':    fmt_pct(raw.get('200B_permits_yoy')),
         'dom':        dom_str,
         'dom_yoy':    fmt_pct(dom_yoy) if dom_yoy is not None else 'N/A',
@@ -1301,7 +1301,7 @@ def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
         <div class="how-number">8</div>
         <div class="how-title">Indicators, One Score</div>
         <div class="how-desc">
-          Labor demand, unemployment, wage growth, cost of living, labor force participation,
+          Labor demand, unemployment, wage growth, cost of living, labor force growth,
           building permits, days on market, and office economy &mdash; combined into a single
           weighted composite.
         </div>
@@ -1401,7 +1401,7 @@ def write_rankings(cities: list, date: str, site_dir: Path):
         <th class="hide-mobile">Unemp.</th>
         <th class="hide-mobile">Wage YoY</th>
         <th class="hide-mobile">Emp. YoY</th>
-        <th class="hide-mobile">LFP</th>
+        <th class="hide-mobile">LF YoY</th>
         <th class="hide-mobile">DOM</th>
       </tr>
     </thead>
@@ -1458,7 +1458,7 @@ def write_city(city: dict, all_cities: list, site_dir: Path):
         ('Unemployment',          city['unemp'],      'unemployment rate'),
         ('Wage Growth YoY',       city['earnings'],   'avg hourly earnings'),
         ('Employment Growth',     city['emp_growth'], 'nonfarm payrolls YoY'),
-        ('Labor Force Part.',     city['lfp'],        'participation rate'),
+        ('Labor Force YoY',       city['lfp'],        'civilian labor force YoY'),
         ('Building Permits',      city['permits'],    'permits YoY'),
         ('Days on Market',        city['dom'],        'median days on market'),
     ]
@@ -1546,7 +1546,7 @@ def write_methodology(date: str, site_dir: Path):
         ('101A', 'Unemployment',      'Unemployment Rate',              '20%', 'Employment', 'BLS Local Area Unemployment Statistics (LAUS)'),
         ('103B', 'Wage Growth',       'Hourly Earnings YoY',            '15%', 'Employment', 'BLS SAE &mdash; State &amp; Metro Area Earnings'),
         ('104C', 'Cost of Living',    'Cost of Living Composite',       '12%', 'Employment', 'Realtor.com / FRED / Census Bureau'),
-        ('102A', 'Labor Force Part.', 'Labor Force Participation Rate', '10%', 'Employment', 'BLS Local Area Unemployment Statistics (LAUS)'),
+        ('102A', 'Labor Force YoY',  'Civilian Labor Force YoY % Change', '10%', 'Employment', 'BLS Local Area Unemployment Statistics (LAUS)'),
         ('200B', 'Bldg. Permits',     'Building Permits YoY',           '10%', 'Housing',    'Census Bureau Building Permits Survey / FRED'),
         ('204A', 'Days on Market',    'Days on Market Composite',       ' 5%', 'Housing',    'Realtor.com / FRED'),
         ('105C', 'Office Economy',    'Office Worker Ratio Composite',  ' 3%', 'Employment', 'BLS SAE &mdash; Industry Employment'),
@@ -1717,7 +1717,7 @@ def write_methodology(date: str, site_dir: Path):
     <p>
       <strong>Limitation:</strong> Unemployment is a lagging indicator. It peaks after recessions
       have already begun and falls after recoveries are underway. It also misses discouraged workers
-      who have left the labor force entirely, which is why Labor Force Participation (102A)
+      who have left the labor force entirely, which is why Civilian Labor Force Growth (102A)
       complements it.
     </p>
 
@@ -1767,27 +1767,31 @@ def write_methodology(date: str, site_dir: Path):
       improving, and improving faster than peers.
     </p>
 
-    <h2>Labor Force Participation &mdash; 102A &mdash; 10%</h2>
+    <h2>Labor Force Growth &mdash; 102A &mdash; 10%</h2>
     <p>
-      <strong>What it measures:</strong> The share of the civilian non-institutional population
-      aged 16+ that is either employed or actively looking for work. Sourced from BLS LAUS.
+      <strong>What it measures:</strong> The year-over-year percent change in the civilian labor
+      force &mdash; the total count of people who are either employed or actively seeking work.
+      Sourced from BLS Local Area Unemployment Statistics (LAUS).
     </p>
     <p>
       <strong>Why it complements unemployment:</strong> A city can report low unemployment
       simply because discouraged workers stopped looking &mdash; they exit the labor force and
-      disappear from unemployment counts. LFP captures this hidden workforce disengagement.
-      A city with 3.5% unemployment <em>and</em> 58% LFP is in worse shape than one with
-      4.0% unemployment and 67% LFP.
+      disappear from unemployment counts. Tracking the growth rate of the labor force captures
+      whether the workforce supply is expanding (workers moving in or re-engaging) or
+      contracting (discouraged workers exiting or population decline).
     </p>
     <p>
-      <strong>Limitation:</strong> LFP is anchored to annual population benchmarks from BLS,
-      meaning the denominator only updates meaningfully once per year. This makes it a
-      slow-moving structural snapshot. It also varies significantly by demographic composition &mdash;
-      cities with older populations, large student populations, or significant military presence
-      will have structurally lower LFP independent of economic conditions.
+      <strong>Why YoY % change instead of the participation rate:</strong> The traditional LFP
+      rate uses an annual population benchmark from BLS as its denominator, meaning the
+      denominator only updates meaningfully once per year. This makes the rate a slow-moving
+      structural snapshot rather than a dynamic monthly signal. The YoY % change in the raw
+      civilian labor force count avoids this denominator problem entirely and tracks supply-side
+      momentum directly.
     </p>
     <p>
-      <strong>Scored higher when:</strong> Labor force participation is higher.
+      <strong>Scored higher when:</strong> Civilian labor force is growing faster year-over-year.
+      A city attracting workers or seeing re-engagement scores better than one where the labor
+      pool is shrinking.
     </p>
 
     <h2>Building Permits &mdash; 200B &mdash; 10%</h2>
@@ -1927,7 +1931,7 @@ def write_methodology(date: str, site_dir: Path):
 
     <h2>Data Sources</h2>
     <ul>
-      <li><strong>BLS LAUS</strong> &mdash; Local Area Unemployment Statistics: unemployment rate, labor force participation rate</li>
+      <li><strong>BLS LAUS</strong> &mdash; Local Area Unemployment Statistics: unemployment rate, civilian labor force</li>
       <li><strong>BLS SAE</strong> &mdash; State and Metro Area Employment, Hours, and Earnings: employment growth, hourly earnings, weekly hours, industry employment</li>
       <li><strong>Census Bureau / FRED</strong> &mdash; residential building permits</li>
       <li><strong>Realtor.com / FRED</strong> &mdash; median days on market, housing price per square foot</li>
@@ -1950,7 +1954,7 @@ def write_methodology(date: str, site_dir: Path):
     <ul>
       <li><strong>Not a forecast.</strong> The score reflects current and trailing conditions. It is a lagging-to-coincident indicator, not a prediction of future economic performance.</li>
       <li><strong>Not size-adjusted.</strong> All metrics are rates and percentages. A metro with 500,000 workers and one with 5,000,000 are compared on the same basis &mdash; the question is health, not scale.</li>
-      <li><strong>Structural composition effects.</strong> Labor force participation varies by age structure, student population, and military presence independent of economic conditions. The percentile ranking partially mitigates but does not eliminate this bias.</li>
+      <li><strong>Structural composition effects.</strong> Civilian labor force growth reflects both economic conditions and migration patterns. A city growing its labor pool through in-migration looks similar to one recovering from discouraged-worker exit. The percentile ranking captures relative momentum but does not distinguish between these drivers.</li>
       <li><strong>Not a quality-of-life index.</strong> Amenities, climate, culture, and livability are not measured. A city can score highly and still be expensive, congested, or climatically challenging.</li>
       <li><strong>Data lags.</strong> Some BLS metro-level series lag national estimates by 1&ndash;2 months. Scores reflect the most recently available data, which may not be the same calendar month for all metros.</li>
     </ul>
