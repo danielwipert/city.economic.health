@@ -16,7 +16,7 @@ Why this works:
 import json
 from pathlib import Path
 from statistics import mean, stdev
-from datetime import datetime
+from datetime import datetime, date
 from typing import Dict, List, Optional
 
 SCRIPT_DIR = Path(__file__).parent
@@ -31,87 +31,100 @@ def calculate_owr_final_score(metro_data: Dict, all_metros: List[Dict]) -> float
     Calculate office worker ratio score (0-5 points):
     - Component 1 (YoY change using 3-month avg): 0-3 points
       Going UP = better (more office workers)
-    - Component 2 (absolute percentage): 0-2 points
-      Higher % = better
+    - Component 2 (absolute share of total employment): 0-2 points
+      Higher % = better. Uses office_workers / all_employees (both from FRED LAUS),
+      not office_workers / civilian_population — avoids stale population denominator
+      and keeps both series on the same geographic footprint.
     Total: 0-5 points (higher is better)
-    
-    Note: Component 1 uses 3month_avg_yoy from raw office_workers data
     """
-    owr_metric = metro_data['data'].get('office_worker_ratio')
-    if not owr_metric:
-        return None
-    
-    # Component 1: YoY change (3-month average comparison from office_workers)
-    # Get the raw office_workers data which has 3month_avg_yoy
     office_workers_metric = metro_data['data'].get('office_workers')
-    yoy_3mo = office_workers_metric.get('3month_avg_yoy') if office_workers_metric else None
+    if not office_workers_metric:
+        return None
+
+    # Component 1: YoY change (3-month average)
+    yoy_3mo = office_workers_metric.get('3month_avg_yoy')
     yoy_pct_change = yoy_3mo.get('pct_change') if yoy_3mo else None
-    
-    # Collect all YoY changes for percentile calculation
+
     yoy_changes = []
     for metro in all_metros:
-        office_workers = metro['data'].get('office_workers')
-        if office_workers:
-            yoy_3mo_other = office_workers.get('3month_avg_yoy')
-            if yoy_3mo_other:
-                yoy_pct = yoy_3mo_other.get('pct_change')
-                if yoy_pct is not None:
-                    yoy_changes.append(yoy_pct)
-    
-    # Calculate Component 1 score (0-3)
+        ow = metro['data'].get('office_workers')
+        if ow:
+            y = ow.get('3month_avg_yoy')
+            if y:
+                pct = y.get('pct_change')
+                if pct is not None:
+                    yoy_changes.append(pct)
+
     if yoy_pct_change is not None and yoy_changes:
-        # Higher YoY change is better
         better_count = sum(1 for v in yoy_changes if v < yoy_pct_change)
-        yoy_percentile = (better_count / len(yoy_changes)) * 100.0
-        c1_score = (yoy_percentile / 100.0) * 3.0
+        c1_score = (better_count / len(yoy_changes)) * 3.0
     else:
-        c1_score = 1.5  # Default middle value
-    
-    # Component 2: Absolute office worker percentage
-    abs_pct = owr_metric.get('latest_value')
-    
-    # Collect all absolute percentages
+        c1_score = 1.5
+
+    # Component 2: office workers as share of total employment (not population)
+    ow_latest = office_workers_metric.get('latest_value')
+    emp_latest = metro_data['data'].get('all_employees', {}).get('latest_value')
+    abs_pct = (ow_latest / emp_latest * 100) if ow_latest and emp_latest else None
+
     abs_pcts = []
     for metro in all_metros:
-        owr = metro['data'].get('office_worker_ratio')
-        if owr:
-            latest = owr.get('latest_value')
-            if latest is not None:
-                abs_pcts.append(latest)
-    
-    # Calculate Component 2 score (0-2)
+        ow = metro['data'].get('office_workers', {}).get('latest_value')
+        emp = metro['data'].get('all_employees', {}).get('latest_value')
+        if ow and emp:
+            abs_pcts.append(ow / emp * 100)
+
     if abs_pct is not None and abs_pcts:
-        # Higher percentage is better
         better_count = sum(1 for v in abs_pcts if v < abs_pct)
-        abs_percentile = (better_count / len(abs_pcts)) * 100.0
-        c2_score = (abs_percentile / 100.0) * 2.0
+        c2_score = (better_count / len(abs_pcts)) * 2.0
     else:
-        c2_score = 1.0  # Default middle value
-    
-    total = c1_score + c2_score
-    return min(5.0, max(0.0, total))
+        c2_score = 1.0
+
+    return min(5.0, max(0.0, c1_score + c2_score))
 
 
 # ============================================================================
 # STEP 1B: CALCULATE 3-COMPONENT COST OF LIVING METRIC
 # ============================================================================
 
+PSF_STALENESS_THRESHOLD_MONTHS = 9  # If PSF date lags earnings date by more than this, treat as missing
+
+
+def _psf_is_stale(metro_data: Dict) -> bool:
+    """
+    Returns True if PSF data is more than PSF_STALENESS_THRESHOLD_MONTHS behind
+    the earnings date. Stale PSF produces misleading YoY trend signals.
+    """
+    psf_date_str = metro_data['data'].get('price_per_sqft', {}).get('latest_date')
+    earn_date_str = metro_data['data'].get('hourly_earnings', {}).get('latest_date')
+    if not psf_date_str or not earn_date_str:
+        return False
+    psf_date = datetime.strptime(psf_date_str, '%Y-%m-%d').date()
+    earn_date = datetime.strptime(earn_date_str, '%Y-%m-%d').date()
+    months_behind = (earn_date.year - psf_date.year) * 12 + (earn_date.month - psf_date.month)
+    return months_behind > PSF_STALENESS_THRESHOLD_MONTHS
+
+
 def calculate_col_component1(metro_data: Dict) -> float:
     """
     Component 1: Absolute Affordability
     Price per square foot ÷ Hourly earnings (higher = worse affordability)
+    Returns None if PSF data is stale (> 9 months behind earnings) to avoid
+    using outdated housing prices in the ratio.
     """
     if 'price_per_sqft' not in metro_data['data']:
         return None
     if 'hourly_earnings' not in metro_data['data']:
         return None
-    
+
+    if _psf_is_stale(metro_data):
+        return None
+
     psf = metro_data['data']['price_per_sqft'].get('latest_value')
     earnings = metro_data['data']['hourly_earnings'].get('latest_value')
-    
+
     if psf is None or earnings is None or earnings == 0:
         return None
-    
+
     col_index = psf / earnings
     return col_index
 
@@ -124,6 +137,9 @@ def calculate_col_component2(metro_data: Dict) -> float:
     Returns 0 if data is unavailable.
     """
     if 'price_per_sqft' not in metro_data['data'] or 'hourly_earnings' not in metro_data['data']:
+        return 0
+
+    if _psf_is_stale(metro_data):
         return 0
 
     psf_metric      = metro_data['data']['price_per_sqft']
@@ -238,6 +254,52 @@ def calculate_col_final_score(metro_data: Dict, all_metros: List[Dict],
 
 
 # ============================================================================
+# 101A: UNEMPLOYMENT 2-COMPONENT COMPOSITE
+# ============================================================================
+
+def calculate_unemployment_composite(unemp_level, unemp_yoy_pp):
+    """
+    2-component composite for Unemployment Rate (101A). Total: 0-10, higher = better.
+    Percentile-ranked with invert=False.
+
+    c1 (75% = 7.5 pts): Current unemployment level.
+        Absolute scale anchored at 2% (full employment floor) and 8% (distress ceiling).
+        Lower unemployment = higher score.
+        2% or below -> 7.5 pts | 5% -> 3.75 pts | 8% or above -> 0 pts.
+
+    c2 (25% = 2.5 pts): YoY direction (absolute pp change, latest vs same month prior year).
+        Improvement rewarded, deterioration penalized. Neutral at 0pp change.
+        Uses point-to-point YoY (not 3-month avg) — LAUS data has a structural
+        publication gap at index 12 for ~46/50 metros each run; point-to-point
+        avoids nulls. A 13-month fallback handles the rare case where the
+        year-ago month itself was never published by BLS.
+        -1.0pp or better (improving) -> 2.5 pts | flat -> 1.25 pts | +1.0pp or worse -> 0 pts.
+
+    Why not 3-month average YoY: BLS LAUS releases create a systematic gap at the
+    third-most-recent month (Oct 2025 missing for 46/50 metros as of April 2026),
+    which would null out the 3-month average for almost the entire dataset each run.
+    """
+    EXCELLENT = 2.0   # at or below: maximum c1 score
+    DISTRESS  = 8.0   # at or above: zero c1 score
+
+    # c1: level component (0-7.5 pts)
+    if unemp_level is None:
+        c1 = 3.75  # neutral default
+    else:
+        c1 = max(0.0, min(7.5, (DISTRESS - unemp_level) / (DISTRESS - EXCELLENT) * 7.5))
+
+    # c2: direction component (0-2.5 pts)
+    # unemp_yoy_pp is the absolute pp change (positive = deteriorating)
+    RANGE = 1.0  # ±1.0pp captures meaningful movement without overreacting to noise
+    if unemp_yoy_pp is None:
+        c2 = 1.25  # neutral default
+    else:
+        c2 = max(0.0, min(2.5, (RANGE - unemp_yoy_pp) / (2 * RANGE) * 2.5))
+
+    return min(10.0, max(0.0, c1 + c2))
+
+
+# ============================================================================
 # 204A: DAYS ON MARKET 2-COMPONENT COMPOSITE
 # ============================================================================
 
@@ -246,42 +308,45 @@ def calculate_dom_composite_score(days_yoy, dom_level):
     2-component composite for Days on Market (204A). Total: 0-10, higher = better.
     Percentile-ranked with invert=False.
 
-    c1 (60% = 6 pts): YoY % change in DoM — direction depends on level.
-        When DoM is LOW/HEALTHY (< 60 days): rising = loosening = good for incoming workers.
+    c1 (60% = 6 pts): YoY % change in DoM — direction interpretation blends across a
+        transition zone (45–75 days) rather than switching at a hard 60-day cliff.
+
+        Below 45 days (tight market): loosening = good for incoming workers.
             -30% or worse → 0 pts | flat → 3 pts | +30% or more → 6 pts.
-        When DoM is ELEVATED (>= 60 days): rising = demand destruction = bad.
-            Direction inverts — falling = recovering demand = good.
-            +30% or worse → 0 pts | flat → 3 pts | -30% or better → 6 pts.
-        Rationale: a market softening from 25→40 days is gaining healthy inventory.
-        A market softening from 65→80 days signals that buyers cannot or will not
-        transact — existing owners are locked in, labor mobility is impaired.
+        Above 75 days (elevated/soft market): loosening = demand destruction = bad.
+            Direction inverts: +30% or worse → 0 pts | flat → 3 pts | -30% → 6 pts.
+        45–75 days (transition zone): linearly blended between both interpretations.
+            A market at 60 days (midpoint) weights each regime equally.
+
+        Rationale: a market softening from 25→40 days gains healthy inventory.
+        A market softening from 80→95 days signals buyers cannot transact —
+        labor mobility is impaired. The blend zone eliminates the cliff where a
+        1-day difference in DoM level caused a multi-point score swing.
 
     c2 (40% = 4 pts): Absolute DoM level — context and distress filter.
         Normal range (35-80 days) peaks at 4 pts.
         Extreme tightness (<15 days) → 0 pts — accessibility problem.
         Severe softness (>130 days) → 0 pts — potential demand destruction.
     """
-    TREND_INFLECTION = 60  # above this level, rising DoM is demand destruction (penalized)
+    BLEND_LOW  = 45   # below this: fully in "loosening = good" regime
+    BLEND_HIGH = 75   # above this: fully in "loosening = bad" regime
 
-    # --- c1: Trend (0-6 points) — direction depends on level ---
+    # --- c1: Trend (0-6 points) — blended regime ---
     if days_yoy is None:
         c1_score = 3.0  # default to midpoint
-    elif dom_level is None or dom_level < TREND_INFLECTION:
-        # Tight/healthy-low market: rising = loosening = good
-        if days_yoy >= 30:
-            c1_score = 6.0
-        elif days_yoy <= -30:
-            c1_score = 0.0
-        else:
-            c1_score = (days_yoy + 30) / 60.0 * 6.0  # linear -30→0→+30 maps to 0→3→6
     else:
-        # Elevated/soft market: rising = demand destruction = bad (direction inverted)
-        if days_yoy <= -30:
-            c1_score = 6.0  # recovering strongly
-        elif days_yoy >= 30:
-            c1_score = 0.0  # worsening sharply
+        # Score under each pure regime (clamped to [0,6])
+        c1_healthy  = max(0.0, min(6.0, (days_yoy + 30) / 60.0 * 6.0))   # loosening = good
+        c1_elevated = max(0.0, min(6.0, (-days_yoy + 30) / 60.0 * 6.0))  # loosening = bad
+
+        if dom_level is None or dom_level <= BLEND_LOW:
+            c1_score = c1_healthy
+        elif dom_level >= BLEND_HIGH:
+            c1_score = c1_elevated
         else:
-            c1_score = (-days_yoy + 30) / 60.0 * 6.0  # linear +30→0→-30 maps to 0→3→6
+            # Linear blend: weight_elevated rises from 0 at BLEND_LOW to 1 at BLEND_HIGH
+            w_elevated = (dom_level - BLEND_LOW) / (BLEND_HIGH - BLEND_LOW)
+            c1_score = (1 - w_elevated) * c1_healthy + w_elevated * c1_elevated
 
     # --- c2: Level context (0-4 points) ---
     TIGHT_FLOOR  = 15   # at or below: full tightness penalty
@@ -440,7 +505,7 @@ def calculate_metrics():
     
     metrics_data = {
         '101A': [],  # Unemployment rate
-        '102A': [],  # Labor force participation
+        '102A': [],  # Civilian labor force YoY % change
         '103B': [],  # Hourly earnings YoY
         '104C': [],  # Cost of living (final score)
         '105C': [],  # Office worker ratio (2-component score)
@@ -453,9 +518,21 @@ def calculate_metrics():
         data = metro['data']
 
         # Extract latest values for each metric
-        unemp = data.get('unemployment_rate', {}).get('latest_value')
-        lfp = data.get('civilian_labor_force', {}).get('latest_value')
-        earnings_yoy = data.get('hourly_earnings', {}).get('yoy_change', {}).get('pct_change')
+        unemp       = data.get('unemployment_rate', {}).get('latest_value')
+        unemp_yoy_pp = data.get('unemployment_rate', {}).get('yoy_change', {}).get('change')
+        # 101A: 2-component composite — level (75%) + YoY direction (25%).
+        unemp_composite = calculate_unemployment_composite(unemp, unemp_yoy_pp)
+        # 102A: YoY % change in civilian labor force — avoids denominator/population
+        # mismatch issues with LFP rate (stale Census pop + BLS vs ACS geo mismatch).
+        # Captures supply-side momentum: labor force growing = workers moving in or
+        # re-entering. Differentiates from 107E (employment demand) by measuring
+        # availability, not hiring activity.
+        clf_yoy = data.get('civilian_labor_force', {}).get('yoy_change', {}).get('pct_change')
+        # 103B: 3-month average YoY — smoother than point-to-point; earnings data
+        # has no missing-value gaps across the 50-metro dataset so the 3mo avg is
+        # always available. Avoids single-month noise (year-end bonus mix, seasonal
+        # staffing) that causes >1pp swings vs the underlying trend for ~40% of metros.
+        earnings_yoy = data.get('hourly_earnings', {}).get('3month_avg_yoy', {}).get('pct_change')
         col_score = calculate_col_final_score(metro, all_metros, col_component2_all, col_component3_all)
         owr = owr_scores_all.get(metro['metro_name'])
         wh_data = data.get('weekly_hours', {})
@@ -468,7 +545,24 @@ def calculate_metrics():
         # 107E: Labor Demand Composite — employment growth (primary) + hours deviation
         # (employment-conditioned). Combines former 107E and 106D into one signal.
         ldc = calculate_labor_demand_composite(emp_yoy, wh_deviation)
-        permits_yoy = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')
+        # 200B: Staleness check — monthly series: 6-month threshold.
+        # Annual series (e.g. Fresno county): 18-month threshold so the most
+        # recent annual total is still usable. For annual series, fall back to
+        # point-to-point yoy_change since 3month_avg_yoy is intentionally None.
+        _bp = data.get('building_permits', {})
+        _bp_date_str = _bp.get('latest_date')
+        _bp_is_annual = bool(_bp.get('yoy_change', {}).get('is_annual'))
+        _bp_stale = False
+        if _bp_date_str:
+            _bp_date = datetime.strptime(_bp_date_str, '%Y-%m-%d').date()
+            _bp_threshold = 1095 if _bp_is_annual else 180  # annual: 3yr; monthly: 6mo
+            _bp_stale = (date.today() - _bp_date).days > _bp_threshold
+        if _bp_stale:
+            permits_yoy = None
+        elif _bp_is_annual:
+            permits_yoy = _bp.get('yoy_change', {}).get('pct_change')
+        else:
+            permits_yoy = _bp.get('3month_avg_yoy', {}).get('pct_change')
         # 204A: 2-component composite — trend (60%) + level context (40%).
         days_yoy   = data.get('median_days_on_market', {}).get('yoy_change', {}).get('pct_change')
         dom_level  = data.get('median_days_on_market', {}).get('latest_value')
@@ -476,9 +570,9 @@ def calculate_metrics():
 
         # Add to collections (only if not None)
         if unemp is not None:
-            metrics_data['101A'].append(unemp)
-        if lfp is not None:
-            metrics_data['102A'].append(lfp)
+            metrics_data['101A'].append(unemp_composite)
+        if clf_yoy is not None:
+            metrics_data['102A'].append(clf_yoy)
         if earnings_yoy is not None:
             metrics_data['103B'].append(earnings_yoy)
         if col_score is not None:
@@ -501,7 +595,7 @@ def calculate_metrics():
     # Absorbs former 107E (15%) + 106D (10%) = 25% combined.
     weights = {
         '101A': 20,  # Unemployment (lower is better)
-        '102A': 10,  # LFP (higher is better) — structural/annual signal, reduced from 15%
+        '102A': 10,  # Civilian labor force YoY % change (higher is better) — supply-side momentum
         '103B': 15,  # Earnings growth YoY (higher is better) — increased from 10%; real-time demand signal
         '104C': 12,  # Cost of living (lower is better) — increased from 10%; key business location signal
         '105C': 3,   # Office worker ratio (higher is better) — reduced from 5%; tiebreaker signal only
@@ -522,9 +616,11 @@ def calculate_metrics():
         data = metro['data']
         
         # Extract values
-        unemp = data.get('unemployment_rate', {}).get('latest_value')
-        lfp = data.get('civilian_labor_force', {}).get('latest_value')
-        earnings_yoy = data.get('hourly_earnings', {}).get('yoy_change', {}).get('pct_change')
+        unemp        = data.get('unemployment_rate', {}).get('latest_value')
+        unemp_yoy_pp = data.get('unemployment_rate', {}).get('yoy_change', {}).get('change')
+        unemp_composite = calculate_unemployment_composite(unemp, unemp_yoy_pp)
+        clf_yoy = data.get('civilian_labor_force', {}).get('yoy_change', {}).get('pct_change')
+        earnings_yoy = data.get('hourly_earnings', {}).get('3month_avg_yoy', {}).get('pct_change')
         col_score = calculate_col_final_score(metro, all_metros, col_component2_all, col_component3_all)
         owr = owr_scores_all.get(metro_name)
         wh_data = data.get('weekly_hours', {})
@@ -535,15 +631,28 @@ def calculate_metrics():
                         else None)
         emp_yoy      = data.get('all_employees', {}).get('yoy_change', {}).get('pct_change')
         ldc          = calculate_labor_demand_composite(emp_yoy, wh_deviation)
-        permits_yoy  = data.get('building_permits', {}).get('3month_avg_yoy', {}).get('pct_change')
+        _bp2 = data.get('building_permits', {})
+        _bp_date_str2 = _bp2.get('latest_date')
+        _bp_is_annual2 = bool(_bp2.get('yoy_change', {}).get('is_annual'))
+        _bp_stale2 = False
+        if _bp_date_str2:
+            _bp_date2 = datetime.strptime(_bp_date_str2, '%Y-%m-%d').date()
+            _bp_threshold2 = 1095 if _bp_is_annual2 else 180  # annual: 3yr; monthly: 6mo
+            _bp_stale2 = (date.today() - _bp_date2).days > _bp_threshold2
+        if _bp_stale2:
+            permits_yoy = None
+        elif _bp_is_annual2:
+            permits_yoy = _bp2.get('yoy_change', {}).get('pct_change')
+        else:
+            permits_yoy = _bp2.get('3month_avg_yoy', {}).get('pct_change')
         days_yoy     = data.get('median_days_on_market', {}).get('yoy_change', {}).get('pct_change')
         dom_level    = data.get('median_days_on_market', {}).get('latest_value')
         dom_composite = calculate_dom_composite_score(days_yoy, dom_level)
 
         # Calculate percentile scores
         percentiles = {
-            '101A': calculate_percentile_score(unemp, metrics_data['101A'], invert=True) if unemp else 50,
-            '102A': calculate_percentile_score(lfp, metrics_data['102A'], invert=False) if lfp else 50,
+            '101A': calculate_percentile_score(unemp_composite, metrics_data['101A'], invert=False),
+            '102A': calculate_percentile_score(clf_yoy, metrics_data['102A'], invert=False) if clf_yoy is not None else 50,
             '103B': calculate_percentile_score(earnings_yoy, metrics_data['103B'], invert=False) if earnings_yoy is not None else 50,
             '104C': calculate_percentile_score(col_score, metrics_data['104C'], invert=True) if col_score else 50,
             '105C': calculate_percentile_score(owr, metrics_data['105C'], invert=False) if owr is not None else 50,
@@ -587,8 +696,10 @@ def calculate_metrics():
             "rank": rank,
             "primary_city": primary_city,
             "raw_values": {
+                "101A_composite": round(unemp_composite, 2),
                 "101A_unemployment": round(unemp, 2) if unemp else None,
-                "102A_lfp": round(lfp, 2) if lfp else None,
+                "101A_unemp_yoy_pp": round(unemp_yoy_pp, 2) if unemp_yoy_pp is not None else None,
+                "102A_clf_yoy": round(clf_yoy, 2) if clf_yoy is not None else None,
                 "103B_earnings_yoy": round(earnings_yoy, 2) if earnings_yoy is not None else None,
                 "104C_col": round(col_score, 2) if col_score else None,
                 "105C_owr": round(owr, 2) if owr is not None else None,
@@ -760,7 +871,7 @@ def create_excel_from_metrics(output_data):
     ws_raw = wb.create_sheet("Raw Values", 2)
     
     raw_metric_names = {
-        '101A_unemployment': 'Unemployment %', '102A_lfp': 'LFP %',
+        '101A_unemployment': 'Unemployment %', '102A_clf_yoy': 'Labor Force YoY %',
         '103B_earnings_yoy': 'Earnings YoY %', '104C_col': 'COL Score',
         '105C_owr': 'Office Worker %', '106D_wh_trend_deviation_pct': 'WH Trend Dev %',
         '107E_employment_growth_yoy': 'Emp Growth YoY %', '200B_permits_yoy': 'Permits YoY %',
@@ -814,7 +925,7 @@ def create_excel_from_metrics(output_data):
         ws_rank.cell(row=row, column=5, value=metro['grade']['letter'])
         ws_rank.cell(row=row, column=6, value=metro['grade']['percentile'])
         ws_rank.cell(row=row, column=7, value=metro['raw_values']['101A_unemployment'])
-        ws_rank.cell(row=row, column=8, value=metro['raw_values']['102A_lfp'])
+        ws_rank.cell(row=row, column=8, value=metro['raw_values']['102A_clf_yoy'])
         ws_rank.cell(row=row, column=9, value=metro['raw_values']['103B_earnings_yoy'])
         ws_rank.cell(row=row, column=10, value=metro['raw_values']['104C_col'])
         

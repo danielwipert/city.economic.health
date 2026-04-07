@@ -123,29 +123,85 @@ class HistoricalDataProcessor:
 
         return mean(values) if len(values) >= 3 else None
     
+    def _is_annual_series(self, observations):
+        """Returns True if observations appear to be annual (gap between first two ~365 days)."""
+        if len(observations) < 2:
+            return False
+        try:
+            from datetime import datetime
+            d0 = datetime.strptime(observations[0]['date'], '%Y-%m-%d')
+            d1 = datetime.strptime(observations[1]['date'], '%Y-%m-%d')
+            return abs((d0 - d1).days) > 300
+        except Exception:
+            return False
+
     def calculate_yoy_change(self, observations):
-        """Year-over-year change (current vs 12 months ago)"""
-        if not observations or len(observations) < 13:
+        """Year-over-year change (current vs 12 months ago).
+
+        For annual series (obs gap > 300 days), uses obs[1] as the prior-year
+        value — that IS one year ago for annual data. obs[12] would be 12 years
+        ago, which is meaningless.
+
+        For monthly series: fallback logic tries obs[13] if obs[12] is missing
+        (FRED publishes '.' for some BLS LAUS months that are never released).
+        A one-month offset is well within noise for slowly-moving series like
+        unemployment. The fallback is flagged in the output.
+        """
+        if not observations or len(observations) < 2:
             return None
-        
+
         current = self.safe_float(observations[0].get('value'))
+
+        if self._is_annual_series(observations):
+            # Annual series: prior year is the immediately preceding observation
+            previous_year = self.safe_float(observations[1].get('value'))
+            if current is None or previous_year is None or previous_year == 0:
+                return None
+            change = current - previous_year
+            pct_change = (change / abs(previous_year)) * 100
+            return {
+                'current': round(current, 4),
+                'change': round(change, 4),
+                'pct_change': round(pct_change, 2),
+                'is_annual': True
+            }
+
+        if len(observations) < 13:
+            return None
+
         previous_year = self.safe_float(observations[12].get('value'))
-        
+
+        fallback_date = None
+        if previous_year is None and len(observations) >= 14:
+            previous_year = self.safe_float(observations[13].get('value'))
+            if previous_year is not None:
+                fallback_date = observations[13].get('date')
+
         if current is None or previous_year is None or previous_year == 0:
             return None
-        
+
         change = current - previous_year
         pct_change = (change / abs(previous_year)) * 100
-        
-        return {
+
+        result = {
             'current': round(current, 4),
             'change': round(change, 4),
             'pct_change': round(pct_change, 2)
         }
+        if fallback_date:
+            result['yoy_fallback_date'] = fallback_date
+
+        return result
     
     def calculate_3month_avg_yoy(self, observations):
-        """3-month average YoY (current 3-mo vs previous year 3-mo)"""
+        """3-month average YoY (current 3-mo vs previous year 3-mo).
+        Returns None for annual series — averaging three annual totals and
+        comparing to three totals from 12 positions earlier (12 years ago)
+        is meaningless.
+        """
         if not observations or len(observations) < 15:
+            return None
+        if self._is_annual_series(observations):
             return None
         
         current_3mo = self.calculate_3month_average(observations[:3])

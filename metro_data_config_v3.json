@@ -3019,11 +3019,12 @@
           "seasonally_adjusted": true
         },
         "building_permits": {
-          "code": "CLEV439BPPRIV",
-          "description": "New Private Housing Structures Authorized by Building Permits",
+          "code": "OHBPPRIVSA",
+          "description": "New Privately-Owned Housing Units Authorized by Building Permits: Ohio (State proxy \u2014 MSA series discontinued after Dec 2023)",
           "units": "Units",
           "frequency": "Monthly",
-          "seasonally_adjusted": false
+          "seasonally_adjusted": true,
+          "note": "State-level proxy series"
         },
         "home_price_index": {
           "code": "CEXRSA",
@@ -3464,11 +3465,12 @@
           "seasonally_adjusted": true
         },
         "building_permits": {
-          "code": "BPPRIV044007",
-          "description": "New Private Housing Structures Authorized by Building Permits",
+          "code": "RIBPPRIVSA",
+          "description": "New Privately-Owned Housing Units Authorized by Building Permits: Rhode Island (State proxy \u2014 MSA series unavailable)",
           "units": "Units",
           "frequency": "Monthly",
-          "seasonally_adjusted": false
+          "seasonally_adjusted": true,
+          "note": "State-level proxy series"
         },
         "home_price_index": {
           "code": "ATNHPIUS39300Q",
@@ -4443,11 +4445,12 @@
           "seasonally_adjusted": true
         },
         "building_permits": {
-          "code": "BPPRIV009003",
-          "description": "New Private Housing Structures Authorized by Building Permits",
+          "code": "CTBPPRIVSA",
+          "description": "New Privately-Owned Housing Units Authorized by Building Permits: Connecticut (State proxy \u2014 MSA series unavailable)",
           "units": "Units",
           "frequency": "Monthly",
-          "seasonally_adjusted": false
+          "seasonally_adjusted": true,
+          "note": "State-level proxy series"
         },
         "home_price_index": {
           "code": "ATNHPIUS25540Q",

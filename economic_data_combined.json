@@ -29990,6 +29990,103 @@
           "count": 15,
           "series_id": "MEDDAYONMAR17460",
           "metric_name": "Median Days on Market"
+        },
+        "building_permits": {
+          "observations": [
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2026-01-01",
+              "value": "3120.04963139733"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-12-01",
+              "value": "2797.65797261877"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-11-01",
+              "value": "2623.56053218875"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-10-01",
+              "value": "2806.67549847578"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-09-01",
+              "value": "3026.16191877515"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-08-01",
+              "value": "2221.85619659393"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-07-01",
+              "value": "2743.34194108316"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-06-01",
+              "value": "2588.38104918435"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-05-01",
+              "value": "3370.63929874324"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-04-01",
+              "value": "2505.38343024701"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-03-01",
+              "value": "3081.5563646606"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-02-01",
+              "value": "3471.88240943402"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-01-01",
+              "value": "2233.24865753036"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2024-12-01",
+              "value": "3190.97076561453"
+            },
+            {
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2024-11-01",
+              "value": "2261.00769298269"
+            }
+          ],
+          "count": 15,
+          "series_id": "OHBPPRIVSA",
+          "metric_name": "Building Permits (State Proxy)"
         }
       }
     },
@@ -34113,99 +34210,99 @@
         "building_permits": {
           "observations": [
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2024-01-01",
-              "value": "782.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2026-01-01",
+              "value": "94.3836081627597"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2023-01-01",
-              "value": "489.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-12-01",
+              "value": "186.231316185288"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2022-01-01",
-              "value": "640.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-11-01",
+              "value": "121.547812142647"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2021-01-01",
-              "value": "540.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-10-01",
+              "value": "146.000834047313"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2020-01-01",
-              "value": "620.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-09-01",
+              "value": "174.135414655715"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2019-01-01",
-              "value": "587.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-08-01",
+              "value": "142.518623679031"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2018-01-01",
-              "value": "376.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-07-01",
+              "value": "147.140638261782"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2017-01-01",
-              "value": "406.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-06-01",
+              "value": "155.327437915761"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2016-01-01",
-              "value": "480.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-05-01",
+              "value": "123.316016083025"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2015-01-01",
-              "value": "423"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-04-01",
+              "value": "125.398630938057"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2014-01-01",
-              "value": "342"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-03-01",
+              "value": "86.8799023129464"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2013-01-01",
-              "value": "322"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-02-01",
+              "value": "122.435813053118"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2012-01-01",
-              "value": "208"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-01-01",
+              "value": "121.132655921791"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2011-01-01",
-              "value": "277"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2024-12-01",
+              "value": "97.1473240013838"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2010-01-01",
-              "value": "297"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2024-11-01",
+              "value": "107.354381530553"
             }
           ],
           "count": 15,
-          "series_id": "BPPRIV044007",
-          "metric_name": "Building Permits"
+          "series_id": "RIBPPRIVSA",
+          "metric_name": "Building Permits (State Proxy)"
         },
         "price_per_sqft": {
           "observations": [
@@ -43815,99 +43912,99 @@
         "building_permits": {
           "observations": [
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2022-01-01",
-              "value": "1403.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2026-01-01",
+              "value": "632.920479156066"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2021-01-01",
-              "value": "835.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-12-01",
+              "value": "574.196216072712"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2020-01-01",
-              "value": "850.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-11-01",
+              "value": "275.234905063326"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2019-01-01",
-              "value": "790.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-10-01",
+              "value": "672.290902648543"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2018-01-01",
-              "value": "1134.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-09-01",
+              "value": "474.887994077144"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2017-01-01",
-              "value": "957.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-08-01",
+              "value": "838.06545569079"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2016-01-01",
-              "value": "1461.0"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-07-01",
+              "value": "903.406193975949"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2015-01-01",
-              "value": "892"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-06-01",
+              "value": "432.881187736748"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2014-01-01",
-              "value": "962"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-05-01",
+              "value": "705.549278406125"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2013-01-01",
-              "value": "1063"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-04-01",
+              "value": "567.543798950615"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2012-01-01",
-              "value": "838"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-03-01",
+              "value": "433.696614367684"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2011-01-01",
-              "value": "600"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-02-01",
+              "value": "290.181323801502"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2010-01-01",
-              "value": "810"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2025-01-01",
+              "value": "411.505934694206"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2009-01-01",
-              "value": "810"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2024-12-01",
+              "value": "702.183939433417"
             },
             {
-              "realtime_start": "2026-02-23",
-              "realtime_end": "2026-02-23",
-              "date": "2008-01-01",
-              "value": "1039"
+              "realtime_start": "2026-04-07",
+              "realtime_end": "2026-04-07",
+              "date": "2024-11-01",
+              "value": "584.366905722681"
             }
           ],
           "count": 15,
-          "series_id": "BPPRIV009003",
-          "metric_name": "Building Permits"
+          "series_id": "CTBPPRIVSA",
+          "metric_name": "Building Permits (State Proxy)"
         },
         "price_per_sqft": {
           "observations": [

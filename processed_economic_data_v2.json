@@ -1,6 +1,6 @@
 {
-  "processing_timestamp": "2026-04-06T18:20:44.966633",
-  "processing_date": "2026-04-06 18:20:44",
+  "processing_timestamp": "2026-04-07T09:16:31.439561",
+  "processing_date": "2026-04-07 09:16:31",
   "version": 2,
   "metrics_count": 9,
   "metrics_scored": 9,
@@ -28,8 +28,8 @@
       "metros_with_data": 50
     },
     "building_permits": {
-      "msa_average": 1243.3469,
-      "metros_with_data": 49
+      "msa_average": 1251.7271,
+      "metros_with_data": 50
     },
     "price_per_sqft": {
       "msa_average": 284.4694,
@@ -1642,6 +1642,24 @@
             "pct_change": 0.38
           }
         },
+        "office_workers": {
+          "latest_value": 508.295,
+          "latest_date": "2025-12-01",
+          "series_id": "PHIL942PBSV",
+          "metric_name": "Office Workers",
+          "3month_average": 507.96996402776534,
+          "12month_average": 504.12285527128165,
+          "yoy_change": {
+            "current": 508.295,
+            "change": 10.6143,
+            "pct_change": 2.13
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 507.97,
+            "change": 12.1908,
+            "pct_change": 2.46
+          }
+        },
         "building_permits": {
           "latest_value": 1136.0,
           "latest_date": "2026-01-01",
@@ -1708,6 +1726,19 @@
             "pct_change": -1.74
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
+        },
+        "office_worker_ratio": {
+          "latest_value": 9.836,
+          "latest_date": "2025-12-01",
+          "series_id": "PHIL942PBSV",
+          "metric_name": "Office Worker Ratio",
+          "3month_average": 9.8297,
+          "yoy_change": {
+            "current": 9.836,
+            "change": 0.2054,
+            "pct_change": 2.13
+          },
+          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
@@ -6229,7 +6260,7 @@
       "metro_name": "Cleveland",
       "primary_city": "Cleveland",
       "civilian_population": 1785860,
-      "metrics_processed": 10,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 3.4,
@@ -6373,6 +6404,24 @@
             "current_3mo": 47.3333,
             "change": 2.3333,
             "pct_change": 5.19
+          }
+        },
+        "building_permits": {
+          "latest_value": 3120.0496,
+          "latest_date": "2026-01-01",
+          "series_id": "OHBPPRIVSA",
+          "metric_name": "Building Permits (State Proxy)",
+          "3month_average": 2847.08937873495,
+          "12month_average": 2863.0955202835075,
+          "yoy_change": {
+            "current": 3120.0496,
+            "change": 886.801,
+            "pct_change": 39.71
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 2847.0894,
+            "change": 285.347,
+            "pct_change": 11.14
           }
         },
         "cost_of_living": {
@@ -7275,21 +7324,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 782.0,
-          "latest_date": "2024-01-01",
-          "series_id": "BPPRIV044007",
-          "metric_name": "Building Permits",
-          "3month_average": 637.0,
-          "12month_average": 500.5833333333333,
+          "latest_value": 94.3836,
+          "latest_date": "2026-01-01",
+          "series_id": "RIBPPRIVSA",
+          "metric_name": "Building Permits (State Proxy)",
+          "3month_average": 134.05424549689823,
+          "12month_average": 135.44300395312027,
           "yoy_change": {
-            "current": 782.0,
-            "change": 574.0,
-            "pct_change": 275.96
+            "current": 94.3836,
+            "change": -26.749,
+            "pct_change": -22.08
           },
           "3month_avg_yoy": {
-            "current_3mo": 637.0,
-            "change": 376.3333,
-            "pct_change": 144.37
+            "current_3mo": 134.0542,
+            "change": 25.5095,
+            "pct_change": 23.5
           }
         },
         "price_per_sqft": {
@@ -8686,6 +8735,20 @@
       "civilian_population": 955062,
       "metrics_processed": 11,
       "data": {
+        "unemployment_rate": {
+          "latest_value": 2.2,
+          "latest_date": "2025-12-01",
+          "series_id": "BIRM801URN",
+          "metric_name": "Unemployment Rate",
+          "3month_average": null,
+          "12month_average": 2.7545454545454544,
+          "yoy_change": {
+            "current": 2.2,
+            "change": -0.8,
+            "pct_change": -26.67
+          },
+          "3month_avg_yoy": null
+        },
         "civilian_labor_force": {
           "latest_value": 60.5604,
           "latest_date": "2025-12-01",
@@ -8970,14 +9033,11 @@
           "12month_average": 2952.6666666666665,
           "yoy_change": {
             "current": 2439.0,
-            "change": 595.0,
-            "pct_change": 32.27
+            "change": -715.0,
+            "pct_change": -22.67,
+            "is_annual": true
           },
-          "3month_avg_yoy": {
-            "current_3mo": 3085.0,
-            "change": 1180.3333,
-            "pct_change": 61.97
-          }
+          "3month_avg_yoy": null
         },
         "price_per_sqft": {
           "latest_value": 261.0,
@@ -9348,21 +9408,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1403.0,
-          "latest_date": "2022-01-01",
-          "series_id": "BPPRIV009003",
-          "metric_name": "Building Permits",
-          "3month_average": 1029.3333333333333,
-          "12month_average": 982.0833333333334,
+          "latest_value": 632.9205,
+          "latest_date": "2026-01-01",
+          "series_id": "CTBPPRIVSA",
+          "metric_name": "Building Permits (State Proxy)",
+          "3month_average": 494.11720009736797,
+          "12month_average": 566.7378624956003,
           "yoy_change": {
-            "current": 1403.0,
-            "change": 593.0,
-            "pct_change": 73.21
+            "current": 632.9205,
+            "change": 221.4145,
+            "pct_change": 53.81
           },
           "3month_avg_yoy": {
-            "current_3mo": 1029.3333,
-            "change": 143.0,
-            "pct_change": 16.13
+            "current_3mo": 494.1172,
+            "change": -71.9017,
+            "pct_change": -12.7
           }
         },
         "price_per_sqft": {
