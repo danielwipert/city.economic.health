@@ -305,6 +305,14 @@ td a:hover { color: var(--color-primary); text-decoration: none; }
   margin-bottom: 36px;
 }
 
+/* ── NARRATIVE SECTION HEADINGS ── */
+.narrative-heading {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 1.2em 0 0.3em;
+}
+
 /* ── SCORECARD ── */
 .section-title {
   font-size: 0.65rem;

@@ -392,6 +392,14 @@ td a:hover { color: var(--color-primary); text-decoration: none; }
   margin-bottom: 36px;
 }
 
+/* ── NARRATIVE SECTION HEADINGS ── */
+.narrative-heading {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 1.2em 0 0.3em;
+}
+
 /* ── SCORECARD ── */
 .section-title {
   font-size: 0.65rem;
@@ -948,7 +956,19 @@ def load_narrative(primary_city: str) -> str:
             body_lines = [l for l in lines if not l.startswith('#')]
             body = '\n'.join(body_lines).strip()
             paragraphs = [p.strip() for p in body.split('\n\n') if p.strip()]
-            return '\n'.join(f'<p>{p}</p>' for p in paragraphs)
+            html_parts = []
+            for p in paragraphs:
+                # Check if paragraph starts with **Header** (possibly followed by body text)
+                header_match = re.match(r'^\*\*(.+?)\*\*\s*([\s\S]*)', p)
+                if header_match:
+                    heading = header_match.group(1)
+                    body_text = header_match.group(2).strip()
+                    html_parts.append(f'<h4 class="narrative-heading">{heading}</h4>')
+                    if body_text:
+                        html_parts.append(f'<p>{body_text}</p>')
+                else:
+                    html_parts.append(f'<p>{p}</p>')
+            return '\n'.join(html_parts)
     return '<p>Analysis not available.</p>'
 
 
