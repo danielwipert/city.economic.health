@@ -942,12 +942,11 @@ def load_narrative(primary_city: str) -> str:
         if path.exists():
             text = path.read_text(encoding='utf-8')
             parts = re.split(r'\n---+\n', text, maxsplit=1)
-            if len(parts) > 1:
-                body = parts[1].strip()
-            else:
-                lines = text.split('\n')
-                body_lines = [l for l in lines if not l.startswith('#') and not l.startswith('**')]
-                body = '\n'.join(body_lines).strip()
+            # Take the polished section (before the divider), strip any ## headers
+            body_raw = parts[0].strip()
+            lines = body_raw.split('\n')
+            body_lines = [l for l in lines if not l.startswith('#')]
+            body = '\n'.join(body_lines).strip()
             paragraphs = [p.strip() for p in body.split('\n\n') if p.strip()]
             return '\n'.join(f'<p>{p}</p>' for p in paragraphs)
     return '<p>Analysis not available.</p>'
