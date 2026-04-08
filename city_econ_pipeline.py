@@ -18,7 +18,7 @@ if TOGETHER_API_KEY is None:
                        "$env:TOGETHER_API_KEY = 'your_together_api_key_here'")
 
 # Analysis model (econ reasoning)
-ANALYSIS_MODEL_ID = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+ANALYSIS_MODEL_ID = "Qwen/Qwen3-235B-A22B-Instruct-2507-tput"
 
 # Stylist model (prose polish)
 STYLE_MODEL_ID = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
@@ -31,7 +31,7 @@ PRIMARY_CITY_COLUMN = "primary_city"   # will use if present
 FALLBACK_CITY_COLUMN = "msa"           # fallback if primary_city missing
 
 # Output directory
-OUTPUT_DIR = Path("city_reports_ft")
+OUTPUT_DIR = Path("city_reports_ft_cautious")
 
 # Parallelism (how many cities at once)
 MAX_WORKERS = 4
@@ -144,9 +144,9 @@ def build_polish_prompt(raw_text: str, city_name: str) -> str:
 # MODEL CALLS
 # --------------------------------------------------------
 
-def call_qwen_analysis(prompt: str) -> str:
+def call_analysis_model(prompt: str) -> str:
     """
-    Call Qwen 2.5 72B Instruct Turbo via Together to produce the economic analysis.
+    Call the analysis model via Together to produce the economic analysis.
     """
     client = Together(api_key=TOGETHER_API_KEY)
 
@@ -170,9 +170,9 @@ def call_qwen_analysis(prompt: str) -> str:
     return completion.choices[0].message.content
 
 
-def call_llama_polish(prompt: str) -> str:
+def call_polish_model(prompt: str) -> str:
     """
-    Call Llama 3.1 8B Instruct Turbo via Together to polish the Qwen draft.
+    Call the polish model via Together to refine the analysis draft.
     """
     client = Together(api_key=TOGETHER_API_KEY)
 
@@ -204,18 +204,18 @@ def process_city(city: str, df: pd.DataFrame, city_col: str) -> Path:
     """
     Full pipeline for a single city:
       - subset data
-      - Qwen analysis
-      - Llama polish
+      - analysis model pass
+      - polish model pass
       - write markdown file
     Returns the output file path.
     """
     df_city = df[df[city_col] == city]
 
     analysis_prompt = build_analysis_prompt(df_city, city)
-    raw_analysis = call_qwen_analysis(analysis_prompt)
+    raw_analysis = call_analysis_model(analysis_prompt)
 
     polish_prompt = build_polish_prompt(raw_analysis, city)
-    polished_analysis = call_llama_polish(polish_prompt)
+    polished_analysis = call_polish_model(polish_prompt)
 
     OUTPUT_DIR.mkdir(exist_ok=True)
     filename = OUTPUT_DIR / f"{slugify(city)}.md"
@@ -225,7 +225,7 @@ def process_city(city: str, df: pd.DataFrame, city_col: str) -> Path:
         f.write("## Polished FT-style column\n\n")
         f.write(polished_analysis.strip())
         f.write("\n\n---\n\n")
-        f.write("## Original Qwen draft (for reference)\n\n")
+        f.write("## Original analysis draft (for reference)\n\n")
         f.write(raw_analysis.strip())
         f.write("\n")
 
