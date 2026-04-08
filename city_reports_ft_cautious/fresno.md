@@ -2,18 +2,60 @@
 
 ## Polished FT-style column
 
-Fresno's labour market is exhibiting signs of strain, with modest employment growth and a rising unemployment rate. At 8.2%, the city's unemployment rate is up 0.3 percentage points year-on-year, despite a 1.87% expansion in the civilian labour force over the past year - a rate that surpasses most peers. However, job creation has been sluggish, with nonfarm payroll employment increasing by just 0.22% year-on-year. The labour demand composite score, which ranks in the 16th percentile nationally, further underscores the subdued hiring activity. In contrast, average hourly earnings have grown by a robust 7.01% year-on-year, suggesting persistent wage pressure, likely driven by sector-specific tightness rather than broad-based demand.
+**Unemployment & Labor Market**  
+Fresno's unemployment rate stands at 8.2%, exceeding the 6% threshold that indicates a weak labor market, and has worsened by 0.3 percentage points over the past year. This suggests a structurally weak labor market with limited job availability relative to the labor force. The rising unemployment rate signals deteriorating labor market conditions, indicating that job creation is not keeping pace with labor supply.
 
-The city's housing and business activity are also losing momentum. Residential building permits have plummeted 22.67% year-on-year, one of the weakest performances nationally, ranking in the 16th percentile. Although home sales conditions remain relatively balanced, with a median of 51 days on market - a 10.87% increase from last year - the cost of living, while elevated relative to incomes, is not exceptionally high compared to other US metros, ranking in the 65th percentile. Notably, office absorption and white-collar employment remain weak, with the office worker ratio composite ranking in the 4th percentile, highlighting structural limitations in high-value service sector development.
+**Workforce Supply**  
+The civilian labor force in Fresno expanded by 1.87% year-over-year, a relatively strong growth that ranks highly compared to peer metros. This growth indicates a increasing pool of available workers, which could support future employment growth if demand materializes. However, the rising unemployment rate suggests that the current workforce expansion is not being absorbed by the labor market, pointing to a mismatch between worker availability and job opportunities.
 
-Looking ahead, Fresno faces near-term challenges in job creation and construction, despite a growing workforce and resilient wage growth. Unless the city sees stronger business investment or diversification beyond low-wage sectors, upward pressure on unemployment may intensify. Ultimately, long-term growth will depend on improving labour demand and reversing the decline in housing supply.
+**Wage Growth**  
+Average hourly earnings in Fresno increased by 7.01% year-over-year, a robust pace that significantly exceeds typical inflation benchmarks. This strong nominal wage growth likely translates into real income gains for workers, boosting purchasing power despite high living costs in some categories. Sustained wage growth at this level could support consumer spending and improve household financial resilience.
+
+**Labor Demand**  
+Labor demand in Fresno is weak, as reflected in the low Labor Demand Composite score of 3.5 and minimal nonfarm payroll growth of 0.22% year-over-year. This near-stagnant job creation, combined with a 1.104% decline in weekly hours worked below the 12-month trend, suggests employers are reducing hours rather than expanding workloads. These metrics point to softening demand for labor despite rising wages.
+
+**Cost of Living**  
+Fresno's cost of living composite score is 2.04, indicating moderate affordability relative to earnings, with a score that ranks in the 65th percentile for affordability. While the city is not among the most expensive markets, the combination of high unemployment and modest job growth limits the practical benefit of this relative affordability. Households may still face financial pressure due to income instability rather than cost levels alone.
+
+**Office Economy**  
+The Office Worker Ratio composite score of 0.78 is very low, placing Fresno in the 4th percentile nationally. This indicates minimal concentration of white-collar or professional services employment, with the city's economy remaining heavily tilted toward industrial, agricultural, and service-sector jobs. This structural characteristic constrains long-term income potential and innovation-driven development, limiting higher-wage opportunity growth and economic diversification.
+
+**Housing — Construction**  
+Residential building permits in Fresno fell by 22.67% year-over-year, a sharp contraction that signals declining builder confidence or supply-side constraints. This decline suggests a cooling in new housing development, which could limit future supply and exacerbate affordability pressures if demand recovers. The drop may reflect higher financing costs, regulatory hurdles, or weak market expectations.
+
+**Housing — Market Velocity**  
+Homes in Fresno took a median of 51.0 days to sell, with a 10.87% year-over-year increase in days on market. This rising DOM indicates a softening housing market with cooling buyer demand or growing inventory. The Days on Market composite score of 7.65 reflects a moderately slow-moving market, consistent with broader economic headwinds.
+
+**Conclusion**  
+Fresno's economy shows a mixed but overall weak performance, with strong wage growth and labor force expansion offset by high unemployment, stagnant job creation, and contracting housing construction. The labor market is underperforming despite available workers, and weak labor demand is evident in flat payrolls and declining weekly hours. Structural limitations, including a low office worker ratio and shrinking building activity, constrain long-term growth potential. The housing market shows clear signs of cooling, and near-term prospects depend on whether wage gains can sustain household spending amid softening labor and housing demand.
 
 ---
 
 ## Original analysis draft (for reference)
 
-Fresno’s labour market shows signs of strain amid modest employment growth and rising unemployment. The city’s unemployment rate stands at 8.2%, up 0.3 percentage points year-on-year (101A_unemp_yoy_pp), reflecting weakening labour demand despite a growing workforce—civilian labour force expanded 1.87% over the past year (102A_clf_yoy), a rate above most peers. However, job creation has lagged, with nonfarm payroll employment rising just 0.22% YoY (107E_employment_growth_yoy), while the labour demand composite score (107E_ldc_composite) ranks in the 16th percentile nationally, indicating subdued hiring activity. Average hourly earnings grew 7.01% (103B_earnings_yoy), a strong figure that suggests wage pressure persists, likely driven by tightness in specific sectors rather than broad-based demand.
+**Unemployment & Labor Market**  
+Fresno’s unemployment rate stands at 8.2%, well above the 6% threshold that indicates a weak labor market, and has worsened by 0.3 percentage points over the past year. This places the labor market in a structurally weak position, with limited job availability relative to the labor force. The rising unemployment rate signals deteriorating labor market conditions and suggests that job creation is not keeping pace with labor supply.
 
-Housing and business activity point to cooling momentum. Residential building permits have declined sharply, falling 22.67% YoY (200B_permits_yoy), among the weakest performances nationally (16th percentile). This contraction comes even as home sales conditions remain relatively balanced, with median days on market at 51 days (204A_dom_level_days), up 10.87% from a year ago (204A_dom_yoy_pct). The cost of living, while elevated relative to incomes (104C_col: 2.04), is not exceptionally high compared to other US metros (65th percentile). Notably, office absorption and white-collar employment remain weak, with the office worker ratio composite (105C_owr) in the 4th percentile—highlighting structural limitations in high-value service sector development.
+**Workforce Supply**  
+The civilian labor force in Fresno grew by 1.87% year-over-year, a relatively strong expansion that ranks highly compared to peer metros. This indicates a growing pool of available workers, which could support future employment growth if demand materializes. However, with unemployment rising, the current workforce expansion is not being absorbed by the labor market, pointing to a mismatch between worker availability and job opportunities.
 
-**Outlook:** Fresno faces near-term headwinds in job creation and construction, despite a growing workforce and resilient wage growth. Without stronger business investment or diversification beyond low-wage sectors, upward pressure on unemployment may intensify. Long-term growth will depend on improving labour demand and reversing the decline in housing supply.
+**Wage Growth**  
+Average hourly earnings in Fresno increased by 7.01% year-over-year, a robust pace that significantly exceeds typical inflation benchmarks. This strong nominal wage growth likely translates into real income gains for workers, boosting purchasing power despite high living costs in some categories. Sustained wage growth at this level could support consumer spending and improve household financial resilience.
+
+**Labor Demand**  
+Labor demand in Fresno is weak, as reflected in the low Labor Demand Composite score of 3.5 and minimal nonfarm payroll growth of 0.22% year-over-year, indicating near-stagnant job creation. Weekly hours worked are 1.104% below the 12-month trend, suggesting employers are reducing hours rather than expanding workloads. Together, these metrics point to softening demand for labor despite rising wages.
+
+**Cost of Living**  
+Fresno’s cost of living composite score is 2.04, indicating moderate affordability relative to earnings, with a score that ranks in the 65th percentile for affordability (lower scores are better). While not among the most expensive markets, the combination of high unemployment and modest job growth limits the practical benefit of this relative affordability. Households may still face financial pressure due to income instability rather than cost levels alone.
+
+**Office Economy**  
+The Office Worker Ratio composite score of 0.78 is very low, placing Fresno in the 4th percentile nationally, which indicates minimal concentration of white-collar or professional services employment. The city’s economy remains heavily tilted toward industrial, agricultural, and service-sector jobs, limiting higher-wage opportunity growth and economic diversification. This structural characteristic constrains long-term income potential and innovation-driven development.
+
+**Housing — Construction**  
+Residential building permits in Fresno fell by 22.67% year-over-year, a sharp contraction that signals declining builder confidence or supply-side constraints. This large negative swing suggests a cooling in new housing development, which could limit future supply and exacerbate affordability pressures if demand recovers. The drop may reflect higher financing costs, regulatory hurdles, or weak market expectations.
+
+**Housing — Market Velocity**  
+Homes in Fresno took a median of 51.0 days to sell, and the year-over-year change shows a 10.87% increase in days on market, meaning homes are taking significantly longer to sell than last year. This rising DOM indicates a softening housing market with cooling buyer demand or growing inventory, not tightening conditions. The Days on Market composite score of 7.65 reflects a moderately slow-moving market, consistent with broader economic headwinds.
+
+**Conclusion**  
+Fresno’s economy shows a mixed but overall weak performance, with strong wage growth and labor force expansion offset by high unemployment, stagnant job creation, and contracting housing construction. The labor market is underperforming despite available workers, and weak labor demand is evident in flat payrolls and declining weekly hours. Structural limitations, including a low office worker ratio and shrinking building activity, constrain long-term growth potential, while the housing market shows clear signs of cooling. Near-term prospects depend on whether wage gains can sustain household spending amid softening labor and housing demand.

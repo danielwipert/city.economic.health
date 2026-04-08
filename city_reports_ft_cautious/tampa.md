@@ -2,18 +2,60 @@
 
 ## Polished FT-style column
 
-Tampa's labour market is showing signs of resilience despite the broader economic slowdown. With an unemployment rate of 4.6%, up 1.3 percentage points year-on-year, the market is loosening but remains within historical norms. Labour force growth is modest, at 0.8% year-on-year, indicating a steady workforce supply. Meanwhile, wage growth is robust, with average hourly earnings rising 6.07% year-on-year, outpacing inflation and reflecting sustained employer demand. A strong labour demand composite score of 5.54, supported by 0.92% year-on-year employment growth in nonfarm payrolls, further underscores the solidity of labour demand. However, a slight decline in weekly hours worked, 0.048% below the 12-month trend, hints at cautious utilisation.
+**Unemployment & Labor Market**  
+Tampa's unemployment rate stands at 4.6%, which is at the upper end of the healthy range of 3.5–4.5%, indicating a labor market with some slack. The unemployment rate has risen by 1.3 percentage points year-over-year, signaling a deterioration in labor market conditions as joblessness increases. This upward trend suggests weakening labor demand or labor force growth outpacing job creation, which could reflect economic cooling or structural shifts in employment.
 
-In contrast, the housing market is exhibiting signs of imbalance. A decline of 8.56% year-on-year in residential building permits suggests a pullback in supply, coinciding with mounting affordability pressures. Although Tampa's cost of living composite score of 1.74 is relatively favourable, the median days on market have increased sharply, rising 15.79% year-on-year to 66 days. This softening demand or mismatched inventory is corroborated by a low days-on-market composite score of 6.37, ranking Tampa in the bottom decile nationally for market fluidity. On a more positive note, the office market remains strong, with an office worker ratio composite score of 3.52, placing Tampa in the 84th percentile and highlighting its appeal for business location and hybrid work adaptability.
+**Workforce Supply**  
+The civilian labor force in Tampa has grown by 0.8% year-over-year, indicating a modest expansion in the pool of available workers. This growth suggests that more people are entering or re-entering the labor market, which can support economic activity if matched with sufficient job opportunities. The workforce growth is a sign of underlying labor market resilience and demographic or migration-driven population gains.
 
-Looking ahead, Tampa's economy remains structurally sound, underpinned by strong wage growth and business demand for labour. However, near-term headwinds from housing market stagnation and rising unemployment pose a challenge. Unless housing supply rebounds, affordability and market liquidity risks may constrain longer-term population and job growth.
+**Wage Growth**  
+Average hourly earnings in Tampa have increased by 6.07% year-over-year, a strong rate of wage growth that exceeds the 4% threshold for robust gains. With inflation likely moderating at 3–4%, this level of earnings growth implies that workers are gaining real purchasing power, supporting consumer spending and living standards. Sustained wage growth at this pace could contribute to inflationary pressures if not matched by productivity gains.
+
+**Labor Demand**  
+Tampa's labor demand composite score of 5.54 reflects moderately strong overall labor market demand, supported by an employment growth rate of 0.92% year-over-year, near the threshold for moderate expansion. However, weekly hours worked are slightly below the 12-month trend, with a deviation of -0.048%, suggesting employers are cautious about future demand and not increasing hours. These indicators point to stable but not accelerating labor demand.
+
+**Cost of Living**  
+The cost of living composite ratio in Tampa is 1.74, indicating relatively high housing costs compared to earnings, which reduces affordability. While not among the most extreme markets nationally, this level suggests that residents face significant housing cost burdens, potentially offsetting gains from wage growth. Affordability challenges could constrain household budgets and limit the city's attractiveness to new residents.
+
+**Office Economy**  
+Tampa scores 3.52 on the office worker ratio composite, a high level that reflects a strong presence of white-collar and professional services employment. This indicates a diversified, knowledge-intensive economy rather than one reliant on industrial or low-wage service sectors. The city's appeal to corporate relocations and remote professionals is reinforcing its office-based economic structure.
+
+**Housing — Construction**  
+Residential building permits in Tampa have declined by 8.56% year-over-year, signaling a contraction in new construction activity. This drop suggests waning builder confidence, possibly due to higher interest rates, regulatory constraints, or concerns about demand softening. Reduced supply growth could exacerbate affordability pressures if household formation remains strong.
+
+**Housing — Market Velocity**  
+Homes in Tampa take a median of 66.0 days to sell, with the days on market increasing by 15.79% compared to the prior year, indicating a slowdown in transaction velocity. This rising days on market reflects cooling buyer demand or growing inventory, consistent with a softening market. The low composite score of 6.37 confirms that the housing market is losing momentum.
+
+**Conclusion**  
+Tampa's economy has a mixed but generally stable profile, with strong wage growth and a robust office-sector employment base supporting its economic foundation. However, rising unemployment, slowing job growth, and a sharp decline in housing construction point to cooling momentum. The housing market is softening, with homes taking longer to sell and fewer permits being issued, while high cost-of-living metrics threaten affordability despite income gains. The near-term outlook remains cautious, as labor demand stabilizes but housing and employment trends suggest moderation ahead.
 
 ---
 
 ## Original analysis draft (for reference)
 
-Tampa’s labour market shows signs of resilience amid broader economic cooling. The metro’s unemployment rate stands at 4.6%—up 1.3 percentage points year-on-year (101A_unemp_yoy_pp)—indicating a loosening market, though still within historical norms. Labour force growth remains modest at 0.8% YoY (102A_clf_yoy), suggesting steady workforce supply. Wage growth remains robust, with average hourly earnings up 6.07% YoY (103B_earnings_yoy), outpacing inflation and reflecting sustained employer demand for workers. Labour demand overall is solid, as reflected in a strong labour demand composite score of 5.54 (107E_ldc_composite), supported by 0.92% YoY employment growth in nonfarm payrolls (107E_employment_growth_yoy). However, weekly hours worked are slightly below their 12-month trend (-0.048%), hinting at cautious utilisation.
+**Unemployment & Labor Market**  
+Tampa’s unemployment rate stands at 4.6%, which falls at the upper end of the healthy range (3.5–4.5%), indicating a labor market with modest slack. However, the unemployment rate has risen by 1.3 percentage points year-over-year, signaling a clear deterioration in labor market conditions as joblessness is increasing. This upward trend suggests weakening labor demand or faster labor force growth outpacing job creation, which could reflect economic cooling or structural shifts in employment.
 
-Housing market dynamics point to increasing imbalances. Residential building permits have declined 8.56% YoY (200B_permits_yoy), suggesting a pullback in supply just as affordability pressures mount. The cost of living composite score of 1.74 (104C_col) ranks relatively well, but median days on market have risen sharply—up 15.79% YoY to 66 days (204A_dom_level_days)—a sign of softening demand or mismatched inventory. This is corroborated by a low days-on-market composite score of 6.37 (204A_dom_composite), placing Tampa in the bottom decile nationally for market fluidity. Office market strength, as measured by the office worker ratio composite (105C_owr: 3.52), ranks in the 84th percentile, underscoring Tampa’s appeal for business location and hybrid work adaptability.
+**Workforce Supply**  
+The civilian labor force in Tampa grew by 0.8% year-over-year, indicating a modest expansion in the pool of available workers. This positive growth suggests that more people are entering or re-entering the labor market, which can support economic activity if matched with sufficient job opportunities. While not rapid, this workforce growth is a sign of underlying labor market resilience and demographic or migration-driven population gains.
 
-**Outlook:** Tampa’s economy remains structurally sound, supported by strong wage growth and business demand for labour, but faces near-term headwinds from housing market stagnation and rising unemployment. Absent a rebound in housing supply, affordability and market liquidity risks could constrain longer-term population and job growth.
+**Wage Growth**  
+Average hourly earnings in Tampa increased by 6.07% year-over-year, a strong rate of wage growth well above the 4% threshold for robust gains. With inflation likely moderating around 3–4%, this level of earnings growth implies that workers are gaining real purchasing power, which supports consumer spending and living standards. Sustained wage growth at this pace could also contribute to inflationary pressures if not matched by productivity gains.
+
+**Labor Demand**  
+Tampa’s labor demand composite score of 5.54 reflects moderately strong overall labor market demand, supported by an employment growth rate of 0.92% year-over-year, which is near the threshold for moderate expansion. However, weekly hours worked are slightly below the 12-month trend, with a deviation of -0.048%, suggesting employers are not increasing hours and may be cautious about future demand. Together, these indicators point to stable but not accelerating labor demand.
+
+**Cost of Living**  
+The cost of living composite ratio in Tampa is 1.74, indicating relatively high housing costs relative to earnings, which reduces affordability. While not among the most extreme markets nationally, this level suggests that residents face meaningful housing cost burdens, potentially offsetting gains from wage growth. Affordability challenges could constrain household budgets and limit the city’s attractiveness to new residents over time.
+
+**Office Economy**  
+Tampa scores 3.52 on the office worker ratio composite, a high level that reflects a strong presence of white-collar and professional services employment. This indicates a diversified, knowledge-intensive economy rather than one reliant on industrial or low-wage service sectors. The city’s appeal to corporate relocations and remote professionals appears to be reinforcing its office-based economic structure.
+
+**Housing — Construction**  
+Residential building permits in Tampa declined by 8.56% year-over-year, signaling a contraction in new construction activity. This drop suggests waning builder confidence, possibly due to higher interest rates, regulatory constraints, or concerns about demand softening. Reduced supply growth could exacerbate affordability pressures if household formation remains strong.
+
+**Housing — Market Velocity**  
+Homes in Tampa took a median of 66.0 days to sell, and the days on market has increased by 15.79% compared to the prior year, indicating a clear slowdown in transaction velocity. This rising DOM reflects cooling buyer demand or growing inventory, consistent with a softening market rather than tightening conditions. The low composite score of 6.37 confirms that the housing market is losing momentum.
+
+**Conclusion**  
+Tampa’s economy shows a mixed but generally stable profile, with strong wage growth and a robust office-sector employment base supporting its economic foundation. However, rising unemployment, slowing job growth, and a sharp decline in housing construction point to cooling momentum. The housing market is clearly softening, with homes taking longer to sell and fewer permits being issued, while high cost-of-living metrics threaten affordability despite income gains. Near-term outlook remains cautious, as labor demand stabilizes but housing and employment trends suggest moderation ahead.

@@ -2,18 +2,60 @@
 
 ## Polished FT-style column
 
-Louisville's labour market exhibits a mix of strength and weakness. The unemployment rate has fallen to 3.1%, a decline of 1.3 percentage points year-over-year, indicating a tight labour market. However, employment growth has stalled, with nonfarm payroll employment contracting by 0.06% over the same period. Weekly hours worked are also 0.665% below their 12-month trend, suggesting softening demand. Despite this, the civilian labour force has continued to expand, growing by 0.38% year-over-year. Wage growth remains modest, at 2.67%, below national averages. The labour demand composite score of 4.22 ranks in the 36th percentile, signaling limited momentum in hiring activity.
+**Unemployment & Labor Market**  
+Louisville's unemployment rate is 3.1%, below the 3.5% threshold that indicates a very tight labor market. The jobless rate has fallen by 1.3 percentage points year-over-year, consistent with improving labor market conditions. This suggests strong employment absorption and limited slack in the local labor force, with robust demand for workers relative to supply.
 
-In the housing market, a gradual slowdown is underway. While residential building permits have risen 2.98% year-over-year, placing Louisville in the 60th percentile for construction activity, demand is weakening. Homes are taking longer to sell, with median days on market increasing by 9.76% to 45 days. The days-on-market composite score ranks in the 76th percentile, indicating a less competitive market. Affordability remains broadly in line with income levels, with a cost of living index near neutral at 2.77. Office market activity is subdued, with an office worker ratio composite score of 2.22, ranking in the 36th percentile, which points to limited return-to-office momentum.
+**Workforce Supply**  
+The civilian labor force in Louisville has grown 0.38% year-over-year, a modest expansion in the pool of available workers. Although positive, this growth rate is relatively subdued, placing Louisville in the 30th percentile for this metric. A slowly growing workforce may constrain long-term employment growth if labor demand accelerates, indicating limited upward pressure from labor supply and limited risk of labor shortages in the near term.
 
-The outlook for Louisville's economy is cautious. A stable labour force and low unemployment provide a solid foundation, but stagnating employment growth and weakening housing demand are likely to constrain expansion. Without a pickup in wage growth or business investment, the city's economic growth is likely to remain modest.
+**Wage Growth**  
+Average hourly earnings in Louisville have risen 2.67% year-over-year, a moderate pace that falls short of the 4% benchmark for strong wage growth. With inflation near or above this level in recent years, real wage gains are likely flat or slightly negative, limiting improvements in purchasing power. This level of wage growth may not keep pace with rising living costs, potentially constraining consumer spending momentum.
+
+**Labor Demand**  
+Louisville's Labor Demand Composite score is 4.22, and employment growth is slightly negative at -0.06% year-over-year, indicating a nearly stagnant labor market in terms of job creation. Weekly hours worked are 0.665% below the 12-month trend, signaling softening demand for labor despite the low unemployment rate. This mixed picture suggests that while jobs are being retained, hiring momentum has weakened, and employers may be cautious about expanding payrolls.
+
+**Cost of Living**  
+The cost of living composite ratio in Louisville is 2.77, corresponding to a 50th percentile ranking. This indicates that housing and living expenses are broadly in line with earnings, making the city moderately affordable compared to other U.S. metros. Affordability remains a relative strength, supporting household budget stability even in the context of modest wage growth.
+
+**Office Economy**  
+Louisville's Office Worker Ratio composite is 2.22, a low score that places it in the 36th percentile nationally. This reflects a limited concentration of white-collar, professional services employment compared to larger knowledge-based economies. The city's economic structure leans toward logistics, manufacturing, and service-sector jobs, which may limit high-wage job growth and long-term productivity gains.
+
+**Housing — Construction**  
+Residential building permits in Louisville have increased 2.98% year-over-year, indicating a modest but positive level of construction activity. This growth suggests builders retain some confidence in market fundamentals and are responding to demand with incremental supply. With a 60th percentile ranking for this metric, Louisville is outperforming slightly more than half of comparable metros in housing supply responsiveness.
+
+**Housing — Market Velocity**  
+Homes in Louisville take a median of 45.0 days to sell, with a year-over-year increase of 9.76% in days on market. This indicates a softening market with slowing buyer demand or increasing supply. Although the Days on Market Composite score is 7.98, which is relatively high, the market remains functional but is cooling compared to recent years.
+
+**Conclusion**  
+Louisville's economy exhibits a mix of strengths and emerging challenges. The labor market is tight, with low and falling unemployment, but job growth has stalled and weekly hours are declining, signaling softening demand. Wage growth is modest and likely not outpacing inflation, while the city's economic base remains weighted toward non-office sectors, limiting high-skill employment opportunities. The housing market is cooling, with homes taking longer to sell, but affordability is stable and construction activity is modestly positive. Overall, Louisville maintains average economic health with solid foundations but faces headwinds in wage growth, labor demand, and economic diversification that could constrain near-term momentum.
 
 ---
 
 ## Original analysis draft (for reference)
 
-Louisville’s labour market shows strength in participation and low unemployment, though employment growth has stalled. The city’s unemployment rate stands at 3.1% (101A_unemployment), down 1.3 percentage points year-over-year (101A_unemp_yoy_pp), reflecting a tight labour market. However, nonfarm payroll employment has declined slightly, contracting by 0.06% year-over-year (107E_employment_growth_yoy), while weekly hours worked are 0.665% below their 12-month trend (107E_wh_trend_deviation_pct), suggesting softening demand. Despite this, the civilian labour force grew by 0.38% (102A_clf_yoy), indicating sustained workforce supply expansion. Wage growth remains modest at 2.67% (103B_earnings_yoy), below national averages, while the labour demand composite score of 4.22 (107E_ldc_composite) ranks in the 36th percentile, signaling limited momentum in hiring activity.
+**Unemployment & Labor Market**  
+Louisville’s unemployment rate stands at 3.1%, which is below the 3.5% threshold indicating a very tight labor market. The year-over-year change in unemployment is -1.3 percentage points, meaning the jobless rate is falling, consistent with improving labor market conditions. This combination suggests strong employment absorption and limited slack in the local labor force. The low and declining unemployment points to robust demand for workers relative to supply.
 
-Housing market conditions reflect a gradual slowdown, with supply-side activity holding steady but demand weakening. Residential building permits rose 2.98% year-over-year (200B_permits_yoy), placing Louisville in the 60th percentile for construction activity. However, homes are taking longer to sell—median days on market increased to 45 days, a 9.76% rise year-over-year (204A_dom_yoy_pct)—and the days-on-market composite score ranks in the 76th percentile, indicating a less competitive market. The cost of living index is near neutral at 2.77 (104C_col), suggesting affordability remains broadly in line with income levels. Office market activity remains subdued, with an office worker ratio composite score of 2.22 (105C_owr), in the 36th percentile, pointing to limited return-to-office momentum.
+**Workforce Supply**  
+The civilian labor force in Louisville grew by 0.38% year-over-year, indicating a modest expansion in the pool of available workers. While positive, this growth rate is relatively subdued compared to stronger-performing metros, placing Louisville in the 30th percentile for this metric. A slowly growing workforce may constrain long-term employment growth if labor demand accelerates. This suggests limited upward pressure from labor supply but also limited risk of labor shortages in the near term.
 
-**Outlook:** Louisville’s economy is anchored by a stable labour force and low unemployment, but near-term stagnation in employment growth and weakening housing demand suggest caution. Without stronger wage growth or business investment, the city’s expansion will likely remain modest.
+**Wage Growth**  
+Average hourly earnings in Louisville rose 2.67% year-over-year, a moderate pace that falls short of the 4% benchmark for strong wage growth. With inflation running near or above this level in recent years, real wage gains are likely flat or slightly negative, limiting improvements in purchasing power. This level of wage growth may not be sufficient to keep pace with rising living costs, potentially constraining consumer spending momentum.
+
+**Labor Demand**  
+Louisville’s Labor Demand Composite score is 4.22, and employment growth is slightly negative at -0.06% year-over-year, indicating the labor market is nearly stagnant in terms of job creation. Weekly hours worked are 0.665% below the 12-month trend, signaling softening demand for labor despite the low unemployment rate. This mixed picture suggests that while jobs are being retained, hiring momentum has weakened, and employers may be cautious about expanding payrolls.
+
+**Cost of Living**  
+The cost of living composite ratio in Louisville is 2.77, which is near the midpoint of the distribution and corresponds to a 50th percentile ranking. This indicates that housing and living expenses are broadly in line with what workers earn, making the city moderately affordable compared to other U.S. metros. Affordability remains a relative strength, supporting household budget stability even in the context of modest wage growth.
+
+**Office Economy**  
+Louisville’s Office Worker Ratio composite is 2.22, a low score that places it in the 36th percentile nationally. This reflects a limited concentration of white-collar, professional services employment compared to larger knowledge-based economies. The city’s economic structure leans more heavily toward logistics, manufacturing, and service-sector jobs, which may limit high-wage job growth and long-term productivity gains.
+
+**Housing — Construction**  
+Residential building permits in Louisville increased 2.98% year-over-year, indicating a modest but positive level of construction activity. This growth, while not explosive, suggests builders retain some confidence in market fundamentals and are responding to demand with incremental supply. The 60th percentile ranking for this metric implies Louisville is outperforming slightly more than half of comparable metros in housing supply responsiveness.
+
+**Housing — Market Velocity**  
+Homes in Louisville took a median of 45.0 days to sell, and the year-over-year change in days on market is +9.76%, meaning homes are taking significantly longer to sell than they did a year ago. This positive yoy change indicates a softening market with slowing buyer demand or increasing supply, contrary to conditions of tight inventory. However, the Days on Market Composite score is 7.98, which is relatively high, suggesting the market remains functional but is cooling compared to recent years.
+
+**Conclusion**  
+Louisville’s economy shows a mix of strengths and emerging challenges. The labor market is tight, with unemployment low and falling, but job growth has stalled and weekly hours are declining, signaling softening demand beneath the surface. Wage growth is modest and likely not outpacing inflation, while the city’s economic base remains weighted toward non-office sectors, limiting high-skill employment opportunities. On the housing side, affordability is stable and construction activity is modestly positive, but the market is clearly cooling as homes take longer to sell. Overall, Louisville maintains average economic health with solid foundations but faces headwinds in wage growth, labor demand, and economic diversification that could constrain near-term momentum.

@@ -2,20 +2,60 @@
 
 ## Polished FT-style column
 
-Denver's labour market remains robust, with an unemployment rate of 3.6%, down 1.0 percentage point year-on-year. However, this tightening is accompanied by a 1.5% annual decline in the civilian labour force, suggesting that future employment growth may be constrained by worker availability rather than weak demand. Wage growth is strong, at 6.26% year-on-year, outpacing inflation and supporting household purchasing power.
+**Unemployment & Labor Market**  
+Denver's unemployment rate stands at 3.6%, within the healthy range of 3.5–4.5%, indicating a tight labor market. The year-over-year decline of 1.0 percentage points signals an improvement in the labor market, suggesting strong job availability and continued employer demand for workers. This combination points to a resilient local labor market, with low unemployment and a declining trend.
 
-Labour demand, as indicated by the composite signal of employment and hours worked, is slightly below average, with a reading of 4.56, placing it at the 46th percentile. Nonfarm payrolls have grown only 0.13% over the past year, significantly below national trends, while weekly hours are marginally above their 12-month baseline, up 0.074%. This mix suggests a labour market that is adjusting to capacity limits rather than expanding aggressively.
+**Workforce Supply**  
+The civilian labor force in Denver has contracted by 1.5% year-over-year, indicating a shrinking pool of available workers. This decline is concerning, as it can constrain economic expansion and limit businesses' ability to fill open positions. A smaller workforce may be attributed to demographic trends, outmigration, or declining labor market participation, potentially pressuring employers and dampening long-term growth potential.
 
-In the housing market, activity is moderating due to elevated affordability pressures. Residential building permits have fallen sharply, down 15.96% year-on-year, indicating a contraction in supply-side momentum likely driven by higher financing costs and regulatory constraints. The average time to sell a home has increased to 38 days, up 8.57% from a year ago, signalling softening demand. Despite this, Denver's cost of living remains relatively high, with a composite score of 1.37, ranking it at the 77th percentile, meaning housing costs consume a larger share of earnings compared to most peer metros. Office occupancy sentiment is middling, with a reading of 2.72, placing it at the 58th percentile, suggesting only moderate return-to-office momentum.
+**Wage Growth**  
+Average hourly earnings in Denver have grown by 6.26% year-over-year, exceeding the 4% threshold. This robust increase likely surpasses inflation, enabling workers to gain real purchasing power and boosting consumer spending capacity. The high wage growth may also reflect competitive hiring conditions in a tight labor market. However, sustained increases at this pace could contribute to inflationary pressures if not matched by productivity gains.
 
-Looking ahead, Denver's economy faces challenges from a contracting labour supply and housing underproduction, which may constrain long-term growth despite strong wage gains and low unemployment. Near-term softness in construction and employment growth suggests a cyclical pause, but structural demand pressures could re-emerge if migration or remote work trends shift.
+**Labor Demand**  
+Denver's labor demand composite score is 4.56, suggesting moderate overall demand. Although the employment growth rate is a low 0.13% year-over-year, indicating minimal net job creation, weekly hours worked have increased slightly by 0.074% above the 12-month baseline. This mixed picture reflects cautious hiring amid broader economic uncertainty, with employers utilizing existing workers slightly more, despite not significantly expanding payrolls.
+
+**Cost of Living**  
+The cost of living composite ratio in Denver is 1.37, indicating relatively high housing costs compared to earnings. While affordability is better than in many peer markets, households still face meaningful cost pressure, particularly in housing. Despite strong wage growth, the elevated cost of living may erode some of these gains for residents, with affordability remaining a constraint, especially for lower- and middle-income earners.
+
+**Office Economy**  
+Denver's office worker ratio composite is 2.72, a moderate score reflecting a diversified economy with a notable presence of professional and white-collar employment. The city maintains a solid base in services, tech, and business functions, supporting downtown vitality and commercial real estate demand. Although it may lag in high-value knowledge-sector intensity, the level of office density is still notable.
+
+**Housing — Construction**  
+Residential building permits in Denver have fallen by 15.96% year-over-year, a sharp decline signaling weakened builder confidence or constrained development activity. This large decline suggests limited new supply is entering the market, potentially exacerbating affordability challenges over time. Reduced construction may be attributed to high financing costs, regulatory hurdles, or softening demand expectations, resulting in a constricted housing supply pipeline.
+
+**Housing — Market Velocity**  
+Homes in Denver are taking a median of 38.0 days to sell, with this duration increasing by 8.57% compared to the same period last year. The rise in days on market indicates a cooling housing market, with buyer demand slowing or supply improving relative to demand. Despite still-moderate absolute turnover speed, the year-over-year increase signals a softening trend in homebuyer activity.
+
+**Conclusion**  
+Denver's economy exhibits a mix of strengths and vulnerabilities, earning a B+ rating with solid labor market fundamentals but emerging headwinds. The city benefits from low unemployment and robust wage growth, supporting household purchasing power and economic resilience. However, a shrinking labor force, minimal employment growth, and a sharp drop in housing construction point to structural and cyclical challenges. The housing market is cooling, with homes taking longer to sell, while high costs persist relative to incomes. The near-term outlook remains stable but cautious, with growth likely to moderate without a rebound in labor supply and housing investment.
 
 ---
 
 ## Original analysis draft (for reference)
 
-Denver’s labour market remains tight, with an unemployment rate of 3.6%—down 1.0 percentage point year-on-year—indicating sustained job market strength (101A_unemployment, 101A_unemp_yoy_pp). However, this tightening is occurring alongside a shrinking civilian labour force, which has declined 1.5% annually (102A_clf_yoy), suggesting potential constraints on future employment growth due to worker availability rather than weak demand. Wage growth remains robust at 6.26% YoY (103B_earnings_yoy), outpacing inflation and supporting household purchasing power. Labour demand, as reflected in the composite signal of employment and hours worked, sits slightly below average (107E_ldc_composite = 4.56, 46th percentile), with nonfarm payrolls growing only 0.13% over the past year—well below national trends—while weekly hours are marginally above their 12-month baseline (+0.074%). This mix points to a labour market adjusting to capacity limits rather than expanding aggressively.
+**Unemployment & Labor Market**  
+Denver’s unemployment rate is 3.6%, which falls within the healthy range of 3.5–4.5%, indicating a tight labor market. The year-over-year change in unemployment is -1.0 percentage points, meaning the unemployment rate has decreased compared to last year, signaling labor market improvement. This combination suggests strong job availability and continued employer demand for workers. The low unemployment and declining trend point to a resilient local labor market.
 
-Housing market dynamics reflect moderating activity amid elevated affordability pressures. Residential building permits have fallen sharply, down 15.96% YoY (200B_permits_yoy), indicating a contraction in supply-side momentum likely driven by higher financing costs and regulatory constraints. Homes are taking longer to sell—38 days on average, up 8.57% from a year ago (204A_dom_level_days, 204A_dom_yoy_pct)—a sign of softening demand. Despite this, Denver’s cost of living remains relatively high, with a composite score of 1.37 (104C_col, 77th percentile), meaning housing costs consume a larger share of earnings compared to most peer metros. Office occupancy sentiment is middling (105C_owr = 2.72, 58th percentile), suggesting only moderate return-to-office momentum.
+**Workforce Supply**  
+The civilian labor force in Denver declined by 1.5% year-over-year, indicating a shrinking pool of available workers. This negative growth is concerning, as a smaller workforce can constrain economic expansion and limit businesses’ ability to fill open positions. A contracting labor supply may reflect demographic trends, outmigration, or declining labor market participation. This weakness could pressure employers and dampen long-term growth potential.
 
-**Outlook:** Denver’s economy faces headwinds from a contracting labour supply and housing underproduction, which may constrain long-term growth despite strong wage gains and low unemployment. Near-term softness in construction and employment growth suggests a cyclical pause, but structural demand pressures could re-emerge if migration or remote work trends shift.
+**Wage Growth**  
+Average hourly earnings in Denver grew by 6.26% year-over-year, a strong rate of wage growth well above the 4% threshold. This robust increase likely exceeds inflation, allowing workers to gain real purchasing power and boosting consumer spending capacity. High wage growth may also reflect competitive hiring conditions in a tight labor market. However, sustained increases at this pace could contribute to inflationary pressures if not matched by productivity gains.
+
+**Labor Demand**  
+Denver’s labor demand composite score is 4.56, suggesting moderate overall demand, though the employment growth rate of 0.13% year-over-year is very low, indicating minimal net job creation. Weekly hours worked are slightly above the 12-month baseline at +0.074%, signaling modestly strengthening demand for labor. While employers are not significantly expanding payrolls, they are utilizing existing workers slightly more. This mixed picture reflects cautious hiring amid broader economic uncertainty.
+
+**Cost of Living**  
+The cost of living composite ratio in Denver is 1.37, indicating relatively high housing costs compared to earnings, though affordability is better than in many peer markets. A lower score would indicate greater affordability, so this level suggests households face meaningful cost pressure, particularly in housing. Despite strong wage growth, the elevated cost of living may erode some of those gains for residents. Affordability remains a constraint, especially for lower- and middle-income earners.
+
+**Office Economy**  
+Denver’s office worker ratio composite is 2.72, a moderate score that reflects a diversified economy with a notable presence of professional and white-collar employment. While not as concentrated in office-based sectors as some major coastal hubs, the city maintains a solid base in services, tech, and business functions. This level of office density supports downtown vitality and commercial real estate demand, though it may lag in high-value knowledge-sector intensity.
+
+**Housing — Construction**  
+Residential building permits in Denver fell by 15.96% year-over-year, a sharp decline that signals weakening builder confidence or constrained development activity. This large negative swing suggests limited new supply is entering the market, which could exacerbate affordability challenges over time. Reduced construction may reflect high financing costs, regulatory hurdles, or softening demand expectations. The housing supply pipeline is currently constricted.
+
+**Housing — Market Velocity**  
+Homes in Denver are taking a median of 38.0 days to sell, and this duration has increased by 8.57% compared to the same period last year. The rise in days on market indicates the housing market is cooling, with buyer demand slowing or supply improving relative to demand. Per rule 11, rising days on market means the market is slowing, not tightening. Despite still-moderate absolute turnover speed, the year-over-year increase signals a softening trend in homebuyer activity.
+
+**Conclusion**  
+Denver’s economy shows a mix of strengths and vulnerabilities, earning a B+ rating with solid labor market fundamentals but emerging headwinds. The city benefits from low unemployment and robust wage growth, supporting household purchasing power and economic resilience. However, a shrinking labor force, minimal employment growth, and a sharp drop in housing construction point to structural and cyclical challenges. The housing market is cooling, with homes taking longer to sell, while high costs persist relative to incomes. Near-term outlook remains stable but cautious, with growth likely to moderate without a rebound in labor supply and housing investment.

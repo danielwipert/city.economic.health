@@ -2,18 +2,60 @@
 
 ## Polished FT-style column
 
-Charlotte's labor market continues to show resilience, driven by robust employment growth and a expanding workforce. Nonfarm payroll employment has increased 2.7% year-on-year, while the labor force has grown 2.3%, indicating sustained labor demand and gains in migration or participation. Although the unemployment rate has ticked up 0.2 percentage points from a year earlier to 3.6%, average hourly earnings growth remains negligible at 0.14%, suggesting muted wage pressures despite tight labor market conditions. The composite labor demand score of 8.46 is strong, with weekly hours slightly above the city's 12-month trend. Additionally, the office worker ratio score of 4.18 ranks high nationally, at the 94th percentile, signaling continued demand for office-based labor, likely driven by finance and professional services.
+**Unemployment & Labor Market**  
+Charlotte's unemployment rate stands at 3.6%, within the healthy range of 3.5–4.5%. However, the year-over-year increase of 0.2 percentage points suggests a modest worsening of labor market conditions, indicating emerging softness in job availability or labor demand. Despite the favorable headline rate, the upward trend points to a slight decline in labor market health.
 
-In contrast, the housing market is becoming a growing constraint. Residential building permits have plummeted 39.5% year-on-year, representing the weakest supply signal in the dataset. This has resulted in a significant near-term supply crunch, reflected in a median of 49 days on market, up 14% from last year, and a days-on-market composite score of 8.02, indicating slower turnover. The cost of living, with a composite score of 3.36, remains relatively moderate but elevated, placing affordability pressure on middle-income households. The divergence between strong labor demand and sharply contracting housing supply suggests a structural imbalance that could constrain long-term growth.
+**Workforce Supply**  
+The civilian labor force in Charlotte is expanding at a robust 2.28% year-over-year, driven by strong population inflows and increased labor market engagement. This high growth rate is a positive sign, as a growing pool of available workers can support continued economic expansion and mitigate overheating risks, ultimately benefiting long-term business growth.
 
-Looking ahead, Charlotte's economy is expected to remain above average in performance, supported by labor demand and workforce expansion. However, the severe housing supply contraction poses a material risk to affordability and future labor force attraction. If construction activity does not rebound, the city may face wage stagnation and rising living costs, potentially dampening its competitive edge in the medium term.
+**Wage Growth**  
+Average hourly earnings in Charlotte have risen by just 0.14% year-over-year, a pace of wage growth that is extremely weak and ranks among the lowest nationally. Given historical inflation rates of 2–3%, this minimal increase implies a significant erosion of real purchasing power for workers. As a result, stagnant wages are limiting household spending power and signaling weak labor market pressure or employer pricing discipline.
+
+**Labor Demand**  
+Labor demand in Charlotte remains strong, with a high Labor Demand Composite score of 8.46 and nonfarm payroll growth of 2.69% year-over-year, exceeding the 2% threshold for strong growth. Additionally, weekly hours worked are slightly above the 12-month trend, with a deviation of +0.397%, indicating that employers are relying more heavily on existing staff, a sign of sustained demand. These metrics collectively suggest a healthy appetite for labor among employers, despite a slight uptick in unemployment.
+
+**Cost of Living**  
+Charlotte's cost of living composite score is 3.36, indicating relatively high housing costs compared to earnings, which is putting affordability under pressure. Although Charlotte is not among the most expensive markets nationally, the ratio suggests that the already minimal wage growth is being further strained by housing expenses. This mismatch may deter lower- and middle-income households from settling or remaining in the area.
+
+**Office Economy**  
+The Office Worker Ratio composite score is 4.18, a high level that reflects a dense concentration of white-collar and professional services employment. This structural strength in the office economy positions Charlotte favorably for productivity and high-value economic activity, particularly in finance, tech, and administrative services. The city's economic base is well-diversified, extending beyond industrial or logistics sectors.
+
+**Housing — Construction**  
+Residential building permits have declined by 39.5% year-over-year, a sharp contraction that signals a major pullback in construction activity. This decline likely reflects weakening builder confidence, higher financing costs, or concerns about oversupply. The drop raises the risk of future supply shortages if demand remains resilient, but currently indicates a cooling development market.
+
+**Housing — Market Velocity**  
+Homes in Charlotte are taking a median of 49.0 days to sell, with a 13.95% year-over-year increase in days on market, meaning homes are taking significantly longer to sell than last year. This rising trend indicates a softening housing market, characterized by reduced buyer urgency or growing inventory. Despite a relatively high composite score for days on market, the clear trend is toward slower turnover and cooling demand.
+
+**Conclusion**  
+Charlotte's economy exhibits a mixed but overall above-average performance, driven by strong labor demand and workforce growth, with a solid 2.69% employment growth rate and an expanding labor supply. Key strengths include a high concentration of office-based employment and resilient job creation, but these are offset by weak wage growth of just 0.14% and a sharply contracting housing construction sector, with a 39.5% decline in permits. The housing market is cooling, with homes taking longer to sell, while high cost-of-living pressures persist amid stagnant earnings. Although the near-term outlook remains stable due to labor demand strength, household financial stress and housing market retrenchment pose notable risks.
 
 ---
 
 ## Original analysis draft (for reference)
 
-Charlotte’s labor market remains resilient, supported by robust employment growth and an expanding workforce. Nonfarm payroll employment rose 2.7% year-on-year (107E_employment_growth_yoy), while the labor force grew 2.3% (102A_clf_yoy), indicating sustained labor demand and migration or participation gains. The unemployment rate stands at 3.6% (101A_unemployment), though it has ticked up 0.2 percentage points from a year earlier (101A_unemp_yoy_pp). Average hourly earnings growth is negligible at 0.14% (103B_earnings_yoy), suggesting muted wage pressures despite tight conditions. Labor demand, as reflected in the composite score of 8.46 (107E_ldc_composite), is strong, with weekly hours slightly above the city’s 12-month trend (0.4% deviation). The office worker ratio score of 4.18 (105C_owr) ranks high nationally (94th percentile), signaling continued demand for office-based labor, likely anchored by finance and professional services.
+**Unemployment & Labor Market**  
+Charlotte’s unemployment rate is 3.6%, which falls within the healthy range of 3.5–4.5%. However, the year-over-year change of +0.2 percentage points indicates a slight rise in unemployment, suggesting labor market conditions are modestly worsening. While the headline rate remains favorable, the upward trend points to emerging softness in job availability or labor demand.
 
-Housing market dynamics present a growing constraint. Residential building permits have collapsed, down 39.5% year-on-year (200B_permits_yoy), the weakest supply signal in the dataset (2nd percentile), pointing to a significant near-term supply crunch. This is reflected in a median of 49 days on market (204A_dom_level_days), up 14% from last year (204A_dom_yoy_pct), and a days-on-market composite score of 8.02 (204A_dom_composite), indicating slower turnover. The cost of living remains relatively moderate but elevated, with a composite score of 3.36 (104C_col), placing affordability pressure on middle-income households. The divergence between strong labor demand and sharply contracting housing supply suggests a structural imbalance that could constrain long-term growth.
+**Workforce Supply**  
+The civilian labor force in Charlotte is growing at 2.28% year-over-year, a strong expansion that reflects robust population inflows or increased labor market engagement. This high growth rate is positive, indicating a growing pool of available workers that can support continued economic expansion. A rising labor supply helps mitigate overheating risks and supports long-term business growth.
 
-**Outlook:** Charlotte’s economy remains above average in performance, supported by labor demand and workforce expansion. However, the severe housing supply contraction poses a material risk to affordability and future labor force attraction. Without a rebound in construction, wage stagnation and rising living costs may dampen the city’s competitive edge in the medium term.
+**Wage Growth**  
+Average hourly earnings in Charlotte are up just 0.14% year-over-year, an extremely weak pace of wage growth that ranks among the lowest nationally. With inflation historically averaging around 2–3%, this minimal increase implies a significant erosion of real purchasing power for workers. Such stagnant wages limit household spending power and signal weak labor market pressure or employer pricing discipline.
+
+**Labor Demand**  
+Labor demand in Charlotte is strong, as evidenced by a high Labor Demand Composite score of 8.46 and nonfarm payroll growth of 2.69% year-over-year—solidly above the 2% threshold for strong growth. Weekly hours worked are also slightly above the 12-month trend, with a deviation of +0.397%, indicating employers are leaning on existing staff more, a sign of sustained demand. Together, these metrics suggest healthy employer appetite for labor despite slight unemployment upticks.
+
+**Cost of Living**  
+Charlotte’s cost of living composite score is 3.36, indicating relatively high housing costs relative to earnings, placing affordability under pressure. While not among the most expensive markets nationally, the ratio suggests that wage growth—which is already minimal—is being further strained by housing expenses. This mismatch could deter lower- and middle-income households from settling or remaining in the area.
+
+**Office Economy**  
+The Office Worker Ratio composite score is 4.18, a high level that reflects a dense concentration of white-collar and professional services employment. This structural strength in the office economy positions Charlotte favorably for productivity and high-value economic activity, particularly in finance, tech, and administrative services. The city’s economic base is well-diversified beyond industrial or logistics sectors.
+
+**Housing — Construction**  
+Residential building permits are down 39.5% year-over-year, a sharp contraction that signals a major pullback in construction activity. This dramatic decline likely reflects weakening builder confidence, higher financing costs, or oversupply concerns. The drop raises risks of future supply shortages if demand remains resilient, but currently points to a cooling development market.
+
+**Housing — Market Velocity**  
+Homes in Charlotte are taking a median of 49.0 days to sell, and the year-over-year change shows a 13.95% increase in days on market, meaning homes are taking significantly longer to sell than last year. This rising DOM indicates a softening housing market, with reduced buyer urgency or growing inventory. Despite a relatively high composite score for days on market, the clear trend is toward slower turnover and cooling demand.
+
+**Conclusion**  
+Charlotte’s economy shows a mixed but overall above-average performance, supported by strong labor demand and workforce growth, with a solid 2.69% employment growth rate and expanding labor supply. Key strengths include a high concentration of office-based employment and resilient job creation, but these are offset by alarmingly weak wage growth of just 0.14% and a sharply contracting housing construction sector, down 39.5% in permits. The housing market is clearly cooling, with homes taking longer to sell, while high cost-of-living pressures persist amid stagnant earnings. Near-term outlook remains stable due to labor demand strength, but household financial stress and housing market retrenchment pose notable risks.

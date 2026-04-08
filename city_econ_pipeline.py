@@ -82,40 +82,102 @@ def load_metros(path: str) -> pd.DataFrame:
 
 def build_analysis_prompt(df_city: pd.DataFrame, city_name: str) -> str:
     """
-    Build the prompt that Qwen will use to produce the economic analysis.
+    Build the prompt that the analysis model uses to produce the economic analysis.
     """
     records = df_city.to_dict(orient="records")
     data_json = json.dumps(records, indent=2)
 
-    metric_legend = (
-        "Metric key legend (use these descriptions when referencing metrics):\n"
-        "  101A_unemployment         — Unemployment rate (%); lower is better\n"
-        "  101A_unemp_yoy_pp         — Unemployment rate change YoY (percentage points)\n"
-        "  102A_clf_yoy              — Civilian labor force YoY % change (workforce supply growth); higher is better. "
-                                       "NOTE: this is NOT a labor force participation rate — do not describe it as one.\n"
-        "  103B_earnings_yoy         — Average hourly earnings YoY % change; higher is better\n"
-        "  104C_col                  — Cost of living composite score (PSF/earnings ratio); lower is better\n"
-        "  105C_owr                  — Office worker ratio composite score; higher is better\n"
-        "  107E_ldc_composite        — Labor demand composite score (employment + weekly hours signal)\n"
-        "  107E_employment_growth_yoy— Nonfarm payroll employment YoY % change\n"
-        "  107E_wh_trend_deviation_pct— Weekly hours deviation from each city's own 12-month baseline (%)\n"
-        "  200B_permits_yoy          — Residential building permits YoY % change\n"
-        "  204A_dom_composite        — Days on market composite score\n"
-        "  204A_dom_yoy_pct          — Median days on market YoY % change\n"
-        "  204A_dom_level_days       — Median days on market (current level)\n"
-    )
+    interpretation_guide = """
+METRIC INTERPRETATION RULES — follow these exactly, never contradict them:
+
+1. 101A_unemployment (Unemployment Rate, %):
+   - LOWER is better. Below 3.5% = very tight. 3.5–4.5% = healthy. 4.5–6% = slack. Above 6% = weak.
+   - 101A_unemp_yoy_pp: NEGATIVE = unemployment FALLING = improving. POSITIVE = rising = worsening.
+
+2. 102A_clf_yoy (Civilian Labor Force YoY % change):
+   - Measures how fast the pool of available workers is growing.
+   - HIGHER is better. Positive = workforce expanding. Negative = workforce shrinking.
+   - Do NOT call this a participation rate — it is not.
+
+3. 103B_earnings_yoy (Average Hourly Earnings YoY %):
+   - HIGHER is better. Above 4% = strong wage growth.
+   - If above ~3–4% inflation benchmark, workers are gaining real purchasing power.
+
+4. 104C_col (Cost of Living Composite — PSF/earnings ratio):
+   - LOWER is better = more affordable relative to earnings.
+   - High score = expensive. Low score = affordable.
+
+5. 105C_owr (Office Worker Ratio Composite):
+   - HIGHER is better = more white-collar / professional services density.
+   - Very low score = city is structurally reliant on logistics, industrial, or service-sector employment.
+
+6. 107E_ldc_composite (Labor Demand Composite):
+   - HIGHER is better = stronger overall labor demand signal.
+
+7. 107E_employment_growth_yoy (Nonfarm Payroll YoY %):
+   - HIGHER is better. Above 2% = strong. 1–2% = moderate. Below 1% = slow. Negative = contracting.
+
+8. 107E_wh_trend_deviation_pct (Weekly Hours vs 12-Month Baseline, %):
+   - POSITIVE = workers logging MORE hours than their recent trend = demand strengthening.
+   - NEGATIVE = hours below recent trend = demand softening.
+
+9. 200B_permits_yoy (Residential Building Permits YoY %):
+   - Higher = more construction activity = builder confidence.
+   - Large positive swing = strong supply response or speculative building.
+
+10. 204A_dom_level_days (Median Days on Market):
+    - LOWER is better = homes selling faster = stronger buyer demand.
+    - Higher number = homes sitting longer = buyer hesitation or excess supply.
+
+11. 204A_dom_yoy_pct (Median Days on Market YoY % change):
+    - NEGATIVE = homes selling FASTER than last year = market tightening.
+    - POSITIVE = homes taking LONGER to sell = market cooling/softening.
+    - CRITICAL: Rising days on market means the market is SLOWING, not tightening. Never describe rising DOM as "tight inventory."
+
+12. 204A_dom_composite (Days on Market Composite Score):
+    - HIGHER is better. Low composite = slow-moving housing market.
+"""
+
+    output_format = f"""
+OUTPUT FORMAT — follow this structure exactly for {city_name}:
+
+Write one paragraph per section below, each beginning with the bold header shown.
+Each paragraph should: state the key value(s), assess whether it is strong/weak/mixed, and explain what it means for this city in 2–4 sentences.
+End with a Conclusion paragraph that synthesizes the overall picture.
+Use plain numbers when citing data. Do not add asterisks, bullet points, or sub-headers inside paragraphs.
+
+**Unemployment & Labor Market**
+[Cover 101A_unemployment and 101A_unemp_yoy_pp]
+
+**Workforce Supply**
+[Cover 102A_clf_yoy]
+
+**Wage Growth**
+[Cover 103B_earnings_yoy]
+
+**Labor Demand**
+[Cover 107E_ldc_composite, 107E_employment_growth_yoy, and 107E_wh_trend_deviation_pct]
+
+**Cost of Living**
+[Cover 104C_col]
+
+**Office Economy**
+[Cover 105C_owr]
+
+**Housing — Construction**
+[Cover 200B_permits_yoy]
+
+**Housing — Market Velocity**
+[Cover 204A_dom_level_days and 204A_dom_yoy_pct — apply rule 11 above strictly]
+
+**Conclusion**
+[3–5 sentences synthesizing overall economic health, key strengths, key risks, and near-term outlook]
+"""
 
     prompt = (
-        f"Write a concise, evidence-based economic analysis of {city_name}.\n\n"
-        "Audience: financially literate professional readers.\n"
-        "Tone: Financial Times — neutral, analytical, precise.\n\n"
-        "Requirements:\n"
-        "- Identify the main signals in the city's economic indicators.\n"
-        "- Distinguish short-term versus longer-term trends where possible.\n"
-        "- Discuss labour market, housing, business activity, and any obvious stress points or strengths.\n"
-        "- Use specific numbers only when they materially shape the argument.\n"
-        "- Produce 2–3 paragraphs and a short closing outlook.\n\n"
-        f"{metric_legend}\n"
+        f"Write a structured economic analysis of {city_name} using the dataset and rules below.\n\n"
+        f"{interpretation_guide}\n"
+        f"{output_format}\n"
         "Dataset (JSON):\n"
         f"{data_json}"
     )
@@ -124,17 +186,17 @@ def build_analysis_prompt(df_city: pd.DataFrame, city_name: str) -> str:
 
 def build_polish_prompt(raw_text: str, city_name: str) -> str:
     """
-    Build the prompt that Llama will use to polish the Qwen draft.
+    Build the prompt that the polish model uses to refine the analysis draft.
     """
     prompt = (
-        f"You are an elite copy editor at the Financial Times.\n\n"
-        f"Your task is to rewrite the following economic column about {city_name}.\n"
-        "- Preserve all factual claims and numerical values.\n"
-        "- Improve clarity, rhythm, and flow.\n"
-        "- Tighten repetition and remove vague or redundant phrases.\n"
-        "- Maintain a neutral, analytical FT tone.\n"
-        "- Do NOT introduce new data or speculate beyond what is already present.\n\n"
-        "Here is the draft column to edit:\n\n"
+        f"You are a copy editor. Polish the prose in this economic analysis of {city_name}.\n\n"
+        "Rules:\n"
+        "- Preserve every factual claim, number, and interpretation exactly as written.\n"
+        "- Preserve the bold section headers and paragraph structure exactly — do not merge, reorder, or remove sections.\n"
+        "- Improve sentence clarity, word choice, and flow within each paragraph only.\n"
+        "- Remove redundant phrases and tighten wordy sentences.\n"
+        "- Maintain a neutral, analytical tone throughout.\n"
+        "- Do NOT introduce new data, change any stated direction (e.g. rising vs falling), or alter the meaning of any sentence.\n\n"
         f"{raw_text}"
     )
     return prompt
@@ -162,7 +224,7 @@ def call_analysis_model(prompt: str) -> str:
             },
             {"role": "user", "content": prompt},
         ],
-        max_tokens=800,
+        max_tokens=3000,
         temperature=0.3,
         top_p=0.9,
     )
@@ -188,7 +250,7 @@ def call_polish_model(prompt: str) -> str:
             },
             {"role": "user", "content": prompt},
         ],
-        max_tokens=600,
+        max_tokens=3000,
         temperature=0.2,
         top_p=0.9,
     )

@@ -2,18 +2,60 @@
 
 ## Polished FT-style column
 
-San Diego's labour market is exhibiting modest expansion, despite mixed signals. With an unemployment rate of 4.4%, slightly above the national average, and a 0.2 percentage point year-over-year increase, conditions appear to be softening. However, the 1.66% growth in the civilian labour force over the past year suggests continued workforce inflows, likely driven by migration and demographic trends. Employment growth, though, remains subdued, with nonfarm payrolls rising only 0.35% year-over-year, and the labour demand composite score of 4.03 ranking in the 30th percentile, indicating muted hiring momentum. Average hourly earnings have increased 2.83% year-over-year, but this gain is below inflation-adjusted increases in leading metros, limiting real income growth.
+**Unemployment & Labor Market**  
+San Diego's unemployment rate of 4.4% falls within the healthy range of 3.5–4.5%. However, the year-over-year increase of 0.2 percentage points indicates a slight rise in unemployment, suggesting a modest deterioration in labor market conditions. Although the headline rate remains acceptable, the upward trend points to emerging softness in job availability or matching efficiency.
 
-The city's housing and business activity pose structural challenges. A cost of living composite score of 5.2, ranking in the 12th percentile, highlights severe affordability constraints that erode household purchasing power. Residential construction is stagnant, with building permits down 0.37% year-over-year, although this represents a modest outperformance relative to peers. The office market remains under pressure, with an office worker ratio composite of 1.62, placing it in the 22nd percentile, indicative of low return-to-office uptake and ongoing commercial real estate stress. The average time to sell a home has increased to 38 days, up 5.56% year-over-year, pointing to a gradually cooling market.
+**Workforce Supply**  
+The civilian labor force in San Diego is expanding at a rate of 1.66% year-over-year, a relatively strong growth in the pool of available workers. This sustained expansion indicates population or participation growth, providing a robust supply of labor for employers. As long as job creation keeps pace, a rising labor force can support economic expansion without immediate wage pressures.
 
-Looking ahead, San Diego's economy faces persistent headwinds from high living costs, weak job growth, and commercial real estate adjustment. While labour force expansion provides a foundation for future growth, near-term momentum is likely to remain constrained unless wage growth accelerates or housing supply improves materially.
+**Wage Growth**  
+Average hourly earnings in San Diego are increasing at a rate of 2.83% year-over-year, below the 4% threshold for strong wage growth and likely trailing inflation. This modest pace suggests limited real purchasing power gains for workers, potentially constraining consumer spending growth. The data indicates a labor market with limited wage pressure, possibly due to balanced supply and demand.
+
+**Labor Demand**  
+Labor demand in San Diego is weak, with a composite score of 4.03 and nonfarm payroll growth of only 0.35% year-over-year, indicating slow employment expansion. The fact that weekly hours worked are 0.758% below the 12-month trend suggests reduced scheduling by employers and softer demand for labor. These metrics collectively point to a cooling labor market, despite a still-healthy unemployment rate.
+
+**Cost of Living**  
+San Diego's cost of living composite score is 5.2, indicating high housing costs relative to earnings and significant strain on affordability. This elevated ratio means households must allocate a large share of their income to housing, limiting discretionary spending and savings. The high cost of living undermines the city's economic attractiveness, particularly for middle- and lower-income residents.
+
+**Office Economy**  
+The office worker ratio in San Diego is 1.62, a low score suggesting limited concentration of white-collar, professional services employment. This indicates a relatively weaker knowledge economy compared to peer metros, with greater reliance on sectors like healthcare, defense, tourism, or logistics. A low office worker ratio may constrain high-wage job growth and innovation-driven economic expansion.
+
+**Housing — Construction**  
+Residential building permits in San Diego have decreased by 0.37% year-over-year, indicating stagnant construction activity and a minimal response to supply needs. This near-flat growth fails to keep pace with labor force expansion and does little to alleviate housing shortages. Builder caution may be due to high development costs, regulatory hurdles, or demand uncertainty.
+
+**Housing — Market Velocity**  
+The median days-on-market for homes in San Diego is 38.0 days, with a year-over-year increase of 5.56%, indicating that homes are taking longer to sell than last year. This rising trend signals a softening housing market, characterized by cooling buyer demand or increasing supply. Contrary to a tightening market, the trend reflects a slowdown in transaction velocity, consistent with higher affordability barriers.
+
+**Conclusion**  
+San Diego's economy exhibits mixed but overall subdued performance, earning a C grade with notable risks. Labor market indicators are broadly stable but cooling, with sluggish job growth, modest wage gains, and rising unemployment pressure. The high cost of living severely constrains affordability, while housing construction and sales momentum lag. A growing labor force is a positive factor, but structural weaknesses, particularly in the office economy and labor demand, suggest limited near-term growth momentum and vulnerability to broader economic headwinds.
 
 ---
 
 ## Original analysis draft (for reference)
 
-San Diego’s labour market shows modest expansion amid mixed signals. The unemployment rate stands at 4.4% (101A_unemployment), slightly above the national average, with a 0.2 percentage point increase year-over-year (101A_unemp_yoy_pp), suggesting softening conditions. However, the civilian labour force has grown 1.66% over the past year (102A_clf_yoy), a relatively strong signal indicating continued workforce inflows, likely driven by migration and demographic trends. Employment growth remains tepid, with nonfarm payrolls rising just 0.35% YoY (107E_employment_growth_yoy), while the labour demand composite score of 4.03 (107E_ldc_composite) ranks in the 30th percentile, reflecting subdued hiring momentum. Average hourly earnings are up 2.83% (103B_earnings_yoy), below inflation-adjusted gains seen in leading metros, limiting real income growth.
+**Unemployment & Labor Market**  
+San Diego’s unemployment rate is 4.4%, which falls within the healthy range of 3.5–4.5%. However, the year-over-year change of +0.2 percentage points indicates a slight rise in unemployment, signaling a modest deterioration in labor market conditions. While the headline rate remains acceptable, the upward trend suggests emerging softness in job availability or matching efficiency.
 
-Housing and business activity present structural challenges. The cost of living composite score of 5.2 (104C_col) ranks in the 12th percentile, underscoring severe affordability constraints that weigh on household purchasing power. Residential construction is nearly flat, with building permits down 0.37% YoY (200B_permits_yoy), though this represents a modest outperformance relative to peers (58th percentile). The office market remains under pressure, with an office worker ratio composite of 1.62 (105C_owr), placing it in the 22nd percentile, indicative of low return-to-office uptake and ongoing commercial real estate stress. Homes are taking 38 days to sell on average (204A_dom_level_days), up 5.56% YoY (204A_dom_yoy_pct), pointing to a gradually cooling market.
+**Workforce Supply**  
+The civilian labor force in San Diego is growing at 1.66% year-over-year, a positive and relatively strong expansion in the pool of available workers. This indicates sustained population or participation growth, providing a robust supply of labor for employers. A rising labor force can support economic expansion without immediate wage pressures, though it must be met with commensurate job creation.
 
-**Outlook:** San Diego’s economy faces persistent headwinds from high living costs, weak job growth, and commercial real estate adjustment. While labour force expansion provides a foundation for future growth, near-term momentum is likely to remain constrained unless wage growth accelerates or housing supply materially improves.
+**Wage Growth**  
+Average hourly earnings in San Diego are rising at 2.83% year-over-year, below the 4% threshold for strong wage growth and likely trailing inflation. This modest pace suggests limited gains in real purchasing power for workers, potentially constraining consumer spending growth. The data reflects a labor market without significant wage pressure, possibly due to balanced supply and demand.
+
+**Labor Demand**  
+Labor demand in San Diego is weak, with a composite score of 4.03 and nonfarm payroll growth at just 0.35% year-over-year, indicating slow employment expansion. Weekly hours worked are 0.758% below the 12-month trend, signaling reduced scheduling by employers and softer demand for labor. Together, these metrics point to a cooling labor market despite a still-healthy unemployment rate.
+
+**Cost of Living**  
+San Diego’s cost of living composite score is 5.2, indicating high housing costs relative to earnings and placing affordability under significant strain. This elevated ratio means households must allocate a large share of income to housing, limiting discretionary spending and savings. The high cost undermines the city’s economic attractiveness, particularly for middle- and lower-income residents.
+
+**Office Economy**  
+The office worker ratio in San Diego is 1.62, a low score that suggests limited concentration of white-collar, professional services employment. This indicates a relatively weaker knowledge economy compared to peer metros, with greater reliance on sectors like healthcare, defense, tourism, or logistics. A low OWR may constrain high-wage job growth and innovation-driven economic expansion.
+
+**Housing — Construction**  
+Residential building permits in San Diego are down 0.37% year-over-year, indicating stagnant construction activity and minimal supply response. This near-flat growth fails to keep pace with labor force expansion and does little to alleviate housing shortages. Builder caution may reflect high development costs, regulatory hurdles, or demand uncertainty.
+
+**Housing — Market Velocity**  
+Homes in San Diego are taking a median of 38.0 days to sell, and the year-over-year change of +5.56% means homes are taking longer to sell than last year. This rising days-on-market signals a softening housing market with cooling buyer demand or increasing supply. Contrary to tightening, the trend reflects a slowdown in transaction velocity, consistent with higher affordability barriers.
+
+**Conclusion**  
+San Diego’s economy shows mixed but overall subdued performance, earning a C grade with notable risks. Labor market indicators are broadly stable but cooling, with sluggish job growth, modest wage gains, and rising unemployment pressure. The high cost of living severely constrains affordability, while housing construction and sales momentum lag. Strengths include a growing labor force, but structural weaknesses—particularly in the office economy and labor demand—suggest limited near-term growth momentum and vulnerability to broader economic headwinds.

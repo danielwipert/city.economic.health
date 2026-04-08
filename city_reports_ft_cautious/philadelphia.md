@@ -2,18 +2,60 @@
 
 ## Polished FT-style column
 
-Philadelphia's labor market is exhibiting moderate strain, set against a mixed economic backdrop. With an unemployment rate of 4.0%, slightly above the national average, and a 0.6 percentage point year-over-year increase, labor demand appears to be softening. Although the civilian labor force has expanded by 0.93% over the past year, wage growth remains subdued at 1.91%, lagging behind inflation. Notably, labor demand, as measured by the composite index, ranks strong at the 90th percentile nationally, driven by 1.16% year-over-year employment growth in nonfarm payrolls and a slight increase in weekly hours worked. However, the city's office worker ratio score, at 3.52, ranks at the 84th percentile, highlighting the ongoing challenge of returning to pre-pandemic downtown occupancy levels.
+**Unemployment & Labor Market**  
+Philadelphia's unemployment rate is 4.0%, within the healthy range of 3.5–4.5%. However, the year-over-year increase of 0.6 percentage points indicates a rise in unemployment, suggesting labor market conditions are gradually deteriorating. Although the current rate does not indicate weakness, the upward trend points to moderating job growth or weakening labor demand.
 
-In the housing market, a cooling trend is emerging. The median days on market has risen to 43 days, representing a 10.26% increase from the previous year, indicating reduced buyer urgency. The days-on-market composite score ranks in the 82nd percentile, suggesting slower turnover compared to peer cities. While residential construction activity remains resilient, with building permits up 4.14% year-over-year, this growth is modest compared to other markets. The cost of living, at a score of 3.0, ranks at the 40th percentile, and although not extreme, it is elevated relative to incomes, potentially constraining affordability.
+**Workforce Supply**  
+The civilian labor force in Philadelphia is growing at a 0.93% year-over-year rate, indicating a modest expansion in the pool of available workers. This growth suggests that more individuals are entering or re-entering the labor market, which can support sustained employment growth if demand keeps pace. The rate is moderate, placing workforce supply growth slightly above average compared to other metros.
 
-The outlook for Philadelphia's economy is one of resilience in employment fundamentals, but with headwinds from stagnant wages, rising unemployment, and a slowing housing market. Near-term momentum appears contained, and longer-term revitalization will depend on private-sector re-engagement in downtown real estate and stronger income growth.
+**Wage Growth**  
+Average hourly earnings in Philadelphia are rising at a 1.91% year-over-year rate, a relatively weak pace of wage growth. This is below the 3–4% threshold typically needed to outpace inflation and improve real purchasing power for workers. Such subdued wage growth may reflect limited labor market tightness or a shift toward lower-paying employment sectors.
+
+**Labor Demand**  
+Labor demand in Philadelphia is strong, as indicated by a high Labor Demand Composite score of 6.77 and a 90th percentile ranking. Nonfarm payroll employment is growing at a 1.16% year-over-year rate, which is moderate, while weekly hours worked are 0.844% above the 12-month baseline, signaling increasing demand for labor. These metrics suggest employers are relying on existing staff for more hours, although hiring momentum has not reached high-growth levels.
+
+**Cost of Living**  
+Philadelphia's cost of living composite score is 3.0, indicating moderate affordability relative to local earnings. Housing and living expenses are reasonably aligned with income levels, supporting household purchasing power, particularly compared to higher-cost coastal metropolitan areas.
+
+**Office Economy**  
+The Office Worker Ratio composite score of 3.52 is high, ranking in the 84th percentile, indicating a significant concentration of white-collar and professional services employment. This reflects Philadelphia's economic structure as a hub for finance, education, healthcare, and corporate services. A strong office sector supports downtown vitality and higher-wage job creation, although it may be sensitive to remote work trends.
+
+**Housing — Construction**  
+Residential building permits are up 4.14% year-over-year, reflecting steady growth in construction activity and builder confidence. This level of supply response is positive, suggesting developers are responding to demand without overbuilding. The pace supports gradual inventory expansion, which can help moderate housing cost pressures over time.
+
+**Housing — Market Velocity**  
+Homes in Philadelphia are taking a median of 43.0 days to sell, with a 10.26% year-over-year increase in days on market, indicating homes are taking longer to sell than last year. This suggests a softening in buyer demand or a relative oversupply, with the market cooling rather than tightening. Despite a composite score of 8.03 suggesting relatively strong market velocity, the recent trend points to deceleration.
+
+**Conclusion**  
+Philadelphia's economy is performing at an average level, with a balanced mix of strengths and vulnerabilities. The labor market shows healthy unemployment but rising joblessness and weak wage growth, offset by strong labor demand signals and a robust professional services sector. Construction activity is expanding steadily, and the cost of living remains manageable, supporting household stability. However, slowing home sales and tepid earnings growth pose risks to consumer confidence and housing market resilience. The near-term outlook is one of moderate expansion, contingent on sustained demand in white-collar sectors and broader wage recovery.
 
 ---
 
 ## Original analysis draft (for reference)
 
-Philadelphia’s labor market shows moderate strain amid a broader mixed economic picture. The city’s unemployment rate stands at 4.0% (101A_unemployment), slightly above the national average, with a notable 0.6 percentage point increase year-over-year (101A_unemp_yoy_pp), suggesting softening labor demand. While the civilian labor force expanded modestly by 0.93% over the past year (102A_clf_yoy), wage growth remains subdued at 1.91% (103B_earnings_yoy), lagging behind inflation in recent quarters. Labor demand, as captured by the composite index (107E_ldc_composite = 6.77), ranks strong at the 90th percentile nationally, supported by 1.16% year-over-year employment growth in nonfarm payrolls (107E_employment_growth_yoy) and a slight uptick in weekly hours worked (0.844% above 12-month baseline). However, the city’s relatively low office worker ratio score (105C_owr = 3.52, 84th percentile) reflects persistent challenges in returning to pre-pandemic downtown occupancy levels.
+**Unemployment & Labor Market**  
+Philadelphia’s unemployment rate stands at 4.0%, which falls within the healthy range of 3.5–4.5%. However, the year-over-year change of +0.6 percentage points indicates unemployment is rising, suggesting labor market conditions are gradually deteriorating. While the current rate does not signal weakness, the upward trend points to moderating job growth or weakening demand for labor.
 
-Housing market dynamics point to a cooling trend. With median days on market at 43 days (204A_dom_level_days), homes are taking 10.26% longer to sell than a year ago (204A_dom_yoy_pct), a signal consistent with reduced buyer urgency. The days-on-market composite score (204A_dom_composite = 8.03) ranks in the 82nd percentile, indicating slower turnover relative to peer cities. Residential construction activity remains resilient, with building permits up 4.14% year-over-year (200B_permits_yoy), though this growth is modest compared to Sun Belt markets. The cost of living, while not extreme, is elevated relative to incomes (104C_col = 3.0, 40th percentile), potentially constraining affordability despite lower prices than coastal peers.
+**Workforce Supply**  
+The civilian labor force in Philadelphia is growing at 0.93% year-over-year, indicating a modest expansion in the pool of available workers. This positive growth suggests that more individuals are entering or re-entering the labor market, which can support sustained employment growth if demand keeps pace. The rate is moderate but not robust, placing workforce supply growth slightly above average compared to other metros.
 
-**Outlook:** Philadelphia’s economy exhibits resilience in employment fundamentals but faces headwinds from stagnant wages, rising unemployment, and a slowing housing market. Near-term momentum appears contained, with longer-term revitalization dependent on private-sector re-engagement in downtown real estate and stronger income growth.
+**Wage Growth**  
+Average hourly earnings in Philadelphia are rising at 1.91% year-over-year, a relatively weak pace of wage growth. This is well below the 3–4% threshold typically needed to outpace inflation and improve real purchasing power for workers. Such subdued wage growth may reflect limited labor market tightness or a shift toward lower-paying employment sectors.
+
+**Labor Demand**  
+Labor demand in Philadelphia is strong, as indicated by a high Labor Demand Composite score of 6.77 and a 90th percentile ranking. Nonfarm payroll employment is growing at 1.16% year-over-year, which is moderate, while weekly hours worked are 0.844% above the 12-month baseline, signaling increasing demand for labor. Together, these metrics suggest employers are leaning on existing staff for more hours, though hiring momentum has not reached high-growth levels.
+
+**Cost of Living**  
+Philadelphia’s cost of living composite score is 3.0, indicating moderate affordability relative to local earnings. While not among the most affordable cities, housing and living expenses remain reasonably aligned with income levels. This balance supports household purchasing power, particularly when compared to higher-cost coastal metropolitan areas.
+
+**Office Economy**  
+The Office Worker Ratio composite score of 3.52 is high, ranking in the 84th percentile, indicating a significant concentration of white-collar and professional services employment. This reflects Philadelphia’s economic structure as a hub for finance, education, healthcare, and corporate services. A strong office sector supports downtown vitality and higher-wage job creation, though it may be sensitive to remote work trends.
+
+**Housing — Construction**  
+Residential building permits are up 4.14% year-over-year, reflecting steady growth in construction activity and builder confidence. This level of supply response is positive, suggesting developers are responding to demand without overbuilding. The pace supports gradual inventory expansion, which can help moderate housing cost pressures over time.
+
+**Housing — Market Velocity**  
+Homes in Philadelphia are taking a median of 43.0 days to sell, and the year-over-year change shows a 10.26% increase in days on market, meaning homes are taking longer to sell than last year. This indicates a softening in buyer demand or a relative oversupply, with the market cooling rather than tightening. Despite the composite score of 8.03 suggesting relatively strong market velocity, the recent trend points to deceleration.
+
+**Conclusion**  
+Philadelphia’s economy is performing at an average level, with a balanced mix of strengths and vulnerabilities. The labor market shows healthy unemployment but rising joblessness and weak wage growth, offset by strong labor demand signals and a robust professional services sector. Construction activity is稳步 expanding, and the cost of living remains manageable, supporting household stability. However, slowing home sales and tepid earnings growth pose risks to consumer confidence and housing market resilience. The near-term outlook is one of moderate expansion, contingent on sustained demand in white-collar sectors and broader wage recovery.

@@ -2,18 +2,60 @@
 
 ## Polished FT-style column
 
-San Antonio's economy displays a mixed yet resilient profile, underpinned by steady labor demand and moderate wage growth. However, recent weakness in the housing market is a notable exception. The labor market remains robust, with an unemployment rate of 3.7% - a 0.3 percentage point increase year-on-year - and nonfarm employment growth of 1.09% over the same period. The labor demand composite score stands at the 82nd percentile, indicating above-average momentum in hiring and hours worked. The civilian labor force has expanded 1.47% year-on-year, driven by sustained workforce supply growth, while average hourly earnings have risen 4.08%, in line with national trends.
+**Unemployment & Labor Market**  
+San Antonio's unemployment rate stands at 3.7%, within the healthy range of 3.5–4.5%. However, the year-over-year increase of 0.3 percentage points signals a modest deterioration in labor market conditions, as the jobless rate rises slightly. Although the overall rate remains low, the upward trend suggests emerging softness in employment absorption.
 
-In contrast, the housing market has softened significantly, with residential building permits plummeting 37.55% year-on-year, ranking in the 4th percentile nationally. This sharp decline suggests developers are responding to affordability pressures and higher financing costs. Although the median home's time on the market has increased by 1.67% to 61 days, San Antonio retains a significant affordability advantage, with a cost of living composite score in the 88th percentile. The city's industrial and service-sector orientation is also reflected in its relatively weak white-collar employment density, as indicated by the office worker ratio composite score in the 16th percentile.
+**Workforce Supply**  
+The civilian labor force in San Antonio is expanding at a rate of 1.47% year-over-year, indicating a positive and relatively strong growth in the available worker pool. This sustained growth supports long-term economic capacity, as a growing labor supply can meet rising demand. However, if job creation does not keep pace, it may exert mild downward pressure on wages.
 
-San Antonio's overall economic grade of B+ reflects the balance between strong labor demand and demographic fundamentals, and near-term headwinds in construction and commercial real estate. Looking ahead, the city's economy is likely to maintain moderate growth, driven by population inflows and a diversified employment base. However, the housing sector adjustment may persist into 2025 unless financing conditions ease.
+**Wage Growth**  
+Average hourly earnings in San Antonio have increased by 4.08% year-over-year, exceeding the 4% threshold for strong wage growth. This increase likely outpaces inflation, contributing to improved real purchasing power for workers. The robust earnings growth reflects competitive labor pressures and supports stronger household consumption.
+
+**Labor Demand**  
+San Antonio's labor demand is strong, as evidenced by a high Labor Demand Composite score of 6.44 and employment growth of 1.09% year-over-year, which is moderate but positive. With weekly hours worked 0.618% above the 12-month baseline, employers are relying on existing staff, indicating sustained demand. These metrics point to a labor market with solid underlying demand, despite only moderate payroll expansion.
+
+**Cost of Living**  
+San Antonio's cost of living composite ratio is 1.23, indicating relatively high affordability compared to local earnings. This means residents can stretch their incomes further, particularly on housing. The city's affordability enhances its attractiveness for households and supports real income gains, despite broader regional cost pressures.
+
+**Office Economy**  
+The Office Worker Ratio composite score is 1.36, very low compared to peer cities, indicating a minimal concentration of white-collar or professional services employment. San Antonio's economy is structurally tilted toward sectors like government, healthcare, logistics, and retail, rather than knowledge-intensive industries. This limits high-wage job density and may constrain long-term productivity growth.
+
+**Housing — Construction**  
+Residential building permits have declined by 37.55% year-over-year, a sharp contraction in construction activity. This steep decline suggests waning builder confidence, possibly due to higher financing costs, oversupply concerns, or weakening demand. A drop of this magnitude raises risks of future supply shortages if demand rebounds without a corresponding construction response.
+
+**Housing — Market Velocity**  
+Homes in San Antonio are taking a median of 61.0 days to sell, with a year-over-year increase of 1.67% in days on market. This indicates that homes are selling slightly slower than last year, signaling a softening market with reduced buyer urgency. The low Days on Market composite score of 6.99 confirms a slowdown in transaction velocity.
+
+**Conclusion**  
+San Antonio's economy is performing above average overall, supported by a healthy unemployment rate, strong wage growth, and solid labor demand. Key strengths include workforce expansion and high housing affordability, which enhance livability and consumer purchasing power. However, risks are emerging in the housing sector, with a dramatic 37.55% drop in building permits and a slight market slowdown. The city's low office worker ratio underscores a structural reliance on non-professional service sectors, limiting high-end job formation. Near-term growth will depend on whether labor demand can sustain wage gains amid cooling housing activity.
 
 ---
 
 ## Original analysis draft (for reference)
 
-San Antonio’s economy exhibits a mixed but generally resilient profile, supported by steady labor demand and moderate wage growth, though recent housing market weakness stands out. Labor market indicators show an unemployment rate of 3.7%—up 0.3 percentage points year-on-year—while nonfarm employment grew 1.09% over the same period, and the labor demand composite score (82nd percentile) suggests above-average momentum in hiring and hours worked. The civilian labor force expanded 1.47% year-on-year, reflecting sustained workforce supply growth, and average hourly earnings rose 4.08%, in line with national trends. However, the office worker ratio composite score (16th percentile) signals relatively weak white-collar employment density, consistent with the city’s industrial and service-sector orientation.
+**Unemployment & Labor Market**  
+San Antonio’s unemployment rate is 3.7%, which falls within the healthy range of 3.5–4.5%. However, the year-over-year increase of 0.3 percentage points indicates a slight rise in unemployment, signaling a modest deterioration in labor market conditions. While the overall jobless rate remains low, the upward trend suggests emerging softness in employment absorption.
 
-Housing market data reveals a notable softening, with residential building permits down 37.55% year-on-year (4th percentile), among the steepest declines nationally. This sharp contraction suggests developers are responding to affordability pressures and higher financing costs. While the median home remains on the market for 61 days—up 1.67% from a year ago—the cost of living composite score (88th percentile) indicates San Antonio retains a significant affordability advantage relative to incomes. The city’s overall economic grade of B+ reflects strong labor demand and demographic fundamentals offsetting near-term headwinds in construction and commercial real estate.
+**Workforce Supply**  
+The civilian labor force in San Antonio is growing at 1.47% year-over-year, a positive and relatively strong expansion of the available worker pool. This indicates sustained population or participation growth, supporting long-term economic capacity. A growing labor supply can meet rising demand, though it may also exert mild downward pressure on wages if job creation does not keep pace.
 
-**Outlook:** San Antonio’s economy is likely to maintain moderate growth, anchored by population inflows and a diversified employment base, but housing sector adjustment may persist into 2025 unless financing conditions ease.
+**Wage Growth**  
+Average hourly earnings in San Antonio are up 4.08% year-over-year, exceeding the 4% threshold for strong wage growth. This level of increase likely outpaces inflation, contributing to improved real purchasing power for workers. Robust earnings growth reflects competitive labor pressures and supports stronger household consumption.
+
+**Labor Demand**  
+Labor demand in San Antonio is strong, as indicated by a high Labor Demand Composite score of 6.44 and employment growth of 1.09% year-over-year, which is moderate but positive. Weekly hours worked are 0.618% above the 12-month baseline, suggesting employers are leaning on existing staff, a sign of sustained demand. Together, these metrics point to a labor market with solid underlying demand despite only moderate payroll expansion.
+
+**Cost of Living**  
+San Antonio’s cost of living composite ratio is 1.23, indicating relatively high affordability compared to local earnings. A lower ratio means residents can stretch their incomes further, especially on housing. This affordability enhances the city’s attractiveness for households and supports real income gains despite broader regional cost pressures.
+
+**Office Economy**  
+The Office Worker Ratio composite score is 1.36, very low compared to peer cities, indicating minimal concentration of white-collar or professional services employment. San Antonio’s economy is structurally tilted toward sectors like government, healthcare, logistics, and retail rather than knowledge-intensive industries. This limits high-wage job density and may constrain long-term productivity growth.
+
+**Housing — Construction**  
+Residential building permits are down 37.55% year-over-year, a sharp contraction in construction activity. This steep decline suggests waning builder confidence, possibly due to higher financing costs, oversupply concerns, or weakening demand. Such a large drop raises risks of future supply shortages if demand rebounds without a corresponding construction response.
+
+**Housing — Market Velocity**  
+Homes in San Antonio are taking a median of 61.0 days to sell, and the year-over-year change shows a 1.67% increase in days on market, meaning homes are selling slightly slower than last year. This positive DOM yoy change indicates a softening market with reduced buyer urgency. The low Days on Market composite score of 6.99 confirms a slowdown in transaction velocity.
+
+**Conclusion**  
+San Antonio’s economy is performing above average overall, supported by a healthy unemployment rate, strong wage growth, and solid labor demand. Key strengths include workforce expansion and high housing affordability, which enhance livability and consumer purchasing power. However, risks are emerging in the housing sector, with a dramatic 37.55% drop in building permits and a slight market slowdown as homes take longer to sell. The city’s low office worker ratio underscores a structural reliance on non-professional service sectors, limiting high-end job formation. Near-term growth will depend on whether labor demand can sustain wage gains amid cooling housing activity.

@@ -2,18 +2,60 @@
 
 ## Polished FT-style column
 
-Indianapolis boasts a resilient labor market, with an unemployment rate of 2.5% - significantly below the national average - and a 1.2 percentage point year-on-year decline. This downtrend in unemployment underscores sustained labor demand. Although the labor force has contracted slightly, with a 0.36% year-on-year decrease, this suggests potential supply-side constraints rather than waning demand. Wage growth remains robust at 5.64% year-on-year, outpacing inflation and supporting household purchasing power. The composite labor demand index indicates moderate momentum, at 4.08, while nonfarm payroll growth is modest, at 0.11% year-on-year, hinting that the market may be nearing capacity.
+**Unemployment & Labor Market**  
+Indianapolis boasts an unemployment rate of 2.5%, significantly below the 3.5% threshold, indicating a very tight labor market. The year-over-year decline in unemployment of 1.2 percentage points signals improving labor market conditions, with strong job availability and high demand for workers. However, this low rate may also indicate potential constraints on labor market expansion due to emerging worker shortages.
 
-In contrast, the housing market is showing signs of softening. Residential building permits have fallen by 10.26% year-on-year, implying that developers are responding to tighter financing conditions or decreased buyer appetite. The median days on market have increased by 15.91% year-on-year to 51 days, a trend typically associated with cooling demand. The cost of living in Indianapolis remains relatively moderate, at 3.57, although not exceptionally low by national standards. However, office occupancy signals, as proxied by the office worker ratio of 3.06, are above average, indicating some resilience in commercial real estate compared to peer metros.
+**Workforce Supply**  
+The civilian labor force in Indianapolis contracted by 0.36% year-over-year, reflecting a shrinking pool of available workers. This decline is concerning, as a decreasing labor supply can limit economic expansion despite strong job demand. It may be attributed to demographic trends, outmigration, or declining labor market attachment among potential workers. Without workforce growth, sustained employment gains will be challenging to achieve.
 
-Looking ahead, Indianapolis is expected to maintain a stable, above-average economic footing, underpinned by its tight labor market and solid wage growth. However, near-term challenges in housing construction and slowing employment growth may lead to moderation. In the longer term, the city's economic prospects will depend on its ability to expand its labor supply and adapt to hybrid work trends without overheating its housing market.
+**Wage Growth**  
+Average hourly earnings in Indianapolis rose by 5.64% year-over-year, exceeding the 4% benchmark for robust wage growth. This increase likely surpasses inflation, granting workers greater purchasing power. Strong wage growth can bolster consumer spending and living standards, although it may also exert upward pressure on business costs. The pace of wage gains reflects the tight labor market, despite modest broader employment growth.
+
+**Labor Demand**  
+Although the Labor Demand Composite score is 4.08, indicating a moderate level, other indicators suggest softening demand. Nonfarm payroll growth is a mere 0.11% year-over-year, well below the 2% threshold for strong growth, and weekly hours worked are 0.373% below the 12-month baseline, signaling reduced workloads. While the composite score is not extremely weak, the underlying data point to a labor market losing momentum, despite low unemployment.
+
+**Cost of Living**  
+The cost of living composite score in Indianapolis is 3.57, relatively high, indicating that housing and other expenses are less affordable compared to local earnings. A higher score translates to greater financial pressure on residents to maintain their standard of living. This reduced affordability may offset some benefits of strong wage growth, particularly for lower- and middle-income households, with housing costs being a key contributor to this burden.
+
+**Office Economy**  
+The Office Worker Ratio composite score is 3.06, relatively high, suggesting a significant presence of white-collar and professional services employment in Indianapolis. This indicates a diversified economy with a structural base beyond manufacturing or logistics. A strong office sector can support higher-wage jobs and commercial real estate demand, with the city having cultivated a professional services environment that compares favorably to many peers.
+
+**Housing — Construction**  
+Residential building permits in Indianapolis declined by 10.26% year-over-year, a significant drop indicating weakening builder confidence or constrained development activity. This decline suggests a cooling in housing supply growth, which could exacerbate affordability pressures if demand remains stable. A shrinking pipeline of new homes may limit options for buyers and renters, raising concerns about long-term supply responsiveness in the housing market.
+
+**Housing — Market Velocity**  
+Homes in Indianapolis took a median of 51.0 days to sell, with this duration increasing by 15.91% compared to the prior year. This rise in days on market indicates a softening housing market, with reduced buyer urgency or cooling demand. Contrary to tightening conditions, the increasing days on market reflects a slowing market. Although the Days on Market composite score of 7.95 suggests the market remains relatively active, momentum is clearly waning.
+
+**Conclusion**  
+Indianapolis exhibits a mixed but generally average economic profile, characterized by very low unemployment and strong wage growth, benefiting workers and consumers. Key strengths include a robust professional services sector and solid earnings gains that likely outpace inflation. However, emerging risks in labor demand, including minimal payroll growth, declining weekly hours, and a shrinking labor force, constrain expansion. The cooling housing market, with fewer permits issued and homes selling more slowly, alongside deteriorating affordability, pose additional challenges. The near-term outlook depends on whether wage growth and white-collar employment can offset softening labor demand and housing activity.
 
 ---
 
 ## Original analysis draft (for reference)
 
-Indianapolis exhibits a robust labor market, anchored by a low unemployment rate of 2.5%—well below national averages and reflecting strong employment absorption. This is corroborated by a 1.2 percentage point year-on-year decline in unemployment (101A_unemp_yoy_pp = -1.2), a signal of sustained labor demand. However, the labor force has contracted slightly, with the civilian labor force down 0.36% year-on-year (102A_clf_yoy = -0.36), suggesting potential supply-side constraints rather than weakening demand. Wage growth remains healthy at 5.64% YoY (103B_earnings_yoy), outpacing inflation and supporting household purchasing power. Labor demand, as measured by the composite index (107E_ldc_composite = 4.08), reflects moderate momentum, though nonfarm payroll growth is minimal at 0.11% YoY (107E_employment_growth_yoy), indicating the market may be nearing capacity.
+**Unemployment & Labor Market**  
+Indianapolis has an unemployment rate of 2.5%, which is well below the 3.5% threshold and indicates a very tight labor market. The year-over-year change in unemployment is -1.2 percentage points, meaning unemployment is falling, which signals improving labor market conditions. This combination suggests strong job availability and high demand for workers relative to supply. However, such a low unemployment rate could also indicate constraints on further labor market expansion if worker shortages emerge.
 
-Housing market dynamics point to softening activity. Residential building permits have declined by 10.26% year-on-year (200B_permits_yoy), suggesting developers are responding to tighter financing conditions or reduced buyer appetite. Homes are taking longer to sell, with median days on market up 15.91% YoY to 51 days (204A_dom_level_days), a trend typically associated with cooling demand. The cost of living remains relatively moderate (104C_col = 3.57), though not exceptionally low by national standards, while office occupancy signals—proxied by the office worker ratio—are above average (105C_owr = 3.06), indicating some resilience in commercial real estate compared to peer metros.
+**Workforce Supply**  
+The civilian labor force in Indianapolis declined by 0.36% year-over-year, indicating a shrinking pool of available workers. This negative growth is a concern, as a declining labor supply can limit economic expansion even when job demand is present. It may reflect demographic trends, outmigration, or declining labor market attachment among potential workers. Without an expanding workforce, sustained employment growth will be difficult to achieve.
 
-**Outlook:** Indianapolis maintains a stable, above-average economic footing, supported by a tight labor market and solid wage growth. Near-term headwinds in housing construction and slowing employment growth suggest moderation. Over the longer term, the city’s appeal will hinge on its ability to expand labor supply and adapt to hybrid work trends without overheating its housing market.
+**Wage Growth**  
+Average hourly earnings in Indianapolis grew by 5.64% year-over-year, a strong rate that exceeds the 4% benchmark for robust wage growth. This level of increase likely outpaces inflation, suggesting workers are gaining real purchasing power. Strong wage growth can support consumer spending and living standards, though it may also signal upward pressure on business costs. The pace of wage gains reflects tight labor conditions despite broader employment growth being modest.
+
+**Labor Demand**  
+The Labor Demand Composite score of 4.08 is moderate, but other indicators suggest softening demand: nonfarm payroll growth is only 0.11% year-over-year, well below the 2% threshold for strong growth and indicating minimal job creation. Weekly hours worked are 0.373% below the 12-month baseline, signaling reduced workloads and softer demand for labor. While the composite score is not extremely weak, the underlying data point to a labor market that is losing momentum despite low unemployment.
+
+**Cost of Living**  
+The cost of living composite score in Indianapolis is 3.57, which is relatively high, indicating that housing and other expenses are less affordable relative to local earnings. A higher score means residents face greater financial pressure to maintain their standard of living. This reduced affordability may offset some of the benefits of strong wage growth, particularly for lower- and middle-income households. Housing costs appear to be a key contributor to this elevated burden.
+
+**Office Economy**  
+The Office Worker Ratio composite score is 3.06, which is relatively high and suggests a significant presence of white-collar and professional services employment in Indianapolis. This indicates a diversified economy with a structural base beyond manufacturing or logistics. A strong office sector can support higher-wage jobs and commercial real estate demand. The city appears to have cultivated a professional services environment that compares favorably to many peers.
+
+**Housing — Construction**  
+Residential building permits in Indianapolis fell by 10.26% year-over-year, a significant decline that points to weakening builder confidence or constrained development activity. This negative swing suggests a cooling in housing supply growth, which could exacerbate affordability pressures if demand remains stable. A shrinking pipeline of new homes may limit options for buyers and renters alike. The drop raises concerns about long-term supply responsiveness in the housing market.
+
+**Housing — Market Velocity**  
+Homes in Indianapolis took a median of 51.0 days to sell, and this duration increased by 15.91% compared to the prior year, meaning homes are taking longer to sell. This positive year-over-year change in days on market indicates a softening housing market, with reduced buyer urgency or cooling demand. Contrary to tightening conditions, the rising DOM reflects a market that is slowing. The Days on Market composite score of 7.95 suggests the market is still relatively active, but momentum is clearly waning.
+
+**Conclusion**  
+Indianapolis exhibits a mixed but generally average economic profile, supported by very low unemployment and strong wage growth, which benefit workers and consumers. Key strengths include a robust professional services sector and solid earnings gains that likely outpace inflation. However, risks are emerging in labor demand, with minimal payroll growth, declining weekly hours, and a shrinking labor force constraining expansion. The housing market is cooling, with fewer permits issued and homes selling more slowly, while affordability has deteriorated relative to incomes. Near-term outlook depends on whether wage growth and white-collar employment can offset softening labor demand and housing activity.

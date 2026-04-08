@@ -2,18 +2,60 @@
 
 ## Polished FT-style column
 
-Washington, D.C.'s economy is exhibiting signs of structural weakness amidst a challenging macroeconomic environment. The labour market is a key area of concern, with the composite labour demand score of 2.02 ranking near the bottom nationally, at the 2nd percentile. This reflects a year-on-year decline in nonfarm employment of 1.63% and a slight deviation from trend in weekly hours of -0.215%. The labour force has contracted by 1.82% year-on-year, indicating a shrinking workforce supply. Although the unemployment rate remains relatively low at 3.8%, it has risen by 1.1 percentage points from a year earlier, suggesting weakening job creation rather than strong re-employment. Modest wage growth of 2.39% limits income-based support for consumption and housing demand.
+**Unemployment & Labor Market**  
+The unemployment rate in Washington DC stands at 3.8%, within the healthy range of 3.5–4.5%. However, the year-over-year increase of 1.1 percentage points indicates a rise in unemployment, suggesting deteriorating labor market conditions. Although the current rate remains relatively low, the upward trend points to weakening job market dynamics over the past year.
 
-The housing market is also showing signs of softening, with homes taking an average of 30 days to sell, up 25% year-on-year. This trend is reflected in the high composite score for days on market, which indicates a buyer's market. Residential construction has dipped slightly, with a year-on-year decline in permits of 3.97%. While the cost of living is elevated relative to incomes, with a ratio of 1.97, it is not among the most burdensome nationally, ranking at the 69th percentile. This is partly due to the region's high base of federal and professional services employment. Office occupancy remains weak, with a score of 2.22, ranking at the 36th percentile, consistent with broader hybrid-work trends affecting central business districts.
+**Workforce Supply**  
+The civilian labor force in Washington DC has declined by 1.82% year-over-year, indicating a shrinking pool of available workers. This negative growth is concerning, as it may be driven by outmigration, declining labor force participation, or demographic contraction. A shrinking workforce can constrain long-term economic growth and may reflect the region's diminishing attractiveness to working-age residents.
 
-Looking ahead, Washington, D.C.'s economy faces near-term headwinds from public-sector employment trends, the persistence of hybrid work, and labour force contraction. Without a rebound in private-sector job growth or federal hiring, economic momentum is likely to remain subdued. While the region's structural advantages, including high educational attainment and policy centrality, support longer-term resilience, near-term stagnation appears probable.
+**Wage Growth**  
+Average hourly earnings in Washington DC have risen by 2.39% year-over-year, a moderate pace that falls short of the 4% threshold for strong wage growth. With inflation exceeding this level in recent years, workers' real purchasing power is likely eroding. This subdued wage growth limits household spending power and may dampen consumer-driven economic activity.
+
+**Labor Demand**  
+Labor demand in Washington DC is weak, as evidenced by a Labor Demand Composite score of 2.02 and a 1.63% year-over-year decline in nonfarm employment, indicating a contracting job market. Additionally, weekly hours worked are slightly below the 12-month trend, down 0.215%, reinforcing signs of softening labor demand. These metrics collectively point to a broad-based cooling in employer hiring and workload expansion.
+
+**Cost of Living**  
+The cost of living composite ratio in Washington DC is 1.97, indicating relatively high housing costs compared to earnings. Although not the most expensive market nationally, affordability pressures persist, particularly for middle- and lower-income households. The high cost of living relative to income may exacerbate housing stress, despite the region's professional workforce.
+
+**Office Economy**  
+The Office Worker Ratio Composite score of 2.22 suggests a below-average concentration of white-collar, professional services employment in Washington DC. This indicates that the city's economy may be less anchored in high-value office sectors than peer major metros, potentially reflecting structural shifts such as remote work or a relatively larger public sector footprint. A lower score implies reduced resilience in a knowledge-intensive economic model.
+
+**Housing — Construction**  
+Residential building permits have declined by 3.97% year-over-year, signaling a slowdown in new housing construction. This negative growth suggests that builders are pulling back, possibly due to high interest rates, regulatory constraints, or weakening demand expectations. Reduced supply activity could exacerbate affordability challenges over time if demand rebounds.
+
+**Housing — Market Velocity**  
+Homes in Washington DC take a median of 30 days to sell, with a year-over-year increase of 25.0% in days on market. This rise indicates a cooling housing market with slowing buyer demand, rather than tightening inventory. Although the Days on Market Composite score of 8.5 reflects relatively strong market velocity compared to other markets, the recent trend is clearly softening.
+
+**Conclusion**  
+Washington DC's economy exhibits signs of broad-based softening, with a declining labor force, falling employment, and slowing wage growth constraining momentum. While the unemployment rate remains within a healthy range, it is rising, and labor demand metrics point to a contracting job market. The slowing housing market velocity, decreased construction activity, and wage gains failing to keep pace with inflation all erode affordability, despite a relatively stable cost-of-living ratio. The city faces near-term risks from weakening labor demand and structural challenges in its office sector, suggesting a cautious economic outlook in the absence of policy or market corrections.
 
 ---
 
 ## Original analysis draft (for reference)
 
-Washington, D.C.’s economy shows signs of structural softness amid a challenging macroeconomic environment. Labour demand, as captured by the composite *107E_ldc_composite* score of 2.02, sits near the bottom nationally (2nd percentile), reflecting a year-on-year decline in nonfarm employment (*107E_employment_growth_yoy*: -1.63%) and slightly below-trend weekly hours (-0.215% deviation). The labour force has contracted, with *102A_clf_yoy* at -1.82%, suggesting shrinking workforce supply. While the unemployment rate remains relatively low at 3.8% (*101A_unemployment*), it has risen significantly from a year earlier (+1.1 percentage points), consistent with weakening job creation rather than strong re-employment. Wage growth at 2.39% (*103B_earnings_yoy*) is modest and below average nationally, limiting income-based support for consumption and housing demand.
+**Unemployment & Labor Market**  
+The unemployment rate in Washington DC is 3.8%, which falls within the healthy range of 3.5–4.5%. However, the year-over-year change of +1.1 percentage points indicates unemployment is rising, suggesting labor market conditions are deteriorating. While the current rate remains relatively low, the upward trend in unemployment points to weakening job market dynamics over the past year.
 
-Housing market indicators point to softening activity and longer sales cycles. Homes are taking 30 days to sell on average (*204A_dom_level_days*), up 25% year-on-year (*204A_dom_yoy_pct*), a trend reflected in the high *204A_dom_composite* score (86th percentile), indicating a buyer’s market. Residential construction has dipped slightly (*200B_permits_yoy*: -3.97%), though not sharply. The cost of living, while elevated relative to incomes (*104C_col*: 1.97), is not among the most burdensome nationally (69th percentile), partly due to the region’s high base of federal and professional services employment. Office occupancy remains weak (*105C_owr*: 2.22, 36th percentile), consistent with broader hybrid-work trends affecting central business districts.
+**Workforce Supply**  
+The civilian labor force in Washington DC declined by 1.82% year-over-year, indicating a shrinking pool of available workers. This negative growth is concerning as it suggests outmigration, declining labor force participation, or demographic contraction. A shrinking workforce can constrain long-term economic growth and may reflect diminishing attractiveness of the region to working-age residents.
 
-**Outlook:** D.C.’s economy faces near-term headwinds from public-sector employment trends, hybrid work persistence, and labour force contraction. Without a rebound in private-sector job growth or federal hiring, momentum is likely to remain subdued. Structural advantages—high educational attainment and policy centrality—support longer-term resilience, but near-term stagnation appears probable.
+**Wage Growth**  
+Average hourly earnings in Washington DC rose by 2.39% year-over-year, a moderate pace that falls short of strong wage growth thresholds above 4%. With inflation running above this level in recent years, real purchasing power for workers is likely eroding. This subdued wage growth limits household spending power and may dampen consumer-driven economic activity.
+
+**Labor Demand**  
+Labor demand in Washington DC is weak, as shown by a Labor Demand Composite score of 2.02 and nonfarm employment declining by 1.63% year-over-year, indicating a contracting job market. Weekly hours worked are also slightly below the 12-month trend, down 0.215%, reinforcing signs of softening demand for labor. Together, these metrics point to a broad-based cooling in employer hiring and workload expansion.
+
+**Cost of Living**  
+The cost of living composite ratio in Washington DC is 1.97, indicating relatively high housing costs compared to earnings. While not the most expensive market nationally, affordability pressures persist, particularly for middle- and lower-income households. High costs relative to income may exacerbate housing stress despite the region’s professional workforce.
+
+**Office Economy**  
+The Office Worker Ratio Composite score of 2.22 suggests a below-average concentration of white-collar, professional services employment. This indicates Washington DC’s economy may be less anchored in high-value office sectors than peer major metros, potentially reflecting structural shifts such as remote work or a relatively larger public sector footprint. A lower score implies reduced resilience in a knowledge-intensive economic model.
+
+**Housing — Construction**  
+Residential building permits declined by 3.97% year-over-year, signaling a slowdown in new housing construction. This negative growth suggests builders are pulling back, possibly due to high interest rates, regulatory constraints, or weakening demand expectations. Reduced supply activity could exacerbate affordability challenges over time if demand rebounds.
+
+**Housing — Market Velocity**  
+Homes in Washington DC took a median of 30 days to sell, and the year-over-year change shows they are taking 25.0% longer to sell than last year. This rising days on market indicates a cooling housing market with slowing buyer demand, not tightening inventory. The Days on Market Composite score of 8.5 reflects relatively strong market velocity compared to other markets, but the recent trend is clearly softening.
+
+**Conclusion**  
+Washington DC’s economy shows signs of broad-based softening, with a declining labor force, falling employment, and slowing wage growth constraining momentum. While the unemployment rate remains in a healthy range, it is rising, and labor demand metrics point to a contracting job market. Housing market velocity is slowing, construction activity is down, and wage gains are failing to keep pace with inflation, eroding affordability despite a relatively stable cost-of-living ratio. The city faces near-term risks from weakening labor demand and structural challenges in its office sector, suggesting a cautious economic outlook absent policy or market corrections.

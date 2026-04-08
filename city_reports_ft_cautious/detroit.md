@@ -2,18 +2,60 @@
 
 ## Polished FT-style column
 
-Detroit's labour market is characterised by modest stability, but momentum remains limited. The unemployment rate stands at 4.7%, unchanged from the previous year, while nonfarm employment growth is virtually flat at 0.01% year-over-year. The labour demand composite, at 3.97, and employment growth signal rank in the 28th percentile nationally, indicating subdued job creation. Weekly hours worked are 0.34% below the city's 12-month trend, suggesting soft labour demand. Wage growth, at 1.03% year-over-year, lags behind most peers, ranking in the 10th percentile, which constrains household income gains. However, the civilian labour force is expanding modestly, at 0.59% year-over-year, indicating some underlying stability in population or participation.
+**Unemployment & Labor Market**  
+Detroit's unemployment rate stands at 4.7%, within the slack range of 4.5–6%, indicating underutilized workers in the labor market. The year-over-year change in unemployment is 0.0 percentage points, suggesting stagnation in labor market tightening. This combination indicates a labor market that is neither deteriorating nor recovering quickly, reflecting limited job creation and labor demand momentum.
 
-In the housing market, activity is cooling. Residential building permits have declined sharply by 10.94% year-over-year, ranking in the 38th percentile, which suggests waning investment in new supply. The median days on market for homes has increased by 7.1% year-over-year to 45 days, although turnover remains mid-tier nationally, with a composite score of 7.71, ranking in the 56th percentile. The office worker ratio, at 2.28, ranks in the 44th percentile, indicating below-average office employment intensity, consistent with a slower return to in-person work. While cost of living data is unavailable, the combination of low wage growth and modest construction activity implies constrained household purchasing power.
+**Workforce Supply**  
+The civilian labor force in Detroit is growing at a modest 0.59% year-over-year, indicating a slowly increasing pool of available workers. Although this growth is positive, it falls below the average rate of other major metros, suggesting only mild confidence among residents in re-entering or joining the labor market. The gradual workforce expansion does not indicate strong demographic or economic pull factors at present.
 
-Looking ahead, Detroit's economy is likely to remain in a fragile equilibrium, avoiding deterioration but lacking strong drivers of expansion. Without an acceleration in employment, wages, or private investment, the city is likely to underperform national growth trends in the near term.
+**Wage Growth**  
+Average hourly earnings in Detroit are rising at a low 1.03% year-over-year, well below the 3–4% benchmark needed to outpace inflation and improve real purchasing power. This minimal growth suggests weak worker bargaining power and limited pressure on employers to raise pay, likely due to subdued labor demand and an oversupply of labor in certain sectors. As a result, household income growth remains constrained.
+
+**Labor Demand**  
+Labor demand in Detroit is weak, with a labor demand composite score of 3.97 and only 0.01% year-over-year employment growth, which is effectively flat and far below the 2% threshold for strong growth. Employers are not increasing hours, as weekly hours worked are 0.34% below the 12-month baseline, indicating cautious or softening demand. These metrics suggest employers are not expanding payrolls or scheduling more work, reflecting low confidence in near-term economic momentum.
+
+**Cost of Living**  
+The cost of living composite is not available for Detroit, making it difficult to assess housing affordability relative to earnings. Without this metric, evaluating the accessibility of living expenses for residents, particularly in the context of low wage growth, is challenging. Other affordability indicators would be necessary to supplement this gap.
+
+**Office Economy**  
+Detroit's office worker ratio composite is 2.28, a very low score indicating a sparse concentration of white-collar or professional services employment. This suggests the city's economy remains heavily weighted toward industrial, logistics, or lower-wage service-sector jobs, rather than higher-paying knowledge-based industries. The lack of a robust office sector limits high-income job creation and downtown economic vitality.
+
+**Housing — Construction**  
+Residential building permits in Detroit have declined 10.94% year-over-year, a significant contraction in construction activity that signals declining builder confidence or limited demand for new housing. This negative swing suggests developers are pulling back, possibly due to weak population growth, low affordability, or limited financing options. The drop in permits may constrain future housing supply and limit investment in residential development.
+
+**Housing — Market Velocity**  
+Homes in Detroit are taking a median of 45.0 days to sell, with this duration increasing by 7.14% compared to the same period last year. This indicates a softening housing market with slowing buyer demand or growing inventory. Contrary to tightening conditions, the market is cooling, which may reflect affordability challenges or weak population inflows.
+
+**Conclusion**  
+Detroit's economy exhibits signs of stagnation, with a slack labor market, flat employment growth, and minimal wage gains, all pointing to weak overall momentum. While the city has a modestly growing labor force and a median home sale time that is not excessively long, these strengths are outweighed by significant risks, including contracting construction activity, a thin professional workforce, and cooling housing demand. The city's structural reliance on non-office sectors and lack of strong labor demand limit its growth potential. Near-term prospects appear muted unless there is a meaningful shift in investment, job creation, or demographic trends.
 
 ---
 
 ## Original analysis draft (for reference)
 
-Detroit’s labour market shows modest stability but limited momentum. The unemployment rate (101A_unemployment) stands at 4.7%, unchanged from a year earlier (101A_unemp_yoy_pp = 0.0), while nonfarm employment growth is nearly flat (107E_employment_growth_yoy = 0.01%). The labour demand composite (107E_ldc_composite = 3.97) and employment growth signal rank in the 28th percentile nationally, reflecting tepid job creation. Weekly hours worked are slightly below the city’s 12-month trend (-0.34%), suggesting soft demand for labour. Wage growth (103B_earnings_yoy = 1.03%) lags behind most peers (10th percentile), limiting household income gains. The civilian labour force is expanding modestly (102A_clf_yoy = 0.59%), indicating some underlying population or participation stability.
+**Unemployment & Labor Market**  
+Detroit’s unemployment rate is 4.7%, which falls within the slack range of 4.5–6%, indicating a labor market with underutilized workers. The year-over-year change in unemployment is 0.0 percentage points, meaning the rate has not improved or worsened recently, suggesting stagnation in labor market tightening. This combination points to a labor market that is neither deteriorating nor recovering quickly, reflecting limited momentum in job creation or labor demand.
 
-Housing market indicators point to cooling activity. Residential building permits have declined sharply (-10.94% YoY, 200B_permits_yoy), ranking in the 38th percentile, suggesting waning investment in new supply. Homes are taking longer to sell — median days on market is 45 (204A_dom_level_days), up 7.1% year-over-year (204A_dom_yoy_pct) — though turnover remains mid-tier nationally (204A_dom_composite = 7.71, 56th percentile). The office worker ratio (105C_owr = 2.28, 44th percentile) indicates below-average office employment intensity, consistent with a slower return to in-person work. Cost of living data is unavailable, but low wage growth and modest construction activity imply constrained household purchasing power.
+**Workforce Supply**  
+The civilian labor force in Detroit is growing at 0.59% year-over-year, a modest expansion that indicates a slowly increasing pool of available workers. While positive, this growth rate is below average compared to other major metros, suggesting only mild confidence among residents in re-entering or joining the labor market. The gradual workforce expansion does not signal strong demographic or economic pull factors at this time.
 
-**Outlook**: Detroit’s economy remains in a fragile equilibrium — avoiding deterioration but lacking strong drivers of expansion. Without acceleration in employment, wages, or private investment, the city is likely to underperform national growth trends in the near term.
+**Wage Growth**  
+Average hourly earnings in Detroit are rising at 1.03% year-over-year, a very low rate of wage growth that falls well below the 3–4% benchmark needed to outpace inflation and improve real purchasing power. This minimal growth suggests weak bargaining power for workers and limited pressure on employers to raise pay, likely reflecting subdued labor demand and an oversupply of labor in certain sectors. As a result, household income growth remains constrained.
+
+**Labor Demand**  
+Labor demand in Detroit is weak, as shown by a labor demand composite score of 3.97 and only 0.01% year-over-year employment growth, which is effectively flat and far below the 2% threshold for strong growth. Weekly hours worked are 0.34% below the 12-month baseline, indicating employers are not increasing hours, a sign of cautious or softening demand. Together, these metrics suggest employers are not expanding payrolls or scheduling more work, reflecting low confidence in near-term economic momentum.
+
+**Cost of Living**  
+The cost of living composite is not available for Detroit, so no assessment can be made on housing affordability relative to earnings at this time. Without this metric, it is difficult to evaluate how accessible living expenses are for residents, particularly in the context of low wage growth. Other affordability indicators would need to be used to supplement this gap.
+
+**Office Economy**  
+Detroit’s office worker ratio composite is 2.28, a very low score that indicates a sparse concentration of white-collar or professional services employment. This suggests the city’s economy remains heavily weighted toward industrial, logistics, or lower-wage service-sector jobs rather than higher-paying knowledge-based industries. The lack of a robust office sector limits high-income job creation and downtown economic vitality.
+
+**Housing — Construction**  
+Residential building permits in Detroit are down 10.94% year-over-year, a significant contraction in construction activity that signals declining builder confidence or limited demand for new housing. This negative swing suggests developers are pulling back, possibly due to weak population growth, low affordability, or limited financing options. The drop in permits may constrain future housing supply and limit investment in residential development.
+
+**Housing — Market Velocity**  
+Homes in Detroit are taking a median of 45.0 days to sell, and this duration has increased by 7.14% compared to the same period last year, meaning homes are taking longer to sell. This positive year-over-year change in days on market indicates a softening housing market with slowing buyer demand or growing inventory. Contrary to tightening conditions, the market is cooling, which may reflect affordability challenges or weak population inflows.
+
+**Conclusion**  
+Detroit’s economy shows signs of stagnation, with a slack labor market, flat employment growth, and minimal wage gains, all pointing to weak overall momentum. Key strengths such as a modestly growing labor force and a median home sale time that is not excessively long are outweighed by significant risks, including contracting construction activity, a thin professional workforce, and cooling housing demand. The city’s structural reliance on non-office sectors and lack of strong labor demand limit its growth potential. Near-term prospects appear muted unless there is a meaningful shift in investment, job creation, or demographic trends.

@@ -2,20 +2,60 @@
 
 ## Polished FT-style column
 
-Austin's labour market remains tight, with an unemployment rate of 3.2%, below the national average, although it has edged up 0.1 percentage points year-on-year to suggest a modest softening. Labour force growth is modest, at 1.01% year-on-year, lagging the city's recent historical expansion. However, wage growth remains solid at 4.49%, supporting household purchasing power. 
+**Unemployment & Labor Market**  
+Austin's unemployment rate is 3.2%, below the 3.5% threshold that indicates a very tight labor market. However, the jobless rate has increased slightly, with a year-over-year change of +0.1 percentage points, signaling a marginal deterioration in labor market conditions. Despite the still-low unemployment, this uptick suggests emerging softness, although the market remains fundamentally strong by historical standards.
 
-Labour demand, on the other hand, has cooled, with nonfarm employment growing just 0.73% over the past year and the labour demand composite score at 4.4. This reflects below-average job growth and a slight reduction in weekly hours worked, with a deviation of –0.918% from the baseline. The office market also shows mixed signals, with an office worker ratio score of 2.48 indicating only moderate return-to-office momentum.
+**Workforce Supply**  
+The civilian labor force in Austin has grown 1.01% year-over-year, indicating a modest expansion in the pool of available workers. This growth suggests that more people are entering or re-entering the labor market, which can support continued economic activity. The expansion helps sustain labor supply without immediate signs of severe constraints, albeit at a moderate pace.
 
-In the housing market, dynamics point to a rebalancing. Residential building permits have declined sharply, down 29.44% year-on-year, signaling a contraction in new supply amidst persisting affordability pressures. Although the cost of living composite score of 1.35 ranks relatively well, it masks strain in the housing sector. Homes are taking longer to sell, with an average of 53 days, up 20.45% year-on-year, indicating weakening demand or an overhang from recent construction. The growing inventory, combined with falling permit volumes, suggests the market may be correcting after a period of overheated growth.
+**Wage Growth**  
+Average hourly earnings in Austin have risen 4.49% year-over-year, exceeding the 4% threshold for strong wage growth. This increase likely outpaces inflation, allowing workers to gain real purchasing power and supporting consumer spending. The robust wage gains reflect competitive labor market pressures and contribute positively to household financial health.
 
-Looking ahead, Austin's economy is transitioning from a high-growth expansion to a more moderate trajectory. While structural strengths in talent attraction and tech-sector clustering remain, near-term headwinds in housing supply and cooling labour demand warrant caution. Without a rebound in business investment or migration-fueled population growth, growth is likely to remain subdued in 2024.
+**Labor Demand**  
+Labor demand in Austin is sending mixed signals, with a Labor Demand Composite score of 4.4 and nonfarm employment growing just 0.73% year-over-year, below the 2% threshold for strong growth. This slow job expansion, combined with a 0.918% decrease in weekly hours worked from the 12-month baseline, suggests employers are reducing hours, pointing to softening demand. These metrics indicate a cooling labor market despite relatively low unemployment.
+
+**Cost of Living**  
+Austin's cost of living composite score is 1.35, reflecting a relatively high cost of living when adjusted for earnings and housing prices per square foot. Although lower than peak levels seen in recent years, this score still indicates affordability challenges, particularly in housing. High costs may be eroding some of the benefits of strong wage growth, especially for middle- and lower-income residents.
+
+**Office Economy**  
+The Office Worker Ratio composite score is 2.48, a moderate level suggesting Austin has a balanced mix of professional and non-professional employment sectors. This implies the city's economy is diversified but may lack the premium wage density seen in more specialized knowledge economies, as it does not indicate a heavy concentration in high-value white-collar industries.
+
+**Housing — Construction**  
+Residential building permits in Austin have declined 29.44% year-over-year, a sharp contraction in construction activity. This steep drop suggests waning builder confidence, possibly due to higher financing costs, regulatory hurdles, or anticipation of weaker demand. The significant decline raises concerns about future housing supply constraints if the trend persists, despite current market cooling.
+
+**Housing — Market Velocity**  
+Homes in Austin are taking a median of 53.0 days to sell, with a year-over-year increase of +20.45% in days on market, indicating homes are taking significantly longer to sell than last year. This suggests a softening market with reduced buyer urgency, reflecting cooling demand or improved supply conditions. The Days on Market Composite score of 7.95 indicates the market remains relatively functional but is clearly decelerating.
+
+**Conclusion**  
+Austin's economy remains above average, with a tight labor market and strong wage growth supporting household incomes. However, multiple indicators point to a cooling trajectory: employment growth is sluggish, weekly hours are declining, housing construction has sharply contracted, and homes are taking longer to sell. While affordability has improved slightly from peak levels, the cost of living remains high relative to earnings. The city faces near-term risks from weakening labor demand and a retrenching housing sector, tempering the positive effects of low unemployment and solid income gains. Overall, Austin is transitioning from a high-growth phase toward a more moderate, potentially more sustainable, economic pace.
 
 ---
 
 ## Original analysis draft (for reference)
 
-Austin’s labour market remains tight, with an unemployment rate of 3.2%—below the national average—though it has edged up slightly by 0.1 percentage points year-on-year (101A_unemp_yoy_pp), suggesting modest softening. Labour force growth is modest at 1.01% YoY (102A_clf_yoy), lagging behind the city’s recent historical expansion, while wage growth remains solid at 4.49% (103B_earnings_yoy), helping support household purchasing power. However, labour demand has cooled, with nonfarm employment growing just 0.73% over the past year (107E_employment_growth_yoy) and the labour demand composite score at 4.4, reflecting below-average job growth and a slight reduction in weekly hours worked (–0.918% deviation from baseline). The office market shows mixed signals, with an office worker ratio score of 2.48, indicating only moderate return-to-office momentum.
+**Unemployment & Labor Market**  
+Austin’s unemployment rate stands at 3.2%, which falls below the 3.5% threshold indicating a very tight labor market. However, the year-over-year change in unemployment is +0.1 percentage points, meaning the jobless rate has slightly increased, signaling a marginal deterioration in labor market conditions. Despite the still-low unemployment, the uptick suggests emerging softness, though the market remains fundamentally strong by historical standards.
 
-Housing market dynamics point to a rebalancing. Residential building permits have collapsed, down 29.44% YoY (200B_permits_yoy), signaling a sharp contraction in new supply at a time when affordability pressures persist. The cost of living composite score of 1.35 (104C_col) ranks relatively well but masks strain in the housing sector. Homes are taking longer to sell—53 days on average (204A_dom_level_days), up 20.45% YoY (204A_dom_yoy_pct)—indicating weakening demand or overhang from recent construction. This growing inventory, combined with falling permit volumes, suggests the market may be correcting after a period of overheated growth.
+**Workforce Supply**  
+The civilian labor force in Austin grew 1.01% year-over-year, indicating a modest expansion in the pool of available workers. This positive growth suggests that more people are entering or re-entering the labor market, which can support continued economic activity. While not rapid, this expansion helps sustain labor supply without immediate signs of severe constraints.
 
-**Outlook:** Austin’s economy is transitioning from high-growth expansion to a more moderate trajectory. Structural strengths in talent attraction and tech-sector clustering remain, but near-term headwinds in housing supply and cooling labour demand warrant caution. Absent a rebound in business investment or migration-fueled population growth, growth is likely to remain subdued in 2024.
+**Wage Growth**  
+Average hourly earnings in Austin rose 4.49% year-over-year, exceeding the 4% threshold for strong wage growth. This level of increase likely outpaces inflation, allowing workers to gain real purchasing power and supporting consumer spending. Robust wage gains reflect competitive labor market pressures and contribute positively to household financial health.
+
+**Labor Demand**  
+Labor demand in Austin shows mixed signals, with a Labor Demand Composite score of 4.4 and nonfarm employment growing just 0.73% year-over-year—below the 2% threshold for strong growth and indicating slow job expansion. Weekly hours worked are 0.918% below the 12-month baseline, suggesting employers are reducing hours, which points to softening demand. Together, these metrics indicate a cooling labor market despite relatively low unemployment.
+
+**Cost of Living**  
+Austin’s cost of living composite score is 1.35, reflecting a relatively high cost of living when adjusted for earnings and housing prices per square foot. While lower than peak levels seen in recent years, this score still indicates affordability challenges, particularly in housing. High costs may be eroding some of the benefits of strong wage growth, especially for middle- and lower-income residents.
+
+**Office Economy**  
+The Office Worker Ratio composite score is 2.48, a moderate level that suggests Austin has a balanced mix of professional and non-professional employment sectors. It does not indicate a heavy concentration in high-value white-collar industries compared to leading tech or financial hubs. This implies the city’s economy is diversified but may lack the premium wage density seen in more specialized knowledge economies.
+
+**Housing — Construction**  
+Residential building permits in Austin declined 29.44% year-over-year, a sharp contraction in construction activity. This steep drop suggests waning builder confidence, possibly due to higher financing costs, regulatory hurdles, or anticipation of weaker demand. The significant decline raises concerns about future housing supply constraints if the trend persists, despite current market cooling.
+
+**Housing — Market Velocity**  
+Homes in Austin took a median of 53.0 days to sell, and the year-over-year change in days on market is +20.45%, meaning homes are taking significantly longer to sell than last year. This positive yoy change indicates a softening market with reduced buyer urgency, reflecting cooling demand or improved supply conditions. The Days on Market Composite score of 7.95 suggests the market remains relatively functional but is clearly decelerating.
+
+**Conclusion**  
+Austin’s economy remains above average with a tight labor market and strong wage growth, supporting household incomes. However, multiple indicators point to a cooling trajectory: employment growth is sluggish, weekly hours are declining, housing construction has sharply contracted, and homes are taking longer to sell. While affordability has improved slightly from peak levels, the cost of living remains high relative to earnings. The city faces near-term risks from weakening labor demand and a retrenching housing sector, tempering the positive effects of low unemployment and solid income gains. Overall, Austin is transitioning from a high-growth phase toward a more moderate, potentially more sustainable, economic pace.

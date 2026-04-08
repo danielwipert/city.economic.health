@@ -2,18 +2,60 @@
 
 ## Polished FT-style column
 
-Baltimore's labour market is losing momentum, with nonfarm payroll employment contracting 0.14% year-on-year and the unemployment rate rising to 3.6%, a 0.9 percentage point increase from a year earlier. The civilian labour force has declined 0.62% over the past year, indicating a shrinking workforce rather than tightening conditions. Wage growth remains subdued, at 1.42%, below the national average. The city's labour demand composite score of 3.78 places it in the bottom quartile nationally, reflecting softness in hiring and hours worked, although weekly hours are marginally above their 12-month trend, with a 0.324% deviation.
+**Unemployment & Labor Market**  
+Baltimore's unemployment rate stands at 3.6%, within the healthy range of 3.5–4.5%. However, the year-over-year increase of 0.9 percentage points indicates a rising rate, signaling labor market weakening. Although the current level suggests relative tightness, the upward trend implies deteriorating conditions compared to the prior year.
 
-The housing market is also cooling, with residential building permits down 11.14% year-on-year. Homes are taking significantly longer to sell, with the median days on market standing at 37 days, a 27.59% increase from last year. This ranks among the slowest nationally. Although the cost of living remains moderately high relative to earnings, at 3.11, sluggish price growth has not led to significant affordability gains. One relative strength is the city's office worker ratio composite score, which stands at 2.92, above the median. This suggests a structural advantage in office-based employment, likely due to proximity to federal institutions and healthcare sectors.
+**Workforce Supply**  
+The civilian labor force in Baltimore is contracting, with a year-over-year decline of 0.62%. This decline in the available worker pool raises concerns about shrinking participation, outmigration, or demographic decline, which can constrain long-term economic growth and reflect underlying structural challenges in workforce engagement.
 
-Looking ahead, Baltimore faces persistent challenges in labour supply and private-sector job growth, with housing demand softening amid broader regional economic stagnation. Without policy intervention or external investment, the city is likely to underperform its peer metros in near-term economic expansion.
+**Wage Growth**  
+Average hourly earnings in Baltimore have risen 1.42% year-over-year, a pace that falls short of the 3–4% benchmark needed to outpace inflation. With inflation exceeding this figure in recent years, workers are likely experiencing a decline in real purchasing power. This limited wage growth suggests that employers face little pressure to raise pay, possibly due to modest labor demand.
+
+**Labor Demand**  
+Baltimore's labor demand is weak, as indicated by a Labor Demand Composite score of 3.78 and a nonfarm employment growth rate of -0.14% year-over-year, reflecting slight job losses. Although weekly hours worked are slightly above the 12-month trend, at +0.324%, this minor demand strength is insufficient to offset the overall contraction in employment. The combination points to a softening labor market with limited near-term momentum.
+
+**Cost of Living**  
+Baltimore's cost of living composite score is 3.11, moderate and suggesting that housing costs are relatively affordable compared to local earnings. While not among the most affordable markets, this level indicates that income-to-price ratios are not severely strained, which could support some household financial stability. However, stagnant wages may limit the practical benefit of this affordability.
+
+**Office Economy**  
+The Office Worker Ratio Composite is 2.92, a relatively low score indicating a below-average concentration of white-collar, professional services employment. This suggests that Baltimore's economy is less anchored in high-value knowledge sectors and may rely more on government, healthcare, logistics, or lower-wage service industries. A weaker office economy could limit high-income job creation and commercial real estate vitality.
+
+**Housing — Construction**  
+Residential building permits in Baltimore have declined 11.14% year-over-year, a significant contraction in construction activity. This sharp decline suggests waning builder confidence, limited demand for new housing, or supply-side constraints. Reduced construction could exacerbate housing shortages over time, although current market velocity data indicates soft demand.
+
+**Housing — Market Velocity**  
+Homes in Baltimore are taking a median of 37.0 days to sell, with a 27.59% increase in days on market compared to the prior year, indicating a meaningful slowdown in buyer activity. The rising days on market reflect a cooling housing market, characterized by reduced urgency among buyers or excess supply. Despite the relatively low absolute number of days, the strong year-over-year increase signals deteriorating momentum.
+
+**Conclusion**  
+Baltimore's economy shows signs of stagnation, with a low overall grade of C- and a weighted percentile of 31.9. While the unemployment rate remains within a healthy range, it is rising, and employment growth is negative. Wage growth is anemic, and the labor force is shrinking. The housing market is slowing, with fewer permits issued and homes taking longer to sell. Structural weaknesses include a lack of high-wage office employment and weak labor demand, although the cost of living remains manageable. Without stronger job and wage growth, the near-term outlook is subdued.
 
 ---
 
 ## Original analysis draft (for reference)
 
-Baltimore’s labour market shows signs of weakening momentum, with nonfarm payroll employment contracting slightly at -0.14% year-on-year (107E_employment_growth_yoy), while the unemployment rate has risen to 3.6%—up 0.9 percentage points from a year earlier (101A_unemp_yoy_pp). The civilian labour force has also declined by 0.62% over the past year (102A_clf_yoy), suggesting shrinking workforce supply rather than tightening conditions. Wage growth remains subdued at 1.42% (103B_earnings_yoy), below the national average, while the labour demand composite score of 3.78 (107E_ldc_composite) places the city in the bottom quartile nationally, reflecting softness in hiring and hours worked, though weekly hours are marginally above their 12-month trend (0.324% deviation).
+**Unemployment & Labor Market**  
+Baltimore’s unemployment rate is 3.6%, which falls within the healthy range of 3.5–4.5%. However, the year-over-year change in unemployment is +0.9 percentage points, indicating the rate is rising, which signals labor market weakening. Although the current unemployment level suggests relative tightness, the upward trend implies deteriorating conditions compared to the prior year.
 
-Housing market indicators point to a cooling sector. Residential building permits have fallen sharply, down 11.14% year-on-year (200B_permits_yoy), and homes are taking significantly longer to sell—median days on market stands at 37 days, up 27.59% from last year (204A_dom_yoy_pct), a level that ranks among the slowest nationally (204A_dom_composite: 96). The cost of living remains moderately high relative to earnings (104C_col: 3.11), limiting affordability gains despite sluggish price growth. On a relative strength, the city’s office worker ratio composite score (105C_owr: 2.92) is above median, indicating a structural advantage in office-based employment, likely tied to proximity to federal institutions and healthcare sectors.
+**Workforce Supply**  
+The civilian labor force in Baltimore is contracting, with a year-over-year decline of 0.62%. This negative growth in the available worker pool is a concern, as it suggests shrinking participation, outmigration, or demographic decline. A shrinking labor supply can constrain long-term economic growth and may reflect underlying structural challenges in workforce engagement.
 
-**Outlook:** Baltimore faces persistent headwinds in labour supply and private-sector job growth, with housing demand softening amid broader regional economic stagnation. Absent policy intervention or external investment, the city is likely to underperform peer metros in near-term economic expansion.
+**Wage Growth**  
+Average hourly earnings in Baltimore are up 1.42% year-over-year, a weak pace of wage growth that falls well below the 3–4% benchmark needed to outpace inflation. With inflation running above this figure in recent years, workers are likely experiencing a decline in real purchasing power. This low wage growth signals limited pressure on employers to raise pay, possibly due to modest labor demand.
+
+**Labor Demand**  
+Labor demand in Baltimore is weak, as shown by a Labor Demand Composite score of 3.78 and a nonfarm employment growth rate of -0.14% year-over-year, indicating slight job losses. Weekly hours worked are slightly above the 12-month trend at +0.324%, suggesting minor demand strength at the margin, but this is insufficient to offset the overall contraction in employment. The combination points to a softening labor market with limited near-term momentum.
+
+**Cost of Living**  
+Baltimore’s cost of living composite score is 3.11, which is moderate and suggests housing costs are relatively affordable compared to local earnings. While not among the most affordable markets, this level indicates that income-to-price ratios are not severely strained. This could support some household financial stability, though stagnant wages may limit the practical benefit.
+
+**Office Economy**  
+The Office Worker Ratio Composite is 2.92, a relatively low score that indicates a below-average concentration of white-collar, professional services employment. This suggests Baltimore’s economy is less anchored in high-value knowledge sectors and may rely more on government, healthcare, logistics, or lower-wage service industries. A weaker office economy could limit high-income job creation and commercial real estate vitality.
+
+**Housing — Construction**  
+Residential building permits in Baltimore are down 11.14% year-over-year, a significant contraction in construction activity. This sharp decline suggests waning builder confidence, limited demand for new housing, or supply-side constraints. Reduced construction could exacerbate housing shortages over time, though current market velocity data suggests demand is soft.
+
+**Housing — Market Velocity**  
+Homes in Baltimore are taking a median of 37.0 days to sell, and this duration has increased by 27.59% compared to the prior year, indicating a meaningful slowdown in buyer activity. Rising days on market reflects a cooling housing market, with reduced urgency among buyers or excess supply. Despite the low absolute number of days, the strong year-over-year increase signals deteriorating momentum.
+
+**Conclusion**  
+Baltimore’s economy shows signs of stagnation, with a low overall grade of C- and a weighted percentile of 31.9. While the unemployment rate remains in a healthy range, it is rising, and employment growth is negative, wage growth is anemic, and the labor force is shrinking. The housing market is slowing, with fewer permits issued and homes taking longer to sell. Structural weaknesses include a lack of high-wage office employment and weak labor demand, though the cost of living remains manageable. Without stronger job and wage growth, the near-term outlook is subdued.

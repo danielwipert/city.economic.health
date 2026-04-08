@@ -2,18 +2,60 @@
 
 ## Polished FT-style column
 
-Miami's labour market is showing signs of resilience, despite a moderating pace. The unemployment rate stands at 3.5%, a 0.8 percentage point increase year-over-year, indicating a gradual loosening of the labour market. However, underlying demand for labour remains stable, with nonfarm employment growing 0.25% year-over-year and weekly hours worked deviating just 0.071% from the 12-month baseline. This stability is reflected in a median labour demand composite score at the 50th percentile. The civilian labour force has expanded 1.4% over the past year, driven by sustained in-migration and workforce participation growth. Notably, average hourly earnings have risen 7.7% year-over-year, outpacing inflation and national averages, and supporting consumer spending power.
+**Unemployment & Labor Market**  
+Miami's unemployment rate of 3.5% falls at the lower boundary of the healthy range, indicating a tight labor market. However, the year-over-year increase of 0.8 percentage points suggests a gradual loosening, as the positive change indicates rising unemployment. This combination points to near-full employment with emerging signs of softening in labor market conditions.
 
-In contrast, the housing market is exhibiting growing imbalances. A surge in residential construction, with building permits up 41.1% year-over-year, signals an aggressive expansion of supply. However, demand is not keeping pace, with homes taking a median 74 days to sell, 10.45% longer than a year ago. This has resulted in a days-on-market composite score in the 8th percentile, indicating pronounced softness. The mismatch between high construction activity and slowing absorption raises risks of oversupply, particularly given Miami's elevated cost of living, where the housing cost-to-earnings ratio of 3.26 remains unaffordable relative to income growth. Weak office absorption, with a rate of 2.22, also reflects lagging return-to-office trends.
+**Workforce Supply**  
+The civilian labor force in Miami is growing at a 1.4% year-over-year rate, reflecting an increasing availability of workers. This favorable growth rate suggests sustained labor supply expansion, which can support economic growth without immediate wage pressures. Compared to other metros, this rate is above average, indicating a solid workforce inflow likely driven by migration or re-entry into the labor market.
 
-Looking ahead, Miami's economy is navigating a transition from post-pandemic growth to a more balanced trajectory. While strong income growth and population inflows provide structural support, housing market indicators suggest short-term risks of oversupply. Over the longer term, the city's economic performance will depend on its ability to diversify beyond real estate and services, as well as sustain labour demand in higher-value sectors.
+**Wage Growth**  
+Average hourly earnings in Miami are rising at a 7.7% year-over-year pace, significantly exceeding typical inflation benchmarks. This robust wage growth implies substantial real purchasing power gains for workers, even with elevated inflation. The high nominal wage increases may reflect competitive hiring pressures or a shift toward higher-paying jobs.
+
+**Labor Demand**  
+Labor demand in Miami shows mixed signals. The Labor Demand Composite score of 4.72 and a 0.25% year-over-year employment growth indicate modest job expansion. Although weekly hours worked are slightly above the 12-month baseline at +0.071%, employers are marginally increasing hours rather than hiring aggressively. Overall, demand is stable but not accelerating, with limited job growth despite strong wage gains.
+
+**Cost of Living**  
+Miami's cost of living composite ratio of 3.26 indicates relatively high housing prices compared to earnings, resulting in below-average affordability. This places Miami in the more expensive tier among U.S. metros, potentially straining household budgets despite strong wage growth. High costs may deter lower-income residents or offset gains from rising incomes.
+
+**Office Economy**  
+The Office Worker Ratio composite score of 2.22 is low, indicating a limited concentration of white-collar, professional services employment in Miami. This suggests the local economy relies more on tourism, retail, logistics, or small business services, rather than knowledge-intensive sectors. A weaker office sector may limit high-wage job creation and commercial real estate vitality.
+
+**Housing — Construction**  
+Residential building permits have increased by 41.11% year-over-year, signaling strong builder confidence and active supply expansion. This surge in construction may help alleviate housing shortages over time, although it also raises the risk of oversupply if demand slows. The high growth rate reflects market responsiveness and possible speculative activity.
+
+**Housing — Market Velocity**  
+Homes in Miami are taking a median of 74.0 days to sell, with a 10.45% year-over-year increase in days on market, indicating a slowing market. The rise in days on market suggests weakening buyer demand or supply growing faster, contradicting any narrative of tightening inventory. Despite the still-moderate absolute level, the year-over-year increase signals cooling momentum in the housing market.
+
+**Conclusion**  
+Miami's economy exhibits a mix of strengths and vulnerabilities, earning a B+ rating with solid but uneven performance. Key strengths include robust wage growth, expanding labor supply, and a surge in housing construction, all supporting long-term growth. However, labor demand is tepid, with minimal employment growth and a rising unemployment rate, while the housing market is cooling, with sales velocity slowing. High living costs and a weak office sector pose structural challenges, suggesting the economy remains reliant on migration-driven demand and service-sector employment. The near-term outlook is one of moderation, with inflation-adjusted income gains supporting households but demand indicators warranting caution.
 
 ---
 
 ## Original analysis draft (for reference)
 
-Miami’s labour market shows signs of resilience amid moderating momentum. The metro’s unemployment rate stands at 3.5% (101A_unemployment), a 0.8 percentage point increase year-over-year (101A_unemp_yoy_pp), suggesting a gradual loosening in tightness. However, underlying demand for labour remains stable, with nonfarm employment growing at 0.25% year-over-year (107E_employment_growth_yoy) and a neutral weekly hours deviation (0.071% above 12-month baseline), contributing to a median labour demand composite score (107E_ldc_composite) at the 50th percentile. The civilian labour force expanded 1.4% over the past year (102A_clf_yoy), reflecting sustained in-migration and workforce participation growth, while average hourly earnings rose 7.7% (103B_earnings_yoy), a standout gain that outpaces inflation and national averages, supporting consumer spending power.
+**Unemployment & Labor Market**  
+Miami’s unemployment rate stands at 3.5%, which falls at the lower boundary of the healthy range (3.5–4.5%), indicating a tight labor market. However, the year-over-year increase in unemployment of 0.8 percentage points suggests the labor market is gradually loosening, as the positive yoy change means unemployment is rising. This combination points to near-full employment but with emerging signs of softening in labor market conditions.
 
-Housing market dynamics reveal growing imbalances. Residential construction surged, with building permits up 41.1% year-over-year (200B_permits_yoy), a signal of aggressive supply expansion that ranks in the 88th percentile nationally. Yet demand is not keeping pace: homes took a median 74 days to sell in the latest period (204A_dom_level_days), 10.45% longer than a year ago (204A_dom_yoy_pct), resulting in a days-on-market composite score in the 8th percentile (204A_dom_composite), indicating pronounced softness. High construction activity against slowing absorption raises risks of oversupply, particularly in the context of Miami’s elevated cost of living, where the housing cost-to-earnings ratio (104C_col: 3.26) remains unaffordable relative to income growth. Office absorption is weak (105C_owr: 2.22, 36th percentile), reflecting lagging return-to-office trends.
+**Workforce Supply**  
+The civilian labor force in Miami is growing at 1.4% year-over-year, a positive expansion that reflects increasing availability of workers. This level of growth is favorable and suggests sustained labor supply growth, which can support economic expansion without immediate wage pressures from scarcity. The rate is above average compared to other metros, indicating solid workforce inflow, likely driven by migration or re-entry into the labor market.
 
-**Outlook:** Miami’s economy is navigating a transition from post-pandemic growth to a more balanced trajectory. Strong income growth and population inflows provide structural support, but housing market indicators suggest short-term oversupply risks. Over the longer term, economic performance will depend on diversification beyond real estate and services, as well as sustained labour demand in higher-value sectors.
+**Wage Growth**  
+Average hourly earnings in Miami are rising at 7.7% year-over-year, a very strong pace that significantly exceeds typical inflation benchmarks. This robust wage growth implies that workers are gaining substantial real purchasing power, even if inflation remains elevated. High nominal wage increases may reflect competitive hiring pressures or compositional shifts toward higher-paying jobs.
+
+**Labor Demand**  
+Labor demand in Miami shows mixed signals: the Labor Demand Composite score of 4.72 and a negligible 0.25% year-over-year employment growth indicate only modest job expansion. However, weekly hours worked are slightly above the 12-month baseline at +0.071%, suggesting employers are marginally increasing hours rather than hiring aggressively. Overall, demand is stable but not accelerating, with limited job growth despite strong wage gains.
+
+**Cost of Living**  
+Miami’s cost of living composite ratio is 3.26, meaning housing prices are relatively high compared to earnings, resulting in below-average affordability. This score places Miami in the more expensive tier among U.S. metros, which could strain household budgets despite strong wage growth. High costs may deter lower-income residents or offset gains from rising incomes.
+
+**Office Economy**  
+The Office Worker Ratio composite score of 2.22 is low, indicating a limited concentration of white-collar, professional services employment in Miami. This suggests the local economy is less anchored in knowledge-intensive sectors and may rely more on tourism, retail, logistics, or small business services. A weaker office sector could limit high-wage job creation and commercial real estate vitality.
+
+**Housing — Construction**  
+Residential building permits are up 41.11% year-over-year, a very large increase that signals strong builder confidence and active supply expansion. This surge in construction may help alleviate housing shortages over time, though it also raises the risk of oversupply if demand slows. The high growth rate reflects both market responsiveness and possible speculative activity.
+
+**Housing — Market Velocity**  
+Homes in Miami are taking a median of 74.0 days to sell, and this duration has increased by 10.45% compared to last year, indicating a slowing market. The rise in days on market means buyer demand is weakening or supply is growing faster, contradicting any narrative of tightening inventory. Despite the still-moderate absolute level of days, the year-over-year increase signals cooling momentum in the housing market.
+
+**Conclusion**  
+Miami’s economy shows a mix of strengths and vulnerabilities, earning a B+ rating with solid but uneven performance. Key strengths include robust wage growth (7.7% yoy), expanding labor supply (1.4% yoy), and a surge in housing construction (41.11% more permits), all of which support long-term growth. However, labor demand is tepid, with minimal employment growth (0.25% yoy) and a rising unemployment rate, while the housing market is clearly cooling, with sales velocity slowing by 10.45%. High living costs (COL score 3.26) and a weak office sector (OWR 2.22) pose structural challenges, suggesting the economy remains reliant on migration-driven demand and service-sector employment rather than high-value professional industries. Near-term outlook is one of moderation, with inflation-adjusted income gains supporting households but demand indicators warranting caution.
