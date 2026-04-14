@@ -950,12 +950,23 @@ def load_narrative(primary_city: str) -> str:
         if path.exists():
             text = path.read_text(encoding='utf-8')
             parts = re.split(r'\n---+\n', text, maxsplit=1)
-            # Take the polished section (before the divider), strip any ## headers
-            body_raw = parts[0].strip()
-            lines = body_raw.split('\n')
-            body_lines = [l for l in lines if not l.startswith('#')]
-            body = '\n'.join(body_lines).strip()
-            paragraphs = [p.strip() for p in body.split('\n\n') if p.strip()]
+
+            def extract_paragraphs(raw: str):
+                lines = raw.strip().split('\n')
+                body_lines = [l for l in lines if not l.startswith('#')]
+                body = '\n'.join(body_lines).strip()
+                return [p.strip() for p in body.split('\n\n') if p.strip()]
+
+            def has_prose(paragraphs):
+                # A paragraph is only metadata if it's entirely **...** with no extra text
+                return any(not re.match(r'^\*\*[^*]+\*\*\s*$', p) for p in paragraphs)
+
+            paragraphs = extract_paragraphs(parts[0])
+
+            # New format: content sits after the --- divider; before it is just title/grade
+            if not has_prose(paragraphs) and len(parts) > 1:
+                paragraphs = extract_paragraphs(parts[1])
+
             html_parts = []
             for p in paragraphs:
                 # Check if paragraph starts with **Header** (possibly followed by body text)
