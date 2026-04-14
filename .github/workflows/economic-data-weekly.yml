@@ -43,6 +43,9 @@ jobs:
           TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
         run: python city_econ_pipeline_cautious.py
       
+      - name: Generate website
+        run: python generate_site.py
+
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
