@@ -1,11 +1,11 @@
 # Indianapolis-Carmel-Greenwood
 
-**Grade: C+ (Poor) | 42.4th percentile | April 2026**
+**Grade: C+ (Poor) | 42.0th percentile | April 2026**
 
 ---
 
-Indianapolis earns a C+ overall grade, with its exceptionally low unemployment rate of 2.50% being the most important takeaway about this city. The city's labor market is tight, with businesses facing significant hiring competition due to a genuinely shallow pool of available workers, as the civilian labor force has shrunk by 0.36% year-over-year.
+Indianapolis-Carmel-Greenwood earns an overall grade of C+, with its exceptionally low unemployment rate of 2.50% being the most important takeaway. The city's low unemployment rate indicates a tight labor market, where businesses face significant hiring competition and workers have considerable leverage. The cost of living composite score of 5.25 places Indianapolis in the bottom tier, making it one of the most expensive metros, which can constrain talent acquisition and consumer spending power.
 
-The city's cost of living composite score of 5.25 makes it one of the most expensive metros, constraining talent acquisition and consumer spending power. Nonfarm employment has declined by 0.66% year-over-year, and the professional talent pool ranks in the 22nd percentile, indicating below-average job growth and a thinner talent pool.
+The labor force is growing slowly, with a year-over-year growth rate of -0.36%, resulting in a shallow pool of available workers. The high cost of living and limited professional talent pool, ranked in the 23rd percentile, exacerbate hiring challenges for specialized or senior roles. Nonfarm employment growth has declined by 0.66% year-over-year, indicating a stagnant job market.
 
-The housing market is slowing down, with days on market increasing by 15.9% year-over-year to an average of 51 days. This slowdown, combined with weak employment growth, may indicate demand erosion rather than a healthy normalization. The primary risk for businesses locating in Indianapolis is the potential for demand erosion, driven by weak job growth and a shrinking labor force, which undermines the city's economic momentum and limits opportunities for expansion.
+The city's economic stagnation, coupled with its high cost of living, hinders a company's ability to attract and retain top talent, ultimately impacting its growth and competitiveness. The housing market is slowing, with days on market increasing by 15.9% year-over-year to an average of 51 days, indicating softening demand in the face of weak employment growth. Businesses must carefully consider these factors when making location decisions in Indianapolis.

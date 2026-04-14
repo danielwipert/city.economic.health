@@ -1,11 +1,11 @@
 # Washington-Arlington-Alexandria
 
-**Grade: C- (Critical) | 26.4th percentile | April 2026**
+**Grade: C- (Critical) | 28.7th percentile | April 2026**
 
 ---
 
-Washington D.C. earns a C- grade, with its struggling labor market being the most important takeaway. The city's nonfarm employment growth is -3.09% YoY and its civilian labor force is down 1.82% YoY, indicating a contraction. This is further exacerbated by an elevated unemployment rate of 3.80%, signaling labor market slack and weakened local consumer demand.
+Washington D.C. earns a C- overall grade, with its labor market challenges being the most significant concern. The city's unemployment rate of 3.80% signals labor market slack, and its civilian labor force is shrinking at a rate of -1.82% year-over-year, presenting a significant structural headwind for businesses seeking to expand headcount. Wage growth is stagnant, with hourly earnings increasing by only 1.90% year-over-year, which weakens local consumer demand.
 
-The housing market is slowing, with homes taking 30 days to sell on average, a 25.0% YoY increase. This rise in days on market, combined with weak employment growth and falling building permits, indicates demand erosion. The city ranks in the 34th percentile for office and professional worker share, posing constraints for businesses seeking specialized or senior roles.
+The city's housing market is extremely competitive, with homes selling quickly, as indicated by its bottom-tier days on market score. This creates a challenge for new hires, who may face serious housing competition, affecting affordability and relocation decisions. The combination of a shrinking labor force and a highly competitive housing market creates a complex environment for businesses to navigate.
 
-Washington D.C.'s labor market offers potential for easier hiring due to slack, but the primary risk is the city's weakening economic fundamentals. Businesses must weigh the benefits of a potentially lower-cost labor environment against the risks of a slowing economy and shrinking talent pool. The city's economic challenges make it essential for businesses to carefully consider these factors when deciding on a location.
+The city's labor market has slack, making it easier for businesses to hire, but this comes with significant risks, including a shrinking labor force and stagnant wage growth. The highly competitive housing market poses a relocation challenge, making it essential for businesses to carefully consider these factors when making location decisions, with a shrinking labor force and stagnant wage growth being key concerns.

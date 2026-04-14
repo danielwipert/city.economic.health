@@ -1,11 +1,11 @@
 # Las Vegas-Henderson-North Las Vegas
 
-**Grade: A+ (Excellent) | 68.8th percentile | April 2026**
+**Grade: A+ (Excellent) | 68.2th percentile | April 2026**
 
 ---
 
-Las Vegas earns an A+ grade, driven by its exceptional labor market growth of 3.24% year-over-year. The city's labor force growth is accompanied by strong wage growth, with hourly earnings rising 6.67% year-over-year, and nonfarm employment growth of 1.70% year-over-year. This rapid job creation is a key indicator of the city's economic expansion.
+Las Vegas earns an A+ grade, driven by its exceptional economic performance. The city's labor market is characterized by strong growth, with nonfarm employment increasing by 1.7% year-over-year and a labor force expansion of 3.24% year-over-year. Wages are rising rapidly, with hourly earnings growing by 6.67% year-over-year, indicating a highly competitive job market.
 
-The unemployment rate is 5.20%, indicating labor market slack, and the days on market for homes has increased by 18.2% year-over-year, with an average of 52 days. This slowing pace in the housing market introduces some uncertainty, despite the strong employment growth. The city has a deep professional talent pool, ranking in the 86th percentile for office and professional worker share.
+The housing market is slowing, with days on market increasing by 18.2% year-over-year to an average of 52 days. The unemployment rate of 5.2% is elevated, indicating some labor market slack. The city's 85th percentile ranking for office and professional worker share demonstrates a deep professional talent pool, a significant advantage for knowledge-economy businesses.
 
-Las Vegas offers businesses a thriving labor market with strong job growth and a skilled workforce, making it an attractive location for companies seeking to expand. The presence of a deep professional talent pool is a significant advantage for knowledge-economy businesses, but the elevated unemployment rate and slowing housing market are factors to consider when making location decisions, with the city's overall economic character supporting its A+ grade.
+Las Vegas offers businesses a highly competitive and growing labor market, with a strong pipeline of skilled workers. The primary risk is labor cost pressures due to rapid wage growth, which could impact businesses' bottom lines. With its strong employment trends and talented workforce, Las Vegas remains an attractive location for businesses, despite some signs of housing market slowdown.

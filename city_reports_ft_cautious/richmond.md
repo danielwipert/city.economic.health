@@ -1,11 +1,11 @@
 # Richmond
 
-**Grade: C- (Critical) | 31.4th percentile | April 2026**
+**Grade: C- (Critical) | 30.7th percentile | April 2026**
 
 ---
 
-Richmond earns a C- grade, with its shrinking labor force and slow employment growth posing significant risks for businesses. The city's labor force is contracting at a rate of -1.22% year-over-year, and nonfarm employment growth is -0.36% year-over-year, placing it in the bottom tier. Solid wage growth of 5.36% year-over-year is a positive note, but it also exerts cost pressure on businesses.
+Richmond earns a grade of C due to its contractionary labor market, with a -0.36% year-over-year change in nonfarm employment growth and a -1.22% year-over-year decline in the civilian labor force. This results in job losses and a shrinking workforce, posing significant structural headwinds for businesses seeking to expand their operations. Richmond boasts solid wage growth of 5.36% year-over-year, which supports consumer spending but exerts cost pressure on businesses.
 
-The city's housing market is heating up, with homes selling in an average of 39 days, driven by a supply contraction due to a -20.27% year-over-year decline in building permits. Richmond's above-average cost of living, with a composite score of 3.79, necessitates wage premiums to attract talent, which could be exacerbated by the rapid housing market.
+The city's housing market is complex, with building permits declining sharply by -20.27% year-over-year, contracting the housing supply and leading to future affordability stress and workforce attraction difficulties. Homes are selling rapidly, with an average of 39 days on market and a -11.4% year-over-year change, indicating a fast-moving market that poses relocation challenges for new hires.
 
-Richmond's challenging labor market environment and rapidly moving housing market make it essential for businesses to carefully consider these factors when making location decisions. The city's labor market risks and affordability concerns must be weighed against its solid wage growth, highlighting the need for a nuanced approach to expansion decisions in Richmond.
+Richmond offers businesses a low-cost environment, with a cost of living composite score of 3.78. However, its shrinking labor force and potentially overheated housing market pose significant risks, making it essential for companies to carefully weigh the benefits and drawbacks of locating in Richmond, as they may face challenges in attracting and retaining talent.

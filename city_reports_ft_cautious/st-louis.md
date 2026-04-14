@@ -1,11 +1,11 @@
 # St. Louis
 
-**Grade: C+ (Poor) | 38.9th percentile | April 2026**
+**Grade: C+ (Poor) | 38.8th percentile | April 2026**
 
 ---
 
-St. Louis earns a C+ grade, with its slow job growth and stagnant wages posing significant risks for businesses. The city's labor market is characterized by near-stagnant job growth, with nonfarm employment increasing by only 0.17% year-over-year, and wage growth of 1.41%, both of which are bottom-tier metrics. The unemployment rate is 3.50%, but this positive indicator is overshadowed by the lackluster job and wage growth.
+St. Louis earns an overall grade of C+ and ranks in the 38.8th percentile out of 50 US metros, with stagnant job growth being the primary concern. The city's labor market is characterized by nonfarm employment increasing by only 0.17% year-over-year, placing it in the bottom tier, and hourly earnings rising by just 1.41% year-over-year, also in the bottom tier. The unemployment rate is 3.50%, but this does not offset the overall labor market constraint.
 
-The housing market in St. Louis is slowing down, with homes taking 46 days to sell on average, and a significant increase of 17.9% year-over-year in days on market. This slowdown, combined with weak employment growth and stagnant wage growth, indicates demand erosion. The cost of living in St. Louis is below average, with a score of 3.30, but the thin professional talent pool, ranking in the 20th percentile, poses constraints for businesses seeking specialized or senior roles.
+The city's housing market is slowing, with homes taking 46 days to sell on average, and this duration increasing by 17.9% year-over-year. This trend indicates a shift towards a buyer's market, which could be beneficial for workers relocating to the area. The low office and professional worker share, ranking in the 19th percentile, further constrains the city's appeal to knowledge-economy businesses.
 
-St. Louis offers an affordable cost of living, but its slow job growth, stagnant wages, and slowing housing market pose significant risks. The city's limited access to specialized talent, with a talent pool ranking in the 20th percentile, could hinder long-term growth and success. With nonfarm employment growth at 0.17% and wage growth at 1.41%, businesses considering locating in St. Louis must carefully weigh these factors against the city's low cost of living score of 3.30.
+St. Louis offers a cost of living with a composite score of 3.29, making it an affordable option. However, this advantage is offset by significant labor market and housing market risks, driven by weak job growth and a slowing housing market, which could undermine the city's economic stability and limit opportunities for growth.

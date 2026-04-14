@@ -1,11 +1,11 @@
 # Cleveland
 
-**Grade: B- (Below Average) | 49.3th percentile | April 2026**
+**Grade: B- (Below Average) | 49.0th percentile | April 2026**
 
 ---
 
-Cleveland earns a B+ grade, with its strong 1.80% year-over-year labor force growth being the most important takeaway. This growth indicates a rapidly expanding workforce supply, with 1.80% year-over-year increase. The city's workforce is growing, but wages are declining, with a -0.77% year-over-year change in hourly earnings, limiting workers' leverage.
+Cleveland earns a top-tier grade due to its strong and expanding labor force, with a year-over-year growth rate of 1.80%. This growth is not translating to wage increases, as hourly earnings have declined by 0.77% over the same period, indicating stagnant or declining real wages. The city's labor force is growing, but workers have limited leverage.
 
-The housing market is characterized by a 11.14% year-over-year increase in building permits, keeping pace with demand, and an average of 55 days to sell homes, with days on market increasing by 7.8% year-over-year. The city has an above-average professional workforce, ranking in the 76th percentile, which is a positive for office-dependent businesses.
+The housing market in Cleveland is characterized by mixed signals, with building permits increasing by 11.14% year-over-year and days on market increasing by 7.8% to an average of 55 days. This suggests a potential normalization of the market after a period of rapid growth, rather than a decline in demand. The strong labor force growth and above-average permit growth support this scenario.
 
-Cleveland offers businesses a growing workforce and a professional workforce concentration, but declining wages and a slowing housing market pose a risk. The city's economic momentum is uncertain, making it essential for businesses to carefully consider these factors when making location decisions, weighing the benefits of a growing workforce against the drawbacks of a softening market.
+Cleveland offers a growing and expanding labor force, but businesses should be aware of the potential risks of softening demand and limited workforce leverage. The declining wage growth and slowing housing market may impact consumer spending and demand, affecting the overall viability of the market. With a growing labor force and mixed housing market signals, businesses must carefully consider these factors when evaluating Cleveland as a potential location.

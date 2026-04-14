@@ -1,11 +1,11 @@
 # Virginia Beach-Chesapeake-Norfolk
 
-**Grade: C+ (Poor) | 38.3th percentile | April 2026**
+**Grade: C (Very Poor) | 37.7th percentile | April 2026**
 
 ---
 
-Virginia Beach earns a C+ grade, with its shrinking civilian labor force posing a significant structural headwind for businesses. The area's civilian labor force has declined by 2.41% year-over-year, and total nonfarm employment growth is stagnant, with a -0.41% year-over-year change. Wages are rising rapidly, with a 10.08% year-over-year increase, indicating a strong labor market for existing workers.
+Virginia Beach earns a C grade, ranking 37.7th percentile out of 50 US metros, due to its struggling labor market. The civilian labor force has declined by 2.41% year-over-year, and nonfarm employment growth is below average at -0.41% year-over-year. This indicates a labor market with significant slack, impacting local consumer demand.
 
-The housing market is experiencing a supply squeeze, with building permits declining sharply by 46.79% year-over-year. Homes are selling in fewer days than last year, averaging just 36 days on market, creating a competitive environment for new hires. This contraction, combined with rapid wage growth, raises questions about the underlying health of the labor market, potentially indicating a mix shift toward higher-paying jobs.
+The metro area has top-tier wage growth, with hourly earnings rising by 10.08% year-over-year. This strong wage growth contrasts with the stagnant employment picture, indicating a shift towards higher-paying jobs rather than broad labor market health. The housing market is characterized by a sharp decline in building permits, down 46.79% year-over-year, and homes sell quickly in just 36 days.
 
-The primary risk for businesses locating in this area is the potential difficulty in attracting and retaining talent due to the limited housing supply and rapidly rising home prices. Despite the affordability advantage of a below-average cost of living, the competitive housing market and shrinking labor force pose significant challenges for businesses seeking to expand their workforce in Virginia Beach.
+Virginia Beach offers strong wage growth and an affordable cost of living, with a composite score of 1.59. However, labor market and housing supply constraints pose a risk to the area's long-term growth prospects. Businesses must carefully weigh these factors when considering the location, as the potential for constraints to limit growth is a primary concern, with the area's fast-moving housing market and declining labor force being key challenges.

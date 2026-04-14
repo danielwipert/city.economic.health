@@ -1,11 +1,11 @@
 # Detroit-Warren-Dearborn
 
-**Grade: C (Very Poor) | 32.9th percentile | April 2026**
+**Grade: C (Very Poor) | 35.2th percentile | April 2026**
 
 ---
 
-Detroit earns a low grade due to its severe labor market weakness, with an unemployment rate and stagnant wage growth of +1.58% YoY both ranking in the bottom tier. Nonfarm employment is declining by -0.16% YoY, indicating economic deceleration. The labor force is growing slowly, at +0.59% YoY, which constrains hiring capacity.
+Detroit earns a C grade, with its sluggish labor market being the most important takeaway. The city's unemployment rate of 4.70% and stagnant wage growth of 1.58% year-over-year indicate a labor market with significant slack, weakening local consumer demand. The nonfarm employment growth of -0.16% year-over-year signals economic deceleration, a risk signal worth watching.
 
-The housing market is slowing down, with building permits declining by -10.94% YoY, indicating a tightening of housing supply. Homes take an average of 45 days to sell, with days on market increasing by +7.1% YoY. This slowdown, combined with weak employment growth and declining permits, poses a risk to consumer spending.
+The housing sector reveals market tensions, with a 7.1% year-over-year increase in days on market, suggesting a slowing market. Weak employment growth and average building permits point to demand erosion rather than a healthy normalization. The stagnant labor force growth of 0.59% year-over-year and bottom-tier wage growth exacerbate these concerns, indicating a softening market with limited workforce leverage.
 
-Detroit's business environment is marked by significant labor market challenges and a slowing housing market. The primary risk for businesses is weak consumer spending and demand erosion, driven by high unemployment and stagnant wages, making it a less attractive location for investment.
+Detroit's labor market offers easier hiring due to its elevated unemployment rate, but this comes with the risk of weakened local consumer demand. The city's economic deceleration and potential demand erosion may impact long-term growth and stability, making it a primary caveat for businesses considering location in Detroit.

@@ -1,11 +1,11 @@
 # Riverside-San Bernardino-Ontario
 
-**Grade: B- (Below Average) | 44.5th percentile | April 2026**
+**Grade: B- (Below Average) | 44.8th percentile | April 2026**
 
 ---
 
-Riverside earns a grade of C due to its severe labor market weakness, with an unemployment rate of 5.10% posing a significant consumer spending risk. The city's labor market is marked by below-average nonfarm employment growth of 0.88% year-over-year, indicating economic deceleration. Hourly earnings are rising 6.68% year-over-year, indicating a tight labor market that poses a real cost pressure for employers.
+Riverside earns a B- grade, with labor market weakness being the most critical issue, as evidenced by an unemployment rate of 5.10% and below-average nonfarm employment growth of +0.88% YoY. The city's hourly earnings rose by +6.68% YoY, a top-tier performance indicating a competitive labor market. This contrast between labor market weakness and strong wage growth presents a complex economic landscape.
 
-The city's cost of living composite score is 3.14, which is below average, and the office and professional worker share is notably low, ranking in the 2nd percentile. This poses a significant constraint for knowledge-economy businesses. The housing market presents a nuanced picture, with days on market increasing by 5.9% year-over-year to 54 days, indicating a slowing market.
+The cost of living is above average, with a composite score of 3.12, which, combined with rapid wage growth, pressures businesses to offer premium wages to attract talent. The office and professional worker share is remarkably low, ranking in the 0th percentile, posing a significant constraint for knowledge-economy businesses. The housing market is slowing, with days on market increasing by +5.9% YoY to 54 days, indicating softening demand in the face of weak employment growth.
 
-Riverside's housing supply is keeping pace with demand, with building permits growing at an above-average rate of 18.04% year-over-year. The primary risk for businesses is the city's severe labor market weakness, which impacts consumer spending and demand. This makes it essential to carefully consider the potential risks and opportunities before making a location decision, as the city's labor market challenges and cost pressures must be weighed against its growing housing supply.
+Riverside's labor market weakness and high cost of living are the primary risks for businesses considering this location. The city's talented workforce is a benefit, but businesses must weigh this against the potential costs and challenges of attracting and retaining top talent in a competitive market. With an overall ranking in the 44.8th percentile out of 50 US metros, Riverside presents a unique set of challenges and opportunities for businesses to navigate.

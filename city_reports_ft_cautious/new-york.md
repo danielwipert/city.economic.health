@@ -1,11 +1,11 @@
 # New York Newark-Jersey City
 
-**Grade: B- (Below Average) | 49.6th percentile | April 2026**
+**Grade: B (Average) | 50.7th percentile | April 2026**
 
 ---
 
-New York earns a grade of B+ due to its strong labor market, with nonfarm employment increasing by 0.13% year-over-year and a 1.20% year-over-year growth in the civilian labor force. The city's solid wage growth of 5.47% year-over-year is a positive indicator of economic health. However, the unemployment rate is 4.50%, indicating labor market slack.
+New York earns a B+ grade, with its strong labor market and solid wage growth being the most important takeaway. The city's nonfarm employment increased by 0.13% year-over-year, and its civilian labor force grew by 1.20% year-over-year. Hourly earnings rose by 5.47% year-over-year, supporting the city's healthy expansion.
 
-The city's high cost of living, with a composite index score of 4.95, limits the impact of wage growth on workers' real purchasing power. The housing market is characterized by above-average building permit growth of 14.97% year-over-year, and days on market are increasing by 6.2% year-over-year, with an average of 51 days. This suggests a stabilizing force in the market, given the strong employment growth and permit activity.
+The city's high cost of living, with a composite index score of 4.93, poses a significant constraint on talent acquisition and real consumer spending power. This is a key consideration, as it offsets the advantage of the city's above-average professional workforce, ranking in the 72nd percentile. The slowing housing market, with days on market increasing by 6.2% year-over-year, is a stabilizing force given the strong employment growth and rising building permits.
 
-New York offers a strong and expanding labor market with solid wage growth, but at a high cost of living. The city's extremely high cost of living limits the real benefits of wage growth and talent acquisition, making it essential for businesses to carefully consider the trade-offs of operating in this market, where the high cost of living is a primary risk.
+New York offers businesses a strong and expanding labor market, with solid wage growth and a highly skilled workforce. However, the high cost of living is the primary risk, constraining talent acquisition and consumer spending power. Businesses must carefully consider the trade-offs of operating in this market, weighing the benefits of the city's labor market against the drawbacks of its high cost of living.

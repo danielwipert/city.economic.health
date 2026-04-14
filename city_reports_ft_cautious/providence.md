@@ -1,11 +1,11 @@
 # Providence-Warwick
 
-**Grade: B- (Below Average) | 48.7th percentile | April 2026**
+**Grade: B- (Below Average) | 48.1th percentile | April 2026**
 
 ---
 
-Providence earns a grade of C+ due to its struggling labor market, with an unemployment rate of 4.30% indicating severe labor market weakness and flagging consumer spending risk. The city's high cost of living, with a composite index of 7.36, is a significant constraint on talent acquisition and real consumer spending power, making it one of the most expensive metros. Nonfarm employment is increasing by 0.60% year-over-year, signaling a healthy expansion.
+Providence earns a grade of C+ due to its severe labor market weakness, with an unemployment rate of 4.30% posing a high risk to consumer spending. The city's labor force growth is 1.69% year-over-year, indicating a rapidly expanding workforce supply. Providence has a cost of living composite score of 7.36, ranking in the bottom tier, making it one of the most expensive metros and constraining talent acquisition and real consumer spending power.
 
-The city's housing market is experiencing a slowdown in home sales, with days on market increasing by 33.3% year-over-year to an average of 48 days, indicating a slow and buyer-friendly market. Building permits are rising by 23.50% year-over-year, indicating a healthy normalization of the market rather than demand erosion. The presence of an above-average professional workforce, ranking in the 66th percentile, is a positive for office-dependent businesses.
+The city's housing supply is expanding aggressively, with building permits increasing by 23.50% year-over-year, a top-tier performance. Days on market have risen by 33.3% to 48 days, indicating a slow and buyer-friendly market. This slowdown is a stabilizing force, given the city's above-average employment growth of 0.60% and strong labor force expansion.
 
-Providence offers businesses a unique combination of a highly educated workforce and a slowing housing market, providing opportunities for relocation and growth. The city's extremely high cost of living, with a composite index of 7.36, constrains talent acquisition and consumer spending power, making it essential for businesses to carefully consider these factors when making location decisions. With an unemployment rate of 4.30% and nonfarm employment growth of 0.60%, businesses must weigh these factors against the city's other advantages.
+Providence offers a unique combination of a rapidly expanding workforce and an aggressively growing housing supply, but its high cost of living and labor market weakness pose significant risks. The city's expensive nature and unemployment rate outweigh its positives, making it a challenging location for businesses that rely heavily on consumer spending or require a large, affordable workforce.

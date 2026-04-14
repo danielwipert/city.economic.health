@@ -1,11 +1,11 @@
 # Charlotte-Concord-Gastonia
 
-**Grade: B (Average) | 50.2th percentile | April 2026**
+**Grade: B (Average) | 50.4th percentile | April 2026**
 
 ---
 
-Charlotte earns a B grade, ranking 50.2th percentile out of 50 US metros, with its strong labor force growth being the most important takeaway. The city's labor force has grown 2.28% year-over-year, making it an attractive location for businesses looking to hire. Nonfarm employment growth is also above-average, at 0.85% year-over-year, indicating a healthy expansion.
+Charlotte earns a B grade, with its 50.4th percentile ranking out of 50 US metros driven by a strong hiring pipeline, as evidenced by a 2.28% year-over-year labor force growth rate. The city's nonfarm employment growth is above average, at 0.85% year-over-year. However, hourly earnings have declined by 1.28% year-over-year, a concerning sign for consumer spending.
 
-A key tension in Charlotte's economy is the mismatch between strong employment growth and a sharply declining housing supply, with building permits plummeting 39.50% year-over-year. This discrepancy will lead to affordability and workforce attraction issues in the future. The city's housing market is slowing, with homes taking 13.9% more days to sell than last year, resulting in an average of 49 days on market.
+The housing market is a concern, with building permits declining sharply by 39.50% year-over-year, indicating a potential housing supply squeeze. Homes are taking longer to sell, with days on market increasing by 13.9% year-over-year to an average of 49 days. This slowdown in the housing market, combined with declining building permits, indicates that demand is eroding.
 
-Charlotte offers businesses a strong and growing labor force, but stagnant wages, which have declined 1.28% year-over-year, and a declining housing supply pose future challenges. The primary risk for businesses locating in Charlotte is the potential for affordability and workforce attraction issues to deteriorate, making it essential to carefully consider these factors in location decisions.
+Charlotte offers a deep professional talent pool, with an office and professional worker share ranking in the 83rd percentile, making it an attractive location for knowledge-economy businesses. The primary risk is a potential housing supply squeeze, which could lead to affordability stress and workforce attraction difficulties, ultimately undermining the city's economic growth.

@@ -1,11 +1,11 @@
 # Pittsburgh
 
-**Grade: B+ (Above Average) | 57.8th percentile | April 2026**
+**Grade: B+ (Above Average) | 57.9th percentile | April 2026**
 
 ---
 
-Pittsburgh earns a B+ grade, with its 7.00% year-over-year wage growth being a top-tier metric that indicates a strong labor market with rising incomes. The city's cost of living composite score is 1.44, signifying a below-average cost of living, which makes Pittsburgh attractive to workers and businesses. The office and professional worker share ranks in the 62nd percentile, indicating a skilled and professional workforce.
+Pittsburgh earns a B+ grade, driven by its top-tier 7.00% year-over-year wage growth, indicating a strong labor market. The city's cost of living composite score is 1.42, below average, making it an attractive location for businesses and workers. An above-average professional workforce further reinforces the city's economic character.
 
-The housing market is slowing down, with days on market increasing by 4.8% year-over-year, despite homes selling in an average of 65 days. This slowing demand is a sign of normalization in the market and raises questions about the sustainability of the city's economic momentum. The tension between the strong labor market and the slowing housing market is a key consideration for businesses looking to locate in Pittsburgh.
+The housing market is slowing, with days on market increasing by 4.8% year-over-year to an average of 65 days, and building permits declining by -10.55% year-over-year. This slowdown could indicate a genuine erosion of demand, rather than a healthy normalization of the market. The city's strong economic indicators make this dynamic noteworthy, as it may impact Pittsburgh's affordability advantage.
 
-Pittsburgh offers businesses a unique combination of a skilled workforce, rising incomes, and a low cost of living. The slowing housing market poses a risk, potentially signaling a broader economic slowdown that could impact businesses' ability to attract and retain talent, with the city's economic momentum hanging in the balance.
+Pittsburgh offers a unique combination of strong wage growth, an affordable cost of living, and a professional workforce, making it attractive for investment. The primary risk lies in the potential erosion of demand in the housing market, which could impact the city's long-term affordability and attractiveness to relocating workers, with 7.00% wage growth and a cost of living score of 1.42 being key factors.

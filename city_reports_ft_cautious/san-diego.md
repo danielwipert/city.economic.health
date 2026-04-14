@@ -1,11 +1,11 @@
 # San Diego-Chula Vista-Carlsbad
 
-**Grade: B- (Below Average) | 48.9th percentile | April 2026**
+**Grade: B (Average) | 50.3th percentile | April 2026**
 
 ---
 
-San Diego earns a below-average overall grade, driven by its high cost of living, with a composite score of 4.92, and elevated unemployment at 4.40%. The city boasts above-average job growth, with nonfarm employment increasing by 0.70% year-over-year, and a growing labor force, up 1.66% year-over-year. This combination of factors indicates a market with slack in the labor force and economic expansion.
+San Diego earns an overall grade of B, with its strong labor market pipeline being the single most important takeaway about this city. The city's labor force growth is +1.66% YoY, ranking in the top tier at 81st percentile. Nonfarm employment growth is +0.70% YoY, above average. However, the unemployment rate is 4.40%, signaling labor market slack and weakened local consumer demand.
 
-The city's expensive cost of living poses a risk to talent acquisition and real consumer spending power. Homes take an average of 38 days to sell, 5.6% more days than last year, and building permits are down 0.37% year-over-year. This slowing housing market signals a normalization of the market, but also raises concerns about demand erosion.
+The cost of living in San Diego is a significant constraint, with a composite score of 4.90, placing it in the bottom tier at 13th percentile. This high cost of living limits the city's appeal for talent acquisition and real consumer spending power. The housing market is slowing, with days on market increasing by +5.6% YoY to an average of 38 days.
 
-San Diego offers businesses a growing labor force and above-average job growth, but at a high cost of living that constrains talent acquisition and consumer spending. The city's expensive cost of living and slowing housing market weaken the local economy, making it essential for businesses to carefully weigh the benefits and drawbacks of locating in San Diego, considering its 4.40% unemployment rate and 4.92 composite cost of living score.
+San Diego's strong labor force growth and above-average employment growth make it an attractive location for businesses. However, the high cost of living and slowing housing market pose significant risks, constraining talent acquisition and consumer spending power. Businesses should carefully consider these factors when making location decisions, weighing the benefits of a strong labor market against the drawbacks of decreased affordability.

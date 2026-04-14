@@ -1,11 +1,11 @@
 # Portland-Vancouver-Hillsboro
 
-**Grade: D (Emergency) | 23.9th percentile | April 2026**
+**Grade: D (Emergency) | 22.8th percentile | April 2026**
 
 ---
 
-Portland earns a grade of D, or 23.9th percentile out of 50 US metros, due to its struggling labor market. The city's unemployment rate is 4.90% and nonfarm employment growth is -1.84% year-over-year, indicating a contraction. The labor force is growing at just 0.04% year-over-year, further compounding the weakness. 
+The Portland-Vancouver-Hillsboro metro area earns an overall grade of D, driven by severe labor market weakness. This weakness is characterized by an unemployment rate of 4.90% and a nonfarm employment growth rate of -1.84% year-over-year, indicating job losses and a contracting economy. The labor force is growing at a pace of +0.04% year-over-year, constraining hiring capacity.
 
-The city boasts solid wage growth of 4.98% year-over-year, which supports consumer spending. However, the housing market tells a different story, with homes selling quickly at an average of 49 days on market and a year-over-year decrease of 3.9%. Building permits are down 18.14% year-over-year, indicating a thinning housing supply.
+The housing market is characterized by homes selling at a rapid pace, averaging 49 days on market, with a year-over-year decrease of -3.9% in days on market. However, building permits have declined by -18.14% year-over-year, indicating a supply contraction. The low office and professional worker share, ranking in the 15th percentile, poses a significant constraint for knowledge-economy businesses.
 
-Portland offers a cost advantage, with a cost of living composite score indicating above-average affordability. The city's low concentration of professional and office workers, ranking in the 14th percentile, poses a significant constraint for knowledge-economy businesses. The primary risk for businesses is the city's labor market weakness, which limits hiring capacity and talent attraction, making Portland a challenging location for businesses to thrive.
+Portland-Vancouver-Hillsboro's severe labor market weaknesses and constrained housing supply pose significant risks to businesses. The city's competitive housing market and limited professional workforce may lead to talent attraction and retention challenges, making it essential for businesses to carefully weigh these factors in their location decision, considering the potential risks alongside any potential benefits.

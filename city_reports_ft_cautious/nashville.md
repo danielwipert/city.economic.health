@@ -1,11 +1,11 @@
 # Nashville-Davidson--Murfreesboro--Franklin
 
-**Grade: A- (Good) | 61.8th percentile | April 2026**
+**Grade: A- (Good) | 61.7th percentile | April 2026**
 
 ---
 
-Nashville earns an overall grade of A-, driven by its exceptionally strong labor market. The city's unemployment rate of 3.0% indicates a tight labor market, where businesses face significant hiring competition and workers have leverage. The labor force is growing rapidly, with a year-over-year increase of 3.42%, signaling an expanding workforce supply.
+Nashville earns an A- grade, driven by its strong labor market and deep professional talent pool. The city's 3.0% unemployment rate indicates a tight labor market, where businesses face significant hiring competition and workers have leverage. This is further reinforced by the 3.42% year-over-year growth in the labor force, signaling a rapidly expanding workforce supply.
 
-The presence of a high concentration of office and professional workers, ranking in the 90th percentile, makes Nashville an attractive location for knowledge-economy businesses and headquarters. Nonfarm employment is growing at an above-average rate of 0.41% year-over-year, further solidifying the city's strong labor market. However, wage growth is sluggish, with hourly earnings increasing by only 2.31% year-over-year, which indicates weak worker bargaining power or softening demand.
+Nashville's office and professional worker share ranks in the 89th percentile, making it an attractive location for knowledge-economy businesses and headquarters. Wage growth is 2.31% year-over-year, which is sluggish and indicates a lower cost environment for employers but potentially weak worker bargaining power. Employment growth is above average at 0.41% year-over-year, while the housing market is slowing, with homes taking 12.8% more days to sell than last year.
 
-Nashville's unique combination of a tight labor market, rapid labor force growth, and a deep professional talent pool makes it an attractive location for knowledge-economy businesses. The exceptionally low unemployment rate and slow wage growth pose a risk, as businesses may face hiring challenges and upward pressure on wages, impacting their ability to attract and retain top talent.
+Nashville offers businesses a unique combination of a tight labor market, deep professional talent pool, and above-average job growth, making it an attractive location for knowledge-economy businesses. The primary risk is the potential for hiring challenges due to the exceptionally low unemployment rate, which could constrain business expansion plans.

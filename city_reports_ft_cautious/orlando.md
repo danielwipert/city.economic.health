@@ -1,11 +1,11 @@
 # Orlando-Kissimmee-Sanford
 
-**Grade: C- (Critical) | 29.6th percentile | April 2026**
+**Grade: C+ (Poor) | 40.1th percentile | April 2026**
 
 ---
 
-Orlando earns a C- overall grade, with its struggling labor market being the most significant concern. The city's 4.40% unemployment rate, ranking in the bottom tier, signals severe labor market weakness, posing a significant risk to consumer spending. Stagnant wage growth of +1.36% YoY, also in the bottom tier, means workers have limited leverage, which could further soften the market.
+Orlando earns a C+ overall grade, with its struggling labor market and housing supply constraints being the most significant concerns. The city's unemployment rate of 4.40% indicates a labor market weakness that will impact consumer spending. The sharp decline in building permits, down 35.64% year-over-year, contracts the housing supply, exacerbating affordability issues and hindering workforce attraction.
 
-The housing market is experiencing demand erosion, with building permits declining sharply by -35.64% YoY, a bottom-tier performance. Days on market are increasing by +11.7% YoY to an average of 67 days, indicating a slowing market. This scenario is driven by weak employment growth and declining permits, flagging a risk of decreased affordability and relocation challenges for new hires.
+Orlando's nonfarm employment growth is a positive indicator, with a 0.46% year-over-year increase, signaling a healthy expansion. Homes are taking 11.7% more days to sell than last year, with an average of 67 days on market, due to softening demand. This trend is driven by the decline in building permits, posing a risk of demand erosion rather than a healthy normalization of the market.
 
-Orlando's labor market and housing supply challenges pose significant risks for businesses, including decreased consumer spending power and affordability issues. Stagnant wages, high unemployment, and a contracting housing supply drive these concerns. Despite some positive employment growth, such as above-average nonfarm employment growth of +0.46% YoY, the city's overall economic landscape remains a concern for businesses considering Orlando.
+Orlando offers a growing economy with above-average job growth, but its labor market weaknesses and housing supply constraints pose significant risks. The contracting housing supply and slowing market will cause affordability stress and relocation challenges, ultimately impacting businesses' ability to attract and retain talent.

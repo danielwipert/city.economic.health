@@ -1,11 +1,11 @@
 # Phoenix-Mesa-Chandler
 
-**Grade: B (Average) | 54.4th percentile | April 2026**
+**Grade: B- (Below Average) | 48.1th percentile | April 2026**
 
 ---
 
-Phoenix earns a B grade, with a 54.4th percentile ranking out of 50 US metros, driven by strong growth in the civilian labor force, which has expanded by 2.36% year-over-year. The labor force growth indicates a rapidly increasing workforce supply. Nonfarm employment growth is -0.28% year-over-year, which is below average and indicates economic deceleration.
+Phoenix earns a B- grade, with its lackluster nonfarm employment growth being the most significant concern. The metro area ranks in the 48.1th percentile out of 50 US metros, driven by a 0.28% year-over-year decline in nonfarm employment, positioning it in the 33rd percentile. The housing market is characterized by a 16.86% year-over-year increase in building permits, but days on market have lengthened by 5.9% to an average of 54 days.
 
-The housing market is experiencing above-average building permit growth of 16.86% year-over-year, but days on market have increased by 5.9% year-over-year, with homes now taking an average of 54 days to sell. This slowdown in the housing market, combined with weak employment growth, indicates demand erosion. Labor force growth and solid wage growth of 4.87% year-over-year are positives.
+The rise in days on market, coupled with below-average employment growth, indicates a potential demand erosion scenario. Homes are taking more days to sell, even as new supply comes online, which suggests a genuine decline in demand rather than a healthy normalization. This narrative is reinforced by the lack of strong wage growth or labor force expansion, which would typically accompany a thriving economy.
 
-Phoenix offers businesses a rapidly expanding workforce and solid wage growth, but the primary risk lies in potential demand erosion in the housing market, which could signal broader economic softness. Decision-makers should weigh the benefits of a growing labor force against the potential risks of a slowing economy, particularly in the context of the city's housing market dynamics, to make informed decisions about investing in Phoenix.
+Phoenix's slowing job market and potential demand erosion in the housing sector pose a risk to businesses considering relocation. The city's weakening economic foundation could impact the availability and quality of the workforce, making it a less attractive location for investment and growth. With a ranking in the 48.1th percentile, Phoenix's economic profile is a concern for businesses looking to invest in the area.

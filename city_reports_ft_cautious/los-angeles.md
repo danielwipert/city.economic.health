@@ -1,11 +1,11 @@
 # Los Angeles-Long Beach-Anaheim
 
-**Grade: B+ (Above Average) | 55.8th percentile | April 2026**
+**Grade: B+ (Above Average) | 55.5th percentile | April 2026**
 
 ---
 
-Los Angeles-Long Beach-Anaheim earns a B+ grade, driven by its top-tier nonfarm employment growth of +1.83% YoY and solid wage growth of +5.44% YoY. The city's labor market is thriving, with rapid job creation and increasing consumer spending power. The cost of living composite is 5.65, ranking in the bottom tier, which poses a significant constraint on talent acquisition and real consumer spending power.
+Los Angeles-Long Beach-Anaheim earns a B+ grade, driven by its strong labor market with nonfarm employment growth of +1.83% YoY and solid wage growth of +5.44% YoY. The city's cost of living composite score is 5.63, placing it in the bottom tier, which constrains talent acquisition and real consumer spending power. This high cost of living is a significant concern for businesses.
 
-The strong job market and rising wages are positives, but the high cost of living threatens to erode the city's attractiveness to businesses and workers. The housing market is showing signs of stabilization, with building permits increasing by +20.24% YoY, which could help alleviate some of the affordability pressures. Homes are taking 7.1% more days to sell than last year, averaging 45 days.
+The housing market is expanding, with building permits growing aggressively at +20.24% YoY, indicating a potential long-term improvement in affordability. Homes take an average of 45 days to sell, with days on market increasing by +7.1% YoY. This indicates a stabilizing force in the market, driven by strong employment growth and rising permits.
 
-Los Angeles-Long Beach-Anaheim offers a dynamic and expanding economy with a strong labor market, but at a high cost. The city's extremely high cost of living limits the appeal of the market to businesses and workers, potentially constraining long-term growth and profitability.
+Los Angeles-Long Beach-Anaheim offers a strong and expanding labor market, with solid wage growth and an aggressively expanding housing supply. The high cost of living is the primary risk, impacting talent acquisition and consumer spending power. Businesses should factor this into their location decision, considering the need for tailored compensation strategies to attract and retain talent in this market.

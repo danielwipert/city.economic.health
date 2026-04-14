@@ -1,11 +1,11 @@
 # Cincinnati
 
-**Grade: B (Average) | 53.6th percentile | April 2026**
+**Grade: B (Average) | 54.9th percentile | April 2026**
 
 ---
 
-Cincinnati earns a B grade, with its exceptionally low unemployment rate of 3.60% being the most important takeaway. The city's tight labor market gives workers considerable leverage, but also poses significant hiring competition for businesses. The civilian labor force has contracted by 0.79% year-over-year, indicating a structural headwind for businesses seeking to expand their headcount. Wage growth has been stagnant, with hourly earnings increasing by only 0.55% year-over-year, undermining consumer spending power.
+Cincinnati earns a B grade, with its exceptionally low unemployment rate of 3.60% being the most important takeaway about this city. The city's nonfarm employment growth remains above average, at 0.30% year-over-year, signaling a healthy economic expansion. However, this is paired with a shrinking civilian labor force, which contracted by 0.79% year-over-year, indicating a structural headwind for businesses seeking to expand their headcount.
 
-The city's housing market is expanding, with building permits surging by 57.47% year-over-year. However, homes are taking longer to sell, with days on market increasing by 21.6% year-over-year to an average of 45 days. Cincinnati has a deep professional talent pool, ranking in the 82nd percentile for office and professional worker share, which is a significant advantage for knowledge-economy businesses.
+The low unemployment rate is accompanied by stagnant wage growth of 0.55% year-over-year, indicating that workers do not have as much leverage as the headline rate implies. The city's housing market is slowing, with homes taking 21.6% more days to sell than last year, resulting in an average of 45 days on market. This slowdown is accompanied by an aggressive expansion of housing supply, with building permits increasing by 57.47% year-over-year.
 
-Cincinnati offers businesses a unique combination of a tight labor market and an expanding housing supply, making it an attractive location for companies seeking to tap into a skilled workforce. The primary risk lies in the city's shrinking labor force and stagnant wage growth, which constrains businesses' ability to expand and attract talent, potentially undermining the city's long-term economic momentum.
+Cincinnati offers businesses a deep professional talent pool, with an office and professional worker share ranking in the 81st percentile, making it an attractive location for knowledge-economy businesses. The city's tight labor market, with a shrinking civilian labor force, poses a primary risk that may constrain hiring and expansion plans.
