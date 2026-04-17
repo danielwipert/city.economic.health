@@ -1,3 +1,20 @@
+"""
+city_econ_pipeline.py
+Generates city economic briefs from calculated_metrics_reconciled.json.
+
+Output format per city:
+  - Opening paragraph (2-3 sentences: overall grade + defining economic character)
+  - 8 per-metric sections, each with a **Bold Header** and 2-3 sentences of analysis
+  - Closing paragraph (2-3 sentences: bottom line for decision-makers)
+
+Saves to city_reports_ft_cautious/{slug}.md, which generate_site.py and
+generate_pdf_report.py read to populate the Economic Analysis section.
+
+Usage:
+    python city_econ_pipeline.py
+    (Run from the final.1/ directory so relative paths resolve correctly)
+"""
+
 import os
 import json
 import re
@@ -6,334 +23,355 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import pandas as pd
 from together import Together
+from dotenv import load_dotenv
 
+load_dotenv()
 
-# --------------------------------------------------------
-# CONFIG
-# --------------------------------------------------------
+import sys
+if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8')
+if sys.stderr.encoding and sys.stderr.encoding.lower() != 'utf-8':
+    sys.stderr.reconfigure(encoding='utf-8')
+
+# ─── CONFIG ───────────────────────────────────────────────────────────────────
 
 TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
 if TOGETHER_API_KEY is None:
-    raise RuntimeError("TOGETHER_API_KEY not set. In PowerShell run:\n"
-                       "$env:TOGETHER_API_KEY = 'your_together_api_key_here'")
+    raise RuntimeError(
+        "TOGETHER_API_KEY not set.\n"
+        "In PowerShell run: $env:TOGETHER_API_KEY = 'your_key_here'"
+    )
 
-# Analysis model (econ reasoning)
-ANALYSIS_MODEL_ID = "Qwen/Qwen3-235B-A22B-Instruct-2507-tput"
-
-# Stylist model (prose polish)
-STYLE_MODEL_ID = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
-
-# Input JSON
-JSON_PATH = "calculated_metrics_reconciled.json"
-
-# City identifier inside metros[]
-PRIMARY_CITY_COLUMN = "primary_city"   # will use if present
-FALLBACK_CITY_COLUMN = "msa"           # fallback if primary_city missing
-
-# Output directory
+MODEL_ID   = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+JSON_PATH  = "calculated_metrics_reconciled.json"
 OUTPUT_DIR = Path("city_reports_ft_cautious")
-
-# Parallelism (how many cities at once)
 MAX_WORKERS = 4
 
+# ─── METRIC ORDER (matches the website scorecard) ─────────────────────────────
 
-# --------------------------------------------------------
-# UTILS
-# --------------------------------------------------------
+METRICS = [
+    ("107E", "Labor Demand",       "25%"),
+    ("101A", "Unemployment",       "20%"),
+    ("103B", "Wage Growth",        "15%"),
+    ("104C", "Cost of Living",     "12%"),
+    ("102A", "Labor Force Growth", "10%"),
+    ("200B", "Building Permits",   "10%"),
+    ("204A", "Days on Market",      "5%"),
+    ("105C", "Office Economy",      "3%"),
+]
+
+# ─── PER-METRIC WRITING NOTES (fed to LLM as interpretive context) ────────────
+
+METRIC_NOTES = {
+    "107E": (
+        "Labor Demand (25% weight): composite of employment growth YoY + weekly hours deviation "
+        "from each city's own 12-month baseline. Higher score = more jobs being added AND hours "
+        "running above trend (genuine demand). Low score = payrolls contracting or hours below trend. "
+        "The scenario matters: hours above trend during JOB GROWTH = genuine demand. "
+        "Hours above trend during JOB LOSSES = survivor squeeze (remaining workers absorbing load of eliminated roles)."
+    ),
+    "101A": (
+        "Unemployment (20% weight): percentage of the labor force unemployed and seeking work. "
+        "INVERTED — a HIGH percentile score means LOW unemployment (tight market). "
+        "Low unemployment = harder to hire, more wage pressure. "
+        "High unemployment = easier to staff but weaker local consumer demand."
+    ),
+    "103B": (
+        "Wage Growth (15% weight): year-over-year change in average hourly earnings. "
+        "Higher score = wages rising faster. Strong wage growth = rising labor costs for employers, "
+        "good for worker purchasing power. Slow wage growth = flat cost environment but weak bargaining power."
+    ),
+    "104C": (
+        "Cost of Living (12% weight): housing cost relative to local wages (price per sq ft divided by hourly earnings). "
+        "INVERTED — a HIGH percentile score means MORE AFFORDABLE. "
+        "High score = talent attraction advantage, lower real-wage floor. "
+        "Low score = expensive city, requires wage premiums to attract talent."
+    ),
+    "102A": (
+        "Labor Force Growth (10% weight): year-over-year change in the civilian labor force count "
+        "(employed + actively seeking work). This is NOT a participation rate — do not call it one. "
+        "Positive = workforce supply expanding. Negative = shrinking labor pool, structural headwind for hiring."
+    ),
+    "200B": (
+        "Building Permits (10% weight): year-over-year change in residential building permits (3-month smoothed). "
+        "Rising = developer confidence, future housing supply expanding, affordability improving. "
+        "Falling sharply = supply squeeze building ahead, future affordability and workforce attraction at risk."
+    ),
+    "204A": (
+        "Days on Market (5% weight): how long homes sit before going under contract. "
+        "INVERTED — HIGH percentile = homes sitting LONGER (slower, buyer-friendly market). "
+        "LOW percentile = homes selling very fast (hot market, tough for relocating workers). "
+        "Rising DOM in a strong job market = healthy normalization. "
+        "Rising DOM with weak jobs = demand erosion. "
+        "Name both the absolute level in days AND the year-over-year direction."
+    ),
+    "105C": (
+        "Office Economy (3% weight): share of jobs in professional/office sectors + growth trend. "
+        "High = deep knowledge-economy talent pool, suited for tech/finance/consulting/HQ decisions. "
+        "Low = fewer specialized roles, more industrial or logistics-dominant economy. "
+        "IMPORTANT: do NOT quote the raw composite index value — use the percentile rank only."
+    ),
+}
+
+# ─── UTILS ────────────────────────────────────────────────────────────────────
 
 def slugify(name: str) -> str:
-    """Convert a city name into a safe filename."""
     name = name.strip().lower()
     name = re.sub(r"[^a-z0-9]+", "-", name)
     return name.strip("-") or "city"
 
 
-# --------------------------------------------------------
-# DATA LOADING
-# --------------------------------------------------------
+def tier_label(score: float) -> str:
+    if score >= 80: return "top tier"
+    if score >= 60: return "above average"
+    if score >= 40: return "near median"
+    if score >= 20: return "below average"
+    return "bottom tier"
+
 
 def load_metros(path: str) -> pd.DataFrame:
-    """
-    Load your JSON and extract the metros list into a DataFrame.
-
-    Expected structures:
-      - { ..., "metros": [ {...}, {...}, ... ] }
-      - or [ { ..., "metros": [ ... ] }, ... ]
-    """
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
-
-    # Case 1: top-level dict with 'metros'
     if isinstance(data, dict) and "metros" in data:
         return pd.DataFrame(data["metros"])
-
-    # Case 2: list of dicts, one of which has 'metros'
     if isinstance(data, list):
         for entry in data:
             if isinstance(entry, dict) and "metros" in entry:
                 return pd.DataFrame(entry["metros"])
-
     raise ValueError("Unable to find 'metros' list in JSON file.")
 
 
-# --------------------------------------------------------
-# PROMPT BUILDERS
-# --------------------------------------------------------
+# ─── BRIEFING SHEET ───────────────────────────────────────────────────────────
 
-def build_analysis_prompt(df_city: pd.DataFrame, city_name: str) -> str:
+def build_briefing(record: dict, city_name: str) -> str:
     """
-    Build the prompt that the analysis model uses to produce the economic analysis.
+    Human-readable data table for the LLM. Labeled rows with raw values
+    and percentile tier — no cryptic JSON field names.
     """
-    records = df_city.to_dict(orient="records")
-    data_json = json.dumps(records, indent=2)
+    pct   = record.get("percentile_scores", {}) or {}
+    raw   = record.get("raw_values", {}) or {}
+    grade = record.get("grade", {})
+    wp    = round(record.get("weighted_percentile", 50), 1)
+    metro = record.get("metro_name", city_name)
 
-    interpretation_guide = """
-METRIC INTERPRETATION RULES — follow these exactly, never contradict them:
+    grade_letter = grade.get("letter", "?") if isinstance(grade, dict) else str(grade)
+    grade_desc   = grade.get("description", "") if isinstance(grade, dict) else ""
 
-1. 101A_unemployment (Unemployment Rate, %):
-   - LOWER is better. Below 3.5% = very tight. 3.5–4.5% = healthy. 4.5–6% = slack. Above 6% = weak.
-   - 101A_unemp_yoy_pp: NEGATIVE = unemployment FALLING = improving. POSITIVE = rising = worsening.
+    def fmt_pct(key, decimals=2):
+        v = raw.get(key)
+        return f"{v:+.{decimals}f}%" if v is not None else "N/A"
 
-2. 102A_clf_yoy (Civilian Labor Force YoY % change):
-   - Measures how fast the pool of available workers is growing.
-   - HIGHER is better. Positive = workforce expanding. Negative = workforce shrinking.
-   - Do NOT call this a participation rate — it is not.
+    def fmt_val(key, decimals=2, suffix=""):
+        v = raw.get(key)
+        return f"{v:.{decimals}f}{suffix}" if v is not None else "N/A"
 
-3. 103B_earnings_yoy (Average Hourly Earnings YoY %):
-   - HIGHER is better. Above 4% = strong wage growth.
-   - If above ~3–4% inflation benchmark, workers are gaining real purchasing power.
+    def row(label, value_str, pct_key):
+        sc = pct.get(pct_key, 50)
+        return f"  {label:<40} {value_str:<22} {tier_label(sc)} ({round(sc)}th pct)"
 
-4. 104C_col (Cost of Living Composite — PSF/earnings ratio):
-   - LOWER is better = more affordable relative to earnings.
-   - High score = expensive. Low score = affordable.
+    dom_yoy   = raw.get("204A_dom_yoy_pct")
+    dom_level = raw.get("204A_dom_level_days")
+    dom_str   = (f"{dom_yoy:+.1f}% YoY" if dom_yoy is not None else "N/A")
+    if dom_level is not None:
+        dom_str += f" ({int(dom_level)} days)"
 
-5. 105C_owr (Office Worker Ratio Composite):
-   - HIGHER is better = more white-collar / professional services density.
-   - Very low score = city is structurally reliant on logistics, industrial, or service-sector employment.
+    lines = [
+        f"METRO: {metro}",
+        f"OVERALL GRADE: {grade_letter} — {grade_desc} ({wp}th percentile, ranked out of 50 US metros)",
+        "",
+        f"  {'METRIC':<40} {'RAW VALUE':<22} PERCENTILE TIER",
+        "  " + "-" * 74,
+        row("Employment growth YoY",            fmt_pct("107E_employment_growth_yoy"),          "107E"),
+        row("Weekly hours vs own trend",         fmt_pct("107E_wh_trend_deviation_pct", 3),      "107E"),
+        row("Labor demand composite score",      fmt_val("107E_ldc_composite", suffix=""),       "107E"),
+        row("Unemployment rate",                 fmt_val("101A_unemployment", suffix="%"),       "101A"),
+        row("Wage growth (hourly earnings YoY)", fmt_pct("103B_earnings_yoy"),                  "103B"),
+        row("Cost of living (PSF/wages ratio)",  fmt_val("104C_col", suffix=" ratio"),           "104C"),
+        row("Labor force growth YoY",            fmt_pct("102A_clf_yoy"),                        "102A"),
+        row("Building permits YoY",              fmt_pct("200B_permits_yoy"),                    "200B"),
+        row("Days on market",                    dom_str,                                        "204A"),
+        row("Office/professional worker share",  fmt_val("105C_owr", suffix=" (composite 0-5)"), "105C"),
+    ]
+    return "\n".join(lines)
 
-6. 107E_ldc_composite (Labor Demand Composite):
-   - HIGHER is better = stronger overall labor demand signal.
 
-7. 107E_employment_growth_yoy (Nonfarm Payroll YoY %):
-   - HIGHER is better. Above 2% = strong. 1–2% = moderate. Below 1% = slow. Negative = contracting.
+# ─── PROMPT ───────────────────────────────────────────────────────────────────
 
-8. 107E_wh_trend_deviation_pct (Weekly Hours vs 12-Month Baseline, %):
-   - POSITIVE = workers logging MORE hours than their recent trend = demand strengthening.
-   - NEGATIVE = hours below recent trend = demand softening.
+def build_prompt(record: dict, city_name: str) -> str:
+    briefing    = build_briefing(record, city_name)
+    notes_block = "\n\n".join(
+        f"[{code}] {note}" for code, note in METRIC_NOTES.items()
+    )
 
-9. 200B_permits_yoy (Residential Building Permits YoY %):
-   - Higher = more construction activity = builder confidence.
-   - Large positive swing = strong supply response or speculative building.
+    prompt = f"""\
+You are writing an economic city brief for a senior executive making a business location decision.
+The audience is financially literate. Be direct, specific, and anchor every claim in actual numbers.
 
-10. 204A_dom_level_days (Median Days on Market):
-    - LOWER is better = homes selling faster = stronger buyer demand.
-    - Higher number = homes sitting longer = buyer hesitation or excess supply.
+METRIC INTERPRETATION GUIDE — read this before writing:
+{notes_block}
 
-11. 204A_dom_yoy_pct (Median Days on Market YoY % change):
-    - NEGATIVE = homes selling FASTER than last year = market tightening.
-    - POSITIVE = homes taking LONGER to sell = market cooling/softening.
-    - CRITICAL: Rising days on market means the market is SLOWING, not tightening. Never describe rising DOM as "tight inventory."
+CITY DATA:
+{briefing}
 
-12. 204A_dom_composite (Days on Market Composite Score):
-    - HIGHER is better. Low composite = slow-moving housing market.
-"""
+─────────────────────────────────────────────
+Write the brief in EXACTLY this structure:
 
-    output_format = f"""
-OUTPUT FORMAT — follow this structure exactly for {city_name}:
-
-Write one paragraph per section below, each beginning with the bold header shown.
-Each paragraph should: state the key value(s), assess whether it is strong/weak/mixed, and explain what it means for this city in 2–4 sentences.
-End with a Conclusion paragraph that synthesizes the overall picture.
-Use plain numbers when citing data. Do not add asterisks, bullet points, or sub-headers inside paragraphs.
-
-**Unemployment & Labor Market**
-[Cover 101A_unemployment and 101A_unemp_yoy_pp]
-
-**Workforce Supply**
-[Cover 102A_clf_yoy]
-
-**Wage Growth**
-[Cover 103B_earnings_yoy]
+[Opening paragraph — 2-3 sentences. State the overall grade and composite score. Name the 1-2 metrics that most define this city's current economic character. Use specific numbers.]
 
 **Labor Demand**
-[Cover 107E_ldc_composite, 107E_employment_growth_yoy, and 107E_wh_trend_deviation_pct]
+[2-3 sentences. Name the employment growth rate and hours deviation. State what the combination signals — genuine demand expansion, contraction, or survivor squeeze. Be direct.]
+
+**Unemployment**
+[2-3 sentences. Name the actual unemployment rate. State whether the market is tight or has slack. Name the practical implication for a business trying to hire here.]
+
+**Wage Growth**
+[2-3 sentences. Name the YoY wage growth rate. State whether it is fast, moderate, or stagnant. Name the implication for employer labor costs and worker purchasing power.]
 
 **Cost of Living**
-[Cover 104C_col]
+[2-3 sentences. State whether the city is affordable or expensive relative to peers, using the percentile rank as context. Name what this means for talent attraction without wage premiums.]
+
+**Labor Force Growth**
+[2-3 sentences. Name the YoY growth rate of the civilian labor force. State whether supply is expanding or contracting. Name the implication for hiring capacity.]
+
+**Building Permits**
+[2-3 sentences. Name the YoY change in permits. State whether housing supply is expanding or tightening. Name what this signals for future affordability and workforce accommodation.]
+
+**Days on Market**
+[2-3 sentences. Name the current median days on market AND the YoY direction. State what this means for a worker relocating to this city — competitive or accessible?]
 
 **Office Economy**
-[Cover 105C_owr]
+[2-3 sentences. State how deep the professional talent pool is, using the percentile rank. Name the type of business this city is best and worst suited for.]
 
-**Housing — Construction**
-[Cover 200B_permits_yoy]
+[Closing paragraph — 2-3 sentences. Bottom line: what does this city offer a business, and what is the single biggest risk or constraint a decision-maker should factor in?]
 
-**Housing — Market Velocity**
-[Cover 204A_dom_level_days and 204A_dom_yoy_pct — apply rule 11 above strictly]
-
-**Conclusion**
-[3–5 sentences synthesizing overall economic health, key strengths, key risks, and near-term outlook]
+─────────────────────────────────────────────
+FORMAT RULES — follow exactly:
+- Opening and closing are plain paragraphs — no bold label, no section header
+- The 8 metric sections use exactly these bold headers on their own line:
+  **Labor Demand**, **Unemployment**, **Wage Growth**, **Cost of Living**,
+  **Labor Force Growth**, **Building Permits**, **Days on Market**, **Office Economy**
+- Each metric section: 2-3 sentences, no more
+- Use specific numbers — percentages, days, percentile ranks
+- INVERSION reminders: high Cost of Living percentile = MORE affordable; high Days on Market percentile = SLOWER market
+- No bullet points inside metric sections
+- No preamble like "Here is the brief:" — start directly with the opening paragraph
 """
-
-    prompt = (
-        f"Write a structured economic analysis of {city_name} using the dataset and rules below.\n\n"
-        f"{interpretation_guide}\n"
-        f"{output_format}\n"
-        "Dataset (JSON):\n"
-        f"{data_json}"
-    )
     return prompt
 
 
-def build_polish_prompt(raw_text: str, city_name: str) -> str:
-    """
-    Build the prompt that the polish model uses to refine the analysis draft.
-    """
-    prompt = (
-        f"You are a copy editor. Polish the prose in this economic analysis of {city_name}.\n\n"
-        "Rules:\n"
-        "- Preserve every factual claim, number, and interpretation exactly as written.\n"
-        "- Preserve the bold section headers and paragraph structure exactly — do not merge, reorder, or remove sections.\n"
-        "- Improve sentence clarity, word choice, and flow within each paragraph only.\n"
-        "- Remove redundant phrases and tighten wordy sentences.\n"
-        "- Maintain a neutral, analytical tone throughout.\n"
-        "- Do NOT introduce new data, change any stated direction (e.g. rising vs falling), or alter the meaning of any sentence.\n\n"
-        f"{raw_text}"
-    )
-    return prompt
+# ─── LLM CALL ─────────────────────────────────────────────────────────────────
 
-
-# --------------------------------------------------------
-# MODEL CALLS
-# --------------------------------------------------------
-
-def call_analysis_model(prompt: str) -> str:
-    """
-    Call the analysis model via Together to produce the economic analysis.
-    """
+def call_llm(prompt: str) -> str:
     client = Together(api_key=TOGETHER_API_KEY)
-
     completion = client.chat.completions.create(
-        model=ANALYSIS_MODEL_ID,
+        model=MODEL_ID,
         messages=[
             {
                 "role": "system",
                 "content": (
-                    "You are a senior economics columnist at the Financial Times. "
-                    "Write clear, neutral, data-driven economic analysis."
+                    "You are a senior economics analyst writing city briefs for corporate location decisions. "
+                    "You follow format instructions precisely and never deviate from the specified structure. "
+                    "You lead with specific numbers and avoid vague generalities."
                 ),
             },
             {"role": "user", "content": prompt},
         ],
-        max_tokens=3000,
-        temperature=0.3,
+        max_tokens=1400,
+        temperature=0.25,
         top_p=0.9,
     )
-
     return completion.choices[0].message.content
 
 
-def call_polish_model(prompt: str) -> str:
-    """
-    Call the polish model via Together to refine the analysis draft.
-    """
-    client = Together(api_key=TOGETHER_API_KEY)
+# ─── CLEAN OUTPUT ─────────────────────────────────────────────────────────────
 
-    completion = client.chat.completions.create(
-        model=STYLE_MODEL_ID,
-        messages=[
-            {
-                "role": "system",
-                "content": (
-                    "You are a world-class copy editor for the Financial Times. "
-                    "You refine wording and structure but do not invent new facts."
-                ),
-            },
-            {"role": "user", "content": prompt},
-        ],
-        max_tokens=3000,
-        temperature=0.2,
-        top_p=0.9,
+def clean_output(text: str) -> str:
+    """Strip common LLM preamble and normalize metric header formatting."""
+    # Remove preamble lines like "Here is the brief:" or "Sure, here's the analysis:"
+    text = re.sub(
+        r"^(?:(?:sure,?\s*)?here(?:'s|\s+is)(?:\s+the)?[\w\s]*:)\s*\n*",
+        "",
+        text.strip(),
+        flags=re.IGNORECASE,
     )
+    # If LLM put metric header and first sentence on same line ("**Labor Demand** Some text..."),
+    # ensure the text starts on its own line beneath the header.
+    metric_names = (
+        "Labor Demand|Unemployment|Wage Growth|Cost of Living|"
+        "Labor Force Growth|Building Permits|Days on Market|Office Economy"
+    )
+    text = re.sub(
+        rf"(\*\*(?:{metric_names})\*\*)[ \t]+",
+        r"\1\n",
+        text,
+    )
+    return text.strip()
 
-    return completion.choices[0].message.content
 
+# ─── PER-CITY PIPELINE ────────────────────────────────────────────────────────
 
-# --------------------------------------------------------
-# PER-CITY PIPELINE
-# --------------------------------------------------------
+def process_city(city: str, df: pd.DataFrame) -> Path:
+    """Run the full pipeline for a single city and write the .md file."""
+    df_city = df[df["primary_city"] == city]
+    if df_city.empty:
+        raise ValueError(f"No data found for '{city}'")
 
-def process_city(city: str, df: pd.DataFrame, city_col: str) -> Path:
-    """
-    Full pipeline for a single city:
-      - subset data
-      - analysis model pass
-      - polish model pass
-      - write markdown file
-    Returns the output file path.
-    """
-    df_city = df[df[city_col] == city]
+    record = df_city.to_dict(orient="records")[0]
+    prompt = build_prompt(record, city)
+    raw    = call_llm(prompt)
+    output = clean_output(raw)
 
-    analysis_prompt = build_analysis_prompt(df_city, city)
-    raw_analysis = call_analysis_model(analysis_prompt)
-
-    polish_prompt = build_polish_prompt(raw_analysis, city)
-    polished_analysis = call_polish_model(polish_prompt)
+    grade        = record.get("grade", {})
+    grade_letter = grade.get("letter", "?") if isinstance(grade, dict) else str(grade)
+    grade_desc   = grade.get("description", "") if isinstance(grade, dict) else ""
+    wp           = round(record.get("weighted_percentile", 50), 1)
+    metro_name   = record.get("metro_name", city)
+    updated      = pd.Timestamp.now().strftime("%B %Y")
 
     OUTPUT_DIR.mkdir(exist_ok=True)
     filename = OUTPUT_DIR / f"{slugify(city)}.md"
 
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(f"# {city} — Economic Overview (FT Style)\n\n")
-        f.write("## Polished FT-style column\n\n")
-        f.write(polished_analysis.strip())
-        f.write("\n\n---\n\n")
-        f.write("## Original analysis draft (for reference)\n\n")
-        f.write(raw_analysis.strip())
+        f.write(f"# {metro_name}\n\n")
+        f.write(f"**Grade: {grade_letter} ({grade_desc}) | {wp}th percentile | {updated}**\n\n")
+        f.write("---\n\n")
+        f.write(output)
         f.write("\n")
 
     return filename
 
 
-# --------------------------------------------------------
-# MAIN
-# --------------------------------------------------------
+# ─── MAIN ─────────────────────────────────────────────────────────────────────
 
 def main():
-    print("Loading metros from JSON...")
-    df_metros = load_metros(JSON_PATH)
+    print("=" * 60)
+    print("  CITY ECONOMIC BRIEF PIPELINE")
+    print("=" * 60)
 
-    # Decide which column identifies the city
-    if PRIMARY_CITY_COLUMN in df_metros.columns:
-        city_col = PRIMARY_CITY_COLUMN
-    elif FALLBACK_CITY_COLUMN in df_metros.columns:
-        city_col = FALLBACK_CITY_COLUMN
-    else:
-        raise ValueError(
-            f"Neither '{PRIMARY_CITY_COLUMN}' nor '{FALLBACK_CITY_COLUMN}' "
-            f"found in metro columns: {list(df_metros.columns)}"
-        )
-
-    cities = sorted(df_metros[city_col].dropna().unique())
-    print(f"Using city column: {city_col}")
-    print(f"Found {len(cities)} cities.\n")
+    print("\n→ Loading metros...")
+    df = load_metros(JSON_PATH)
+    cities = sorted(df["primary_city"].dropna().unique())
+    print(f"  {len(cities)} cities found.\n")
 
     OUTPUT_DIR.mkdir(exist_ok=True)
 
-    # Parallel processing
+    print(f"→ Generating briefs ({MAX_WORKERS} parallel workers)...\n")
+
     futures = {}
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         for city in cities:
-            futures[executor.submit(process_city, city, df_metros, city_col)] = city
+            futures[executor.submit(process_city, city, df)] = city
 
         for future in as_completed(futures):
             city = futures[future]
             try:
                 path = future.result()
-                print(f"[OK] {city} -> {path}")
+                print(f"  [OK]    {city:<30} → {path.name}")
             except Exception as e:
-                print(f"[ERROR] {city}: {e}")
+                print(f"  [ERROR] {city:<30} → {e}")
 
-    print("\nDone. All available city reports generated in:", OUTPUT_DIR.resolve())
+    print(f"\n✓ Done. Reports saved to: {OUTPUT_DIR.resolve()}")
+    print("\nNext: run generate_site.py to rebuild the website.")
 
 
 if __name__ == "__main__":

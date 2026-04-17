@@ -131,27 +131,45 @@ def load_narrative(primary_city: str) -> str:
     """
     Load narrative text from city_reports_ft_cautious/*.md.
     Extracts the body after the first '---' separator.
-    Falls back to city_reports_ft/ if cautious version missing.
-    Returns plain text paragraphs wrapped in <p> tags.
+
+    Report format:
+      # Metro Name
+      **Grade: ... | ...th percentile | Month Year**
+      ---
+      [Opening paragraph]
+      **Metric Name**
+      [2-3 sentences]
+      ... (8 metric sections)
+      [Closing paragraph]
+
+    Metric section headers are rendered as <h4> elements.
+    Plain paragraphs are wrapped in <p>.
     """
     slug = city_to_slug(primary_city)
-    for reports_dir in [REPORTS_DIR, SCRIPT_DIR / 'city_reports_ft']:
-        path = reports_dir / f'{slug}.md'
-        if path.exists():
-            text = path.read_text(encoding='utf-8')
-            # Find the --- separator line
-            parts = re.split(r'\n---+\n', text, maxsplit=1)
-            if len(parts) > 1:
-                body = parts[1].strip()
-            else:
-                # No separator — skip the header lines and take body
-                lines = text.split('\n')
-                body_lines = [l for l in lines if not l.startswith('#') and not l.startswith('**')]
-                body = '\n'.join(body_lines).strip()
-            # Split into paragraphs and wrap in <p>
-            paragraphs = [p.strip() for p in body.split('\n\n') if p.strip()]
-            return '\n'.join(f'<p>{p}</p>' for p in paragraphs)
-    return '<p>Analysis not available.</p>'
+    path = REPORTS_DIR / f'{slug}.md'
+    if not path.exists():
+        return '<p>Analysis not available.</p>'
+
+    text  = path.read_text(encoding='utf-8')
+    parts = re.split(r'\n---+\n', text, maxsplit=1)
+    body  = parts[1].strip() if len(parts) > 1 else text.strip()
+
+    paragraphs = [p.strip() for p in body.split('\n\n') if p.strip()]
+
+    html_parts = []
+    for p in paragraphs:
+        # Paragraph starting with **Metric Name** — render as a section header
+        header_match = re.match(r'^\*\*(.+?)\*\*\s*([\s\S]*)', p)
+        if header_match:
+            heading   = header_match.group(1)
+            body_text = header_match.group(2).strip()
+            html_parts.append(f'<h4 class="narrative-heading">{heading}</h4>')
+            if body_text:
+                html_parts.append(f'<p>{body_text}</p>')
+        else:
+            html_parts.append(f'<p>{p}</p>')
+
+    return '\n'.join(html_parts) if html_parts else '<p>Analysis not available.</p>'
 
 
 # ─── DATA PREPARATION ─────────────────────────────────────────────────────────
