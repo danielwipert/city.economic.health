@@ -60,6 +60,8 @@ METRICS = [
     ("105C", "Office Economy",      "3%"),
 ]
 
+PROCESSED_DATA_PATH = "processed_economic_data_v2.json"
+
 # ─── PER-METRIC WRITING NOTES (fed to LLM as interpretive context) ────────────
 
 METRIC_NOTES = {
@@ -82,10 +84,12 @@ METRIC_NOTES = {
         "good for worker purchasing power. Slow wage growth = flat cost environment but weak bargaining power."
     ),
     "104C": (
-        "Cost of Living (12% weight): housing cost relative to local wages (price per sq ft divided by hourly earnings). "
-        "INVERTED — a HIGH percentile score means MORE AFFORDABLE. "
-        "High score = talent attraction advantage, lower real-wage floor. "
-        "Low score = expensive city, requires wage premiums to attract talent."
+        "Cost of Living (12% weight): composite affordability score (0–10 scale, LOWER = MORE AFFORDABLE). "
+        "Combines: (1) absolute PSF/earnings ratio, (2) YoY direction — PSF falling vs rising relative to wages, "
+        "(3) peer-relative trend. INVERTED — a HIGH percentile score means MORE AFFORDABLE. "
+        "When the briefing shows 'PSF $X / earnings $Y/hr', name these actual dollar figures. "
+        "If PSF is falling YoY, say so — that is the key driver of high affordability scores. "
+        "High score = talent attraction advantage. Low score = expensive, requires wage premiums."
     ),
     "102A": (
         "Labor Force Growth (10% weight): year-over-year change in the civilian labor force count "
@@ -141,6 +145,26 @@ def load_metros(path: str) -> pd.DataFrame:
     raise ValueError("Unable to find 'metros' list in JSON file.")
 
 
+def load_processed_data(path: str) -> dict:
+    """Load processed_economic_data_v2.json and return a dict keyed by metro_name."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        metros = data.get("metros", {})
+        if isinstance(metros, dict):
+            # Keys are metro_name strings — return as-is
+            return metros
+        if isinstance(metros, list):
+            return {m["metro_name"]: m for m in metros if "metro_name" in m}
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+    return {}
+
+
+# Loaded once at module level so it's available to build_briefing
+_PROCESSED_DATA: dict = {}
+
+
 # ─── BRIEFING SHEET ───────────────────────────────────────────────────────────
 
 def build_briefing(record: dict, city_name: str) -> str:
@@ -175,6 +199,23 @@ def build_briefing(record: dict, city_name: str) -> str:
     if dom_level is not None:
         dom_str += f" ({int(dom_level)} days)"
 
+    # Pull PSF and earnings directly from processed data for accurate CoL description
+    metro_proc = _PROCESSED_DATA.get(metro, {})
+    proc_data  = metro_proc.get("data", {})
+    psf_block  = proc_data.get("price_per_sqft", {})
+    earn_block = proc_data.get("hourly_earnings", {})
+
+    psf_val    = psf_block.get("latest_value")
+    psf_yoy    = (psf_block.get("yoy_change") or {}).get("pct_change")
+    earn_val   = earn_block.get("latest_value")
+
+    if psf_val is not None and earn_val is not None:
+        raw_ratio  = psf_val / earn_val
+        psf_yoy_s  = f" ({psf_yoy:+.1f}% YoY)" if psf_yoy is not None else ""
+        col_str    = f"${psf_val:.0f}/sqft{psf_yoy_s} vs ${earn_val:.2f}/hr → ratio {raw_ratio:.2f}"
+    else:
+        col_str    = fmt_val("104C_col", suffix=" (composite 0-10)")
+
     lines = [
         f"METRO: {metro}",
         f"OVERALL GRADE: {grade_letter} — {grade_desc} ({wp}th percentile, ranked out of 50 US metros)",
@@ -186,7 +227,7 @@ def build_briefing(record: dict, city_name: str) -> str:
         row("Labor demand composite score",      fmt_val("107E_ldc_composite", suffix=""),       "107E"),
         row("Unemployment rate",                 fmt_val("101A_unemployment", suffix="%"),       "101A"),
         row("Wage growth (hourly earnings YoY)", fmt_pct("103B_earnings_yoy"),                  "103B"),
-        row("Cost of living (PSF/wages ratio)",  fmt_val("104C_col", suffix=" ratio"),           "104C"),
+        row("Cost of living (PSF vs wages)",     col_str,                                        "104C"),
         row("Labor force growth YoY",            fmt_pct("102A_clf_yoy"),                        "102A"),
         row("Building permits YoY",              fmt_pct("200B_permits_yoy"),                    "200B"),
         row("Days on market",                    dom_str,                                        "204A"),
@@ -344,14 +385,35 @@ def process_city(city: str, df: pd.DataFrame) -> Path:
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
 
 def main():
+    global _PROCESSED_DATA
+
+    import argparse
+    parser = argparse.ArgumentParser(description="City Economic Brief Pipeline")
+    parser.add_argument("--city", nargs="+", metavar="CITY",
+                        help="Only process these cities (e.g. --city Austin Dallas)")
+    args = parser.parse_args()
+
     print("=" * 60)
     print("  CITY ECONOMIC BRIEF PIPELINE")
     print("=" * 60)
 
     print("\n→ Loading metros...")
     df = load_metros(JSON_PATH)
-    cities = sorted(df["primary_city"].dropna().unique())
-    print(f"  {len(cities)} cities found.\n")
+    all_cities = sorted(df["primary_city"].dropna().unique())
+
+    if args.city:
+        cities = [c for c in all_cities if c in args.city]
+        missing = [c for c in args.city if c not in all_cities]
+        if missing:
+            print(f"  WARNING: not found in data: {missing}")
+        print(f"  Running {len(cities)} city/cities: {cities}")
+    else:
+        cities = all_cities
+        print(f"  {len(cities)} cities found.")
+
+    print("→ Loading processed data for CoL enrichment...")
+    _PROCESSED_DATA = load_processed_data(PROCESSED_DATA_PATH)
+    print(f"  {len(_PROCESSED_DATA)} metro records loaded.\n")
 
     OUTPUT_DIR.mkdir(exist_ok=True)
 
