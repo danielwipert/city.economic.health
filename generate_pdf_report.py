@@ -59,7 +59,7 @@ METRICS = [
     ('101A', 'Unemployment',     '20%'),
     ('103B', 'Wage Growth',      '15%'),
     ('104C', 'Cost of Living',   '12%'),
-    ('102A', 'Labor Force Part.','10%'),
+    ('102A', 'Labor Force YoY',  '10%'),
     ('200B', 'Bldg. Permits',    '10%'),
     ('204A', 'Housing Access',   ' 5%'),
     ('105C', 'Office Economy',   ' 3%'),
@@ -204,7 +204,7 @@ def prepare_city(metro: dict, rank_display: int) -> dict:
         'unemp':      fmt_pct(raw.get('101A_unemployment'), plus=False),
         'earnings':   fmt_pct(raw.get('103B_earnings_yoy')),
         'emp_growth': fmt_pct(emp_yoy),
-        'lfp':        fmt_pct(raw.get('102A_lfp'), plus=False),
+        'lfp':        fmt_pct(raw.get('102A_clf_yoy'), plus=True),
         'permits':    fmt_pct(raw.get('200B_permits_yoy')),
         'dom':        dom_str,
         'dom_yoy':    dom_yoy_str,
@@ -228,7 +228,7 @@ def prepare_city(metro: dict, rank_display: int) -> dict:
         'unemp_fmt':       fmt_pct(raw.get('101A_unemployment'), plus=False),
         'earnings_fmt':    fmt_pct(raw.get('103B_earnings_yoy')),
         'emp_fmt':         fmt_pct(emp_yoy),
-        'lfp_fmt':         fmt_pct(raw.get('102A_lfp'), plus=False),
+        'lfp_fmt':         fmt_pct(raw.get('102A_clf_yoy'), plus=True),
         'dom_fmt':         dom_str,
     }
 

@@ -1121,7 +1121,15 @@ def copy_pdf(site_dir: Path) -> str:
                    key=lambda p: p.stat().st_mtime, reverse=True)
     latest = PDF_DIR / 'city_economic_report_latest.pdf'
 
-    src = dated[0] if dated else (latest if latest.exists() else None)
+    # Use whichever is newer: latest fixed-name file or most recent dated file
+    if dated and latest.exists():
+        src = latest if latest.stat().st_mtime > dated[0].stat().st_mtime else dated[0]
+    elif dated:
+        src = dated[0]
+    elif latest.exists():
+        src = latest
+    else:
+        src = None
     if src and src.exists():
         dest = pdfs_dir / 'city_economic_report_latest.pdf'
         shutil.copy2(src, dest)

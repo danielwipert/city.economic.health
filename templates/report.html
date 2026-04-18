@@ -603,7 +603,7 @@ body {
   <div class="cover-footer">
     <div class="cover-footer-left">
       Data sources: U.S. Bureau of Labor Statistics (BLS) · Federal Reserve Economic Data (FRED)<br>
-      Unemployment, LFP, Earnings, Employment, Weekly Hours sourced from BLS LAUS / SAE.<br>
+      Unemployment, CLF Growth, Earnings, Employment, Weekly Hours sourced from BLS LAUS / SAE.<br>
       Building Permits from Census Bureau via FRED. Days on Market from Realtor.com / FRED.
     </div>
     <div class="cover-footer-right">
@@ -634,7 +634,7 @@ body {
         <th class="num" style="width:60px">Unemp.</th>
         <th class="num" style="width:68px">Wage YoY</th>
         <th class="num" style="width:68px">Emp. YoY</th>
-        <th class="num" style="width:52px">LFP</th>
+        <th class="num" style="width:52px">CLF YoY</th>
         <th class="num" style="width:58px">DoM</th>
       </tr>
     </thead>
@@ -730,9 +730,9 @@ body {
           <div class="stat-subtext">nonfarm payrolls YoY</div>
         </div>
         <div class="stat-box">
-          <div class="stat-label">Labor Force Part.</div>
+          <div class="stat-label">Labor Force YoY</div>
           <div class="stat-value">{{ city.stats.lfp }}</div>
-          <div class="stat-subtext">working-age population</div>
+          <div class="stat-subtext">civilian labor force growth</div>
         </div>
         <div class="stat-box">
           <div class="stat-label">Building Permits</div>
