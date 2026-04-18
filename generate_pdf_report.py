@@ -61,7 +61,7 @@ METRICS = [
     ('104C', 'Cost of Living',   '12%'),
     ('102A', 'Labor Force YoY',  '10%'),
     ('200B', 'Bldg. Permits',    '10%'),
-    ('204A', 'Housing Access',   ' 5%'),
+    ('204A', 'Days on Market',   ' 5%'),
     ('105C', 'Office Economy',   ' 3%'),
 ]
 
