@@ -108,7 +108,9 @@ class RateLimitedAPIClient:
                     time.sleep(wait_time)
                     return self.get_data(series_id, metric_name, retry_count + 1)
                 else:
-                    print(f"   ❌ Max retries exceeded for rate limiting")
+                    msg = f"Max retries exceeded (rate limiting) for series '{series_id}'"
+                    print(f"   ERROR: {msg}")
+                    log_progress(f"FAILED [{metric_name}] {series_id}: {msg}")
                     return None
             
             # Reset rate limit counter on success
@@ -117,18 +119,25 @@ class RateLimitedAPIClient:
             
             # Handle other HTTP errors
             if response.status_code == 400:
-                print(f"   ❌ Bad request - Series ID '{series_id}' may be invalid")
+                body = response.text[:300] if response.text else 'empty'
+                msg = f"HTTP 400 - Series ID '{series_id}' may be invalid. Response: {body}"
+                print(f"   ERROR: {msg}")
+                log_progress(f"FAILED [{metric_name}] {series_id}: {msg}")
                 return None
             elif response.status_code != 200:
-                print(f"   ❌ HTTP {response.status_code}")
+                msg = f"HTTP {response.status_code} for series '{series_id}'"
+                print(f"   ERROR: {msg}")
+                log_progress(f"FAILED [{metric_name}] {series_id}: {msg}")
                 return None
-            
+
             # Parse JSON response
             data = response.json()
-            
+
             # Check if we got observations
             if 'observations' not in data or len(data['observations']) == 0:
-                print(f"   ⚠️  No data available")
+                msg = f"No observations returned for series '{series_id}'"
+                print(f"   WARNING: {msg}")
+                log_progress(f"FAILED [{metric_name}] {series_id}: {msg}")
                 return None
             
             # Return ALL observations for historical processing
@@ -142,13 +151,19 @@ class RateLimitedAPIClient:
             }
             
         except requests.exceptions.Timeout:
-            print(f"   ❌ Timeout")
+            msg = f"Timeout for series '{series_id}'"
+            print(f"   ERROR: {msg}")
+            log_progress(f"FAILED [{metric_name}] {series_id}: {msg}")
             return None
         except requests.exceptions.RequestException as e:
-            print(f"   ❌ Request error: {str(e)}")
+            msg = f"Request error for series '{series_id}': {str(e)}"
+            print(f"   ERROR: {msg}")
+            log_progress(f"FAILED [{metric_name}] {series_id}: {msg}")
             return None
         except Exception as e:
-            print(f"   ❌ Unexpected error: {str(e)}")
+            msg = f"Unexpected error for series '{series_id}': {str(e)}"
+            print(f"   ERROR: {msg}")
+            log_progress(f"FAILED [{metric_name}] {series_id}: {msg}")
             return None
 
 

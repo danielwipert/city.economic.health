@@ -610,7 +610,7 @@
         },
         "office_workers": {
           "code": "WASH911PBSV",
-          "description": "All Employees: Professional and Business Services",
+          "description": "All Employees: Professional and Business Services [NOTE: FRED data ends May 2024 - stale]",
           "units": "Thousands of Persons",
           "frequency": "Monthly",
           "seasonally_adjusted": true
@@ -773,15 +773,15 @@
           "seasonally_adjusted": false
         },
         "hourly_earnings": {
-          "code": "SMU42379800500000003",
-          "description": "Average Hourly Earnings of All Employees: Total Private",
+          "code": "SMU42379640500000003",
+          "description": "Average Hourly Earnings of All Employees: Total Private (Philadelphia-Camden-Wilmington MD)",
           "units": "Dollars per Hour",
           "frequency": "Monthly",
           "seasonally_adjusted": false
         },
         "weekly_hours": {
-          "code": "SMU42379800500000002",
-          "description": "Average Weekly Hours of All Employees: Total Private",
+          "code": "SMU42379640500000002",
+          "description": "Average Weekly Hours of All Employees: Total Private (Philadelphia-Camden-Wilmington MD)",
           "units": "Hours per Week",
           "frequency": "Monthly",
           "seasonally_adjusted": false
@@ -944,8 +944,8 @@
           "seasonally_adjusted": false
         },
         "all_employees": {
-          "code": "BOST625NAN",
-          "description": "All Employees: Total Nonfarm",
+          "code": "SMS25144600000000001",
+          "description": "All Employees: Total Nonfarm in Boston-Cambridge-Newton, MA-NH (MSA)",
           "units": "Thousands of Persons",
           "frequency": "Monthly",
           "seasonally_adjusted": false
