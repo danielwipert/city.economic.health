@@ -1,33 +1,33 @@
 # Riverside-San Bernardino-Ontario
 
-**Grade: B- (Below Average) | 44.8th percentile | April 2026**
+**Grade: C (Very Poor) | 35.5th percentile | April 2026**
 
 ---
 
-The Riverside-San Bernardino-Ontario metro area has an overall grade of B- with a composite score ranking at the 44.8th percentile out of 50 US metros. This city's economic character is most defined by its strong wage growth of +6.68% year-over-year and its high unemployment rate of 5.10%, which ranks at the 13th percentile. These two metrics suggest a complex labor market with both positive and negative signals.
+The Riverside-San Bernardino-Ontario metro area has an overall grade of C, ranking 35.5th percentile out of 50 US metros, with a composite score driven largely by its below-average labor demand and high unemployment rate of 5.40%. The city's economic character is defined by its sluggish labor market, with employment growth of only 0.15% year-over-year, and its strong wage growth of 5.73% year-over-year. These metrics suggest a challenging environment for businesses looking to hire and expand.
 
 **Labor Demand**
-The employment growth rate is +0.88% year-over-year, while weekly hours are deviating -1.883% from the city's own 12-month baseline. This combination signals a labor demand contraction, as the modest job growth is accompanied by a decrease in working hours, indicating that the existing workforce is not being fully utilized. This suggests that the labor market is not experiencing genuine demand expansion.
+The employment growth rate of 0.15% year-over-year, combined with a weekly hours deviation of -1.421% from the city's own trend, signals a labor market that is not experiencing genuine demand expansion. This combination indicates a contraction in labor demand, rather than a survivor squeeze, as hours are below trend during a period of slow job growth. This suggests that businesses may not face intense competition for workers, but may still struggle to find the right talent.
 
 **Unemployment**
-The unemployment rate is 5.10%, ranking at the 13th percentile, which indicates a relatively high level of unemployment. This means that the labor market has some slack, making it easier for businesses to hire workers. However, this also implies weaker local consumer demand, which could impact businesses that rely on local spending.
+The unemployment rate of 5.40% indicates a labor market with some slack, rather than a tight market. This means that businesses may have an easier time hiring workers, but may also face weaker local consumer demand. With an unemployment rate ranking in the 15th percentile, businesses may need to consider the potential impact of a relatively high unemployment rate on their operations and customer base.
 
 **Wage Growth**
-The year-over-year wage growth rate is +6.68%, ranking at the 83rd percentile, which is a strong increase. This fast wage growth implies rising labor costs for employers, but it also means that workers have increasing purchasing power, which can benefit businesses that rely on local consumer spending.
+The year-over-year wage growth rate of 5.73% is above average, ranking in the 77th percentile. This suggests that labor costs for employers are rising, and worker purchasing power is increasing. However, this also means that businesses may need to budget for higher labor costs, which could impact their bottom line.
 
 **Cost of Living**
-The city has a cost of living ratio of $338/sqft to $34.65/hr, with a percentile rank of 39, indicating that it is relatively expensive. The PSF is falling -1.5% year-over-year, which is a positive sign for affordability. However, the overall affordability score is still below average, which means that the city may not have a significant talent attraction advantage without offering wage premiums.
+The city's cost of living, with a PSF of $338/sqft and average hourly earnings of $34.84, results in a ratio of 9.70, ranking in the 37th percentile. This means that the city is relatively expensive, which could make it difficult to attract talent without offering wage premiums. The fact that PSF is falling by 1.5% year-over-year is a positive sign, but the overall affordability score suggests that businesses may need to consider offering competitive salaries to attract workers.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of +1.15% year-over-year, ranking at the 68th percentile, which indicates that the labor force supply is expanding. This positive growth rate suggests that the city has a growing pool of potential workers, making it easier for businesses to hire and expand their operations.
+The civilian labor force is contracting at a rate of -0.12% year-over-year, indicating a shrinking labor pool. This suggests that businesses may face structural headwinds when trying to hire, as the supply of workers is not expanding. With a labor force growth rate ranking near the median, businesses may need to consider the potential impact of a stagnant labor market on their hiring plans.
 
 **Building Permits**
-The number of building permits is increasing by +18.04% year-over-year, ranking at the 74th percentile, which signals that housing supply is expanding. This increase in building permits is a positive sign for future affordability and workforce accommodation, as it suggests that the city is investing in new housing stock to meet growing demand.
+The lack of data on building permits makes it difficult to determine whether housing supply is expanding or tightening. However, with a ranking near the median, it is possible that the city's housing market is relatively stable. This could have implications for future affordability and workforce accommodation, as a lack of new housing supply could lead to increased competition for existing homes.
 
 **Days on Market**
-The median days on market is 54 days, with a year-over-year increase of +5.9%, ranking at the 33rd percentile. This means that homes are sitting on the market for a relatively long time, making it a more accessible market for workers relocating to the city. However, this also suggests that the housing market may be slowing down, which could impact local economic growth.
+The current median days on market is 54 days, with a year-over-year increase of 5.9%. This suggests that the housing market is slowing down, making it more accessible for workers relocating to the city. With a days on market ranking in the 28th percentile, businesses may find that their employees have a relatively easy time finding housing, which could be a positive factor in attracting talent.
 
 **Office Economy**
-The city has a professional and office worker share of 0.30, ranking at the 0th percentile, which indicates a very shallow talent pool. This means that the city is not well-suited for businesses that require a deep knowledge-economy talent pool, such as tech, finance, or consulting firms. Instead, the city may be more suitable for industrial or logistics-dominant businesses.
+The city's professional talent pool is relatively shallow, ranking in the 0th percentile. This suggests that the city is not well-suited for businesses that require a deep knowledge-economy talent pool, such as tech or finance companies. However, the city may be more suitable for businesses with industrial or logistics-oriented operations.
 
-The Riverside-San Bernardino-Ontario metro area offers a complex labor market with both positive and negative signals, making it a challenging location for businesses to navigate. The single biggest risk or constraint for decision-makers is the high unemployment rate, which could impact local consumer demand and business growth. However, the strong wage growth and expanding labor force supply are positive signs that could attract businesses looking to tap into a growing and skilled workforce.
+The Riverside-San Bernardino-Ontario metro area offers businesses a mix of challenges and opportunities, with strong wage growth and a relatively slow labor market. However, the single biggest risk or constraint for businesses is the city's high unemployment rate and relatively expensive cost of living, which could make it difficult to attract and retain talent. Businesses considering locating in this city will need to carefully weigh these factors and consider strategies for mitigating these risks.

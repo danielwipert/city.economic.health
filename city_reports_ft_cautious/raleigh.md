@@ -1,33 +1,33 @@
 # Raleigh-Cary
 
-**Grade: A+ (Excellent) | 72.4th percentile | April 2026**
+**Grade: A+ (Excellent) | 78.9th percentile | April 2026**
 
 ---
 
-The Raleigh-Cary metro area has earned an overall grade of A+ with a composite score of 72.4th percentile, ranking it among the top US metros. The city's economic character is defined by its strong labor demand, with a composite score of 6.66, and its high share of office and professional workers, at 98th percentile. These metrics signal a city with a thriving job market and a deep talent pool.
+The Raleigh-Cary metro area has earned an overall grade of A+ with a composite score of 78.9th percentile, ranking it among the top US metros. This city's economic character is largely defined by its strong labor demand, with a composite score of 94th percentile, and its high share of office and professional workers, ranking in the 98th percentile. The labor demand is driven by a 1.77% year-over-year employment growth rate and a weekly hours deviation of -0.200% from its own trend.
 
 **Labor Demand**
-The Raleigh-Cary metro area has seen employment growth of 1.70% year-over-year, combined with a slight deviation in weekly hours of -0.025% from its own trend. This combination signals genuine demand expansion, as the city is adding jobs while hours worked are slightly below trend, indicating a healthy and sustainable labor market. The labor demand composite score of 6.66 is in the top tier, at the 92nd percentile.
+The Raleigh-Cary metro area has seen a 1.77% year-over-year employment growth rate, combined with a -0.200% weekly hours deviation from its own trend, signaling genuine demand expansion. This combination indicates that the city is adding jobs and hours are running slightly below trend, suggesting a healthy and sustainable labor market. The labor demand composite score of 6.58 further reinforces this assessment, placing the city in the top tier.
 
 **Unemployment**
-The unemployment rate in Raleigh-Cary is 3.00%, which is in the top tier at the 81st percentile. This indicates a tight labor market with relatively low slack, making it more challenging for businesses to hire and potentially leading to upward pressure on wages. As a result, companies may need to offer competitive compensation packages to attract top talent.
+The unemployment rate in Raleigh-Cary is 3.50%, which corresponds to an above-average percentile rank of 79th. This rate indicates a relatively tight labor market, making it slightly more challenging for businesses to hire new employees. As a result, companies may face upward pressure on wages to attract top talent.
 
 **Wage Growth**
-The year-over-year wage growth in Raleigh-Cary is 3.97%, which is near the median at the 43rd percentile. This moderate wage growth rate suggests that labor costs for employers are rising, but not excessively, while workers are seeing some improvement in their purchasing power. However, the relatively slow wage growth may not be sufficient to keep pace with the cost of living in the area.
+The year-over-year wage growth rate in Raleigh-Cary is 3.63%, ranking near the median at the 52nd percentile. This moderate wage growth rate suggests that labor costs for employers are rising, but at a manageable pace. Meanwhile, workers in the area are experiencing an increase in purchasing power, which can have a positive impact on local consumer demand.
 
 **Cost of Living**
-Raleigh-Cary has a cost of living score in the top tier at the 80th percentile, with a price-to-salary ratio of $218/sqft to $37.79/hr, or 5.77. The fact that the PSF is falling by 1.4% year-over-year relative to wages makes the city more affordable. This affordability advantage can be a significant talent attraction factor, as companies may not need to offer large wage premiums to compensate for the cost of living.
+Raleigh-Cary has a cost of living percentile rank of 80th, indicating that it is more affordable than many of its peer cities. The current price-to-salary ratio is $218/sqft vs $37.93/hr, resulting in a ratio of 5.75. With the price per square foot decreasing by 1.4% year-over-year, the city's affordability is likely to remain attractive, making it an advantageous location for talent attraction without requiring significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in Raleigh-Cary is growing at a rate of 0.53% year-over-year, which is below average at the 36th percentile. This slow growth rate indicates that the labor force supply is expanding, but at a relatively slow pace, which may pose some challenges for hiring capacity in the long term.
+The civilian labor force in Raleigh-Cary is growing at a rate of 1.83% year-over-year, indicating an expanding workforce supply. This positive growth rate suggests that the city has a strong hiring capacity, making it an attractive location for businesses looking to scale their operations.
 
 **Building Permits**
-The number of residential building permits in Raleigh-Cary has increased by 38.82% year-over-year, which is in the top tier at the 85th percentile. This significant growth in permits suggests that housing supply is expanding, which should improve affordability and accommodate the growing workforce.
+The number of residential building permits in Raleigh-Cary has increased by 38.82% year-over-year, signaling a significant expansion of the city's housing supply. This growth in permits suggests that the city is likely to experience improving affordability and a more accommodating environment for its workforce in the future.
 
 **Days on Market**
-The median days on market for homes in Raleigh-Cary is 46 days, with a year-over-year increase of 4.5%. This near-median performance at the 43rd percentile indicates a relatively competitive market, but still accessible for workers relocating to the area. The rising days on market may signal a healthy normalization of the housing market.
+The current median days on market in Raleigh-Cary is 46 days, with a year-over-year increase of 4.5%. This indicates a relatively competitive market, but one that is still accessible for workers relocating to the area. The rising days on market may be a sign of a healthy normalization in the housing market, rather than a demand erosion.
 
 **Office Economy**
-The office and professional worker share in Raleigh-Cary is exceptionally high, at the 98th percentile. This deep talent pool makes the city an ideal location for businesses in the tech, finance, consulting, and HQ sectors, which require specialized knowledge workers. However, the city may be less suited for industries with more industrial or logistics-oriented workforces.
+Raleigh-Cary has a deep professional talent pool, ranking in the 98th percentile for its share of office and professional workers. This makes the city an ideal location for businesses in the tech, finance, consulting, and HQ sectors, which require a high concentration of specialized knowledge workers. Conversely, the city may be less suited for industries with a strong focus on industrial or logistics roles. 
 
-The Raleigh-Cary metro area offers businesses a unique combination of a thriving job market, a deep talent pool, and relatively affordable cost of living. However, the slow labor force growth rate poses a potential risk, as it may limit the city's ability to accommodate rapid expansion or large-scale hiring initiatives, making it essential for decision-makers to factor this constraint into their location decisions.
+The Raleigh-Cary metro area offers businesses a unique combination of strong labor demand, a highly skilled workforce, and a relatively affordable cost of living. However, the city's tight labor market and moderate wage growth rate may pose a risk for companies looking to hire and retain top talent, making it essential for decision-makers to factor in the potential for upward pressure on wages.

@@ -1,33 +1,33 @@
 # Providence-Warwick
 
-**Grade: B- (Below Average) | 48.1th percentile | April 2026**
+**Grade: B (Average) | 54.9th percentile | April 2026**
 
 ---
 
-The Providence-Warwick metro area has an overall grade of B- with a composite score ranking it 48.1th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the 71st percentile, and its extremely high cost of living, ranking in the 0th percentile. The labor demand is driven by a +0.60% employment growth rate and a +0.101% weekly hours deviation from its own trend.
+The Providence-Warwick metro area has an overall grade of B, ranking 54.9th percentile out of 50 US metros, with a composite score driven largely by its above-average labor demand and top-tier labor force growth. The city's labor demand composite score of 4.86, combining a +0.60% employment growth rate and a -0.276% weekly hours deviation, suggests genuine demand expansion. Additionally, the labor force growth rate of +1.69% YoY indicates an expanding workforce supply.
 
 **Labor Demand**
-The employment growth rate of +0.60% and weekly hours deviation of +0.101% signal a genuine demand expansion, indicating that the city is adding jobs and workers are putting in more hours than the trend. This combination suggests that the labor market is experiencing organic growth, driven by increased economic activity. The labor demand composite score of 5.24, ranking in the 71st percentile, further supports this assessment.
+The employment growth rate of +0.60% and weekly hours deviation of -0.276% signal genuine demand expansion, as hours are running slightly below trend during a period of job growth. This combination indicates that the city is adding jobs at a moderate pace, with some room for additional hiring. The labor demand composite score of 4.86, ranking in the 74th percentile, further supports this assessment.
 
 **Unemployment**
-The unemployment rate of 4.30% ranks in the 15th percentile, indicating a relatively tight labor market with some slack. This means that while it may be slightly challenging for businesses to hire, the market is not overly competitive, and wage pressure is moderate. However, the relatively high unemployment rate compared to other metros may affect local consumer demand.
+The unemployment rate of 4.30% is below average, ranking in the 31st percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer competitive wages to attract talent. The tight market also suggests that workers may have more bargaining power.
 
 **Wage Growth**
-The year-over-year wage growth rate of +2.78% ranks in the 26th percentile, indicating moderate wage growth. This rate suggests that labor costs for employers are rising, but at a slower pace than in many other metros. As a result, worker purchasing power is increasing, but at a relatively slow rate.
+The year-over-year wage growth rate of +3.42% is near the median, ranking in the 48th percentile, indicating moderate wage growth. This rate suggests that labor costs for employers are rising, but not excessively, and that workers have some, but not exceptional, purchasing power. The moderate wage growth may help attract and retain workers without breaking the bank for employers.
 
 **Cost of Living**
-The cost of living in Providence-Warwick is extremely high, with a PSF of $358/sqft and an earnings ratio of 9.87, ranking in the 0th percentile. This means that the city is very expensive relative to peers, making it challenging to attract talent without offering wage premiums. The 9.8% year-over-year increase in PSF further exacerbates the affordability issue.
+The city's cost of living, with a PSF of $358/sqft and an earnings ratio of 9.74, ranks in the 0th percentile, indicating that it is relatively expensive. The 9.8% YoY increase in PSF further exacerbates the affordability issue. This means that the city may struggle to attract talent without offering wage premiums to offset the high cost of living.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of +1.69% year-over-year, ranking in the 83rd percentile. This indicates that the workforce supply is expanding, providing a positive implication for hiring capacity. As the labor force grows, businesses can tap into a increasing pool of potential employees.
+The civilian labor force is growing at a rate of +1.69% YoY, ranking in the 81st percentile, indicating an expanding workforce supply. This growth suggests that the city has a strong hiring capacity, with a increasing pool of available workers. The expanding labor force supply is a positive sign for businesses looking to hire.
 
 **Building Permits**
-The year-over-year change in building permits is +23.50%, ranking in the 83rd percentile. This significant increase in permits suggests that housing supply is expanding, which should improve affordability and accommodate a growing workforce. As a result, the city's future affordability and workforce attraction prospects are positively impacted.
+The year-over-year change in building permits is +23.50%, ranking in the 83rd percentile, indicating an expanding housing supply. This growth suggests that the city is experiencing an increase in developer confidence, which may lead to improved affordability and a more attractive environment for relocating workers.
 
 **Days on Market**
-The current median days on market is 48 days, with a year-over-year increase of +33.3%, ranking in the 94th percentile. This indicates a slower market, making it more accessible for workers relocating to the city. The rising days on market suggests a healthy normalization of the housing market, providing more options for incoming workers.
+The current median days on market is 48 days, with a +33.3% YoY increase, ranking in the 94th percentile, indicating a slower market. This means that homes are sitting on the market for longer, making it a more accessible and less competitive environment for workers relocating to the city.
 
 **Office Economy**
-The share of professional and office workers is 3.08, ranking in the 70th percentile. This indicates a deep talent pool suited for tech, finance, consulting, and HQ decisions. However, the city may be less suitable for industrial or logistics-dominant businesses, which require a different type of workforce.
+The city's office economy, with a professional worker share of 3.06, ranks in the 65th percentile, indicating a relatively deep talent pool. This suggests that the city is well-suited for businesses in the tech, finance, and consulting sectors, but may not be as attractive for industrial or logistics-dominant businesses.
 
-The Providence-Warwick metro area offers businesses a strong labor demand and an expanding workforce, but the extremely high cost of living poses a significant risk. The single biggest constraint for decision-makers is the need to offer wage premiums to attract talent, which may offset the benefits of the city's strong labor market. Overall, businesses must carefully weigh the pros and cons of locating in this metro area.
+The Providence-Warwick metro area offers businesses a unique combination of above-average labor demand and top-tier labor force growth, making it an attractive location for companies looking to hire and expand. However, the city's relatively high cost of living and tight labor market may pose challenges for businesses, particularly in terms of attracting and retaining talent without offering competitive wages.

@@ -1,33 +1,33 @@
 # Columbus
 
-**Grade: B- (Below Average) | 49.4th percentile | April 2026**
+**Grade: B (Average) | 51.4th percentile | April 2026**
 
 ---
 
-Columbus, with an overall grade of B- and a composite score ranking it 49.4th percentile out of 50 US metros, is characterized by its below-average labor demand and moderate unemployment rate. The city's labor demand composite score of 3.53 and unemployment rate of 3.60% are the two metrics that most define its current economic character, with the labor demand score ranking in the 22nd percentile and the unemployment rate ranking in the 79th percentile. These numbers indicate a mixed economic environment, with some signs of job market tightening but also limited labor demand expansion.
+Columbus, with an overall grade of B and a composite score ranking it at the 51.4th percentile among 50 US metros, is characterized by its above-average labor demand and cost of living. The city's labor demand composite score of 4.24, driven by a -0.04% employment growth rate and a -1.374% deviation in weekly hours from its own trend, signals a genuine demand expansion. Additionally, the cost of living, with a PSF of $204/sqft and a ratio of 6.06 to hourly earnings of $33.67, ranks in the 63rd percentile, indicating an above-average affordability.
 
 **Labor Demand**
-Columbus has an employment growth rate of +0.29% and a weekly hours deviation of -1.175% from its own trend, signaling a contraction in labor demand. This combination indicates that the city is not experiencing genuine demand expansion, but rather a slowdown in job growth and hours worked. The labor demand composite score of 3.53, ranking in the 22nd percentile, further supports this conclusion.
+The employment growth rate of -0.04% and weekly hours deviation of -1.374% from its own trend suggest a labor market that is adding jobs, albeit at a slow pace, with hours worked slightly below trend. This combination signals a genuine demand expansion, albeit a moderate one. The labor demand composite score of 4.24 ranks in the 62nd percentile, indicating above-average labor demand.
 
 **Unemployment**
-The unemployment rate in Columbus is 3.60%, ranking in the 79th percentile, which indicates a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer higher wages to attract talent. The tight labor market also suggests that workers may have more bargaining power.
+Unfortunately, the unemployment rate is not available for Columbus. However, with a percentile rank of 33, it can be inferred that the market has some slack, making it relatively easier for businesses to hire. This implies that businesses may not face significant wage pressure due to a tight labor market.
 
 **Wage Growth**
-The year-over-year wage growth rate in Columbus is +3.05%, ranking in the 30th percentile, which is considered below average. This moderate wage growth rate implies that labor costs for employers are rising, but at a slower pace than in other cities. Workers in Columbus may experience some increase in purchasing power, but it may not be as significant as in cities with faster wage growth.
+The year-over-year wage growth rate of +2.51% is below average, ranking in the 31st percentile. This moderate wage growth rate implies that labor costs for employers are rising, but at a slower pace, and worker purchasing power is increasing, albeit gradually.
 
 **Cost of Living**
-Columbus has a cost of living percentile rank of 65th, with a PSF of $204/sqft and average hourly earnings of $34.02/hr, resulting in a ratio of 6.00. This indicates that the city is relatively affordable compared to its peers. The fact that PSF is falling by -1.9% YoY further supports this conclusion. This affordability advantage can be a talent attraction strategy for businesses, as they may not need to offer wage premiums to compensate for high living costs.
+With a cost of living ratio of 6.06 and a PSF of $204/sqft that is falling by -1.9% year-over-year relative to hourly earnings of $33.67, Columbus ranks in the 63rd percentile, indicating an above-average affordability. This means that the city has a talent attraction advantage, as workers can afford to live and work in Columbus without requiring significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in Columbus is growing at a rate of +0.35% year-over-year, ranking in the 28th percentile. This slow growth rate indicates that the labor force supply is expanding, but at a limited pace. While this growth is positive, it may not be sufficient to meet the demands of a rapidly expanding business, potentially leading to hiring challenges.
+The labor force growth rate is not available for Columbus, but with a percentile rank of 50, it can be inferred that the labor force is growing at a near-median rate. This implies that the workforce supply is expanding, but not at an exceptional pace, providing a moderate hiring capacity for businesses.
 
 **Building Permits**
-The number of residential building permits in Columbus is increasing by +8.67% year-over-year, ranking in the 64th percentile. This rise in permits suggests that housing supply is expanding, which can lead to improved affordability and a more accommodating environment for the workforce. This trend is a positive sign for businesses considering relocation, as it may help attract and retain talent.
+The year-over-year change in building permits is +8.67%, ranking in the 65th percentile, indicating an above-average expansion of housing supply. This signals that housing supply is expanding, which should improve affordability and accommodate a growing workforce.
 
 **Days on Market**
-The median days on market for homes in Columbus is 41 days, with a year-over-year increase of +10.8%, ranking in the 86th percentile. This indicates a slower market, where homes are taking longer to sell. For workers relocating to Columbus, this slower market may make it easier to find a home, as there is less competition and more time to make a decision.
+The current median days on market is 41 days, with a year-over-year increase of +10.8%, ranking in the 83rd percentile. This indicates a slower market, making it more accessible for workers relocating to Columbus, as homes are sitting on the market for a relatively longer period.
 
 **Office Economy**
-Columbus has a professional and office worker share of 3.30, ranking in the 77th percentile, indicating a deep talent pool in these sectors. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, but less suitable for industries with more industrial or logistics-oriented workforces.
+With an office/professional worker share of 2.38, ranking in the 44th percentile, Columbus has a near-median depth of professional talent pool. This makes the city suited for businesses that require a moderate level of specialized roles, but may not be the best fit for tech, finance, or consulting companies that require a deep knowledge-economy talent pool.
 
-In conclusion, Columbus offers a relatively affordable cost of living and a deep professional talent pool, making it an attractive location for businesses in certain sectors. However, the city's below-average labor demand and slow labor force growth rate pose significant risks and constraints for businesses considering relocation, particularly those with rapid expansion plans.
+In conclusion, Columbus offers businesses a relatively affordable cost of living, above-average labor demand, and an expanding housing supply. However, the single biggest risk or constraint for decision-makers is the moderate labor force growth rate, which may limit the city's ability to accommodate rapid hiring needs, and the below-average wage growth rate, which may impact worker purchasing power and labor costs.

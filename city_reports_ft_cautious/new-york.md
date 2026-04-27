@@ -1,33 +1,33 @@
 # New York Newark-Jersey City
 
-**Grade: B (Average) | 50.7th percentile | April 2026**
+**Grade: B- (Below Average) | 48.4th percentile | April 2026**
 
 ---
 
-The New York Newark-Jersey City metro area has an overall grade of B, ranking 50.7th percentile out of 50 US metros, with a composite score driven largely by its above-average labor demand and strong wage growth, at 63rd and 68th percentiles, respectively. The city's labor market is characterized by a 0.13% year-over-year employment growth rate and a 0.432% deviation in weekly hours above its own 12-month trend. These metrics signal a genuine demand expansion, with jobs being added and hours running above trend.
+The New York Newark-Jersey City metro area has an overall grade of B- with a composite score ranking it 48.4th percentile out of 50 US metros. This city's economic character is most defined by its below-average labor demand, with a composite score of 3.46, and its above-average labor force growth rate of 1.68% YoY. The labor demand and labor force growth metrics provide a mixed signal, with the former indicating a contraction and the latter suggesting an expanding workforce.
 
 **Labor Demand**
-The employment growth rate of 0.13% and weekly hours deviation of 0.432% above trend indicate a labor market with genuine demand expansion. This combination signals that the city is experiencing an increase in jobs and working hours, suggesting a strong labor market. The labor demand composite score of 4.91, ranking at the 63rd percentile, further supports this assessment.
+The employment growth rate in this metro area is -0.47% YoY, and weekly hours are deviating 0.178% above the city's own 12-month baseline. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. The below-average labor demand composite score of 3.46 reinforces this interpretation.
 
 **Unemployment**
-The unemployment rate of 4.50% ranks at the 26th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer competitive wages to attract talent. The tight market implies that workers have more bargaining power, which can drive up labor costs.
+The unemployment rate in this metro area is 4.80%, which is below average, ranking 38th percentile. This indicates a relatively tight labor market, although not extremely so. For a business trying to hire in this area, the practical implication is that it may be moderately challenging to find qualified candidates, with some upward pressure on wages.
 
 **Wage Growth**
-The year-over-year wage growth rate of 5.47% is above average, ranking at the 68th percentile. This rapid wage growth suggests that labor costs for employers are rising, but it also indicates strong worker purchasing power. As wages increase, workers have more disposable income, which can boost local consumer demand.
+The wage growth rate in this metro area is not available, but it is ranked near the median at the 50th percentile. This suggests that wage growth is moderate, neither extremely fast nor stagnant. The implication for employer labor costs is that they will likely experience moderate increases, while workers will see corresponding gains in purchasing power.
 
 **Cost of Living**
-The cost of living in New York Newark-Jersey City is relatively expensive, with a percentile rank of 11th, due to a PSF of $542/sqft and average hourly earnings of $40.76/hr, resulting in a ratio of 13.30. This means that the city is less competitive in terms of talent attraction, as workers may require wage premiums to afford the high cost of living. The 0.4% year-over-year increase in PSF further exacerbates the affordability issue.
+The cost of living in this metro area is ranked near the median at the 50th percentile, indicating that it is neither extremely affordable nor expensive relative to peers. This means that the city does not have a significant talent attraction advantage due to low costs, and businesses may need to offer wage premiums to compensate for the average cost of living.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of 1.20% year-over-year, ranking at the 70th percentile. This expansion in labor force supply suggests that the city has a growing pool of potential workers, making it easier for businesses to hire and expand their operations. The increasing labor force can help mitigate the tight labor market conditions.
+The labor force in this metro area is growing at a rate of 1.68% YoY, which is above average, ranking 79th percentile. This indicates that the workforce supply is expanding, which is a positive sign for businesses looking to hire in the area. The growing labor force provides a favorable environment for hiring and talent acquisition.
 
 **Building Permits**
-The year-over-year change in building permits is 14.97%, ranking at the 70th percentile, indicating an expansion in housing supply. This increase in permits suggests that developer confidence is high, and the future housing supply is expected to grow, which can improve affordability and accommodate a growing workforce. The rising permits can help alleviate some of the pressure on the housing market.
+The number of building permits in this metro area is increasing by 14.97% YoY, which is above average, ranking 72nd percentile. This suggests that housing supply is expanding, which is a positive sign for future affordability and workforce accommodation. The increase in building permits indicates that the city is likely to become more attractive to workers and businesses in the future.
 
 **Days on Market**
-The current median days on market is 51 days, with a 6.2% year-over-year increase, ranking at the 41st percentile. This suggests that the housing market is normalizing, with homes taking slightly longer to sell. For workers relocating to this city, the market is still relatively competitive, but the rising days on market may indicate a more accessible housing market in the future.
+The median days on market for homes in this metro area is 51 days, with a YoY increase of 6.2%. This indicates a slowing market, which may become more accessible to relocating workers. However, the current days on market is still relatively fast, ranking below average at the 37th percentile, which may pose some challenges for workers trying to find housing.
 
 **Office Economy**
-The city has a deep professional talent pool, ranking at the 72nd percentile, with a share of jobs in professional and office sectors. This makes it an attractive location for businesses in the tech, finance, consulting, and HQ sectors. However, the city may be less suited for industries with more industrial or logistics-oriented economies.
+The professional and office worker share in this metro area is ranked near the median at the 48th percentile, indicating a moderately deep talent pool. This city is best suited for businesses that require a mix of professional and non-professional workers, but may not be ideal for those that require a highly specialized or knowledge-intensive workforce.
 
-The New York Newark-Jersey City metro area offers businesses a strong labor market with genuine demand expansion and a deep professional talent pool. However, the single biggest risk or constraint for decision-makers is the high cost of living, which can make it challenging to attract and retain talent without offering wage premiums.
+The New York Newark-Jersey City metro area offers businesses a growing labor force and expanding housing supply, but also poses challenges due to its below-average labor demand and moderate cost of living. The single biggest risk or constraint for decision-makers is the potential for a tight labor market and upward pressure on wages, which may impact business costs and competitiveness.

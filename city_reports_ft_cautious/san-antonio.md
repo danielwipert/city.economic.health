@@ -1,33 +1,33 @@
 # San Antonio-New Braunfels
 
-**Grade: C+ (Poor) | 43.7th percentile | April 2026**
+**Grade: B- (Below Average) | 47.2th percentile | April 2026**
 
 ---
 
-The San Antonio-New Braunfels metro area has an overall grade of C+ with a composite score ranking it 43.7th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score of 3.79 ranking it in the 29th percentile, and its high cost of living affordability, with a ratio of $173/sqft to $32.20/hr and a percentile rank of 91. The combination of these metrics suggests a city with a relatively weak job market but a high level of affordability.
+The San Antonio-New Braunfels metro area has an overall grade of B- with a composite score ranking it at the 47.2th percentile out of 50 US metros. This city's economic character is most defined by its above-average labor demand composite score of 4.23, which combines a -0.05% employment growth rate with a -1.996% deviation in weekly hours from its own trend, and its highly affordable cost of living, with a PSF to wages ratio of 5.33, ranking it at the 91st percentile. The labor demand and cost of living metrics provide a nuanced view of the city's economic landscape.
 
 **Labor Demand**
-The employment growth rate in San Antonio-New Braunfels is +0.43% year-over-year, while weekly hours are deviating -1.116% from the city's own trend. This combination signals a labor market that is not experiencing genuine demand expansion, as the hours worked are below trend despite some job growth. The labor demand composite score of 3.79, ranking in the 29th percentile, further supports this assessment.
+The employment growth rate in San Antonio-New Braunfels is -0.05%, and weekly hours are deviating -1.996% from the city's own trend, resulting in a labor demand composite score of 4.23, which ranks at the 60th percentile. This combination signals a slight contraction in labor demand, but not a severe one, as hours are not significantly above trend during job losses. The labor market is experiencing a mild slowdown.
 
 **Unemployment**
-The unemployment rate in San Antonio-New Braunfels is 3.70%, ranking in the 49th percentile, indicating a near-median level of unemployment. This suggests that the market has some slack, making it slightly easier for businesses to hire compared to cities with tighter labor markets. However, the relatively low unemployment rate still implies some competition for talent.
+The unemployment rate in San Antonio-New Braunfels is 4.30%, ranking at the 48th percentile, indicating a near-median level of unemployment. This means the market has some slack, making it relatively easier for businesses to hire compared to tighter labor markets. However, this also implies weaker local consumer demand.
 
 **Wage Growth**
-The year-over-year wage growth in San Antonio-New Braunfels is +3.43%, ranking in the 36th percentile, indicating moderate wage growth. This rate of wage growth suggests that labor costs for employers are rising, but not excessively so, while workers are experiencing some increase in purchasing power. The moderate wage growth may help attract and retain talent.
+The year-over-year wage growth in San Antonio-New Braunfels is +2.83%, ranking at the 38th percentile, indicating moderate wage growth. This rate is not exceptionally high, suggesting labor costs for employers are rising but not rapidly. Worker purchasing power is increasing, but at a moderate pace.
 
 **Cost of Living**
-San Antonio-New Braunfels has a cost of living ratio of $173/sqft to $32.20/hr, with a percentile rank of 91, indicating a highly affordable city relative to its peers. The fact that the PSF is falling -4.4% year-over-year further supports this assessment. This high affordability ranking means that the city has a talent attraction advantage, as workers can maintain a high standard of living without requiring excessive wage premiums.
+San Antonio-New Braunfels has a cost of living score ranking it at the 91st percentile, with a PSF to wages ratio of 5.33, where PSF is $173/sqft and wages are $32.47/hr. This high ranking indicates the city is very affordable relative to its peers, making it an attractive location for talent without needing significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in San Antonio-New Braunfels is growing at a rate of +1.47% year-over-year, ranking in the 79th percentile, indicating an expanding workforce supply. This growth in the labor force suggests that the city has a strong hiring capacity, with a increasing number of potential workers available.
+The civilian labor force in San Antonio-New Braunfels is growing at a rate of -0.38% year-over-year, ranking at the 35th percentile. This negative growth rate indicates the labor force supply is contracting, posing a structural headwind for hiring and potentially limiting the city's ability to support rapid business expansion.
 
 **Building Permits**
-The number of residential building permits in San Antonio-New Braunfels has decreased by -37.55% year-over-year, ranking in the 4th percentile, indicating a significant tightening of housing supply. This sharp decline in building permits signals a potential future affordability crisis and workforce accommodation challenges.
+The year-over-year change in residential building permits in San Antonio-New Braunfels is -37.55%, ranking at the 4th percentile. This sharp decline signals a tightening in future housing supply, which could lead to decreased affordability and make it more challenging for the workforce to find accommodation, potentially affecting the city's attractiveness for businesses relying on a growing and accessible workforce.
 
 **Days on Market**
-The median days on market for homes in San Antonio-New Braunfels is 61 days, with a year-over-year increase of +1.7%, ranking in the 24th percentile. This suggests a relatively slow market, making it more accessible for relocating workers to find housing. However, the rising days on market may also indicate a normalization of the housing market.
+The median days on market for homes in San Antonio-New Braunfels is 61 days, with a year-over-year increase of +1.7%. This relatively slow market, ranking at the 22nd percentile, means homes are sitting longer before being sold, indicating a more accessible market for relocating workers compared to faster-moving markets.
 
 **Office Economy**
-The share of professional and office workers in San Antonio-New Braunfels is 1.63, ranking in the 28th percentile, indicating a relatively shallow talent pool in these sectors. This city is best suited for businesses that do not require a deep knowledge-economy talent pool, such as industrial or logistics-dominant companies, and less suited for tech, finance, or consulting firms.
+San Antonio-New Braunfels has an office economy score ranking it at the 33rd percentile, with a share of jobs in professional and office sectors indicating a moderately deep talent pool. This city is less suited for businesses requiring a highly specialized or large professional workforce, such as tech, finance, or consulting headquarters, but may be more appropriate for industries with less specialized labor needs.
 
-The San Antonio-New Braunfels metro area offers businesses a unique combination of affordability and expanding workforce supply, making it an attractive location for companies looking to reduce costs and tap into a growing labor pool. However, the single biggest risk or constraint for businesses in this city is the potential future affordability crisis and workforce accommodation challenges signaled by the sharp decline in building permits, which could ultimately limit the city's ability to attract and retain talent.
+The San Antonio-New Braunfels metro area offers businesses an affordable cost of living and a labor market with some slack, making it easier to hire. However, the single biggest risk or constraint for a decision-maker is the contracting labor force supply and the sharp decline in building permits, which could lead to future affordability issues and limitations in workforce accommodation, potentially hindering business growth and expansion plans.

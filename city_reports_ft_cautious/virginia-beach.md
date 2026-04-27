@@ -1,33 +1,33 @@
 # Virginia Beach-Chesapeake-Norfolk
 
-**Grade: C (Very Poor) | 37.7th percentile | April 2026**
+**Grade: B- (Below Average) | 44.5th percentile | April 2026**
 
 ---
 
-The Virginia Beach-Chesapeake-Norfolk metro area has an overall grade of C, ranking 37.7th percentile out of 50 US metros, with a composite score driven largely by its strong wage growth and relatively affordable cost of living. The city's economic character is defined by its 10.08% year-over-year wage growth and a cost of living ratio of 6.22, with $221/sqft versus $35.52/hr. These metrics signal a complex economic environment with both opportunities and challenges.
+The Virginia Beach-Chesapeake-Norfolk metro area has an overall grade of B- with a composite score ranking it 44.5th percentile out of 50 US metros. This city's economic character is most defined by its strong wage growth, with an 8.49% year-over-year increase in hourly earnings, and its struggling labor demand, with a composite score of 2.98, ranking below average at the 22nd percentile. The combination of these metrics suggests a complex economic environment.
 
 **Labor Demand**
-The employment growth rate is -0.41% year-over-year, and weekly hours are 0.302% above the city's own trend, indicating a contraction in labor demand with a potential survivor squeeze. This combination suggests that while hours are being worked above trend, the overall job market is not expanding, which may lead to increased workload for remaining employees. The labor demand composite score of 3.42 is below average, ranking in the 20th percentile.
+The employment growth rate in this metro area is -0.69% year-over-year, and weekly hours are deviating from the trend by +0.351%. This combination signals a contraction in labor demand, as hours are above trend during a period of job losses, indicating a survivor squeeze where remaining workers are absorbing the load of eliminated roles. This scenario suggests that businesses may face challenges in finding available labor.
 
 **Unemployment**
-The unemployment rate is 3.60%, which is below average, ranking in the 36th percentile. This indicates a relatively tight labor market with some slack, making it moderately challenging for businesses to hire. The practical implication is that businesses may face some competition for talent, but it is still possible to find qualified candidates.
+The unemployment rate in this metro area is 4.00%, ranking near the median at the 58th percentile. This indicates a relatively balanced labor market with some slack, making it somewhat easier for businesses to hire compared to extremely tight markets. However, this also means that local consumer demand may not be as strong as in areas with lower unemployment rates.
 
 **Wage Growth**
-The year-over-year wage growth rate is 10.08%, which is extremely high, ranking in the 98th percentile. This signals fast-rising labor costs for employers, but also strong purchasing power for workers. As a result, businesses may need to budget for higher labor costs, but can also expect a talented and productive workforce.
+The year-over-year wage growth in this metro area is +8.49%, ranking in the top tier at the 98th percentile. This fast wage growth implies rising labor costs for employers but also indicates strong worker purchasing power. Businesses should factor in the potential for increased labor costs when considering this location.
 
 **Cost of Living**
-The city has a cost of living ratio of 6.22, with $221/sqft versus $35.52/hr, and a percentile rank of 72, indicating that it is relatively affordable compared to peers. This means that the city has a talent attraction advantage, as workers can afford to live and work in the area without requiring significant wage premiums. The fact that PSF is rising 1.8% YoY, however, may erode this advantage over time.
+With a cost of living ratio of $221/sqft to $35.86/hr, resulting in a ratio of 6.16, this city ranks above average at the 67th percentile in terms of affordability. This means the city is relatively less affordable compared to its peers, which could make it challenging to attract talent without offering wage premiums. The fact that PSF is increasing by 1.8% year-over-year further contributes to its lower affordability ranking.
 
 **Labor Force Growth**
-The civilian labor force is contracting at a rate of -2.41% year-over-year, which is in the bottom tier, ranking in the 4th percentile. This indicates that the labor pool is shrinking, creating a structural headwind for hiring and business expansion. As a result, businesses may need to invest in training and development programs to attract and retain talent.
+The civilian labor force in this metro area is growing at a rate of -0.50% year-over-year, indicating a contracting labor supply. This contraction implies a structural headwind for hiring, as the available workforce is shrinking. Businesses should consider this trend when assessing their hiring capacity in this location.
 
 **Building Permits**
-The year-over-year change in building permits is -46.79%, which is in the bottom tier, ranking in the 0th percentile. This signals a significant tightening of housing supply, which may lead to decreased affordability and increased competition for housing in the future. As a result, businesses may need to consider the potential impact on workforce accommodation and relocation.
+The year-over-year change in residential building permits is -46.79%, ranking in the bottom tier at the 0th percentile. This sharp decline signals a tightening housing supply, which could lead to future affordability issues and challenges in accommodating a growing workforce. This trend is a significant concern for businesses reliant on a readily available and affordable housing supply for their employees.
 
 **Days on Market**
-The current median days on market is 36 days, with a year-over-year decrease of 5.3%. This indicates a relatively fast-paced market, making it challenging for relocating workers to find housing. However, the decrease in days on market may signal a normalization of the market, making it slightly more accessible for workers.
+The current median days on market is 36 days, with a year-over-year decrease of -5.3%. This indicates a relatively fast-paced market, which can be competitive for workers relocating to this city. The decreasing days on market suggests a hot market where homes sell quickly, potentially making it tough for relocating workers to find suitable housing.
 
 **Office Economy**
-The city has a professional and office worker share of 1.69, ranking in the 30th percentile, indicating a relatively shallow talent pool. This means that the city is best suited for businesses that do not require a deep knowledge-economy talent pool, such as industrial or logistics-dominant companies. However, it may not be the best fit for tech, finance, or consulting businesses that require a highly specialized workforce.
+The share of jobs in professional and office sectors in this metro area ranks below average at the 25th percentile. This suggests that the city has a less deep talent pool suited for tech, finance, consulting, or HQ decisions, making it more challenging for businesses in these sectors to find specialized labor. The city may be more suited for industrial or logistics-dominant businesses.
 
-The Virginia Beach-Chesapeake-Norfolk metro area offers businesses a unique combination of strong wage growth and relatively affordable cost of living, making it an attractive location for talent. However, the single biggest risk or constraint is the shrinking labor pool and tightening housing supply, which may create challenges for hiring and business expansion. As a result, decision-makers should carefully consider these factors when evaluating the city as a potential location for their business.
+The Virginia Beach-Chesapeake-Norfolk metro area offers businesses a unique combination of strong wage growth and a relatively balanced labor market, but it also presents significant challenges, particularly in terms of labor demand and housing supply. The single biggest risk or constraint for decision-makers is the sharp decline in building permits, which signals potential future affordability issues and workforce accommodation challenges, making it crucial for businesses to carefully consider these factors in their location decision.

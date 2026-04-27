@@ -1,33 +1,33 @@
 # Oklahoma City
 
-**Grade: C+ (Poor) | 42.5th percentile | April 2026**
+**Grade: B (Average) | 50.2th percentile | April 2026**
 
 ---
 
-Oklahoma City has an overall grade of C+ with a composite score ranking it 42.5th percentile out of 50 US metros. The city's economic character is most defined by its low labor demand, with a composite score in the bottom tier, and its high cost of living affordability, ranking in the top tier at 89th percentile. Specifically, the labor demand composite score of 2.77 and the cost of living ratio of $172/sqft to $33.50/hr, with a PSF decline of 1.1% YoY, are key metrics shaping the city's economic landscape.
+Oklahoma City has an overall grade of B, ranking 50.2th percentile out of 50 US metros, with a composite score driven largely by its strong wage growth and affordable cost of living, scoring 79th and 94th percentiles respectively. The city's wage growth rate of 6.03% and cost of living ratio of $172/sqft to $33.85/hr, with a PSF decline of 1.1% YoY, are key defining metrics. These numbers indicate a city with a unique blend of labor market characteristics.
 
 **Labor Demand**
-Oklahoma City's employment growth rate is -0.54% YoY, and weekly hours are 0.773% above trend, indicating a contraction in labor demand rather than genuine expansion. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles. The labor demand composite score of 2.77 is in the bottom tier, at the 6th percentile.
+Oklahoma City's employment growth rate is -0.90% YoY, combined with a weekly hours deviation of +0.467% from its own trend, resulting in a labor demand composite score of 2.57, which ranks in the bottom tier at the 8th percentile. This signals a contraction in labor demand, with hours above trend during job losses indicating a survivor squeeze. The city's labor market is not expanding, with remaining workers absorbing the load of eliminated roles.
 
 **Unemployment**
-The unemployment rate in Oklahoma City is 3.60%, ranking below average at the 36th percentile. This indicates a moderate level of slack in the labor market, making it relatively easier for businesses to hire compared to tighter markets. However, the practical implication is that local consumer demand may be weaker due to the available labor pool.
+The unemployment rate in Oklahoma City is 4.10%, ranking below average at the 38th percentile. This indicates a market with some slack, rather than being extremely tight. For a business trying to hire in this city, the relatively higher unemployment rate means it may be easier to staff, but local consumer demand might be weaker.
 
 **Wage Growth**
-Wage growth in Oklahoma City is +5.38% YoY, which is above average, ranking at the 64th percentile. This signals fast wage growth, implying rising labor costs for employers and increased purchasing power for workers. As a result, businesses may face higher labor costs, while workers will have more disposable income.
+The year-over-year wage growth in Oklahoma City is 6.03%, ranking above average at the 79th percentile. This fast wage growth rate implies rising labor costs for employers, but also good worker purchasing power. As wages rise, businesses may face increasing costs, but the local workforce will have more disposable income.
 
 **Cost of Living**
-Oklahoma City is relatively affordable, with a cost of living percentile rank of 89th, indicating a high level of affordability compared to peer cities. The PSF to earnings ratio of $172/sqft to $33.50/hr, with a 1.1% YoY decline in PSF, contributes to this affordability. This means that the city has a talent attraction advantage, as workers can afford to live and work in Oklahoma City without requiring significant wage premiums.
+Oklahoma City has a cost of living score in the top tier, ranking 94th percentile, with a PSF to earnings ratio of $172/sqft to $33.85/hr. The city's affordability, driven by a 1.1% YoY decline in PSF, makes it an attractive location for talent without requiring significant wage premiums. This is a major advantage for businesses looking to attract and retain workers.
 
 **Labor Force Growth**
-The civilian labor force in Oklahoma City is growing at a rate of +0.23% YoY, which is below average, ranking at the 26th percentile. This indicates a slow expansion of the labor force supply, which may pose a structural headwind for hiring capacity in the long term.
+The civilian labor force in Oklahoma City is growing at a rate of 0.96% YoY, ranking above average at the 71st percentile. This indicates an expanding workforce supply, which is a positive sign for hiring capacity. As the labor force grows, businesses will have a larger pool of potential employees to draw from.
 
 **Building Permits**
-Residential building permits in Oklahoma City are increasing by +20.14% YoY, which is above average, ranking at the 79th percentile. This signals an expansion of future housing supply, which should improve affordability and accommodate a growing workforce.
+The city has seen a 20.14% YoY increase in residential building permits, ranking above average at the 78th percentile. This rise in permits signals an expansion in future housing supply, which should improve affordability and accommodate a growing workforce. As housing supply increases, the city is likely to remain an attractive location for workers and businesses alike.
 
 **Days on Market**
-The median days on market for homes in Oklahoma City is 55 days, with a +17.0% YoY increase, ranking near the median at the 51st percentile. This indicates a relatively accessible market for relocating workers, as homes are not selling extremely quickly, giving them a reasonable amount of time to find a suitable home.
+The current median days on market in Oklahoma City is 55 days, with a YoY increase of 17.0%, ranking near the median at the 48th percentile. This means the market is relatively accessible for relocating workers, with homes sitting on the market for a moderate amount of time. The rising DOM indicates a healthy normalization of the market, rather than a sign of demand erosion.
 
 **Office Economy**
-Oklahoma City has a relatively shallow professional talent pool, ranking in the bottom tier at the 17th percentile. This makes the city less suited for businesses requiring a deep knowledge-economy talent pool, such as tech, finance, or consulting firms, but more suitable for industrial or logistics-dominant businesses.
+Oklahoma City's professional and office worker share is relatively low, ranking in the bottom tier at the 10th percentile. This indicates a less deep talent pool for businesses requiring specialized knowledge-economy roles, such as tech, finance, or consulting. The city is better suited for industries with fewer specialized roles, such as industrial or logistics-dominant economies.
 
-In conclusion, Oklahoma City offers businesses a unique combination of affordability and relatively low labor costs, but the single biggest risk or constraint is the low labor demand and slow labor force growth, which may limit hiring capacity and talent attraction in the long term. Decision-makers should carefully weigh these factors when considering Oklahoma City as a business location. The city's strengths in affordability and wage growth must be balanced against its weaknesses in labor demand and talent pool depth.
+In conclusion, Oklahoma City offers businesses a unique combination of strong wage growth, an affordable cost of living, and an expanding labor force, making it an attractive location for talent attraction and retention. However, the city's labor demand contraction and relatively low office economy ranking are significant risks that decision-makers should factor into their location decisions, as they may impact hiring and business operations.
