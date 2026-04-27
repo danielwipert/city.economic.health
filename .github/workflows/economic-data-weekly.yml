@@ -12,10 +12,10 @@ jobs:
       contents: write
     
     steps:
-      - uses: actions/checkout@v3
-      
+      - uses: actions/checkout@v6
+
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
       
@@ -41,7 +41,7 @@ jobs:
       - name: Generate cautious LLM summaries
         env:
           TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
-        run: python city_econ_pipeline_cautious.py
+        run: python city_econ_pipeline.py
       
       - name: Generate website
         run: python generate_site.py
