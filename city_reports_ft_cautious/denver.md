@@ -1,33 +1,33 @@
 # Denver-Aurora-Centennial
 
-**Grade: B- (Below Average) | 49.4th percentile | April 2026**
+**Grade: B (Average) | 54.0th percentile | April 2026**
 
 ---
 
-The Denver-Aurora-Centennial metro area has an overall grade of B- with a composite score ranking it at the 49.4th percentile out of 50 US metros. This city's economic character is most defined by its low labor force growth rate of -1.11% YoY and its high unemployment rate of 4.20%, which ranks at the 88th percentile, indicating a tight labor market. The combination of these metrics suggests a challenging environment for businesses looking to hire and expand.
+The Denver-Aurora-Centennial metro area has an overall grade of B, ranking 54.0th percentile out of 50 US metros, with a composite score driven largely by its low unemployment rate of 4.20% and a near-median labor demand composite score of 4.08. The city's economic character is defined by its tight labor market and stagnant labor force growth, with a year-over-year labor force growth rate of -1.11%. The labor demand is further characterized by a -0.16% employment growth rate and a -0.418% weekly hours deviation from its own trend.
 
 **Labor Demand**
-The employment growth rate in Denver-Aurora-Centennial is -0.16% YoY, and weekly hours are deviating -0.418% from the city's own 12-month baseline, resulting in a labor demand composite score of 4.08, which ranks at the 54th percentile. This combination signals a contraction in labor demand, as the city is experiencing both slow employment growth and below-trend hours worked. This indicates a lack of genuine demand expansion in the labor market.
+The employment growth rate in Denver-Aurora-Centennial is -0.16%, and weekly hours are deviating -0.418% from its own trend, signaling a contraction in labor demand. This combination indicates that the city is experiencing a decline in job additions and hours worked, which may lead to a survivor squeeze where remaining workers absorb the load of eliminated roles. The near-median labor demand composite score of 4.08 reflects this balance between job growth and hours worked.
 
 **Unemployment**
-The unemployment rate in Denver-Aurora-Centennial is 4.20%, ranking at the 88th percentile, which indicates a tight labor market with low unemployment. This means that businesses may face challenges in hiring, as the pool of available workers is limited, and may need to offer higher wages to attract talent. The tight labor market also suggests that workers may have more bargaining power.
+The unemployment rate in Denver-Aurora-Centennial is 4.20%, ranking in the top tier at the 85th percentile, indicating a tight labor market with low unemployment. This tight market implies that it may be harder for businesses to hire workers, and there may be upward pressure on wages. The low unemployment rate suggests that the city has a skilled and sought-after workforce.
 
 **Wage Growth**
-The year-over-year wage growth in Denver-Aurora-Centennial is +2.61%, ranking at the 33rd percentile, which indicates moderate wage growth. This rate of wage growth suggests that employer labor costs are rising, but at a slower pace than in many other cities. Workers in the area will see some increase in their purchasing power, but it may not be as strong as in other metros.
+The wage growth rate in Denver-Aurora-Centennial is not available, but its percentile rank is near median at the 50th percentile, suggesting moderate wage growth. Moderate wage growth typically implies a balance between rising labor costs for employers and increasing worker purchasing power. However, without the exact wage growth rate, it is difficult to determine the exact implications for businesses and workers.
 
 **Cost of Living**
-Denver-Aurora-Centennial has a cost of living ratio of $292/sqft to $42.40/hr, with a PSF that is falling -3.3% YoY, resulting in a near-median percentile rank of 41. This suggests that the city is relatively affordable compared to its peers, which can be a talent attraction advantage for businesses, as they may not need to offer wage premiums to compensate for high living costs.
+Denver-Aurora-Centennial has a near-median cost of living percentile rank of 50th percentile, indicating that the city is neither particularly affordable nor expensive relative to its peers. A more affordable city would have a higher percentile rank, indicating a talent attraction advantage without requiring wage premiums. However, the exact cost of living score is not available, making it difficult to determine the city's affordability.
 
 **Labor Force Growth**
-The civilian labor force in Denver-Aurora-Centennial is growing at a rate of -1.11% YoY, which indicates a contracting labor pool. This means that the supply of workers is shrinking, creating a structural headwind for hiring and business expansion. Businesses may need to consider alternative locations or strategies to attract talent.
+The labor force in Denver-Aurora-Centennial is contracting at a rate of -1.11% year-over-year, indicating a shrinking labor pool. This contraction implies a structural headwind for hiring, as the supply of workers is decreasing. Businesses may face challenges in finding skilled workers to fill open positions.
 
 **Building Permits**
-The number of residential building permits in Denver-Aurora-Centennial is decreasing by -15.96% YoY, which signals a tightening of the housing supply. This decrease in building permits suggests that future affordability and workforce accommodation may be at risk, as the supply of housing is not keeping pace with demand.
+The number of building permits in Denver-Aurora-Centennial has decreased by -15.96% year-over-year, indicating a tightening of housing supply. This decrease in building permits signals that future affordability and workforce accommodation may be at risk, as the supply of housing is not keeping pace with demand. The city may experience increased competition for housing, driving up costs.
 
 **Days on Market**
-The median days on market for homes in Denver-Aurora-Centennial is 38 days, with a YoY increase of +8.6%, resulting in an above-average percentile rank of 65. This indicates a slower market, where homes are sitting longer before being sold. For workers relocating to the city, this may mean a more accessible and less competitive housing market.
+The median days on market in Denver-Aurora-Centennial is 38 days, with a year-over-year increase of 8.6%. This increase in days on market indicates a slower market, where homes are sitting longer before being sold. For workers relocating to this city, the slower market may make it easier to find a home, but it also suggests a less competitive housing market.
 
 **Office Economy**
-Denver-Aurora-Centennial has an office economy percentile rank of 58, indicating a deep professional talent pool. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, but less suited for industrial or logistics-dominant economies.
+Denver-Aurora-Centennial has an above-average office economy, with a percentile rank of 61st percentile, indicating a deep talent pool in professional and office sectors. The city is well-suited for businesses in the tech, finance, consulting, and HQ sectors, but may be less suitable for industrial or logistics-dominant businesses. The strong office economy suggests that businesses can find skilled workers in these sectors.
 
-The Denver-Aurora-Centennial metro area offers businesses a relatively affordable cost of living and a deep professional talent pool, but its low labor force growth rate and tightening housing supply pose significant risks to hiring and expansion. The single biggest constraint for decision-makers is the shrinking labor pool, which may require businesses to consider alternative locations or strategies to attract talent.
+The Denver-Aurora-Centennial metro area offers businesses a tight labor market with low unemployment, but also presents challenges such as a contracting labor force and decreasing housing supply. The single biggest risk or constraint for decision-makers is the potential for increased competition for skilled workers and housing, driving up costs and making it harder to attract and retain talent. Overall, businesses must carefully weigh the benefits and drawbacks of locating in this city.

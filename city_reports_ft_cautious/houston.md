@@ -1,33 +1,33 @@
 # Houston-Pasadena-The Woodlands
 
-**Grade: B- (Below Average) | 44.8th percentile | April 2026**
+**Grade: B- (Below Average) | 45.8th percentile | April 2026**
 
 ---
 
-The Houston-Pasadena-The Woodlands metro area has an overall grade of B- with a composite score ranking it 44.8th percentile out of 50 US metros. This city's economic character is most defined by its near-median labor demand, with an employment growth rate of +0.22% and a weekly hours deviation of -0.615%, as well as its below-average unemployment rate of 4.90%. These metrics suggest a mixed economic environment, with some indicators pointing to moderate growth and others to potential labor market challenges.
+The Houston-Pasadena-The Woodlands metro area has an overall grade of B- with a composite score ranking it 45.8th percentile out of 50 US metros. This city's economic character is most defined by its below-average unemployment rate of 4.90% and its above-average cost of living affordability, with a PSF to wages ratio of 4.69, ranking it 72nd percentile. The labor demand composite score of 3.99, near the median, also plays a significant role in shaping the city's economic landscape.
 
 **Labor Demand**
-The employment growth rate of +0.22% and weekly hours deviation of -0.615% combine to signal a labor market that is not experiencing genuine demand expansion, but rather a moderate pace of job growth with hours worked slightly below trend. This suggests that while jobs are being added, the existing workforce is not being fully utilized. The labor demand composite score of 3.99 ranks near the median, indicating a lack of strong momentum in the labor market.
+The employment growth rate is +0.22% year-over-year, while weekly hours are -0.615% below the city's own trend, indicating a near-median labor demand composite score. This combination signals a moderate expansion of jobs, but with hours worked below trend, suggesting some degree of survivor squeeze where remaining workers may be absorbing the load of eliminated roles. The labor demand is not strongly indicative of genuine demand expansion.
 
 **Unemployment**
-The unemployment rate of 4.90% is below average, ranking 23rd percentile, which indicates a relatively tight labor market with some slack. For a business trying to hire in this market, this means that finding qualified candidates may be more challenging, and wage pressure may be higher than in other cities with looser labor markets.
+The unemployment rate is 4.90%, ranking 21st percentile, indicating a below-average, relatively tight labor market. This means that businesses trying to hire in this city may face challenges in finding available talent, leading to potential wage pressure. The tight market implies that employers may need to offer competitive salaries to attract and retain workers.
 
 **Wage Growth**
-The year-over-year wage growth rate of +2.68% is below average, ranking 35th percentile, which suggests moderate wage growth. This implies that employer labor costs are rising, but at a slower pace than in many other cities, and worker purchasing power is increasing, but not as rapidly as in cities with faster wage growth.
+The year-over-year wage growth rate is +2.68%, ranking 34th percentile, which is below average, indicating moderate wage growth. This implies that labor costs for employers are rising, but at a slower pace, and worker purchasing power is increasing, albeit not rapidly. The moderate wage growth suggests a relatively stable labor cost environment.
 
 **Cost of Living**
-The cost of living in Houston-Pasadena-The Woodlands is relatively affordable, with a percentile rank of 72, driven by a PSF of $172/sqft that is falling -2.3% year-over-year relative to wages of $36.69/hr. This affordability advantage can be a talent attraction benefit for businesses, as workers may not require wage premiums to maintain their standard of living.
+The city's cost of living is relatively affordable, with a PSF to wages ratio of 4.69, ranking 72nd percentile, and PSF decreasing by -2.3% year-over-year. This affordability advantage means that the city has a talent attraction benefit, as workers can maintain a decent standard of living without requiring significant wage premiums. The decreasing PSF relative to wages is a key driver of this affordability.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of +0.58% year-over-year, which is above average, ranking 65th percentile. This expanding labor force supply is a positive sign for hiring capacity, as it suggests that the city's workforce is growing and can support business expansion.
+The civilian labor force is growing at a rate of +0.58% year-over-year, ranking 64th percentile, indicating an expanding workforce supply. This growth in labor force supply implies that the city has a relatively favorable hiring environment, with a increasing pool of potential workers. The expanding labor force is a positive sign for businesses looking to hire.
 
 **Building Permits**
-The year-over-year change in building permits is -12.89%, which indicates that housing supply is tightening. This decline in permits suggests that future affordability and workforce accommodation may be at risk, as the supply of new housing is not keeping pace with demand.
+The year-over-year change in residential building permits is -12.89%, ranking 31st percentile, indicating a tightening housing supply. This decline in building permits signals a potential future affordability challenge and workforce accommodation risk, as the supply of housing may not be able to meet growing demand. The decrease in permits may lead to increased competition for housing and higher costs.
 
 **Days on Market**
-The current median days on market is 50 days, with a year-over-year increase of +11.1%. This rising days on market indicates a slowing market, which can make it more accessible for relocating workers to find housing, but may also signal weakening demand.
+The median days on market is 50 days, with an 11.1% year-over-year increase, ranking 60th percentile. This indicates a relatively slower market, making it more accessible for workers relocating to the city. The increasing days on market suggests a normalization of the housing market, providing more options for buyers and renters.
 
 **Office Economy**
-The professional and office worker share is 3.31, ranking 77th percentile, which indicates a deep talent pool in these sectors. This city is well-suited for businesses in tech, finance, consulting, and HQ operations, but may be less suitable for industries with more industrial or logistics-oriented workforces.
+The city has a deep professional talent pool, with an office/professional worker share ranking 78th percentile. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, but less ideal for industries with more industrial or logistics-dominant economies. The strong office economy is a significant advantage for businesses requiring specialized knowledge workers.
 
-The Houston-Pasadena-The Woodlands metro area offers a mixed economic environment with some advantages, such as an affordable cost of living and a growing labor force. However, the single biggest risk or constraint for businesses is the tightening housing supply, which may lead to future affordability challenges and impact workforce attraction and retention.
+The Houston-Pasadena-The Woodlands metro area offers businesses a relatively affordable cost of living and an expanding labor force supply, but the biggest risk or constraint is the tightening housing supply, which may lead to future affordability challenges and workforce accommodation risks. The city's below-average unemployment rate and moderate wage growth also imply a competitive labor market, where businesses may need to offer attractive salaries to attract and retain talent. Overall, the city's economic character is defined by its unique combination of affordability, labor market tightness, and housing supply constraints.

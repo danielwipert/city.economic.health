@@ -1,43 +1,43 @@
 {
-  "processing_timestamp": "2026-04-27T17:13:47.596164",
-  "processing_date": "2026-04-27 17:13:47",
+  "processing_timestamp": "2026-04-28T16:54:52.170439",
+  "processing_date": "2026-04-28 16:54:52",
   "version": 2,
   "metrics_count": 9,
   "metrics_scored": 9,
   "metrics_collected_only": 0,
-  "source_data": "2026-04-27 17:13:47",
+  "source_data": "2026-04-28 16:54:51",
   "msa_averages": {
     "unemployment_rate": {
-      "msa_average": 4.4521,
+      "msa_average": 4.425,
       "metros_with_data": 48
     },
     "civilian_labor_force": {
-      "msa_average": 64.0656,
-      "metros_with_data": 48
+      "msa_average": 64.0963,
+      "metros_with_data": 47
     },
     "hourly_earnings": {
-      "msa_average": 37.6798,
-      "metros_with_data": 48
+      "msa_average": 37.8055,
+      "metros_with_data": 47
     },
     "cost_of_living": {
-      "msa_average": 7.2334,
-      "metros_with_data": 46
+      "msa_average": 7.3439,
+      "metros_with_data": 44
     },
     "office_worker_ratio": {
-      "msa_average": 9.8239,
-      "metros_with_data": 48
-    },
-    "building_permits": {
-      "msa_average": 1250.312,
+      "msa_average": 9.8639,
       "metros_with_data": 46
     },
+    "building_permits": {
+      "msa_average": 1239.424,
+      "metros_with_data": 48
+    },
     "price_per_sqft": {
-      "msa_average": 286.0213,
+      "msa_average": 286.1489,
       "metros_with_data": 47
     },
     "median_days_on_market": {
-      "msa_average": 47.1739,
-      "metros_with_data": 46
+      "msa_average": 47.0,
+      "metros_with_data": 48
     }
   },
   "metros": {
@@ -46,7 +46,7 @@
       "metro_name": "New York Newark-Jersey City",
       "primary_city": "New York",
       "civilian_population": 16296781,
-      "metrics_processed": 9,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 4.8,
@@ -96,6 +96,24 @@
             "current_3mo": 9981.8,
             "change": -18.7333,
             "pct_change": -0.19
+          }
+        },
+        "hourly_earnings": {
+          "latest_value": 41.77,
+          "latest_date": "2026-02-01",
+          "series_id": "SMU36356200500000003",
+          "metric_name": "Hourly Earnings",
+          "3month_average": 41.156666666666666,
+          "12month_average": 40.200833333333335,
+          "yoy_change": {
+            "current": 41.77,
+            "change": 2.43,
+            "pct_change": 6.18
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 41.1567,
+            "change": 2.14,
+            "pct_change": 5.48
           }
         },
         "weekly_hours": {
@@ -187,6 +205,19 @@
             "change": 0.6667,
             "pct_change": 1.04
           }
+        },
+        "cost_of_living": {
+          "latest_value": 12.9758,
+          "latest_date": "2026-03-01",
+          "series_id": null,
+          "metric_name": "Cost of Living",
+          "3month_average": 12.9829,
+          "yoy_change": {
+            "current": 12.9758,
+            "change": -0.7507,
+            "pct_change": -5.47
+          },
+          "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
         "office_worker_ratio": {
           "latest_value": 9.9481,
@@ -401,7 +432,7 @@
       "metro_name": "Chicago-Naperville-Elgin",
       "primary_city": "Chicago",
       "civilian_population": 7664965,
-      "metrics_processed": 7,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 5.3,
@@ -471,6 +502,24 @@
             "pct_change": 3.55
           }
         },
+        "weekly_hours": {
+          "latest_value": 33.7,
+          "latest_date": "2026-02-01",
+          "series_id": "SMU17169800500000002",
+          "metric_name": "Weekly Hours",
+          "3month_average": 33.2,
+          "12month_average": 33.36666666666667,
+          "yoy_change": {
+            "current": 33.7,
+            "change": 0.1,
+            "pct_change": 0.3
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 33.2,
+            "change": -0.3,
+            "pct_change": -0.9
+          }
+        },
         "office_workers": {
           "latest_value": 793.8904,
           "latest_date": "2026-02-01",
@@ -487,6 +536,42 @@
             "current_3mo": 797.3295,
             "change": -8.47,
             "pct_change": -1.05
+          }
+        },
+        "building_permits": {
+          "latest_value": 889.0,
+          "latest_date": "2026-01-01",
+          "series_id": "CHIC917BPPRIV",
+          "metric_name": "Building Permits",
+          "3month_average": 894.3333333333334,
+          "12month_average": 1349.4166666666667,
+          "yoy_change": {
+            "current": 889.0,
+            "change": 70.0,
+            "pct_change": 8.55
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 894.3333,
+            "change": -337.6667,
+            "pct_change": -27.41
+          }
+        },
+        "price_per_sqft": {
+          "latest_value": 214.0,
+          "latest_date": "2026-03-01",
+          "series_id": "MEDLISPRIPERSQUFEE16980",
+          "metric_name": "Price per Sqft",
+          "3month_average": 210.33333333333334,
+          "12month_average": 212.33333333333334,
+          "yoy_change": {
+            "current": 214.0,
+            "change": 3.0,
+            "pct_change": 1.42
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 210.3333,
+            "change": 3.3333,
+            "pct_change": 1.61
           }
         },
         "median_days_on_market": {
@@ -506,6 +591,19 @@
             "change": -0.3333,
             "pct_change": -0.74
           }
+        },
+        "cost_of_living": {
+          "latest_value": 5.69,
+          "latest_date": "2026-03-01",
+          "series_id": null,
+          "metric_name": "Cost of Living",
+          "3month_average": 5.6704,
+          "yoy_change": {
+            "current": 5.69,
+            "change": -0.1533,
+            "pct_change": -2.62
+          },
+          "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
         "office_worker_ratio": {
           "latest_value": 10.3574,
@@ -527,7 +625,7 @@
       "metro_name": "Dallas-Fort Worth-Arlington",
       "primary_city": "Dallas",
       "civilian_population": 6553832,
-      "metrics_processed": 11,
+      "metrics_processed": 10,
       "data": {
         "unemployment_rate": {
           "latest_value": 4.2,
@@ -560,24 +658,6 @@
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
-        },
-        "all_employees": {
-          "latest_value": 4298.5,
-          "latest_date": "2026-02-01",
-          "series_id": "DALL148NAN",
-          "metric_name": "All Employees",
-          "3month_average": 4315.5,
-          "12month_average": 4314.325,
-          "yoy_change": {
-            "current": 4298.5,
-            "change": 24.2,
-            "pct_change": 0.57
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 4315.5,
-            "change": 29.0333,
-            "pct_change": 0.68
-          }
         },
         "hourly_earnings": {
           "latest_value": 37.5,
@@ -1299,7 +1379,7 @@
       "metro_name": "Atlanta-Sandy Springs-Roswell",
       "primary_city": "Atlanta",
       "civilian_population": 5131103,
-      "metrics_processed": 10,
+      "metrics_processed": 9,
       "data": {
         "unemployment_rate": {
           "latest_value": 3.6,
@@ -1405,22 +1485,22 @@
             "pct_change": -0.04
           }
         },
-        "price_per_sqft": {
-          "latest_value": 197.0,
-          "latest_date": "2026-03-01",
-          "series_id": "MEDLISPRIPERSQUFEE12060",
-          "metric_name": "Price per Sqft",
-          "3month_average": 195.66666666666666,
-          "12month_average": 196.08333333333334,
+        "building_permits": {
+          "latest_value": 2217.0,
+          "latest_date": "2026-01-01",
+          "series_id": "ATLA013BPPRIV",
+          "metric_name": "Building Permits",
+          "3month_average": 2144.3333333333335,
+          "12month_average": 2664.5833333333335,
           "yoy_change": {
-            "current": 197.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 2217.0,
+            "change": -916.0,
+            "pct_change": -29.24
           },
           "3month_avg_yoy": {
-            "current_3mo": 195.6667,
-            "change": -0.3333,
-            "pct_change": -0.17
+            "current_3mo": 2144.3333,
+            "change": -959.0,
+            "pct_change": -30.9
           }
         },
         "median_days_on_market": {
@@ -1440,19 +1520,6 @@
             "change": 2.3333,
             "pct_change": 4.09
           }
-        },
-        "cost_of_living": {
-          "latest_value": 5.1869,
-          "latest_date": "2026-03-01",
-          "series_id": null,
-          "metric_name": "Cost of Living",
-          "3month_average": 5.2206,
-          "yoy_change": {
-            "current": 5.1869,
-            "change": -0.2975,
-            "pct_change": -5.42
-          },
-          "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
         "office_worker_ratio": {
           "latest_value": 11.0866,
@@ -1474,7 +1541,7 @@
       "metro_name": "Philadelphia-Camden-Wilmington",
       "primary_city": "Philadelphia",
       "civilian_population": 5167681,
-      "metrics_processed": 11,
+      "metrics_processed": 7,
       "data": {
         "unemployment_rate": {
           "latest_value": 4.5,
@@ -1526,24 +1593,6 @@
             "pct_change": 0.08
           }
         },
-        "hourly_earnings": {
-          "latest_value": 32.46,
-          "latest_date": "2026-02-01",
-          "series_id": "SMU42379640500000003",
-          "metric_name": "Hourly Earnings",
-          "3month_average": 32.233333333333334,
-          "12month_average": 32.10916666666667,
-          "yoy_change": {
-            "current": 32.46,
-            "change": -0.32,
-            "pct_change": -0.98
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 32.2333,
-            "change": -0.49,
-            "pct_change": -1.5
-          }
-        },
         "weekly_hours": {
           "latest_value": 37.5,
           "latest_date": "2026-02-01",
@@ -1560,24 +1609,6 @@
             "current_3mo": 37.1333,
             "change": 0.7333,
             "pct_change": 2.01
-          }
-        },
-        "office_workers": {
-          "latest_value": 496.6032,
-          "latest_date": "2026-02-01",
-          "series_id": "PHIL942PBSV",
-          "metric_name": "Office Workers",
-          "3month_average": 497.837888428861,
-          "12month_average": 497.66134015700186,
-          "yoy_change": {
-            "current": 496.6032,
-            "change": -1.5581,
-            "pct_change": -0.31
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 497.8379,
-            "change": -0.4738,
-            "pct_change": -0.1
           }
         },
         "building_permits": {
@@ -1633,32 +1664,6 @@
             "change": 2.0,
             "pct_change": 3.9
           }
-        },
-        "cost_of_living": {
-          "latest_value": 7.024,
-          "latest_date": "2026-03-01",
-          "series_id": null,
-          "metric_name": "Cost of Living",
-          "3month_average": 7.0321,
-          "yoy_change": {
-            "current": 7.024,
-            "change": 0.0991,
-            "pct_change": 1.43
-          },
-          "note": "Calculated as (Price per Sqft / Hourly Earnings)"
-        },
-        "office_worker_ratio": {
-          "latest_value": 9.6098,
-          "latest_date": "2026-02-01",
-          "series_id": "PHIL942PBSV",
-          "metric_name": "Office Worker Ratio",
-          "3month_average": 9.6337,
-          "yoy_change": {
-            "current": 9.6098,
-            "change": -0.0302,
-            "pct_change": -0.31
-          },
-          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
@@ -1667,40 +1672,8 @@
       "metro_name": "Phoenix-Mesa-Chandler",
       "primary_city": "Phoenix",
       "civilian_population": 4201372,
-      "metrics_processed": 11,
+      "metrics_processed": 5,
       "data": {
-        "unemployment_rate": {
-          "latest_value": 4.4,
-          "latest_date": "2026-01-01",
-          "series_id": "PHOE004URN",
-          "metric_name": "Unemployment Rate",
-          "3month_average": 3.9,
-          "12month_average": 3.827272727272727,
-          "yoy_change": {
-            "current": 4.4,
-            "change": 0.9,
-            "pct_change": 25.71
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 3.9,
-            "change": 0.6,
-            "pct_change": 18.18
-          }
-        },
-        "civilian_labor_force": {
-          "latest_value": 65.4925,
-          "latest_date": "2026-01-01",
-          "series_id": "PHOE004LFN",
-          "metric_name": "Labor Force Participation Rate",
-          "3month_average": 66.16893333333334,
-          "yoy_change": {
-            "current": 65.4925,
-            "change": 0.8183,
-            "pct_change": 1.27
-          },
-          "3month_avg_yoy": null,
-          "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
-        },
         "all_employees": {
           "latest_value": 2485.7,
           "latest_date": "2026-02-01",
@@ -1773,73 +1746,6 @@
             "pct_change": 0.22
           }
         },
-        "building_permits": {
-          "latest_value": 2114.0,
-          "latest_date": "2026-01-01",
-          "series_id": "PHOE004BPPRIV",
-          "metric_name": "Building Permits",
-          "3month_average": 3374.6666666666665,
-          "12month_average": 3239.8333333333335,
-          "yoy_change": {
-            "current": 2114.0,
-            "change": -573.0,
-            "pct_change": -21.32
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 3374.6667,
-            "change": 487.0,
-            "pct_change": 16.86
-          }
-        },
-        "price_per_sqft": {
-          "latest_value": 272.0,
-          "latest_date": "2026-03-01",
-          "series_id": "MEDLISPRIPERSQUFEE38060",
-          "metric_name": "Price per Sqft",
-          "3month_average": 271.0,
-          "12month_average": 271.3333333333333,
-          "yoy_change": {
-            "current": 272.0,
-            "change": -3.0,
-            "pct_change": -1.09
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 271.0,
-            "change": -5.0,
-            "pct_change": -1.81
-          }
-        },
-        "median_days_on_market": {
-          "latest_value": 54.0,
-          "latest_date": "2026-03-01",
-          "series_id": "MEDDAYONMAR38060",
-          "metric_name": "Median Days on Market",
-          "3month_average": 61.333333333333336,
-          "12month_average": 62.666666666666664,
-          "yoy_change": {
-            "current": 54.0,
-            "change": 3.0,
-            "pct_change": 5.88
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 61.3333,
-            "change": 3.3333,
-            "pct_change": 5.75
-          }
-        },
-        "cost_of_living": {
-          "latest_value": 7.2844,
-          "latest_date": "2026-03-01",
-          "series_id": null,
-          "metric_name": "Cost of Living",
-          "3month_average": 7.2895,
-          "yoy_change": {
-            "current": 7.2844,
-            "change": -0.3397,
-            "pct_change": -4.45
-          },
-          "note": "Calculated as (Price per Sqft / Hourly Earnings)"
-        },
         "office_worker_ratio": {
           "latest_value": 9.1863,
           "latest_date": "2026-02-01",
@@ -1860,7 +1766,7 @@
       "metro_name": "Boston-Cambridge-Newton",
       "primary_city": "Boston",
       "civilian_population": 4192070,
-      "metrics_processed": 11,
+      "metrics_processed": 10,
       "data": {
         "unemployment_rate": {
           "latest_value": 3.9,
@@ -2006,24 +1912,6 @@
             "pct_change": 0.28
           }
         },
-        "median_days_on_market": {
-          "latest_value": 30.0,
-          "latest_date": "2026-03-01",
-          "series_id": "MEDDAYONMAR14460",
-          "metric_name": "Median Days on Market",
-          "3month_average": 44.333333333333336,
-          "12month_average": 39.916666666666664,
-          "yoy_change": {
-            "current": 30.0,
-            "change": 5.0,
-            "pct_change": 20.0
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 44.3333,
-            "change": 6.3333,
-            "pct_change": 16.67
-          }
-        },
         "cost_of_living": {
           "latest_value": 10.7365,
           "latest_date": "2026-03-01",
@@ -2057,40 +1945,8 @@
       "metro_name": "Riverside-San Bernardino-Ontario",
       "primary_city": "Riverside",
       "civilian_population": 3753449,
-      "metrics_processed": 10,
+      "metrics_processed": 9,
       "data": {
-        "unemployment_rate": {
-          "latest_value": 5.4,
-          "latest_date": "2026-01-01",
-          "series_id": "RIVE106URN",
-          "metric_name": "Unemployment Rate",
-          "3month_average": 5.333333333333333,
-          "12month_average": 5.472727272727273,
-          "yoy_change": {
-            "current": 5.4,
-            "change": 0.1,
-            "pct_change": 1.89
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 5.3333,
-            "change": 0.1667,
-            "pct_change": 3.23
-          }
-        },
-        "civilian_labor_force": {
-          "latest_value": 59.4817,
-          "latest_date": "2026-01-01",
-          "series_id": "RIVE106LFN",
-          "metric_name": "Labor Force Participation Rate",
-          "3month_average": 60.20106666666666,
-          "yoy_change": {
-            "current": 59.4817,
-            "change": -0.0739,
-            "pct_change": -0.12
-          },
-          "3month_avg_yoy": null,
-          "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
-        },
         "all_employees": {
           "latest_value": 1710.7,
           "latest_date": "2026-02-01",
@@ -2163,6 +2019,24 @@
             "pct_change": -2.66
           }
         },
+        "building_permits": {
+          "latest_value": 1319.0,
+          "latest_date": "2026-01-01",
+          "series_id": "RIVE106BPPRIV",
+          "metric_name": "Building Permits",
+          "3month_average": 1193.0,
+          "12month_average": 1250.6666666666667,
+          "yoy_change": {
+            "current": 1319.0,
+            "change": 158.0,
+            "pct_change": 13.61
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 1193.0,
+            "change": 182.3333,
+            "pct_change": 18.04
+          }
+        },
         "price_per_sqft": {
           "latest_value": 338.0,
           "latest_date": "2026-03-01",
@@ -2232,8 +2106,26 @@
       "metro_name": "San Francisco-Oakland-Fremont",
       "primary_city": "San Francisco",
       "civilian_population": 3891217,
-      "metrics_processed": 9,
+      "metrics_processed": 11,
       "data": {
+        "unemployment_rate": {
+          "latest_value": 4.4,
+          "latest_date": "2026-01-01",
+          "series_id": "SANF806URN",
+          "metric_name": "Unemployment Rate",
+          "3month_average": 4.3,
+          "12month_average": 4.372727272727273,
+          "yoy_change": {
+            "current": 4.4,
+            "change": 0.0,
+            "pct_change": 0.0
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 4.3,
+            "change": 0.0667,
+            "pct_change": 1.57
+          }
+        },
         "civilian_labor_force": {
           "latest_value": 63.4273,
           "latest_date": "2026-01-01",
@@ -2356,6 +2248,24 @@
             "pct_change": -2.82
           }
         },
+        "median_days_on_market": {
+          "latest_value": 29.0,
+          "latest_date": "2026-03-01",
+          "series_id": "MEDDAYONMAR41860",
+          "metric_name": "Median Days on Market",
+          "3month_average": 38.0,
+          "12month_average": 42.25,
+          "yoy_change": {
+            "current": 29.0,
+            "change": -2.0,
+            "pct_change": -6.45
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 38.0,
+            "change": -1.0,
+            "pct_change": -2.56
+          }
+        },
         "cost_of_living": {
           "latest_value": 12.9556,
           "latest_date": "2026-03-01",
@@ -2389,7 +2299,7 @@
       "metro_name": "Detroit-Warren-Dearborn",
       "primary_city": "Detroit",
       "civilian_population": 3577723,
-      "metrics_processed": 9,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 5.3,
@@ -2477,6 +2387,24 @@
             "pct_change": -0.39
           }
         },
+        "office_workers": {
+          "latest_value": 369.1738,
+          "latest_date": "2026-02-01",
+          "series_id": "DETR826PBSV",
+          "metric_name": "Office Workers",
+          "3month_average": 369.24903444091666,
+          "12month_average": 371.5064957971982,
+          "yoy_change": {
+            "current": 369.1738,
+            "change": -6.2488,
+            "pct_change": -1.66
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 369.249,
+            "change": -6.6215,
+            "pct_change": -1.76
+          }
+        },
         "building_permits": {
           "latest_value": 312.0,
           "latest_date": "2026-01-01",
@@ -2543,6 +2471,19 @@
             "pct_change": -1.19
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
+        },
+        "office_worker_ratio": {
+          "latest_value": 10.3187,
+          "latest_date": "2026-02-01",
+          "series_id": "DETR826PBSV",
+          "metric_name": "Office Worker Ratio",
+          "3month_average": 10.3208,
+          "yoy_change": {
+            "current": 10.3187,
+            "change": -0.1747,
+            "pct_change": -1.66
+          },
+          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
@@ -2744,7 +2685,7 @@
       "metro_name": "Minneapolis-St. Paul-Bloomington",
       "primary_city": "Minneapolis",
       "civilian_population": 3011046,
-      "metrics_processed": 10,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 4.8,
@@ -2884,6 +2825,24 @@
             "current_3mo": 212.3333,
             "change": -3.3333,
             "pct_change": -1.55
+          }
+        },
+        "median_days_on_market": {
+          "latest_value": 36.0,
+          "latest_date": "2026-03-01",
+          "series_id": "MEDDAYONMAR33460",
+          "metric_name": "Median Days on Market",
+          "3month_average": 46.333333333333336,
+          "12month_average": 41.833333333333336,
+          "yoy_change": {
+            "current": 36.0,
+            "change": 3.0,
+            "pct_change": 9.09
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 46.3333,
+            "change": 2.0,
+            "pct_change": 4.51
           }
         },
         "cost_of_living": {
@@ -3305,7 +3264,7 @@
       "metro_name": "Denver-Aurora-Centennial",
       "primary_city": "Denver",
       "civilian_population": 2504165,
-      "metrics_processed": 11,
+      "metrics_processed": 9,
       "data": {
         "unemployment_rate": {
           "latest_value": 4.2,
@@ -3355,24 +3314,6 @@
             "current_3mo": 1628.8333,
             "change": -3.3,
             "pct_change": -0.2
-          }
-        },
-        "hourly_earnings": {
-          "latest_value": 42.4,
-          "latest_date": "2026-02-01",
-          "series_id": "SMU08197400500000003",
-          "metric_name": "Hourly Earnings",
-          "3month_average": 43.25333333333333,
-          "12month_average": 42.51,
-          "yoy_change": {
-            "current": 42.4,
-            "change": -0.35,
-            "pct_change": -0.82
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 43.2533,
-            "change": 1.1,
-            "pct_change": 2.61
           }
         },
         "weekly_hours": {
@@ -3464,19 +3405,6 @@
             "change": -1.0,
             "pct_change": -1.99
           }
-        },
-        "cost_of_living": {
-          "latest_value": 6.8868,
-          "latest_date": "2026-03-01",
-          "series_id": null,
-          "metric_name": "Cost of Living",
-          "3month_average": 6.7047,
-          "yoy_change": {
-            "current": 6.8868,
-            "change": -0.1775,
-            "pct_change": -2.51
-          },
-          "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
         "office_worker_ratio": {
           "latest_value": 12.5436,
@@ -3691,7 +3619,7 @@
       "metro_name": "Charlotte-Concord-Gastonia",
       "primary_city": "Charlotte",
       "civilian_population": 2309074,
-      "metrics_processed": 11,
+      "metrics_processed": 9,
       "data": {
         "unemployment_rate": {
           "latest_value": 4.3,
@@ -3779,24 +3707,6 @@
             "pct_change": -0.3
           }
         },
-        "office_workers": {
-          "latest_value": 222.5788,
-          "latest_date": "2026-02-01",
-          "series_id": "CHAR737PBSV",
-          "metric_name": "Office Workers",
-          "3month_average": 222.55339592705567,
-          "12month_average": 220.83935132152925,
-          "yoy_change": {
-            "current": 222.5788,
-            "change": 3.6581,
-            "pct_change": 1.67
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 222.5534,
-            "change": 3.5247,
-            "pct_change": 1.61
-          }
-        },
         "building_permits": {
           "latest_value": 1431.0,
           "latest_date": "2026-01-01",
@@ -3863,19 +3773,6 @@
             "pct_change": -3.18
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
-        },
-        "office_worker_ratio": {
-          "latest_value": 9.6393,
-          "latest_date": "2026-02-01",
-          "series_id": "CHAR737PBSV",
-          "metric_name": "Office Worker Ratio",
-          "3month_average": 9.6382,
-          "yoy_change": {
-            "current": 9.6393,
-            "change": 0.1584,
-            "pct_change": 1.67
-          },
-          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
@@ -4270,7 +4167,7 @@
       "metro_name": "San Antonio-New Braunfels",
       "primary_city": "San Antonio",
       "civilian_population": 2188601,
-      "metrics_processed": 11,
+      "metrics_processed": 10,
       "data": {
         "unemployment_rate": {
           "latest_value": 4.3,
@@ -4303,24 +4200,6 @@
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
-        },
-        "all_employees": {
-          "latest_value": 1184.9,
-          "latest_date": "2026-02-01",
-          "series_id": "SANA748NAN",
-          "metric_name": "All Employees",
-          "3month_average": 1187.7333333333333,
-          "12month_average": 1187.7666666666667,
-          "yoy_change": {
-            "current": 1184.9,
-            "change": -0.6,
-            "pct_change": -0.05
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 1187.7333,
-            "change": 0.8667,
-            "pct_change": 0.07
-          }
         },
         "hourly_earnings": {
           "latest_value": 32.47,
@@ -4656,7 +4535,7 @@
       "metro_name": "Portland-Vancouver-Hillsboro",
       "primary_city": "Portland",
       "civilian_population": 2102338,
-      "metrics_processed": 5,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 5.5,
@@ -4726,6 +4605,42 @@
             "pct_change": 5.15
           }
         },
+        "weekly_hours": {
+          "latest_value": 34.2,
+          "latest_date": "2026-02-01",
+          "series_id": "SMU41389000500000002",
+          "metric_name": "Weekly Hours",
+          "3month_average": 33.66666666666667,
+          "12month_average": 34.25833333333333,
+          "yoy_change": {
+            "current": 34.2,
+            "change": 0.2,
+            "pct_change": 0.59
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 33.6667,
+            "change": -0.8,
+            "pct_change": -2.32
+          }
+        },
+        "office_workers": {
+          "latest_value": 184.1876,
+          "latest_date": "2026-02-01",
+          "series_id": "PORT941PBSV",
+          "metric_name": "Office Workers",
+          "3month_average": 185.71226755988468,
+          "12month_average": 189.58840297497943,
+          "yoy_change": {
+            "current": 184.1876,
+            "change": -8.7893,
+            "pct_change": -4.55
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 185.7123,
+            "change": -7.7581,
+            "pct_change": -4.01
+          }
+        },
         "building_permits": {
           "latest_value": 691.0,
           "latest_date": "2026-01-01",
@@ -4743,6 +4658,68 @@
             "change": -147.6667,
             "pct_change": -18.14
           }
+        },
+        "price_per_sqft": {
+          "latest_value": 312.0,
+          "latest_date": "2026-03-01",
+          "series_id": "MEDLISPRIPERSQUFEE38900",
+          "metric_name": "Price per Sqft",
+          "3month_average": 312.0,
+          "12month_average": 312.5833333333333,
+          "yoy_change": {
+            "current": 312.0,
+            "change": -8.0,
+            "pct_change": -2.5
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 312.0,
+            "change": -7.0,
+            "pct_change": -2.19
+          }
+        },
+        "median_days_on_market": {
+          "latest_value": 49.0,
+          "latest_date": "2026-03-01",
+          "series_id": "MEDDAYONMAR38900",
+          "metric_name": "Median Days on Market",
+          "3month_average": 68.0,
+          "12month_average": 62.75,
+          "yoy_change": {
+            "current": 49.0,
+            "change": -2.0,
+            "pct_change": -3.92
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 68.0,
+            "change": -1.3333,
+            "pct_change": -1.92
+          }
+        },
+        "cost_of_living": {
+          "latest_value": 7.4605,
+          "latest_date": "2026-03-01",
+          "series_id": null,
+          "metric_name": "Cost of Living",
+          "3month_average": 7.4832,
+          "yoy_change": {
+            "current": 7.4605,
+            "change": -0.5555,
+            "pct_change": -6.93
+          },
+          "note": "Calculated as (Price per Sqft / Hourly Earnings)"
+        },
+        "office_worker_ratio": {
+          "latest_value": 8.7611,
+          "latest_date": "2026-02-01",
+          "series_id": "PORT941PBSV",
+          "metric_name": "Office Worker Ratio",
+          "3month_average": 8.8336,
+          "yoy_change": {
+            "current": 8.7611,
+            "change": -0.4181,
+            "pct_change": -4.55
+          },
+          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
@@ -4751,7 +4728,7 @@
       "metro_name": "Sacramento-Roseville-Folsom",
       "primary_city": "Sacramento",
       "civilian_population": 1989703,
-      "metrics_processed": 10,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 5.2,
@@ -4770,6 +4747,20 @@
             "change": 0.2667,
             "pct_change": 5.59
           }
+        },
+        "civilian_labor_force": {
+          "latest_value": 59.9603,
+          "latest_date": "2026-01-01",
+          "series_id": "SACR906LFN",
+          "metric_name": "Labor Force Participation Rate",
+          "3month_average": 60.19813333333333,
+          "yoy_change": {
+            "current": 59.9603,
+            "change": 0.5001,
+            "pct_change": 0.84
+          },
+          "3month_avg_yoy": null,
+          "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
         },
         "all_employees": {
           "latest_value": 1100.9,
@@ -5316,7 +5307,7 @@
       "metro_name": "Cincinnati",
       "primary_city": "Cincinnati",
       "civilian_population": 1850445,
-      "metrics_processed": 11,
+      "metrics_processed": 6,
       "data": {
         "unemployment_rate": {
           "latest_value": 4.2,
@@ -5404,60 +5395,6 @@
             "pct_change": 0.3
           }
         },
-        "office_workers": {
-          "latest_value": 181.8631,
-          "latest_date": "2026-02-01",
-          "series_id": "CINC139PBSV",
-          "metric_name": "Office Workers",
-          "3month_average": 181.96691415665833,
-          "12month_average": 181.59770790803074,
-          "yoy_change": {
-            "current": 181.8631,
-            "change": 0.704,
-            "pct_change": 0.39
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 181.9669,
-            "change": 1.4968,
-            "pct_change": 0.83
-          }
-        },
-        "building_permits": {
-          "latest_value": 980.0,
-          "latest_date": "2026-01-01",
-          "series_id": "CINC139BPPRIV",
-          "metric_name": "Building Permits",
-          "3month_average": 688.6666666666666,
-          "12month_average": 660.4166666666666,
-          "yoy_change": {
-            "current": 980.0,
-            "change": 516.0,
-            "pct_change": 111.21
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 688.6667,
-            "change": 251.3333,
-            "pct_change": 57.47
-          }
-        },
-        "price_per_sqft": {
-          "latest_value": 194.0,
-          "latest_date": "2026-03-01",
-          "series_id": "MEDLISPRIPERSQUFEE17140",
-          "metric_name": "Price per Sqft",
-          "3month_average": 191.66666666666666,
-          "12month_average": 191.5,
-          "yoy_change": {
-            "current": 194.0,
-            "change": 4.0,
-            "pct_change": 2.11
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 191.6667,
-            "change": 4.3333,
-            "pct_change": 2.31
-          }
-        },
         "median_days_on_market": {
           "latest_value": 45.0,
           "latest_date": "2026-03-01",
@@ -5475,32 +5412,6 @@
             "change": 2.6667,
             "pct_change": 5.41
           }
-        },
-        "cost_of_living": {
-          "latest_value": 5.5429,
-          "latest_date": "2026-03-01",
-          "series_id": null,
-          "metric_name": "Cost of Living",
-          "3month_average": 5.576,
-          "yoy_change": {
-            "current": 5.5429,
-            "change": -0.0768,
-            "pct_change": -1.37
-          },
-          "note": "Calculated as (Price per Sqft / Hourly Earnings)"
-        },
-        "office_worker_ratio": {
-          "latest_value": 9.8281,
-          "latest_date": "2026-02-01",
-          "series_id": "CINC139PBSV",
-          "metric_name": "Office Worker Ratio",
-          "3month_average": 9.8337,
-          "yoy_change": {
-            "current": 9.8281,
-            "change": 0.038,
-            "pct_change": 0.39
-          },
-          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
@@ -5702,8 +5613,40 @@
       "metro_name": "Columbus",
       "primary_city": "Columbus",
       "civilian_population": 1779987,
-      "metrics_processed": 9,
+      "metrics_processed": 11,
       "data": {
+        "unemployment_rate": {
+          "latest_value": 4.1,
+          "latest_date": "2026-01-01",
+          "series_id": "COLU139URN",
+          "metric_name": "Unemployment Rate",
+          "3month_average": 3.7666666666666666,
+          "12month_average": 4.372727272727273,
+          "yoy_change": {
+            "current": 4.1,
+            "change": -0.7,
+            "pct_change": -14.58
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 3.7667,
+            "change": -0.4667,
+            "pct_change": -11.02
+          }
+        },
+        "civilian_labor_force": {
+          "latest_value": 65.2664,
+          "latest_date": "2026-01-01",
+          "series_id": "COLU139LFN",
+          "metric_name": "Labor Force Participation Rate",
+          "3month_average": 65.63863333333333,
+          "yoy_change": {
+            "current": 65.2664,
+            "change": 0.3127,
+            "pct_change": 0.48
+          },
+          "3month_avg_yoy": null,
+          "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
+        },
         "all_employees": {
           "latest_value": 1174.0,
           "latest_date": "2026-02-01",
@@ -6056,7 +5999,7 @@
       "metro_name": "Cleveland",
       "primary_city": "Cleveland",
       "civilian_population": 1785860,
-      "metrics_processed": 7,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 3.4,
@@ -6112,6 +6055,42 @@
             "pct_change": 0.79
           }
         },
+        "hourly_earnings": {
+          "latest_value": 33.79,
+          "latest_date": "2026-02-01",
+          "series_id": "SMU39174100500000003",
+          "metric_name": "Hourly Earnings",
+          "3month_average": 33.806666666666665,
+          "12month_average": 33.80083333333333,
+          "yoy_change": {
+            "current": 33.79,
+            "change": -0.23,
+            "pct_change": -0.68
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 33.8067,
+            "change": -0.16,
+            "pct_change": -0.47
+          }
+        },
+        "weekly_hours": {
+          "latest_value": 34.4,
+          "latest_date": "2026-02-01",
+          "series_id": "SMU39174100500000002",
+          "metric_name": "Weekly Hours",
+          "3month_average": 34.1,
+          "12month_average": 34.516666666666666,
+          "yoy_change": {
+            "current": 34.4,
+            "change": -0.6,
+            "pct_change": -1.71
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 34.1,
+            "change": -0.5667,
+            "pct_change": -1.63
+          }
+        },
         "office_workers": {
           "latest_value": 154.4856,
           "latest_date": "2024-12-01",
@@ -6148,6 +6127,24 @@
             "pct_change": 11.14
           }
         },
+        "price_per_sqft": {
+          "latest_value": 143.0,
+          "latest_date": "2024-12-01",
+          "series_id": "MEDLISPRIPERSQUFEE17460",
+          "metric_name": "Price per Sqft",
+          "3month_average": 143.33333333333334,
+          "12month_average": 141.08333333333334,
+          "yoy_change": {
+            "current": 143.0,
+            "change": 17.0,
+            "pct_change": 13.49
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 143.3333,
+            "change": 16.3333,
+            "pct_change": 12.86
+          }
+        },
         "median_days_on_market": {
           "latest_value": 55.0,
           "latest_date": "2024-12-01",
@@ -6165,6 +6162,19 @@
             "change": 2.3333,
             "pct_change": 5.19
           }
+        },
+        "cost_of_living": {
+          "latest_value": 4.232,
+          "latest_date": "2024-12-01",
+          "series_id": null,
+          "metric_name": "Cost of Living",
+          "3month_average": 4.2398,
+          "yoy_change": {
+            "current": 4.232,
+            "change": 0.5283,
+            "pct_change": 14.26
+          },
+          "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
         "office_worker_ratio": {
           "latest_value": 8.6505,
@@ -6765,7 +6775,7 @@
       "metro_name": "Jacksonville",
       "primary_city": "Jacksonville",
       "civilian_population": 1427111,
-      "metrics_processed": 10,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 5.2,
@@ -6869,6 +6879,24 @@
             "current_3mo": 117.3736,
             "change": -1.7141,
             "pct_change": -1.44
+          }
+        },
+        "building_permits": {
+          "latest_value": 647.0,
+          "latest_date": "2026-01-01",
+          "series_id": "JACK212BPPRIV",
+          "metric_name": "Building Permits",
+          "3month_average": 653.6666666666666,
+          "12month_average": 1060.5833333333333,
+          "yoy_change": {
+            "current": 647.0,
+            "change": -418.0,
+            "pct_change": -39.25
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 653.6667,
+            "change": -317.6667,
+            "pct_change": -32.7
           }
         },
         "price_per_sqft": {
@@ -7137,7 +7165,7 @@
       "metro_name": "Milwaukee-Waukesha",
       "primary_city": "Milwaukee",
       "civilian_population": 1269593,
-      "metrics_processed": 11,
+      "metrics_processed": 10,
       "data": {
         "unemployment_rate": {
           "latest_value": 3.9,
@@ -7156,20 +7184,6 @@
             "change": 0.1,
             "pct_change": 3.09
           }
-        },
-        "civilian_labor_force": {
-          "latest_value": 62.8733,
-          "latest_date": "2026-01-01",
-          "series_id": "MILW355LFN",
-          "metric_name": "Labor Force Participation Rate",
-          "3month_average": 63.1079,
-          "yoy_change": {
-            "current": 62.8733,
-            "change": -1.8704,
-            "pct_change": -2.89
-          },
-          "3month_avg_yoy": null,
-          "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
         },
         "all_employees": {
           "latest_value": 841.3,
@@ -8488,7 +8502,7 @@
       "metro_name": "Birmingham",
       "primary_city": "Birmingham",
       "civilian_population": 955062,
-      "metrics_processed": 10,
+      "metrics_processed": 9,
       "data": {
         "unemployment_rate": {
           "latest_value": 2.8,
@@ -8576,24 +8590,6 @@
             "pct_change": 3.68
           }
         },
-        "office_workers": {
-          "latest_value": 74.5763,
-          "latest_date": "2026-02-01",
-          "series_id": "BIRM801PBSV",
-          "metric_name": "Office Workers",
-          "3month_average": 74.75270743077867,
-          "12month_average": 74.01387798017059,
-          "yoy_change": {
-            "current": 74.5763,
-            "change": 0.9279,
-            "pct_change": 1.26
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 74.7527,
-            "change": 1.1524,
-            "pct_change": 1.57
-          }
-        },
         "building_permits": {
           "latest_value": 291.0,
           "latest_date": "2026-01-01",
@@ -8630,6 +8626,24 @@
             "pct_change": 0.21
           }
         },
+        "median_days_on_market": {
+          "latest_value": 56.0,
+          "latest_date": "2026-03-01",
+          "series_id": "MEDDAYONMAR13820",
+          "metric_name": "Median Days on Market",
+          "3month_average": 68.0,
+          "12month_average": 60.75,
+          "yoy_change": {
+            "current": 56.0,
+            "change": 2.0,
+            "pct_change": 3.7
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 68.0,
+            "change": 1.3333,
+            "pct_change": 2.0
+          }
+        },
         "cost_of_living": {
           "latest_value": 4.8558,
           "latest_date": "2026-03-01",
@@ -8642,19 +8656,6 @@
             "pct_change": 3.94
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
-        },
-        "office_worker_ratio": {
-          "latest_value": 7.8085,
-          "latest_date": "2026-02-01",
-          "series_id": "BIRM801PBSV",
-          "metric_name": "Office Worker Ratio",
-          "3month_average": 7.827,
-          "yoy_change": {
-            "current": 7.8085,
-            "change": 0.0972,
-            "pct_change": 1.26
-          },
-          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
@@ -8663,7 +8664,7 @@
       "metro_name": "Fresno",
       "primary_city": "Fresno",
       "civilian_population": 908392,
-      "metrics_processed": 11,
+      "metrics_processed": 9,
       "data": {
         "unemployment_rate": {
           "latest_value": 8.8,
@@ -8713,24 +8714,6 @@
             "current_3mo": 446.5333,
             "change": 6.3,
             "pct_change": 1.43
-          }
-        },
-        "hourly_earnings": {
-          "latest_value": 32.47,
-          "latest_date": "2026-02-01",
-          "series_id": "SMU06234200500000003",
-          "metric_name": "Hourly Earnings",
-          "3month_average": 33.21333333333333,
-          "12month_average": 32.52166666666667,
-          "yoy_change": {
-            "current": 32.47,
-            "change": 1.1,
-            "pct_change": 3.51
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 33.2133,
-            "change": 2.0333,
-            "pct_change": 6.52
           }
         },
         "weekly_hours": {
@@ -8819,19 +8802,6 @@
             "change": 4.0,
             "pct_change": 7.59
           }
-        },
-        "cost_of_living": {
-          "latest_value": 8.0382,
-          "latest_date": "2026-03-01",
-          "series_id": null,
-          "metric_name": "Cost of Living",
-          "3month_average": 7.8282,
-          "yoy_change": {
-            "current": 8.0382,
-            "change": -0.3456,
-            "pct_change": -4.12
-          },
-          "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
         "office_worker_ratio": {
           "latest_value": 3.982,
