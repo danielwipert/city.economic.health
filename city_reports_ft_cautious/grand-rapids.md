@@ -1,33 +1,33 @@
 # Grand Rapids-Wyoming-Kentwood
 
-**Grade: B- (Below Average) | 47.3th percentile | April 2026**
+**Grade: C+ (Poor) | 40.4th percentile | May 2026**
 
 ---
 
-The Grand Rapids-Wyoming-Kentwood metro area has an overall grade of B- with a composite score ranking at the 47.3th percentile out of 50 US metros. This city's economic character is most defined by its low labor force growth rate of -3.97% YoY and its high building permits growth rate of +55.17% YoY, indicating a potential mismatch between workforce expansion and housing development. The labor demand composite score of 3.85, ranking at the 46th percentile, also suggests a near-median performance in terms of job growth and hours worked.
+The Grand Rapids-Wyoming-Kentwood metro area has an overall grade of C+ with a composite score ranking it 40.4th percentile out of 50 US metros. The city's economic character is most defined by its low labor force growth rate of -5.05% YoY and its high building permits growth rate of +55.17% YoY, indicating a mismatch between workforce expansion and housing development. The labor demand composite score of 3.85 also suggests a near median performance.
 
 **Labor Demand**
-The employment growth rate in Grand Rapids-Wyoming-Kentwood is -0.32% YoY, and weekly hours are deviating -0.822% from the city's own 12-month baseline, indicating a contraction in labor demand. This combination signals a lack of genuine demand expansion, as hours are not running above trend during a period of job losses. The labor demand composite score of 3.85, although near median, suggests a relatively weak labor market.
+The employment growth rate is -0.32% YoY, and weekly hours are deviating -0.822% from the city's own 12-month baseline, signaling a contraction in labor demand. This combination indicates a lack of genuine demand expansion, with hours below trend during a period of job losses, suggesting a survivor squeeze where remaining workers are absorbing the load of eliminated roles. The labor demand composite score of 3.85 ranks near the median at 43rd percentile.
 
 **Unemployment**
-The unemployment rate in Grand Rapids-Wyoming-Kentwood is 4.50%, ranking at the 65th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and wage pressure may be higher. With a tight market, companies may need to offer competitive salaries to attract top talent.
+The unemployment rate is not available, but the city's percentile rank of 36th suggests a below-average performance, implying a relatively loose labor market. This means that businesses may find it easier to hire in this city, but may also face weaker local consumer demand. The lack of tightness in the labor market may lead to less wage pressure for employers.
 
 **Wage Growth**
-The year-over-year wage growth rate in Grand Rapids-Wyoming-Kentwood is +3.85%, ranking at the 53rd percentile, indicating moderate wage growth. This rate suggests that labor costs for employers are rising, but not excessively, and worker purchasing power is increasing. As a result, businesses may need to balance their labor costs with the benefits of a moderately growing workforce.
+The year-over-year wage growth rate is +3.85%, ranking near the median at 52nd percentile, indicating moderate wage growth. This rate suggests that labor costs for employers are rising, but not excessively, and worker purchasing power is increasing. The moderate wage growth may attract workers who value a relatively stable cost of living.
 
 **Cost of Living**
-Grand Rapids-Wyoming-Kentwood has a cost of living percentile rank of 9th, with a PSF of $221/sqft and an earnings ratio of $33.08/hr, resulting in a ratio of 6.68. This indicates that the city is relatively expensive, making it challenging to attract talent without offering wage premiums. The 7.3% YoY increase in PSF further exacerbates the affordability issue.
+The city's cost of living is relatively expensive, with a percentile rank of 7th, and a PSF to earnings ratio of $222/sqft vs $33.08/hr, resulting in a ratio of 6.71. The PSF is rising +7.2% YoY, making the city less affordable. This means that the city may struggle to attract talent without offering wage premiums to offset the high cost of living.
 
 **Labor Force Growth**
-The civilian labor force in Grand Rapids-Wyoming-Kentwood is contracting at a rate of -3.97% YoY, indicating a shrinking labor pool. This contraction poses a significant structural headwind for hiring, as the supply of available workers is decreasing. Businesses may need to consider alternative locations or strategies to mitigate this risk.
+The civilian labor force is contracting at a rate of -5.05% YoY, ranking at the bottom tier of 0th percentile, indicating a shrinking labor pool. This contraction implies a structural headwind for hiring, making it challenging for businesses to find and retain workers. The declining labor force supply may limit the city's ability to support business growth.
 
 **Building Permits**
-The number of building permits in Grand Rapids-Wyoming-Kentwood has increased by +55.17% YoY, signaling an expansion in housing supply. This growth suggests that future affordability and workforce accommodation may improve, as more housing options become available. However, the current cost of living and labor force growth rates may offset some of these benefits.
+The city is experiencing a significant increase in building permits, with a +55.17% YoY change, ranking at the top tier of 89th percentile. This surge in permits suggests that housing supply is expanding, which may improve affordability and accommodate a growing workforce in the future. The increase in building permits is a positive signal for the city's ability to support workforce growth.
 
 **Days on Market**
-The median days on market in Grand Rapids-Wyoming-Kentwood is 44 days, with a +15.8% YoY increase, indicating a slower market. This means that homes are sitting on the market for longer, making it more accessible for relocating workers to find housing. However, this trend may also signal a normalization of the market, rather than a significant increase in demand.
+The current median days on market is 37 days, with a +12.1% YoY increase, ranking at the top tier of 93rd percentile. This means that homes are sitting longer on the market, indicating a slower and more buyer-friendly market. For workers relocating to this city, the slower market may make it easier to find and purchase a home.
 
 **Office Economy**
-The office economy in Grand Rapids-Wyoming-Kentwood has a percentile rank of 9th, indicating a relatively shallow professional talent pool. This city is best suited for businesses that do not require a deep knowledge-economy talent pool, such as industrial or logistics-dominant companies. However, it may not be the ideal location for tech, finance, or consulting firms that rely on specialized office workers.
+The city's professional and office worker share is 0.71, ranking at the bottom tier of 6th percentile, indicating a relatively shallow talent pool. This suggests that the city is less suited for businesses that require a deep knowledge-economy talent pool, such as tech, finance, or consulting firms. The city may be more suitable for industrial or logistics-dominant businesses.
 
-The Grand Rapids-Wyoming-Kentwood metro area offers a unique combination of moderate wage growth and expanding housing supply, but its low labor force growth rate and high cost of living pose significant challenges for businesses. The single biggest risk or constraint for decision-makers is the shrinking labor pool, which may limit the city's ability to support long-term business growth and expansion.
+The Grand Rapids-Wyoming-Kentwood metro area offers a unique combination of a relatively loose labor market and a growing housing supply, but its low labor force growth rate and high cost of living are significant constraints. The single biggest risk for businesses considering this location is the shrinking labor pool, which may limit their ability to find and retain workers, making it essential to factor in strategies to attract and retain talent.

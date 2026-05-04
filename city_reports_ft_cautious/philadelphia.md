@@ -1,33 +1,33 @@
 # Philadelphia-Camden-Wilmington
 
-**Grade: C+ (Poor) | 43.4th percentile | April 2026**
+**Grade: C (Very Poor) | 37.4th percentile | May 2026**
 
 ---
 
-The Philadelphia-Camden-Wilmington metro area has an overall grade of C+ with a composite score ranking at the 43.4th percentile out of 50 US metros. This city's economic character is most defined by its weak labor demand, with a labor demand composite score of 2.48, ranking in the bottom tier at the 6th percentile, and its labor force growth, which is expanding at a rate of 1.05% year-over-year. The combination of these metrics suggests a city with a struggling job market but a growing workforce.
+The Philadelphia-Camden-Wilmington metro area has an overall grade of C, ranking 37.4th percentile out of 50 US metros, with a composite score driven largely by its weak labor demand and moderate unemployment rate. The labor demand composite score of 2.48, combining a -0.24% employment growth rate and a +1.480% weekly hours deviation, signals a contraction in labor demand. This is further exacerbated by the city's low employment growth rate, which is a key defining characteristic of its current economic state.
 
 **Labor Demand**
-The employment growth rate in Philadelphia-Camden-Wilmington is -0.24% year-over-year, and weekly hours are deviating 1.480% above the city's own 12-month baseline. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. The labor demand composite score of 2.48, ranking in the bottom tier at the 6th percentile, further reinforces this signal.
+The employment growth rate of -0.24% and weekly hours deviation of +1.480% indicate a labor market where hours are being worked above trend, but jobs are being lost, suggesting a survivor squeeze where remaining workers are absorbing the load of eliminated roles. This combination signals a contraction in labor demand, rather than genuine demand expansion. The low labor demand composite score of 2.48, ranking in the 6th percentile, reinforces this assessment.
 
 **Unemployment**
-The unemployment rate in Philadelphia-Camden-Wilmington is 4.50%, ranking near the median at the 44th percentile. This indicates a market with some slack, rather than a tight labor market. For a business trying to hire in this city, the relatively higher unemployment rate means easier staffing, but also weaker local consumer demand.
+Although the exact unemployment rate is not available, the city's unemployment rate ranks in the 36th percentile, indicating a moderate level of unemployment. This suggests that the market has some slack, making it slightly easier for businesses to hire, but may also imply weaker local consumer demand. The practical implication for a business trying to hire in this city is that it may face less competition for talent compared to cities with tighter labor markets.
 
 **Wage Growth**
-Unfortunately, the year-over-year wage growth rate is not available for Philadelphia-Camden-Wilmington. Without this data, it is difficult to assess the implications for employer labor costs and worker purchasing power. However, a near-median ranking of 50th percentile suggests that wage growth may be moderate, neither exceptionally strong nor weak.
+With a wage growth rate ranking near the median at the 50th percentile, the city's hourly earnings are rising at a moderate pace. This moderate wage growth suggests that labor costs for employers are increasing, but at a manageable rate, while workers are experiencing some improvement in their purchasing power. However, the exact YoY wage growth rate is not available, making it difficult to determine the precise impact on employer costs and worker purchasing power.
 
 **Cost of Living**
-Philadelphia-Camden-Wilmington has a cost of living ranking near the median at the 50th percentile. This suggests that the city is neither exceptionally affordable nor expensive relative to its peers. As a result, the city may not have a significant talent attraction advantage without offering wage premiums to compensate for the cost of living.
+The city's cost of living ranks near the median at the 50th percentile, indicating a moderate level of affordability. This means that the city is neither particularly attractive nor unattractive in terms of cost of living, and businesses may not need to offer significant wage premiums to compensate for high living costs. However, the exact PSF and earnings figures are not available, making it difficult to determine the precise affordability of the city.
 
 **Labor Force Growth**
-The civilian labor force in Philadelphia-Camden-Wilmington is growing at a rate of 1.05% year-over-year, ranking above average at the 77th percentile. This indicates that the workforce supply is expanding, which is a positive signal for hiring capacity. Businesses looking to hire in this city may find a growing pool of potential employees.
+The labor force growth rate is not available, but the city's ranking near the median at the 50th percentile suggests that the labor force is likely growing at a moderate pace. If the labor force is indeed expanding, this would imply that the supply of workers is increasing, making it easier for businesses to hire and find talent. However, without the exact growth rate, it is difficult to determine the precise implication for hiring capacity.
 
 **Building Permits**
-The number of residential building permits in Philadelphia-Camden-Wilmington is increasing by 4.14% year-over-year, ranking above average at the 65th percentile. This suggests that housing supply is expanding, which may improve affordability and accommodate a growing workforce. However, the current pace of growth may not be sufficient to meet future demand.
+The city's building permits are increasing at a rate of +4.14% YoY, ranking in the 60th percentile, indicating that housing supply is expanding. This suggests that developer confidence is rising, and future housing supply is likely to increase, which could improve affordability and make it easier for workers to relocate to the city. The increasing building permits signal a positive trend for future workforce accommodation and affordability.
 
 **Days on Market**
-The median days on market for homes in Philadelphia-Camden-Wilmington is 43 days, with a year-over-year increase of 10.3%, ranking in the top tier at the 81st percentile. This indicates a slower market, where homes are sitting longer before being sold. For a worker relocating to this city, the market may be more accessible, with less competition for housing.
+The current median days on market is 36 days, with a YoY increase of +2.9%, ranking in the 53rd percentile. This suggests that the housing market is normalizing, with homes taking slightly longer to sell compared to the previous year. For a worker relocating to this city, the market is relatively accessible, with homes not selling extremely quickly, giving them a reasonable amount of time to find a suitable property.
 
 **Office Economy**
-The share of jobs in professional and office sectors in Philadelphia-Camden-Wilmington ranks near the median at the 50th percentile. This suggests a moderate depth of professional talent pool, making the city suited for a variety of businesses, but not exceptionally well-suited for tech, finance, or consulting firms that require a deep knowledge-economy talent pool.
+The city's office economy ranks near the median at the 50th percentile, indicating a moderate depth of professional talent pool. This suggests that the city is suited for a variety of businesses, but may not have a particularly deep pool of specialized talent in areas like tech, finance, or consulting. The city's moderate office economy ranking makes it a viable option for businesses that do not require a highly specialized workforce.
 
-The Philadelphia-Camden-Wilmington metro area offers a growing workforce and expanding housing supply, but its weak labor demand and moderate cost of living may pose challenges for businesses looking to establish a presence in the city. The single biggest risk or constraint for a decision-maker is the city's struggling job market, which may limit the availability of skilled workers and hinder business growth.
+The Philadelphia-Camden-Wilmington metro area offers a moderate business environment, with some positive trends in building permits and a normalizing housing market. However, the single biggest risk or constraint for a decision-maker is the city's weak labor demand, which could make it challenging for businesses to find and retain talent in the long term.

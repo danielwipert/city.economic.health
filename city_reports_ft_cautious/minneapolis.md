@@ -1,33 +1,33 @@
 # Minneapolis-St. Paul-Bloomington
 
-**Grade: C (Very Poor) | 36.8th percentile | April 2026**
+**Grade: C- (Critical) | 27.4th percentile | May 2026**
 
 ---
 
-The Minneapolis-St. Paul-Bloomington metro area has an overall grade of C, ranking 36.8th percentile out of 50 US metros, with a labor demand composite score of 3.94. This city's economic character is most defined by its near-median labor demand and bottom-tier unemployment rate of 4.80%, which signals a challenging hiring environment. The combination of -0.26% employment growth and -1.235% weekly hours deviation from trend also indicates a contraction in labor demand.
+The Minneapolis-St. Paul-Bloomington metro area has an overall grade of C- with a composite score ranking 27.4th percentile out of 50 US metros. The city's current economic character is most defined by its low unemployment rate of 4.80% and stagnant wage growth of +1.56% year-over-year. These metrics signal a tight labor market with limited room for wage growth.
 
 **Labor Demand**
-The employment growth rate is -0.26% and weekly hours are deviating -1.235% from the city's own trend, signaling a contraction in labor demand. This combination indicates that the city is experiencing a decline in job creation and a reduction in working hours, which may lead to a surplus of labor. As a result, businesses may face a more competitive hiring environment, but also potentially lower labor costs.
+The employment growth rate is not available, but weekly hours are deviating -1.235% from the city's own 12-month baseline, resulting in a labor demand composite score of 3.77, which ranks below average at the 39th percentile. This combination signals a contraction in labor demand, indicating that the city is not adding jobs at a rate that would suggest genuine demand expansion. The negative hours deviation suggests that the existing workforce may be experiencing a survivor squeeze.
 
 **Unemployment**
-The unemployment rate is 4.80%, ranking in the bottom tier at the 12th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in finding and hiring qualified workers, and may need to offer higher wages to attract talent. The tight labor market also suggests that workers may have more bargaining power, which could drive up labor costs.
+The unemployment rate in Minneapolis-St. Paul-Bloomington is 4.80%, ranking at the 11th percentile, indicating a very tight labor market with limited slack. This means that businesses trying to hire in this city will face significant competition for talent, leading to potential wage pressure. The low unemployment rate makes it harder for companies to staff their operations without offering competitive salaries.
 
 **Wage Growth**
-The year-over-year wage growth rate is +1.56%, ranking in the bottom tier at the 17th percentile, indicating stagnant wage growth. This slow wage growth may help keep labor costs flat for employers, but it also means that workers may have limited purchasing power and bargaining ability. As a result, businesses may not need to worry about rapidly rising labor costs, but may also struggle to attract and retain top talent.
+The year-over-year wage growth rate in the city is +1.56%, ranking at the 15th percentile, which is considered stagnant. This slow wage growth implies that labor costs for employers will remain relatively flat, but workers will have weak bargaining power. The stagnant wage growth may limit the purchasing power of workers, potentially affecting local consumer demand.
 
 **Cost of Living**
-The city has a cost of living ratio of $214/sqft to $40.12/hr, with a percentile rank of 58th, indicating a near-median level of affordability. The fact that PSF is falling -1.4% YoY relative to wages suggests that the city is becoming more affordable, which could be a talent attraction advantage. However, the city is still not particularly affordable compared to its peers, which may require businesses to offer wage premiums to attract and retain workers.
+The cost of living in Minneapolis-St. Paul-Bloomington is near the median, with a percentile rank of 48th, and a price-to-salary ratio of $215/sqft to $40.12/hr, resulting in a ratio of 5.36. The city's cost of living is relatively affordable, with PSF decreasing by -0.9% year-over-year. This affordability makes the city attractive for talent without requiring significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of +0.33% year-over-year, ranking near the median at the 51st percentile, indicating a slowly expanding workforce supply. This moderate growth rate suggests that the labor pool is increasing, but at a slow pace, which may help businesses find new talent, but also means that the labor market may not be particularly dynamic.
+The civilian labor force in the city is contracting at a rate of -0.46% year-over-year, ranking below average at the 27th percentile. This decline in labor force supply implies that the hiring capacity of businesses in the city may be constrained, making it challenging to find and recruit new talent.
 
 **Building Permits**
-The number of building permits is declining at a rate of -12.25% year-over-year, ranking below average at the 35th percentile, indicating a tightening housing supply. This decline in building permits suggests that the city's housing supply may not be expanding quickly enough to meet demand, which could lead to future affordability challenges and make it harder for workers to relocate to the area.
+The year-over-year change in residential building permits is -12.25%, indicating a tightening of the housing supply. This decline in building permits signals that future affordability and workforce accommodation may be at risk, potentially limiting the city's ability to attract and retain talent.
 
 **Days on Market**
-The median days on market is 36 days, with a year-over-year increase of +9.1%, ranking above average at the 69th percentile, indicating a slower market. This means that homes are taking longer to sell, which could make it easier for relocating workers to find housing, but also suggests that the housing market may be normalizing after a period of rapid growth.
+The current median days on market is 33 days, with a year-over-year change of +0.0%, ranking below average at the 20th percentile. This relatively fast market means that homes are selling quickly, making it competitive for relocating workers to find housing, potentially affecting their decision to move to the city.
 
 **Office Economy**
-The city has a professional and office worker share of 0.72, ranking in the bottom tier at the 6th percentile, indicating a relatively shallow talent pool. This suggests that the city may not be well-suited for businesses that require a deep pool of professional or office workers, such as tech or finance companies, but may be more suitable for industrial or logistics-dominant businesses.
+The city's professional and office worker share is ranked at the 15th percentile, indicating a relatively shallow talent pool. This makes the city less suited for businesses that require a deep knowledge-economy talent pool, such as tech, finance, or consulting firms, but may be more suitable for industrial or logistics-dominant economies.
 
-The Minneapolis-St. Paul-Bloomington metro area offers businesses a relatively stable labor market, but with significant challenges in terms of hiring and talent attraction. The single biggest risk or constraint for businesses in this city is the tight labor market and relatively high unemployment rate, which may drive up labor costs and make it harder to find and retain qualified workers.
+The Minneapolis-St. Paul-Bloomington metro area offers businesses a relatively affordable cost of living and a tight labor market, but the single biggest risk or constraint is the limited labor force growth and declining housing supply, which may affect the city's ability to attract and retain talent. The stagnant wage growth and competitive housing market also pose challenges for businesses looking to establish or expand operations in the city. Overall, the city's economic character is defined by its tight labor market and limited room for growth.

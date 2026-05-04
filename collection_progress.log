@@ -1,38 +1,55 @@
-[16:43:22] ================================================================================
-[16:43:22] UNIFIED ECONOMIC DATA COLLECTION (FIXED)
-[16:43:22] ================================================================================
-[16:43:22] Start Time: 2026-04-28 16:43:22
-[16:43:22] FRED API Rate Limit: 120 requests/minute
-[16:43:22] Script Delay: 1.5 seconds between calls
-[16:43:22] Expected Runtime: ~14-16 minutes
-[16:43:22] Total API Calls: 452 (2 national + 450 metros)
-[16:43:22] Observations per metric: 15 (for historical analysis)
-[16:43:22] 
-[16:44:09] FAILED [All Employees] DALL148NAN: HTTP 500 for series 'DALL148NAN'
-[16:45:18] FAILED [Price per Sqft] MEDLISPRIPERSQUFEE12060: HTTP 500 for series 'MEDLISPRIPERSQUFEE12060'
-[16:45:25] FAILED [Hourly Earnings] SMU42379640500000003: HTTP 500 for series 'SMU42379640500000003'
-[16:45:28] FAILED [Office Workers] PHIL942PBSV: HTTP 500 for series 'PHIL942PBSV'
-[16:45:34] FAILED [Unemployment Rate] PHOE004URN: HTTP 500 for series 'PHOE004URN'
-[16:45:36] FAILED [Civilian Labor Force] PHOE004LFN: HTTP 500 for series 'PHOE004LFN'
-[16:45:43] FAILED [Building Permits] PHOE004BPPRIV: HTTP 500 for series 'PHOE004BPPRIV'
-[16:45:45] FAILED [Price per Sqft] MEDLISPRIPERSQUFEE38060: HTTP 500 for series 'MEDLISPRIPERSQUFEE38060'
-[16:45:46] FAILED [Median Days on Market] MEDDAYONMAR38060: HTTP 500 for series 'MEDDAYONMAR38060'
-[16:46:00] FAILED [Median Days on Market] MEDDAYONMAR14460: HTTP 500 for series 'MEDDAYONMAR14460'
-[16:46:01] FAILED [Unemployment Rate] RIVE106URN: HTTP 500 for series 'RIVE106URN'
-[16:46:03] FAILED [Civilian Labor Force] RIVE106LFN: HTTP 500 for series 'RIVE106LFN'
-[16:47:43] FAILED [Hourly Earnings] SMU08197400500000003: HTTP 500 for series 'SMU08197400500000003'
-[16:48:13] FAILED [Office Workers] CHAR737PBSV: HTTP 500 for series 'CHAR737PBSV'
-[16:48:49] FAILED [All Employees] SANA748NAN: HTTP 500 for series 'SANA748NAN'
-[16:50:15] FAILED [Office Workers] CINC139PBSV: HTTP 500 for series 'CINC139PBSV'
-[16:50:16] FAILED [Building Permits] CINC139BPPRIV: HTTP 500 for series 'CINC139BPPRIV'
-[16:50:17] FAILED [Price per Sqft] MEDLISPRIPERSQUFEE17140: HTTP 500 for series 'MEDLISPRIPERSQUFEE17140'
-[16:52:26] FAILED [Civilian Labor Force] MILW355LFN: HTTP 500 for series 'MILW355LFN'
-[16:54:06] FAILED [Office Workers] BIRM801PBSV: HTTP 500 for series 'BIRM801PBSV'
-[16:54:17] FAILED [Hourly Earnings] SMU06234200500000003: HTTP 500 for series 'SMU06234200500000003'
-[16:54:51] 
-[16:54:51] ================================================================================
-[16:54:51] COLLECTION COMPLETE
-[16:54:51] ================================================================================
-[16:54:51] End Time: 2026-04-28 16:54:51
-[16:54:51] National Metrics Collected: 2
-[16:54:51] Metro Data Points Collected: 429
+[10:59:22] ================================================================================
+[10:59:22] UNIFIED ECONOMIC DATA COLLECTION (FIXED)
+[10:59:22] ================================================================================
+[10:59:22] Start Time: 2026-05-04 10:59:22
+[10:59:22] FRED API Rate Limit: 120 requests/minute
+[10:59:22] Script Delay: 1.5 seconds between calls
+[10:59:22] Expected Runtime: ~14-16 minutes
+[10:59:22] Total API Calls: 452 (2 national + 450 metros)
+[10:59:22] Observations per metric: 15 (for historical analysis)
+[10:59:22] 
+[11:00:22] FAILED [All Employees] DALL148NAN: HTTP 500 for series 'DALL148NAN'
+[11:00:24] FAILED [Weekly Hours] SMU48191000500000002: HTTP 500 for series 'SMU48191000500000002'
+[11:00:25] FAILED [Office Workers] DALL148PBSV: HTTP 500 for series 'DALL148PBSV'
+[11:00:31] FAILED [Building Permits] DALL148BPPRIV: HTTP 500 for series 'DALL148BPPRIV'
+[11:00:35] FAILED [Unemployment Rate] HOUS448URN: HTTP 500 for series 'HOUS448URN'
+[11:00:36] FAILED [Civilian Labor Force] HOUS448LFN: HTTP 500 for series 'HOUS448LFN'
+[11:00:39] FAILED [Hourly Earnings] SMU48264200500000003: HTTP 500 for series 'SMU48264200500000003'
+[11:00:45] FAILED [Building Permits] HOUS448BPPRIV: HTTP 500 for series 'HOUS448BPPRIV'
+[11:00:46] FAILED [Price per Sqft] MEDLISPRIPERSQUFEE26420: HTTP 500 for series 'MEDLISPRIPERSQUFEE26420'
+[11:00:46] FAILED [Median Days on Market] MEDDAYONMAR26420: HTTP 500 for series 'MEDDAYONMAR26420'
+[11:00:48] FAILED [Unemployment Rate] MIAM112URN: HTTP 500 for series 'MIAM112URN'
+[11:00:50] FAILED [Civilian Labor Force] MIAM112LFN: HTTP 500 for series 'MIAM112LFN'
+[11:00:51] FAILED [All Employees] MIAM112NAN: HTTP 500 for series 'MIAM112NAN'
+[11:00:55] FAILED [Office Workers] MIAM112PBSV: HTTP 500 for series 'MIAM112PBSV'
+[11:01:00] FAILED [Median Days on Market] MEDDAYONMAR33100: HTTP 502 for series 'MEDDAYONMAR33100'
+[11:01:01] FAILED [Unemployment Rate] WASH911URN: HTTP 500 for series 'WASH911URN'
+[11:01:03] FAILED [Civilian Labor Force] WASH911LFN: HTTP 500 for series 'WASH911LFN'
+[11:01:07] FAILED [Weekly Hours] SMU11479000500000002: HTTP 500 for series 'SMU11479000500000002'
+[11:01:31] FAILED [Unemployment Rate] PHIL942URN: HTTP 500 for series 'PHIL942URN'
+[11:01:32] FAILED [Civilian Labor Force] PHIL942LFN: HTTP 500 for series 'PHIL942LFN'
+[11:01:35] FAILED [Hourly Earnings] SMU42379640500000003: HTTP 500 for series 'SMU42379640500000003'
+[11:01:39] FAILED [Office Workers] PHIL942PBSV: HTTP 500 for series 'PHIL942PBSV'
+[11:01:41] FAILED [Price per Sqft] MEDLISPRIPERSQUFEE37980: HTTP 500 for series 'MEDLISPRIPERSQUFEE37980'
+[11:01:56] FAILED [Median Days on Market] MEDDAYONMAR38060: HTTP 500 for series 'MEDDAYONMAR38060'
+[11:02:01] FAILED [All Employees] SMS25144600000000001: HTTP 500 for series 'SMS25144600000000001'
+[11:02:53] FAILED [Civilian Labor Force] SEAT653LFN: HTTP 500 for series 'SEAT653LFN'
+[11:02:55] FAILED [All Employees] SEAT653NAN: HTTP 500 for series 'SEAT653NAN'
+[11:03:08] FAILED [All Employees] MINN427NAN: HTTP 500 for series 'MINN427NAN'
+[11:04:18] FAILED [Hourly Earnings] SMU37167400500000003: HTTP 500 for series 'SMU37167400500000003'
+[11:05:12] FAILED [Hourly Earnings] SMU48124200500000003: HTTP 500 for series 'SMU48124200500000003'
+[11:05:21] FAILED [Unemployment Rate] PORT941URN: HTTP 500 for series 'PORT941URN'
+[11:05:22] FAILED [Civilian Labor Force] PORT941LFN: HTTP 500 for series 'PORT941LFN'
+[11:05:33] FAILED [Median Days on Market] MEDDAYONMAR38900: HTTP 500 for series 'MEDDAYONMAR38900'
+[11:09:18] FAILED [Office Workers] LOIPBSV: HTTP 500 for series 'LOIPBSV'
+[11:09:20] FAILED [Building Permits] LOIBPPRIV: HTTP 500 for series 'LOIBPPRIV'
+[11:09:23] FAILED [Median Days on Market] MEDDAYONMAR31140: HTTP 500 for series 'MEDDAYONMAR31140'
+[11:10:32] FAILED [Unemployment Rate] GRAN326URN: HTTP 500 for series 'GRAN326URN'
+[11:10:56] FAILED [Price per Sqft] MEDLISPRIPERSQUFEE25540: HTTP 500 for series 'MEDLISPRIPERSQUFEE25540'
+[11:10:57] 
+[11:10:57] ================================================================================
+[11:10:57] COLLECTION COMPLETE
+[11:10:57] ================================================================================
+[11:10:57] End Time: 2026-05-04 11:10:57
+[11:10:57] National Metrics Collected: 2
+[11:10:57] Metro Data Points Collected: 412

@@ -1,33 +1,33 @@
 # Nashville-Davidson--Murfreesboro--Franklin
 
-**Grade: A- (Good) | 61.1th percentile | April 2026**
+**Grade: B+ (Above Average) | 57.1th percentile | May 2026**
 
 ---
 
-The Nashville-Davidson--Murfreesboro--Franklin metro area has an overall grade of A- with a composite score ranking at the 61.1th percentile out of 50 US metros. This city's economic character is most defined by its low unemployment rate of 3.10% and its strong labor force growth of +1.87% YoY. The combination of these metrics signals a tight labor market with expanding workforce supply.
+Nashville-Davidson--Murfreesboro--Franklin has an overall grade of B+ with a composite score ranking it at the 57.1th percentile among 50 US metros. The city's economic character is most defined by its strong labor force growth, with a year-over-year increase of 1.86%, and its low unemployment rate of 3.30%, which ranks in the 80th percentile. These metrics signal a competitive job market with a growing workforce.
 
 **Labor Demand**
-The employment growth rate is +0.05% YoY, and weekly hours are deviating +0.024% from the city's own 12-month baseline, resulting in a labor demand composite score of 4.39, which ranks at the 66th percentile. This combination signals genuine demand expansion, as hours are running above trend during a period of job growth. This indicates a strong labor market with increasing demand for workers.
+The city's employment growth rate is 0.05% year-over-year, combined with a 0.024% deviation in weekly hours above its own trend, resulting in a labor demand composite score of 4.39, which ranks in the 63rd percentile. This combination signals genuine demand expansion, as hours are running above trend during a period of job growth. This indicates a healthy labor market with increasing job opportunities.
 
 **Unemployment**
-The unemployment rate is 3.10%, ranking at the 92nd percentile, indicating a very tight labor market with little slack. This means that businesses trying to hire in this city will face significant competition for talent, leading to potential wage pressure. With such a low unemployment rate, companies may need to offer competitive salaries to attract and retain workers.
+The unemployment rate in Nashville-Davidson--Murfreesboro--Franklin is 3.30%, ranking in the 80th percentile, which means the market is relatively tight. This tight market implies that businesses may face challenges in hiring, as well as upward pressure on wages. Companies looking to staff up may need to offer competitive salaries to attract top talent.
 
 **Wage Growth**
-The year-over-year wage growth rate is +1.57%, which ranks at the 19th percentile, indicating stagnant wage growth. This slow wage growth means that employer labor costs are not rising rapidly, but it also implies weak bargaining power for workers and potentially limited purchasing power. As a result, businesses may not face significant labor cost increases, but workers may not have strong disposable income.
+The year-over-year wage growth rate in the city is 1.57%, which ranks in the 17th percentile, indicating stagnant wage growth. This slow wage growth means that labor costs for employers are not rising rapidly, but it also translates to weak bargaining power for workers and potentially limited purchasing power. As a result, businesses may not face significant pressure to increase wages, but workers may not have strong disposable income.
 
 **Cost of Living**
-The cost of living in Nashville is below average, with a percentile rank of 35, and a PSF to earnings ratio of $260/sqft to $35.63/hr, resulting in a ratio of 7.30. The PSF is also falling by -1.1% YoY, making the city more affordable relative to peers. This affordability advantage can be a significant talent attraction factor, as workers may not require wage premiums to maintain their standard of living.
+Nashville-Davidson--Murfreesboro--Franklin has a cost of living score that ranks in the 32nd percentile, with a price-to-salary ratio of $262/sqft to $35.63/hr, or 7.35. Although the price per square foot is decreasing by 1.1% year-over-year, the city is still relatively expensive compared to its peers. This means that businesses may need to offer wage premiums to attract talent, as the cost of living is a significant factor in relocation decisions.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of +1.87% YoY, ranking at the 89th percentile, indicating an expanding workforce supply. This growth in labor force supply is a positive sign for businesses looking to hire, as it suggests a increasing pool of potential workers. With a growing labor force, companies may find it easier to staff their operations.
+The civilian labor force in the city is growing at a rate of 1.86% year-over-year, which ranks in the 86th percentile. This expanding labor force supply implies that businesses have a growing pool of potential employees to draw from, making it easier to hire and staff up. The increasing workforce also signals a dynamic and attractive labor market.
 
 **Building Permits**
-The year-over-year change in residential building permits is -8.94%, ranking near the median at the 50th percentile. This decline in building permits suggests that housing supply is tightening, which may lead to future affordability concerns and challenges in accommodating a growing workforce. As a result, businesses should be aware of potential future housing supply constraints.
+The year-over-year change in residential building permits is -8.94%, ranking near the median at the 47th percentile. This decline in permits suggests that housing supply is tightening, which may lead to future affordability concerns and challenges in accommodating a growing workforce. As a result, businesses should consider the potential impact of limited housing supply on their ability to attract and retain talent.
 
 **Days on Market**
-The current median days on market is 53 days, with a year-over-year increase of +12.8%. This indicates a relatively slow market, ranking near the median at the 52nd percentile. For workers relocating to this city, the slower market may make it easier to find a home, but it also suggests a less competitive housing market.
+The current median days on market is 50 days, with a year-over-year increase of 6.4%, ranking in the 60th percentile. This means that homes are sitting on the market for a relatively longer period, indicating a slower and more accessible market for relocating workers. However, this also signals a potential normalization of the housing market, which could be beneficial for businesses looking to attract talent.
 
 **Office Economy**
-The share of jobs in professional and office sectors is 3.57, ranking at the 89th percentile, indicating a deep talent pool suited for tech, finance, consulting, and HQ decisions. This city is well-suited for businesses that require specialized knowledge-economy workers, but may be less suitable for industries with more industrial or logistics-dominant workforces.
+Nashville-Davidson--Murfreesboro--Franklin has a deep professional talent pool, with an office economy score ranking in the 89th percentile. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, which require a high concentration of specialized knowledge workers. On the other hand, the city may be less suitable for industries with more industrial or logistics-oriented workforces.
 
-The Nashville-Davidson--Murfreesboro--Franklin metro area offers businesses a unique combination of a tight labor market, expanding workforce supply, and a relatively affordable cost of living. However, the single biggest risk or constraint for decision-makers is the potential for future housing supply constraints due to declining building permits, which may impact workforce accommodation and affordability.
+In conclusion, Nashville-Davidson--Murfreesboro--Franklin offers businesses a competitive job market with a growing workforce and a relatively tight labor market. However, the single biggest risk or constraint for decision-makers is the potential for housing supply constraints and affordability concerns, which could impact the city's ability to attract and retain top talent.
