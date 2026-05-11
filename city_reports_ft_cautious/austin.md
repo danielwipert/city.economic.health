@@ -1,33 +1,33 @@
 # Austin-Round Rock-San Marcos
 
-**Grade: A- (Good) | 60.9th percentile | May 2026**
+**Grade: A+ (Excellent) | 74.2th percentile | May 2026**
 
 ---
 
-The Austin-Round Rock-San Marcos metro area has an overall grade of A- with a composite score of 60.9th percentile, ranking it among the top US metros. The city's economic character is most defined by its strong labor force growth, with a year-over-year increase of 3.00%, and its high share of office and professional workers, at 4.47 out of 5. These metrics signal a city with a deep talent pool and expanding workforce.
+The Austin-Round Rock-San Marcos metro area has earned an overall grade of A+ with a composite score of 74.2th percentile, ranking it among the top US metros. The city's economic character is largely defined by its strong wage growth, with a year-over-year increase of 7.75%, and its high labor force growth rate of 3.00%. These metrics signal a thriving economy with a growing and increasingly skilled workforce.
 
 **Labor Demand**
-The employment growth rate in Austin is 0.98% year-over-year, while weekly hours are deviating -1.488% from the city's own 12-month baseline. This combination signals a moderate labor demand expansion, with some genuine demand but also a slight pullback in hours worked. The labor demand composite score of 4.18 is near the median, indicating a balanced job market.
+The city's employment growth rate of 1.13% and weekly hours deviation of -1.208% combine to indicate a labor demand composite score of 4.67, which suggests genuine demand expansion. Although hours are slightly below trend, the overall job growth signals a healthy labor market. This combination indicates that the city is adding jobs, but at a moderate pace.
 
 **Unemployment**
-The unemployment rate in Austin is 3.70%, which is relatively low and corresponds to an above-average percentile rank of 77th. This tight labor market implies that businesses may face challenges in hiring, with upward pressure on wages. Companies looking to staff up in Austin should be prepared to offer competitive compensation packages.
+The unemployment rate in Austin-Round Rock-San Marcos is 3.70%, which is relatively low and indicates a tight labor market. With an above-average percentile rank of 75th, the market has limited slack, making it challenging for businesses to hire new employees. This tight market implies that businesses may face upward pressure on wages to attract and retain top talent.
 
 **Wage Growth**
-Unfortunately, the year-over-year wage growth rate is not available for Austin. Without this data, it is difficult to assess the current state of labor costs and worker purchasing power. However, a near-median percentile rank of 50th suggests that wage growth may be moderate, neither excessively high nor stagnant.
+The year-over-year wage growth rate of 7.75% is exceptionally high, ranking in the 91st percentile. This rapid wage growth signals rising labor costs for employers, but it also means that workers have strong purchasing power. As a result, businesses may need to adjust their compensation packages to remain competitive in this market.
 
 **Cost of Living**
-Austin has a cost of living percentile rank of 50th, indicating a near-median level of affordability. While the exact PSF and earnings figures are not available, this ranking suggests that the city is neither extremely affordable nor overly expensive compared to its peers. As a result, businesses may not need to offer significant wage premiums to attract talent, but the city's affordability advantage is not particularly strong.
+With a cost of living percentile rank of 92th, Austin-Round Rock-San Marcos is relatively affordable compared to its peers. The city's price-to-salary ratio of $241/sqft to $38.61/hr, or 6.24, is favorable, especially considering that the price per square foot is decreasing by 7.7% year-over-year. This affordability advantage can help attract talent without requiring significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in Austin is growing at a rate of 3.00% year-over-year, indicating an expanding workforce supply. This strong growth rate suggests that businesses should have a relatively easy time finding qualified candidates, as the labor pool is increasing rapidly.
+The civilian labor force in Austin-Round Rock-San Marcos is growing at a rate of 3.00% year-over-year, which is exceptionally high and ranks in the 98th percentile. This expanding labor force supply implies that businesses have a growing pool of potential employees to draw from, making it easier to hire and staff new operations.
 
 **Building Permits**
-The number of residential building permits in Austin has decreased by 29.44% year-over-year, signaling a tightening of the housing supply. This decline may lead to future affordability challenges and make it more difficult for workers to relocate to the city, potentially constraining workforce growth.
+The year-over-year change in building permits is -19.65%, indicating a tightening of the housing supply. This decline in permits suggests that the city's housing market may become less affordable in the future, potentially making it more challenging for workers to relocate to the area.
 
 **Days on Market**
-The median days on market in Austin is currently 51 days, with a year-over-year increase of 15.9%. This rising trend indicates a slowing market, which may make it easier for relocating workers to find housing. However, the relatively fast pace of sales still suggests a competitive market.
+The current median days on market is 51 days, with a year-over-year increase of 15.9%. This slower market, ranking in the 86th percentile, means that homes are sitting on the market for a relatively longer period. For workers relocating to the city, this slower market may make it easier to find a home, but it also signals a potential shift in the balance of power between buyers and sellers.
 
 **Office Economy**
-Austin has a deep professional talent pool, with an office and professional worker share percentile rank of 96th. This makes the city an attractive location for businesses in the tech, finance, consulting, and HQ sectors, which require specialized knowledge-economy workers. In contrast, Austin may be less suited for industries with more industrial or logistics-oriented workforces.
+With an office economy percentile rank of 93rd, Austin-Round Rock-San Marcos has a deep and skilled professional talent pool. This makes the city an attractive location for businesses in the tech, finance, consulting, and HQ sectors, but it may be less suited for industries with more industrial or logistics-oriented workforces.
 
-The Austin-Round Rock-San Marcos metro area offers businesses a unique combination of a strong labor force, deep talent pool, and relatively low unemployment. However, the single biggest risk or constraint for decision-makers is the tightening housing supply, which may lead to future affordability challenges and constrain workforce growth. Companies should carefully consider these factors when evaluating Austin as a potential location for their operations.
+The Austin-Round Rock-San Marcos metro area offers businesses a unique combination of strong wage growth, a growing labor force, and an affordable cost of living. However, the single biggest risk or constraint for decision-makers is the tightening housing supply, which may lead to future affordability challenges and impact the city's ability to attract and retain top talent.

@@ -1,33 +1,33 @@
 # San Francisco-Oakland-Fremont
 
-**Grade: A- (Good) | 59.3th percentile | May 2026**
+**Grade: B- (Below Average) | 48.0th percentile | May 2026**
 
 ---
 
-The San Francisco-Oakland-Fremont metro area has an overall grade of A- with a composite score ranking at the 59.3th percentile among 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the 78th percentile, and its high wage growth rate of 5.42% year-over-year. The combination of these metrics suggests a city with a robust job market and increasing labor costs.
+The San Francisco-Oakland-Fremont metro area has an overall grade of B- with a composite score ranking at the 48.0th percentile out of 50 US metros. This city's economic character is most defined by its high wage growth rate of 6.20% year-over-year and its low cost of living percentile rank of 20th, indicating a relatively expensive market. The combination of these metrics suggests a challenging environment for businesses looking to attract and retain talent without offering significant wage premiums.
 
 **Labor Demand**
-The employment growth rate in San Francisco-Oakland-Fremont is 0.46% year-over-year, and weekly hours are deviating from the trend by -0.050%, indicating a genuine demand expansion. This combination signals that the city is adding jobs and workers are putting in slightly fewer hours than expected, suggesting a healthy labor market. The labor demand composite score of 4.89 further supports this assessment, ranking in the 78th percentile.
+The employment growth rate in San Francisco-Oakland-Fremont is 0.20% year-over-year, with weekly hours near their own trend. This combination signals a near-median labor demand, indicating neither strong expansion nor contraction. The labor demand composite score of 4.58 further supports this assessment, ranking at the 57th percentile.
 
 **Unemployment**
-The unemployment rate in San Francisco-Oakland-Fremont is 4.30%, ranking near the median at the 59th percentile. This indicates a relatively balanced labor market with some slack, making it slightly easier for businesses to hire compared to extremely tight markets. However, the market is not so loose that it would lead to weak consumer demand.
+The unemployment rate in San Francisco-Oakland-Fremont is 4.30%, ranking near the median at the 57th percentile. This suggests a relatively balanced market with neither significant slack nor extreme tightness. For businesses trying to hire in this market, the moderate unemployment rate implies a manageable but not overly competitive hiring environment.
 
 **Wage Growth**
-The year-over-year wage growth rate in San Francisco-Oakland-Fremont is 5.42%, ranking above average in the 70th percentile. This fast wage growth rate implies increasing labor costs for employers but also strong purchasing power for workers. Businesses should factor in rising labor costs when considering this location.
+The year-over-year wage growth rate in San Francisco-Oakland-Fremont is 6.20%, ranking above average at the 79th percentile. This fast wage growth rate implies rising labor costs for employers and increased purchasing power for workers. Businesses operating in this market should be prepared for higher wage bills and potentially increased consumer demand.
 
 **Cost of Living**
-San Francisco-Oakland-Fremont has a cost of living score ranking in the 23rd percentile, with a PSF of $662/sqft and average hourly earnings of $50.48/hr, resulting in a ratio of 13.11. This indicates that the city is relatively expensive compared to its peers, which could make it challenging to attract talent without offering wage premiums. The fact that PSF is falling by 3.1% year-over-year slightly mitigates this issue but does not offset the overall high cost.
+San Francisco-Oakland-Fremont has a cost of living percentile rank of 20th, indicating a relatively expensive market. With a price-to-salary ratio of $662/sqft to $50.86/hr, or 13.02, this city is less affordable than many of its peers. However, the -3.1% year-over-year change in PSF suggests some easing in housing costs, which could improve talent attraction without requiring significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in San Francisco-Oakland-Fremont is growing at a rate of -0.36% year-over-year, ranking below average in the 30th percentile. This contraction in labor force supply poses a structural headwind for hiring, as the pool of available workers is shrinking. Businesses may face challenges in finding the right talent in this environment.
+The labor force growth rate in San Francisco-Oakland-Fremont is not available, but the overall labor market indicators suggest a near-median growth rate. If the labor force is indeed growing at a moderate pace, this would imply an expanding workforce supply, supporting hiring capacity for businesses in the area.
 
 **Building Permits**
-The year-over-year change in residential building permits in San Francisco-Oakland-Fremont is 86.01%, ranking in the top tier at the 96th percentile. This significant increase in building permits signals an expansion in future housing supply, which should improve affordability and accommodate workforce growth. This is a positive sign for businesses considering relocation, as it may ease some of the pressure on housing costs.
+The year-over-year change in building permits in San Francisco-Oakland-Fremont is -25.29%, ranking at the 12th percentile. This sharp decline in permits suggests a tightening housing supply, which could lead to decreased affordability and increased challenges for workforce accommodation in the future.
 
 **Days on Market**
-The median days on market for homes in San Francisco-Oakland-Fremont is 31 days, with a year-over-year decrease of 6.1%, ranking in the bottom tier at the 7th percentile. This fast-paced market means that homes are selling quickly, which can make it competitive and challenging for relocating workers to find housing. Businesses may need to offer relocation assistance to help employees navigate this market.
+The current median days on market in San Francisco-Oakland-Fremont is 31 days, with a year-over-year decrease of 6.1%. This relatively fast market, ranking at the 6th percentile, implies a competitive environment for workers relocating to the city, potentially making it tougher for them to find housing.
 
 **Office Economy**
-San Francisco-Oakland-Fremont has a deep professional talent pool, with an office economy score ranking in the 70th percentile. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors that require specialized knowledge-economy talent. However, it may be less ideal for industries with more industrial or logistics-oriented workforces.
+The office economy in San Francisco-Oakland-Fremont has a percentile rank of 50th, indicating a moderate depth of professional talent. This city is suited for businesses requiring a mix of office and non-office skills, but may not offer the same level of specialized talent as other major tech or finance hubs.
 
-The San Francisco-Oakland-Fremont metro area offers businesses a strong labor market with high wage growth, indicating a robust economy. However, the single biggest risk or constraint for decision-makers is the relatively expensive cost of living and the shrinking labor force, which could make it challenging to attract and retain talent without offering significant wage premiums.
+The San Francisco-Oakland-Fremont metro area offers businesses a highly skilled and productive workforce, but also presents significant challenges in terms of cost of living and housing affordability. The single biggest risk or constraint for decision-makers is the potential for decreased affordability and increased labor costs, which could impact the attractiveness of this location for both businesses and workers.

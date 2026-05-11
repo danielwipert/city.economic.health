@@ -4,30 +4,30 @@
 
 ---
 
-Birmingham has earned an overall grade of A- with a composite score ranking it at the 59.9th percentile among 50 US metros. The city's economic character is most defined by its strong labor demand, with a top-tier composite score of 82nd percentile, and its low unemployment rate of 3.00%, ranking it at the 96th percentile. These metrics signal a city with a robust job market and limited labor supply slack.
+Birmingham has earned an overall grade of A- with a composite score ranking it at the 59.9th percentile among 50 US metros. The city's economic character is most defined by its strong labor demand, with a composite score in the top tier at the 82nd percentile, and its low unemployment rate of 3.00%, ranking it at the 96th percentile. These metrics suggest a city with a thriving job market and intense competition for labor.
 
 **Labor Demand**
-Birmingham's employment growth rate of +0.23% YoY and weekly hours deviation of +0.705% from its own trend indicate genuine demand expansion, as hours are running above trend during a period of job growth. This combination signals that the city is experiencing a real increase in labor demand, rather than just a shift in hours worked. The top-tier composite score of 82nd percentile further reinforces this assessment.
+Birmingham's employment growth rate is +0.67% year-over-year, combined with a +0.728% deviation in weekly hours above its own trend, signaling genuine demand expansion. This combination indicates that the city is experiencing a real increase in labor demand, with both more jobs being added and existing workers putting in more hours. This is a positive sign for businesses looking to expand or establish a presence in the city.
 
 **Unemployment**
-The city's unemployment rate of 3.00% is exceptionally low, ranking it at the 96th percentile, which means the labor market is very tight. This tight market implies that businesses may face challenges in hiring, as well as upward pressure on wages. With such a low unemployment rate, companies may need to offer competitive salaries to attract top talent.
+The unemployment rate in Birmingham is 3.00%, which is extremely low and indicates a very tight labor market. This means that businesses may face significant competition for workers and may need to offer higher wages or other incentives to attract and retain talent. With a ranking at the 96th percentile, Birmingham's labor market is one of the tightest in the country.
 
 **Wage Growth**
-Birmingham's year-over-year wage growth rate of -1.63% is stagnant, ranking it at the 0th percentile, which is the lowest possible score. This slow wage growth environment means that labor costs for employers are not rising rapidly, but it also implies that workers have limited bargaining power and may not see significant increases in their purchasing power.
+Wage growth in Birmingham is -0.91% year-over-year, which is stagnant and actually indicates a decline in hourly earnings. This slow wage growth will help keep labor costs flat for employers, but it may also limit worker purchasing power and make it harder for businesses to attract top talent. As the 2nd percentile rank suggests, Birmingham's wage growth is among the slowest in the country.
 
 **Cost of Living**
-With a cost of living ratio of $161/sqft to $32.95/hr, and a YoY increase of 0.6% in PSF, Birmingham ranks at the 18th percentile in terms of affordability, making it a relatively expensive city. This means that the city may not have a significant talent attraction advantage without offering wage premiums to offset the high cost of living.
+Birmingham has a cost of living score ranking it at the 31st percentile, indicating that it is less affordable than many of its peers, with a PSF to earnings ratio of $161/sqft to $32.82/hr. However, it's essential to note that the PSF is increasing at a rate of +0.6% YoY, which may further reduce affordability. This relatively low affordability score means that businesses may need to offer wage premiums to attract talent from other areas.
 
 **Labor Force Growth**
-The civilian labor force in Birmingham is growing at a rate of +0.72% YoY, which is near the median, ranking it at the 54th percentile. This moderate growth rate indicates that the workforce supply is expanding, but not rapidly, which may have implications for hiring capacity in the long term.
+The civilian labor force in Birmingham is growing at a rate of +0.72% year-over-year, which is near the median and indicates a slowly expanding workforce supply. This moderate growth rate suggests that hiring capacity is increasing, but not at a rapid pace. With a ranking at the 52nd percentile, Birmingham's labor force growth is average compared to other cities.
 
 **Building Permits**
-The city has seen a significant increase of +55.25% YoY in residential building permits, ranking it at the 92nd percentile, which signals that housing supply is expanding. This rapid growth in permits suggests that future affordability and workforce accommodation may improve, as more housing units become available.
+Residential building permits in Birmingham are increasing at a rate of +18.48% year-over-year, which is above average and indicates an expanding housing supply. This growth in permits suggests that the city is experiencing developer confidence and that future affordability and workforce accommodation may improve. The 71st percentile rank indicates that Birmingham is outpacing many of its peers in terms of housing development.
 
 **Days on Market**
-The current median days on market in Birmingham is 52 days, with a YoY increase of 4.0%, ranking it at the 38th percentile. This means that the market is relatively slow, making it more accessible for workers relocating to the city, as they have more time to find a suitable home.
+The median days on market for homes in Birmingham is 52 days, with a year-over-year increase of +4.0%. This indicates a relatively slow market, which may make it more accessible for relocating workers to find housing. However, with a ranking at the 40th percentile, the market is not extremely slow, and workers may still face some competition for desirable homes.
 
 **Office Economy**
-Birmingham's professional and office worker share ranks at the 59th percentile, indicating a moderately deep talent pool. This makes the city suitable for businesses that require a mix of professional and non-professional roles, but it may not be the best fit for companies that require a highly specialized or knowledge-intensive workforce.
+Birmingham has a professional and office worker share ranking it at the 67th percentile, indicating a deep talent pool suited for tech, finance, consulting, and HQ decisions. This city is well-suited for businesses that rely on specialized knowledge workers, but may be less ideal for those with primarily industrial or logistics-based operations.
 
-In conclusion, Birmingham offers a business a strong labor demand environment and a growing workforce, but it also presents challenges such as a tight labor market and relatively high cost of living. The single biggest risk or constraint for a decision-maker to factor in is the potential for upward pressure on wages due to the low unemployment rate, which could impact labor costs and overall competitiveness.
+In conclusion, Birmingham offers businesses a strong labor market with low unemployment and expanding housing supply, making it an attractive location for companies looking to establish or grow a presence. However, the single biggest risk or constraint for decision-makers is the slow wage growth, which may limit worker purchasing power and make it harder to attract top talent, potentially requiring wage premiums to remain competitive.

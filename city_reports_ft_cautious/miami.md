@@ -1,33 +1,33 @@
 # Miami-Fort Lauderdale-West Palm Beach
 
-**Grade: B+ (Above Average) | 58.3th percentile | May 2026**
+**Grade: B- (Below Average) | 46.7th percentile | May 2026**
 
 ---
 
-The Miami-Fort Lauderdale-West Palm Beach metro area has earned an overall grade of B+ with a composite score ranking at the 58.3th percentile among 50 US metros. This city's economic character is most defined by its top-tier wage growth and strong labor demand, with a composite labor demand score of 4.86, ranking at the 74th percentile. The 7.75% year-over-year wage growth rate and 74th percentile labor demand score signal a city with a strong and expanding job market.
+The Miami-Fort Lauderdale-West Palm Beach metro area has an overall grade of B- and a composite score ranking it 46.7th percentile out of 50 US metros. This city's economic character is most defined by its strong wage growth, with an 8.02% year-over-year increase, and its below-average labor demand, with a composite score of 3.42. The combination of these metrics suggests a complex economic environment, with rising labor costs and a relatively weak job market.
 
 **Labor Demand**
-The employment growth rate is not available, but the weekly hours deviation from the city's own 12-month baseline is -0.143%, which, in combination with the strong labor demand composite score, suggests genuine demand expansion. This indicates that the city is adding jobs and hours are running above trend, signaling a healthy and growing labor market. The labor demand composite score of 4.86 ranks at the 74th percentile, further supporting the notion of a strong labor market.
+The employment growth rate in Miami-Fort Lauderdale-West Palm Beach is -0.63% year-over-year, and weekly hours are deviating from the trend by +0.000%. This combination signals a contraction in labor demand, rather than genuine demand expansion or survivor squeeze. The weak labor demand suggests that the city's job market is not particularly robust.
 
 **Unemployment**
-Although the exact unemployment rate is not available, the city's unemployment rate ranks at the 36th percentile, indicating a below-average unemployment rate. This suggests a relatively tight labor market, which can make it harder for businesses to hire and may lead to upward pressure on wages. As a result, businesses may need to offer competitive salaries to attract top talent in this market.
+The unemployment rate in Miami-Fort Lauderdale-West Palm Beach is 3.80%, which ranks in the 61st percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer higher wages to attract talent. The tight market also suggests that workers may have more bargaining power.
 
 **Wage Growth**
-The year-over-year wage growth rate is 7.75%, ranking at the 91st percentile, indicating fast and rising labor costs for employers. This strong wage growth is good for worker purchasing power, as employees will have more disposable income to spend on goods and services. However, it may pose a challenge for employers looking to keep labor costs under control.
+The year-over-year wage growth in Miami-Fort Lauderdale-West Palm Beach is 8.02%, which is a very strong increase, ranking in the 95th percentile. This rapid wage growth implies rising labor costs for employers, but also increasing purchasing power for workers. Businesses should factor in the potential for higher labor costs when considering this location.
 
 **Cost of Living**
-The cost of living in Miami-Fort Lauderdale-West Palm Beach is relatively expensive, with a percentile rank of 30th, and a PSF to earnings ratio of $359/sqft to $34.00/hr, or 10.56. Although the PSF is falling by 1.6% year-over-year, the city's affordability score is still below average. This may make it challenging for businesses to attract talent without offering wage premiums to offset the high cost of living.
+Miami-Fort Lauderdale-West Palm Beach has a cost of living score ranking it in the 33rd percentile, with a PSF of $359/sqft and average hourly earnings of $34.20/hr, resulting in a ratio of 10.50. The city's cost of living is relatively high, making it less attractive for talent without wage premiums. The fact that PSF is falling by 1.6% year-over-year is a positive sign, but the overall affordability score remains below average.
 
 **Labor Force Growth**
-The labor force growth rate is not available, but it ranks at the 50th percentile, indicating near-median growth. This suggests that the workforce supply is neither expanding nor contracting significantly, which may have a neutral impact on hiring capacity. As a result, businesses may not face significant challenges or opportunities in terms of labor force growth.
+The civilian labor force in Miami-Fort Lauderdale-West Palm Beach is growing at a rate of -0.50% year-over-year, indicating a contracting labor pool. This suggests that the city's workforce supply is shrinking, which could create structural headwinds for hiring and business expansion. Businesses may need to consider alternative locations or strategies to attract talent.
 
 **Building Permits**
-The year-over-year change in building permits is 41.11%, ranking at the 87th percentile, indicating a strong expansion of housing supply. This suggests that developer confidence is high, and future housing supply is likely to increase, which may improve affordability and make it easier for workers to relocate to the area.
+The number of residential building permits in Miami-Fort Lauderdale-West Palm Beach is decreasing by 5.72% year-over-year, which is near the median. This decline in building permits suggests that the city's housing supply may be tightening, which could lead to future affordability challenges and make it harder for workers to relocate to the area.
 
 **Days on Market**
-Although the exact days on market is not available, the city ranks at the 4th percentile, indicating a very fast-paced market. This suggests that homes are selling quickly, which may make it challenging for relocating workers to find affordable housing. As a result, businesses may need to consider offering relocation assistance or other incentives to attract talent.
+The median days on market for homes in Miami-Fort Lauderdale-West Palm Beach is 77 days, with a year-over-year increase of 6.9%. This indicates a slower market, ranking in the 14th percentile, which could make it more accessible for relocating workers to find housing. However, the rising days on market also suggests a potential normalization of the housing market.
 
 **Office Economy**
-The share of professional and office workers ranks at the 50th percentile, indicating a near-median depth of talent pool. This suggests that the city is suited for a variety of businesses, but may not have a particularly deep pool of specialized talent in areas like tech, finance, or consulting. As a result, businesses in these sectors may need to consider other locations with more specialized talent pools.
+Miami-Fort Lauderdale-West Palm Beach has a professional and office worker share ranking it in the 60th percentile, with a composite score of 2.92. This suggests a deep talent pool suited for tech, finance, consulting, and HQ decisions. The city is well-suited for businesses that require specialized knowledge-economy workers, but may be less suitable for industrial or logistics-dominant businesses.
 
-The Miami-Fort Lauderdale-West Palm Beach metro area offers businesses a strong and expanding labor market, with top-tier wage growth and a growing housing supply. However, the city's relatively high cost of living and tight labor market may pose challenges for businesses looking to attract and retain talent without offering competitive salaries and relocation incentives.
+The Miami-Fort Lauderdale-West Palm Beach metro area offers businesses a unique combination of strong wage growth and a relatively tight labor market, but also poses significant challenges, including a contracting labor pool and rising labor costs. The single biggest risk or constraint for decision-makers is the city's below-average labor demand, which could limit business expansion and growth.

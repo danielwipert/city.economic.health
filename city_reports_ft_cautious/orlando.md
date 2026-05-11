@@ -1,33 +1,33 @@
 # Orlando-Kissimmee-Sanford
 
-**Grade: C (Very Poor) | 33.3th percentile | May 2026**
+**Grade: C+ (Poor) | 42.5th percentile | May 2026**
 
 ---
 
-The Orlando-Kissimmee-Sanford metro area has an overall grade of C, ranking 33.3th percentile out of 50 US metros, with a labor demand composite score of 4.78. This city's economic character is most defined by its low unemployment rate of 4.70% and its stagnant wage growth of +0.75% YoY. The combination of these metrics suggests a tight labor market with limited room for wage growth.
+The Orlando-Kissimmee-Sanford metro area has an overall grade of C+ with a composite score ranking it 42.5th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with a top-tier composite score of 94th percentile, driven by employment growth of 0.83% year-over-year and weekly hours 0.982% above trend. The labor market's resilience is a key aspect of this city's economy.
 
 **Labor Demand**
-The employment growth rate is +0.10% YoY, and weekly hours are deviating +0.344% from the city's own 12-month baseline, indicating genuine demand expansion. This combination signals that the city is experiencing a moderate increase in job creation, with workers putting in more hours than usual. The labor demand composite score of 4.78, ranking in the 67th percentile, further supports this notion.
+The combination of 0.83% employment growth and 0.982% higher weekly hours signals genuine demand expansion, indicating that the city is adding jobs and workers are putting in more hours, a sign of a healthy labor market. This suggests that businesses are experiencing strong demand for their products or services, leading to increased hiring and workload. The top-tier composite score of 94th percentile reinforces this interpretation.
 
 **Unemployment**
-The unemployment rate is 4.70%, ranking in the 18th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in finding and hiring talent, and may need to offer competitive wages to attract workers. The tight market also implies that there may be upward pressure on wages.
+The unemployment rate of 4.70% is below average, ranking 20th percentile, which means the labor market has some slack but is not extremely loose. This implies that while it may not be extremely difficult to hire, there is still some competition for talent, and businesses may need to offer competitive wages to attract workers. The relatively high unemployment rate compared to other cities means that businesses may have a slightly easier time finding candidates.
 
 **Wage Growth**
-The YoY wage growth rate is +0.75%, ranking in the 9th percentile, indicating stagnant wage growth. This slow wage growth means that labor costs for employers are not increasing rapidly, but it also implies that workers may have limited bargaining power. As a result, businesses may not need to worry about rapidly rising labor costs, but workers may not have the purchasing power to drive local consumer demand.
+The year-over-year wage growth rate of 1.64% is below average, ranking 21st percentile, indicating moderate wage growth. This means that employer labor costs are rising, but not extremely quickly, and worker purchasing power is increasing, but not at a rapid pace. The slow wage growth may help keep labor costs in check, but it also means that workers may not have as much disposable income to spend on goods and services.
 
 **Cost of Living**
-The city has a cost of living score ranking in the 66th percentile, with a PSF of $224/sqft and average hourly earnings of $33.39/hr, resulting in a ratio of 6.71. This suggests that the city is relatively affordable compared to its peers. The fact that PSF is falling by -3.5% YoY further supports this notion, making it an attractive location for talent without requiring significant wage premiums.
+With a cost of living percentile rank of 72nd, the city is relatively affordable, especially considering the PSF of $224/sqft is decreasing by 3.5% year-over-year relative to wages of $33.37/hr. This means that the city has a talent attraction advantage, as workers can afford to live and work here without requiring significant wage premiums. The affordable cost of living makes it an attractive location for businesses looking to relocate or expand.
 
 **Labor Force Growth**
-The civilian labor force is contracting at a rate of -1.54% YoY, ranking in the 7th percentile. This means that the supply of workers is shrinking, which may create structural headwinds for hiring and business expansion. As a result, businesses may need to be more competitive in their hiring practices to attract the limited talent available.
+The civilian labor force is contracting at a rate of -1.54% year-over-year, ranking 7th percentile, which means that the workforce supply is shrinking. This implies that businesses may face structural headwinds when trying to hire, as the pool of available workers is decreasing. The declining labor force growth rate may limit the city's ability to support rapid business expansion.
 
 **Building Permits**
-The YoY change in building permits is -35.64%, ranking in the 6th percentile, indicating a sharp decline in housing supply. This suggests that the city may be experiencing a supply squeeze, which could lead to decreased affordability and make it more challenging for workers to relocate to the area.
+The year-over-year change in building permits is -54.27%, ranking 0th percentile, indicating a sharp decline in housing supply. This signals that the city's housing market may become less affordable in the future, making it more challenging for workers to relocate here. The lack of new housing supply may exacerbate affordability issues and make it harder for businesses to attract talent.
 
 **Days on Market**
-The current median days on market is 68 days, with a YoY increase of +9.7%, ranking in the 16th percentile. This indicates a slower market, making it more accessible for workers relocating to the city. However, the rising DOM may also signal a normalization of the market, rather than a decline in demand.
+The current median days on market is 68 days, with a year-over-year increase of 9.7%, ranking 16th percentile. This means that the housing market is slowing down, making it more accessible for workers relocating to the city. However, the relatively slow pace of home sales may also indicate a weakening demand for housing, which could have implications for the local economy.
 
 **Office Economy**
-The city has an office economy score ranking in the 50th percentile, with a share of professional and office workers at 2.49. This suggests that the city has a moderately deep talent pool, making it suitable for businesses that require a mix of professional and non-professional workers. The city may be well-suited for businesses that are not solely reliant on tech, finance, or consulting talent.
+With an office economy percentile rank of 58th, the city has a near-median depth of professional talent, making it suitable for businesses that require a mix of office and non-office workers. The city is relatively well-suited for businesses that are not solely reliant on tech, finance, or consulting talent, but may not be the best fit for companies that require a deep pool of specialized office workers.
 
-The Orlando-Kissimmee-Sanford metro area offers businesses a relatively affordable location with a tight labor market, but the single biggest risk or constraint is the shrinking labor force and declining housing supply, which may limit the city's ability to accommodate growing businesses and attract new talent. As a result, decision-makers should carefully consider the potential challenges of hiring and expanding in this market. The city's stagnant wage growth and limited labor pool may also constrain its long-term economic growth prospects.
+The Orlando-Kissimmee-Sanford metro area offers businesses a strong labor market with genuine demand expansion, but the single biggest risk or constraint is the shrinking labor force supply, which may limit the city's ability to support rapid business growth. The affordable cost of living and slowing housing market may make it an attractive location for businesses looking to relocate or expand, but the declining labor force growth rate and lack of new housing supply are key challenges that decision-makers should factor in.

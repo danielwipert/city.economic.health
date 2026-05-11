@@ -1,33 +1,33 @@
 # Nashville-Davidson--Murfreesboro--Franklin
 
-**Grade: B+ (Above Average) | 57.1th percentile | May 2026**
+**Grade: A+ (Excellent) | 70.5th percentile | May 2026**
 
 ---
 
-Nashville-Davidson--Murfreesboro--Franklin has an overall grade of B+ with a composite score ranking it at the 57.1th percentile among 50 US metros. The city's economic character is most defined by its strong labor force growth, with a year-over-year increase of 1.86%, and its low unemployment rate of 3.30%, which ranks in the 80th percentile. These metrics signal a competitive job market with a growing workforce.
+Nashville-Davidson--Murfreesboro--Franklin has earned an overall grade of A+ with a composite score of 70.5th percentile, ranking it among the top US metros. The city's economic character is most defined by its strong labor demand, with a composite score of 6.35, and its high share of office and professional workers, ranking in the 91st percentile. These metrics signal a city with a thriving job market and a deep talent pool.
 
 **Labor Demand**
-The city's employment growth rate is 0.05% year-over-year, combined with a 0.024% deviation in weekly hours above its own trend, resulting in a labor demand composite score of 4.39, which ranks in the 63rd percentile. This combination signals genuine demand expansion, as hours are running above trend during a period of job growth. This indicates a healthy labor market with increasing job opportunities.
+Nashville's employment growth rate is +0.84% year-over-year, combined with a +0.874% deviation in weekly hours from its own trend, indicating genuine demand expansion. This combination signals that the city is adding jobs and workers are putting in more hours, a clear sign of a strong and growing economy. The labor demand composite score of 6.35 ranks in the 90th percentile, further reinforcing this trend.
 
 **Unemployment**
-The unemployment rate in Nashville-Davidson--Murfreesboro--Franklin is 3.30%, ranking in the 80th percentile, which means the market is relatively tight. This tight market implies that businesses may face challenges in hiring, as well as upward pressure on wages. Companies looking to staff up may need to offer competitive salaries to attract top talent.
+The city's unemployment rate is 3.30%, ranking in the 77th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer competitive wages to attract talent. However, this also suggests a strong local economy with low slack.
 
 **Wage Growth**
-The year-over-year wage growth rate in the city is 1.57%, which ranks in the 17th percentile, indicating stagnant wage growth. This slow wage growth means that labor costs for employers are not rising rapidly, but it also translates to weak bargaining power for workers and potentially limited purchasing power. As a result, businesses may not face significant pressure to increase wages, but workers may not have strong disposable income.
+Wage growth in Nashville is +3.94% year-over-year, ranking in the 56th percentile, indicating moderate wage growth. This rate of growth suggests that labor costs for employers are rising, but not excessively, and workers are seeing an increase in their purchasing power. While not extremely high, this wage growth is still a positive sign for the local economy.
 
 **Cost of Living**
-Nashville-Davidson--Murfreesboro--Franklin has a cost of living score that ranks in the 32nd percentile, with a price-to-salary ratio of $262/sqft to $35.63/hr, or 7.35. Although the price per square foot is decreasing by 1.1% year-over-year, the city is still relatively expensive compared to its peers. This means that businesses may need to offer wage premiums to attract talent, as the cost of living is a significant factor in relocation decisions.
+Nashville's cost of living is relatively affordable, with a percentile rank of 74th, and a price-to-salary ratio of $262/sqft to $35.73/hr, or 7.33. The fact that the PSF is falling by -1.1% year-over-year further enhances the city's affordability. This makes Nashville an attractive location for talent, as workers can afford a high quality of life without requiring excessive wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in the city is growing at a rate of 1.86% year-over-year, which ranks in the 86th percentile. This expanding labor force supply implies that businesses have a growing pool of potential employees to draw from, making it easier to hire and staff up. The increasing workforce also signals a dynamic and attractive labor market.
+The civilian labor force in Nashville is growing at a rate of +1.86% year-over-year, ranking in the 86th percentile, indicating an expanding workforce supply. This growth in the labor force means that businesses have a increasing pool of potential workers to hire from, making it easier to find and attract talent.
 
 **Building Permits**
-The year-over-year change in residential building permits is -8.94%, ranking near the median at the 47th percentile. This decline in permits suggests that housing supply is tightening, which may lead to future affordability concerns and challenges in accommodating a growing workforce. As a result, businesses should consider the potential impact of limited housing supply on their ability to attract and retain talent.
+The number of building permits in Nashville has decreased by -31.30% year-over-year, ranking in the 10th percentile, indicating a tightening housing supply. This sharp decline in permits suggests that the city may face future affordability and workforce accommodation challenges, as the supply of new housing is not keeping pace with demand.
 
 **Days on Market**
-The current median days on market is 50 days, with a year-over-year increase of 6.4%, ranking in the 60th percentile. This means that homes are sitting on the market for a relatively longer period, indicating a slower and more accessible market for relocating workers. However, this also signals a potential normalization of the housing market, which could be beneficial for businesses looking to attract talent.
+The median days on market for homes in Nashville is 50 days, with a year-over-year increase of +6.4%, ranking in the 60th percentile. This indicates a relatively accessible market for workers relocating to the city, as homes are not selling extremely quickly, giving buyers some time to find a suitable property.
 
 **Office Economy**
-Nashville-Davidson--Murfreesboro--Franklin has a deep professional talent pool, with an office economy score ranking in the 89th percentile. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, which require a high concentration of specialized knowledge workers. On the other hand, the city may be less suitable for industries with more industrial or logistics-oriented workforces.
+Nashville's office economy is deep and thriving, with a professional and office worker share ranking in the 91st percentile. This makes the city an ideal location for businesses in the tech, finance, consulting, and HQ sectors, which require a high concentration of specialized talent. However, it may be less suited for industrial or logistics-dominant businesses.
 
-In conclusion, Nashville-Davidson--Murfreesboro--Franklin offers businesses a competitive job market with a growing workforce and a relatively tight labor market. However, the single biggest risk or constraint for decision-makers is the potential for housing supply constraints and affordability concerns, which could impact the city's ability to attract and retain top talent.
+In conclusion, Nashville-Davidson--Murfreesboro--Franklin offers businesses a strong and growing economy, a deep talent pool, and a relatively affordable cost of living. However, the single biggest risk or constraint for decision-makers to factor in is the tightening housing supply, which may lead to future affordability and workforce accommodation challenges, potentially offsetting some of the city's other advantages.

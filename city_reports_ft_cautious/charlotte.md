@@ -1,33 +1,33 @@
 # Charlotte-Concord-Gastonia
 
-**Grade: B (Average) | 54.3th percentile | May 2026**
+**Grade: B (Average) | 51.4th percentile | May 2026**
 
 ---
 
-The Charlotte-Concord-Gastonia metro area has an overall grade of B, ranking 54.3th percentile out of 50 US metros, with a composite score driven largely by its above-average labor demand and strong office economy. The city's labor demand composite score of 4.85, combining a +0.68% employment growth rate and a -0.398% weekly hours deviation, suggests genuine demand expansion. The office economy, with a top-tier percentile rank of 87th, is another defining characteristic of this city.
+The Charlotte-Concord-Gastonia metro area has an overall grade of B, ranking 51.4th percentile out of 50 US metros, with a composite score driven largely by its above-average labor demand and office economy. The city's labor demand composite score of 5.93, combining a +0.88% employment growth rate and +0.398% weekly hours deviation from trend, signals genuine demand expansion. Additionally, its office/professional worker share of 3.39, ranking in the 79th percentile, highlights a deep talent pool.
 
 **Labor Demand**
-The employment growth rate of +0.68% and weekly hours deviation of -0.398% indicate a genuine demand expansion, as hours are running slightly below trend during a period of job growth. This combination signals that the city is adding jobs at a moderate pace, with some room for additional hiring without overburdening existing workers. The labor demand composite score of 4.85 is above average, ranking in the 71st percentile.
+The Charlotte-Concord-Gastonia metro area has an employment growth rate of +0.88% and a weekly hours deviation of +0.398% from its own trend, indicating genuine demand expansion. This combination signals that the city is adding jobs and workers are putting in more hours, suggesting a strong labor market. The labor demand composite score of 5.93, ranking in the 80th percentile, further reinforces this assessment.
 
 **Unemployment**
-The unemployment rate of 4.10% is near the median, ranking in the 59th percentile, indicating a relatively balanced labor market with some slack. This means that businesses may face moderate competition for talent, but should still be able to hire without excessive wage pressure. The market is not overly tight, making it easier for companies to staff their operations.
+The unemployment rate in Charlotte-Concord-Gastonia is 4.10%, ranking in the 57th percentile, indicating a near-median level of slack in the labor market. This rate suggests that while the market is not extremely tight, it is still relatively competitive, making it moderately challenging for businesses to hire. However, it is not overly difficult, and businesses may be able to find suitable candidates without excessive wage pressure.
 
 **Wage Growth**
-Unfortunately, the year-over-year wage growth rate is not available, making it difficult to assess the pace of labor cost increases or worker purchasing power. Without this data, it is challenging to determine whether wages are rising rapidly, moderately, or stagnating, which would have significant implications for employer labor costs and worker purchasing power.
+The year-over-year wage growth in Charlotte-Concord-Gastonia is -0.04%, ranking in the 7th percentile, indicating stagnant wage growth. This slow wage growth environment means that labor costs for employers are not rising rapidly, but it also implies weak bargaining power for workers and potentially limited purchasing power. As a result, businesses may enjoy a flat cost environment, but workers may not see significant increases in their earnings.
 
 **Cost of Living**
-The cost of living in Charlotte-Concord-Gastonia is near the median, ranking in the 50th percentile, indicating a relatively average level of affordability. This means that the city may not offer a significant talent attraction advantage due to low costs, but also does not require excessive wage premiums to compensate for high living expenses.
+Charlotte-Concord-Gastonia has a cost of living ratio of $220/sqft to $37.43/hr, with a -1.8% year-over-year change in PSF, ranking in the 46th percentile. This near-median ranking suggests that the city is moderately affordable, with a relatively stable cost of living. The falling PSF relative to wages is a key driver of this affordability, making it easier for businesses to attract talent without needing to offer significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of +0.15% year-over-year, which is near the median, ranking in the 46th percentile. This slow growth rate indicates that the workforce supply is expanding, but at a modest pace, which may pose some challenges for hiring capacity in the long term.
+The civilian labor force in Charlotte-Concord-Gastonia is growing at a rate of +0.15% year-over-year, ranking in the 43rd percentile, indicating a slow expansion of the workforce supply. While this growth is positive, it is relatively modest, suggesting that hiring capacity may be limited in the future. Businesses may need to plan carefully to attract and retain talent in this slowly growing labor market.
 
 **Building Permits**
-The year-over-year change in residential building permits is -39.50%, ranking in the bottom tier, 2nd percentile. This sharp decline signals a tightening housing supply, which may lead to future affordability concerns and challenges in accommodating a growing workforce.
+The number of residential building permits in Charlotte-Concord-Gastonia has decreased by -14.84% year-over-year, ranking in the 31st percentile, indicating a tightening of the housing supply. This decline in permits suggests that the city's future affordability and workforce accommodation may be at risk, potentially leading to increased competition for housing and higher costs for workers.
 
 **Days on Market**
-The current median days on market is 45 days, with a year-over-year increase of +7.1%, ranking in the 76th percentile. This indicates a relatively slow market, making it more accessible for workers relocating to the city, as they have more time to find a home.
+The median days on market for homes in Charlotte-Concord-Gastonia is currently 45 days, with a +7.1% year-over-year increase, ranking in the 76th percentile. This relatively slow market, with homes taking longer to sell, may make it more accessible for relocating workers to find housing. However, the rising days on market also suggests a normalization of the market, which could be a healthy sign for the local economy.
 
 **Office Economy**
-The office economy in Charlotte-Concord-Gastonia is deep, with a top-tier percentile rank of 87th, indicating a strong presence of professional and office sectors. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, but less ideal for industries with more industrial or logistics-oriented workforces.
+Charlotte-Concord-Gastonia has a deep professional talent pool, with an office/professional worker share of 3.39, ranking in the 79th percentile. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, which rely on specialized knowledge-economy talent. However, it may be less suitable for industries with more industrial or logistics-dominant economies.
 
-The Charlotte-Concord-Gastonia metro area offers a relatively balanced labor market and a strong office economy, making it an attractive location for businesses in the professional services sector. However, the single biggest risk or constraint for decision-makers is the sharp decline in residential building permits, which may lead to future affordability concerns and challenges in accommodating a growing workforce, potentially limiting the city's long-term growth prospects.
+The Charlotte-Concord-Gastonia metro area offers businesses a relatively stable and affordable environment, with a deep talent pool and moderate labor market conditions. However, the single biggest risk or constraint for decision-makers is the stagnant wage growth, which may limit worker purchasing power and bargaining power, potentially affecting the local consumer demand and business growth.
