@@ -1,33 +1,33 @@
 # New York Newark-Jersey City
 
-**Grade: C+ (Poor) | 38.5th percentile | May 2026**
+**Grade: C+ (Poor) | 40.4th percentile | May 2026**
 
 ---
 
-The New York Newark-Jersey City metro area has an overall grade of C+ with a composite score ranking it 38.5th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score in the bottom tier, and its high wage growth, with a year-over-year change of +6.12% ranking it in the 74th percentile. The combination of a -0.63% employment growth rate and a +0.253% weekly hours deviation signals a contraction in labor demand.
+The New York Newark-Jersey City metro area has an overall grade of C+ with a composite score ranking it 40.4th percentile out of 50 US metros. This city's economic character is most defined by its low unemployment rate of 5.30% and its above-average wage growth of 6.12% year-over-year. The combination of these metrics suggests a tight labor market with rising labor costs.
 
 **Labor Demand**
-The employment growth rate in New York Newark-Jersey City is -0.63% year-over-year, and weekly hours are deviating +0.253% from the city's own 12-month baseline. This combination signals a contraction in labor demand, rather than genuine demand expansion or survivor squeeze. The labor demand composite score of 3.16 ranks in the bottom tier, at the 16th percentile.
+The employment growth rate in this city is -0.63% year-over-year, while weekly hours are deviating 0.253% above the city's own trend. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. The labor demand composite score of 3.16 ranks below average at the 22nd percentile.
 
 **Unemployment**
-The unemployment rate in New York Newark-Jersey City is 5.30%, ranking it in the bottom tier at the 4th percentile. This indicates a tight labor market with little slack, making it harder for businesses to hire and potentially leading to upward wage pressure. For a business trying to hire in this city, the tight labor market means they will need to be competitive with their job offers.
+The unemployment rate in this city is 5.30%, ranking it at the 4th percentile, indicating a very tight labor market with little slack. This means that businesses trying to hire in this city will face significant competition for talent and may need to offer higher wages to attract workers. The tight market will make it harder to hire, but it also indicates a strong local economy.
 
 **Wage Growth**
-The year-over-year wage growth in New York Newark-Jersey City is +6.12%, ranking it in the 74th percentile. This is a relatively fast rate of wage growth, indicating rising labor costs for employers but also increasing worker purchasing power. As a result, businesses in this city can expect to pay higher wages to attract and retain talent.
+The year-over-year wage growth rate in this city is 6.12%, ranking it above average at the 78th percentile. This fast wage growth rate implies rising labor costs for employers, but it also means that workers will have increasing purchasing power. As a result, businesses may need to factor in higher labor costs, but they will also benefit from a more affluent local consumer base.
 
 **Cost of Living**
-New York Newark-Jersey City has a cost of living score ranking it in the bottom tier at the 18th percentile, with a PSF of $540/sqft and average hourly earnings of $41.45/hr, resulting in a ratio of 13.03. Although the PSF is falling -1.3% year-over-year, the city remains relatively expensive compared to its peers. This means that businesses may need to offer wage premiums to attract talent, as the high cost of living offsets some of the benefits of working in this city.
+The cost of living in this city is relatively expensive, with a percentile rank of 18th, indicating that it is less affordable than most peer cities. The PSF to earnings ratio is $540/sqft vs $41.45/hr, resulting in a ratio of 13.03. Although the PSF is falling by 1.3% year-over-year, the city's affordability score remains low, making it challenging to attract talent without offering wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in New York Newark-Jersey City is growing at a rate of +2.43% year-over-year, ranking it in the top tier at the 91st percentile. This indicates that the workforce supply is expanding, which is a positive sign for businesses looking to hire in this city. The growing labor force provides a larger pool of potential employees, making it easier for companies to find the talent they need.
+The civilian labor force in this city is growing at a rate of 2.43% year-over-year, ranking it at the 92nd percentile. This means that the workforce supply is expanding, providing a positive implication for hiring capacity. Businesses can expect a growing pool of potential workers, making it easier to find and hire talent.
 
 **Building Permits**
-The number of residential building permits in New York Newark-Jersey City is increasing by +64.22% year-over-year, ranking it in the top tier at the 93rd percentile. This signals that housing supply is expanding, which should improve affordability and make it easier for workers to relocate to this city. The increase in building permits is a positive sign for future workforce accommodation and affordability.
+The number of residential building permits in this city is increasing by 64.22% year-over-year, ranking it at the 92nd percentile. This significant rise in permits signals that housing supply is expanding, which should improve affordability and accommodate a growing workforce. As a result, businesses can expect a more stable and affordable housing market for their workers.
 
 **Days on Market**
-The median days on market for homes in New York Newark-Jersey City is currently 41 days, with a year-over-year decrease of -8.9%. This indicates a relatively fast-paced market, ranking it in the bottom tier at the 10th percentile. For a worker relocating to this city, the fast-paced market means they will need to act quickly to secure a home, which can be competitive and challenging.
+The current median days on market for homes in this city is 41 days, with a year-over-year decrease of 8.9%. This fast-paced market, ranking at the 10th percentile, indicates that homes are selling quickly, making it competitive for relocating workers to find housing. Businesses may need to factor in relocation assistance or signing bonuses to help new hires navigate this competitive market.
 
 **Office Economy**
-New York Newark-Jersey City has a professional and office worker share ranking it near the median at the 44th percentile. This indicates a moderately deep talent pool, making it suitable for businesses in the tech, finance, and consulting sectors. However, the city may not be as well-suited for businesses that require a large number of industrial or logistics workers.
+The professional talent pool in this city is near median, ranking at the 42nd percentile, with a share of 2.34 out of 5. This suggests that the city has a moderate depth of knowledge-economy talent, making it suited for a variety of businesses, but perhaps not ideal for those requiring a highly specialized workforce. The city is likely best suited for businesses that can thrive in a diverse economy with a mix of industries.
 
-The New York Newark-Jersey City metro area offers businesses a growing labor force and expanding housing supply, but its tight labor market and high cost of living may pose challenges for hiring and talent attraction. The single biggest risk or constraint for a decision-maker to factor in is the potential for upward wage pressure due to the tight labor market, which could increase labor costs and impact business profitability.
+The New York Newark-Jersey City metro area offers businesses a unique combination of a tight labor market, rising wages, and expanding workforce supply. However, the single biggest risk or constraint for decision-makers is the city's relatively high cost of living, which may require businesses to offer wage premiums to attract and retain talent.

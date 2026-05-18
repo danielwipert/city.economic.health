@@ -1,33 +1,33 @@
 # Tampa-St. Petersburg-Clearwater
 
-**Grade: C+ (Poor) | 42.4th percentile | May 2026**
+**Grade: C+ (Poor) | 43.9th percentile | May 2026**
 
 ---
 
-The Tampa-St. Petersburg-Clearwater metro area has an overall grade of C+ with a composite score ranking it 42.4th percentile out of 50 US metros. This city's economic character is most defined by its high wage growth rate of 7.84% year-over-year and its low unemployment rate of 4.90%, which suggests a tight labor market. The labor demand composite score of 3.74, ranking in the 35th percentile, indicates a below-average labor market.
+The Tampa-St. Petersburg-Clearwater metro area has an overall grade of C+ with a composite score ranking it 43.9th percentile out of 50 US metros. This city's economic character is most defined by its high wage growth rate of 7.84% year-over-year and its low unemployment rate of 4.90%, which signals a tight labor market. The combination of these metrics suggests that while the city has a strong demand for labor, it may also face challenges in terms of hiring and retaining talent.
 
 **Labor Demand**
-The employment growth rate in Tampa-St. Petersburg-Clearwater is -0.33% year-over-year, and weekly hours are deviating 0.096% above the city's own 12-month trend. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles. The labor demand composite score of 3.74, ranking in the 35th percentile, confirms this below-average labor market condition.
+The employment growth rate in Tampa-St. Petersburg-Clearwater is -0.33% year-over-year, while weekly hours are deviating 0.096% above the city's own 12-month baseline. This combination signals a slight contraction in labor demand, but with hours running above trend, it may indicate a survivor squeeze where remaining workers are absorbing the load of eliminated roles. The labor demand composite score of 3.74 ranks near the median at 42nd percentile.
 
 **Unemployment**
-The unemployment rate in Tampa-St. Petersburg-Clearwater is 4.90%, ranking in the 9th percentile, indicating a very tight labor market with little slack. This means that businesses trying to hire in this city will face significant competition for talent and may need to offer higher wages to attract workers. The tight labor market will make it harder for companies to staff their operations.
+The unemployment rate in Tampa-St. Petersburg-Clearwater is 4.90%, ranking it in the bottom tier at 8th percentile. This signals a tight labor market with little slack, making it challenging for businesses to hire and retain talent. As a result, businesses may face upward pressure on wages to attract and retain workers.
 
 **Wage Growth**
-The year-over-year wage growth rate in Tampa-St. Petersburg-Clearwater is 7.84%, ranking in the 93rd percentile, indicating fast wage growth. This rapid wage growth will lead to rising labor costs for employers, but it also means that workers will have strong purchasing power. The high wage growth rate suggests that the local economy is experiencing upward pressure on wages.
+The year-over-year wage growth rate in Tampa-St. Petersburg-Clearwater is 7.84%, ranking it in the top tier at 94th percentile. This fast wage growth rate implies rising labor costs for employers, but also increasing purchasing power for workers. Businesses may need to factor in higher labor costs when considering this location.
 
 **Cost of Living**
-Tampa-St. Petersburg-Clearwater has a cost of living score ranking in the 85th percentile, with a price-to-salary ratio of $242/sqft to $38.19/hr, or 6.34. The city's cost of living is decreasing, with a -2.8% year-over-year change in PSF, making it more affordable relative to peers. This affordability advantage will help attract talent without requiring wage premiums, making it an attractive location for businesses.
+Tampa-St. Petersburg-Clearwater has a cost of living score ranking it in the top tier at 84th percentile, with a price-to-salary ratio of $242/sqft to $38.19/hr, or 6.34. The city's cost of living is decreasing, with PSF falling 2.8% year-over-year. This makes the city more affordable relative to peers, providing a talent attraction advantage without requiring wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in Tampa-St. Petersburg-Clearwater is shrinking at a rate of -0.56% year-over-year, ranking in the 25th percentile. This contraction in labor force supply will create a structural headwind for hiring, making it more challenging for businesses to find the talent they need. The declining labor force will limit the city's ability to support business growth.
+The civilian labor force in Tampa-St. Petersburg-Clearwater is contracting at a rate of -0.56% year-over-year, ranking it below average at 26th percentile. This implies a shrinking labor pool, which may pose a structural headwind for hiring and business expansion. Businesses may need to consider strategies to attract talent from other areas.
 
 **Building Permits**
-The number of residential building permits in Tampa-St. Petersburg-Clearwater is decreasing by 12.90% year-over-year, ranking in the 33rd percentile. This decline in building permits signals a tightening housing supply, which will lead to decreased affordability and make it more challenging for workers to relocate to the city. The reduction in housing supply will put upward pressure on housing costs.
+The year-over-year change in residential building permits in Tampa-St. Petersburg-Clearwater is -12.90%, ranking it below average at 32nd percentile. This signals a tightening of housing supply, which may lead to decreased affordability and increased competition for workforce accommodation. Businesses may need to factor in the potential for decreased affordability and its impact on talent attraction.
 
 **Days on Market**
-The median days on market for homes in Tampa-St. Petersburg-Clearwater is 67 days, with a 15.5% year-over-year increase, ranking in the 12th percentile. This slower market means that homes are taking longer to sell, making it more accessible for relocating workers to find housing. However, the slow market may also indicate weakening demand for housing.
+The median days on market in Tampa-St. Petersburg-Clearwater is 67 days, with a year-over-year increase of 15.5%. This ranks the city in the bottom tier at 12th percentile, indicating a slower market. For workers relocating to this city, the slower market may make it more accessible to find housing, but it also signals a less competitive market.
 
 **Office Economy**
-Tampa-St. Petersburg-Clearwater has an office economy score ranking in the 46th percentile, with a share of professional and office workers at 2.42. The city has a near-median depth of professional talent, making it suited for a variety of businesses, but not exceptionally strong in any particular sector. The city is neither particularly well-suited nor poorly suited for tech, finance, or consulting businesses.
+The share of jobs in professional and office sectors in Tampa-St. Petersburg-Clearwater ranks near the median at 40th percentile, with a composite score of 2.32. This suggests a moderately deep talent pool, making the city suited for businesses that require a mix of professional and non-professional roles. However, it may not be the best fit for businesses that require a highly specialized or knowledge-intensive workforce.
 
-The Tampa-St. Petersburg-Clearwater metro area offers businesses a unique combination of high wage growth and a relatively affordable cost of living, making it an attractive location for talent. However, the city's tight labor market, shrinking labor force, and decreasing housing supply pose significant risks and constraints for businesses looking to locate or expand in the area, and decision-makers should carefully consider these factors when evaluating this location.
+The Tampa-St. Petersburg-Clearwater metro area offers businesses a unique combination of high wage growth and a relatively affordable cost of living. However, the single biggest risk or constraint for decision-makers is the tight labor market and shrinking labor pool, which may pose challenges for hiring and retaining talent. Businesses will need to carefully consider these factors when evaluating this location for expansion or relocation.

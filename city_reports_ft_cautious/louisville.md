@@ -1,33 +1,33 @@
 # Louisville-Jefferson County
 
-**Grade: C- (Critical) | 31.2th percentile | May 2026**
+**Grade: C (Very Poor) | 35.3th percentile | May 2026**
 
 ---
 
-The Louisville-Jefferson County metro area has an overall grade of C- with a composite score ranking it 31.2th percentile out of 50 US metros. The city's economic character is most defined by its labor demand composite score of 2.26, ranking in the bottom tier at the 6th percentile, and its wage growth rate of +3.00% year-over-year, which is below average at the 35th percentile. These metrics signal a challenging environment for businesses looking to expand or relocate.
+The Louisville-Jefferson County metro area has an overall grade of C, ranking 35.3th percentile out of 50 US metros, with a composite score driven largely by its labor demand and unemployment metrics. The labor demand composite score of 2.26, combining a -1.16% employment growth rate and a +0.416% weekly hours deviation, signals a contraction in labor demand. The unemployment rate of 4.60% also plays a significant role in defining the city's economic character.
 
 **Labor Demand**
-The employment growth rate in Louisville-Jefferson County is -1.16% year-over-year, while weekly hours are deviating from the trend by +0.416%. This combination signals a contraction in labor demand, as hours are above trend during a period of job losses, indicating a survivor squeeze where remaining workers are absorbing the load of eliminated roles. This suggests that businesses may face challenges in finding skilled workers to fill new positions.
+The employment growth rate of -1.16% and weekly hours deviation of +0.416% suggest a contraction in labor demand, indicating that the city is experiencing a decline in job creation. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles. The labor demand composite score of 2.26 falls in the bottom tier, at the 8th percentile.
 
 **Unemployment**
-Although the exact unemployment rate is not available, the city's unemployment rate percentile rank is 39th, indicating a below-average labor market with some slack. This means that businesses may have an easier time hiring workers, but may also face weaker local consumer demand. However, the lack of a tight labor market could make it easier for companies to staff their operations without excessive wage pressure.
+The unemployment rate of 4.60% is relatively low, ranking at the 76th percentile, indicating a tight labor market with some slack. This means that businesses trying to hire in this city may face challenges in finding available workers, leading to potential wage pressure. However, the market is not extremely tight, allowing for some flexibility in hiring.
 
 **Wage Growth**
-The year-over-year wage growth rate in Louisville-Jefferson County is +3.00%, which is below average at the 35th percentile. This moderate wage growth rate suggests that labor costs for employers are rising, but at a slower pace than in many other cities. While this may be beneficial for workers' purchasing power, it also means that employers may not face significant pressure to increase wages to attract and retain talent.
+The year-over-year wage growth rate of +3.00% is below average, ranking at the 34th percentile, indicating moderate wage growth. This implies that employer labor costs are rising, but at a manageable pace, while worker purchasing power is increasing, albeit slowly. The wage growth rate suggests a relatively stable labor cost environment.
 
 **Cost of Living**
-With a cost of living percentile rank of 51st, Louisville-Jefferson County is near the median in terms of affordability, with a PSF of $180/sqft and average hourly earnings of $31.79/hr, resulting in a ratio of 5.66. This means that the city is neither particularly affordable nor expensive relative to its peers. As a result, businesses may not have a significant talent attraction advantage due to low costs, but may also not need to offer large wage premiums to compensate for high living expenses.
+The cost of living in Louisville-Jefferson County, with a PSF of $180/sqft and an earnings ratio of $31.79/hr, resulting in a ratio of 5.66, ranks at the 49th percentile, indicating a near-median affordability level. This means that the city is relatively affordable compared to its peers, making it an attractive location for talent without requiring significant wage premiums.
 
 **Labor Force Growth**
-The labor force growth rate in Louisville-Jefferson County is not available, but its percentile rank is 50th, indicating a near-median growth rate. This suggests that the workforce supply is likely expanding at a moderate pace, which could support hiring capacity for businesses. However, the lack of exact data makes it difficult to determine the exact implications for hiring.
+The year-over-year growth rate of the civilian labor force is -1.24%, indicating a contracting labor pool. This signals a structural headwind for hiring, as the supply of available workers is shrinking. Businesses may need to adapt their hiring strategies to accommodate this declining labor force.
 
 **Building Permits**
-The year-over-year change in building permits in Louisville-Jefferson County is -6.07%, which is near the median at the 40th percentile. This decline in permits suggests that housing supply may be tightening, which could lead to future affordability challenges and make it more difficult for workers to relocate to the city. However, the near-median percentile rank indicates that this trend is not particularly extreme compared to other cities.
+The year-over-year change in residential building permits is -6.07%, indicating a tightening of housing supply. This suggests that future affordability and workforce accommodation may be at risk, as the supply of new housing is not keeping pace with demand. The decline in building permits may lead to increased competition for available housing.
 
 **Days on Market**
-The current median days on market in Louisville-Jefferson County is 38 days, with a year-over-year decline of -2.6%. This relatively fast pace of home sales, combined with the declining trend, suggests that the housing market is competitive, making it challenging for relocating workers to find affordable housing. However, the below-average percentile rank of 22nd indicates that the market is still relatively accessible compared to other cities.
+The current median days on market is 38 days, with a year-over-year direction of -2.6%, indicating a relatively fast-paced market. This means that homes are selling quickly, making it a competitive market for relocating workers to find housing. The fast-paced market may require workers to act quickly to secure available housing.
 
 **Office Economy**
-With an office economy percentile rank of 14th, Louisville-Jefferson County has a relatively shallow professional talent pool. This makes the city less suited for businesses that require a deep knowledge-economy talent pool, such as tech, finance, or consulting firms. However, the city may be more suitable for businesses with industrial or logistics-dominated economies.
+The share of professional and office workers is 0.86, ranking at the 10th percentile, indicating a relatively shallow talent pool. This suggests that the city is less suited for businesses requiring a deep knowledge-economy talent pool, such as tech, finance, or consulting firms. However, the city may be more suitable for industries with fewer specialized roles, such as industrial or logistics-dominant economies.
 
-The Louisville-Jefferson County metro area offers businesses a relatively affordable cost of living and a moderate pace of wage growth, but its labor demand and office economy metrics are concerning. The single biggest risk or constraint for decision-makers is the city's challenging labor market, which may make it difficult to find and retain skilled workers, particularly in professional and office sectors.
+The Louisville-Jefferson County metro area offers a relatively affordable cost of living and a moderate wage growth environment, making it an attractive location for certain businesses. However, the single biggest risk or constraint for decision-makers is the contracting labor force, which may lead to hiring challenges and increased competition for available workers. This labor market constraint should be carefully considered when evaluating the city as a potential business location.

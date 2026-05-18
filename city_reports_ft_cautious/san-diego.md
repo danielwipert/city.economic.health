@@ -1,33 +1,33 @@
 # San Diego-Chula Vista-Carlsbad
 
-**Grade: B+ (Above Average) | 56.0th percentile | May 2026**
+**Grade: A- (Good) | 59.0th percentile | May 2026**
 
 ---
 
-The San Diego-Chula Vista-Carlsbad metro area has an overall grade of B+ with a composite score ranking at the 56.0th percentile out of 50 US metros. This city's economic character is most defined by its above-average labor demand, with a composite score at the 76th percentile, and its top-tier office economy, ranking at the 81st percentile. The labor demand is driven by a 0.98% year-over-year employment growth rate.
+The San Diego-Chula Vista-Carlsbad metro area has an overall grade of A- with a composite score ranking at the 59.0th percentile among 50 US metros. This city's economic character is most defined by its above-average labor demand, with a composite score of 5.60, and its strong wage growth, at 5.93% year-over-year. These metrics signal a city with a growing economy and increasing labor costs.
 
 **Labor Demand**
-The San Diego-Chula Vista-Carlsbad metro area has a labor demand composite score of 5.67, ranking at the 76th percentile, driven by a 0.98% year-over-year employment growth rate. Although the weekly hours deviation from the 12-month baseline is not available, the combination of employment growth and above-average labor demand signals genuine demand expansion. This indicates that the city is experiencing an increase in job creation and hours worked, suggesting a strong labor market.
+The San Diego-Chula Vista-Carlsbad metro area has an employment growth rate of 0.98% year-over-year and a weekly hours deviation of -0.076% from its own trend, resulting in a labor demand composite score of 5.60, which ranks at the 76th percentile. This combination signals genuine demand expansion, as jobs are being added and hours are running above trend. The labor market is experiencing growth, indicating a strong economy.
 
 **Unemployment**
-The unemployment rate in San Diego-Chula Vista-Carlsbad is not available, but the city ranks at the 39th percentile, indicating a below-average unemployment rate. This suggests that the labor market is relatively tight, making it more challenging for businesses to hire workers. As a result, businesses may face upward pressure on wages to attract and retain talent.
+The unemployment rate in San Diego-Chula Vista-Carlsbad is 4.50%, ranking at the 51st percentile, indicating a near-median level of unemployment. This means the market has some slack, but not excessively so, making it relatively manageable for businesses to hire. However, the moderate unemployment rate may still lead to some wage pressure, as businesses compete for available talent.
 
 **Wage Growth**
-The year-over-year wage growth rate in San Diego-Chula Vista-Carlsbad is not available, but the city ranks at the 50th percentile, indicating near-median wage growth. This suggests that wage growth is moderate, neither extremely high nor stagnant. As a result, employers can expect labor costs to rise moderately, while workers will experience a corresponding increase in purchasing power.
+The year-over-year wage growth in San Diego-Chula Vista-Carlsbad is 5.93%, ranking at the 76th percentile, indicating fast wage growth. This rapid increase in wages implies rising labor costs for employers, but also strong purchasing power for workers. As a result, businesses may need to adjust their budgets to accommodate higher labor expenses.
 
 **Cost of Living**
-San Diego-Chula Vista-Carlsbad has a cost of living ranking at the 50th percentile, indicating a near-median affordability score. This means that the city is neither extremely affordable nor expensive relative to its peers. As a result, businesses may not have a significant talent attraction advantage due to affordability, and may need to consider wage premiums to attract workers.
+San Diego-Chula Vista-Carlsbad has a cost of living score ranking at the 16th percentile, with a price-to-salary ratio of $605/sqft to $43.22/hr, or 14.00. This indicates that the city is relatively expensive, which may hinder talent attraction without offering wage premiums. The -4.1% year-over-year change in PSF, however, suggests some improvement in affordability.
 
 **Labor Force Growth**
-The civilian labor force in San Diego-Chula Vista-Carlsbad is growing at a rate of 0.35% year-over-year, ranking at the 48th percentile. This indicates that the labor force supply is expanding, albeit at a moderate rate. As a result, businesses can expect a relatively stable hiring environment, with a slowly increasing pool of potential workers.
+The civilian labor force in San Diego-Chula Vista-Carlsbad is growing at a rate of 0.35% year-over-year, ranking at the 50th percentile. This moderate growth rate indicates that the workforce supply is expanding, albeit slowly, providing a relatively stable hiring environment for businesses.
 
 **Building Permits**
-The number of residential building permits in San Diego-Chula Vista-Carlsbad has increased by 12.45% year-over-year, ranking at the 62nd percentile. This suggests that housing supply is expanding, which may lead to improved affordability and increased accommodation options for workers. As a result, businesses can expect a more favorable environment for attracting and retaining talent.
+The number of residential building permits in San Diego-Chula Vista-Carlsbad has increased by 12.45% year-over-year, ranking at the 66th percentile. This rise in permits suggests that housing supply is expanding, which may improve future affordability and accommodate a growing workforce.
 
 **Days on Market**
-The median days on market for homes in San Diego-Chula Vista-Carlsbad is 38 days, with a year-over-year increase of 2.7%. This ranks at the 50th percentile, indicating a near-median pace of home sales. As a result, workers relocating to this city may face a relatively competitive housing market, but one that is not extremely challenging.
+The median days on market for homes in San Diego-Chula Vista-Carlsbad is 38 days, with a 2.7% year-over-year increase, ranking at the 50th percentile. This indicates a relatively competitive market, but still accessible for workers relocating to the city. The rising days on market may signal a healthy normalization of the housing market.
 
 **Office Economy**
-San Diego-Chula Vista-Carlsbad has a deep professional talent pool, ranking at the 81st percentile. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, which require specialized office workers. However, the city may be less suitable for businesses in industrial or logistics-dominant sectors, which require a different type of workforce.
+San Diego-Chula Vista-Carlsbad has a deep professional talent pool, with an office economy score ranking at the 78th percentile. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, but less ideal for industries with predominantly industrial or logistics-based workforces.
 
-The San Diego-Chula Vista-Carlsbad metro area offers businesses a strong labor market with above-average demand and a deep professional talent pool. However, the city's relatively tight labor market and moderate wage growth may pose challenges for businesses trying to hire and retain workers, making it essential to consider these factors in location decisions.
+The San Diego-Chula Vista-Carlsbad metro area offers businesses a growing economy with a strong labor market and increasing wages, making it an attractive location for companies seeking to tap into a skilled workforce. However, the relatively high cost of living and moderate labor force growth rate may pose challenges for talent attraction and retention, and businesses should factor these constraints into their location decision.
