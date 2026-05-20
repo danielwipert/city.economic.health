@@ -42,7 +42,10 @@ jobs:
         env:
           TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
         run: python city_econ_pipeline.py
-      
+
+      - name: Generate PDF report
+        run: python generate_pdf_report.py
+
       - name: Generate website
         run: python generate_site.py
 
