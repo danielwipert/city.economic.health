@@ -1,33 +1,33 @@
 # San Jose-Sunnyvale-Santa Clara
 
-**Grade: A- (Good) | 61.4th percentile | May 2026**
+**Grade: A- (Good) | 60.3th percentile | May 2026**
 
 ---
 
-The San Jose-Sunnyvale-Santa Clara metro area has earned an overall grade of A- with a composite score ranking at the 61.4th percentile among 50 US metros. This city's economic character is most defined by its exceptionally strong labor demand, with a top-tier percentile rank of 96th, and its extremely high cost of living, ranking at the 0th percentile. The labor demand is driven by a combination of employment growth and hours worked above trend.
+The San Jose-Sunnyvale-Santa Clara metro area has an overall grade of A- with a composite score ranking at the 60.3th percentile among 50 US metros. This city's economic character is most defined by its strong labor demand, with a top-tier percentile rank of 96th, and its extremely high cost of living, ranking at the 0th percentile. The labor demand is driven by a combination of employment growth and hours worked above trend, signaling genuine demand expansion.
 
 **Labor Demand**
-The San Jose-Sunnyvale-Santa Clara metro area has seen employment growth of 1.56% year-over-year, coupled with a 0.747% deviation in weekly hours above its own 12-month trend. This combination signals genuine demand expansion, indicating that the city is adding jobs and workers are putting in more hours, a sign of a thriving economy. The labor demand composite score of 7.23 further reinforces this notion, ranking in the top tier at the 96th percentile.
+The San Jose-Sunnyvale-Santa Clara metro area has an employment growth rate of 1.56% year-over-year and a weekly hours deviation of 0.747% above its own trend. This combination signals a genuine demand expansion, with more jobs being added and hours worked above trend. The labor demand composite score of 7.23 further reinforces this signal, indicating a strong and growing labor market.
 
 **Unemployment**
-The unemployment rate in San Jose-Sunnyvale-Santa Clara stands at 4.20%, which translates to an above-average percentile rank of 69th. This suggests that the labor market has some slack, making it slightly easier for businesses to hire compared to tighter markets. However, the relatively low unemployment rate still implies some competition for talent, which may drive up wages.
+The unemployment rate in the San Jose-Sunnyvale-Santa Clara metro area is 3.90%, ranking at the 74th percentile. This indicates a relatively tight labor market with some slack, making it moderately challenging for businesses to hire. The practical implication for a business trying to hire in this market is that they may face some competition for talent, but it is still possible to find qualified candidates.
 
 **Wage Growth**
-The year-over-year wage growth in this metro area is 0.76%, ranking at the 14th percentile, indicating stagnant wage growth. This slow wage growth environment means that labor costs for employers are not rising rapidly, but it also signifies weak bargaining power for workers and potentially limited purchasing power.
+The year-over-year wage growth rate in the San Jose-Sunnyvale-Santa Clara metro area is 0.76%, ranking at the 14th percentile. This indicates stagnant wage growth, which may help keep labor costs flat for employers but also means workers have limited bargaining power. The slow wage growth may make it easier for businesses to manage labor costs, but it also means workers may have less purchasing power.
 
 **Cost of Living**
-San Jose-Sunnyvale-Santa Clara has a cost of living score that ranks at the 0th percentile, making it one of the most expensive cities relative to its peers. The PSF to earnings ratio is $846/sqft versus $54.37/hr, resulting in a ratio of 15.56. This high cost of living, combined with a slight decrease in PSF value year-over-year, suggests that attracting talent without offering significant wage premiums could be challenging.
+The San Jose-Sunnyvale-Santa Clara metro area has a cost of living ratio of $846/sqft to $54.37/hr, with a year-over-year decrease of 2.4% in PSF. However, with a percentile rank of 0th, the city is extremely expensive relative to peers. This makes it challenging to attract talent without offering significant wage premiums, as the high cost of living may offset the benefits of working in the area.
 
 **Labor Force Growth**
-The civilian labor force in this metro area has grown by 1.06% year-over-year, indicating an expanding workforce supply. This positive growth rate suggests that the hiring capacity for businesses is not constrained by a shrinking labor pool, providing a favorable condition for recruitment.
+The civilian labor force in the San Jose-Sunnyvale-Santa Clara metro area has a year-over-year growth rate of -0.11%, ranking near the median at the 50th percentile. This indicates a slightly contracting labor force supply, which may create a structural headwind for hiring in the future. The implication for hiring capacity is that businesses may need to be more competitive in their offers to attract and retain talent.
 
 **Building Permits**
-The year-over-year change in residential building permits is a significant 104.08% increase, ranking in the top tier at the 94th percentile. This substantial rise in building permits signals an expansion in future housing supply, which could lead to improved affordability and a more accommodating environment for the workforce.
+The San Jose-Sunnyvale-Santa Clara metro area has a year-over-year change in building permits of 104.08%, ranking at the 94th percentile. This indicates a significant expansion in housing supply, which may improve affordability and accommodation for the workforce in the future. The rapid growth in building permits signals developer confidence and a potential easing of the housing shortage.
 
 **Days on Market**
-Homes in San Jose-Sunnyvale-Santa Clara currently sit on the market for a median of 28 days, with a year-over-year increase of 16.7%. This increase, coupled with a near-median percentile rank of 48th, suggests a market that is normalizing, becoming slightly less competitive for buyers, and thus more accessible for relocating workers.
+The median days on market for homes in the San Jose-Sunnyvale-Santa Clara metro area is 28 days, with a year-over-year increase of 16.7%. This indicates a relatively fast-paced market, although the increase in days on market may signal a healthy normalization. For a worker relocating to this city, the market is still competitive, but the slight increase in days on market may make it slightly more accessible.
 
 **Office Economy**
-The share of jobs in professional and office sectors in this metro area is significant, with a composite score ranking at the 86th percentile. This indicates a deep talent pool suited for businesses in tech, finance, consulting, and HQ decisions, making San Jose-Sunnyvale-Santa Clara an attractive location for knowledge-economy businesses.
+The San Jose-Sunnyvale-Santa Clara metro area has a deep professional talent pool, with an office/professional worker share ranking at the 86th percentile. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, but less suitable for industrial or logistics-dominant economies. The city's strong office economy is a significant advantage for businesses looking to tap into a knowledgeable and skilled workforce.
 
-In conclusion, San Jose-Sunnyvale-Santa Clara offers businesses a unique combination of strong labor demand and a deep professional talent pool, making it an ideal location for knowledge-economy companies. However, the single biggest risk or constraint for decision-makers is the extremely high cost of living, which may necessitate significant wage premiums to attract and retain talent, potentially offsetting the benefits of the city's other favorable economic characteristics.
+The San Jose-Sunnyvale-Santa Clara metro area offers businesses a strong labor market with genuine demand expansion, a deep professional talent pool, and a growing housing supply. However, the single biggest risk or constraint for decision-makers is the extremely high cost of living, which may require significant wage premiums to attract and retain talent.

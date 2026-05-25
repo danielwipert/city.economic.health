@@ -1,33 +1,33 @@
 # San Antonio-New Braunfels
 
-**Grade: C+ (Poor) | 43.3th percentile | May 2026**
+**Grade: B- (Below Average) | 45.3th percentile | May 2026**
 
 ---
 
-The San Antonio-New Braunfels metro area has an overall grade of C+ with a composite score ranking it 43.3th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score of 3.29, and its high cost of living affordability, with a ratio of $172/sqft to $32.72/hr, ranking it in the 92th percentile. The labor demand and cost of living metrics are the most critical in understanding the city's current economic situation, with labor demand being below average and cost of living being highly affordable.
+The San Antonio-New Braunfels metro area has an overall grade of B- with a composite score ranking it at the 45.3th percentile out of 50 US metros. This city's economic character is most defined by its below-average labor demand, with a composite score of 3.29 ranking it at the 28th percentile, and its highly affordable cost of living, with a ratio of $172/sqft to $32.72/hr and a percentile rank of 92. The labor demand metrics, including employment growth and weekly hours, signal a contraction in the job market.
 
 **Labor Demand**
-The employment growth rate in San Antonio-New Braunfels is +0.35% year-over-year, while weekly hours are deviating -2.620% from the city's own 12-month baseline. This combination signals a contraction in labor demand, as the slow employment growth is accompanied by a decrease in hours worked, indicating a potential survivor squeeze where remaining workers are absorbing the load of eliminated roles. This suggests that the city is not experiencing genuine demand expansion.
+The employment growth rate in San Antonio-New Braunfels is +0.35% year-over-year, while weekly hours are -2.620% below the city's own trend. This combination signals a contraction in the job market, rather than genuine demand expansion or survivor squeeze. The below-average labor demand composite score of 3.29 confirms this assessment.
 
 **Unemployment**
-The unemployment rate in San Antonio-New Braunfels is 4.30%, ranking it near the median at the 51th percentile. This indicates that the market has some slack, making it slightly easier for businesses to hire compared to tighter labor markets. However, the relatively low unemployment rate still suggests that businesses may face some competition for talent, particularly in specialized fields.
+The unemployment rate in San Antonio-New Braunfels is 4.00%, ranking it at the 56th percentile, indicating a near-median level of slack in the labor market. This means that while the market is not extremely tight, it is also not overly loose, with some competition for jobs. For a business trying to hire in this city, the moderate unemployment rate suggests that finding qualified candidates may be manageable, but not extremely easy.
 
 **Wage Growth**
-The year-over-year wage growth in San Antonio-New Braunfels is +3.05%, ranking it below average at the 36th percentile. This moderate wage growth rate suggests that labor costs for employers are rising, but not at an alarming rate, while worker purchasing power is increasing, but not dramatically. This balance may be beneficial for businesses looking to manage labor costs while still attracting and retaining talent.
+The year-over-year wage growth rate in San Antonio-New Braunfels is +3.05%, ranking it at the 36th percentile, indicating below-average wage growth. This moderate wage growth rate suggests that labor costs for employers are rising, but not extremely quickly, while worker purchasing power is increasing, but not rapidly. As a result, businesses may face some upward pressure on wages, but it is not extreme.
 
 **Cost of Living**
-San Antonio-New Braunfels has a cost of living ratio of $172/sqft to $32.72/hr, with the price per square foot decreasing by -5.5% year-over-year, ranking it in the 92th percentile for affordability. This high affordability ranking means that the city is highly attractive for talent, as workers can afford a high quality of life without requiring significant wage premiums. This is a major advantage for businesses looking to relocate or expand in the area.
+San Antonio-New Braunfels has a highly affordable cost of living, with a percentile rank of 92, due to its low PSF-to-earnings ratio of $172/sqft to $32.72/hr, which is falling by -5.5% year-over-year. This high affordability score means that the city has a talent attraction advantage, as workers can afford to live and work in the area without requiring large wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in San Antonio-New Braunfels is growing at a rate of -0.11% year-over-year, indicating a slight contraction in the labor force supply. This contraction may pose a structural headwind for hiring, as businesses may face challenges in finding and attracting new talent to the area. However, the slow contraction rate may not be a significant concern for businesses with existing operations in the city.
+The civilian labor force in San Antonio-New Braunfels is shrinking at a rate of -0.16% year-over-year, ranking it near the median at the 48th percentile. This contraction in the labor force supply suggests that hiring capacity may be limited in the future, as the pool of available workers is not expanding.
 
 **Building Permits**
-The number of residential building permits in San Antonio-New Braunfels is decreasing by -12.26% year-over-year, indicating a tightening of the housing supply. This decrease in building permits may signal future affordability challenges and potential workforce accommodation issues, as the supply of housing may not be able to meet the demand for talent relocating to the area.
+The number of residential building permits in San Antonio-New Braunfels is falling by -12.26% year-over-year, ranking it at the 34th percentile, indicating a tightening of the housing supply. This decline in building permits signals that future affordability and workforce accommodation may be at risk, as the supply of new housing is not keeping pace with demand.
 
 **Days on Market**
-The median days on market for homes in San Antonio-New Braunfels is currently 53 days, with a year-over-year decrease of -8.6%. This relatively fast market, ranking in the bottom tier at the 18th percentile, may make it challenging for relocating workers to find and purchase homes, potentially affecting their decision to move to the area. However, the fast market may also indicate a strong demand for housing, which could be beneficial for businesses looking to attract talent.
+The median days on market for homes in San Antonio-New Braunfels is 53 days, with a year-over-year decline of -8.6%, ranking it at the 18th percentile. This relatively fast pace of home sales suggests that the market is competitive, and relocating workers may face challenges in finding and securing housing.
 
 **Office Economy**
-San Antonio-New Braunfels has a professional and office worker share of 2.58, ranking it near the median at the 54th percentile. This suggests that the city has a moderately deep talent pool in professional and office sectors, making it suitable for businesses in tech, finance, consulting, and HQ decisions. However, the city may not be as well-suited for businesses requiring a large industrial or logistics workforce.
+San Antonio-New Braunfels has a professional talent pool that ranks at the 54th percentile, indicating a near-median depth of specialized workers. This city is best suited for businesses that do not require an extremely deep knowledge-economy talent pool, such as industrial or logistics companies, and less suited for tech, finance, or consulting firms that rely on a highly specialized workforce.
 
-The San Antonio-New Braunfels metro area offers businesses a highly affordable cost of living and a moderate wage growth rate, making it an attractive location for talent and businesses alike. However, the city's low labor demand and tightening housing supply pose significant risks and constraints for businesses looking to relocate or expand in the area, particularly in terms of finding and attracting new talent and accommodating a growing workforce.
+The San Antonio-New Braunfels metro area offers businesses a highly affordable cost of living and a moderate unemployment rate, making it an attractive location for companies looking to reduce labor costs. However, the single biggest risk or constraint for decision-makers is the below-average labor demand and shrinking labor force supply, which may limit hiring capacity and create challenges for businesses looking to expand or relocate to the area.

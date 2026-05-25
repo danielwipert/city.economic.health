@@ -1,6 +1,6 @@
 {
-  "calculation_timestamp": "2026-05-18T12:34:07.200928",
-  "calculation_date": "2026-05-18 12:34:07",
+  "calculation_timestamp": "2026-05-25T12:32:53.145475",
+  "calculation_date": "2026-05-25 12:32:53",
   "version": "5.0",
   "scoring_method": "Percentile-Based (Rank Order)",
   "rubric": "9-Metric Percentile System: 85% Employment / 15% Housing",
@@ -32,10 +32,10 @@
       "rank": 1,
       "primary_city": "New York",
       "raw_values": {
-        "101A_composite": 3.5,
-        "101A_unemployment": 5.3,
-        "101A_unemp_yoy_pp": 0.9,
-        "102A_clf_yoy": 2.43,
+        "101A_composite": 5.62,
+        "101A_unemployment": 4.5,
+        "101A_unemp_yoy_pp": 0.0,
+        "102A_clf_yoy": 0.73,
         "103B_earnings_yoy": 6.12,
         "104C_col": 4.45,
         "105C_owr": 2.34,
@@ -48,8 +48,8 @@
         "204A_dom_level_days": 41.0
       },
       "percentile_scores": {
-        "101A": 4.1,
-        "102A": 92.0,
+        "101A": 36.0,
+        "102A": 70.0,
         "103B": 78.0,
         "104C": 18.4,
         "105C": 42.0,
@@ -58,8 +58,8 @@
         "204A": 10.0
       },
       "scores_100": {
-        "101A": 4,
-        "102A": 92,
+        "101A": 36,
+        "102A": 70,
         "103B": 78,
         "104C": 18,
         "105C": 42,
@@ -67,25 +67,25 @@
         "200B": 92,
         "204A": 10
       },
-      "weighted_percentile": 40.4,
-      "weighted_score": 40,
+      "weighted_percentile": 44.6,
+      "weighted_score": 45,
       "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
-        "percentile": 40.4
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
+        "percentile": 44.6
       },
-      "grade_display": "\ud83d\udcc9 C+"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "Los Angeles-Long Beach-Anaheim",
       "rank": 2,
       "primary_city": "Los Angeles",
       "raw_values": {
-        "101A_composite": 5.0,
-        "101A_unemployment": 5.2,
-        "101A_unemp_yoy_pp": -0.2,
-        "102A_clf_yoy": -0.12,
+        "101A_composite": 5.62,
+        "101A_unemployment": 4.8,
+        "101A_unemp_yoy_pp": -0.3,
+        "102A_clf_yoy": -0.54,
         "103B_earnings_yoy": 5.19,
         "104C_col": 5.67,
         "105C_owr": 3.26,
@@ -98,8 +98,8 @@
         "204A_dom_level_days": 46.0
       },
       "percentile_scores": {
-        "101A": 38.8,
-        "102A": 36.0,
+        "101A": 36.0,
+        "102A": 32.0,
         "103B": 68.0,
         "104C": 4.1,
         "105C": 72.0,
@@ -108,8 +108,8 @@
         "204A": 58.0
       },
       "scores_100": {
-        "101A": 39,
-        "102A": 36,
+        "101A": 36,
+        "102A": 32,
         "103B": 68,
         "104C": 4,
         "105C": 72,
@@ -117,25 +117,25 @@
         "200B": 96,
         "204A": 58
       },
-      "weighted_percentile": 55.2,
-      "weighted_score": 55,
+      "weighted_percentile": 54.2,
+      "weighted_score": 54,
       "grade": {
-        "letter": "B+",
-        "emoji": "\ud83d\udcc8",
-        "description": "Above Average",
-        "percentile": 55.2
+        "letter": "B",
+        "emoji": "\u27a1\ufe0f",
+        "description": "Average",
+        "percentile": 54.2
       },
-      "grade_display": "\ud83d\udcc8 B+"
+      "grade_display": "\u27a1\ufe0f B"
     },
     {
       "metro_name": "Chicago-Naperville-Elgin",
       "rank": 3,
       "primary_city": "Chicago",
       "raw_values": {
-        "101A_composite": 4.38,
-        "101A_unemployment": 5.4,
-        "101A_unemp_yoy_pp": 0.1,
-        "102A_clf_yoy": 0.16,
+        "101A_composite": 4.62,
+        "101A_unemployment": 5.1,
+        "101A_unemp_yoy_pp": 0.2,
+        "102A_clf_yoy": -0.92,
         "103B_earnings_yoy": 4.16,
         "104C_col": 2.03,
         "105C_owr": 2.14,
@@ -148,8 +148,8 @@
         "204A_dom_level_days": 34.0
       },
       "percentile_scores": {
-        "101A": 22.4,
-        "102A": 48.0,
+        "101A": 16.0,
+        "102A": 20.0,
         "103B": 56.0,
         "104C": 63.3,
         "105C": 36.0,
@@ -158,8 +158,8 @@
         "204A": 34.0
       },
       "scores_100": {
-        "101A": 22,
-        "102A": 48,
+        "101A": 16,
+        "102A": 20,
         "103B": 56,
         "104C": 63,
         "105C": 36,
@@ -167,13 +167,13 @@
         "200B": 78,
         "204A": 34
       },
-      "weighted_percentile": 48.9,
-      "weighted_score": 49,
+      "weighted_percentile": 44.8,
+      "weighted_score": 45,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 48.9
+        "percentile": 44.8
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -182,10 +182,10 @@
       "rank": 4,
       "primary_city": "Dallas",
       "raw_values": {
-        "101A_composite": 6.12,
-        "101A_unemployment": 4.1,
-        "101A_unemp_yoy_pp": 0.0,
-        "102A_clf_yoy": 0.73,
+        "101A_composite": 6.25,
+        "101A_unemployment": 3.9,
+        "101A_unemp_yoy_pp": 0.1,
+        "102A_clf_yoy": 0.52,
         "103B_earnings_yoy": 3.13,
         "104C_col": 1.5,
         "105C_owr": 4.34,
@@ -198,8 +198,8 @@
         "204A_dom_level_days": 46.0
       },
       "percentile_scores": {
-        "101A": 71.4,
-        "102A": 56.0,
+        "101A": 62.0,
+        "102A": 68.0,
         "103B": 38.0,
         "104C": 77.6,
         "105C": 92.0,
@@ -208,8 +208,8 @@
         "204A": 74.0
       },
       "scores_100": {
-        "101A": 71,
-        "102A": 56,
+        "101A": 62,
+        "102A": 68,
         "103B": 38,
         "104C": 78,
         "105C": 92,
@@ -217,13 +217,13 @@
         "200B": 62,
         "204A": 74
       },
-      "weighted_percentile": 64.6,
-      "weighted_score": 65,
+      "weighted_percentile": 63.9,
+      "weighted_score": 64,
       "grade": {
         "letter": "A",
         "emoji": "\u2705",
         "description": "Very Good",
-        "percentile": 64.6
+        "percentile": 63.9
       },
       "grade_display": "\u2705 A"
     },
@@ -232,10 +232,10 @@
       "rank": 5,
       "primary_city": "Houston",
       "raw_values": {
-        "101A_composite": 5.12,
-        "101A_unemployment": 4.7,
+        "101A_composite": 5.5,
+        "101A_unemployment": 4.4,
         "101A_unemp_yoy_pp": 0.2,
-        "102A_clf_yoy": 0.87,
+        "102A_clf_yoy": 0.29,
         "103B_earnings_yoy": 2.05,
         "104C_col": 1.64,
         "105C_owr": 3.46,
@@ -248,8 +248,8 @@
         "204A_dom_level_days": 48.0
       },
       "percentile_scores": {
-        "101A": 42.9,
-        "102A": 64.0,
+        "101A": 28.0,
+        "102A": 60.0,
         "103B": 26.0,
         "104C": 71.4,
         "105C": 84.0,
@@ -258,8 +258,8 @@
         "204A": 78.0
       },
       "scores_100": {
-        "101A": 43,
-        "102A": 64,
+        "101A": 28,
+        "102A": 60,
         "103B": 26,
         "104C": 71,
         "105C": 84,
@@ -267,15 +267,15 @@
         "200B": 24,
         "204A": 78
       },
-      "weighted_percentile": 52.8,
-      "weighted_score": 53,
+      "weighted_percentile": 49.4,
+      "weighted_score": 49,
       "grade": {
-        "letter": "B",
-        "emoji": "\u27a1\ufe0f",
-        "description": "Average",
-        "percentile": 52.8
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
+        "percentile": 49.4
       },
-      "grade_display": "\u27a1\ufe0f B"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "Miami-Fort Lauderdale-West Palm Beach",
@@ -283,9 +283,9 @@
       "primary_city": "Miami",
       "raw_values": {
         "101A_composite": 5.75,
-        "101A_unemployment": 3.8,
-        "101A_unemp_yoy_pp": 0.6,
-        "102A_clf_yoy": -0.5,
+        "101A_unemployment": 3.7,
+        "101A_unemp_yoy_pp": 0.7,
+        "102A_clf_yoy": 0.15,
         "103B_earnings_yoy": 8.02,
         "104C_col": 3.2,
         "105C_owr": 2.84,
@@ -298,8 +298,8 @@
         "204A_dom_level_days": 77.0
       },
       "percentile_scores": {
-        "101A": 65.3,
-        "102A": 28.0,
+        "101A": 46.0,
+        "102A": 58.0,
         "103B": 96.0,
         "104C": 32.7,
         "105C": 58.0,
@@ -308,8 +308,8 @@
         "204A": 14.0
       },
       "scores_100": {
-        "101A": 65,
-        "102A": 28,
+        "101A": 46,
+        "102A": 58,
         "103B": 96,
         "104C": 33,
         "105C": 58,
@@ -317,13 +317,13 @@
         "200B": 46,
         "204A": 14
       },
-      "weighted_percentile": 49.2,
-      "weighted_score": 49,
+      "weighted_percentile": 48.4,
+      "weighted_score": 48,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 49.2
+        "percentile": 48.4
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -332,10 +332,10 @@
       "rank": 7,
       "primary_city": "Washington DC",
       "raw_values": {
-        "101A_composite": 4.5,
-        "101A_unemployment": 4.4,
-        "101A_unemp_yoy_pp": 1.0,
-        "102A_clf_yoy": -2.79,
+        "101A_composite": 5.5,
+        "101A_unemployment": 4.1,
+        "101A_unemp_yoy_pp": 0.5,
+        "102A_clf_yoy": -2.11,
         "103B_earnings_yoy": 3.48,
         "104C_col": 1.62,
         "105C_owr": 1.98,
@@ -348,8 +348,8 @@
         "204A_dom_level_days": 29.0
       },
       "percentile_scores": {
-        "101A": 26.5,
-        "102A": 2.0,
+        "101A": 28.0,
+        "102A": 4.0,
         "103B": 44.0,
         "104C": 75.5,
         "105C": 30.0,
@@ -358,8 +358,8 @@
         "204A": 56.0
       },
       "scores_100": {
-        "101A": 27,
-        "102A": 2,
+        "101A": 28,
+        "102A": 4,
         "103B": 44,
         "104C": 76,
         "105C": 30,
@@ -367,13 +367,13 @@
         "200B": 84,
         "204A": 56
       },
-      "weighted_percentile": 33.3,
-      "weighted_score": 33,
+      "weighted_percentile": 33.8,
+      "weighted_score": 34,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 33.3
+        "percentile": 33.8
       },
       "grade_display": "\u26d4 C"
     },
@@ -382,10 +382,10 @@
       "rank": 8,
       "primary_city": "Atlanta",
       "raw_values": {
-        "101A_composite": 6.75,
-        "101A_unemployment": 3.6,
+        "101A_composite": 7.12,
+        "101A_unemployment": 3.3,
         "101A_unemp_yoy_pp": 0.0,
-        "102A_clf_yoy": 1.26,
+        "102A_clf_yoy": 1.37,
         "103B_earnings_yoy": 5.18,
         "104C_col": 1.34,
         "105C_owr": 3.42,
@@ -398,8 +398,8 @@
         "204A_dom_level_days": 49.0
       },
       "percentile_scores": {
-        "101A": 81.6,
-        "102A": 74.0,
+        "101A": 82.0,
+        "102A": 86.0,
         "103B": 66.0,
         "104C": 87.8,
         "105C": 82.0,
@@ -409,7 +409,7 @@
       },
       "scores_100": {
         "101A": 82,
-        "102A": 74,
+        "102A": 86,
         "103B": 66,
         "104C": 88,
         "105C": 82,
@@ -417,13 +417,13 @@
         "200B": 42,
         "204A": 66
       },
-      "weighted_percentile": 73.6,
-      "weighted_score": 74,
+      "weighted_percentile": 74.9,
+      "weighted_score": 75,
       "grade": {
         "letter": "A+",
         "emoji": "\ud83d\ude80",
         "description": "Excellent",
-        "percentile": 73.6
+        "percentile": 74.9
       },
       "grade_display": "\ud83d\ude80 A+"
     },
@@ -432,10 +432,10 @@
       "rank": 9,
       "primary_city": "Philadelphia",
       "raw_values": {
-        "101A_composite": 4.5,
-        "101A_unemployment": 4.8,
-        "101A_unemp_yoy_pp": 0.6,
-        "102A_clf_yoy": 1.1,
+        "101A_composite": 5.88,
+        "101A_unemployment": 4.3,
+        "101A_unemp_yoy_pp": 0.0,
+        "102A_clf_yoy": 1.25,
         "103B_earnings_yoy": -1.45,
         "104C_col": 4.54,
         "105C_owr": 2.46,
@@ -448,8 +448,8 @@
         "204A_dom_level_days": 36.0
       },
       "percentile_scores": {
-        "101A": 26.5,
-        "102A": 72.0,
+        "101A": 50.0,
+        "102A": 84.0,
         "103B": 0,
         "104C": 14.3,
         "105C": 48.0,
@@ -458,8 +458,8 @@
         "204A": 54.0
       },
       "scores_100": {
-        "101A": 27,
-        "102A": 72,
+        "101A": 50,
+        "102A": 84,
         "103B": 0,
         "104C": 14,
         "105C": 48,
@@ -467,25 +467,25 @@
         "200B": 58,
         "204A": 54
       },
-      "weighted_percentile": 27.2,
-      "weighted_score": 27,
+      "weighted_percentile": 33.1,
+      "weighted_score": 33,
       "grade": {
-        "letter": "C-",
-        "emoji": "\ud83d\udea8",
-        "description": "Critical",
-        "percentile": 27.2
+        "letter": "C",
+        "emoji": "\u26d4",
+        "description": "Very Poor",
+        "percentile": 33.1
       },
-      "grade_display": "\ud83d\udea8 C-"
+      "grade_display": "\u26d4 C"
     },
     {
       "metro_name": "Phoenix-Mesa-Chandler",
       "rank": 10,
       "primary_city": "Phoenix",
       "raw_values": {
-        "101A_composite": 5.25,
-        "101A_unemployment": 4.2,
-        "101A_unemp_yoy_pp": 0.6,
-        "102A_clf_yoy": -1.44,
+        "101A_composite": 5.62,
+        "101A_unemployment": 4.0,
+        "101A_unemp_yoy_pp": 0.5,
+        "102A_clf_yoy": -0.96,
         "103B_earnings_yoy": 3.68,
         "104C_col": 2.31,
         "105C_owr": 2.64,
@@ -498,8 +498,8 @@
         "204A_dom_level_days": 57.0
       },
       "percentile_scores": {
-        "101A": 46.9,
-        "102A": 12.0,
+        "101A": 36.0,
+        "102A": 16.0,
         "103B": 48.0,
         "104C": 46.9,
         "105C": 56.0,
@@ -508,8 +508,8 @@
         "204A": 38.0
       },
       "scores_100": {
-        "101A": 47,
-        "102A": 12,
+        "101A": 36,
+        "102A": 16,
         "103B": 48,
         "104C": 47,
         "105C": 56,
@@ -517,13 +517,13 @@
         "200B": 38,
         "204A": 38
       },
-      "weighted_percentile": 41.8,
-      "weighted_score": 42,
+      "weighted_percentile": 40.0,
+      "weighted_score": 40,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Poor",
-        "percentile": 41.8
+        "percentile": 40.0
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -548,8 +548,8 @@
         "204A_dom_level_days": 25.0
       },
       "percentile_scores": {
-        "101A": 44.9,
-        "102A": 96.0,
+        "101A": 26.0,
+        "102A": 98.0,
         "103B": 46.0,
         "104C": 10.2,
         "105C": 74.0,
@@ -558,8 +558,8 @@
         "204A": 4.0
       },
       "scores_100": {
-        "101A": 45,
-        "102A": 96,
+        "101A": 26,
+        "102A": 98,
         "103B": 46,
         "104C": 10,
         "105C": 74,
@@ -567,13 +567,13 @@
         "200B": 16,
         "204A": 4
       },
-      "weighted_percentile": 37.2,
-      "weighted_score": 37,
+      "weighted_percentile": 33.6,
+      "weighted_score": 34,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 37.2
+        "percentile": 33.6
       },
       "grade_display": "\u26d4 C"
     },
@@ -582,10 +582,10 @@
       "rank": 12,
       "primary_city": "Riverside",
       "raw_values": {
-        "101A_composite": 4.38,
-        "101A_unemployment": 5.3,
-        "101A_unemp_yoy_pp": 0.2,
-        "102A_clf_yoy": 0.08,
+        "101A_composite": 5.0,
+        "101A_unemployment": 5.1,
+        "101A_unemp_yoy_pp": -0.1,
+        "102A_clf_yoy": -1.1,
         "103B_earnings_yoy": 5.2,
         "104C_col": 2.97,
         "105C_owr": 0.16,
@@ -598,8 +598,8 @@
         "204A_dom_level_days": 54.0
       },
       "percentile_scores": {
-        "101A": 22.4,
-        "102A": 44.0,
+        "101A": 22.0,
+        "102A": 14.0,
         "103B": 70.0,
         "104C": 34.7,
         "105C": 0,
@@ -609,7 +609,7 @@
       },
       "scores_100": {
         "101A": 22,
-        "102A": 44,
+        "102A": 14,
         "103B": 70,
         "104C": 35,
         "105C": 0,
@@ -617,25 +617,25 @@
         "200B": 28,
         "204A": 36
       },
-      "weighted_percentile": 34.2,
-      "weighted_score": 34,
+      "weighted_percentile": 31.1,
+      "weighted_score": 31,
       "grade": {
-        "letter": "C",
-        "emoji": "\u26d4",
-        "description": "Very Poor",
-        "percentile": 34.2
+        "letter": "C-",
+        "emoji": "\ud83d\udea8",
+        "description": "Critical",
+        "percentile": 31.1
       },
-      "grade_display": "\u26d4 C"
+      "grade_display": "\ud83d\udea8 C-"
     },
     {
       "metro_name": "San Francisco-Oakland-Fremont",
       "rank": 13,
       "primary_city": "San Francisco",
       "raw_values": {
-        "101A_composite": 5.75,
-        "101A_unemployment": 4.3,
-        "101A_unemp_yoy_pp": 0.1,
-        "102A_clf_yoy": -0.36,
+        "101A_composite": 6.5,
+        "101A_unemployment": 4.0,
+        "101A_unemp_yoy_pp": -0.2,
+        "102A_clf_yoy": -1.4,
         "103B_earnings_yoy": 6.2,
         "104C_col": 4.22,
         "105C_owr": 3.12,
@@ -648,8 +648,8 @@
         "204A_dom_level_days": 31.0
       },
       "percentile_scores": {
-        "101A": 61.2,
-        "102A": 32.0,
+        "101A": 68.0,
+        "102A": 6.0,
         "103B": 82.0,
         "104C": 20.4,
         "105C": 68.0,
@@ -658,8 +658,8 @@
         "204A": 6.0
       },
       "scores_100": {
-        "101A": 61,
-        "102A": 32,
+        "101A": 68,
+        "102A": 6,
         "103B": 82,
         "104C": 20,
         "105C": 68,
@@ -667,13 +667,13 @@
         "200B": 12,
         "204A": 6
       },
-      "weighted_percentile": 51.7,
-      "weighted_score": 52,
+      "weighted_percentile": 50.5,
+      "weighted_score": 50,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 51.7
+        "percentile": 50.5
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -682,10 +682,10 @@
       "rank": 14,
       "primary_city": "Detroit",
       "raw_values": {
-        "101A_composite": 4.0,
-        "101A_unemployment": 5.6,
+        "101A_composite": 4.38,
+        "101A_unemployment": 5.3,
         "101A_unemp_yoy_pp": 0.2,
-        "102A_clf_yoy": -0.59,
+        "102A_clf_yoy": 0.92,
         "103B_earnings_yoy": 2.04,
         "104C_col": 2.53,
         "105C_owr": 2.52,
@@ -698,8 +698,8 @@
         "204A_dom_level_days": 39.0
       },
       "percentile_scores": {
-        "101A": 12.2,
-        "102A": 24.0,
+        "101A": 4.0,
+        "102A": 76.0,
         "103B": 24.0,
         "104C": 42.9,
         "105C": 50.0,
@@ -708,8 +708,8 @@
         "204A": 68.0
       },
       "scores_100": {
-        "101A": 12,
-        "102A": 24,
+        "101A": 4,
+        "102A": 76,
         "103B": 24,
         "104C": 43,
         "105C": 50,
@@ -717,13 +717,13 @@
         "200B": 36,
         "204A": 68
       },
-      "weighted_percentile": 32.1,
-      "weighted_score": 32,
+      "weighted_percentile": 35.6,
+      "weighted_score": 36,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 32.1
+        "percentile": 35.6
       },
       "grade_display": "\u26d4 C"
     },
@@ -732,10 +732,10 @@
       "rank": 15,
       "primary_city": "Seattle",
       "raw_values": {
-        "101A_composite": 2.88,
-        "101A_unemployment": 5.7,
-        "101A_unemp_yoy_pp": 1.3,
-        "102A_clf_yoy": 0.84,
+        "101A_composite": 4.5,
+        "101A_unemployment": 4.9,
+        "101A_unemp_yoy_pp": 0.5,
+        "102A_clf_yoy": -0.8,
         "103B_earnings_yoy": 8.13,
         "104C_col": 2.62,
         "105C_owr": 3.36,
@@ -748,8 +748,8 @@
         "204A_dom_level_days": 34.0
       },
       "percentile_scores": {
-        "101A": 2.0,
-        "102A": 60.0,
+        "101A": 10.0,
+        "102A": 22.0,
         "103B": 98.0,
         "104C": 36.7,
         "105C": 76.0,
@@ -758,8 +758,8 @@
         "204A": 92.0
       },
       "scores_100": {
-        "101A": 2,
-        "102A": 60,
+        "101A": 10,
+        "102A": 22,
         "103B": 98,
         "104C": 37,
         "105C": 76,
@@ -767,13 +767,13 @@
         "200B": 90,
         "204A": 92
       },
-      "weighted_percentile": 52.9,
-      "weighted_score": 53,
+      "weighted_percentile": 50.7,
+      "weighted_score": 51,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 52.9
+        "percentile": 50.7
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -782,10 +782,10 @@
       "rank": 16,
       "primary_city": "Minneapolis",
       "raw_values": {
-        "101A_composite": 4.0,
-        "101A_unemployment": 4.8,
-        "101A_unemp_yoy_pp": 1.3,
-        "102A_clf_yoy": -0.46,
+        "101A_composite": 4.62,
+        "101A_unemployment": 4.5,
+        "101A_unemp_yoy_pp": 0.8,
+        "102A_clf_yoy": -1.13,
         "103B_earnings_yoy": 1.64,
         "104C_col": 2.55,
         "105C_owr": 0.88,
@@ -798,8 +798,8 @@
         "204A_dom_level_days": 33.0
       },
       "percentile_scores": {
-        "101A": 12.2,
-        "102A": 30.0,
+        "101A": 16.0,
+        "102A": 12.0,
         "103B": 20.0,
         "104C": 40.8,
         "105C": 14.0,
@@ -808,8 +808,8 @@
         "204A": 20.0
       },
       "scores_100": {
-        "101A": 12,
-        "102A": 30,
+        "101A": 16,
+        "102A": 12,
         "103B": 20,
         "104C": 41,
         "105C": 14,
@@ -817,13 +817,13 @@
         "200B": 54,
         "204A": 20
       },
-      "weighted_percentile": 34.2,
-      "weighted_score": 34,
+      "weighted_percentile": 33.1,
+      "weighted_score": 33,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 34.2
+        "percentile": 33.1
       },
       "grade_display": "\u26d4 C"
     },
@@ -832,10 +832,10 @@
       "rank": 17,
       "primary_city": "Tampa",
       "raw_values": {
-        "101A_composite": 3.87,
-        "101A_unemployment": 4.9,
-        "101A_unemp_yoy_pp": 1.1,
-        "102A_clf_yoy": -0.56,
+        "101A_composite": 4.38,
+        "101A_unemployment": 4.5,
+        "101A_unemp_yoy_pp": 1.0,
+        "102A_clf_yoy": 0.14,
         "103B_earnings_yoy": 7.84,
         "104C_col": 1.37,
         "105C_owr": 2.32,
@@ -848,8 +848,8 @@
         "204A_dom_level_days": 67.0
       },
       "percentile_scores": {
-        "101A": 8.2,
-        "102A": 26.0,
+        "101A": 4.0,
+        "102A": 56.0,
         "103B": 94.0,
         "104C": 83.7,
         "105C": 40.0,
@@ -858,8 +858,8 @@
         "204A": 12.0
       },
       "scores_100": {
-        "101A": 8,
-        "102A": 26,
+        "101A": 4,
+        "102A": 56,
         "103B": 94,
         "104C": 84,
         "105C": 40,
@@ -867,25 +867,25 @@
         "200B": 32,
         "204A": 12
       },
-      "weighted_percentile": 43.9,
-      "weighted_score": 44,
+      "weighted_percentile": 46.0,
+      "weighted_score": 46,
       "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
-        "percentile": 43.9
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
+        "percentile": 46.0
       },
-      "grade_display": "\ud83d\udcc9 C+"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "San Diego-Chula Vista-Carlsbad",
       "rank": 18,
       "primary_city": "San Diego",
       "raw_values": {
-        "101A_composite": 5.5,
-        "101A_unemployment": 4.5,
-        "101A_unemp_yoy_pp": 0.1,
-        "102A_clf_yoy": 0.35,
+        "101A_composite": 5.88,
+        "101A_unemployment": 4.3,
+        "101A_unemp_yoy_pp": 0.0,
+        "102A_clf_yoy": -0.65,
         "103B_earnings_yoy": 5.93,
         "104C_col": 4.49,
         "105C_owr": 3.36,
@@ -898,8 +898,8 @@
         "204A_dom_level_days": 38.0
       },
       "percentile_scores": {
-        "101A": 51.0,
-        "102A": 50.0,
+        "101A": 50.0,
+        "102A": 28.0,
         "103B": 76.0,
         "104C": 16.3,
         "105C": 78.0,
@@ -908,8 +908,8 @@
         "204A": 50.0
       },
       "scores_100": {
-        "101A": 51,
-        "102A": 50,
+        "101A": 50,
+        "102A": 28,
         "103B": 76,
         "104C": 16,
         "105C": 78,
@@ -917,25 +917,25 @@
         "200B": 66,
         "204A": 50
       },
-      "weighted_percentile": 59.0,
-      "weighted_score": 59,
+      "weighted_percentile": 56.6,
+      "weighted_score": 57,
       "grade": {
-        "letter": "A-",
-        "emoji": "\ud83d\udc4d",
-        "description": "Good",
-        "percentile": 59.0
+        "letter": "B+",
+        "emoji": "\ud83d\udcc8",
+        "description": "Above Average",
+        "percentile": 56.6
       },
-      "grade_display": "\ud83d\udc4d A-"
+      "grade_display": "\ud83d\udcc8 B+"
     },
     {
       "metro_name": "Denver-Aurora-Centennial",
       "rank": 19,
       "primary_city": "Denver",
       "raw_values": {
-        "101A_composite": 7.0,
-        "101A_unemployment": 4.3,
-        "101A_unemp_yoy_pp": -0.9,
-        "102A_clf_yoy": -2.12,
+        "101A_composite": 7.12,
+        "101A_unemployment": 3.7,
+        "101A_unemp_yoy_pp": -0.4,
+        "102A_clf_yoy": -2.34,
         "103B_earnings_yoy": 1.57,
         "104C_col": 2.26,
         "105C_owr": 3.08,
@@ -948,8 +948,8 @@
         "204A_dom_level_days": 39.0
       },
       "percentile_scores": {
-        "101A": 89.8,
-        "102A": 4.0,
+        "101A": 82.0,
+        "102A": 2.0,
         "103B": 18.0,
         "104C": 53.1,
         "105C": 66.0,
@@ -958,8 +958,8 @@
         "204A": 82.0
       },
       "scores_100": {
-        "101A": 90,
-        "102A": 4,
+        "101A": 82,
+        "102A": 2,
         "103B": 18,
         "104C": 53,
         "105C": 66,
@@ -967,13 +967,13 @@
         "200B": 68,
         "204A": 82
       },
-      "weighted_percentile": 47.8,
-      "weighted_score": 48,
+      "weighted_percentile": 46.0,
+      "weighted_score": 46,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 47.8
+        "percentile": 46.0
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -982,10 +982,10 @@
       "rank": 20,
       "primary_city": "Orlando",
       "raw_values": {
-        "101A_composite": 4.12,
-        "101A_unemployment": 4.7,
-        "101A_unemp_yoy_pp": 1.1,
-        "102A_clf_yoy": -1.54,
+        "101A_composite": 4.5,
+        "101A_unemployment": 4.4,
+        "101A_unemp_yoy_pp": 1.0,
+        "102A_clf_yoy": 1.14,
         "103B_earnings_yoy": 1.64,
         "104C_col": 1.87,
         "105C_owr": 2.54,
@@ -998,8 +998,8 @@
         "204A_dom_level_days": 68.0
       },
       "percentile_scores": {
-        "101A": 18.4,
-        "102A": 8.0,
+        "101A": 10.0,
+        "102A": 80.0,
         "103B": 20.0,
         "104C": 65.3,
         "105C": 52.0,
@@ -1008,8 +1008,8 @@
         "204A": 16.0
       },
       "scores_100": {
-        "101A": 18,
-        "102A": 8,
+        "101A": 10,
+        "102A": 80,
         "103B": 20,
         "104C": 65,
         "105C": 52,
@@ -1017,25 +1017,25 @@
         "200B": 0,
         "204A": 16
       },
-      "weighted_percentile": 41.2,
-      "weighted_score": 41,
+      "weighted_percentile": 46.7,
+      "weighted_score": 47,
       "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
-        "percentile": 41.2
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
+        "percentile": 46.7
       },
-      "grade_display": "\ud83d\udcc9 C+"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "Charlotte-Concord-Gastonia",
       "rank": 21,
       "primary_city": "Charlotte",
       "raw_values": {
-        "101A_composite": 5.75,
-        "101A_unemployment": 4.1,
-        "101A_unemp_yoy_pp": 0.3,
-        "102A_clf_yoy": 0.15,
+        "101A_composite": 6.75,
+        "101A_unemployment": 3.7,
+        "101A_unemp_yoy_pp": -0.1,
+        "102A_clf_yoy": 1.13,
         "103B_earnings_yoy": -0.04,
         "104C_col": 2.48,
         "105C_owr": 3.4,
@@ -1048,8 +1048,8 @@
         "204A_dom_level_days": 45.0
       },
       "percentile_scores": {
-        "101A": 61.2,
-        "102A": 46.0,
+        "101A": 76.0,
+        "102A": 78.0,
         "103B": 6.0,
         "104C": 44.9,
         "105C": 80.0,
@@ -1058,8 +1058,8 @@
         "204A": 76.0
       },
       "scores_100": {
-        "101A": 61,
-        "102A": 46,
+        "101A": 76,
+        "102A": 78,
         "103B": 6,
         "104C": 45,
         "105C": 80,
@@ -1067,25 +1067,25 @@
         "200B": 30,
         "204A": 76
       },
-      "weighted_percentile": 52.8,
-      "weighted_score": 53,
+      "weighted_percentile": 59.0,
+      "weighted_score": 59,
       "grade": {
-        "letter": "B",
-        "emoji": "\u27a1\ufe0f",
-        "description": "Average",
-        "percentile": 52.8
+        "letter": "B+",
+        "emoji": "\ud83d\udcc8",
+        "description": "Above Average",
+        "percentile": 59.0
       },
-      "grade_display": "\u27a1\ufe0f B"
+      "grade_display": "\ud83d\udcc8 B+"
     },
     {
       "metro_name": "Baltimore-Columbia-Towson",
       "rank": 22,
       "primary_city": "Baltimore",
       "raw_values": {
-        "101A_composite": 4.0,
-        "101A_unemployment": 4.8,
-        "101A_unemp_yoy_pp": 1.5,
-        "102A_clf_yoy": 0.85,
+        "101A_composite": 5.12,
+        "101A_unemployment": 4.3,
+        "101A_unemp_yoy_pp": 0.6,
+        "102A_clf_yoy": 0.78,
         "103B_earnings_yoy": 5.3,
         "104C_col": 1.42,
         "105C_owr": 1.54,
@@ -1098,8 +1098,8 @@
         "204A_dom_level_days": 32.0
       },
       "percentile_scores": {
-        "101A": 12.2,
-        "102A": 62.0,
+        "101A": 24.0,
+        "102A": 72.0,
         "103B": 72.0,
         "104C": 79.6,
         "105C": 20.0,
@@ -1108,264 +1108,14 @@
         "204A": 64.0
       },
       "scores_100": {
-        "101A": 12,
-        "102A": 62,
+        "101A": 24,
+        "102A": 72,
         "103B": 72,
         "104C": 80,
         "105C": 20,
         "107E": 10,
         "200B": 4,
         "204A": 64
-      },
-      "weighted_percentile": 35.7,
-      "weighted_score": 36,
-      "grade": {
-        "letter": "C",
-        "emoji": "\u26d4",
-        "description": "Very Poor",
-        "percentile": 35.7
-      },
-      "grade_display": "\u26d4 C"
-    },
-    {
-      "metro_name": "St. Louis",
-      "rank": 23,
-      "primary_city": "St. Louis",
-      "raw_values": {
-        "101A_composite": 5.5,
-        "101A_unemployment": 4.4,
-        "101A_unemp_yoy_pp": 0.2,
-        "102A_clf_yoy": -0.23,
-        "103B_earnings_yoy": 0.64,
-        "104C_col": 3.25,
-        "105C_owr": 1.04,
-        "107E_ldc_composite": 3.49,
-        "107E_employment_growth_yoy": -0.58,
-        "107E_wh_trend_deviation_pct": -1.143,
-        "200B_permits_yoy": 9.19,
-        "204A_dom_composite": 7.77,
-        "204A_dom_yoy_pct": 7.69,
-        "204A_dom_level_days": 42.0
-      },
-      "percentile_scores": {
-        "101A": 51.0,
-        "102A": 34.0,
-        "103B": 12.0,
-        "104C": 30.6,
-        "105C": 16.0,
-        "107E": 36.0,
-        "200B": 64.0,
-        "204A": 80.0
-      },
-      "scores_100": {
-        "101A": 51,
-        "102A": 34,
-        "103B": 12,
-        "104C": 31,
-        "105C": 16,
-        "107E": 36,
-        "200B": 64,
-        "204A": 80
-      },
-      "weighted_percentile": 39.0,
-      "weighted_score": 39,
-      "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
-        "percentile": 39.0
-      },
-      "grade_display": "\ud83d\udcc9 C+"
-    },
-    {
-      "metro_name": "San Antonio-New Braunfels",
-      "rank": 24,
-      "primary_city": "San Antonio",
-      "raw_values": {
-        "101A_composite": 5.5,
-        "101A_unemployment": 4.3,
-        "101A_unemp_yoy_pp": 0.3,
-        "102A_clf_yoy": -0.11,
-        "103B_earnings_yoy": 3.05,
-        "104C_col": 0.93,
-        "105C_owr": 2.58,
-        "107E_ldc_composite": 3.29,
-        "107E_employment_growth_yoy": 0.35,
-        "107E_wh_trend_deviation_pct": -2.62,
-        "200B_permits_yoy": -12.26,
-        "204A_dom_composite": 6.6,
-        "204A_dom_yoy_pct": -8.62,
-        "204A_dom_level_days": 53.0
-      },
-      "percentile_scores": {
-        "101A": 51.0,
-        "102A": 38.0,
-        "103B": 36.0,
-        "104C": 91.8,
-        "105C": 54.0,
-        "107E": 28.0,
-        "200B": 34.0,
-        "204A": 18.0
-      },
-      "scores_100": {
-        "101A": 51,
-        "102A": 38,
-        "103B": 36,
-        "104C": 92,
-        "105C": 54,
-        "107E": 28,
-        "200B": 34,
-        "204A": 18
-      },
-      "weighted_percentile": 43.3,
-      "weighted_score": 43,
-      "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
-        "percentile": 43.3
-      },
-      "grade_display": "\ud83d\udcc9 C+"
-    },
-    {
-      "metro_name": "Austin-Round Rock-San Marcos",
-      "rank": 25,
-      "primary_city": "Austin",
-      "raw_values": {
-        "101A_composite": 6.62,
-        "101A_unemployment": 3.7,
-        "101A_unemp_yoy_pp": 0.0,
-        "102A_clf_yoy": 3.0,
-        "103B_earnings_yoy": 7.75,
-        "104C_col": 0.75,
-        "105C_owr": 4.34,
-        "107E_ldc_composite": 4.67,
-        "107E_employment_growth_yoy": 1.13,
-        "107E_wh_trend_deviation_pct": -1.208,
-        "200B_permits_yoy": -19.65,
-        "204A_dom_composite": 7.95,
-        "204A_dom_yoy_pct": 15.91,
-        "204A_dom_level_days": 51.0
-      },
-      "percentile_scores": {
-        "101A": 79.6,
-        "102A": 98.0,
-        "103B": 92.0,
-        "104C": 95.9,
-        "105C": 92.0,
-        "107E": 62.0,
-        "200B": 22.0,
-        "204A": 86.0
-      },
-      "scores_100": {
-        "101A": 80,
-        "102A": 98,
-        "103B": 92,
-        "104C": 96,
-        "105C": 92,
-        "107E": 62,
-        "200B": 22,
-        "204A": 86
-      },
-      "weighted_percentile": 75.8,
-      "weighted_score": 76,
-      "grade": {
-        "letter": "A+",
-        "emoji": "\ud83d\ude80",
-        "description": "Excellent",
-        "percentile": 75.8
-      },
-      "grade_display": "\ud83d\ude80 A+"
-    },
-    {
-      "metro_name": "Portland-Vancouver-Hillsboro",
-      "rank": 26,
-      "primary_city": "Portland",
-      "raw_values": {
-        "101A_composite": 4.0,
-        "101A_unemployment": 5.4,
-        "101A_unemp_yoy_pp": 0.4,
-        "102A_clf_yoy": -0.86,
-        "103B_earnings_yoy": 5.82,
-        "104C_col": 1.83,
-        "105C_owr": 0.68,
-        "107E_ldc_composite": 1.5,
-        "107E_employment_growth_yoy": -2.64,
-        "107E_wh_trend_deviation_pct": -1.073,
-        "200B_permits_yoy": 18.23,
-        "204A_dom_composite": 7.59,
-        "204A_dom_yoy_pct": 6.82,
-        "204A_dom_level_days": 47.0
-      },
-      "percentile_scores": {
-        "101A": 10.2,
-        "102A": 20.0,
-        "103B": 74.0,
-        "104C": 67.3,
-        "105C": 4.0,
-        "107E": 0,
-        "200B": 72.0,
-        "204A": 72.0
-      },
-      "scores_100": {
-        "101A": 10,
-        "102A": 20,
-        "103B": 74,
-        "104C": 67,
-        "105C": 4,
-        "107E": 0,
-        "200B": 72,
-        "204A": 72
-      },
-      "weighted_percentile": 34.1,
-      "weighted_score": 34,
-      "grade": {
-        "letter": "C",
-        "emoji": "\u26d4",
-        "description": "Very Poor",
-        "percentile": 34.1
-      },
-      "grade_display": "\u26d4 C"
-    },
-    {
-      "metro_name": "Sacramento-Roseville-Folsom",
-      "rank": 27,
-      "primary_city": "Sacramento",
-      "raw_values": {
-        "101A_composite": 4.88,
-        "101A_unemployment": 5.0,
-        "101A_unemp_yoy_pp": 0.1,
-        "102A_clf_yoy": 1.05,
-        "103B_earnings_yoy": 1.22,
-        "104C_col": 4.57,
-        "105C_owr": 1.8,
-        "107E_ldc_composite": 5.29,
-        "107E_employment_growth_yoy": 0.69,
-        "107E_wh_trend_deviation_pct": 0.025,
-        "200B_permits_yoy": -21.43,
-        "204A_dom_composite": 7.0,
-        "204A_dom_yoy_pct": 0.0,
-        "204A_dom_level_days": 38.0
-      },
-      "percentile_scores": {
-        "101A": 34.7,
-        "102A": 68.0,
-        "103B": 16.0,
-        "104C": 12.2,
-        "105C": 24.0,
-        "107E": 70.0,
-        "200B": 20.0,
-        "204A": 26.0
-      },
-      "scores_100": {
-        "101A": 35,
-        "102A": 68,
-        "103B": 16,
-        "104C": 12,
-        "105C": 24,
-        "107E": 70,
-        "200B": 20,
-        "204A": 26
       },
       "weighted_percentile": 39.1,
       "weighted_score": 39,
@@ -1378,14 +1128,264 @@
       "grade_display": "\ud83d\udcc9 C+"
     },
     {
+      "metro_name": "St. Louis",
+      "rank": 23,
+      "primary_city": "St. Louis",
+      "raw_values": {
+        "101A_composite": 5.62,
+        "101A_unemployment": 4.3,
+        "101A_unemp_yoy_pp": 0.2,
+        "102A_clf_yoy": 0.39,
+        "103B_earnings_yoy": 0.64,
+        "104C_col": 3.25,
+        "105C_owr": 1.04,
+        "107E_ldc_composite": 3.49,
+        "107E_employment_growth_yoy": -0.58,
+        "107E_wh_trend_deviation_pct": -1.143,
+        "200B_permits_yoy": 9.19,
+        "204A_dom_composite": 7.77,
+        "204A_dom_yoy_pct": 7.69,
+        "204A_dom_level_days": 42.0
+      },
+      "percentile_scores": {
+        "101A": 36.0,
+        "102A": 66.0,
+        "103B": 12.0,
+        "104C": 30.6,
+        "105C": 16.0,
+        "107E": 36.0,
+        "200B": 64.0,
+        "204A": 80.0
+      },
+      "scores_100": {
+        "101A": 36,
+        "102A": 66,
+        "103B": 12,
+        "104C": 31,
+        "105C": 16,
+        "107E": 36,
+        "200B": 64,
+        "204A": 80
+      },
+      "weighted_percentile": 39.2,
+      "weighted_score": 39,
+      "grade": {
+        "letter": "C+",
+        "emoji": "\ud83d\udcc9",
+        "description": "Poor",
+        "percentile": 39.2
+      },
+      "grade_display": "\ud83d\udcc9 C+"
+    },
+    {
+      "metro_name": "San Antonio-New Braunfels",
+      "rank": 24,
+      "primary_city": "San Antonio",
+      "raw_values": {
+        "101A_composite": 6.0,
+        "101A_unemployment": 4.0,
+        "101A_unemp_yoy_pp": 0.2,
+        "102A_clf_yoy": -0.16,
+        "103B_earnings_yoy": 3.05,
+        "104C_col": 0.93,
+        "105C_owr": 2.58,
+        "107E_ldc_composite": 3.29,
+        "107E_employment_growth_yoy": 0.35,
+        "107E_wh_trend_deviation_pct": -2.62,
+        "200B_permits_yoy": -12.26,
+        "204A_dom_composite": 6.6,
+        "204A_dom_yoy_pct": -8.62,
+        "204A_dom_level_days": 53.0
+      },
+      "percentile_scores": {
+        "101A": 56.0,
+        "102A": 48.0,
+        "103B": 36.0,
+        "104C": 91.8,
+        "105C": 54.0,
+        "107E": 28.0,
+        "200B": 34.0,
+        "204A": 18.0
+      },
+      "scores_100": {
+        "101A": 56,
+        "102A": 48,
+        "103B": 36,
+        "104C": 92,
+        "105C": 54,
+        "107E": 28,
+        "200B": 34,
+        "204A": 18
+      },
+      "weighted_percentile": 45.3,
+      "weighted_score": 45,
+      "grade": {
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
+        "percentile": 45.3
+      },
+      "grade_display": "\u26a0\ufe0f B-"
+    },
+    {
+      "metro_name": "Austin-Round Rock-San Marcos",
+      "rank": 25,
+      "primary_city": "Austin",
+      "raw_values": {
+        "101A_composite": 7.0,
+        "101A_unemployment": 3.4,
+        "101A_unemp_yoy_pp": 0.0,
+        "102A_clf_yoy": 0.81,
+        "103B_earnings_yoy": 7.75,
+        "104C_col": 0.75,
+        "105C_owr": 4.34,
+        "107E_ldc_composite": 4.67,
+        "107E_employment_growth_yoy": 1.13,
+        "107E_wh_trend_deviation_pct": -1.208,
+        "200B_permits_yoy": -19.65,
+        "204A_dom_composite": 7.95,
+        "204A_dom_yoy_pct": 15.91,
+        "204A_dom_level_days": 51.0
+      },
+      "percentile_scores": {
+        "101A": 78.0,
+        "102A": 74.0,
+        "103B": 92.0,
+        "104C": 95.9,
+        "105C": 92.0,
+        "107E": 62.0,
+        "200B": 22.0,
+        "204A": 86.0
+      },
+      "scores_100": {
+        "101A": 78,
+        "102A": 74,
+        "103B": 92,
+        "104C": 96,
+        "105C": 92,
+        "107E": 62,
+        "200B": 22,
+        "204A": 86
+      },
+      "weighted_percentile": 73.1,
+      "weighted_score": 73,
+      "grade": {
+        "letter": "A+",
+        "emoji": "\ud83d\ude80",
+        "description": "Excellent",
+        "percentile": 73.1
+      },
+      "grade_display": "\ud83d\ude80 A+"
+    },
+    {
+      "metro_name": "Portland-Vancouver-Hillsboro",
+      "rank": 26,
+      "primary_city": "Portland",
+      "raw_values": {
+        "101A_composite": 4.38,
+        "101A_unemployment": 5.2,
+        "101A_unemp_yoy_pp": 0.3,
+        "102A_clf_yoy": -1.39,
+        "103B_earnings_yoy": 5.82,
+        "104C_col": 1.83,
+        "105C_owr": 0.68,
+        "107E_ldc_composite": 1.5,
+        "107E_employment_growth_yoy": -2.64,
+        "107E_wh_trend_deviation_pct": -1.073,
+        "200B_permits_yoy": 18.23,
+        "204A_dom_composite": 7.59,
+        "204A_dom_yoy_pct": 6.82,
+        "204A_dom_level_days": 47.0
+      },
+      "percentile_scores": {
+        "101A": 4.0,
+        "102A": 8.0,
+        "103B": 74.0,
+        "104C": 67.3,
+        "105C": 4.0,
+        "107E": 0,
+        "200B": 72.0,
+        "204A": 72.0
+      },
+      "scores_100": {
+        "101A": 4,
+        "102A": 8,
+        "103B": 74,
+        "104C": 67,
+        "105C": 4,
+        "107E": 0,
+        "200B": 72,
+        "204A": 72
+      },
+      "weighted_percentile": 31.7,
+      "weighted_score": 32,
+      "grade": {
+        "letter": "C-",
+        "emoji": "\ud83d\udea8",
+        "description": "Critical",
+        "percentile": 31.7
+      },
+      "grade_display": "\ud83d\udea8 C-"
+    },
+    {
+      "metro_name": "Sacramento-Roseville-Folsom",
+      "rank": 27,
+      "primary_city": "Sacramento",
+      "raw_values": {
+        "101A_composite": 5.62,
+        "101A_unemployment": 4.7,
+        "101A_unemp_yoy_pp": -0.2,
+        "102A_clf_yoy": -0.59,
+        "103B_earnings_yoy": 1.22,
+        "104C_col": 4.57,
+        "105C_owr": 1.8,
+        "107E_ldc_composite": 5.29,
+        "107E_employment_growth_yoy": 0.69,
+        "107E_wh_trend_deviation_pct": 0.025,
+        "200B_permits_yoy": -21.43,
+        "204A_dom_composite": 7.0,
+        "204A_dom_yoy_pct": 0.0,
+        "204A_dom_level_days": 38.0
+      },
+      "percentile_scores": {
+        "101A": 34.0,
+        "102A": 30.0,
+        "103B": 16.0,
+        "104C": 12.2,
+        "105C": 24.0,
+        "107E": 70.0,
+        "200B": 20.0,
+        "204A": 26.0
+      },
+      "scores_100": {
+        "101A": 34,
+        "102A": 30,
+        "103B": 16,
+        "104C": 12,
+        "105C": 24,
+        "107E": 70,
+        "200B": 20,
+        "204A": 26
+      },
+      "weighted_percentile": 35.2,
+      "weighted_score": 35,
+      "grade": {
+        "letter": "C",
+        "emoji": "\u26d4",
+        "description": "Very Poor",
+        "percentile": 35.2
+      },
+      "grade_display": "\u26d4 C"
+    },
+    {
       "metro_name": "Pittsburgh",
       "rank": 28,
       "primary_city": "Pittsburgh",
       "raw_values": {
-        "101A_composite": 4.87,
-        "101A_unemployment": 4.7,
-        "101A_unemp_yoy_pp": 0.4,
-        "102A_clf_yoy": 0.51,
+        "101A_composite": 6.38,
+        "101A_unemployment": 4.0,
+        "101A_unemp_yoy_pp": -0.1,
+        "102A_clf_yoy": 1.2,
         "103B_earnings_yoy": 6.43,
         "104C_col": 2.2,
         "105C_owr": 2.42,
@@ -1398,8 +1398,8 @@
         "204A_dom_level_days": 50.0
       },
       "percentile_scores": {
-        "101A": 30.6,
-        "102A": 52.0,
+        "101A": 66.0,
+        "102A": 82.0,
         "103B": 84.0,
         "104C": 57.1,
         "105C": 44.0,
@@ -1408,8 +1408,8 @@
         "204A": 60.0
       },
       "scores_100": {
-        "101A": 31,
-        "102A": 52,
+        "101A": 66,
+        "102A": 82,
         "103B": 84,
         "104C": 57,
         "105C": 44,
@@ -1417,25 +1417,25 @@
         "200B": 48,
         "204A": 60
       },
-      "weighted_percentile": 48.4,
-      "weighted_score": 48,
+      "weighted_percentile": 58.5,
+      "weighted_score": 58,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
-        "percentile": 48.4
+        "letter": "B+",
+        "emoji": "\ud83d\udcc8",
+        "description": "Above Average",
+        "percentile": 58.5
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\ud83d\udcc8 B+"
     },
     {
       "metro_name": "Las Vegas-Henderson-North Las Vegas",
       "rank": 29,
       "primary_city": "Las Vegas",
       "raw_values": {
-        "101A_composite": 4.12,
-        "101A_unemployment": 5.8,
-        "101A_unemp_yoy_pp": -0.1,
-        "102A_clf_yoy": 1.52,
+        "101A_composite": 4.5,
+        "101A_unemployment": 5.4,
+        "101A_unemp_yoy_pp": 0.0,
+        "102A_clf_yoy": 2.43,
         "103B_earnings_yoy": 6.16,
         "104C_col": 2.13,
         "105C_owr": 3.66,
@@ -1448,8 +1448,8 @@
         "204A_dom_level_days": 51.0
       },
       "percentile_scores": {
-        "101A": 20.4,
-        "102A": 78.0,
+        "101A": 10.0,
+        "102A": 94.0,
         "103B": 80.0,
         "104C": 61.2,
         "105C": 88.0,
@@ -1458,8 +1458,8 @@
         "204A": 86.0
       },
       "scores_100": {
-        "101A": 20,
-        "102A": 78,
+        "101A": 10,
+        "102A": 94,
         "103B": 80,
         "104C": 61,
         "105C": 88,
@@ -1467,13 +1467,13 @@
         "200B": 10,
         "204A": 86
       },
-      "weighted_percentile": 60.7,
-      "weighted_score": 61,
+      "weighted_percentile": 60.2,
+      "weighted_score": 60,
       "grade": {
         "letter": "A-",
         "emoji": "\ud83d\udc4d",
         "description": "Good",
-        "percentile": 60.7
+        "percentile": 60.2
       },
       "grade_display": "\ud83d\udc4d A-"
     },
@@ -1482,10 +1482,10 @@
       "rank": 30,
       "primary_city": "Cincinnati",
       "raw_values": {
-        "101A_composite": 6.88,
-        "101A_unemployment": 4.2,
-        "101A_unemp_yoy_pp": -0.7,
-        "102A_clf_yoy": 0.82,
+        "101A_composite": 7.88,
+        "101A_unemployment": 3.7,
+        "101A_unemp_yoy_pp": -1.1,
+        "102A_clf_yoy": -0.39,
         "103B_earnings_yoy": 3.26,
         "104C_col": 1.41,
         "105C_owr": 2.96,
@@ -1498,8 +1498,8 @@
         "204A_dom_level_days": 37.0
       },
       "percentile_scores": {
-        "101A": 87.8,
-        "102A": 58.0,
+        "101A": 92.0,
+        "102A": 40.0,
         "103B": 40.0,
         "104C": 81.6,
         "105C": 60.0,
@@ -1508,8 +1508,8 @@
         "204A": 84.0
       },
       "scores_100": {
-        "101A": 88,
-        "102A": 58,
+        "101A": 92,
+        "102A": 40,
         "103B": 40,
         "104C": 82,
         "105C": 60,
@@ -1517,13 +1517,13 @@
         "200B": 76,
         "204A": 84
       },
-      "weighted_percentile": 67.7,
-      "weighted_score": 68,
+      "weighted_percentile": 66.8,
+      "weighted_score": 67,
       "grade": {
         "letter": "A",
         "emoji": "\u2705",
         "description": "Very Good",
-        "percentile": 67.7
+        "percentile": 66.8
       },
       "grade_display": "\u2705 A"
     },
@@ -1532,10 +1532,10 @@
       "rank": 31,
       "primary_city": "Kansas City",
       "raw_values": {
-        "101A_composite": 6.12,
-        "101A_unemployment": 4.2,
-        "101A_unemp_yoy_pp": -0.1,
-        "102A_clf_yoy": 1.87,
+        "101A_composite": 6.62,
+        "101A_unemployment": 3.9,
+        "101A_unemp_yoy_pp": -0.2,
+        "102A_clf_yoy": 0.37,
         "103B_earnings_yoy": 6.99,
         "104C_col": 1.08,
         "105C_owr": 1.84,
@@ -1548,8 +1548,8 @@
         "204A_dom_level_days": 41.0
       },
       "percentile_scores": {
-        "101A": 71.4,
-        "102A": 90.0,
+        "101A": 72.0,
+        "102A": 64.0,
         "103B": 88.0,
         "104C": 89.8,
         "105C": 26.0,
@@ -1558,8 +1558,8 @@
         "204A": 8.0
       },
       "scores_100": {
-        "101A": 71,
-        "102A": 90,
+        "101A": 72,
+        "102A": 64,
         "103B": 88,
         "104C": 90,
         "105C": 26,
@@ -1567,13 +1567,13 @@
         "200B": 82,
         "204A": 8
       },
-      "weighted_percentile": 71.1,
-      "weighted_score": 71,
+      "weighted_percentile": 68.7,
+      "weighted_score": 69,
       "grade": {
         "letter": "A+",
         "emoji": "\ud83d\ude80",
         "description": "Excellent",
-        "percentile": 71.1
+        "percentile": 68.7
       },
       "grade_display": "\ud83d\ude80 A+"
     },
@@ -1582,10 +1582,10 @@
       "rank": 32,
       "primary_city": "Columbus",
       "raw_values": {
-        "101A_composite": 7.0,
-        "101A_unemployment": 4.1,
-        "101A_unemp_yoy_pp": -0.7,
-        "102A_clf_yoy": 1.69,
+        "101A_composite": 8.25,
+        "101A_unemployment": 3.4,
+        "101A_unemp_yoy_pp": -1.3,
+        "102A_clf_yoy": -0.33,
         "103B_earnings_yoy": 2.79,
         "104C_col": 1.63,
         "105C_owr": 2.18,
@@ -1598,8 +1598,8 @@
         "204A_dom_level_days": 36.0
       },
       "percentile_scores": {
-        "101A": 89.8,
-        "102A": 80.0,
+        "101A": 96.0,
+        "102A": 42.0,
         "103B": 30.0,
         "104C": 73.5,
         "105C": 38.0,
@@ -1608,8 +1608,8 @@
         "204A": 96.0
       },
       "scores_100": {
-        "101A": 90,
-        "102A": 80,
+        "101A": 96,
+        "102A": 42,
         "103B": 30,
         "104C": 73,
         "105C": 38,
@@ -1617,13 +1617,13 @@
         "200B": 2,
         "204A": 96
       },
-      "weighted_percentile": 57.9,
-      "weighted_score": 58,
+      "weighted_percentile": 55.4,
+      "weighted_score": 55,
       "grade": {
         "letter": "B+",
         "emoji": "\ud83d\udcc8",
         "description": "Above Average",
-        "percentile": 57.9
+        "percentile": 55.4
       },
       "grade_display": "\ud83d\udcc8 B+"
     },
@@ -1632,10 +1632,10 @@
       "rank": 33,
       "primary_city": "Indianapolis",
       "raw_values": {
-        "101A_composite": 5.0,
-        "101A_unemployment": null,
-        "101A_unemp_yoy_pp": null,
-        "102A_clf_yoy": -0.09,
+        "101A_composite": 7.38,
+        "101A_unemployment": 3.3,
+        "101A_unemp_yoy_pp": -0.2,
+        "102A_clf_yoy": -0.5,
         "103B_earnings_yoy": 0.62,
         "104C_col": 4.68,
         "105C_owr": 1.36,
@@ -1648,8 +1648,8 @@
         "204A_dom_level_days": 41.0
       },
       "percentile_scores": {
-        "101A": 38.8,
-        "102A": 40.0,
+        "101A": 86.0,
+        "102A": 34.0,
         "103B": 10.0,
         "104C": 8.2,
         "105C": 18.0,
@@ -1658,8 +1658,8 @@
         "204A": 44.0
       },
       "scores_100": {
-        "101A": 39,
-        "102A": 40,
+        "101A": 86,
+        "102A": 34,
         "103B": 10,
         "104C": 8,
         "105C": 18,
@@ -1667,15 +1667,15 @@
         "200B": 80,
         "204A": 44
       },
-      "weighted_percentile": 34.5,
-      "weighted_score": 34,
+      "weighted_percentile": 43.3,
+      "weighted_score": 43,
       "grade": {
-        "letter": "C",
-        "emoji": "\u26d4",
-        "description": "Very Poor",
-        "percentile": 34.5
+        "letter": "C+",
+        "emoji": "\ud83d\udcc9",
+        "description": "Poor",
+        "percentile": 43.3
       },
-      "grade_display": "\u26d4 C"
+      "grade_display": "\ud83d\udcc9 C+"
     },
     {
       "metro_name": "Cleveland",
@@ -1698,8 +1698,8 @@
         "204A_dom_level_days": 55.0
       },
       "percentile_scores": {
-        "101A": 77.6,
-        "102A": 86.0,
+        "101A": 68.0,
+        "102A": 92.0,
         "103B": 4.0,
         "104C": 50,
         "105C": 70.0,
@@ -1708,8 +1708,8 @@
         "204A": 46.0
       },
       "scores_100": {
-        "101A": 78,
-        "102A": 86,
+        "101A": 68,
+        "102A": 92,
         "103B": 4,
         "104C": 50,
         "105C": 70,
@@ -1717,13 +1717,13 @@
         "200B": 26,
         "204A": 46
       },
-      "weighted_percentile": 49.7,
-      "weighted_score": 50,
+      "weighted_percentile": 48.4,
+      "weighted_score": 48,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 49.7
+        "percentile": 48.4
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -1732,10 +1732,10 @@
       "rank": 35,
       "primary_city": "Nashville",
       "raw_values": {
-        "101A_composite": 6.75,
-        "101A_unemployment": 3.3,
-        "101A_unemp_yoy_pp": 0.3,
-        "102A_clf_yoy": 1.86,
+        "101A_composite": 7.62,
+        "101A_unemployment": 2.9,
+        "101A_unemp_yoy_pp": 0.0,
+        "102A_clf_yoy": -0.4,
         "103B_earnings_yoy": 3.94,
         "104C_col": 1.81,
         "105C_owr": 3.68,
@@ -1748,8 +1748,8 @@
         "204A_dom_level_days": 50.0
       },
       "percentile_scores": {
-        "101A": 81.6,
-        "102A": 88.0,
+        "101A": 88.0,
+        "102A": 38.0,
         "103B": 54.0,
         "104C": 69.4,
         "105C": 90.0,
@@ -1758,8 +1758,8 @@
         "204A": 60.0
       },
       "scores_100": {
-        "101A": 82,
-        "102A": 88,
+        "101A": 88,
+        "102A": 38,
         "103B": 54,
         "104C": 69,
         "105C": 90,
@@ -1767,25 +1767,25 @@
         "200B": 8,
         "204A": 60
       },
-      "weighted_percentile": 70.6,
-      "weighted_score": 71,
+      "weighted_percentile": 66.8,
+      "weighted_score": 67,
       "grade": {
-        "letter": "A+",
-        "emoji": "\ud83d\ude80",
-        "description": "Excellent",
-        "percentile": 70.6
+        "letter": "A",
+        "emoji": "\u2705",
+        "description": "Very Good",
+        "percentile": 66.8
       },
-      "grade_display": "\ud83d\ude80 A+"
+      "grade_display": "\u2705 A"
     },
     {
       "metro_name": "San Jose-Sunnyvale-Santa Clara",
       "rank": 36,
       "primary_city": "San Jose",
       "raw_values": {
-        "101A_composite": 6.0,
-        "101A_unemployment": 4.2,
-        "101A_unemp_yoy_pp": 0.0,
-        "102A_clf_yoy": 1.06,
+        "101A_composite": 6.75,
+        "101A_unemployment": 3.9,
+        "101A_unemp_yoy_pp": -0.3,
+        "102A_clf_yoy": -0.11,
         "103B_earnings_yoy": 0.76,
         "104C_col": 6.66,
         "105C_owr": 3.64,
@@ -1798,8 +1798,8 @@
         "204A_dom_level_days": 28.0
       },
       "percentile_scores": {
-        "101A": 69.4,
-        "102A": 70.0,
+        "101A": 74.0,
+        "102A": 50.0,
         "103B": 14.0,
         "104C": 0,
         "105C": 86.0,
@@ -1808,8 +1808,8 @@
         "204A": 48.0
       },
       "scores_100": {
-        "101A": 69,
-        "102A": 70,
+        "101A": 74,
+        "102A": 50,
         "103B": 14,
         "104C": 0,
         "105C": 86,
@@ -1817,13 +1817,13 @@
         "200B": 94,
         "204A": 48
       },
-      "weighted_percentile": 61.4,
-      "weighted_score": 61,
+      "weighted_percentile": 60.3,
+      "weighted_score": 60,
       "grade": {
         "letter": "A-",
         "emoji": "\ud83d\udc4d",
         "description": "Good",
-        "percentile": 61.4
+        "percentile": 60.3
       },
       "grade_display": "\ud83d\udc4d A-"
     },
@@ -1832,10 +1832,10 @@
       "rank": 37,
       "primary_city": "Virginia Beach",
       "raw_values": {
-        "101A_composite": 5.62,
-        "101A_unemployment": 4.0,
+        "101A_composite": 5.75,
+        "101A_unemployment": 3.9,
         "101A_unemp_yoy_pp": 0.5,
-        "102A_clf_yoy": -1.18,
+        "102A_clf_yoy": -0.41,
         "103B_earnings_yoy": 7.51,
         "104C_col": 2.14,
         "105C_owr": 1.68,
@@ -1848,8 +1848,8 @@
         "204A_dom_level_days": 35.0
       },
       "percentile_scores": {
-        "101A": 59.2,
-        "102A": 16.0,
+        "101A": 44.0,
+        "102A": 36.0,
         "103B": 90.0,
         "104C": 59.2,
         "105C": 22.0,
@@ -1858,8 +1858,8 @@
         "204A": 26.0
       },
       "scores_100": {
-        "101A": 59,
-        "102A": 16,
+        "101A": 44,
+        "102A": 36,
         "103B": 90,
         "104C": 59,
         "105C": 22,
@@ -1867,13 +1867,13 @@
         "200B": 86,
         "204A": 26
       },
-      "weighted_percentile": 45.6,
-      "weighted_score": 46,
+      "weighted_percentile": 44.6,
+      "weighted_score": 45,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 45.6
+        "percentile": 44.6
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -1882,10 +1882,10 @@
       "rank": 38,
       "primary_city": "Jacksonville",
       "raw_values": {
-        "101A_composite": 3.75,
-        "101A_unemployment": 5.0,
-        "101A_unemp_yoy_pp": 1.2,
-        "102A_clf_yoy": -1.48,
+        "101A_composite": 4.12,
+        "101A_unemployment": 4.7,
+        "101A_unemp_yoy_pp": 1.1,
+        "102A_clf_yoy": -0.05,
         "103B_earnings_yoy": 3.46,
         "104C_col": 2.29,
         "105C_owr": 1.84,
@@ -1898,8 +1898,8 @@
         "204A_dom_level_days": 58.0
       },
       "percentile_scores": {
-        "101A": 6.1,
-        "102A": 10.0,
+        "101A": 2.0,
+        "102A": 52.0,
         "103B": 42.0,
         "104C": 51.0,
         "105C": 28.0,
@@ -1908,8 +1908,8 @@
         "204A": 32.0
       },
       "scores_100": {
-        "101A": 6,
-        "102A": 10,
+        "101A": 2,
+        "102A": 52,
         "103B": 42,
         "104C": 51,
         "105C": 28,
@@ -1917,13 +1917,13 @@
         "200B": 6,
         "204A": 32
       },
-      "weighted_percentile": 19.2,
-      "weighted_score": 19,
+      "weighted_percentile": 22.6,
+      "weighted_score": 23,
       "grade": {
         "letter": "D",
         "emoji": "\ud83d\udca5",
         "description": "Emergency",
-        "percentile": 19.2
+        "percentile": 22.6
       },
       "grade_display": "\ud83d\udca5 D"
     },
@@ -1948,8 +1948,8 @@
         "204A_dom_level_days": 27.0
       },
       "percentile_scores": {
-        "101A": 34.7,
-        "102A": 80.0,
+        "101A": 20.0,
+        "102A": 88.0,
         "103B": 50.0,
         "104C": 2.0,
         "105C": 64.0,
@@ -1958,8 +1958,8 @@
         "204A": 2.0
       },
       "scores_100": {
-        "101A": 35,
-        "102A": 80,
+        "101A": 20,
+        "102A": 88,
         "103B": 50,
         "104C": 2,
         "105C": 64,
@@ -1967,25 +1967,25 @@
         "200B": 98,
         "204A": 2
       },
-      "weighted_percentile": 50.5,
-      "weighted_score": 51,
+      "weighted_percentile": 48.4,
+      "weighted_score": 48,
       "grade": {
-        "letter": "B",
-        "emoji": "\u27a1\ufe0f",
-        "description": "Average",
-        "percentile": 50.5
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
+        "percentile": 48.4
       },
-      "grade_display": "\u27a1\ufe0f B"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "Milwaukee-Waukesha",
       "rank": 40,
       "primary_city": "Milwaukee",
       "raw_values": {
-        "101A_composite": 5.0,
-        "101A_unemployment": 4.4,
-        "101A_unemp_yoy_pp": 0.6,
-        "102A_clf_yoy": -1.07,
+        "101A_composite": 5.5,
+        "101A_unemployment": 4.2,
+        "101A_unemp_yoy_pp": 0.4,
+        "102A_clf_yoy": -0.01,
         "103B_earnings_yoy": 2.83,
         "104C_col": 4.22,
         "105C_owr": 0.74,
@@ -1998,8 +1998,8 @@
         "204A_dom_level_days": 36.0
       },
       "percentile_scores": {
-        "101A": 38.8,
-        "102A": 18.0,
+        "101A": 28.0,
+        "102A": 54.0,
         "103B": 32.0,
         "104C": 22.4,
         "105C": 8.0,
@@ -2008,8 +2008,8 @@
         "204A": 98.0
       },
       "scores_100": {
-        "101A": 39,
-        "102A": 18,
+        "101A": 28,
+        "102A": 54,
         "103B": 32,
         "104C": 22,
         "105C": 8,
@@ -2017,13 +2017,13 @@
         "200B": 70,
         "204A": 98
       },
-      "weighted_percentile": 34.2,
-      "weighted_score": 34,
+      "weighted_percentile": 35.6,
+      "weighted_score": 36,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 34.2
+        "percentile": 35.6
       },
       "grade_display": "\u26d4 C"
     },
@@ -2032,10 +2032,10 @@
       "rank": 41,
       "primary_city": "Raleigh",
       "raw_values": {
-        "101A_composite": 6.75,
-        "101A_unemployment": 3.3,
-        "101A_unemp_yoy_pp": 0.3,
-        "102A_clf_yoy": 1.76,
+        "101A_composite": 7.75,
+        "101A_unemployment": 3.0,
+        "101A_unemp_yoy_pp": -0.2,
+        "102A_clf_yoy": 1.72,
         "103B_earnings_yoy": 4.32,
         "104C_col": 1.37,
         "105C_owr": 4.42,
@@ -2048,8 +2048,8 @@
         "204A_dom_level_days": 44.0
       },
       "percentile_scores": {
-        "101A": 81.6,
-        "102A": 84.0,
+        "101A": 90.0,
+        "102A": 90.0,
         "103B": 58.0,
         "104C": 85.7,
         "105C": 98.0,
@@ -2058,8 +2058,8 @@
         "204A": 42.0
       },
       "scores_100": {
-        "101A": 82,
-        "102A": 84,
+        "101A": 90,
+        "102A": 90,
         "103B": 58,
         "104C": 86,
         "105C": 98,
@@ -2067,13 +2067,13 @@
         "200B": 52,
         "204A": 42
       },
-      "weighted_percentile": 78.5,
-      "weighted_score": 78,
+      "weighted_percentile": 80.7,
+      "weighted_score": 81,
       "grade": {
         "letter": "A+",
         "emoji": "\ud83d\ude80",
         "description": "Excellent",
-        "percentile": 78.5
+        "percentile": 80.7
       },
       "grade_display": "\ud83d\ude80 A+"
     },
@@ -2082,10 +2082,10 @@
       "rank": 42,
       "primary_city": "Oklahoma City",
       "raw_values": {
-        "101A_composite": 5.5,
-        "101A_unemployment": 4.0,
+        "101A_composite": 6.25,
+        "101A_unemployment": 3.4,
         "101A_unemp_yoy_pp": 0.6,
-        "102A_clf_yoy": -0.08,
+        "102A_clf_yoy": -1.21,
         "103B_earnings_yoy": 6.84,
         "104C_col": 0.9,
         "105C_owr": 0.7,
@@ -2098,8 +2098,8 @@
         "204A_dom_level_days": 51.0
       },
       "percentile_scores": {
-        "101A": 51.0,
-        "102A": 42.0,
+        "101A": 64.0,
+        "102A": 10.0,
         "103B": 86.0,
         "104C": 93.9,
         "105C": 6.0,
@@ -2108,8 +2108,8 @@
         "204A": 90.0
       },
       "scores_100": {
-        "101A": 51,
-        "102A": 42,
+        "101A": 64,
+        "102A": 10,
         "103B": 86,
         "104C": 94,
         "105C": 6,
@@ -2117,13 +2117,13 @@
         "200B": 40,
         "204A": 90
       },
-      "weighted_percentile": 50.7,
-      "weighted_score": 51,
+      "weighted_percentile": 50.1,
+      "weighted_score": 50,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 50.7
+        "percentile": 50.1
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -2132,10 +2132,10 @@
       "rank": 43,
       "primary_city": "Louisville",
       "raw_values": {
-        "101A_composite": 6.38,
-        "101A_unemployment": 4.6,
-        "101A_unemp_yoy_pp": -0.7,
-        "102A_clf_yoy": -1.24,
+        "101A_composite": 5.75,
+        "101A_unemployment": 4.4,
+        "101A_unemp_yoy_pp": 0.0,
+        "102A_clf_yoy": -0.94,
         "103B_earnings_yoy": 3.0,
         "104C_col": 2.3,
         "105C_owr": 0.86,
@@ -2148,8 +2148,8 @@
         "204A_dom_level_days": 38.0
       },
       "percentile_scores": {
-        "101A": 75.5,
-        "102A": 14.0,
+        "101A": 46.0,
+        "102A": 18.0,
         "103B": 34.0,
         "104C": 49.0,
         "105C": 10.0,
@@ -2158,8 +2158,8 @@
         "204A": 22.0
       },
       "scores_100": {
-        "101A": 76,
-        "102A": 14,
+        "101A": 46,
+        "102A": 18,
         "103B": 34,
         "104C": 49,
         "105C": 10,
@@ -2167,25 +2167,25 @@
         "200B": 44,
         "204A": 22
       },
-      "weighted_percentile": 35.3,
-      "weighted_score": 35,
+      "weighted_percentile": 29.8,
+      "weighted_score": 30,
       "grade": {
-        "letter": "C",
-        "emoji": "\u26d4",
-        "description": "Very Poor",
-        "percentile": 35.3
+        "letter": "C-",
+        "emoji": "\ud83d\udea8",
+        "description": "Critical",
+        "percentile": 29.8
       },
-      "grade_display": "\u26d4 C"
+      "grade_display": "\ud83d\udea8 C-"
     },
     {
       "metro_name": "Richmond",
       "rank": 44,
       "primary_city": "Richmond",
       "raw_values": {
-        "101A_composite": 5.88,
-        "101A_unemployment": 3.8,
-        "101A_unemp_yoy_pp": 0.5,
-        "102A_clf_yoy": -1.8,
+        "101A_composite": 6.12,
+        "101A_unemployment": 3.7,
+        "101A_unemp_yoy_pp": 0.4,
+        "102A_clf_yoy": -0.33,
         "103B_earnings_yoy": 2.57,
         "104C_col": 3.46,
         "105C_owr": 1.98,
@@ -2198,8 +2198,8 @@
         "204A_dom_level_days": 38.0
       },
       "percentile_scores": {
-        "101A": 67.3,
-        "102A": 6.0,
+        "101A": 58.0,
+        "102A": 42.0,
         "103B": 28.0,
         "104C": 26.5,
         "105C": 30.0,
@@ -2208,8 +2208,8 @@
         "204A": 70.0
       },
       "scores_100": {
-        "101A": 67,
-        "102A": 6,
+        "101A": 58,
+        "102A": 42,
         "103B": 28,
         "104C": 27,
         "105C": 30,
@@ -2217,25 +2217,25 @@
         "200B": 14,
         "204A": 70
       },
-      "weighted_percentile": 31.3,
-      "weighted_score": 31,
+      "weighted_percentile": 33.0,
+      "weighted_score": 33,
       "grade": {
-        "letter": "C-",
-        "emoji": "\ud83d\udea8",
-        "description": "Critical",
-        "percentile": 31.3
+        "letter": "C",
+        "emoji": "\u26d4",
+        "description": "Very Poor",
+        "percentile": 33.0
       },
-      "grade_display": "\ud83d\udea8 C-"
+      "grade_display": "\u26d4 C"
     },
     {
       "metro_name": "Memphis",
       "rank": 45,
       "primary_city": "Memphis",
       "raw_values": {
-        "101A_composite": 4.87,
-        "101A_unemployment": 4.7,
-        "101A_unemp_yoy_pp": 0.4,
-        "102A_clf_yoy": 0.98,
+        "101A_composite": 6.12,
+        "101A_unemployment": 4.2,
+        "101A_unemp_yoy_pp": -0.1,
+        "102A_clf_yoy": -0.76,
         "103B_earnings_yoy": 4.99,
         "104C_col": 0.59,
         "105C_owr": 0.44,
@@ -2248,8 +2248,8 @@
         "204A_dom_level_days": 54.0
       },
       "percentile_scores": {
-        "101A": 30.6,
-        "102A": 66.0,
+        "101A": 58.0,
+        "102A": 24.0,
         "103B": 64.0,
         "104C": 98.0,
         "105C": 2.0,
@@ -2258,8 +2258,8 @@
         "204A": 24.0
       },
       "scores_100": {
-        "101A": 31,
-        "102A": 66,
+        "101A": 58,
+        "102A": 24,
         "103B": 64,
         "104C": 98,
         "105C": 2,
@@ -2267,13 +2267,13 @@
         "200B": 88,
         "204A": 24
       },
-      "weighted_percentile": 48.6,
-      "weighted_score": 49,
+      "weighted_percentile": 49.9,
+      "weighted_score": 50,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 48.6
+        "percentile": 49.9
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -2282,10 +2282,10 @@
       "rank": 46,
       "primary_city": "Salt Lake City",
       "raw_values": {
-        "101A_composite": 5.25,
-        "101A_unemployment": 4.1,
-        "101A_unemp_yoy_pp": 0.7,
-        "102A_clf_yoy": -0.73,
+        "101A_composite": 6.0,
+        "101A_unemployment": 3.9,
+        "101A_unemp_yoy_pp": 0.3,
+        "102A_clf_yoy": -0.68,
         "103B_earnings_yoy": 4.93,
         "104C_col": 2.2,
         "105C_owr": 4.36,
@@ -2298,8 +2298,8 @@
         "204A_dom_level_days": 44.0
       },
       "percentile_scores": {
-        "101A": 46.9,
-        "102A": 22.0,
+        "101A": 54.0,
+        "102A": 26.0,
         "103B": 62.0,
         "104C": 55.1,
         "105C": 96.0,
@@ -2308,8 +2308,8 @@
         "204A": 26.0
       },
       "scores_100": {
-        "101A": 47,
-        "102A": 22,
+        "101A": 54,
+        "102A": 26,
         "103B": 62,
         "104C": 55,
         "105C": 96,
@@ -2317,13 +2317,13 @@
         "200B": 50,
         "204A": 26
       },
-      "weighted_percentile": 56.7,
-      "weighted_score": 57,
+      "weighted_percentile": 58.5,
+      "weighted_score": 58,
       "grade": {
         "letter": "B+",
         "emoji": "\ud83d\udcc8",
         "description": "Above Average",
-        "percentile": 56.7
+        "percentile": 58.5
       },
       "grade_display": "\ud83d\udcc8 B+"
     },
@@ -2332,10 +2332,10 @@
       "rank": 47,
       "primary_city": "Birmingham",
       "raw_values": {
-        "101A_composite": 7.75,
-        "101A_unemployment": 3.0,
-        "101A_unemp_yoy_pp": -0.2,
-        "102A_clf_yoy": 0.72,
+        "101A_composite": 8.0,
+        "101A_unemployment": 2.7,
+        "101A_unemp_yoy_pp": -0.1,
+        "102A_clf_yoy": 0.35,
         "103B_earnings_yoy": -0.91,
         "104C_col": 3.4,
         "105C_owr": 3.04,
@@ -2348,8 +2348,8 @@
         "204A_dom_level_days": 52.0
       },
       "percentile_scores": {
-        "101A": 95.9,
-        "102A": 54.0,
+        "101A": 94.0,
+        "102A": 62.0,
         "103B": 2.0,
         "104C": 28.6,
         "105C": 62.0,
@@ -2358,8 +2358,8 @@
         "204A": 40.0
       },
       "scores_100": {
-        "101A": 96,
-        "102A": 54,
+        "101A": 94,
+        "102A": 62,
         "103B": 2,
         "104C": 29,
         "105C": 62,
@@ -2367,13 +2367,13 @@
         "200B": 74,
         "204A": 40
       },
-      "weighted_percentile": 60.6,
+      "weighted_percentile": 61.0,
       "weighted_score": 61,
       "grade": {
         "letter": "A-",
         "emoji": "\ud83d\udc4d",
         "description": "Good",
-        "percentile": 60.6
+        "percentile": 61.0
       },
       "grade_display": "\ud83d\udc4d A-"
     },
@@ -2382,10 +2382,10 @@
       "rank": 48,
       "primary_city": "Fresno",
       "raw_values": {
-        "101A_composite": 1.0,
-        "101A_unemployment": 9.1,
-        "101A_unemp_yoy_pp": 0.2,
-        "102A_clf_yoy": 1.27,
+        "101A_composite": 1.88,
+        "101A_unemployment": 8.9,
+        "101A_unemp_yoy_pp": -0.5,
+        "102A_clf_yoy": -0.17,
         "103B_earnings_yoy": 4.39,
         "104C_col": 3.62,
         "105C_owr": 2.1,
@@ -2399,7 +2399,7 @@
       },
       "percentile_scores": {
         "101A": 0,
-        "102A": 76.0,
+        "102A": 46.0,
         "103B": 60.0,
         "104C": 24.5,
         "105C": 34.0,
@@ -2409,7 +2409,7 @@
       },
       "scores_100": {
         "101A": 0,
-        "102A": 76,
+        "102A": 46,
         "103B": 60,
         "104C": 24,
         "105C": 34,
@@ -2417,25 +2417,25 @@
         "200B": 18,
         "204A": 52
       },
-      "weighted_percentile": 47.0,
-      "weighted_score": 47,
+      "weighted_percentile": 44.0,
+      "weighted_score": 44,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
-        "percentile": 47.0
+        "letter": "C+",
+        "emoji": "\ud83d\udcc9",
+        "description": "Poor",
+        "percentile": 44.0
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\ud83d\udcc9 C+"
     },
     {
       "metro_name": "Grand Rapids-Wyoming-Kentwood",
       "rank": 49,
       "primary_city": "Grand Rapids",
       "raw_values": {
-        "101A_composite": 7.38,
+        "101A_composite": 7.0,
         "101A_unemployment": 4.0,
-        "101A_unemp_yoy_pp": -0.9,
-        "102A_clf_yoy": -5.05,
+        "101A_unemp_yoy_pp": -0.6,
+        "102A_clf_yoy": -4.53,
         "103B_earnings_yoy": 3.79,
         "104C_col": 5.4,
         "105C_owr": 0.86,
@@ -2448,7 +2448,7 @@
         "204A_dom_level_days": 37.0
       },
       "percentile_scores": {
-        "101A": 93.9,
+        "101A": 78.0,
         "102A": 0,
         "103B": 52.0,
         "104C": 6.1,
@@ -2458,7 +2458,7 @@
         "204A": 94.0
       },
       "scores_100": {
-        "101A": 94,
+        "101A": 78,
         "102A": 0,
         "103B": 52,
         "104C": 6,
@@ -2467,15 +2467,15 @@
         "200B": 56,
         "204A": 94
       },
-      "weighted_percentile": 51.0,
-      "weighted_score": 51,
+      "weighted_percentile": 47.8,
+      "weighted_score": 48,
       "grade": {
-        "letter": "B",
-        "emoji": "\u27a1\ufe0f",
-        "description": "Average",
-        "percentile": 51.0
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
+        "percentile": 47.8
       },
-      "grade_display": "\u27a1\ufe0f B"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "Hartford-West Hartford-East Hartford",
@@ -2499,7 +2499,7 @@
       },
       "percentile_scores": {
         "101A": 98.0,
-        "102A": 94.0,
+        "102A": 96.0,
         "103B": 8.0,
         "104C": 38.8,
         "105C": 46.0,
@@ -2509,7 +2509,7 @@
       },
       "scores_100": {
         "101A": 98,
-        "102A": 94,
+        "102A": 96,
         "103B": 8,
         "104C": 39,
         "105C": 46,
@@ -2517,13 +2517,13 @@
         "200B": 60,
         "204A": 0
       },
-      "weighted_percentile": 65.2,
+      "weighted_percentile": 65.4,
       "weighted_score": 65,
       "grade": {
         "letter": "A",
         "emoji": "\u2705",
         "description": "Very Good",
-        "percentile": 65.2
+        "percentile": 65.4
       },
       "grade_display": "\u2705 A"
     }

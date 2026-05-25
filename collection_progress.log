@@ -1,18 +1,17 @@
-[12:22:47] ================================================================================
-[12:22:47] UNIFIED ECONOMIC DATA COLLECTION (FIXED)
-[12:22:47] ================================================================================
-[12:22:47] Start Time: 2026-05-18 12:22:47
-[12:22:47] FRED API Rate Limit: 120 requests/minute
-[12:22:47] Script Delay: 1.5 seconds between calls
-[12:22:47] Expected Runtime: ~14-16 minutes
-[12:22:47] Total API Calls: 452 (2 national + 450 metros)
-[12:22:47] Observations per metric: 15 (for historical analysis)
-[12:22:47] 
-[12:30:04] FAILED [Unemployment Rate] INDI918URN: HTTP 502 for series 'INDI918URN'
-[12:34:06] 
-[12:34:06] ================================================================================
-[12:34:06] COLLECTION COMPLETE
-[12:34:06] ================================================================================
-[12:34:06] End Time: 2026-05-18 12:34:06
-[12:34:06] National Metrics Collected: 2
-[12:34:06] Metro Data Points Collected: 449
+[12:21:26] ================================================================================
+[12:21:26] UNIFIED ECONOMIC DATA COLLECTION (FIXED)
+[12:21:26] ================================================================================
+[12:21:26] Start Time: 2026-05-25 12:21:26
+[12:21:26] FRED API Rate Limit: 120 requests/minute
+[12:21:26] Script Delay: 1.5 seconds between calls
+[12:21:26] Expected Runtime: ~14-16 minutes
+[12:21:26] Total API Calls: 452 (2 national + 450 metros)
+[12:21:26] Observations per metric: 15 (for historical analysis)
+[12:21:26] 
+[12:32:52] 
+[12:32:52] ================================================================================
+[12:32:52] COLLECTION COMPLETE
+[12:32:52] ================================================================================
+[12:32:52] End Time: 2026-05-25 12:32:52
+[12:32:52] National Metrics Collected: 2
+[12:32:52] Metro Data Points Collected: 450

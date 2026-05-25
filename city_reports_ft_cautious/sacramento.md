@@ -1,33 +1,33 @@
 # Sacramento-Roseville-Folsom
 
-**Grade: C+ (Poor) | 39.1th percentile | May 2026**
+**Grade: C (Very Poor) | 35.2th percentile | May 2026**
 
 ---
 
-The Sacramento-Roseville-Folsom metro area has an overall grade of C+ with a composite score ranking it 39.1th percentile out of 50 US metros. This city's economic character is most defined by its labor demand, with a composite score in the 70th percentile, and its cost of living, which ranks in the 12th percentile, indicating a relatively expensive environment. The labor demand and cost of living metrics are crucial in understanding the city's economic landscape, with employment growth at 0.69% and weekly hours 0.025% above trend.
+The Sacramento-Roseville-Folsom metro area has an overall grade of C, ranking 35.2th percentile out of 50 US metros, with a composite score reflecting a mix of average labor demand and below-average cost of living and labor force growth. The city's economic character is most defined by its labor demand composite score of 5.29, which is above average at the 70th percentile, and its wage growth rate of +1.22%, which is in the bottom tier at the 16th percentile. These metrics suggest a city with some job growth but limited upward pressure on wages.
 
 **Labor Demand**
-The city's employment growth rate of 0.69% and weekly hours deviation of 0.025% above trend signal genuine demand expansion, indicating that jobs are being added and hours are running above the 12-month baseline. This combination suggests a healthy labor market with increasing job opportunities. The labor demand composite score of 5.29 further supports this, ranking in the 70th percentile.
+The employment growth rate in Sacramento-Roseville-Folsom is +0.69% year-over-year, combined with a weekly hours deviation of +0.025% from its own 12-month baseline, signaling genuine demand expansion. This combination indicates that the city is adding jobs and workers are putting in more hours than typical, suggesting a growing economy. The labor demand composite score of 5.29 is above average, at the 70th percentile, further supporting this interpretation.
 
 **Unemployment**
-The unemployment rate in Sacramento-Roseville-Folsom is 5.00%, ranking in the 35th percentile, which indicates a moderate level of slack in the labor market. This means that while it may not be extremely difficult to hire, there is still some competition for talent. For a business trying to hire in this city, the moderate unemployment rate implies a relatively balanced market.
+The unemployment rate in Sacramento-Roseville-Folsom is 4.70%, which is below average, ranking at the 34th percentile. This indicates a relatively tight labor market, making it harder for businesses to hire and potentially leading to upward wage pressure. Companies looking to staff up in this city may face challenges finding available workers.
 
 **Wage Growth**
-The year-over-year wage growth rate is 1.22%, ranking in the 16th percentile, which is considered stagnant. This slow wage growth implies a flat cost environment for employers, but it also means weak bargaining power for workers. As a result, worker purchasing power may not be increasing significantly.
+The year-over-year wage growth rate in Sacramento-Roseville-Folsom is +1.22%, which is in the bottom tier, ranking at the 16th percentile. This slow wage growth suggests a relatively flat cost environment for employers but weak bargaining power for workers. As a result, worker purchasing power may not be increasing significantly.
 
 **Cost of Living**
-With a cost of living ratio of 9.00, based on $344/sqft and $38.23/hr, Sacramento-Roseville-Folsom ranks in the 12th percentile, indicating a relatively expensive environment. This low affordability score means that the city may struggle to attract talent without offering wage premiums. The fact that PSF is falling by 0.3% YoY is a positive sign, but the overall cost of living remains a challenge.
+Sacramento-Roseville-Folsom has a cost of living score that ranks at the 12th percentile, with a price-to-salary ratio of $344/sqft to $38.23/hr, or 9.00. Although the price per square foot is decreasing by 0.3% year-over-year, the city remains relatively expensive compared to its peers. This could make it challenging to attract talent without offering wage premiums.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of 1.05% year-over-year, ranking in the 68th percentile, which indicates an expanding workforce supply. This positive growth rate suggests that the city has a growing pool of potential employees, making it easier for businesses to hire.
+The civilian labor force in Sacramento-Roseville-Folsom is shrinking at a rate of -0.59% year-over-year, indicating a contracting labor pool. This decline in labor force supply poses a structural headwind for hiring, as the available workforce is not expanding.
 
 **Building Permits**
-The year-over-year change in building permits is -21.43%, ranking in the 20th percentile, which signals a tightening housing supply. This decline in permits may lead to a supply squeeze, making it more difficult for workers to find affordable housing and potentially impacting the city's ability to attract and retain talent.
+The number of residential building permits in Sacramento-Roseville-Folsom has decreased by 21.43% year-over-year, signaling a tightening housing supply. This sharp decline in permits suggests that future affordability and workforce accommodation may be at risk, potentially exacerbating the challenges of attracting and retaining talent.
 
 **Days on Market**
-The current median days on market is 38 days, with a 0.0% year-over-year change, ranking in the 26th percentile. This relatively fast market means that homes are selling quickly, which can make it challenging for relocating workers to find a place to live. The stable days on market suggests a balanced market, but the low percentile rank indicates that it may still be competitive.
+The median days on market for homes in Sacramento-Roseville-Folsom is 38 days, with no year-over-year change. This relatively fast pace of home sales indicates a competitive market, which could make it tough for relocating workers to find housing. However, the lack of change in days on market suggests a stable, albeit competitive, environment.
 
 **Office Economy**
-The city's office economy ranks in the 24th percentile, with a share of professional and office workers at 1.80. This indicates a relatively shallow talent pool, making the city less suited for businesses that require a deep knowledge-economy talent pool, such as tech or finance companies. However, it may be more suitable for industries with fewer specialized roles, such as logistics or manufacturing.
+The share of professional and office workers in Sacramento-Roseville-Folsom ranks at the 24th percentile, indicating a relatively shallow talent pool in these sectors. This city is less suited for businesses requiring a deep knowledge-economy talent pool, such as tech, finance, or consulting firms, but may be more appropriate for industries with different workforce needs.
 
-The Sacramento-Roseville-Folsom metro area offers a growing labor force and moderate unemployment rate, making it an attractive location for businesses looking to hire. However, the city's relatively expensive cost of living and stagnant wage growth may pose challenges for talent attraction and retention, and the single biggest risk is the potential supply squeeze in the housing market, which could further exacerbate affordability issues and make it harder for workers to relocate to the area.
+The Sacramento-Roseville-Folsom metro area offers a mix of average labor demand and below-average cost of living and labor force growth, making it a challenging location for businesses seeking to expand or relocate. The single biggest risk or constraint for decision-makers is the city's limited and shrinking labor force, which poses significant challenges for hiring and talent attraction, potentially outweighing any benefits from the city's current economic conditions.
