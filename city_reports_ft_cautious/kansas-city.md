@@ -1,33 +1,33 @@
 # Kansas City
 
-**Grade: A+ (Excellent) | 68.7th percentile | May 2026**
+**Grade: A (Very Good) | 66.2th percentile | June 2026**
 
 ---
 
-Kansas City earns an overall grade of A+ with a composite score of 68.7th percentile, ranking it among the top US metros. The city's economic character is defined by its strong wage growth, with a year-over-year increase of 6.99%, and its highly affordable cost of living, with a percentile rank of 90th. These metrics signal a city with a competitive labor market and attractive living conditions.
+Kansas City earns an overall grade of A, ranking in the 66.2th percentile among 50 US metros, with a composite score driven largely by its top-tier wage growth and cost of living. The city's economic character is defined by its exceptional wage growth of 7.97% year-over-year and a highly affordable cost of living, with a PSF to earnings ratio of $199/sqft to $36.17/hr, ranking in the 94th percentile. These metrics suggest a city with strong labor market dynamics and attractive living costs.
 
 **Labor Demand**
-Kansas City's employment growth rate is 0.04% year-over-year, combined with a 0.223% deviation in weekly hours above its own trend, resulting in a labor demand composite score of 4.58, which is near the median. This combination signals a genuine demand expansion, as hours are running above trend during a period of job growth. The labor market is experiencing a moderate increase in jobs and working hours.
+Kansas City's labor demand composite score is 3.84, near the median, driven by a slight decline in employment growth of -0.03% year-over-year and a modest increase in weekly hours of 0.421% above its own trend. This combination signals a relatively stable labor market, neither expanding nor contracting significantly. The hours deviation above trend during a period of slight job loss may indicate a mild survivor squeeze, where remaining workers absorb the load of eliminated roles.
 
 **Unemployment**
-The unemployment rate in Kansas City is 3.90%, which corresponds to an above-average percentile rank of 72nd. This indicates a relatively tight labor market with some slack, making it moderately challenging for businesses to hire. However, the unemployment rate is still low enough to exert some upward pressure on wages.
+The city's unemployment rate is 3.90%, ranking in the 72nd percentile, indicating a relatively tight labor market with some slack. This means that while it may be slightly harder for businesses to hire, the market is not overly competitive, and wage pressure is moderate. Businesses trying to hire in Kansas City may need to offer competitive wages, but the talent pool is still accessible.
 
 **Wage Growth**
-With a year-over-year wage growth rate of 6.99%, Kansas City is experiencing fast wage growth, ranking it in the top tier at the 88th percentile. This rapid wage growth implies rising labor costs for employers, but it also translates to strong purchasing power for workers. Businesses should factor in the potential for increasing labor costs when considering relocation.
+With a year-over-year wage growth rate of 7.97%, Kansas City experiences fast and rising labor costs for employers. This strong wage growth is beneficial for worker purchasing power, as employees see significant increases in their earnings. However, this may pose a challenge for businesses looking to maintain a flat cost environment.
 
 **Cost of Living**
-Kansas City's cost of living is highly affordable, with a percentile rank of 90th, due to its PSF of $199/sqft and average hourly earnings of $35.79, resulting in a ratio of 5.56. This affordability advantage means that businesses can attract talent without needing to offer significant wage premiums, making it an attractive location for companies looking to relocate or expand.
+Kansas City's cost of living is highly affordable, ranking in the 94th percentile, with a PSF to earnings ratio of $199/sqft to $36.17/hr. This affordability advantage means that businesses can attract talent without needing to offer significant wage premiums to offset high living costs. The city's attractive cost of living is a major talent attraction advantage.
 
 **Labor Force Growth**
-The civilian labor force in Kansas City is growing at a rate of 0.37% year-over-year, which is above average, ranking it at the 64th percentile. This expansion in labor force supply indicates that the city has a growing pool of potential workers, making it easier for businesses to find and hire talent.
+The civilian labor force in Kansas City is growing at a rate of 0.37% year-over-year, indicating a modest expansion of the workforce supply. This positive growth rate suggests that the city's hiring capacity is increasing, making it easier for businesses to find and recruit talent.
 
 **Building Permits**
-The number of building permits in Kansas City has increased by 34.49% year-over-year, signaling a significant expansion in housing supply. This growth in permits suggests that the city is likely to experience improving affordability and a more accommodating environment for its workforce in the future.
+The city has seen a significant increase in residential building permits, with a year-over-year change of 34.49%, ranking in the 82nd percentile. This surge in permits signals an expansion of future housing supply, which should improve affordability and accommodate a growing workforce.
 
 **Days on Market**
-The current median days on market in Kansas City is 41 days, with a year-over-year decrease of 12.8%, ranking it in the bottom tier at the 8th percentile. This fast-paced market means that homes are selling quickly, which can make it challenging for relocating workers to find and secure housing.
+Homes in Kansas City are currently selling at a median of 41 days on market, with a year-over-year decrease of 12.8%. This fast-paced market makes it challenging for relocating workers to find and secure housing, as homes are selling quickly.
 
 **Office Economy**
-Kansas City's professional and office worker share is below average, ranking it at the 26th percentile. This indicates a relatively shallow talent pool for businesses in the tech, finance, or consulting sectors, making it less suited for companies that require a deep knowledge-economy workforce. However, it may be more suitable for industries with different workforce requirements.
+Kansas City's professional and office worker share is below average, ranking in the 28th percentile, indicating a relatively shallow talent pool in these sectors. The city is less suited for businesses requiring a deep knowledge-economy talent pool, such as tech, finance, or consulting, but may be more accommodating to industrial or logistics-dominant economies.
 
-In conclusion, Kansas City offers businesses a unique combination of strong wage growth, affordable living conditions, and a growing labor force, making it an attractive location for relocation or expansion. However, the single biggest risk or constraint for decision-makers to consider is the fast-paced housing market, which may pose challenges for relocating workers to find suitable housing, potentially affecting talent attraction and retention strategies.
+In conclusion, Kansas City offers businesses a unique combination of strong wage growth, affordable living costs, and a modestly expanding labor force, making it an attractive location for talent attraction and retention. However, the city's relatively shallow professional talent pool and fast-paced housing market may pose challenges for businesses requiring specialized office workers or relocating employees, and these factors should be carefully considered in any location decision.

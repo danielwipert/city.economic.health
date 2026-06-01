@@ -1,33 +1,33 @@
 # Charlotte-Concord-Gastonia
 
-**Grade: B+ (Above Average) | 59.0th percentile | May 2026**
+**Grade: A (Very Good) | 67.3th percentile | June 2026**
 
 ---
 
-The Charlotte-Concord-Gastonia metro area has earned an overall grade of B+ with a composite score ranking in the 59.0th percentile among 50 US metros. This city's economic character is largely defined by its strong labor demand, with an employment growth rate of 0.88% and weekly hours 0.398% above its own trend, as well as its deep professional talent pool, ranking in the 80th percentile. The labor demand composite score of 5.93 places it in the top tier, at the 82nd percentile.
+The Charlotte-Concord-Gastonia metro area has earned an overall grade of A, ranking in the 67.3th percentile among 50 US metros, with a strong labor demand and a deep professional talent pool being the two metrics that most define its current economic character, scoring 88th percentile in labor demand composite and 82nd percentile in office/professional worker share. The labor demand composite score of 6.66, driven by a 1.08% employment growth rate and a 0.846% weekly hours deviation above trend, signals genuine demand expansion. This combination of metrics suggests a city with a strong and growing economy.
 
 **Labor Demand**
-The combination of 0.88% employment growth and 0.398% higher weekly hours signals genuine demand expansion in the Charlotte-Concord-Gastonia metro area. This indicates that jobs are being added and hours are running above trend, suggesting a healthy and growing labor market. The labor demand composite score of 5.93, ranking in the 82nd percentile, further reinforces this assessment.
+The employment growth rate of 1.08% and weekly hours deviation of 0.846% above trend indicate a labor market with genuine demand expansion, as hours are running above trend during a period of job growth. This signals that the city is experiencing a surge in economic activity, with businesses hiring more workers and existing workers putting in more hours. The labor demand composite score of 6.66 further reinforces this notion, ranking in the top tier at 88th percentile.
 
 **Unemployment**
-The unemployment rate in Charlotte-Concord-Gastonia stands at 3.70%, ranking in the 76th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer competitive wages to attract talent. The tight market also suggests that workers may have more bargaining power.
+The unemployment rate of 3.70% is relatively low, ranking above average at 76th percentile, indicating a tight labor market with limited slack. This means that businesses may face challenges in finding and hiring qualified workers, and may need to offer competitive wages to attract talent. As a result, wage pressure is likely to be higher in this market.
 
 **Wage Growth**
-The year-over-year wage growth in Charlotte-Concord-Gastonia is -0.04%, ranking in the 6th percentile, indicating stagnant wage growth. This slow wage growth environment means that labor costs for employers are not rising rapidly, but it also suggests that workers may have limited bargaining power and purchasing power may not be increasing. This could impact the local consumer demand.
+The year-over-year wage growth rate of 2.06% is below average, ranking at 28th percentile, indicating moderate wage growth. This suggests that labor costs for employers are rising, but at a slower pace than in other cities. While this may be beneficial for employers, it also means that worker purchasing power is not increasing as quickly as it could be.
 
 **Cost of Living**
-With a cost of living ratio of $220/sqft to $37.43/hr, and a year-over-year decrease of 1.8% in PSF, Charlotte-Concord-Gastonia ranks in the 45th percentile for affordability. This near-median ranking suggests that the city is neither extremely affordable nor extremely expensive, and businesses may not need to offer significant wage premiums to attract talent. However, the falling PSF relative to wages is a positive sign for affordability.
+The city's cost of living, with a PSF of $220/sqft and an earnings ratio of $37.49/hr, resulting in a ratio of 5.87, is above average in terms of affordability, ranking at 76th percentile. The fact that PSF is falling by 1.8% YoY relative to wages further enhances the city's affordability. This makes it an attractive location for talent, as workers can afford a higher quality of life without requiring significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in Charlotte-Concord-Gastonia is growing at a rate of 1.13% year-over-year, ranking in the 78th percentile, indicating an expanding workforce supply. This positive growth rate suggests that the hiring capacity for businesses is increasing, and the labor pool is becoming more diverse and larger.
+The civilian labor force is growing at a rate of 1.13% year-over-year, indicating an expanding workforce supply. This is a positive sign for businesses looking to hire, as it suggests that there will be a growing pool of potential workers to draw from. With a rank of 78th percentile, the city's labor force growth is above average, providing a favorable environment for hiring.
 
 **Building Permits**
-The year-over-year change in residential building permits is -14.84%, ranking in the 30th percentile, indicating a tightening housing supply. This decline in permits suggests that the future affordability and workforce accommodation in Charlotte-Concord-Gastonia may be at risk, as the supply of new housing is not keeping pace with demand.
+The year-over-year change in building permits is -14.84%, indicating a tightening of housing supply. This suggests that the city may face future affordability challenges and workforce accommodation constraints, as the supply of new housing is not keeping pace with demand. With a rank of 28th percentile, the city's building permits growth is below average, signaling a potential risk for businesses relying on a growing and affordable workforce.
 
 **Days on Market**
-The current median days on market is 45 days, with a year-over-year increase of 7.1%, ranking in the 76th percentile. This suggests that the housing market is becoming more accessible for relocating workers, as homes are taking slightly longer to sell. However, the market is still relatively competitive, and workers may face some challenges in finding available housing.
+The current median days on market is 45 days, with a year-over-year increase of 7.1%, indicating a slowing market. This means that workers relocating to the city may find it slightly easier to find a home, as the market is becoming less competitive. However, with a rank of 76th percentile, the city's days on market is still relatively fast, suggesting that the market remains relatively hot.
 
 **Office Economy**
-With an office and professional worker share ranking in the 80th percentile, Charlotte-Concord-Gastonia has a deep talent pool suited for tech, finance, consulting, and HQ decisions. This city is well-suited for businesses that require specialized knowledge-economy roles, but may be less suitable for industries with more industrial or logistics-dominant economies.
+The city's professional talent pool is deep, ranking in the top tier at 82nd percentile, making it an attractive location for businesses in the tech, finance, consulting, and HQ sectors. The city's strong office economy suggests that it is well-suited for businesses that require specialized knowledge workers, but may be less suitable for industries with more industrial or logistics-oriented workforces.
 
-The Charlotte-Concord-Gastonia metro area offers businesses a strong labor demand and a deep professional talent pool, making it an attractive location for companies in the tech, finance, and consulting sectors. However, the single biggest risk or constraint for decision-makers is the tightening housing supply, which may impact future affordability and workforce accommodation, and could require businesses to offer wage premiums or other incentives to attract and retain talent.
+The Charlotte-Concord-Gastonia metro area offers businesses a strong and growing economy, with a deep professional talent pool and an affordable cost of living. However, the single biggest risk or constraint for decision-makers to factor in is the tightening housing supply, which may lead to future affordability challenges and workforce accommodation constraints, potentially limiting the city's ability to attract and retain talent.
