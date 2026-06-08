@@ -1,33 +1,33 @@
 # Indianapolis-Carmel-Greenwood
 
-**Grade: C (Very Poor) | 37.5th percentile | June 2026**
+**Grade: C+ (Poor) | 41.3th percentile | June 2026**
 
 ---
 
-The Indianapolis-Carmel-Greenwood metro area has an overall grade of C, ranking 37.5th percentile out of 50 US metros, with a labor demand composite score of 2.67, indicating a struggling job market. The city's economic character is most defined by its low labor demand and stagnant wage growth, with employment growth at -0.72% year-over-year and wage growth at +0.46% year-over-year. These metrics suggest a challenging environment for businesses looking to expand or relocate.
+The Indianapolis-Carmel-Greenwood metro area has an overall grade of C+ with a composite score ranking at the 41.3th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score in the bottom tier at the 16th percentile, and its tight unemployment market, with a rate of 2.60% ranking in the top tier at the 92nd percentile. The combination of these metrics, particularly the low labor demand and stagnant wage growth, signals a challenging environment for businesses looking to expand or relocate.
 
 **Labor Demand**
-The employment growth rate in Indianapolis is -0.72% year-over-year, while weekly hours are deviating from the trend by +0.621%, signaling a survivor squeeze where remaining workers are absorbing the load of eliminated roles. This combination indicates a contraction in genuine demand expansion, as hours are above trend during a period of job losses. The labor demand composite score of 2.67 falls in the bottom tier, at the 16th percentile.
+The employment growth rate in Indianapolis-Carmel-Greenwood is -0.72% year-over-year, and weekly hours are deviating from the trend by +0.621%. This combination signals a contraction in labor demand, rather than genuine demand expansion, as hours are slightly above trend during a period of job losses, indicating a survivor squeeze. This metric suggests that the city's labor market is not experiencing strong growth.
 
 **Unemployment**
-The unemployment rate in Indianapolis is 3.30%, which is relatively low, ranking in the top tier at the 86th percentile. This tight labor market implies that businesses may face challenges in hiring, with more wage pressure and competition for skilled workers. As a result, companies may need to offer higher salaries or benefits to attract top talent.
+The unemployment rate in Indianapolis-Carmel-Greenwood is 2.60%, which is extremely low and ranks in the top tier at the 92nd percentile. This indicates a very tight labor market with little slack, making it challenging for businesses to hire new employees. As a result, businesses may face upward pressure on wages to attract and retain talent.
 
 **Wage Growth**
-The year-over-year wage growth in Indianapolis is +0.46%, which is stagnant and falls in the bottom tier at the 8th percentile. This slow wage growth means that labor costs for employers are relatively flat, but worker purchasing power is weak. As a result, businesses may not face significant pressure to increase wages, but workers may have limited disposable income to drive local consumer demand.
+The year-over-year wage growth in Indianapolis-Carmel-Greenwood is +0.46%, which is relatively stagnant and ranks in the bottom tier at the 8th percentile. This slow wage growth suggests that labor costs for employers are not rising rapidly, but it also implies that workers have limited bargaining power and purchasing power is not increasing significantly.
 
 **Cost of Living**
-Indianapolis has a cost of living score that falls in the bottom tier, at the 8th percentile, with a PSF of $168/sqft and an earnings ratio of $32.75/hr, resulting in a ratio of 5.13. The city is relatively expensive, with PSF increasing by 5.7% year-over-year, making it challenging to attract talent without offering wage premiums. This may be a disadvantage for businesses looking to relocate or expand in the area.
+Indianapolis-Carmel-Greenwood has a cost of living score that ranks in the bottom tier at the 8th percentile, with a price-to-salary ratio of $168/sqft to $32.75/hr, resulting in a ratio of 5.13. The city's cost of living is relatively expensive, particularly since the price per square foot is increasing by 5.0% year-over-year. This makes it less attractive for talent without offering wage premiums to offset the high cost of living.
 
 **Labor Force Growth**
-The civilian labor force in Indianapolis is contracting at a rate of -0.50% year-over-year, ranking below average at the 34th percentile. This decline in labor force supply implies that businesses may face structural headwinds in hiring, with a shrinking pool of potential workers. As a result, companies may need to invest in training and development programs to attract and retain talent.
+The civilian labor force in Indianapolis-Carmel-Greenwood is shrinking at a rate of -0.76% year-over-year, which is near the median at the 47th percentile. This contraction in labor force supply implies that the city's hiring capacity may be limited, making it challenging for businesses to find and recruit new employees.
 
 **Building Permits**
-The number of building permits in Indianapolis is increasing by 32.81% year-over-year, ranking in the top tier at the 80th percentile. This expansion in housing supply signals that developer confidence is rising, and future affordability and workforce accommodation may improve. As a result, businesses may find it easier to attract and retain workers in the area, with a more affordable and expanding housing market.
+The number of residential building permits in Indianapolis-Carmel-Greenwood is increasing by 19.26% year-over-year, which is above average and ranks at the 74th percentile. This expansion in housing supply suggests that the city's affordability and workforce accommodation may improve in the future, as more housing options become available.
 
 **Days on Market**
-The median days on market in Indianapolis is 41 days, with a year-over-year increase of 2.5%, ranking near the median at the 44th percentile. This relatively fast market means that workers relocating to the city may face competition for housing, but the market is not extremely competitive. As a result, businesses may need to provide relocation assistance or support to help workers find housing in the area.
+The median days on market for homes in Indianapolis-Carmel-Greenwood is currently 42 days, with a year-over-year increase of 7.7%, ranking in the top tier at the 82nd percentile. This indicates a slower market, which can be beneficial for workers relocating to the city, as they have more time to find a home and negotiate prices.
 
 **Office Economy**
-The professional and office worker share in Indianapolis is relatively low, ranking in the bottom tier at the 18th percentile. This suggests that the city has a limited talent pool for tech, finance, consulting, and HQ decisions, making it less suited for businesses that require specialized knowledge-economy workers. However, the city may be more suitable for industrial or logistics-dominant businesses that require a different type of workforce.
+The share of professional and office workers in Indianapolis-Carmel-Greenwood is relatively low, ranking in the bottom tier at the 18th percentile. This suggests that the city's talent pool is not particularly deep in knowledge-economy sectors, making it less suited for businesses in tech, finance, or consulting, but potentially more suitable for industries with different skill requirements.
 
-The Indianapolis-Carmel-Greenwood metro area offers businesses a relatively low unemployment rate and expanding housing supply, but the city's struggling job market, stagnant wage growth, and limited professional talent pool pose significant challenges. The single biggest risk or constraint for decision-makers is the city's low labor demand and limited workforce supply, which may hinder businesses' ability to attract and retain top talent, making it essential to carefully consider these factors when making location decisions.
+The Indianapolis-Carmel-Greenwood metro area offers a unique combination of a tight labor market and relatively expensive cost of living, which may pose challenges for businesses looking to hire and retain talent. The single biggest risk or constraint for decision-makers is the low labor demand and stagnant wage growth, which may limit the city's appeal for businesses seeking to expand or relocate, particularly those in knowledge-economy sectors.

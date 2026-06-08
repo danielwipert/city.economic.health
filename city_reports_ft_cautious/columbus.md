@@ -1,33 +1,33 @@
 # Columbus
 
-**Grade: B+ (Above Average) | 56.0th percentile | June 2026**
+**Grade: B- (Below Average) | 49.5th percentile | June 2026**
 
 ---
 
-Columbus, with an overall grade of B+ and a composite score ranking it at the 56.0th percentile among 50 US metros, is characterized by its exceptionally low unemployment rate of 3.40% and a cost of living that is more affordable than most peers, with a ratio of $206/sqft to $34.44/hr. The city's economic character is also marked by near-median labor demand and wage growth. Specifically, the labor demand composite score of 4.36 and wage growth of +3.26% YoY suggest a stable, though not exceptionally strong, economic environment.
+Columbus, with an overall grade of B- and a composite score ranking it at the 49.5th percentile among 50 US metros, is characterized by its low unemployment rate of 2.80% and a labor demand composite score of 4.36, which places it near the median. The city's economic character is also defined by its stagnant labor force growth and declining building permits. Specifically, the low unemployment rate and near-median labor demand score suggest a mixed economic environment.
 
 **Labor Demand**
-The employment growth rate of +0.22% YoY and weekly hours deviation of -0.246% from the city's own trend indicate a near-median labor demand composite score. This combination signals a modest expansion in jobs but with hours worked slightly below trend, suggesting some degree of labor market stability rather than genuine demand expansion or contraction. The labor market is neither strongly tightening nor loosening.
+The employment growth rate in Columbus is +0.22% year-over-year, while weekly hours are deviating -0.246% from the city's own 12-month baseline. This combination signals a lack of genuine demand expansion, as the modest job growth is not accompanied by a significant increase in hours worked. The labor demand composite score of 4.36, ranking near the median at the 44th percentile, further supports this assessment.
 
 **Unemployment**
-With an unemployment rate of 3.40%, Columbus has a very tight labor market, ranking in the top tier at the 96th percentile. This tight market implies that businesses may face challenges in hiring, as the pool of available workers is small, and may need to offer competitive wages to attract talent. The low unemployment rate suggests that workers have significant bargaining power.
+The unemployment rate in Columbus is 2.80%, ranking it in the top tier at the 96th percentile. This indicates a very tight labor market with little slack, making it challenging for businesses to hire new employees. As a result, businesses may face upward pressure on wages to attract and retain talent.
 
 **Wage Growth**
-The year-over-year wage growth rate of +3.26% is near the median, indicating moderate wage increases. This rate of wage growth suggests that labor costs for employers are rising, but not at an alarming rate, and worker purchasing power is increasing, though not dramatically. The moderate wage growth supports a stable labor market.
+The year-over-year wage growth in Columbus is +3.26%, which is near the median, ranking at the 42nd percentile. This moderate wage growth rate suggests that labor costs for employers are rising, but not excessively so. At the same time, workers in Columbus are experiencing a modest increase in their purchasing power.
 
 **Cost of Living**
-Columbus is more affordable than most of its peers, with a cost of living percentile rank of 78th, driven by a PSF of $206/sqft that is decreasing by -1.4% YoY relative to wages of $34.44/hr. This affordability advantage means that the city can attract talent without needing to offer significant wage premiums to compensate for high living costs. The decreasing PSF relative to wages is a key driver of this advantage.
+Columbus has a cost of living score that ranks it at the 63rd percentile, with a PSF of $207/sqft and average hourly earnings of $34.44/hr, resulting in a ratio of 6.01. This indicates that the city is slightly above average in terms of affordability. The fact that PSF is falling by -0.5% year-over-year suggests that Columbus may become more attractive to talent without requiring significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force is contracting at a rate of -0.33% YoY, indicating a shrinking labor pool. This contraction implies a structural headwind for hiring, as the supply of potential workers is decreasing. Businesses may need to adapt their hiring strategies to this shrinking labor market.
+The civilian labor force in Columbus is shrinking at a rate of -1.44% year-over-year, indicating a contraction in the labor supply. This decline in labor force growth poses a structural headwind for hiring, making it more challenging for businesses to find the talent they need.
 
 **Building Permits**
-The year-over-year change in residential building permits is -41.29%, a sharp decline that signals a tightening housing supply. This decline suggests that future affordability and workforce accommodation may be at risk, as the supply of new housing is not keeping pace with demand. The sharp drop in permits is a concern for long-term labor market health.
+The number of building permits in Columbus has decreased by -20.69% year-over-year, signaling a tightening of the housing supply. This decline in building permits may lead to future affordability issues and make it more difficult for the city to accommodate a growing workforce.
 
 **Days on Market**
-Homes are currently sitting on the market for 36 days, with a year-over-year increase of +16.1%, indicating a slower market. This slower market means that workers relocating to Columbus may find it more accessible to purchase a home, as there is less competition and pressure to act quickly. The rising days on market suggests a normalization of the housing market.
+The median days on market in Columbus is currently 33 days, with a year-over-year decrease of -5.7%. Although this suggests a relatively fast-paced market, the low percentile rank of 12th indicates that homes are still selling quickly, making it a competitive environment for relocating workers to find housing.
 
 **Office Economy**
-With an office/professional worker share percentile rank of 32nd, Columbus has a less deep professional talent pool compared to many of its peers. This city is less suited for businesses requiring a large pool of specialized office or tech talent but may be more appropriate for industries with different workforce needs, such as logistics or manufacturing. The relatively low rank suggests that businesses seeking a deep knowledge-economy talent pool may need to look elsewhere.
+Columbus has a professional and office worker share that ranks it below average at the 32nd percentile. This suggests that the city's talent pool is not as deep in knowledge-economy sectors, making it less suited for businesses in tech, finance, or consulting. However, it may be more suitable for industries with fewer specialized roles, such as logistics or manufacturing.
 
-In conclusion, Columbus offers businesses a stable economic environment with an exceptionally low unemployment rate and a more affordable cost of living, which can be an advantage in attracting talent. However, the single biggest risk or constraint for a decision-maker is the sharp decline in building permits, which signals potential future challenges in housing affordability and workforce accommodation, and the contracting labor force, which may complicate hiring efforts.
+In conclusion, Columbus offers a mixed economic environment with a tight labor market and moderate wage growth, but also faces challenges such as a shrinking labor force and declining building permits. The single biggest risk or constraint for businesses considering Columbus as a location is the potential for future affordability issues and hiring difficulties due to the limited labor supply and tightening housing market.

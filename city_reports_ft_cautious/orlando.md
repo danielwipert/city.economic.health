@@ -1,33 +1,33 @@
 # Orlando-Kissimmee-Sanford
 
-**Grade: B- (Below Average) | 49.9th percentile | June 2026**
+**Grade: B (Average) | 50.8th percentile | June 2026**
 
 ---
 
-The Orlando-Kissimmee-Sanford metro area has an overall grade of B- with a composite score ranking it at the 49.9th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the top tier at the 92nd percentile, and its struggling housing market, with building permits declining by 54.27% year-over-year. The labor demand is driven by employment growth of 1.08% and weekly hours 1.057% above trend.
+The Orlando-Kissimmee-Sanford metro area has an overall grade of B, ranking 50.8th percentile out of 50 US metros, with a composite score driven largely by its strong labor demand and labor force growth, at 92nd and 88th percentiles, respectively. The city's economic character is defined by its top-tier employment growth rate of 1.08% and weekly hours deviation of 1.057%, indicating genuine demand expansion. With a labor demand composite score of 6.87, the city is experiencing a significant increase in job openings and hours worked.
 
 **Labor Demand**
-The Orlando-Kissimmee-Sanford metro area has an employment growth rate of 1.08% and weekly hours 1.057% above its own 12-month trend, signaling genuine demand expansion. This combination indicates that the city is adding jobs and workers are putting in more hours, suggesting a strong and growing economy. The labor demand composite score of 6.87 is in the top tier at the 92nd percentile.
+The employment growth rate of 1.08% and weekly hours deviation of 1.057% signal genuine demand expansion, as hours are running above trend during a period of job growth. This combination indicates that the city is experiencing a strong increase in labor demand, with businesses adding jobs and workers putting in more hours. The labor demand composite score of 6.87 is in the top tier, at the 92nd percentile.
 
 **Unemployment**
-The unemployment rate in Orlando-Kissimmee-Sanford is 4.40%, ranking it in the bottom tier at the 10th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as there are fewer unemployed workers available, and may need to offer higher wages to attract talent. The tight market also suggests that workers may have more bargaining power.
+The unemployment rate of 4.50% is relatively high, ranking in the bottom tier at the 8th percentile, indicating a market with some slack. This means that businesses may find it easier to hire workers, as there is a larger pool of available labor. However, the higher unemployment rate also suggests weaker local consumer demand.
 
 **Wage Growth**
-The year-over-year wage growth in Orlando-Kissimmee-Sanford is 2.81%, which is below average at the 36th percentile. This moderate wage growth rate suggests that labor costs for employers are rising, but not excessively so, and workers have some, but not significant, purchasing power gains. The wage growth is not stagnant, but it is not fast enough to drive significant economic expansion.
+The year-over-year wage growth rate of 2.81% is below average, ranking at the 36th percentile, indicating moderate wage growth. This means that employer labor costs are rising, but at a slower pace, and worker purchasing power is increasing, but not rapidly. The moderate wage growth suggests a relatively stable labor cost environment.
 
 **Cost of Living**
-Orlando-Kissimmee-Sanford has a cost of living score in the above-average tier at the 74th percentile, with a price-to-salary ratio of $224/sqft to $33.47/hr, or 6.69. This means that the city is relatively affordable compared to its peers, which can be a talent attraction advantage without requiring wage premiums. The PSF is also falling by 3.5% year-over-year, making the city even more affordable.
+The city has a cost of living score of 74th percentile, with a PSF of $224/sqft and average hourly earnings of $33.47/hr, resulting in a ratio of 6.69. The PSF is falling by 3.5% year-over-year, making the city more affordable relative to peers. This means that the city has a talent attraction advantage, as workers can afford to live and work in the area without requiring significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in Orlando-Kissimmee-Sanford is growing at a rate of 1.14% year-over-year, which is in the top tier at the 80th percentile. This indicates that the workforce supply is expanding, making it easier for businesses to hire and find talent. The growing labor force also suggests that the city has a strong pipeline of potential workers.
+The civilian labor force is growing at a rate of 1.07% year-over-year, indicating an expanding workforce supply. This means that the city has a growing pool of available workers, making it easier for businesses to hire and expand their operations. The labor force growth rate is in the top tier, at the 88th percentile.
 
 **Building Permits**
-The number of building permits in Orlando-Kissimmee-Sanford has declined by 54.27% year-over-year, ranking it in the bottom tier at the 0th percentile. This sharp decline suggests that the housing supply is tightening, which may lead to future affordability issues and challenges in accommodating a growing workforce. The lack of new housing construction may also limit the city's ability to attract new residents and businesses.
+The year-over-year change in building permits is -40.79%, indicating a sharp decline in housing supply. This suggests that the city may be experiencing a supply squeeze, which could lead to decreased affordability and make it more difficult for workers to relocate to the area. The low ranking of 2nd percentile indicates a significant constraint on future housing supply.
 
 **Days on Market**
-The median days on market for homes in Orlando-Kissimmee-Sanford is 68 days, with a year-over-year increase of 9.7%. This suggests that the housing market is slowing down, making it more accessible for workers relocating to the city. However, the relatively low days on market percentile rank of 16th percentile indicates that the market is still relatively competitive.
+The median days on market is 70 days, with a year-over-year increase of 7.7%, indicating a slowing market. This means that homes are taking longer to sell, making it more accessible for workers to relocate to the area. However, the below-average ranking of 22nd percentile suggests that the market is still relatively competitive.
 
 **Office Economy**
-Orlando-Kissimmee-Sanford has an office economy score in the above-average tier at the 64th percentile, with a share of professional and office workers at 2.98 out of 5. This indicates that the city has a relatively deep talent pool in professional and office sectors, making it well-suited for businesses in tech, finance, consulting, and HQ decisions. However, it may not be as suitable for industrial or logistics-dominant businesses.
+The city has an office economy score of 64th percentile, indicating a deep talent pool in professional and office sectors. This makes the city well-suited for businesses in the tech, finance, and consulting industries, but less suitable for those in industrial or logistics-dominant sectors.
 
-The Orlando-Kissimmee-Sanford metro area offers businesses a strong labor demand and a relatively affordable cost of living, making it an attractive location for talent and investment. However, the single biggest risk or constraint for businesses is the tightening housing market, which may lead to future affordability issues and challenges in accommodating a growing workforce, making it essential for decision-makers to factor in the potential impact of housing supply constraints on their operations.
+The Orlando-Kissimmee-Sanford metro area offers businesses a strong labor market with genuine demand expansion and a growing workforce supply. However, the single biggest risk or constraint is the sharp decline in building permits, which could lead to decreased affordability and make it more difficult for workers to relocate to the area. This constraint should be carefully considered by decision-makers when evaluating the city as a potential business location.

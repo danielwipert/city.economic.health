@@ -1,17 +1,19 @@
-[14:54:03] ================================================================================
-[14:54:03] UNIFIED ECONOMIC DATA COLLECTION (FIXED)
-[14:54:03] ================================================================================
-[14:54:03] Start Time: 2026-06-01 14:54:03
-[14:54:03] FRED API Rate Limit: 120 requests/minute
-[14:54:03] Script Delay: 1.5 seconds between calls
-[14:54:03] Expected Runtime: ~14-16 minutes
-[14:54:03] Total API Calls: 452 (2 national + 450 metros)
-[14:54:03] Observations per metric: 15 (for historical analysis)
-[14:54:03] 
-[15:06:19] 
-[15:06:19] ================================================================================
-[15:06:19] COLLECTION COMPLETE
-[15:06:19] ================================================================================
-[15:06:19] End Time: 2026-06-01 15:06:19
-[15:06:19] National Metrics Collected: 2
-[15:06:19] Metro Data Points Collected: 450
+[12:59:55] ================================================================================
+[12:59:55] UNIFIED ECONOMIC DATA COLLECTION (FIXED)
+[12:59:55] ================================================================================
+[12:59:55] Start Time: 2026-06-08 12:59:55
+[12:59:55] FRED API Rate Limit: 120 requests/minute
+[12:59:55] Script Delay: 1.5 seconds between calls
+[12:59:55] Expected Runtime: ~14-16 minutes
+[12:59:55] Total API Calls: 452 (2 national + 450 metros)
+[12:59:55] Observations per metric: 15 (for historical analysis)
+[12:59:55] 
+[13:00:03] FAILED [Civilian Labor Force] NEWY636LFN: HTTP 500 for series 'NEWY636LFN'
+[13:01:02] FAILED [Unemployment Rate] LOSA106URN: HTTP 500 for series 'LOSA106URN'
+[13:12:32] 
+[13:12:32] ================================================================================
+[13:12:32] COLLECTION COMPLETE
+[13:12:32] ================================================================================
+[13:12:32] End Time: 2026-06-08 13:12:32
+[13:12:32] National Metrics Collected: 2
+[13:12:32] Metro Data Points Collected: 448
