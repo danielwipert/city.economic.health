@@ -1,19 +1,19 @@
 {
-  "processing_timestamp": "2026-06-08T13:12:32.917464",
-  "processing_date": "2026-06-08 13:12:32",
+  "processing_timestamp": "2026-06-15T15:11:13.877421",
+  "processing_date": "2026-06-15 15:11:13",
   "version": 2,
   "metrics_count": 9,
   "metrics_scored": 9,
   "metrics_collected_only": 0,
-  "source_data": "2026-06-08 13:12:32",
+  "source_data": "2026-06-15 15:11:13",
   "msa_averages": {
     "unemployment_rate": {
-      "msa_average": 3.9082,
-      "metros_with_data": 49
+      "msa_average": 3.926,
+      "metros_with_data": 50
     },
     "civilian_labor_force": {
-      "msa_average": 63.9663,
-      "metros_with_data": 49
+      "msa_average": 63.9572,
+      "metros_with_data": 50
     },
     "hourly_earnings": {
       "msa_average": 37.5792,
@@ -46,7 +46,7 @@
       "metro_name": "New York Newark-Jersey City",
       "primary_city": "New York",
       "civilian_population": 16296781,
-      "metrics_processed": 10,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 4.2,
@@ -65,6 +65,20 @@
             "change": 0.2,
             "pct_change": 4.48
           }
+        },
+        "civilian_labor_force": {
+          "latest_value": 63.5086,
+          "latest_date": "2026-04-01",
+          "series_id": "NEWY636LFN",
+          "metric_name": "Labor Force Participation Rate",
+          "3month_average": 63.71286666666667,
+          "yoy_change": {
+            "current": 63.5086,
+            "change": -0.0881,
+            "pct_change": -0.14
+          },
+          "3month_avg_yoy": null,
+          "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
         },
         "all_employees": {
           "latest_value": 10017.6,
@@ -225,8 +239,26 @@
       "metro_name": "Los Angeles-Long Beach-Anaheim",
       "primary_city": "Los Angeles",
       "civilian_population": 10677061,
-      "metrics_processed": 10,
+      "metrics_processed": 11,
       "data": {
+        "unemployment_rate": {
+          "latest_value": 4.8,
+          "latest_date": "2026-04-01",
+          "series_id": "LOSA106URN",
+          "metric_name": "Unemployment Rate",
+          "3month_average": 4.933333333333334,
+          "12month_average": 5.209090909090909,
+          "yoy_change": {
+            "current": 4.8,
+            "change": -0.1,
+            "pct_change": -2.04
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 4.9333,
+            "change": -0.1667,
+            "pct_change": -3.27
+          }
+        },
         "civilian_labor_force": {
           "latest_value": 62.0722,
           "latest_date": "2026-04-01",

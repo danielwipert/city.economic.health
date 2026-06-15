@@ -1,33 +1,33 @@
 # San Antonio-New Braunfels
 
-**Grade: C+ (Poor) | 39.4th percentile | June 2026**
+**Grade: C+ (Poor) | 39.7th percentile | June 2026**
 
 ---
 
-The San Antonio-New Braunfels metro area has an overall grade of C+ with a composite score ranking it 39.4th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score in the bottom tier, and its high affordability, with a cost of living percentile rank of 88th. The labor demand is characterized by a weak employment growth rate of +0.04% and a negative deviation in weekly hours of -1.862%.
+The San Antonio-New Braunfels metro area has an overall grade of C+ with a composite score ranking it 39.7th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score in the bottom tier, and its high affordability, with a cost of living score in the top tier. Specifically, the labor demand composite score of 2.86 and the cost of living ratio of $173/sqft to $31.85/hr, which is a 5.43 ratio, set the tone for the local economy.
 
 **Labor Demand**
-The employment growth rate of +0.04% and weekly hours deviation of -1.862% signal a contraction in labor demand, indicating that the city is not experiencing genuine demand expansion. This combination suggests that the labor market is not strong, with fewer jobs being added and hours worked below trend. The low labor demand composite score of 2.86 further reinforces this assessment, ranking in the bottom tier at 18th percentile.
+The employment growth rate is +0.04% year-over-year, and weekly hours are -1.862% below the city's own trend, indicating a contraction in labor demand. This combination signals a lack of genuine demand expansion, as hours are below trend despite minimal job growth. The labor market is not experiencing significant expansion or absorption of new workers.
 
 **Unemployment**
-The unemployment rate of 3.80% indicates a near-median labor market with some slack, ranking at the 45th percentile. This means that while it is not extremely difficult to hire, there is still some competition for talent. For a business trying to hire in this city, the moderate unemployment rate suggests that there may be a decent pool of candidates available, but wages may not be under significant pressure.
+The unemployment rate is 3.80%, which places it near the median in terms of tightness, ranking 46th percentile. This rate suggests that the market has some slack, making it somewhat easier for businesses to hire compared to extremely tight markets. However, it's not so high as to indicate a severely weak local consumer demand.
 
 **Wage Growth**
-The year-over-year wage growth rate of +1.63% is below average, ranking at the 22nd percentile. This slow wage growth suggests that labor costs for employers are not rising rapidly, but worker purchasing power may also be limited. The moderate wage growth rate implies that businesses may not face significant pressure to increase wages, but may also not see a substantial boost in consumer demand.
+The year-over-year wage growth rate is +1.63%, which is below average, ranking 22nd percentile. This moderate wage growth suggests that labor costs for employers are rising but not at an alarming rate. Worker purchasing power is increasing, but not as quickly as in other metros with faster wage growth.
 
 **Cost of Living**
-With a cost of living percentile rank of 88th, San Antonio-New Braunfels is relatively affordable, particularly given the PSF of $173/sqft and average hourly earnings of $31.85/hr, resulting in a ratio of 5.43. The fact that PSF is falling by -5.0% YoY further enhances affordability. This makes the city attractive for talent attraction without requiring significant wage premiums, as the low cost of living can help offset moderate wages.
+San Antonio-New Braunfels is relatively affordable, with a cost of living score in the 88th percentile, indicating it is more affordable than most of its peers. The PSF of $173/sqft is decreasing by -5.0% year-over-year relative to wages of $31.85/hr, making it an attractive location for talent without needing significant wage premiums. This affordability is a talent attraction advantage.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of +0.11% year-over-year, indicating a slowly expanding workforce supply. This positive growth rate suggests that the hiring capacity in the city is not severely constrained, with a growing pool of potential workers. However, the growth rate is relatively slow, ranking at the 67th percentile, which may not be sufficient to meet rapid business expansion.
+The civilian labor force is growing at a rate of +0.11% year-over-year, which is above average, ranking 68th percentile. This positive growth indicates that the workforce supply is expanding, which is a favorable condition for hiring capacity. Businesses looking to expand or relocate can expect a slightly growing pool of potential workers.
 
 **Building Permits**
-The year-over-year change in building permits is -19.15%, indicating a tightening of housing supply. This decline in permits suggests that future affordability and workforce accommodation may be at risk, as the supply of new housing is not keeping pace with demand. The low ranking of 20th percentile further reinforces this concern, implying that the city may face challenges in accommodating a growing workforce.
+The year-over-year change in residential building permits is -19.15%, indicating a tightening in housing supply. This sharp decline signals that future affordability and workforce accommodation might be at risk, as the supply of new housing is not keeping pace with potential demand. This could lead to increased competition for housing and potentially higher costs.
 
 **Days on Market**
-The current median days on market is 57 days, with a year-over-year decline of -1.7%. This relatively fast market suggests that homes are selling quickly, which can make it challenging for relocating workers to find housing. The below-average ranking of 34th percentile indicates that the market is competitive, with homes selling faster than in many other cities.
+Homes are currently sitting on the market for a median of 57 days, with a year-over-year decrease of -1.7%. This relatively fast market, ranking 34th percentile, means that homes are selling quickly, which could make it challenging for relocating workers to find and secure housing. The market is somewhat competitive, but not extremely so.
 
 **Office Economy**
-With an office economy percentile rank of 54th, San Antonio-New Braunfels has a moderately deep professional talent pool. This makes the city suited for businesses that require a mix of office and non-office workers, but may not be ideal for those requiring a highly specialized or deep knowledge-economy talent pool. The city's economy is likely to support a range of industries, but may not be the best fit for tech, finance, or consulting businesses that require a highly concentrated professional workforce.
+The share of professional and office workers is 2.74, ranking near the median at 54th percentile, indicating a moderately deep talent pool. This city is suited for businesses that can thrive in a mixed economy, but it may not offer the same level of specialized talent as metros with a higher concentration of professional and office roles. It's less ideal for tech, finance, or consulting businesses that require a very deep knowledge-economy talent pool.
 
-The San Antonio-New Braunfels metro area offers businesses a relatively affordable cost of living and a slowly expanding workforce supply, but the low labor demand and tightening housing supply are significant concerns. The single biggest risk or constraint for a decision-maker is the potential for labor market constraints and affordability challenges in the future, which could limit the city's attractiveness for businesses requiring rapid expansion or highly specialized talent.
+The San Antonio-New Braunfels metro offers businesses an affordable location with a growing labor force, but the biggest risk or constraint is the tightening housing supply, which could lead to future affordability issues and challenges in attracting and accommodating a growing workforce. Decision-makers should factor in the potential for increased housing costs and competition when considering this location. Overall, the city's economic character is defined by its unique blend of affordability and labor market challenges.

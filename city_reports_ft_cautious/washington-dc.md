@@ -1,33 +1,33 @@
 # Washington-Arlington-Alexandria
 
-**Grade: C (Very Poor) | 35.7th percentile | June 2026**
+**Grade: C (Very Poor) | 35.9th percentile | June 2026**
 
 ---
 
-The Washington-Arlington-Alexandria metro area has an overall grade of C, ranking 35.7th percentile out of 50 US metros, with a composite score defined largely by its struggling labor demand and high cost of living. The labor demand composite score of 1.50, combining a -2.86% employment growth rate and a -0.505% weekly hours deviation, signals a contraction in labor demand. This is further exacerbated by a labor force growth rate of -2.52%, indicating a shrinking workforce.
+The Washington-Arlington-Alexandria metro area has an overall grade of C, ranking 35.9th percentile out of 50 US metros, with a composite score heavily influenced by its poor labor demand and labor force growth metrics, which are both in the bottom tier. The labor demand composite score of 1.50, resulting from -2.86% employment growth YoY and -0.505% weekly hours deviation from trend, signals a contraction in labor demand. This combination of negative employment growth and below-trend hours worked indicates a lack of genuine demand expansion.
 
 **Labor Demand**
-The employment growth rate of -2.86% and weekly hours deviation of -0.505% indicate a contraction in labor demand, signaling that the city is experiencing a decline in job creation and hours worked. This combination suggests that the city is not experiencing genuine demand expansion, but rather a survivor squeeze, where remaining workers are absorbing the load of eliminated roles. The labor demand composite score of 1.50 is in the bottom tier, ranking 0th percentile.
+The employment growth rate in Washington-Arlington-Alexandria is -2.86% YoY, and weekly hours are deviating -0.505% from the city's own 12-month baseline, signaling a contraction in labor demand rather than expansion. This combination indicates that the city is experiencing a reduction in job openings and hours worked, which is a challenging environment for businesses looking to expand or hire. The labor demand composite score of 1.50 is in the bottom tier, reflecting this weak labor market.
 
 **Unemployment**
-The unemployment rate of 3.90% is below average, ranking 33rd percentile, indicating a relatively tight labor market with some slack. This means that businesses trying to hire in this city may face moderate competition for talent, but still have a manageable pool of candidates to choose from. However, the relatively low unemployment rate may also lead to some wage pressure.
+The unemployment rate in Washington-Arlington-Alexandria is 3.90%, which is below average, ranking in the 34th percentile. This indicates a relatively tight labor market with some slack, making it moderately challenging for businesses to hire new employees. However, the unemployment rate is not low enough to suggest significant wage pressure or intense competition for workers.
 
 **Wage Growth**
-The year-over-year wage growth rate of +4.85% is above average, ranking 62nd percentile, indicating relatively fast wage growth. This signals rising labor costs for employers, but also increasing purchasing power for workers. As a result, businesses may need to budget for higher labor costs, but can also expect a more affluent local consumer base.
+The year-over-year wage growth in Washington-Arlington-Alexandria is +4.85%, which is above average, ranking in the 62nd percentile. This rate of wage growth suggests that labor costs for employers are rising, and worker purchasing power is increasing. As a result, businesses may need to adjust their compensation packages to remain competitive in this market.
 
 **Cost of Living**
-The city's cost of living, with a PSF of $310/sqft and an earnings ratio of 6.93, is relatively affordable, ranking 69th percentile. The fact that PSF is falling by -3.1% YoY relative to wages means that the city is becoming more affordable over time. This makes it an attractive location for talent, as workers can afford a higher quality of life without requiring wage premiums.
+Washington-Arlington-Alexandria has a cost of living score that ranks in the 69th percentile, with a PSF of $310/sqft and average hourly earnings of $44.71/hr, resulting in a ratio of 6.93. The fact that PSF is falling by -3.1% YoY relative to wages makes the city more affordable. This affordability advantage can be a talent attraction benefit for businesses, as they may not need to offer significant wage premiums to compensate for a high cost of living.
 
 **Labor Force Growth**
-The civilian labor force is shrinking at a rate of -2.52% year-over-year, indicating a contracting labor pool. This signals a structural headwind for hiring, as the supply of workers is decreasing. Businesses may need to adapt their recruitment strategies to attract talent from other areas or invest in training and development programs.
+The civilian labor force in Washington-Arlington-Alexandria is growing at a rate of -2.52% YoY, indicating a contraction in the labor force supply. This negative growth rate suggests that the pool of potential workers is shrinking, which could create structural headwinds for businesses looking to hire and expand in the area.
 
 **Building Permits**
-The year-over-year change in building permits is +58.73%, indicating a significant expansion in housing supply. This signals that developer confidence is high, and future housing supply is expected to increase, which should improve affordability and accommodate a growing workforce. As a result, the city is likely to become more attractive to workers and businesses alike.
+The number of residential building permits in Washington-Arlington-Alexandria has increased by +58.73% YoY, which is in the top tier, ranking in the 88th percentile. This significant increase in building permits signals that housing supply is expanding, which should improve affordability and accommodate workforce growth in the future.
 
 **Days on Market**
-The current median days on market is 30 days, with a year-over-year increase of +3.5%. This indicates a relatively slow market, ranking 18th percentile, making it more accessible for workers relocating to the city. However, the rising DOM may also signal a normalization of the market, rather than a demand erosion.
+The median days on market for homes in Washington-Arlington-Alexandria is 30 days, with a YoY increase of +3.5%. This indicates a relatively slow market, where homes are sitting longer before being sold. For workers relocating to this city, the slower market could make it easier to find and purchase a home, but it also suggests a less competitive and less dynamic housing market.
 
 **Office Economy**
-The city's professional and office worker share is 1.98, ranking 34th percentile, indicating a relatively shallow talent pool. This makes the city less suited for businesses that require a deep knowledge-economy talent pool, such as tech or finance companies. However, it may be more suitable for businesses with industrial or logistics-dominant economies.
+The share of jobs in professional and office sectors in Washington-Arlington-Alexandria ranks in the 34th percentile, indicating a below-average depth of professional talent pool. This city is less suited for businesses that require a deep knowledge-economy talent pool, such as tech, finance, or consulting firms, but may be more appropriate for industries with fewer specialized roles.
 
-The Washington-Arlington-Alexandria metro area offers a unique combination of relatively fast wage growth and an affordable cost of living, making it an attractive location for businesses that can adapt to a shrinking labor pool. However, the single biggest risk or constraint for decision-makers is the city's struggling labor demand, which may limit the availability of talent and require businesses to invest in recruitment and training programs.
+The Washington-Arlington-Alexandria metro area offers businesses a unique combination of above-average wage growth and an affordable cost of living, which can be beneficial for talent attraction. However, the single biggest risk or constraint for decision-makers is the city's poor labor demand and labor force growth, which could limit hiring capacity and business expansion.
