@@ -1,11 +1,11 @@
 {
-  "processing_timestamp": "2026-06-15T15:11:13.877421",
-  "processing_date": "2026-06-15 15:11:13",
+  "processing_timestamp": "2026-06-22T14:41:08.924781",
+  "processing_date": "2026-06-22 14:41:08",
   "version": 2,
   "metrics_count": 9,
   "metrics_scored": 9,
   "metrics_collected_only": 0,
-  "source_data": "2026-06-15 15:11:13",
+  "source_data": "2026-06-22 14:41:08",
   "msa_averages": {
     "unemployment_rate": {
       "msa_average": 3.926,

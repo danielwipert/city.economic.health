@@ -4,30 +4,30 @@
 
 ---
 
-The Minneapolis-St. Paul-Bloomington metro area has an overall grade of C- with a composite score ranking it 30.6th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score of 3.68, and stagnant wage growth of +0.51% year-over-year, ranking in the bottom tier at the 10th percentile. These metrics signal a challenging environment for businesses looking to expand or relocate.
+The Minneapolis-St. Paul-Bloomington metro area has an overall grade of C- with a composite score ranking it 30.6th percentile out of 50 US metros. This city's economic character is most defined by its labor demand composite score of 3.68, ranking it in the 32nd percentile, and its wage growth rate of +0.51% year-over-year, placing it in the bottom tier at the 10th percentile. These metrics suggest a challenging environment for businesses looking to expand or relocate.
 
 **Labor Demand**
-The employment growth rate in Minneapolis-St. Paul-Bloomington is -0.44% year-over-year, and weekly hours are deviating -0.099% from the city's own 12-month baseline, indicating a contraction in labor demand. This combination signals a lack of genuine demand expansion, with the labor market experiencing a slowdown. The labor demand composite score of 3.68 ranks below average at the 32nd percentile.
+The employment growth rate in Minneapolis-St. Paul-Bloomington is -0.44% year-over-year, and weekly hours are deviating -0.099% from the city's own 12-month baseline. This combination signals a contraction in labor demand, indicating that the city is not experiencing genuine demand expansion. Instead, it may be facing a period of payrolls contracting or hours below trend.
 
 **Unemployment**
-The unemployment rate in Minneapolis-St. Paul-Bloomington is 3.80%, ranking near the median at the 40th percentile. This suggests that the labor market has some slack, making it slightly easier for businesses to hire, but still with some wage pressure. However, the relatively low unemployment rate may still pose challenges for businesses looking to attract top talent.
+The unemployment rate in Minneapolis-St. Paul-Bloomington is 3.80%, ranking it near the median at the 40th percentile. This suggests that the labor market has some slack, making it slightly easier for businesses to hire compared to tighter markets. However, the relatively low unemployment rate still implies some level of competition for talent, which could lead to moderate wage pressure.
 
 **Wage Growth**
-The year-over-year wage growth in Minneapolis-St. Paul-Bloomington is +0.51%, ranking in the bottom tier at the 10th percentile. This stagnant wage growth signals a flat cost environment for employers, but weak bargaining power for workers. As a result, businesses may not face significant labor cost pressures, but workers may not have strong purchasing power.
+The year-over-year wage growth rate in Minneapolis-St. Paul-Bloomington is +0.51%, placing it in the bottom tier at the 10th percentile. This stagnant wage growth environment means that labor costs for employers are not rising rapidly, but it also indicates weak bargaining power for workers. As a result, worker purchasing power is not increasing significantly.
 
 **Cost of Living**
-Minneapolis-St. Paul-Bloomington has a cost of living score ranking below average at the 22nd percentile, with a PSF of $214/sqft and average hourly earnings of $39.19/hr, resulting in a ratio of 5.46. The PSF is falling -0.5% year-over-year, making the city relatively less affordable compared to peers. This may require businesses to offer wage premiums to attract talent, as the city's affordability is not a significant advantage.
+Minneapolis-St. Paul-Bloomington has a cost of living score ranking it in the 22nd percentile, with a price per square foot of $214 and average hourly earnings of $39.19, resulting in a ratio of 5.46. This suggests that the city is relatively expensive compared to its peers. The fact that PSF is falling -0.5% year-over-year is a positive sign, but overall, the city's affordability is a challenge, making it harder to attract talent without offering wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in Minneapolis-St. Paul-Bloomington is contracting at a rate of -0.90% year-over-year, ranking near the median at the 42nd percentile. This signals a shrinking labor pool, posing a structural headwind for hiring and business expansion. Businesses may face challenges in finding qualified workers to fill open positions.
+The civilian labor force in Minneapolis-St. Paul-Bloomington is growing at a rate of -0.90% year-over-year, indicating that the labor force supply is contracting. This contraction poses a structural headwind for hiring, as businesses may face challenges in finding the talent they need to expand or maintain operations.
 
 **Building Permits**
-The number of residential building permits in Minneapolis-St. Paul-Bloomington is falling -11.97% year-over-year, ranking below average at the 36th percentile. This decline in building permits signals a tightening housing supply, which may lead to decreased affordability and increased competition for workforce accommodation. This could pose a risk to businesses looking to attract and retain talent.
+The year-over-year change in residential building permits in Minneapolis-St. Paul-Bloomington is -11.97%, signaling a tightening of the housing supply. This decline in building permits suggests that future affordability and workforce accommodation may be at risk, as the supply of new housing units is not keeping pace with demand.
 
 **Days on Market**
-The median days on market for homes in Minneapolis-St. Paul-Bloomington is 34 days, with a year-over-year increase of +3.0%. This suggests a relatively slow market, ranking near the median at the 44th percentile. For workers relocating to this city, the housing market may be more accessible, but still competitive, with homes taking around a month to sell.
+The median days on market for homes in Minneapolis-St. Paul-Bloomington is 34 days, with a year-over-year increase of 3.0%. This indicates a slightly slower market, which could be beneficial for relocating workers as it provides them with more time to find a home. However, the market is still relatively competitive, and workers may face some challenges in finding suitable housing.
 
 **Office Economy**
-The share of professional and office workers in Minneapolis-St. Paul-Bloomington is 0.90, ranking in the bottom tier at the 12th percentile. This indicates a relatively shallow talent pool, making the city less suited for businesses in the tech, finance, or consulting sectors. However, the city may be more suitable for industries with fewer specialized roles, such as logistics or manufacturing.
+Minneapolis-St. Paul-Bloomington has an office economy score ranking it in the 12th percentile, indicating a relatively shallow professional talent pool. This city is best suited for businesses that do not require a deep knowledge-economy talent pool, such as industrial or logistics-dominant companies. On the other hand, it may not be the ideal location for tech, finance, or consulting firms that rely heavily on specialized office workers.
 
-The Minneapolis-St. Paul-Bloomington metro area offers businesses a relatively slow labor market with stagnant wage growth, which may help keep labor costs in check. However, the single biggest risk or constraint for decision-makers is the shrinking labor pool and tightening housing supply, which may pose significant challenges for attracting and retaining talent.
+The Minneapolis-St. Paul-Bloomington metro area offers businesses a relatively stable environment with some slack in the labor market, but it also poses significant challenges, including a contracting labor force and stagnant wage growth. The single biggest risk or constraint for decision-makers is the city's relatively expensive cost of living, which may require businesses to offer wage premiums to attract and retain talent, potentially increasing labor costs and affecting profitability.
