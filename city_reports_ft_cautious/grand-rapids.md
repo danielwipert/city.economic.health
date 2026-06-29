@@ -1,33 +1,33 @@
 # Grand Rapids-Wyoming-Kentwood
 
-**Grade: C (Very Poor) | 34.5th percentile | June 2026**
+**Grade: C- (Critical) | 30.4th percentile | June 2026**
 
 ---
 
-The Grand Rapids-Wyoming-Kentwood metro area has an overall grade of C, ranking 34.5th percentile out of 50 US metros, with a labor demand composite score of 4.16. This city's economic character is most defined by its low unemployment rate of 3.60% and its bottom-tier labor force growth rate of -6.97% YoY. The combination of these metrics suggests a tight labor market with limited workforce expansion.
+The Grand Rapids-Wyoming-Kentwood metro area has an overall grade of C- with a composite score ranking it 30.4th percentile out of 50 US metros. The city's economic character is most defined by its low labor demand, with a composite score of 3.43, and its extremely low affordability, with a cost of living percentile rank of 2. The labor demand is further exacerbated by a -0.62% employment growth rate and a -0.775% weekly hours deviation from its own trend.
 
 **Labor Demand**
-The employment growth rate is -0.10% YoY, and weekly hours are deviating -0.605% from the city's own 12-month baseline, indicating a contraction in labor demand. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles. The labor demand composite score of 4.16 is near the median, ranking 42nd percentile.
+The Grand Rapids-Wyoming-Kentwood metro area has an employment growth rate of -0.62% and a weekly hours deviation of -0.775% from its own trend, signaling a contraction in labor demand. This combination indicates a lack of genuine demand expansion, with hours below trend during a period of job losses, suggesting a survivor squeeze where remaining workers are absorbing the load of eliminated roles. This metric ranks below average at the 26th percentile.
 
 **Unemployment**
-The unemployment rate is 3.60%, ranking in the top tier at the 84th percentile, indicating a tight labor market with limited slack. This means that businesses trying to hire in this city will face significant competition for talent, leading to potential wage pressure. The low unemployment rate suggests that workers have strong bargaining power.
+The unemployment rate in Grand Rapids-Wyoming-Kentwood is 3.60%, which is relatively low, ranking at the 84th percentile. This indicates a tight labor market with little slack, making it harder for businesses to hire and potentially leading to wage pressure. As a result, businesses may need to offer competitive wages to attract talent in this market.
 
 **Wage Growth**
-The year-over-year wage growth rate is +2.97%, which is below average, ranking 38th percentile. This moderate wage growth rate implies that labor costs for employers are rising, but at a slower pace than in many other cities. Workers in this city will see some increase in purchasing power, but it may not be as strong as in other areas.
+The year-over-year wage growth in Grand Rapids-Wyoming-Kentwood is +2.67%, which is below average, ranking at the 34th percentile. This moderate wage growth rate suggests that labor costs for employers are rising, but not excessively, while worker purchasing power is increasing, albeit slowly. This could be a relatively stable environment for businesses, but may not be attractive for workers seeking rapid wage growth.
 
 **Cost of Living**
-The city has a cost of living ratio of 6.88, with a PSF of $224/sqft and average hourly earnings of $32.55/hr, ranking in the bottom tier at the 4th percentile. This means that the city is relatively expensive compared to peers, making it challenging to attract talent without offering wage premiums. The 8.7% YoY increase in PSF further exacerbates the affordability issue.
+Grand Rapids-Wyoming-Kentwood has a cost of living percentile rank of 2, indicating that it is extremely expensive relative to its peers, with a PSF of $224/sqft and an earnings ratio of $32.68/hr, resulting in a ratio of 6.85. This low affordability score means that the city is at a disadvantage for talent attraction, as businesses may need to offer wage premiums to compensate for the high cost of living.
 
 **Labor Force Growth**
-The civilian labor force is contracting at a rate of -6.97% YoY, indicating a shrinking labor pool. This significant decline in labor force growth implies a structural headwind for hiring, making it challenging for businesses to find and retain talent. The limited workforce expansion will constrain business growth in this city.
+The civilian labor force in Grand Rapids-Wyoming-Kentwood is contracting at a rate of -6.97% year-over-year, ranking at the 0th percentile. This significant decline in labor force supply indicates a structural headwind for hiring, making it challenging for businesses to find and retain talent. As a result, businesses may need to invest in training and development programs to upskill existing workers.
 
 **Building Permits**
-The year-over-year change in residential building permits is -30.86%, indicating a sharp decline in housing supply. This tightening of housing supply signals potential future affordability issues and workforce accommodation challenges, making it harder for workers to relocate to this city.
+The number of residential building permits in Grand Rapids-Wyoming-Kentwood has decreased by -21.72% year-over-year, ranking at the 12th percentile. This sharp decline in building permits suggests that housing supply is tightening, which may lead to future affordability issues and challenges in accommodating a growing workforce. This could exacerbate the existing labor force contraction and high cost of living.
 
 **Days on Market**
-The current median days on market is 30 days, with a -3.2% YoY change, ranking in the bottom tier at the 6th percentile. This relatively fast market means that homes are selling quickly, making it competitive for relocating workers to find housing. However, the slight decrease in days on market may indicate a minor normalization in the housing market.
+The median days on market for homes in Grand Rapids-Wyoming-Kentwood is 30 days, with a year-over-year decrease of -3.2%. This relatively fast market, ranking at the 6th percentile, indicates that homes are selling quickly, making it competitive for relocating workers to find housing. However, this may also contribute to the city's affordability issues and tightening housing supply.
 
 **Office Economy**
-The city has a professional and office worker share of 0.84, ranking in the bottom tier at the 10th percentile, indicating a relatively shallow talent pool. This city is best suited for businesses that do not require a deep knowledge-economy talent pool, such as industrial or logistics companies, and is less suited for tech, finance, or consulting firms.
+Grand Rapids-Wyoming-Kentwood has a professional and office worker share of 0.80, ranking at the 10th percentile. This indicates a relatively shallow talent pool, making the city less suited for businesses that require a deep knowledge-economy talent pool, such as tech, finance, or consulting. However, the city may be more suitable for industries with fewer specialized roles, such as logistics or manufacturing.
 
-The Grand Rapids-Wyoming-Kentwood metro area offers businesses a tight labor market with low unemployment, but this comes with significant challenges, including a shrinking labor force and limited workforce expansion. The single biggest risk or constraint for decision-makers is the city's low labor force growth rate, which will require businesses to be highly competitive in attracting and retaining talent.
+The Grand Rapids-Wyoming-Kentwood metro area offers businesses a relatively tight labor market with low unemployment, but this is offset by significant challenges, including low labor demand, high cost of living, and a contracting labor force. The single biggest risk or constraint for businesses considering this location is the potential difficulty in attracting and retaining talent due to the high cost of living and limited labor force growth, which may require significant investments in wage premiums and training programs.

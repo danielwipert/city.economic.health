@@ -1,33 +1,33 @@
 # Sacramento-Roseville-Folsom
 
-**Grade: C (Very Poor) | 34.3th percentile | June 2026**
+**Grade: C (Very Poor) | 34.5th percentile | June 2026**
 
 ---
 
-The Sacramento-Roseville-Folsom metro area has an overall grade of C, ranking 34.3th percentile out of 50 US metros, with a composite score reflecting a mix of mediocre labor demand and high cost of living. The city's economic character is most defined by its low wage growth, at +1.14% year-over-year, and its high cost of living, with a PSF to wages ratio of 9.01. These metrics signal a challenging environment for businesses looking to attract and retain talent.
+The Sacramento-Roseville-Folsom metro area has an overall grade of C, ranking 34.5th percentile out of 50 US metros, with a composite score driven largely by its low unemployment rate of 4.50% and stagnant wage growth of +1.25% year-over-year. The city's economic character is defined by its near-median labor demand, with employment growth of +0.57% and weekly hours deviation of -0.456%, indicating a moderate expansion. The combination of these metrics suggests a lack of genuine demand expansion.
 
 **Labor Demand**
-The employment growth rate in Sacramento-Roseville-Folsom is +0.44% year-over-year, while weekly hours are -0.101% below trend, indicating a moderate labor demand expansion. This combination signals genuine demand expansion, albeit at a slow pace. The labor demand composite score of 4.81 is near the median, suggesting a balanced but unremarkable job market.
+The employment growth rate of +0.57% and weekly hours deviation of -0.456% indicate a moderate expansion, but the combination of these metrics suggests that the labor market is not experiencing genuine demand expansion. This signals that while jobs are being added, hours are not running above trend, which may indicate some level of inefficiency in the labor market. The labor demand composite score of 4.64 ranks near the median at 52nd percentile.
 
 **Unemployment**
-The unemployment rate in Sacramento-Roseville-Folsom is 4.50%, ranking below average at the 36th percentile. This indicates a moderate level of slack in the labor market, making it relatively easier for businesses to hire compared to tighter markets. However, the unemployment rate is not low enough to suggest a highly competitive market for workers.
+The unemployment rate of 4.50% is below average, ranking at the 35th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer higher wages to attract talent. The tight market also implies that workers may have more bargaining power.
 
 **Wage Growth**
-The year-over-year wage growth in Sacramento-Roseville-Folsom is +1.14%, ranking in the bottom tier at the 14th percentile. This slow wage growth suggests a flat cost environment for employers, but also implies weak bargaining power for workers. As a result, businesses may not face significant pressure to increase wages, but workers may not have strong purchasing power.
+The year-over-year wage growth rate of +1.25% is stagnant, ranking at the 14th percentile, indicating that labor costs are not rising rapidly. This slow wage growth means that employers may not face significant pressure to increase wages, but it also implies that workers may not have strong purchasing power. The stagnant wage growth may be a concern for businesses relying on consumer spending.
 
 **Cost of Living**
-Sacramento-Roseville-Folsom has a cost of living percentile rank of 14, indicating a relatively expensive city. The PSF to wages ratio is 9.01, with PSF at $344/sqft and wages at $38.20/hr. This high cost of living may make it challenging for businesses to attract talent without offering wage premiums, as the city's affordability is below average compared to peers.
+The city's cost of living, with a PSF of $344/sqft and hourly earnings of $38.27, resulting in a ratio of 8.99, ranks at the 15th percentile, indicating that it is relatively expensive. This means that the city may not have a talent attraction advantage, as workers may require wage premiums to afford the cost of living. The lack of affordability may be a challenge for businesses trying to attract and retain talent.
 
 **Labor Force Growth**
-The civilian labor force in Sacramento-Roseville-Folsom is contracting at a rate of -1.68% year-over-year, ranking in the bottom tier at the 16th percentile. This decline in labor force supply suggests a structural headwind for hiring, making it more challenging for businesses to find and retain workers.
+The year-over-year growth rate of the civilian labor force is -1.68%, ranking at the 14th percentile, indicating that the labor force is contracting. This means that the supply of workers is shrinking, which may create a structural headwind for hiring and business expansion. The contracting labor force may limit the city's ability to support growing businesses.
 
 **Building Permits**
-The number of building permits in Sacramento-Roseville-Folsom has decreased by -13.71% year-over-year, ranking below average at the 32nd percentile. This decline in building permits suggests a tightening housing supply, which may lead to decreased affordability and increased competition for workforce accommodation in the future.
+The year-over-year change in building permits is -1.37%, ranking at the 46th percentile, indicating that housing supply is not expanding rapidly. This signals that the city's housing market may be tightening, which could lead to affordability concerns and challenges for workers relocating to the area. The slow growth in building permits may limit the city's ability to accommodate a growing workforce.
 
 **Days on Market**
-The median days on market in Sacramento-Roseville-Folsom is 41 days, with a year-over-year increase of +7.9%, ranking in the top tier at the 86th percentile. This slower market suggests a more accessible and less competitive environment for workers relocating to the city, as homes are taking longer to sell.
+The current median days on market is 41 days, with a year-over-year increase of +7.9%, ranking at the 86th percentile, indicating a slower market. This means that homes are sitting on the market for longer, making it more accessible for workers relocating to the city. The slower market may be beneficial for workers, but it may also indicate a weakening demand for housing.
 
 **Office Economy**
-The share of professional and office workers in Sacramento-Roseville-Folsom is below average, ranking at the 24th percentile. This suggests a relatively shallow talent pool for businesses in the tech, finance, or consulting sectors, making the city less suited for these types of companies. However, the city may be more suitable for industrial or logistics-dominant businesses.
+The share of professional and office workers is 1.26, ranking at the 14th percentile, indicating a relatively shallow talent pool. This means that the city may not be well-suited for businesses that require a deep knowledge-economy talent pool, such as tech or finance companies. The city's economy may be more suited for industrial or logistics-dominant businesses.
 
-The Sacramento-Roseville-Folsom metro area offers businesses a relatively slow-paced labor market with moderate unemployment, but also presents challenges such as high cost of living and slow wage growth. The single biggest risk or constraint for decision-makers is the city's declining labor force supply, which may limit hiring capacity and require businesses to offer competitive wages to attract and retain talent.
+The Sacramento-Roseville-Folsom metro area offers a relatively tight labor market and a slow pace of life, but the single biggest risk or constraint for businesses is the lack of affordability and the contracting labor force, which may limit the city's ability to support growing businesses. The stagnant wage growth and relatively expensive cost of living may also create challenges for businesses trying to attract and retain talent. Overall, the city's economic character is defined by its moderate expansion and lack of genuine demand expansion, making it a challenging location for businesses that require a deep talent pool and rapid growth.

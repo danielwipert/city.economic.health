@@ -1,17 +1,20 @@
-[14:29:36] ================================================================================
-[14:29:36] UNIFIED ECONOMIC DATA COLLECTION (FIXED)
-[14:29:36] ================================================================================
-[14:29:36] Start Time: 2026-06-22 14:29:36
-[14:29:36] FRED API Rate Limit: 120 requests/minute
-[14:29:36] Script Delay: 1.5 seconds between calls
-[14:29:36] Expected Runtime: ~14-16 minutes
-[14:29:36] Total API Calls: 452 (2 national + 450 metros)
-[14:29:36] Observations per metric: 15 (for historical analysis)
-[14:29:36] 
-[14:41:08] 
-[14:41:08] ================================================================================
-[14:41:08] COLLECTION COMPLETE
-[14:41:08] ================================================================================
-[14:41:08] End Time: 2026-06-22 14:41:08
-[14:41:08] National Metrics Collected: 2
-[14:41:08] Metro Data Points Collected: 450
+[12:59:37] ================================================================================
+[12:59:37] UNIFIED ECONOMIC DATA COLLECTION (FIXED)
+[12:59:37] ================================================================================
+[12:59:37] Start Time: 2026-06-29 12:59:37
+[12:59:37] FRED API Rate Limit: 120 requests/minute
+[12:59:37] Script Delay: 1.5 seconds between calls
+[12:59:37] Expected Runtime: ~14-16 minutes
+[12:59:37] Total API Calls: 452 (2 national + 450 metros)
+[12:59:37] Observations per metric: 15 (for historical analysis)
+[12:59:37] 
+[13:00:11] FAILED [Price per Sqft] MEDLISPRIPERSQUFEE31080: HTTP 502 for series 'MEDLISPRIPERSQUFEE31080'
+[13:00:27] FAILED [Unemployment Rate] CHIC917URN: Timeout for series 'CHIC917URN'
+[13:00:37] FAILED [Civilian Labor Force] CHIC917LFN: Timeout for series 'CHIC917LFN'
+[13:11:35] 
+[13:11:35] ================================================================================
+[13:11:35] COLLECTION COMPLETE
+[13:11:35] ================================================================================
+[13:11:35] End Time: 2026-06-29 13:11:35
+[13:11:35] National Metrics Collected: 2
+[13:11:35] Metro Data Points Collected: 447

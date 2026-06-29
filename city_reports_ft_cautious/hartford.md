@@ -1,33 +1,33 @@
 # Hartford-West Hartford-East Hartford
 
-**Grade: A (Very Good) | 63.8th percentile | June 2026**
+**Grade: A (Very Good) | 67.8th percentile | June 2026**
 
 ---
 
-The Hartford-West Hartford-East Hartford metro area has earned an overall grade of A, ranking in the 63.8th percentile among 50 US metros, with a composite score driven largely by its strong labor demand and low unemployment rate, at 2.70%. The city's labor demand composite score of 6.66, combining a 1.88% employment growth rate and a -0.272% weekly hours deviation, signals genuine demand expansion. These metrics define the city's current economic character, with a tight labor market and growing workforce.
+The Hartford-West Hartford-East Hartford metro area has earned an overall grade of A, ranking in the 67.8th percentile among 50 US metros, with a strong labor demand and low unemployment rate being the two metrics that most define its current economic character, at 88th and 98th percentiles, respectively. The labor demand composite score of 6.56 and an unemployment rate of 2.70% signal a thriving job market. These numbers indicate a city with a high level of economic activity.
 
 **Labor Demand**
-The employment growth rate of 1.88% and weekly hours deviation of -0.272% indicate that the city is experiencing genuine demand expansion, with jobs being added and hours worked being slightly below trend. This combination suggests that the labor market is strong, with employers hiring more workers and maintaining a stable workload. The labor demand composite score of 6.66, ranking in the 90th percentile, further reinforces this assessment.
+The employment growth rate of +1.88% and weekly hours deviation of -0.371% from the city's own 12-month baseline combine to signal genuine demand expansion, as hours are slightly below trend during a period of job growth, indicating that the labor market is absorbing new workers without overburdening existing ones. This suggests a healthy and sustainable pace of job creation. The labor demand composite score of 6.56 further reinforces this interpretation.
 
 **Unemployment**
-The unemployment rate of 2.70% is extremely low, ranking in the 98th percentile, indicating a very tight labor market with little slack. This means that businesses may face challenges in hiring, as the pool of available workers is limited, and may need to offer competitive wages to attract talent. The low unemployment rate also suggests that workers have strong bargaining power.
+The unemployment rate of 2.70% is exceptionally low, ranking in the 98th percentile, which means the job market is very tight, with minimal slack. For a business trying to hire in this city, this implies significant competition for talent and potential upward pressure on wages to attract and retain employees.
 
 **Wage Growth**
-The year-over-year wage growth rate of 1.48% is relatively slow, ranking in the 18th percentile, indicating that labor costs are not rising rapidly. This may be beneficial for employers, as it keeps costs under control, but it also means that workers may not have strong purchasing power. The slow wage growth may be a concern for businesses that rely on consumer spending.
+The year-over-year wage growth rate of +3.35% is below average, ranking in the 38th percentile, indicating moderate wage growth. This suggests that labor costs for employers are rising, but not at an alarming rate, and worker purchasing power is increasing, albeit not dramatically.
 
 **Cost of Living**
-The city's cost of living, with a PSF of $254/sqft and average hourly earnings of $39.73/hr, resulting in a ratio of 6.39, is near the median, ranking in the 55th percentile. This means that the city is moderately affordable, which can be a talent attraction advantage, as workers may not require significant wage premiums to maintain their standard of living. The fact that PSF is falling by 1.6% YoY is a positive sign for affordability.
+With a cost of living percentile rank of 73rd, the city is more affordable than many of its peers, considering the PSF of $254/sqft is decreasing by 1.6% YoY relative to average hourly earnings of $40.12/hr, resulting in a ratio of 6.33. This affordability advantage can be a significant talent attraction factor without necessitating wage premiums.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of 2.77% year-over-year, ranking in the 96th percentile, indicating that the workforce supply is expanding rapidly. This is a positive sign for businesses, as it means that there will be a larger pool of potential workers to hire from, making it easier to find talent. The growing labor force also suggests that the city is attractive to workers.
+The civilian labor force is growing at a rate of +2.77% year-over-year, ranking in the 96th percentile, which means the workforce supply is expanding rapidly. This implies a favorable hiring environment, with a growing pool of potential employees.
 
 **Building Permits**
-The year-over-year change in building permits is -20.59%, ranking in the 16th percentile, indicating that housing supply is tightening. This may lead to future affordability concerns and make it more challenging for workers to find housing, potentially affecting workforce accommodation. The decline in building permits is a concern for businesses that rely on a growing and accessible workforce.
+The year-over-year change in residential building permits is -27.06%, indicating a sharp decline in housing supply expansion. This signals a potential future affordability issue and workforce accommodation challenge, as the demand for housing may outstrip supply.
 
 **Days on Market**
-The current median days on market is 25 days, with a year-over-year decline of 16.7%, ranking in the 0th percentile. This means that the housing market is highly competitive, with homes selling quickly, which can make it challenging for relocating workers to find housing. The fast-paced market may require businesses to offer relocation assistance or other incentives to attract talent.
+The current median days on market is 25 days, with a year-over-year decrease of -16.7%, ranking in the 0th percentile, which means homes are selling very quickly. For a worker relocating to this city, this indicates a competitive and potentially challenging housing market.
 
 **Office Economy**
-The city's professional and office worker share is 2.32, ranking in the 38th percentile, indicating that the talent pool is not particularly deep. This means that the city may be less suited for businesses that require a large number of specialized office workers, such as tech or finance companies. However, the city may be more attractive to businesses with industrial or logistics-oriented operations.
+The share of jobs in professional and office sectors, with a composite score of 2.14, ranks in the 38th percentile, suggesting a moderate depth of professional talent pool. This city is best suited for businesses that can thrive in a mixed economy but may not be ideal for those requiring a deeply specialized tech, finance, or consulting talent pool.
 
-The Hartford-West Hartford-East Hartford metro area offers businesses a strong labor market, low unemployment, and a moderately affordable cost of living, making it an attractive location for companies looking to hire and grow. However, the single biggest risk or constraint for decision-makers is the tightening housing supply, which may lead to future affordability concerns and affect workforce accommodation, potentially offsetting the city's other advantages.
+In conclusion, Hartford-West Hartford-East Hartford offers a business a strong labor market with low unemployment and expanding workforce supply, making it an attractive location for hiring and growth. However, the single biggest risk or constraint a decision-maker should factor in is the sharp decline in building permits, which may lead to future housing affordability issues and challenges in accommodating a growing workforce.
