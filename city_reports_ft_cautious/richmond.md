@@ -1,33 +1,33 @@
 # Richmond
 
-**Grade: C (Very Poor) | 32.4th percentile | June 2026**
+**Grade: C- (Critical) | 31.7th percentile | July 2026**
 
 ---
 
-The Richmond metro area has an overall grade of C, ranking 32.4th percentile out of 50 US metros, with a composite score defined largely by its weak labor demand and expensive cost of living. The labor demand composite score of 2.27, combining a -0.87% employment growth rate and a +0.807% weekly hours deviation, suggests a contraction in job market activity. This is further exacerbated by a cost of living ratio of 6.44, with PSF at $232/sqft and hourly earnings at $36.00/hr, ranking in the 23rd percentile for affordability.
+The Richmond metro area has an overall grade of C- with a composite score ranking it 31.7th percentile out of 50 US metros. The city's economic character is most defined by its low labor demand, with a composite score of 2.27 ranking in the bottom tier, and its tight unemployment market, with a rate of 3.50% ranking in the 60th percentile. These metrics signal a challenging environment for businesses looking to hire and expand.
 
 **Labor Demand**
-The employment growth rate in Richmond is -0.87% year-over-year, while weekly hours are deviating +0.807% from the city's own 12-month baseline. This combination signals a contraction in labor demand, rather than genuine demand expansion or survivor squeeze, indicating a challenging job market. The labor demand composite score of 2.27 falls in the bottom tier, at the 8th percentile.
+The employment growth rate in Richmond is -0.87% year-over-year, and weekly hours are deviating from the trend by +0.807%. However, the combination of these metrics signals a contraction in labor demand, rather than genuine demand expansion, as hours are being worked above trend during a period of job losses, indicating a survivor squeeze. This suggests that remaining workers are absorbing the load of eliminated roles.
 
 **Unemployment**
-The unemployment rate in Richmond is 3.40%, ranking in the 57th percentile, indicating a near-median level of slack in the labor market. This suggests that while the market is not overly tight, it is also not excessively loose, with some room for hiring but without significant wage pressure. For a business trying to hire in Richmond, this means a moderate level of difficulty in finding talent.
+The unemployment rate in Richmond is 3.50%, which is relatively low and ranks in the 60th percentile. This indicates a tight labor market with little slack, making it harder for businesses to hire and potentially leading to upward pressure on wages. For a business trying to hire in this market, it may be necessary to offer competitive salaries and benefits to attract top talent.
 
 **Wage Growth**
-Wage growth in Richmond is +3.00% year-over-year, ranking below average in the 36th percentile. This moderate wage growth rate suggests that labor costs for employers are rising, but not excessively so, while worker purchasing power is increasing at a steady pace. However, this growth rate may not be sufficient to drive significant economic expansion.
+The year-over-year wage growth rate in Richmond is +3.00%, which is below average and ranks in the 36th percentile. This moderate wage growth rate suggests that labor costs for employers are rising, but not excessively so, and worker purchasing power is increasing, but not dramatically. This could be a positive sign for businesses looking to balance labor costs with worker satisfaction.
 
 **Cost of Living**
-Richmond's cost of living, with a PSF of $232/sqft and hourly earnings of $36.00/hr, results in a ratio of 6.44, ranking in the 23rd percentile for affordability. This indicates that the city is relatively expensive compared to its peers, making it challenging to attract talent without offering wage premiums. The 2.2% year-over-year increase in PSF further exacerbates this issue.
+Richmond has a cost of living score that ranks in the 29th percentile, with a PSF of $229/sqft and average hourly earnings of $36.00/hr, resulting in a ratio of 6.36. This indicates that the city is relatively expensive compared to its peers, making it less attractive for talent attraction without wage premiums. The fact that PSF is rising by 1.3% year-over-year further exacerbates the affordability issue.
 
 **Labor Force Growth**
-The civilian labor force in Richmond is contracting at a rate of -0.93% year-over-year, indicating a shrinking labor pool. This contraction implies a structural headwind for hiring, as the supply of potential workers is decreasing. Businesses may face challenges in finding and retaining talent in this environment.
+The civilian labor force in Richmond is shrinking at a rate of -0.98% year-over-year, which ranks in the 32nd percentile. This contraction in labor force supply signals a structural headwind for hiring, making it more challenging for businesses to find and recruit top talent. This could be a significant constraint for businesses looking to expand in the area.
 
 **Building Permits**
-The number of residential building permits in Richmond is decreasing by -0.85% year-over-year, suggesting a tightening of the housing supply. This decrease signals potential future affordability issues and challenges in accommodating a growing workforce, which could impact the city's attractiveness to businesses and talent.
+The number of building permits in Richmond is decreasing by -0.85% year-over-year, which ranks near the median. This suggests that housing supply is not expanding rapidly, and future affordability and workforce accommodation may be at risk. This could lead to increased competition for housing and higher costs for workers, making it more challenging for businesses to attract and retain talent.
 
 **Days on Market**
-The median days on market for homes in Richmond is 36 days, with a year-over-year decrease of -2.7%. This relatively fast pace of home sales indicates a competitive market, which may make it challenging for relocating workers to find housing. However, the decreasing trend suggests some normalization in the market.
+The current median days on market in Richmond is 37 days, with a year-over-year decrease of -13.9%. This indicates a highly competitive market where homes are selling quickly, making it challenging for relocating workers to find and secure housing. This could be a significant concern for businesses looking to attract talent from outside the area.
 
 **Office Economy**
-Richmond's professional and office worker share, with a composite score of 1.68, ranks in the 28th percentile, indicating a relatively shallow talent pool in these sectors. This suggests that the city is less suited for businesses requiring deep knowledge-economy talent, such as tech, finance, or consulting, but may be more appropriate for industries with fewer specialized roles.
+Richmond has a professional and office worker share that ranks in the 28th percentile, indicating a relatively shallow talent pool in these sectors. This suggests that the city is less suited for businesses that require a deep knowledge-economy talent pool, such as tech, finance, or consulting firms, but may be more suitable for industrial or logistics-dominant businesses.
 
-The Richmond metro area offers a business a moderate labor market with some challenges in finding and retaining talent, largely due to its expensive cost of living and contracting labor force. The single biggest risk or constraint for a decision-maker is the potential for future affordability issues and workforce accommodation challenges, driven by the tightening housing supply and decreasing labor pool, which could impact the city's attractiveness and competitiveness in the long term.
+The Richmond metro area offers businesses a relatively tight labor market with moderate wage growth, but it also presents significant challenges, including a shrinking labor force, expensive cost of living, and competitive housing market. The single biggest risk or constraint for decision-makers is the limited labor force supply, which could hinder business expansion and growth plans.

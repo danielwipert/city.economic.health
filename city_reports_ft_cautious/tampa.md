@@ -1,33 +1,33 @@
 # Tampa-St. Petersburg-Clearwater
 
-**Grade: B- (Below Average) | 45.9th percentile | June 2026**
+**Grade: B- (Below Average) | 45.8th percentile | July 2026**
 
 ---
 
-The Tampa-St. Petersburg-Clearwater metro area has an overall grade of B- with a composite score ranking it 45.9th percentile out of 50 US metros. This city's economic character is most defined by its low unemployment rate of 4.70% and its above-average wage growth of 5.90% year-over-year. The combination of these metrics suggests a tight labor market with rising labor costs.
+The Tampa-St. Petersburg-Clearwater metro area has an overall grade of B- with a composite score ranking it 45.8th percentile out of 50 US metros. This city's economic character is most defined by its below-average labor demand, with a composite score of 3.78 ranking it in the 36th percentile, and its high wage growth rate of 5.90% year-over-year, ranking it in the 76th percentile. These metrics suggest a mixed economic environment with both challenges and opportunities.
 
 **Labor Demand**
-The employment growth rate in Tampa-St. Petersburg-Clearwater is -0.03% year-over-year, while weekly hours are deviating 0.480% above the city's own trend. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. The labor demand composite score of 3.78 ranks below average at the 36th percentile.
+The employment growth rate in Tampa-St. Petersburg-Clearwater is -0.03% year-over-year, and weekly hours are deviating from the trend by +0.480%. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. The labor demand composite score of 3.78 ranks in the 36th percentile, indicating below-average labor demand.
 
 **Unemployment**
-The unemployment rate in Tampa-St. Petersburg-Clearwater is 4.70%, ranking in the bottom tier at the 6th percentile. This indicates a very tight labor market with little slack, making it harder for businesses to hire and potentially leading to upward wage pressure. Companies looking to staff up in this city may face significant recruitment challenges.
+The unemployment rate in Tampa-St. Petersburg-Clearwater is 4.50%, ranking it in the 8th percentile, indicating a relatively high level of unemployment. This suggests that the labor market has some slack, making it easier for businesses to hire workers. However, this also implies weaker local consumer demand.
 
 **Wage Growth**
-Wage growth in Tampa-St. Petersburg-Clearwater is 5.90% year-over-year, ranking above average at the 76th percentile. This rapid wage growth signals rising labor costs for employers, but also increasing purchasing power for workers. Businesses should factor in higher labor costs when considering this location.
+The year-over-year wage growth rate in Tampa-St. Petersburg-Clearwater is 5.90%, ranking it in the 76th percentile, indicating fast wage growth. This implies rising labor costs for employers, but also increasing worker purchasing power. Businesses should factor in the potential for higher labor costs when considering this location.
 
 **Cost of Living**
-Tampa-St. Petersburg-Clearwater has a cost of living score ranking above average at the 75th percentile, with a price-to-salary ratio of $241/sqft to $37.05/hr, or 6.50. The city's PSF is falling 3.2% year-over-year, making it more affordable relative to peers. This means that businesses can attract talent without needing to offer significant wage premiums to offset high living costs.
+Tampa-St. Petersburg-Clearwater has a cost of living score ranking it in the 78th percentile, with a price-to-salary ratio of $238/sqft to $37.05/hr, or 6.42. The fact that PSF is falling by -4.4% year-over-year contributes to its high affordability score. This makes the city more attractive for talent attraction without requiring wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in Tampa-St. Petersburg-Clearwater is growing 0.02% year-over-year, ranking above average at the 63rd percentile. This slow but positive growth indicates that the workforce supply is expanding, albeit gradually. While this is a positive sign for hiring capacity, the growth rate is not sufficient to alleviate the tight labor market conditions.
+The civilian labor force in Tampa-St. Petersburg-Clearwater is growing at a rate of -0.30% year-over-year, ranking it near the median at the 50th percentile. This indicates a slightly contracting labor pool, which may pose a structural headwind for hiring in the future.
 
 **Building Permits**
-Residential building permits in Tampa-St. Petersburg-Clearwater are increasing 3.02% year-over-year, ranking near the median at the 58th percentile. This moderate growth suggests that housing supply is expanding, which should improve affordability and accommodate workforce growth in the future. However, the current pace of growth may not be enough to keep up with demand.
+The number of residential building permits in Tampa-St. Petersburg-Clearwater is increasing by 3.02% year-over-year, ranking it near the median at the 58th percentile. This suggests that housing supply is expanding, which may improve affordability and accommodate a growing workforce.
 
 **Days on Market**
-The median days on market for homes in Tampa-St. Petersburg-Clearwater is 67 days, with a year-over-year increase of 11.7%. This ranks below average at the 20th percentile, indicating a relatively fast-paced market. For workers relocating to this city, the housing market may be competitive, making it challenging to find and secure a home quickly.
+The median days on market for homes in Tampa-St. Petersburg-Clearwater is 68 days, with a year-over-year change of +0.0%, ranking it in the 30th percentile. This indicates a relatively fast-paced market, which may make it challenging for relocating workers to find housing.
 
 **Office Economy**
-Tampa-St. Petersburg-Clearwater has a deep professional talent pool, ranking above average at the 72nd percentile. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors that require specialized knowledge-economy workers. However, it may be less suitable for industries with more industrial or logistics-oriented workforces.
+Tampa-St. Petersburg-Clearwater has an office economy score ranking it in the 72nd percentile, with a share of professional and office workers indicating a deep knowledge-economy talent pool. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, but less suited for industrial or logistics-dominant economies.
 
-The Tampa-St. Petersburg-Clearwater metro area offers businesses a unique combination of a tight labor market with rising wages and a relatively affordable cost of living. However, the single biggest risk or constraint for decision-makers is the challenging recruitment environment due to the low unemployment rate, which may require significant investment in staffing and talent attraction strategies.
+The Tampa-St. Petersburg-Clearwater metro area offers businesses a unique combination of high wage growth and relatively low cost of living, making it an attractive location for talent attraction. However, the city's below-average labor demand and slightly contracting labor pool pose a risk to hiring capacity, which decision-makers should carefully consider when evaluating this location.

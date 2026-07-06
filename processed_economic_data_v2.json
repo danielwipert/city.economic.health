@@ -1,27 +1,27 @@
 {
-  "processing_timestamp": "2026-06-29T13:11:36.121174",
-  "processing_date": "2026-06-29 13:11:36",
+  "processing_timestamp": "2026-07-06T12:50:22.447266",
+  "processing_date": "2026-07-06 12:50:22",
   "version": 2,
   "metrics_count": 9,
   "metrics_scored": 9,
   "metrics_collected_only": 0,
-  "source_data": "2026-06-29 13:11:35",
+  "source_data": "2026-07-06 12:50:22",
   "msa_averages": {
     "unemployment_rate": {
-      "msa_average": 3.9061,
-      "metros_with_data": 49
+      "msa_average": 3.986,
+      "metros_with_data": 50
     },
     "civilian_labor_force": {
-      "msa_average": 63.9522,
-      "metros_with_data": 49
+      "msa_average": 64.0542,
+      "metros_with_data": 50
     },
     "hourly_earnings": {
       "msa_average": 37.5422,
       "metros_with_data": 50
     },
     "cost_of_living": {
-      "msa_average": 7.1342,
-      "metros_with_data": 49
+      "msa_average": 7.2713,
+      "metros_with_data": 50
     },
     "office_worker_ratio": {
       "msa_average": 9.8591,
@@ -32,11 +32,11 @@
       "metros_with_data": 50
     },
     "price_per_sqft": {
-      "msa_average": 275.4082,
-      "metros_with_data": 49
+      "msa_average": 281.3,
+      "metros_with_data": 50
     },
     "median_days_on_market": {
-      "msa_average": 44.2,
+      "msa_average": 47.28,
       "metros_with_data": 50
     }
   },
@@ -49,33 +49,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.2,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.3,
+          "latest_date": "2026-05-01",
           "series_id": "NEWY636URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.666666666666667,
-          "12month_average": 4.845454545454546,
+          "3month_average": 4.333333333333333,
+          "12month_average": 4.836363636363636,
           "yoy_change": {
-            "current": 4.2,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 4.3,
+            "change": -0.1,
+            "pct_change": -2.27
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.6667,
-            "change": 0.2,
-            "pct_change": 4.48
+            "current_3mo": 4.3333,
+            "change": -0.0333,
+            "pct_change": -0.76
           }
         },
         "civilian_labor_force": {
-          "latest_value": 63.5086,
-          "latest_date": "2026-04-01",
+          "latest_value": 63.6286,
+          "latest_date": "2026-05-01",
           "series_id": "NEWY636LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 63.71286666666667,
+          "3month_average": 63.6552,
           "yoy_change": {
-            "current": 63.5086,
-            "change": -0.0881,
-            "pct_change": -0.14
+            "current": 63.6286,
+            "change": 0.2876,
+            "pct_change": 0.45
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -171,51 +171,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 532.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 537.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE35620",
           "metric_name": "Price per Sqft",
-          "3month_average": 538.3333333333334,
-          "12month_average": 521.6666666666666,
+          "3month_average": 536.3333333333334,
+          "12month_average": 523.0833333333334,
           "yoy_change": {
-            "current": 532.0,
-            "change": -1.0,
-            "pct_change": -0.19
+            "current": 537.0,
+            "change": 17.0,
+            "pct_change": 3.27
           },
           "3month_avg_yoy": {
-            "current_3mo": 538.3333,
-            "change": -1.6667,
-            "pct_change": -0.31
+            "current_3mo": 536.3333,
+            "change": 3.0,
+            "pct_change": 0.56
           }
         },
         "median_days_on_market": {
-          "latest_value": 42.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 47.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR35620",
           "metric_name": "Median Days on Market",
-          "3month_average": 45.0,
-          "12month_average": 56.916666666666664,
+          "3month_average": 43.333333333333336,
+          "12month_average": 56.75,
           "yoy_change": {
-            "current": 42.0,
-            "change": -3.0,
-            "pct_change": -6.67
+            "current": 47.0,
+            "change": -2.0,
+            "pct_change": -4.08
           },
           "3month_avg_yoy": {
-            "current_3mo": 45.0,
-            "change": -1.0,
-            "pct_change": -2.17
+            "current_3mo": 43.3333,
+            "change": -3.0,
+            "pct_change": -6.47
           }
         },
         "cost_of_living": {
-          "latest_value": 13.0745,
-          "latest_date": "2026-05-01",
+          "latest_value": 13.1973,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 13.1098,
+          "3month_average": 13.0611,
           "yoy_change": {
-            "current": 13.0745,
-            "change": -0.4158,
-            "pct_change": -3.08
+            "current": 13.1973,
+            "change": 0.0361,
+            "pct_change": 0.27
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -239,36 +239,36 @@
       "metro_name": "Los Angeles-Long Beach-Anaheim",
       "primary_city": "Los Angeles",
       "civilian_population": 10677061,
-      "metrics_processed": 9,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 4.8,
-          "latest_date": "2026-04-01",
+          "latest_date": "2026-05-01",
           "series_id": "LOSA106URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.933333333333334,
-          "12month_average": 5.209090909090909,
+          "3month_average": 4.8,
+          "12month_average": 5.1909090909090905,
           "yoy_change": {
             "current": 4.8,
-            "change": -0.1,
-            "pct_change": -2.04
+            "change": -0.2,
+            "pct_change": -4.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.9333,
-            "change": -0.1667,
-            "pct_change": -3.27
+            "current_3mo": 4.8,
+            "change": -0.2,
+            "pct_change": -4.0
           }
         },
         "civilian_labor_force": {
-          "latest_value": 62.0722,
-          "latest_date": "2026-04-01",
+          "latest_value": 61.9683,
+          "latest_date": "2026-05-01",
           "series_id": "LOSA106LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 62.538666666666664,
+          "3month_average": 62.227,
           "yoy_change": {
-            "current": 62.0722,
-            "change": -0.9755,
-            "pct_change": -1.55
+            "current": 61.9683,
+            "change": -1.1835,
+            "pct_change": -1.87
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -363,23 +363,54 @@
             "pct_change": 18.09
           }
         },
-        "median_days_on_market": {
-          "latest_value": 47.0,
-          "latest_date": "2026-05-01",
-          "series_id": "MEDDAYONMAR31080",
-          "metric_name": "Median Days on Market",
-          "3month_average": 46.333333333333336,
-          "12month_average": 53.333333333333336,
+        "price_per_sqft": {
+          "latest_value": 662.0,
+          "latest_date": "2026-06-01",
+          "series_id": "MEDLISPRIPERSQUFEE31080",
+          "metric_name": "Price per Sqft",
+          "3month_average": 665.3333333333334,
+          "12month_average": 663.25,
           "yoy_change": {
-            "current": 47.0,
-            "change": 2.0,
-            "pct_change": 4.44
+            "current": 662.0,
+            "change": -17.0,
+            "pct_change": -2.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 46.3333,
-            "change": 2.6667,
-            "pct_change": 6.11
+            "current_3mo": 665.3333,
+            "change": -20.3333,
+            "pct_change": -2.97
           }
+        },
+        "median_days_on_market": {
+          "latest_value": 50.0,
+          "latest_date": "2026-06-01",
+          "series_id": "MEDDAYONMAR31080",
+          "metric_name": "Median Days on Market",
+          "3month_average": 47.666666666666664,
+          "12month_average": 53.583333333333336,
+          "yoy_change": {
+            "current": 50.0,
+            "change": 3.0,
+            "pct_change": 6.38
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 47.6667,
+            "change": 2.3333,
+            "pct_change": 5.15
+          }
+        },
+        "cost_of_living": {
+          "latest_value": 15.9826,
+          "latest_date": "2026-06-01",
+          "series_id": null,
+          "metric_name": "Cost of Living",
+          "3month_average": 16.0038,
+          "yoy_change": {
+            "current": 15.9826,
+            "change": -1.0221,
+            "pct_change": -6.01
+          },
+          "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
         "office_worker_ratio": {
           "latest_value": 9.1345,
@@ -401,8 +432,40 @@
       "metro_name": "Chicago-Naperville-Elgin",
       "primary_city": "Chicago",
       "civilian_population": 7664965,
-      "metrics_processed": 9,
+      "metrics_processed": 11,
       "data": {
+        "unemployment_rate": {
+          "latest_value": 4.9,
+          "latest_date": "2026-05-01",
+          "series_id": "CHIC917URN",
+          "metric_name": "Unemployment Rate",
+          "3month_average": 4.966666666666667,
+          "12month_average": 4.818181818181818,
+          "yoy_change": {
+            "current": 4.9,
+            "change": 0.6,
+            "pct_change": 13.95
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 4.9667,
+            "change": 0.4333,
+            "pct_change": 9.56
+          }
+        },
+        "civilian_labor_force": {
+          "latest_value": 64.4831,
+          "latest_date": "2026-05-01",
+          "series_id": "CHIC917LFN",
+          "metric_name": "Labor Force Participation Rate",
+          "3month_average": 64.57773333333333,
+          "yoy_change": {
+            "current": 64.4831,
+            "change": -1.091,
+            "pct_change": -1.66
+          },
+          "3month_avg_yoy": null,
+          "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
+        },
         "all_employees": {
           "latest_value": 4781.2,
           "latest_date": "2026-05-01",
@@ -494,51 +557,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 220.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 221.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE16980",
           "metric_name": "Price per Sqft",
-          "3month_average": 217.0,
-          "12month_average": 212.75,
+          "3month_average": 219.33333333333334,
+          "12month_average": 213.08333333333334,
           "yoy_change": {
-            "current": 220.0,
-            "change": 3.0,
-            "pct_change": 1.38
+            "current": 221.0,
+            "change": 4.0,
+            "pct_change": 1.84
           },
           "3month_avg_yoy": {
-            "current_3mo": 217.0,
-            "change": 2.6667,
-            "pct_change": 1.24
+            "current_3mo": 219.3333,
+            "change": 3.0,
+            "pct_change": 1.39
           }
         },
         "median_days_on_market": {
           "latest_value": 33.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR16980",
           "metric_name": "Median Days on Market",
-          "3month_average": 34.0,
+          "3month_average": 33.333333333333336,
           "12month_average": 40.083333333333336,
           "yoy_change": {
             "current": 33.0,
-            "change": 1.0,
-            "pct_change": 3.12
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 34.0,
-            "change": 0.3333,
-            "pct_change": 0.99
+            "current_3mo": 33.3333,
+            "change": 0.6667,
+            "pct_change": 2.04
           }
         },
         "cost_of_living": {
-          "latest_value": 5.9766,
-          "latest_date": "2026-05-01",
+          "latest_value": 6.0038,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.8717,
+          "3month_average": 5.9349,
           "yoy_change": {
-            "current": 5.9766,
-            "change": -0.0916,
-            "pct_change": -1.51
+            "current": 6.0038,
+            "change": -0.0644,
+            "pct_change": -1.06
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -565,33 +628,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.8,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.0,
+          "latest_date": "2026-05-01",
           "series_id": "DALL148URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.933333333333333,
-          "12month_average": 4.0,
+          "3month_average": 3.9,
+          "12month_average": 4.027272727272727,
           "yoy_change": {
-            "current": 3.8,
+            "current": 4.0,
             "change": 0.3,
-            "pct_change": 8.57
+            "pct_change": 8.11
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.9333,
-            "change": 0.1333,
-            "pct_change": 3.51
+            "current_3mo": 3.9,
+            "change": 0.2333,
+            "pct_change": 6.36
           }
         },
         "civilian_labor_force": {
-          "latest_value": 69.4857,
-          "latest_date": "2026-04-01",
+          "latest_value": 69.7163,
+          "latest_date": "2026-05-01",
           "series_id": "DALL148LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 69.4724,
+          "3month_average": 69.56813333333334,
           "yoy_change": {
-            "current": 69.4857,
-            "change": 0.2828,
-            "pct_change": 0.41
+            "current": 69.7163,
+            "change": 0.132,
+            "pct_change": 0.19
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -687,51 +750,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 203.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 202.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE19100",
           "metric_name": "Price per Sqft",
-          "3month_average": 202.33333333333334,
-          "12month_average": 202.25,
+          "3month_average": 202.66666666666666,
+          "12month_average": 201.83333333333334,
           "yoy_change": {
-            "current": 203.0,
-            "change": -4.0,
-            "pct_change": -1.93
+            "current": 202.0,
+            "change": -5.0,
+            "pct_change": -2.42
           },
           "3month_avg_yoy": {
-            "current_3mo": 202.3333,
-            "change": -3.6667,
-            "pct_change": -1.78
+            "current_3mo": 202.6667,
+            "change": -4.0,
+            "pct_change": -1.94
           }
         },
         "median_days_on_market": {
-          "latest_value": 48.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 51.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR19100",
           "metric_name": "Median Days on Market",
-          "3month_average": 47.333333333333336,
-          "12month_average": 57.833333333333336,
+          "3month_average": 48.333333333333336,
+          "12month_average": 57.916666666666664,
           "yoy_change": {
-            "current": 48.0,
-            "change": 3.0,
-            "pct_change": 6.67
+            "current": 51.0,
+            "change": 1.0,
+            "pct_change": 2.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 47.3333,
-            "change": 3.0,
-            "pct_change": 6.77
+            "current_3mo": 48.3333,
+            "change": 2.3333,
+            "pct_change": 5.07
           }
         },
         "cost_of_living": {
-          "latest_value": 5.4954,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.4683,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.4464,
+          "3month_average": 5.4554,
           "yoy_change": {
-            "current": 5.4954,
-            "change": -0.2339,
-            "pct_change": -4.08
+            "current": 5.4683,
+            "change": -0.261,
+            "pct_change": -4.56
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -758,33 +821,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.3,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.6,
+          "latest_date": "2026-05-01",
           "series_id": "HOUS448URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.466666666666667,
-          "12month_average": 4.581818181818182,
+          "3month_average": 4.433333333333334,
+          "12month_average": 4.618181818181818,
           "yoy_change": {
-            "current": 4.3,
-            "change": 0.3,
-            "pct_change": 7.5
+            "current": 4.6,
+            "change": 0.4,
+            "pct_change": 9.52
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.4667,
-            "change": 0.2333,
-            "pct_change": 5.51
+            "current_3mo": 4.4333,
+            "change": 0.3,
+            "pct_change": 7.26
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.3469,
-          "latest_date": "2026-04-01",
+          "latest_value": 64.6137,
+          "latest_date": "2026-05-01",
           "series_id": "HOUS448LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.42646666666667,
+          "3month_average": 64.4562,
           "yoy_change": {
-            "current": 64.3469,
-            "change": -0.0298,
-            "pct_change": -0.05
+            "current": 64.6137,
+            "change": 0.0216,
+            "pct_change": 0.03
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -880,16 +943,16 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 173.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 172.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE26420",
           "metric_name": "Price per Sqft",
           "3month_average": 172.66666666666666,
-          "12month_average": 172.25,
+          "12month_average": 171.91666666666666,
           "yoy_change": {
-            "current": 173.0,
+            "current": 172.0,
             "change": -4.0,
-            "pct_change": -2.26
+            "pct_change": -2.27
           },
           "3month_avg_yoy": {
             "current_3mo": 172.6667,
@@ -898,33 +961,33 @@
           }
         },
         "median_days_on_market": {
-          "latest_value": 49.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 50.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR26420",
           "metric_name": "Median Days on Market",
           "3month_average": 49.0,
-          "12month_average": 54.0,
+          "12month_average": 54.333333333333336,
           "yoy_change": {
-            "current": 49.0,
-            "change": 5.0,
-            "pct_change": 11.36
+            "current": 50.0,
+            "change": 4.0,
+            "pct_change": 8.7
           },
           "3month_avg_yoy": {
             "current_3mo": 49.0,
-            "change": 4.6667,
-            "pct_change": 10.53
+            "change": 4.3333,
+            "pct_change": 9.7
           }
         },
         "cost_of_living": {
-          "latest_value": 4.7397,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.7123,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 4.7254,
           "yoy_change": {
-            "current": 4.7397,
-            "change": -0.2322,
-            "pct_change": -4.67
+            "current": 4.7123,
+            "change": -0.2315,
+            "pct_change": -4.68
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -951,33 +1014,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.9,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.6,
+          "latest_date": "2026-05-01",
           "series_id": "MIAM112URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.8,
-          "12month_average": 3.609090909090909,
+          "3month_average": 3.7333333333333334,
+          "12month_average": 3.6636363636363636,
           "yoy_change": {
-            "current": 3.9,
-            "change": 1.0,
-            "pct_change": 34.48
+            "current": 3.6,
+            "change": 0.6,
+            "pct_change": 20.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.8,
-            "change": 0.8333,
-            "pct_change": 28.09
+            "current_3mo": 3.7333,
+            "change": 0.7667,
+            "pct_change": 25.84
           }
         },
         "civilian_labor_force": {
-          "latest_value": 61.6369,
-          "latest_date": "2026-04-01",
+          "latest_value": 61.0555,
+          "latest_date": "2026-05-01",
           "series_id": "MIAM112LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 61.686566666666664,
+          "3month_average": 61.45816666666667,
           "yoy_change": {
-            "current": 61.6369,
-            "change": 0.2174,
-            "pct_change": 0.35
+            "current": 61.0555,
+            "change": -0.5726,
+            "pct_change": -0.93
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -1073,51 +1136,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 358.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 357.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE33100",
           "metric_name": "Price per Sqft",
-          "3month_average": 359.0,
-          "12month_average": 359.9166666666667,
+          "3month_average": 358.0,
+          "12month_average": 359.5833333333333,
           "yoy_change": {
-            "current": 358.0,
-            "change": -5.0,
-            "pct_change": -1.38
+            "current": 357.0,
+            "change": -4.0,
+            "pct_change": -1.11
           },
           "3month_avg_yoy": {
-            "current_3mo": 359.0,
-            "change": -6.0,
-            "pct_change": -1.64
+            "current_3mo": 358.0,
+            "change": -5.0,
+            "pct_change": -1.38
           }
         },
         "median_days_on_market": {
-          "latest_value": 79.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 82.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR33100",
           "metric_name": "Median Days on Market",
-          "3month_average": 76.66666666666667,
-          "12month_average": 83.91666666666667,
+          "3month_average": 79.33333333333333,
+          "12month_average": 83.83333333333333,
           "yoy_change": {
-            "current": 79.0,
-            "change": 2.0,
-            "pct_change": 2.6
+            "current": 82.0,
+            "change": -1.0,
+            "pct_change": -1.2
           },
           "3month_avg_yoy": {
-            "current_3mo": 76.6667,
-            "change": 4.6667,
-            "pct_change": 6.48
+            "current_3mo": 79.3333,
+            "change": 2.0,
+            "pct_change": 2.59
           }
         },
         "cost_of_living": {
-          "latest_value": 10.4404,
-          "latest_date": "2026-05-01",
+          "latest_value": 10.4112,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 10.5073,
+          "3month_average": 10.478,
           "yoy_change": {
-            "current": 10.4404,
-            "change": -0.9283,
-            "pct_change": -8.17
+            "current": 10.4112,
+            "change": -0.8948,
+            "pct_change": -7.91
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -1145,32 +1208,32 @@
       "data": {
         "unemployment_rate": {
           "latest_value": 3.9,
-          "latest_date": "2026-04-01",
+          "latest_date": "2026-05-01",
           "series_id": "WASH911URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.166666666666666,
-          "12month_average": 4.072727272727272,
+          "3month_average": 3.9666666666666663,
+          "12month_average": 4.1,
           "yoy_change": {
             "current": 3.9,
-            "change": 0.6,
-            "pct_change": 18.18
+            "change": 0.3,
+            "pct_change": 8.33
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.1667,
-            "change": 0.6667,
-            "pct_change": 19.05
+            "current_3mo": 3.9667,
+            "change": 0.4667,
+            "pct_change": 13.33
           }
         },
         "civilian_labor_force": {
-          "latest_value": 66.6429,
-          "latest_date": "2026-04-01",
+          "latest_value": 66.3873,
+          "latest_date": "2026-05-01",
           "series_id": "WASH911LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 66.64843333333333,
+          "3month_average": 66.5819,
           "yoy_change": {
-            "current": 66.6429,
-            "change": -1.7223,
-            "pct_change": -2.52
+            "current": 66.3873,
+            "change": -1.8587,
+            "pct_change": -2.72
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -1266,51 +1329,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 310.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 308.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE47900",
           "metric_name": "Price per Sqft",
-          "3month_average": 309.6666666666667,
-          "12month_average": 307.4166666666667,
+          "3month_average": 309.3333333333333,
+          "12month_average": 306.8333333333333,
           "yoy_change": {
-            "current": 310.0,
-            "change": -10.0,
-            "pct_change": -3.12
+            "current": 308.0,
+            "change": -7.0,
+            "pct_change": -2.22
           },
           "3month_avg_yoy": {
-            "current_3mo": 309.6667,
-            "change": -11.3333,
-            "pct_change": -3.53
+            "current_3mo": 309.3333,
+            "change": -9.6667,
+            "pct_change": -3.03
           }
         },
         "median_days_on_market": {
-          "latest_value": 30.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 36.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR47900",
           "metric_name": "Median Days on Market",
-          "3month_average": 29.666666666666668,
-          "12month_average": 39.5,
+          "3month_average": 31.666666666666668,
+          "12month_average": 39.666666666666664,
           "yoy_change": {
-            "current": 30.0,
-            "change": 1.0,
-            "pct_change": 3.45
+            "current": 36.0,
+            "change": 2.0,
+            "pct_change": 5.88
           },
           "3month_avg_yoy": {
-            "current_3mo": 29.6667,
-            "change": 3.6667,
-            "pct_change": 14.1
+            "current_3mo": 31.6667,
+            "change": 2.3333,
+            "pct_change": 7.95
           }
         },
         "cost_of_living": {
-          "latest_value": 6.9012,
-          "latest_date": "2026-05-01",
+          "latest_value": 6.8566,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.8835,
+          "3month_average": 6.8761,
           "yoy_change": {
-            "current": 6.9012,
-            "change": -0.6194,
-            "pct_change": -8.24
+            "current": 6.8566,
+            "change": -0.5464,
+            "pct_change": -7.38
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -1337,33 +1400,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 2.8,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.2,
+          "latest_date": "2026-05-01",
           "series_id": "ATLA013URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.2333333333333334,
+          "3month_average": 3.1,
           "12month_average": 3.390909090909091,
           "yoy_change": {
-            "current": 2.8,
-            "change": -0.1,
-            "pct_change": -3.45
+            "current": 3.2,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.2333,
-            "change": 0.0333,
-            "pct_change": 1.04
+            "current_3mo": 3.1,
+            "change": -0.0333,
+            "pct_change": -1.06
           }
         },
         "civilian_labor_force": {
-          "latest_value": 65.2019,
-          "latest_date": "2026-04-01",
+          "latest_value": 65.431,
+          "latest_date": "2026-05-01",
           "series_id": "ATLA013LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 65.14189999999999,
+          "3month_average": 65.33149999999999,
           "yoy_change": {
-            "current": 65.2019,
-            "change": 0.5581,
-            "pct_change": 0.86
+            "current": 65.431,
+            "change": 1.0193,
+            "pct_change": 1.58
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -1459,51 +1522,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 199.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 198.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE12060",
           "metric_name": "Price per Sqft",
-          "3month_average": 198.0,
+          "3month_average": 198.33333333333334,
           "12month_average": 196.16666666666666,
           "yoy_change": {
-            "current": 199.0,
-            "change": 1.0,
-            "pct_change": 0.51
+            "current": 198.0,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 198.0,
+            "current_3mo": 198.3333,
             "change": 0.3333,
             "pct_change": 0.17
           }
         },
         "median_days_on_market": {
-          "latest_value": 50.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 52.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR12060",
           "metric_name": "Median Days on Market",
-          "3month_average": 50.0,
-          "12month_average": 57.5,
+          "3month_average": 50.333333333333336,
+          "12month_average": 57.583333333333336,
           "yoy_change": {
-            "current": 50.0,
-            "change": 3.0,
-            "pct_change": 6.38
+            "current": 52.0,
+            "change": 1.0,
+            "pct_change": 1.96
           },
           "3month_avg_yoy": {
-            "current_3mo": 50.0,
-            "change": 3.3333,
-            "pct_change": 7.14
+            "current_3mo": 50.3333,
+            "change": 2.3333,
+            "pct_change": 4.86
           }
         },
         "cost_of_living": {
-          "latest_value": 5.3959,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.3688,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.3384,
+          "3month_average": 5.3474,
           "yoy_change": {
-            "current": 5.3959,
-            "change": -0.1973,
-            "pct_change": -3.53
+            "current": 5.3688,
+            "change": -0.2245,
+            "pct_change": -4.01
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -1530,33 +1593,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.9,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.1,
+          "latest_date": "2026-05-01",
           "series_id": "PHIL942URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.333333333333333,
-          "12month_average": 4.554545454545455,
+          "3month_average": 4.1,
+          "12month_average": 4.536363636363636,
           "yoy_change": {
-            "current": 3.9,
-            "change": -0.1,
-            "pct_change": -2.5
+            "current": 4.1,
+            "change": -0.2,
+            "pct_change": -4.65
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.3333,
-            "change": 0.0667,
-            "pct_change": 1.56
+            "current_3mo": 4.1,
+            "change": -0.1,
+            "pct_change": -2.38
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.5829,
-          "latest_date": "2026-04-01",
+          "latest_value": 64.7267,
+          "latest_date": "2026-05-01",
           "series_id": "PHIL942LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.2561,
+          "3month_average": 64.56766666666667,
           "yoy_change": {
-            "current": 64.5829,
-            "change": 0.6495,
-            "pct_change": 1.02
+            "current": 64.7267,
+            "change": 0.9472,
+            "pct_change": 1.49
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -1652,51 +1715,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 233.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 232.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE37980",
           "metric_name": "Price per Sqft",
-          "3month_average": 230.66666666666666,
-          "12month_average": 229.41666666666666,
+          "3month_average": 232.0,
+          "12month_average": 229.33333333333334,
           "yoy_change": {
-            "current": 233.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 232.0,
+            "change": -1.0,
+            "pct_change": -0.43
           },
           "3month_avg_yoy": {
-            "current_3mo": 230.6667,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current_3mo": 232.0,
+            "change": -0.6667,
+            "pct_change": -0.29
           }
         },
         "median_days_on_market": {
-          "latest_value": 36.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 39.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR37980",
           "metric_name": "Median Days on Market",
-          "3month_average": 38.333333333333336,
-          "12month_average": 46.25,
+          "3month_average": 37.0,
+          "12month_average": 46.083333333333336,
           "yoy_change": {
-            "current": 36.0,
-            "change": 1.0,
-            "pct_change": 2.86
+            "current": 39.0,
+            "change": -2.0,
+            "pct_change": -4.88
           },
           "3month_avg_yoy": {
-            "current_3mo": 38.3333,
-            "change": 2.0,
-            "pct_change": 5.5
+            "current_3mo": 37.0,
+            "change": 0.0,
+            "pct_change": 0.0
           }
         },
         "cost_of_living": {
-          "latest_value": 7.1319,
-          "latest_date": "2026-05-01",
+          "latest_value": 7.1013,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 7.0728,
+          "3month_average": 7.1137,
           "yoy_change": {
-            "current": 7.1319,
-            "change": -0.0417,
-            "pct_change": -0.58
+            "current": 7.1013,
+            "change": -0.0723,
+            "pct_change": -1.01
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -1723,33 +1786,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.8,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.1,
+          "latest_date": "2026-05-01",
           "series_id": "PHOE004URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.0,
-          "12month_average": 4.0181818181818185,
+          "3month_average": 3.9666666666666663,
+          "12month_average": 4.054545454545455,
           "yoy_change": {
-            "current": 3.8,
+            "current": 4.1,
             "change": 0.4,
-            "pct_change": 11.76
+            "pct_change": 10.81
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.0,
-            "change": 0.5,
-            "pct_change": 14.29
+            "current_3mo": 3.9667,
+            "change": 0.4333,
+            "pct_change": 12.26
           }
         },
         "civilian_labor_force": {
-          "latest_value": 63.5132,
-          "latest_date": "2026-04-01",
+          "latest_value": 64.2332,
+          "latest_date": "2026-05-01",
           "series_id": "PHOE004LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.141,
+          "3month_average": 64.03623333333334,
           "yoy_change": {
-            "current": 63.5132,
-            "change": -1.6464,
-            "pct_change": -2.53
+            "current": 64.2332,
+            "change": -0.8538,
+            "pct_change": -1.31
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -1845,51 +1908,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 271.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 269.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE38060",
           "metric_name": "Price per Sqft",
-          "3month_average": 271.6666666666667,
-          "12month_average": 270.5,
+          "3month_average": 270.6666666666667,
+          "12month_average": 270.0833333333333,
           "yoy_change": {
-            "current": 271.0,
+            "current": 269.0,
             "change": -5.0,
-            "pct_change": -1.81
+            "pct_change": -1.82
           },
           "3month_avg_yoy": {
-            "current_3mo": 271.6667,
-            "change": -4.3333,
-            "pct_change": -1.57
+            "current_3mo": 270.6667,
+            "change": -5.0,
+            "pct_change": -1.81
           }
         },
         "median_days_on_market": {
-          "latest_value": 60.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 64.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR38060",
           "metric_name": "Median Days on Market",
-          "3month_average": 57.333333333333336,
-          "12month_average": 63.333333333333336,
+          "3month_average": 60.333333333333336,
+          "12month_average": 63.25,
           "yoy_change": {
-            "current": 60.0,
-            "change": 2.0,
-            "pct_change": 3.45
+            "current": 64.0,
+            "change": -1.0,
+            "pct_change": -1.54
           },
           "3month_avg_yoy": {
-            "current_3mo": 57.3333,
-            "change": 3.6667,
-            "pct_change": 6.83
+            "current_3mo": 60.3333,
+            "change": 2.0,
+            "pct_change": 3.43
           }
         },
         "cost_of_living": {
-          "latest_value": 7.2732,
-          "latest_date": "2026-05-01",
+          "latest_value": 7.2195,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 7.2768,
+          "3month_average": 7.25,
           "yoy_change": {
-            "current": 7.2732,
-            "change": -0.3071,
-            "pct_change": -4.05
+            "current": 7.2195,
+            "change": -0.3059,
+            "pct_change": -4.06
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -2042,51 +2105,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 497.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 486.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE14460",
           "metric_name": "Price per Sqft",
-          "3month_average": 501.3333333333333,
-          "12month_average": 478.9166666666667,
+          "3month_average": 496.6666666666667,
+          "12month_average": 478.8333333333333,
           "yoy_change": {
-            "current": 497.0,
-            "change": -8.0,
-            "pct_change": -1.58
+            "current": 486.0,
+            "change": -1.0,
+            "pct_change": -0.21
           },
           "3month_avg_yoy": {
-            "current_3mo": 501.3333,
-            "change": -2.0,
-            "pct_change": -0.4
+            "current_3mo": 496.6667,
+            "change": -2.3333,
+            "pct_change": -0.47
           }
         },
         "median_days_on_market": {
-          "latest_value": 25.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 37.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR14460",
           "metric_name": "Median Days on Market",
-          "3month_average": 26.666666666666668,
-          "12month_average": 39.833333333333336,
+          "3month_average": 29.0,
+          "12month_average": 40.333333333333336,
           "yoy_change": {
-            "current": 25.0,
-            "change": -1.0,
-            "pct_change": -3.85
+            "current": 37.0,
+            "change": 6.0,
+            "pct_change": 19.35
           },
           "3month_avg_yoy": {
-            "current_3mo": 26.6667,
-            "change": 1.3333,
-            "pct_change": 5.26
+            "current_3mo": 29.0,
+            "change": 1.6667,
+            "pct_change": 6.1
           }
         },
         "cost_of_living": {
-          "latest_value": 10.8302,
-          "latest_date": "2026-05-01",
+          "latest_value": 10.5905,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 10.8545,
+          "3month_average": 10.7535,
           "yoy_change": {
-            "current": 10.8302,
-            "change": -0.5462,
-            "pct_change": -4.8
+            "current": 10.5905,
+            "change": -0.3804,
+            "pct_change": -3.47
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -2113,33 +2176,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.9,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.6,
+          "latest_date": "2026-05-01",
           "series_id": "RIVE106URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 5.1,
-          "12month_average": 5.472727272727273,
+          "3month_average": 4.866666666666666,
+          "12month_average": 5.445454545454545,
           "yoy_change": {
-            "current": 4.9,
-            "change": -0.1,
-            "pct_change": -2.0
+            "current": 4.6,
+            "change": -0.3,
+            "pct_change": -6.12
           },
           "3month_avg_yoy": {
-            "current_3mo": 5.1,
-            "change": -0.0333,
-            "pct_change": -0.65
+            "current_3mo": 4.8667,
+            "change": -0.1667,
+            "pct_change": -3.31
           }
         },
         "civilian_labor_force": {
-          "latest_value": 58.976,
-          "latest_date": "2026-04-01",
+          "latest_value": 58.3913,
+          "latest_date": "2026-05-01",
           "series_id": "RIVE106LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 59.34193333333334,
+          "3month_average": 58.9114,
           "yoy_change": {
-            "current": 58.976,
-            "change": -1.3261,
-            "pct_change": -2.2
+            "current": 58.3913,
+            "change": -1.3823,
+            "pct_change": -2.31
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -2235,51 +2298,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 337.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 335.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE40140",
           "metric_name": "Price per Sqft",
-          "3month_average": 337.3333333333333,
-          "12month_average": 337.75,
+          "3month_average": 336.3333333333333,
+          "12month_average": 337.0833333333333,
           "yoy_change": {
-            "current": 337.0,
+            "current": 335.0,
             "change": -8.0,
-            "pct_change": -2.32
+            "pct_change": -2.33
           },
           "3month_avg_yoy": {
-            "current_3mo": 337.3333,
-            "change": -7.0,
-            "pct_change": -2.03
+            "current_3mo": 336.3333,
+            "change": -8.0,
+            "pct_change": -2.32
           }
         },
         "median_days_on_market": {
-          "latest_value": 56.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 59.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR40140",
           "metric_name": "Median Days on Market",
-          "3month_average": 54.666666666666664,
-          "12month_average": 62.166666666666664,
+          "3month_average": 56.333333333333336,
+          "12month_average": 62.25,
           "yoy_change": {
-            "current": 56.0,
-            "change": 3.0,
-            "pct_change": 5.66
+            "current": 59.0,
+            "change": 1.0,
+            "pct_change": 1.72
           },
           "3month_avg_yoy": {
-            "current_3mo": 54.6667,
-            "change": 2.6667,
-            "pct_change": 5.13
+            "current_3mo": 56.3333,
+            "change": 2.0,
+            "pct_change": 3.68
           }
         },
         "cost_of_living": {
-          "latest_value": 9.493,
-          "latest_date": "2026-05-01",
+          "latest_value": 9.4366,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 9.5752,
+          "3month_average": 9.5468,
           "yoy_change": {
-            "current": 9.493,
-            "change": -0.8302,
-            "pct_change": -8.04
+            "current": 9.4366,
+            "change": -0.8267,
+            "pct_change": -8.05
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -2306,33 +2369,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.9,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.6,
+          "latest_date": "2026-05-01",
           "series_id": "SANF806URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.066666666666666,
-          "12month_average": 4.372727272727273,
+          "3month_average": 3.8333333333333335,
+          "12month_average": 4.336363636363636,
           "yoy_change": {
-            "current": 3.9,
-            "change": -0.2,
-            "pct_change": -4.88
+            "current": 3.6,
+            "change": -0.4,
+            "pct_change": -10.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.0667,
-            "change": -0.1333,
-            "pct_change": -3.17
+            "current_3mo": 3.8333,
+            "change": -0.2667,
+            "pct_change": -6.5
           }
         },
         "civilian_labor_force": {
-          "latest_value": 63.198,
-          "latest_date": "2026-04-01",
+          "latest_value": 62.8211,
+          "latest_date": "2026-05-01",
           "series_id": "SANF806LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 63.6355,
+          "3month_average": 63.248466666666666,
           "yoy_change": {
-            "current": 63.198,
-            "change": -1.5778,
-            "pct_change": -2.44
+            "current": 62.8211,
+            "change": -1.1559,
+            "pct_change": -1.81
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -2428,51 +2491,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 664.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 649.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE41860",
           "metric_name": "Price per Sqft",
-          "3month_average": 660.0,
-          "12month_average": 646.5,
+          "3month_average": 658.3333333333334,
+          "12month_average": 644.1666666666666,
           "yoy_change": {
-            "current": 664.0,
-            "change": -24.0,
-            "pct_change": -3.49
+            "current": 649.0,
+            "change": -28.0,
+            "pct_change": -4.14
           },
           "3month_avg_yoy": {
-            "current_3mo": 660.0,
-            "change": -20.3333,
-            "pct_change": -2.99
+            "current_3mo": 658.3333,
+            "change": -24.3333,
+            "pct_change": -3.56
           }
         },
         "median_days_on_market": {
-          "latest_value": 32.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 37.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR41860",
           "metric_name": "Median Days on Market",
-          "3month_average": 30.666666666666668,
-          "12month_average": 41.833333333333336,
+          "3month_average": 33.333333333333336,
+          "12month_average": 41.583333333333336,
           "yoy_change": {
-            "current": 32.0,
+            "current": 37.0,
             "change": -3.0,
-            "pct_change": -8.57
+            "pct_change": -7.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 30.6667,
-            "change": -2.3333,
-            "pct_change": -7.07
+            "current_3mo": 33.3333,
+            "change": -2.6667,
+            "pct_change": -7.41
           }
         },
         "cost_of_living": {
-          "latest_value": 13.2641,
-          "latest_date": "2026-05-01",
+          "latest_value": 12.9644,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 13.1457,
+          "3month_average": 13.1125,
           "yoy_change": {
-            "current": 13.2641,
-            "change": -1.4999,
-            "pct_change": -10.16
+            "current": 12.9644,
+            "change": -1.5635,
+            "pct_change": -10.76
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -2499,33 +2562,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.4,
-          "latest_date": "2026-04-01",
+          "latest_value": 5.5,
+          "latest_date": "2026-05-01",
           "series_id": "DETR826URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 5.1,
-          "12month_average": 5.0181818181818185,
+          "3month_average": 5.066666666666666,
+          "12month_average": 5.081818181818182,
           "yoy_change": {
-            "current": 4.4,
-            "change": 0.4,
-            "pct_change": 10.0
+            "current": 5.5,
+            "change": 0.7,
+            "pct_change": 14.58
           },
           "3month_avg_yoy": {
-            "current_3mo": 5.1,
-            "change": 0.2667,
-            "pct_change": 5.52
+            "current_3mo": 5.0667,
+            "change": 0.4333,
+            "pct_change": 9.35
           }
         },
         "civilian_labor_force": {
-          "latest_value": 60.7545,
-          "latest_date": "2026-04-01",
+          "latest_value": 61.4,
+          "latest_date": "2026-05-01",
           "series_id": "DETR826LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 60.7124,
+          "3month_average": 61.0251,
           "yoy_change": {
-            "current": 60.7545,
-            "change": -0.0428,
-            "pct_change": -0.07
+            "current": 61.4,
+            "change": 1.33,
+            "pct_change": 2.21
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -2621,51 +2684,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 183.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 186.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE19820",
           "metric_name": "Price per Sqft",
-          "3month_average": 177.66666666666666,
+          "3month_average": 182.0,
           "12month_average": 177.83333333333334,
           "yoy_change": {
-            "current": 183.0,
-            "change": -1.0,
-            "pct_change": -0.54
+            "current": 186.0,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 177.6667,
-            "change": 0.6667,
-            "pct_change": 0.38
+            "current_3mo": 182.0,
+            "change": 0.0,
+            "pct_change": 0.0
           }
         },
         "median_days_on_market": {
           "latest_value": 38.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR19820",
           "metric_name": "Median Days on Market",
-          "3month_average": 40.666666666666664,
-          "12month_average": 44.333333333333336,
+          "3month_average": 38.333333333333336,
+          "12month_average": 44.583333333333336,
           "yoy_change": {
             "current": 38.0,
             "change": 3.0,
             "pct_change": 8.57
           },
           "3month_avg_yoy": {
-            "current_3mo": 40.6667,
+            "current_3mo": 38.3333,
             "change": 2.6667,
-            "pct_change": 7.02
+            "pct_change": 7.48
           }
         },
         "cost_of_living": {
-          "latest_value": 5.0178,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.1001,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 4.8126,
+          "3month_average": 4.93,
           "yoy_change": {
-            "current": 5.0178,
-            "change": -0.0763,
-            "pct_change": -1.5
+            "current": 5.1001,
+            "change": -0.0494,
+            "pct_change": -0.96
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -2692,33 +2755,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 5.1,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.8,
+          "latest_date": "2026-05-01",
           "series_id": "SEAT653URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 5.233333333333333,
-          "12month_average": 5.036363636363636,
+          "3month_average": 4.9,
+          "12month_average": 5.081818181818182,
           "yoy_change": {
-            "current": 5.1,
-            "change": 1.0,
-            "pct_change": 24.39
+            "current": 4.8,
+            "change": 0.6,
+            "pct_change": 14.29
           },
           "3month_avg_yoy": {
-            "current_3mo": 5.2333,
-            "change": 0.9333,
-            "pct_change": 21.71
+            "current_3mo": 4.9,
+            "change": 0.6667,
+            "pct_change": 15.75
           }
         },
         "civilian_labor_force": {
-          "latest_value": 67.9699,
-          "latest_date": "2026-04-01",
+          "latest_value": 68.0956,
+          "latest_date": "2026-05-01",
           "series_id": "SEAT653LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 68.33666666666666,
+          "3month_average": 68.0754,
           "yoy_change": {
-            "current": 67.9699,
-            "change": -0.8038,
-            "pct_change": -1.17
+            "current": 68.0956,
+            "change": -0.2008,
+            "pct_change": -0.29
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -2814,51 +2877,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 452.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 444.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE42660",
           "metric_name": "Price per Sqft",
-          "3month_average": 452.0,
-          "12month_average": 442.25,
+          "3month_average": 449.3333333333333,
+          "12month_average": 440.9166666666667,
           "yoy_change": {
-            "current": 452.0,
-            "change": -17.0,
-            "pct_change": -3.62
+            "current": 444.0,
+            "change": -16.0,
+            "pct_change": -3.48
           },
           "3month_avg_yoy": {
-            "current_3mo": 452.0,
-            "change": -11.6667,
-            "pct_change": -2.52
+            "current_3mo": 449.3333,
+            "change": -15.3333,
+            "pct_change": -3.3
           }
         },
         "median_days_on_market": {
-          "latest_value": 36.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 37.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR42660",
           "metric_name": "Median Days on Market",
-          "3month_average": 34.666666666666664,
-          "12month_average": 46.25,
+          "3month_average": 35.666666666666664,
+          "12month_average": 46.333333333333336,
           "yoy_change": {
-            "current": 36.0,
-            "change": 6.0,
-            "pct_change": 20.0
+            "current": 37.0,
+            "change": 1.0,
+            "pct_change": 2.78
           },
           "3month_avg_yoy": {
-            "current_3mo": 34.6667,
-            "change": 4.3333,
-            "pct_change": 14.29
+            "current_3mo": 35.6667,
+            "change": 3.6667,
+            "pct_change": 11.46
           }
         },
         "cost_of_living": {
-          "latest_value": 9.4759,
-          "latest_date": "2026-05-01",
+          "latest_value": 9.3082,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 9.5038,
+          "3month_average": 9.4477,
           "yoy_change": {
-            "current": 9.4759,
-            "change": -1.0233,
-            "pct_change": -9.75
+            "current": 9.3082,
+            "change": -0.9896,
+            "pct_change": -9.61
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -2885,33 +2948,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.8,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.9,
+          "latest_date": "2026-05-01",
           "series_id": "MINN427URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.366666666666666,
-          "12month_average": 4.036363636363636,
+          "3month_average": 4.066666666666666,
+          "12month_average": 4.081818181818182,
           "yoy_change": {
-            "current": 3.8,
+            "current": 3.9,
             "change": 0.5,
-            "pct_change": 15.15
+            "pct_change": 14.71
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.3667,
-            "change": 0.8,
-            "pct_change": 22.43
+            "current_3mo": 4.0667,
+            "change": 0.6,
+            "pct_change": 17.31
           }
         },
         "civilian_labor_force": {
-          "latest_value": 68.7755,
-          "latest_date": "2026-04-01",
+          "latest_value": 69.029,
+          "latest_date": "2026-05-01",
           "series_id": "MINN427LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 68.64713333333333,
+          "3month_average": 68.7607,
           "yoy_change": {
-            "current": 68.7755,
-            "change": -0.6246,
-            "pct_change": -0.9
+            "current": 69.029,
+            "change": -0.9667,
+            "pct_change": -1.38
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -3007,51 +3070,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 214.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 212.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE33460",
           "metric_name": "Price per Sqft",
-          "3month_average": 214.33333333333334,
-          "12month_average": 211.75,
+          "3month_average": 213.66666666666666,
+          "12month_average": 211.66666666666666,
           "yoy_change": {
-            "current": 214.0,
+            "current": 212.0,
             "change": -1.0,
             "pct_change": -0.47
           },
           "3month_avg_yoy": {
-            "current_3mo": 214.3333,
-            "change": -2.0,
-            "pct_change": -0.92
+            "current_3mo": 213.6667,
+            "change": -1.3333,
+            "pct_change": -0.62
           }
         },
         "median_days_on_market": {
-          "latest_value": 34.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 37.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR33460",
           "metric_name": "Median Days on Market",
-          "3month_average": 34.333333333333336,
+          "3month_average": 34.666666666666664,
           "12month_average": 41.916666666666664,
           "yoy_change": {
-            "current": 34.0,
-            "change": 1.0,
-            "pct_change": 3.03
+            "current": 37.0,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 34.3333,
-            "change": 1.3333,
-            "pct_change": 4.04
+            "current_3mo": 34.6667,
+            "change": 0.3333,
+            "pct_change": 0.97
           }
         },
         "cost_of_living": {
-          "latest_value": 5.4054,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.3549,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.3929,
+          "3month_average": 5.3762,
           "yoy_change": {
-            "current": 5.4054,
-            "change": -0.0432,
-            "pct_change": -0.79
+            "current": 5.3549,
+            "change": -0.043,
+            "pct_change": -0.8
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -3078,33 +3141,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.7,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.5,
+          "latest_date": "2026-05-01",
           "series_id": "TAMP312URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.7,
-          "12month_average": 4.445454545454545,
+          "3month_average": 4.566666666666666,
+          "12month_average": 4.527272727272727,
           "yoy_change": {
-            "current": 4.7,
-            "change": 1.3,
-            "pct_change": 38.24
+            "current": 4.5,
+            "change": 0.9,
+            "pct_change": 25.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.7,
-            "change": 1.2,
-            "pct_change": 34.29
+            "current_3mo": 4.5667,
+            "change": 1.0667,
+            "pct_change": 30.48
           }
         },
         "civilian_labor_force": {
-          "latest_value": 59.4931,
-          "latest_date": "2026-04-01",
+          "latest_value": 59.2572,
+          "latest_date": "2026-05-01",
           "series_id": "TAMP312LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 59.45666666666666,
+          "3month_average": 59.3579,
           "yoy_change": {
-            "current": 59.4931,
-            "change": 0.0103,
-            "pct_change": 0.02
+            "current": 59.2572,
+            "change": -0.1799,
+            "pct_change": -0.3
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -3200,51 +3263,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 241.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 238.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE45300",
           "metric_name": "Price per Sqft",
-          "3month_average": 242.0,
-          "12month_average": 244.75,
+          "3month_average": 240.33333333333334,
+          "12month_average": 243.83333333333334,
           "yoy_change": {
-            "current": 241.0,
-            "change": -8.0,
-            "pct_change": -3.21
+            "current": 238.0,
+            "change": -11.0,
+            "pct_change": -4.42
           },
           "3month_avg_yoy": {
-            "current_3mo": 242.0,
-            "change": -6.3333,
-            "pct_change": -2.55
+            "current_3mo": 240.3333,
+            "change": -8.6667,
+            "pct_change": -3.48
           }
         },
         "median_days_on_market": {
-          "latest_value": 67.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 68.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR45300",
           "metric_name": "Median Days on Market",
-          "3month_average": 66.66666666666667,
+          "3month_average": 67.33333333333333,
           "12month_average": 74.91666666666667,
           "yoy_change": {
-            "current": 67.0,
-            "change": 7.0,
-            "pct_change": 11.67
+            "current": 68.0,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 66.6667,
-            "change": 8.3333,
-            "pct_change": 14.29
+            "current_3mo": 67.3333,
+            "change": 5.3333,
+            "pct_change": 8.6
           }
         },
         "cost_of_living": {
-          "latest_value": 6.5047,
-          "latest_date": "2026-05-01",
+          "latest_value": 6.4238,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.4574,
+          "3month_average": 6.4129,
           "yoy_change": {
-            "current": 6.5047,
-            "change": -0.5832,
-            "pct_change": -8.23
+            "current": 6.4238,
+            "change": -0.6642,
+            "pct_change": -9.37
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -3271,33 +3334,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.1,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.9,
+          "latest_date": "2026-05-01",
           "series_id": "SAND706URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.3,
-          "12month_average": 4.6,
+          "3month_average": 4.1,
+          "12month_average": 4.581818181818182,
           "yoy_change": {
-            "current": 4.1,
-            "change": -0.1,
-            "pct_change": -2.38
+            "current": 3.9,
+            "change": -0.2,
+            "pct_change": -4.88
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.3,
-            "change": -0.0333,
-            "pct_change": -0.77
+            "current_3mo": 4.1,
+            "change": -0.1,
+            "pct_change": -2.38
           }
         },
         "civilian_labor_force": {
-          "latest_value": 61.1175,
-          "latest_date": "2026-04-01",
+          "latest_value": 60.7462,
+          "latest_date": "2026-05-01",
           "series_id": "SAND706LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 61.3896,
+          "3month_average": 61.0923,
           "yoy_change": {
-            "current": 61.1175,
-            "change": -0.9402,
-            "pct_change": -1.52
+            "current": 60.7462,
+            "change": -0.8677,
+            "pct_change": -1.41
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -3394,50 +3457,50 @@
         },
         "price_per_sqft": {
           "latest_value": 604.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE41740",
           "metric_name": "Price per Sqft",
           "3month_average": 604.3333333333334,
-          "12month_average": 606.3333333333334,
+          "12month_average": 605.1666666666666,
           "yoy_change": {
             "current": 604.0,
-            "change": -25.0,
-            "pct_change": -3.97
+            "change": -14.0,
+            "pct_change": -2.27
           },
           "3month_avg_yoy": {
             "current_3mo": 604.3333,
-            "change": -25.0,
-            "pct_change": -3.97
+            "change": -21.6667,
+            "pct_change": -3.46
           }
         },
         "median_days_on_market": {
-          "latest_value": 39.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 43.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR41740",
           "metric_name": "Median Days on Market",
-          "3month_average": 38.333333333333336,
-          "12month_average": 45.0,
+          "3month_average": 40.0,
+          "12month_average": 45.166666666666664,
           "yoy_change": {
-            "current": 39.0,
-            "change": 1.0,
-            "pct_change": 2.63
+            "current": 43.0,
+            "change": 2.0,
+            "pct_change": 4.88
           },
           "3month_avg_yoy": {
-            "current_3mo": 38.3333,
+            "current_3mo": 40.0,
             "change": 1.3333,
-            "pct_change": 3.6
+            "pct_change": 3.45
           }
         },
         "cost_of_living": {
           "latest_value": 13.9685,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 13.9784,
           "yoy_change": {
             "current": 13.9685,
-            "change": -1.6588,
-            "pct_change": -10.61
+            "change": -1.3855,
+            "pct_change": -9.02
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -3464,33 +3527,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.5,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.6,
+          "latest_date": "2026-05-01",
           "series_id": "DENV708URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.8333333333333335,
-          "12month_average": 3.8727272727272726,
+          "3month_average": 3.6,
+          "12month_average": 3.8454545454545452,
           "yoy_change": {
-            "current": 3.5,
-            "change": -0.4,
-            "pct_change": -10.26
+            "current": 3.6,
+            "change": -0.3,
+            "pct_change": -7.69
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.8333,
-            "change": -0.3333,
-            "pct_change": -8.0
+            "current_3mo": 3.6,
+            "change": -0.3667,
+            "pct_change": -9.24
           }
         },
         "civilian_labor_force": {
-          "latest_value": 69.1316,
-          "latest_date": "2026-04-01",
+          "latest_value": 69.2146,
+          "latest_date": "2026-05-01",
           "series_id": "DENV708LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 69.35516666666668,
+          "3month_average": 69.18913333333333,
           "yoy_change": {
-            "current": 69.1316,
-            "change": -1.566,
-            "pct_change": -2.22
+            "current": 69.2146,
+            "change": -1.8298,
+            "pct_change": -2.58
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -3586,51 +3649,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 290.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 286.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE19740",
           "metric_name": "Price per Sqft",
-          "3month_average": 291.6666666666667,
-          "12month_average": 290.0,
+          "3month_average": 289.6666666666667,
+          "12month_average": 289.0833333333333,
           "yoy_change": {
-            "current": 290.0,
-            "change": -10.0,
-            "pct_change": -3.33
+            "current": 286.0,
+            "change": -11.0,
+            "pct_change": -3.7
           },
           "3month_avg_yoy": {
-            "current_3mo": 291.6667,
-            "change": -10.0,
-            "pct_change": -3.31
+            "current_3mo": 289.6667,
+            "change": -10.3333,
+            "pct_change": -3.44
           }
         },
         "median_days_on_market": {
-          "latest_value": 43.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 48.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR19740",
           "metric_name": "Median Days on Market",
-          "3month_average": 40.0,
-          "12month_average": 54.333333333333336,
+          "3month_average": 43.333333333333336,
+          "12month_average": 54.583333333333336,
           "yoy_change": {
-            "current": 43.0,
-            "change": 5.0,
-            "pct_change": 13.16
+            "current": 48.0,
+            "change": 3.0,
+            "pct_change": 6.67
           },
           "3month_avg_yoy": {
-            "current_3mo": 40.0,
+            "current_3mo": 43.3333,
             "change": 3.6667,
-            "pct_change": 10.09
+            "pct_change": 9.24
           }
         },
         "cost_of_living": {
-          "latest_value": 6.8107,
-          "latest_date": "2026-05-01",
+          "latest_value": 6.7168,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.8757,
+          "3month_average": 6.8285,
           "yoy_change": {
-            "current": 6.8107,
-            "change": -0.4392,
-            "pct_change": -6.06
+            "current": 6.7168,
+            "change": -0.4606,
+            "pct_change": -6.42
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -3657,33 +3720,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.5,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.4,
+          "latest_date": "2026-05-01",
           "series_id": "ORLA712URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.533333333333333,
-          "12month_average": 4.327272727272727,
+          "3month_average": 4.433333333333334,
+          "12month_average": 4.409090909090909,
           "yoy_change": {
-            "current": 4.5,
-            "change": 1.2,
-            "pct_change": 36.36
+            "current": 4.4,
+            "change": 0.9,
+            "pct_change": 25.71
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.5333,
-            "change": 1.1333,
-            "pct_change": 33.33
+            "current_3mo": 4.4333,
+            "change": 1.0333,
+            "pct_change": 30.39
           }
         },
         "civilian_labor_force": {
-          "latest_value": 63.6588,
-          "latest_date": "2026-04-01",
+          "latest_value": 63.7641,
+          "latest_date": "2026-05-01",
           "series_id": "ORLA712LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 63.4618,
+          "3month_average": 63.5978,
           "yoy_change": {
-            "current": 63.6588,
-            "change": 0.6731,
-            "pct_change": 1.07
+            "current": 63.7641,
+            "change": 0.699,
+            "pct_change": 1.11
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -3780,50 +3843,50 @@
         },
         "price_per_sqft": {
           "latest_value": 224.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE36740",
           "metric_name": "Price per Sqft",
-          "3month_average": 224.33333333333334,
-          "12month_average": 227.08333333333334,
+          "3month_average": 224.0,
+          "12month_average": 226.5,
           "yoy_change": {
             "current": 224.0,
-            "change": -8.0,
-            "pct_change": -3.45
+            "change": -7.0,
+            "pct_change": -3.03
           },
           "3month_avg_yoy": {
-            "current_3mo": 224.3333,
-            "change": -7.3333,
-            "pct_change": -3.17
+            "current_3mo": 224.0,
+            "change": -7.6667,
+            "pct_change": -3.31
           }
         },
         "median_days_on_market": {
           "latest_value": 70.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR36740",
           "metric_name": "Median Days on Market",
-          "3month_average": 68.33333333333333,
+          "3month_average": 69.33333333333333,
           "12month_average": 76.66666666666667,
           "yoy_change": {
             "current": 70.0,
-            "change": 5.0,
-            "pct_change": 7.69
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 68.3333,
-            "change": 6.0,
-            "pct_change": 9.63
+            "current_3mo": 69.3333,
+            "change": 3.6667,
+            "pct_change": 5.58
           }
         },
         "cost_of_living": {
           "latest_value": 6.6351,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.6979,
+          "3month_average": 6.6879,
           "yoy_change": {
             "current": 6.6351,
-            "change": -0.6514,
-            "pct_change": -8.94
+            "change": -0.62,
+            "pct_change": -8.55
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -3850,33 +3913,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.5,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.6,
+          "latest_date": "2026-05-01",
           "series_id": "CHAR737URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.7666666666666666,
-          "12month_average": 3.9272727272727272,
+          "3month_average": 3.6,
+          "12month_average": 3.918181818181818,
           "yoy_change": {
-            "current": 3.5,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 3.6,
+            "change": -0.1,
+            "pct_change": -2.7
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.7667,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current_3mo": 3.6,
+            "change": -0.0667,
+            "pct_change": -1.82
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.2245,
-          "latest_date": "2026-04-01",
+          "latest_value": 64.261,
+          "latest_date": "2026-05-01",
           "series_id": "CHAR737LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.39596666666667,
+          "3month_average": 64.32456666666667,
           "yoy_change": {
-            "current": 64.2245,
-            "change": 0.1059,
-            "pct_change": 0.17
+            "current": 64.261,
+            "change": 0.2076,
+            "pct_change": 0.32
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -3973,50 +4036,50 @@
         },
         "price_per_sqft": {
           "latest_value": 221.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE16740",
           "metric_name": "Price per Sqft",
-          "3month_average": 220.0,
-          "12month_average": 219.66666666666666,
+          "3month_average": 220.66666666666666,
+          "12month_average": 219.41666666666666,
           "yoy_change": {
             "current": 221.0,
-            "change": -4.0,
-            "pct_change": -1.78
+            "change": -3.0,
+            "pct_change": -1.34
           },
           "3month_avg_yoy": {
-            "current_3mo": 220.0,
-            "change": -4.0,
-            "pct_change": -1.79
+            "current_3mo": 220.6667,
+            "change": -3.6667,
+            "pct_change": -1.63
           }
         },
         "median_days_on_market": {
-          "latest_value": 47.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 51.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR16740",
           "metric_name": "Median Days on Market",
-          "3month_average": 47.0,
-          "12month_average": 58.083333333333336,
+          "3month_average": 47.666666666666664,
+          "12month_average": 58.333333333333336,
           "yoy_change": {
-            "current": 47.0,
+            "current": 51.0,
             "change": 3.0,
-            "pct_change": 6.82
+            "pct_change": 6.25
           },
           "3month_avg_yoy": {
-            "current_3mo": 47.0,
-            "change": 4.0,
-            "pct_change": 9.3
+            "current_3mo": 47.6667,
+            "change": 3.0,
+            "pct_change": 6.72
           }
         },
         "cost_of_living": {
           "latest_value": 5.7612,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.79,
+          "3month_average": 5.8075,
           "yoy_change": {
             "current": 5.7612,
-            "change": -0.4354,
-            "pct_change": -7.03
+            "change": -0.4079,
+            "pct_change": -6.61
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -4043,33 +4106,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.3,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.9,
+          "latest_date": "2026-05-01",
           "series_id": "BALT524URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.466666666666667,
-          "12month_average": 4.245454545454545,
+          "3month_average": 4.166666666666666,
+          "12month_average": 4.263636363636364,
           "yoy_change": {
-            "current": 4.3,
-            "change": 0.9,
-            "pct_change": 26.47
+            "current": 3.9,
+            "change": 0.2,
+            "pct_change": 5.41
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.4667,
-            "change": 0.8,
-            "pct_change": 21.82
+            "current_3mo": 4.1667,
+            "change": 0.5667,
+            "pct_change": 15.74
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.9068,
-          "latest_date": "2026-04-01",
+          "latest_value": 64.4472,
+          "latest_date": "2026-05-01",
           "series_id": "BALT524LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.9533,
+          "3month_average": 64.79003333333333,
           "yoy_change": {
-            "current": 64.9068,
-            "change": 0.0097,
-            "pct_change": 0.01
+            "current": 64.4472,
+            "change": -0.1444,
+            "pct_change": -0.22
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -4165,51 +4228,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 221.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 219.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE12580",
           "metric_name": "Price per Sqft",
-          "3month_average": 219.33333333333334,
-          "12month_average": 218.16666666666666,
+          "3month_average": 220.0,
+          "12month_average": 217.91666666666666,
           "yoy_change": {
-            "current": 221.0,
+            "current": 219.0,
             "change": -3.0,
-            "pct_change": -1.34
+            "pct_change": -1.35
           },
           "3month_avg_yoy": {
-            "current_3mo": 219.3333,
-            "change": -1.3333,
-            "pct_change": -0.6
+            "current_3mo": 220.0,
+            "change": -2.3333,
+            "pct_change": -1.05
           }
         },
         "median_days_on_market": {
-          "latest_value": 33.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 36.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR12580",
           "metric_name": "Median Days on Market",
-          "3month_average": 34.0,
-          "12month_average": 41.0,
+          "3month_average": 33.666666666666664,
+          "12month_average": 41.25,
           "yoy_change": {
-            "current": 33.0,
+            "current": 36.0,
             "change": 3.0,
-            "pct_change": 10.0
+            "pct_change": 9.09
           },
           "3month_avg_yoy": {
-            "current_3mo": 34.0,
-            "change": 4.6667,
-            "pct_change": 15.91
+            "current_3mo": 33.6667,
+            "change": 3.0,
+            "pct_change": 9.78
           }
         },
         "cost_of_living": {
-          "latest_value": 6.0251,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.9706,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.9445,
+          "3month_average": 5.9626,
           "yoy_change": {
-            "current": 6.0251,
-            "change": -0.2866,
-            "pct_change": -4.54
+            "current": 5.9706,
+            "change": -0.2847,
+            "pct_change": -4.55
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -4237,32 +4300,32 @@
       "data": {
         "unemployment_rate": {
           "latest_value": 3.6,
-          "latest_date": "2026-04-01",
+          "latest_date": "2026-05-01",
           "series_id": "STLURN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.1,
-          "12month_average": 4.027272727272727,
+          "3month_average": 3.8333333333333335,
+          "12month_average": 4.009090909090909,
           "yoy_change": {
             "current": 3.6,
-            "change": 0.0,
-            "pct_change": 0.0
+            "change": -0.2,
+            "pct_change": -5.26
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.1,
-            "change": 0.1,
-            "pct_change": 2.5
+            "current_3mo": 3.8333,
+            "change": 0.0,
+            "pct_change": 0.0
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.6101,
-          "latest_date": "2026-04-01",
+          "latest_value": 64.6425,
+          "latest_date": "2026-05-01",
           "series_id": "STLLFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.4778,
+          "3month_average": 64.62286666666667,
           "yoy_change": {
-            "current": 64.6101,
-            "change": 0.0046,
-            "pct_change": 0.01
+            "current": 64.6425,
+            "change": -0.4678,
+            "pct_change": -0.72
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -4358,51 +4421,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 166.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 164.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE41180",
           "metric_name": "Price per Sqft",
-          "3month_average": 166.33333333333334,
-          "12month_average": 165.75,
+          "3month_average": 165.66666666666666,
+          "12month_average": 165.58333333333334,
           "yoy_change": {
-            "current": 166.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 164.0,
+            "change": -2.0,
+            "pct_change": -1.2
           },
           "3month_avg_yoy": {
-            "current_3mo": 166.3333,
-            "change": 1.6667,
-            "pct_change": 1.01
+            "current_3mo": 165.6667,
+            "change": 0.0,
+            "pct_change": 0.0
           }
         },
         "median_days_on_market": {
-          "latest_value": 42.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 44.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR41180",
           "metric_name": "Median Days on Market",
-          "3month_average": 43.333333333333336,
-          "12month_average": 48.416666666666664,
+          "3month_average": 42.666666666666664,
+          "12month_average": 48.75,
           "yoy_change": {
-            "current": 42.0,
-            "change": 3.0,
-            "pct_change": 7.69
+            "current": 44.0,
+            "change": 4.0,
+            "pct_change": 10.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 43.3333,
-            "change": 4.3333,
-            "pct_change": 11.11
+            "current_3mo": 42.6667,
+            "change": 3.3333,
+            "pct_change": 8.47
           }
         },
         "cost_of_living": {
-          "latest_value": 4.4672,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.4133,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 4.4757,
+          "3month_average": 4.4578,
           "yoy_change": {
-            "current": 4.4672,
-            "change": -0.0808,
-            "pct_change": -1.78
+            "current": 4.4133,
+            "change": -0.1346,
+            "pct_change": -2.96
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -4429,33 +4492,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.8,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.1,
+          "latest_date": "2026-05-01",
           "series_id": "SANA748URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.033333333333333,
-          "12month_average": 4.054545454545455,
+          "3month_average": 3.9666666666666663,
+          "12month_average": 4.090909090909091,
           "yoy_change": {
-            "current": 3.8,
-            "change": 0.3,
-            "pct_change": 8.57
+            "current": 4.1,
+            "change": 0.4,
+            "pct_change": 10.81
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.0333,
-            "change": 0.2667,
-            "pct_change": 7.08
+            "current_3mo": 3.9667,
+            "change": 0.3,
+            "pct_change": 8.18
           }
         },
         "civilian_labor_force": {
-          "latest_value": 61.6172,
-          "latest_date": "2026-04-01",
+          "latest_value": 61.8634,
+          "latest_date": "2026-05-01",
           "series_id": "SANA748LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 61.61966666666667,
+          "3month_average": 61.6628,
           "yoy_change": {
-            "current": 61.6172,
-            "change": 0.0692,
-            "pct_change": 0.11
+            "current": 61.8634,
+            "change": -0.0661,
+            "pct_change": -0.11
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -4552,11 +4615,11 @@
         },
         "price_per_sqft": {
           "latest_value": 173.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE41700",
           "metric_name": "Price per Sqft",
           "3month_average": 172.66666666666666,
-          "12month_average": 174.91666666666666,
+          "12month_average": 174.16666666666666,
           "yoy_change": {
             "current": 173.0,
             "change": -9.0,
@@ -4564,31 +4627,31 @@
           },
           "3month_avg_yoy": {
             "current_3mo": 172.6667,
-            "change": -9.0,
-            "pct_change": -4.95
+            "change": -9.3333,
+            "pct_change": -5.13
           }
         },
         "median_days_on_market": {
-          "latest_value": 57.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 61.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR41700",
           "metric_name": "Median Days on Market",
           "3month_average": 57.0,
-          "12month_average": 68.83333333333333,
+          "12month_average": 68.75,
           "yoy_change": {
-            "current": 57.0,
+            "current": 61.0,
             "change": -1.0,
-            "pct_change": -1.72
+            "pct_change": -1.61
           },
           "3month_avg_yoy": {
             "current_3mo": 57.0,
-            "change": -1.6667,
-            "pct_change": -2.84
+            "change": -2.3333,
+            "pct_change": -3.93
           }
         },
         "cost_of_living": {
           "latest_value": 5.3743,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 5.3729,
@@ -4622,33 +4685,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.4,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.5,
+          "latest_date": "2026-05-01",
           "series_id": "AUST448URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.5,
-          "12month_average": 3.5272727272727273,
+          "3month_average": 3.433333333333333,
+          "12month_average": 3.5454545454545454,
           "yoy_change": {
-            "current": 3.4,
-            "change": 0.3,
-            "pct_change": 9.68
+            "current": 3.5,
+            "change": 0.2,
+            "pct_change": 6.06
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.5,
-            "change": 0.1333,
-            "pct_change": 3.96
+            "current_3mo": 3.4333,
+            "change": 0.1667,
+            "pct_change": 5.1
           }
         },
         "civilian_labor_force": {
-          "latest_value": 75.105,
-          "latest_date": "2026-04-01",
+          "latest_value": 75.4861,
+          "latest_date": "2026-05-01",
           "series_id": "AUST448LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 75.13013333333333,
+          "3month_average": 75.26476666666666,
           "yoy_change": {
-            "current": 75.105,
-            "change": 0.4025,
-            "pct_change": 0.54
+            "current": 75.4861,
+            "change": 0.3339,
+            "pct_change": 0.44
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -4744,51 +4807,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 240.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 237.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE12420",
           "metric_name": "Price per Sqft",
-          "3month_average": 240.66666666666666,
-          "12month_average": 244.58333333333334,
+          "3month_average": 239.33333333333334,
+          "12month_average": 242.83333333333334,
           "yoy_change": {
-            "current": 240.0,
+            "current": 237.0,
             "change": -21.0,
-            "pct_change": -8.05
+            "pct_change": -8.14
           },
           "3month_avg_yoy": {
-            "current_3mo": 240.6667,
-            "change": -19.6667,
-            "pct_change": -7.55
+            "current_3mo": 239.3333,
+            "change": -20.6667,
+            "pct_change": -7.95
           }
         },
         "median_days_on_market": {
-          "latest_value": 56.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 63.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR12420",
           "metric_name": "Median Days on Market",
-          "3month_average": 53.333333333333336,
-          "12month_average": 70.91666666666667,
+          "3month_average": 56.666666666666664,
+          "12month_average": 71.33333333333333,
           "yoy_change": {
-            "current": 56.0,
-            "change": 10.0,
-            "pct_change": 21.74
+            "current": 63.0,
+            "change": 5.0,
+            "pct_change": 8.62
           },
           "3month_avg_yoy": {
-            "current_3mo": 53.3333,
-            "change": 8.6667,
-            "pct_change": 19.4
+            "current_3mo": 56.6667,
+            "change": 7.3333,
+            "pct_change": 14.86
           }
         },
         "cost_of_living": {
-          "latest_value": 6.2992,
-          "latest_date": "2026-05-01",
+          "latest_value": 6.2205,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.359,
+          "3month_average": 6.3238,
           "yoy_change": {
-            "current": 6.2992,
-            "change": -0.969,
-            "pct_change": -13.33
+            "current": 6.2205,
+            "change": -0.9642,
+            "pct_change": -13.42
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -4815,33 +4878,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.8,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.7,
+          "latest_date": "2026-05-01",
           "series_id": "PORT941URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 5.133333333333334,
-          "12month_average": 5.054545454545455,
+          "3month_average": 4.9,
+          "12month_average": 5.0636363636363635,
           "yoy_change": {
-            "current": 4.8,
-            "change": 0.4,
-            "pct_change": 9.09
+            "current": 4.7,
+            "change": 0.1,
+            "pct_change": 2.17
           },
           "3month_avg_yoy": {
-            "current_3mo": 5.1333,
-            "change": 0.3667,
-            "pct_change": 7.69
+            "current_3mo": 4.9,
+            "change": 0.2667,
+            "pct_change": 5.76
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.8751,
-          "latest_date": "2026-04-01",
+          "latest_value": 65.0431,
+          "latest_date": "2026-05-01",
           "series_id": "PORT941LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 65.02590000000001,
+          "3month_average": 64.99663333333334,
           "yoy_change": {
-            "current": 64.8751,
-            "change": -1.0344,
-            "pct_change": -1.57
+            "current": 65.0431,
+            "change": -0.7477,
+            "pct_change": -1.14
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -4937,51 +5000,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 310.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 309.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE38900",
           "metric_name": "Price per Sqft",
-          "3month_average": 311.0,
-          "12month_average": 311.0833333333333,
+          "3month_average": 310.0,
+          "12month_average": 310.5833333333333,
           "yoy_change": {
-            "current": 310.0,
-            "change": -8.0,
-            "pct_change": -2.52
+            "current": 309.0,
+            "change": -6.0,
+            "pct_change": -1.9
           },
           "3month_avg_yoy": {
-            "current_3mo": 311.0,
-            "change": -8.3333,
-            "pct_change": -2.61
+            "current_3mo": 310.0,
+            "change": -7.6667,
+            "pct_change": -2.41
           }
         },
         "median_days_on_market": {
-          "latest_value": 47.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 51.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR38900",
           "metric_name": "Median Days on Market",
-          "3month_average": 47.666666666666664,
-          "12month_average": 63.25,
+          "3month_average": 48.333333333333336,
+          "12month_average": 63.416666666666664,
           "yoy_change": {
-            "current": 47.0,
-            "change": 3.0,
-            "pct_change": 6.82
+            "current": 51.0,
+            "change": 2.0,
+            "pct_change": 4.08
           },
           "3month_avg_yoy": {
-            "current_3mo": 47.6667,
-            "change": 1.3333,
-            "pct_change": 2.88
+            "current_3mo": 48.3333,
+            "change": 2.6667,
+            "pct_change": 5.84
           }
         },
         "cost_of_living": {
-          "latest_value": 7.395,
-          "latest_date": "2026-05-01",
+          "latest_value": 7.3712,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 7.4165,
+          "3month_average": 7.3927,
           "yoy_change": {
-            "current": 7.395,
-            "change": -0.605,
-            "pct_change": -7.56
+            "current": 7.3712,
+            "change": -0.5533,
+            "pct_change": -6.98
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -5008,33 +5071,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.5,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.2,
+          "latest_date": "2026-05-01",
           "series_id": "SACR906URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.733333333333333,
-          "12month_average": 4.972727272727273,
+          "3month_average": 4.466666666666667,
+          "12month_average": 4.954545454545454,
           "yoy_change": {
-            "current": 4.5,
-            "change": -0.1,
-            "pct_change": -2.17
+            "current": 4.2,
+            "change": -0.2,
+            "pct_change": -4.55
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.7333,
-            "change": -0.1,
-            "pct_change": -2.07
+            "current_3mo": 4.4667,
+            "change": -0.1667,
+            "pct_change": -3.6
           }
         },
         "civilian_labor_force": {
-          "latest_value": 59.8821,
-          "latest_date": "2026-04-01",
+          "latest_value": 59.535,
+          "latest_date": "2026-05-01",
           "series_id": "SACR906LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 60.1815,
+          "3month_average": 59.89013333333333,
           "yoy_change": {
-            "current": 59.8821,
-            "change": -1.0251,
-            "pct_change": -1.68
+            "current": 59.535,
+            "change": -0.9178,
+            "pct_change": -1.52
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -5130,50 +5193,50 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 344.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 343.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE40900",
           "metric_name": "Price per Sqft",
-          "3month_average": 344.0,
+          "3month_average": 343.6666666666667,
           "12month_average": 341.3333333333333,
           "yoy_change": {
-            "current": 344.0,
+            "current": 343.0,
             "change": 0.0,
             "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 344.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current_3mo": 343.6667,
+            "change": -0.3333,
+            "pct_change": -0.1
           }
         },
         "median_days_on_market": {
-          "latest_value": 41.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 43.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR40900",
           "metric_name": "Median Days on Market",
-          "3month_average": 39.333333333333336,
-          "12month_average": 50.833333333333336,
+          "3month_average": 40.666666666666664,
+          "12month_average": 50.75,
           "yoy_change": {
-            "current": 41.0,
-            "change": 3.0,
-            "pct_change": 7.89
+            "current": 43.0,
+            "change": -1.0,
+            "pct_change": -2.27
           },
           "3month_avg_yoy": {
-            "current_3mo": 39.3333,
-            "change": 2.0,
-            "pct_change": 5.36
+            "current_3mo": 40.6667,
+            "change": 0.6667,
+            "pct_change": 1.67
           }
         },
         "cost_of_living": {
-          "latest_value": 8.9888,
-          "latest_date": "2026-05-01",
+          "latest_value": 8.9626,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 8.988,
+          "3month_average": 8.9793,
           "yoy_change": {
-            "current": 8.9888,
-            "change": -0.1504,
+            "current": 8.9626,
+            "change": -0.15,
             "pct_change": -1.65
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
@@ -5201,33 +5264,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.5,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.8,
+          "latest_date": "2026-05-01",
           "series_id": "PITT342URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.033333333333333,
+          "3month_average": 3.7666666666666666,
           "12month_average": 4.136363636363637,
           "yoy_change": {
-            "current": 3.5,
-            "change": -0.2,
-            "pct_change": -5.41
+            "current": 3.8,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.0333,
+            "current_3mo": 3.7667,
             "change": -0.1,
-            "pct_change": -2.42
+            "pct_change": -2.59
           }
         },
         "civilian_labor_force": {
-          "latest_value": 60.8539,
-          "latest_date": "2026-04-01",
+          "latest_value": 61.2154,
+          "latest_date": "2026-05-01",
           "series_id": "PITT342LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 60.48296666666667,
+          "3month_average": 60.860533333333336,
           "yoy_change": {
-            "current": 60.8539,
-            "change": 0.8256,
-            "pct_change": 1.38
+            "current": 61.2154,
+            "change": 1.1935,
+            "pct_change": 1.99
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -5323,51 +5386,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 172.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 174.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE38300",
           "metric_name": "Price per Sqft",
-          "3month_average": 170.33333333333334,
-          "12month_average": 169.16666666666666,
+          "3month_average": 172.33333333333334,
+          "12month_average": 169.25,
           "yoy_change": {
-            "current": 172.0,
-            "change": 3.0,
-            "pct_change": 1.78
+            "current": 174.0,
+            "change": 1.0,
+            "pct_change": 0.58
           },
           "3month_avg_yoy": {
-            "current_3mo": 170.3333,
-            "change": 3.6667,
-            "pct_change": 2.2
+            "current_3mo": 172.3333,
+            "change": 3.0,
+            "pct_change": 1.77
           }
         },
         "median_days_on_market": {
-          "latest_value": 45.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 47.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR38300",
           "metric_name": "Median Days on Market",
-          "3month_average": 53.333333333333336,
-          "12month_average": 59.833333333333336,
+          "3month_average": 47.333333333333336,
+          "12month_average": 59.75,
           "yoy_change": {
-            "current": 45.0,
+            "current": 47.0,
             "change": -1.0,
-            "pct_change": -2.17
+            "pct_change": -2.08
           },
           "3month_avg_yoy": {
-            "current_3mo": 53.3333,
-            "change": 1.6667,
-            "pct_change": 3.23
+            "current_3mo": 47.3333,
+            "change": 0.3333,
+            "pct_change": 0.71
           }
         },
         "cost_of_living": {
-          "latest_value": 5.0797,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.1388,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.0674,
+          "3month_average": 5.1269,
           "yoy_change": {
-            "current": 5.0797,
-            "change": -0.2802,
-            "pct_change": -5.23
+            "current": 5.1388,
+            "change": -0.348,
+            "pct_change": -6.34
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -5394,33 +5457,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 5.1,
-          "latest_date": "2026-04-01",
+          "latest_value": 5.3,
+          "latest_date": "2026-05-01",
           "series_id": "LASV832URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 5.433333333333334,
-          "12month_average": 5.5636363636363635,
+          "3month_average": 5.266666666666667,
+          "12month_average": 5.554545454545455,
           "yoy_change": {
-            "current": 5.1,
-            "change": -0.3,
-            "pct_change": -5.56
+            "current": 5.3,
+            "change": -0.1,
+            "pct_change": -1.85
           },
           "3month_avg_yoy": {
-            "current_3mo": 5.4333,
-            "change": -0.0667,
-            "pct_change": -1.21
+            "current_3mo": 5.2667,
+            "change": -0.1333,
+            "pct_change": -2.47
           }
         },
         "civilian_labor_force": {
-          "latest_value": 63.7638,
-          "latest_date": "2026-04-01",
+          "latest_value": 64.0577,
+          "latest_date": "2026-05-01",
           "series_id": "LASV832LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.42506666666667,
+          "3month_average": 64.20333333333333,
           "yoy_change": {
-            "current": 63.7638,
-            "change": 0.5986,
-            "pct_change": 0.95
+            "current": 64.0577,
+            "change": 0.8409,
+            "pct_change": 1.33
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -5517,50 +5580,50 @@
         },
         "price_per_sqft": {
           "latest_value": 264.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE29820",
           "metric_name": "Price per Sqft",
-          "3month_average": 264.6666666666667,
-          "12month_average": 265.3333333333333,
+          "3month_average": 264.3333333333333,
+          "12month_average": 264.9166666666667,
           "yoy_change": {
             "current": 264.0,
-            "change": -6.0,
-            "pct_change": -2.22
+            "change": -5.0,
+            "pct_change": -1.86
           },
           "3month_avg_yoy": {
-            "current_3mo": 264.6667,
+            "current_3mo": 264.3333,
             "change": -5.6667,
             "pct_change": -2.1
           }
         },
         "median_days_on_market": {
-          "latest_value": 51.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 55.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR29820",
           "metric_name": "Median Days on Market",
-          "3month_average": 51.333333333333336,
-          "12month_average": 57.5,
+          "3month_average": 52.333333333333336,
+          "12month_average": 57.916666666666664,
           "yoy_change": {
-            "current": 51.0,
+            "current": 55.0,
             "change": 5.0,
-            "pct_change": 10.87
+            "pct_change": 10.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 51.3333,
-            "change": 6.6667,
-            "pct_change": 14.93
+            "current_3mo": 52.3333,
+            "change": 5.6667,
+            "pct_change": 12.14
           }
         },
         "cost_of_living": {
           "latest_value": 7.9734,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 7.9775,
+          "3month_average": 7.9674,
           "yoy_change": {
             "current": 7.9734,
-            "change": -0.5466,
-            "pct_change": -6.42
+            "change": -0.5151,
+            "pct_change": -6.07
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -5588,32 +5651,32 @@
       "data": {
         "unemployment_rate": {
           "latest_value": 3.1,
-          "latest_date": "2026-04-01",
+          "latest_date": "2026-05-01",
           "series_id": "CINC139URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.666666666666667,
-          "12month_average": 4.054545454545455,
+          "3month_average": 3.3000000000000003,
+          "12month_average": 3.9545454545454546,
           "yoy_change": {
             "current": 3.1,
-            "change": -1.0,
-            "pct_change": -24.39
+            "change": -1.1,
+            "pct_change": -26.19
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.6667,
-            "change": -0.9333,
-            "pct_change": -20.29
+            "current_3mo": 3.3,
+            "change": -1.0667,
+            "pct_change": -24.43
           }
         },
         "civilian_labor_force": {
-          "latest_value": 63.7234,
-          "latest_date": "2026-04-01",
+          "latest_value": 63.7767,
+          "latest_date": "2026-05-01",
           "series_id": "CINC139LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 63.72186666666666,
+          "3month_average": 63.7632,
           "yoy_change": {
-            "current": 63.7234,
-            "change": -0.7217,
-            "pct_change": -1.12
+            "current": 63.7767,
+            "change": -0.6274,
+            "pct_change": -0.97
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -5709,51 +5772,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 195.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 194.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE17140",
           "metric_name": "Price per Sqft",
           "3month_average": 193.66666666666666,
           "12month_average": 191.58333333333334,
           "yoy_change": {
-            "current": 195.0,
-            "change": 2.0,
-            "pct_change": 1.04
+            "current": 194.0,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
             "current_3mo": 193.6667,
-            "change": 1.6667,
-            "pct_change": 0.87
+            "change": 0.3333,
+            "pct_change": 0.17
           }
         },
         "median_days_on_market": {
-          "latest_value": 36.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 37.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR17140",
           "metric_name": "Median Days on Market",
-          "3month_average": 39.333333333333336,
-          "12month_average": 42.333333333333336,
+          "3month_average": 36.666666666666664,
+          "12month_average": 42.75,
           "yoy_change": {
-            "current": 36.0,
-            "change": 3.0,
-            "pct_change": 9.09
+            "current": 37.0,
+            "change": 5.0,
+            "pct_change": 15.62
           },
           "3month_avg_yoy": {
-            "current_3mo": 39.3333,
-            "change": 4.6667,
-            "pct_change": 13.46
+            "current_3mo": 36.6667,
+            "change": 3.6667,
+            "pct_change": 11.11
           }
         },
         "cost_of_living": {
-          "latest_value": 5.4945,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.4663,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 5.4956,
           "yoy_change": {
-            "current": 5.4945,
-            "change": -0.3205,
-            "pct_change": -5.51
+            "current": 5.4663,
+            "change": -0.3788,
+            "pct_change": -6.48
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -5780,33 +5843,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.3,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.5,
+          "latest_date": "2026-05-01",
           "series_id": "KANS129URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.8,
-          "12month_average": 3.8545454545454545,
+          "3month_average": 3.5666666666666664,
+          "12month_average": 3.827272727272727,
           "yoy_change": {
-            "current": 3.3,
-            "change": -0.4,
-            "pct_change": -10.81
+            "current": 3.5,
+            "change": -0.3,
+            "pct_change": -7.89
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.8,
-            "change": -0.2333,
-            "pct_change": -5.79
+            "current_3mo": 3.5667,
+            "change": -0.3,
+            "pct_change": -7.76
           }
         },
         "civilian_labor_force": {
-          "latest_value": 67.9326,
-          "latest_date": "2026-04-01",
+          "latest_value": 67.706,
+          "latest_date": "2026-05-01",
           "series_id": "KANS129LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 67.84533333333333,
+          "3month_average": 67.78486666666667,
           "yoy_change": {
-            "current": 67.9326,
-            "change": 0.1727,
-            "pct_change": 0.25
+            "current": 67.706,
+            "change": -0.4768,
+            "pct_change": -0.7
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -5902,51 +5965,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 199.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 197.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE28140",
           "metric_name": "Price per Sqft",
-          "3month_average": 199.33333333333334,
-          "12month_average": 195.0,
+          "3month_average": 198.33333333333334,
+          "12month_average": 195.16666666666666,
           "yoy_change": {
-            "current": 199.0,
-            "change": 1.0,
-            "pct_change": 0.51
+            "current": 197.0,
+            "change": 2.0,
+            "pct_change": 1.03
           },
           "3month_avg_yoy": {
-            "current_3mo": 199.3333,
-            "change": 0.3333,
-            "pct_change": 0.17
+            "current_3mo": 198.3333,
+            "change": 1.0,
+            "pct_change": 0.51
           }
         },
         "median_days_on_market": {
-          "latest_value": 43.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 45.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR28140",
           "metric_name": "Median Days on Market",
           "3month_average": 43.0,
           "12month_average": 52.083333333333336,
           "yoy_change": {
-            "current": 43.0,
-            "change": -4.0,
-            "pct_change": -8.51
+            "current": 45.0,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
             "current_3mo": 43.0,
-            "change": -5.3333,
-            "pct_change": -11.03
+            "change": -3.3333,
+            "pct_change": -7.19
           }
         },
         "cost_of_living": {
-          "latest_value": 5.5633,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.5074,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.5592,
+          "3month_average": 5.5313,
           "yoy_change": {
-            "current": 5.5633,
-            "change": -0.3702,
-            "pct_change": -6.24
+            "current": 5.5074,
+            "change": -0.3362,
+            "pct_change": -5.75
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -5973,33 +6036,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 2.8,
-          "latest_date": "2026-04-01",
+          "latest_value": 2.7,
+          "latest_date": "2026-05-01",
           "series_id": "COLU139URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.433333333333333,
-          "12month_average": 3.909090909090909,
+          "3month_average": 2.966666666666667,
+          "12month_average": 3.7727272727272725,
           "yoy_change": {
-            "current": 2.8,
+            "current": 2.7,
             "change": -1.5,
-            "pct_change": -34.88
+            "pct_change": -35.71
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.4333,
-            "change": -1.2,
-            "pct_change": -25.9
+            "current_3mo": 2.9667,
+            "change": -1.4333,
+            "pct_change": -32.58
           }
         },
         "civilian_labor_force": {
-          "latest_value": 65.6679,
-          "latest_date": "2026-04-01",
+          "latest_value": 65.4506,
+          "latest_date": "2026-05-01",
           "series_id": "COLU139LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 65.80423333333333,
+          "3month_average": 65.68156666666667,
           "yoy_change": {
-            "current": 65.6679,
-            "change": -0.9606,
-            "pct_change": -1.44
+            "current": 65.4506,
+            "change": -0.997,
+            "pct_change": -1.5
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -6095,51 +6158,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 207.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 208.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE18140",
           "metric_name": "Price per Sqft",
-          "3month_average": 205.66666666666666,
-          "12month_average": 204.25,
+          "3month_average": 207.0,
+          "12month_average": 204.41666666666666,
           "yoy_change": {
-            "current": 207.0,
-            "change": -1.0,
-            "pct_change": -0.48
+            "current": 208.0,
+            "change": 2.0,
+            "pct_change": 0.97
           },
           "3month_avg_yoy": {
-            "current_3mo": 205.6667,
-            "change": -2.6667,
-            "pct_change": -1.28
+            "current_3mo": 207.0,
+            "change": -0.6667,
+            "pct_change": -0.32
           }
         },
         "median_days_on_market": {
-          "latest_value": 33.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 39.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR18140",
           "metric_name": "Median Days on Market",
-          "3month_average": 36.666666666666664,
-          "12month_average": 45.75,
+          "3month_average": 36.0,
+          "12month_average": 46.0,
           "yoy_change": {
-            "current": 33.0,
-            "change": -2.0,
-            "pct_change": -5.71
+            "current": 39.0,
+            "change": 3.0,
+            "pct_change": 8.33
           },
           "3month_avg_yoy": {
-            "current_3mo": 36.6667,
-            "change": 2.3333,
-            "pct_change": 6.8
+            "current_3mo": 36.0,
+            "change": 2.0,
+            "pct_change": 5.88
           }
         },
         "cost_of_living": {
-          "latest_value": 6.0847,
-          "latest_date": "2026-05-01",
+          "latest_value": 6.1141,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.0166,
+          "3month_average": 6.0556,
           "yoy_change": {
-            "current": 6.0847,
-            "change": -0.2126,
-            "pct_change": -3.38
+            "current": 6.1141,
+            "change": -0.1227,
+            "pct_change": -1.97
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -6166,33 +6229,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 2.6,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.0,
+          "latest_date": "2026-05-01",
           "series_id": "INDI918URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.1333333333333333,
-          "12month_average": 3.2181818181818183,
+          "3month_average": 2.933333333333333,
+          "12month_average": 3.172727272727273,
           "yoy_change": {
-            "current": 2.6,
+            "current": 3.0,
             "change": -0.4,
-            "pct_change": -13.33
+            "pct_change": -11.76
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.1333,
-            "change": -0.3,
-            "pct_change": -8.74
+            "current_3mo": 2.9333,
+            "change": -0.3667,
+            "pct_change": -11.11
           }
         },
         "civilian_labor_force": {
-          "latest_value": 66.9303,
-          "latest_date": "2026-04-01",
+          "latest_value": 67.6704,
+          "latest_date": "2026-05-01",
           "series_id": "INDI918LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 66.9009,
+          "3month_average": 67.20026666666666,
           "yoy_change": {
-            "current": 66.9303,
-            "change": -0.5117,
-            "pct_change": -0.76
+            "current": 67.6704,
+            "change": -0.1707,
+            "pct_change": -0.25
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -6288,51 +6351,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 168.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 167.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE26900",
           "metric_name": "Price per Sqft",
           "3month_average": 167.66666666666666,
-          "12month_average": 161.83333333333334,
+          "12month_average": 162.5,
           "yoy_change": {
-            "current": 168.0,
+            "current": 167.0,
             "change": 8.0,
-            "pct_change": 5.0
+            "pct_change": 5.03
           },
           "3month_avg_yoy": {
             "current_3mo": 167.6667,
-            "change": 8.6667,
-            "pct_change": 5.45
+            "change": 8.3333,
+            "pct_change": 5.23
           }
         },
         "median_days_on_market": {
-          "latest_value": 42.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 45.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR26900",
           "metric_name": "Median Days on Market",
-          "3month_average": 45.0,
-          "12month_average": 52.333333333333336,
+          "3month_average": 42.666666666666664,
+          "12month_average": 52.666666666666664,
           "yoy_change": {
-            "current": 42.0,
-            "change": 3.0,
-            "pct_change": 7.69
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 45.0,
+            "current": 45.0,
             "change": 4.0,
             "pct_change": 9.76
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 42.6667,
+            "change": 2.6667,
+            "pct_change": 6.67
           }
         },
         "cost_of_living": {
-          "latest_value": 5.1188,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.0884,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 5.0798,
           "yoy_change": {
-            "current": 5.1188,
+            "current": 5.0884,
             "change": 0.2482,
-            "pct_change": 5.1
+            "pct_change": 5.13
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -6556,33 +6619,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.0,
-          "latest_date": "2026-04-01",
+          "latest_value": 2.8,
+          "latest_date": "2026-05-01",
           "series_id": "NASH947URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.0666666666666664,
+          "3month_average": 2.9,
           "12month_average": 3.109090909090909,
           "yoy_change": {
-            "current": 3.0,
-            "change": 0.4,
-            "pct_change": 15.38
+            "current": 2.8,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.0667,
-            "change": 0.2,
-            "pct_change": 6.98
+            "current_3mo": 2.9,
+            "change": 0.1333,
+            "pct_change": 4.82
           }
         },
         "civilian_labor_force": {
-          "latest_value": 75.731,
-          "latest_date": "2026-04-01",
+          "latest_value": 75.8747,
+          "latest_date": "2026-05-01",
           "series_id": "NASH947LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 75.3286,
+          "3month_average": 75.5539,
           "yoy_change": {
-            "current": 75.731,
-            "change": 0.0151,
-            "pct_change": 0.02
+            "current": 75.8747,
+            "change": -0.6256,
+            "pct_change": -0.82
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -6678,16 +6741,16 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 263.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 260.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE34980",
           "metric_name": "Price per Sqft",
           "3month_average": 261.6666666666667,
-          "12month_average": 261.4166666666667,
+          "12month_average": 261.1666666666667,
           "yoy_change": {
-            "current": 263.0,
-            "change": -2.0,
-            "pct_change": -0.75
+            "current": 260.0,
+            "change": -3.0,
+            "pct_change": -1.14
           },
           "3month_avg_yoy": {
             "current_3mo": 261.6667,
@@ -6696,33 +6759,33 @@
           }
         },
         "median_days_on_market": {
-          "latest_value": 52.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 53.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR34980",
           "metric_name": "Median Days on Market",
-          "3month_average": 52.0,
-          "12month_average": 58.916666666666664,
+          "3month_average": 51.666666666666664,
+          "12month_average": 59.0,
           "yoy_change": {
-            "current": 52.0,
-            "change": 3.0,
-            "pct_change": 6.12
+            "current": 53.0,
+            "change": 1.0,
+            "pct_change": 1.92
           },
           "3month_avg_yoy": {
-            "current_3mo": 52.0,
-            "change": 4.3333,
-            "pct_change": 9.09
+            "current_3mo": 51.6667,
+            "change": 2.3333,
+            "pct_change": 4.73
           }
         },
         "cost_of_living": {
-          "latest_value": 7.3918,
-          "latest_date": "2026-05-01",
+          "latest_value": 7.3075,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 7.3344,
           "yoy_change": {
-            "current": 7.3918,
-            "change": -0.5092,
-            "pct_change": -6.45
+            "current": 7.3075,
+            "change": -0.5339,
+            "pct_change": -6.81
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -6749,33 +6812,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.7,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.5,
+          "latest_date": "2026-05-01",
           "series_id": "SANJ906URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.9333333333333336,
-          "12month_average": 4.254545454545455,
+          "3month_average": 3.7333333333333334,
+          "12month_average": 4.218181818181818,
           "yoy_change": {
-            "current": 3.7,
-            "change": -0.3,
-            "pct_change": -7.5
+            "current": 3.5,
+            "change": -0.5,
+            "pct_change": -12.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.9333,
-            "change": -0.2333,
-            "pct_change": -5.6
+            "current_3mo": 3.7333,
+            "change": -0.3333,
+            "pct_change": -8.2
           }
         },
         "civilian_labor_force": {
-          "latest_value": 63.9575,
-          "latest_date": "2026-04-01",
+          "latest_value": 63.7003,
+          "latest_date": "2026-05-01",
           "series_id": "SANJ906LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.30000000000001,
+          "3month_average": 64.01853333333334,
           "yoy_change": {
-            "current": 63.9575,
-            "change": -0.7696,
-            "pct_change": -1.19
+            "current": 63.7003,
+            "change": -0.4876,
+            "pct_change": -0.76
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -6871,51 +6934,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 844.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 813.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE41940",
           "metric_name": "Price per Sqft",
-          "3month_average": 844.6666666666666,
-          "12month_average": 825.9166666666666,
+          "3month_average": 834.3333333333334,
+          "12month_average": 822.4166666666666,
           "yoy_change": {
-            "current": 844.0,
-            "change": -26.0,
-            "pct_change": -2.99
+            "current": 813.0,
+            "change": -42.0,
+            "pct_change": -4.91
           },
           "3month_avg_yoy": {
-            "current_3mo": 844.6667,
-            "change": -25.6667,
-            "pct_change": -2.95
+            "current_3mo": 834.3333,
+            "change": -29.6667,
+            "pct_change": -3.43
           }
         },
         "median_days_on_market": {
-          "latest_value": 29.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 37.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR41940",
           "metric_name": "Median Days on Market",
-          "3month_average": 27.0,
-          "12month_average": 35.583333333333336,
+          "3month_average": 31.333333333333332,
+          "12month_average": 35.833333333333336,
           "yoy_change": {
-            "current": 29.0,
-            "change": 2.0,
-            "pct_change": 7.41
+            "current": 37.0,
+            "change": 3.0,
+            "pct_change": 8.82
           },
           "3month_avg_yoy": {
-            "current_3mo": 27.0,
-            "change": 2.6667,
-            "pct_change": 10.96
+            "current_3mo": 31.3333,
+            "change": 3.0,
+            "pct_change": 10.59
           }
         },
         "cost_of_living": {
-          "latest_value": 15.3427,
-          "latest_date": "2026-05-01",
+          "latest_value": 14.7791,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 15.5013,
+          "3month_average": 15.3117,
           "yoy_change": {
-            "current": 15.3427,
-            "change": -0.9831,
-            "pct_change": -6.02
+            "current": 14.7791,
+            "change": -1.2652,
+            "pct_change": -7.89
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -6942,33 +7005,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.5,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.7,
+          "latest_date": "2026-05-01",
           "series_id": "VIRG251URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.8,
-          "12month_average": 3.709090909090909,
+          "3month_average": 3.7,
+          "12month_average": 3.7363636363636363,
           "yoy_change": {
-            "current": 3.5,
-            "change": 0.4,
-            "pct_change": 12.9
+            "current": 3.7,
+            "change": 0.3,
+            "pct_change": 8.82
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.8,
-            "change": 0.5,
-            "pct_change": 15.15
+            "current_3mo": 3.7,
+            "change": 0.4,
+            "pct_change": 12.12
           }
         },
         "civilian_labor_force": {
-          "latest_value": 59.7478,
-          "latest_date": "2026-04-01",
+          "latest_value": 59.7041,
+          "latest_date": "2026-05-01",
           "series_id": "VIRG251LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 59.801566666666666,
+          "3month_average": 59.76776666666667,
           "yoy_change": {
-            "current": 59.7478,
-            "change": -0.6549,
-            "pct_change": -1.08
+            "current": 59.7041,
+            "change": -0.7924,
+            "pct_change": -1.31
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -7065,33 +7128,33 @@
         },
         "price_per_sqft": {
           "latest_value": 224.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE47260",
           "metric_name": "Price per Sqft",
-          "3month_average": 222.66666666666666,
-          "12month_average": 219.08333333333334,
+          "3month_average": 223.66666666666666,
+          "12month_average": 219.5,
           "yoy_change": {
             "current": 224.0,
-            "change": 4.0,
-            "pct_change": 1.82
+            "change": 5.0,
+            "pct_change": 2.28
           },
           "3month_avg_yoy": {
-            "current_3mo": 222.6667,
-            "change": 4.3333,
-            "pct_change": 1.98
+            "current_3mo": 223.6667,
+            "change": 4.6667,
+            "pct_change": 2.13
           }
         },
         "median_days_on_market": {
-          "latest_value": 33.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 37.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR47260",
           "metric_name": "Median Days on Market",
           "3month_average": 35.0,
-          "12month_average": 42.0,
+          "12month_average": 41.916666666666664,
           "yoy_change": {
-            "current": 33.0,
-            "change": -3.0,
-            "pct_change": -8.33
+            "current": 37.0,
+            "change": -1.0,
+            "pct_change": -2.63
           },
           "3month_avg_yoy": {
             "current_3mo": 35.0,
@@ -7101,14 +7164,14 @@
         },
         "cost_of_living": {
           "latest_value": 6.351,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.2841,
+          "3month_average": 6.3123,
           "yoy_change": {
             "current": 6.351,
-            "change": -0.2536,
-            "pct_change": -3.84
+            "change": -0.2236,
+            "pct_change": -3.4
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -7135,33 +7198,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.8,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.7,
+          "latest_date": "2026-05-01",
           "series_id": "JACK212URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.833333333333333,
-          "12month_average": 4.590909090909091,
+          "3month_average": 4.733333333333333,
+          "12month_average": 4.681818181818182,
           "yoy_change": {
-            "current": 4.8,
-            "change": 1.3,
-            "pct_change": 37.14
+            "current": 4.7,
+            "change": 1.0,
+            "pct_change": 27.03
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.8333,
-            "change": 1.2667,
-            "pct_change": 35.51
+            "current_3mo": 4.7333,
+            "change": 1.1333,
+            "pct_change": 31.48
           }
         },
         "civilian_labor_force": {
-          "latest_value": 58.9834,
-          "latest_date": "2026-04-01",
+          "latest_value": 59.0718,
+          "latest_date": "2026-05-01",
           "series_id": "JACK212LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 59.0573,
+          "3month_average": 59.02316666666667,
           "yoy_change": {
-            "current": 58.9834,
-            "change": -0.2886,
-            "pct_change": -0.49
+            "current": 59.0718,
+            "change": -0.0881,
+            "pct_change": -0.15
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -7257,51 +7320,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 218.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 217.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE27260",
           "metric_name": "Price per Sqft",
-          "3month_average": 218.0,
-          "12month_average": 217.08333333333334,
+          "3month_average": 217.66666666666666,
+          "12month_average": 216.58333333333334,
           "yoy_change": {
-            "current": 218.0,
+            "current": 217.0,
             "change": -6.0,
-            "pct_change": -2.68
+            "pct_change": -2.69
           },
           "3month_avg_yoy": {
-            "current_3mo": 218.0,
-            "change": -5.0,
-            "pct_change": -2.24
+            "current_3mo": 217.6667,
+            "change": -5.6667,
+            "pct_change": -2.54
           }
         },
         "median_days_on_market": {
           "latest_value": 59.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR27260",
           "metric_name": "Median Days on Market",
-          "3month_average": 58.333333333333336,
-          "12month_average": 71.08333333333333,
+          "3month_average": 58.666666666666664,
+          "12month_average": 70.41666666666667,
           "yoy_change": {
             "current": 59.0,
-            "change": -1.0,
-            "pct_change": -1.67
+            "change": -8.0,
+            "pct_change": -11.94
           },
           "3month_avg_yoy": {
-            "current_3mo": 58.3333,
-            "change": 0.3333,
-            "pct_change": 0.57
+            "current_3mo": 58.6667,
+            "change": -2.6667,
+            "pct_change": -4.35
           }
         },
         "cost_of_living": {
-          "latest_value": 6.0321,
-          "latest_date": "2026-05-01",
+          "latest_value": 6.0044,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.9298,
+          "3month_average": 5.9208,
           "yoy_change": {
-            "current": 6.0321,
-            "change": -0.1015,
-            "pct_change": -1.66
+            "current": 6.0044,
+            "change": -0.1018,
+            "pct_change": -1.67
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -7454,51 +7517,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 365.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 366.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE39300",
           "metric_name": "Price per Sqft",
-          "3month_average": 360.6666666666667,
-          "12month_average": 345.4166666666667,
+          "3month_average": 363.3333333333333,
+          "12month_average": 347.9166666666667,
           "yoy_change": {
-            "current": 365.0,
+            "current": 366.0,
             "change": 30.0,
-            "pct_change": 8.96
+            "pct_change": 8.93
           },
           "3month_avg_yoy": {
-            "current_3mo": 360.6667,
-            "change": 29.0,
-            "pct_change": 8.74
+            "current_3mo": 363.3333,
+            "change": 28.3333,
+            "pct_change": 8.46
           }
         },
         "median_days_on_market": {
-          "latest_value": 30.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 32.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR39300",
           "metric_name": "Median Days on Market",
-          "3month_average": 35.0,
-          "12month_average": 40.166666666666664,
+          "3month_average": 29.666666666666668,
+          "12month_average": 40.25,
           "yoy_change": {
-            "current": 30.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 32.0,
+            "change": 1.0,
+            "pct_change": 3.23
           },
           "3month_avg_yoy": {
-            "current_3mo": 35.0,
-            "change": 3.3333,
-            "pct_change": 10.53
+            "current_3mo": 29.6667,
+            "change": -0.3333,
+            "pct_change": -1.11
           }
         },
         "cost_of_living": {
-          "latest_value": 10.0996,
-          "latest_date": "2026-05-01",
+          "latest_value": 10.1273,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 9.8777,
+          "3month_average": 9.9507,
           "yoy_change": {
-            "current": 10.0996,
-            "change": 0.5799,
-            "pct_change": 6.09
+            "current": 10.1273,
+            "change": 0.5791,
+            "pct_change": 6.07
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -7525,33 +7588,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.7,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.2,
+          "latest_date": "2026-05-01",
           "series_id": "MILW355URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.1000000000000005,
-          "12month_average": 3.6545454545454548,
+          "3month_average": 3.7,
+          "12month_average": 3.6363636363636367,
           "yoy_change": {
-            "current": 3.7,
-            "change": 0.3,
-            "pct_change": 8.82
+            "current": 3.2,
+            "change": -0.2,
+            "pct_change": -5.88
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.1,
-            "change": 0.4,
-            "pct_change": 10.81
+            "current_3mo": 3.7,
+            "change": 0.1667,
+            "pct_change": 4.72
           }
         },
         "civilian_labor_force": {
-          "latest_value": 62.9641,
-          "latest_date": "2026-04-01",
+          "latest_value": 62.9647,
+          "latest_date": "2026-05-01",
           "series_id": "MILW355LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 63.18353333333334,
+          "3month_average": 63.07426666666667,
           "yoy_change": {
-            "current": 62.9641,
-            "change": -0.3664,
-            "pct_change": -0.58
+            "current": 62.9647,
+            "change": -0.089,
+            "pct_change": -0.14
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -7647,51 +7710,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 227.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 230.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE33340",
           "metric_name": "Price per Sqft",
-          "3month_average": 227.33333333333334,
-          "12month_average": 223.58333333333334,
+          "3month_average": 228.0,
+          "12month_average": 224.0,
           "yoy_change": {
-            "current": 227.0,
+            "current": 230.0,
             "change": 5.0,
-            "pct_change": 2.25
+            "pct_change": 2.22
           },
           "3month_avg_yoy": {
-            "current_3mo": 227.3333,
-            "change": 8.0,
-            "pct_change": 3.65
+            "current_3mo": 228.0,
+            "change": 6.0,
+            "pct_change": 2.7
           }
         },
         "median_days_on_market": {
-          "latest_value": 32.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 33.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR33340",
           "metric_name": "Median Days on Market",
-          "3month_average": 34.0,
-          "12month_average": 36.916666666666664,
+          "3month_average": 33.666666666666664,
+          "12month_average": 37.25,
           "yoy_change": {
-            "current": 32.0,
-            "change": 3.0,
-            "pct_change": 10.34
+            "current": 33.0,
+            "change": 4.0,
+            "pct_change": 13.79
           },
           "3month_avg_yoy": {
-            "current_3mo": 34.0,
-            "change": 4.0,
-            "pct_change": 13.33
+            "current_3mo": 33.6667,
+            "change": 4.3333,
+            "pct_change": 14.77
           }
         },
         "cost_of_living": {
-          "latest_value": 6.226,
-          "latest_date": "2026-05-01",
+          "latest_value": 6.3083,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.2684,
+          "3month_average": 6.2868,
           "yoy_change": {
-            "current": 6.226,
-            "change": 0.0179,
-            "pct_change": 0.29
+            "current": 6.3083,
+            "change": 0.0163,
+            "pct_change": 0.26
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -7719,32 +7782,32 @@
       "data": {
         "unemployment_rate": {
           "latest_value": 3.0,
-          "latest_date": "2026-04-01",
+          "latest_date": "2026-05-01",
           "series_id": "RALE537URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.1,
-          "12month_average": 3.2545454545454544,
+          "3month_average": 3.0,
+          "12month_average": 3.2363636363636363,
           "yoy_change": {
             "current": 3.0,
-            "change": 0.1,
-            "pct_change": 3.45
+            "change": -0.2,
+            "pct_change": -6.25
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.1,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current_3mo": 3.0,
+            "change": -0.1,
+            "pct_change": -3.23
           }
         },
         "civilian_labor_force": {
-          "latest_value": 68.7563,
-          "latest_date": "2026-04-01",
+          "latest_value": 68.6836,
+          "latest_date": "2026-05-01",
           "series_id": "RALE537LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 68.88863333333333,
+          "3month_average": 68.8258,
           "yoy_change": {
-            "current": 68.7563,
-            "change": 0.6135,
-            "pct_change": 0.9
+            "current": 68.6836,
+            "change": 0.3986,
+            "pct_change": 0.58
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -7840,51 +7903,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 220.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 218.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE39580",
           "metric_name": "Price per Sqft",
           "3month_average": 218.66666666666666,
-          "12month_average": 219.33333333333334,
+          "12month_average": 218.91666666666666,
           "yoy_change": {
-            "current": 220.0,
-            "change": -3.0,
-            "pct_change": -1.35
+            "current": 218.0,
+            "change": -5.0,
+            "pct_change": -2.24
           },
           "3month_avg_yoy": {
             "current_3mo": 218.6667,
-            "change": -3.6667,
-            "pct_change": -1.65
+            "change": -4.3333,
+            "pct_change": -1.94
           }
         },
         "median_days_on_market": {
-          "latest_value": 46.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 50.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR39580",
           "metric_name": "Median Days on Market",
-          "3month_average": 45.333333333333336,
+          "3month_average": 46.666666666666664,
           "12month_average": 56.916666666666664,
           "yoy_change": {
-            "current": 46.0,
-            "change": 1.0,
-            "pct_change": 2.22
+            "current": 50.0,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 45.3333,
-            "change": 1.3333,
-            "pct_change": 3.03
+            "current_3mo": 46.6667,
+            "change": 0.6667,
+            "pct_change": 1.45
           }
         },
         "cost_of_living": {
-          "latest_value": 5.7262,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.6741,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 5.7403,
           "yoy_change": {
-            "current": 5.7262,
-            "change": -0.3684,
-            "pct_change": -6.04
+            "current": 5.6741,
+            "change": -0.4204,
+            "pct_change": -6.9
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -7911,33 +7974,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.6,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.2,
+          "latest_date": "2026-05-01",
           "series_id": "OKLA440URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.6666666666666665,
-          "12month_average": 3.5454545454545454,
+          "3month_average": 3.7333333333333334,
+          "12month_average": 3.6545454545454548,
           "yoy_change": {
-            "current": 3.6,
-            "change": 1.1,
-            "pct_change": 44.0
+            "current": 4.2,
+            "change": 1.2,
+            "pct_change": 40.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.6667,
-            "change": 0.8333,
-            "pct_change": 29.41
+            "current_3mo": 3.7333,
+            "change": 0.9667,
+            "pct_change": 34.94
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.5605,
-          "latest_date": "2026-04-01",
+          "latest_value": 65.6525,
+          "latest_date": "2026-05-01",
           "series_id": "OKLA440LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.98483333333333,
+          "3month_average": 65.13013333333333,
           "yoy_change": {
-            "current": 64.5605,
-            "change": -2.0014,
-            "pct_change": -3.01
+            "current": 65.6525,
+            "change": -0.71,
+            "pct_change": -1.07
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -8033,51 +8096,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 173.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 172.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE36420",
           "metric_name": "Price per Sqft",
           "3month_average": 172.66666666666666,
-          "12month_average": 171.33333333333334,
+          "12month_average": 171.25,
           "yoy_change": {
-            "current": 173.0,
+            "current": 172.0,
             "change": -1.0,
-            "pct_change": -0.57
+            "pct_change": -0.58
           },
           "3month_avg_yoy": {
             "current_3mo": 172.6667,
-            "change": -1.3333,
-            "pct_change": -0.77
+            "change": -1.0,
+            "pct_change": -0.58
           }
         },
         "median_days_on_market": {
-          "latest_value": 49.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 51.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR36420",
           "metric_name": "Median Days on Market",
-          "3month_average": 51.333333333333336,
-          "12month_average": 54.166666666666664,
+          "3month_average": 50.333333333333336,
+          "12month_average": 54.666666666666664,
           "yoy_change": {
-            "current": 49.0,
+            "current": 51.0,
             "change": 6.0,
-            "pct_change": 13.95
+            "pct_change": 13.33
           },
           "3month_avg_yoy": {
-            "current_3mo": 51.3333,
-            "change": 7.0,
-            "pct_change": 15.79
+            "current_3mo": 50.3333,
+            "change": 6.6667,
+            "pct_change": 15.27
           }
         },
         "cost_of_living": {
-          "latest_value": 5.0763,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.0469,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 5.0774,
           "yoy_change": {
-            "current": 5.0763,
-            "change": -0.3629,
-            "pct_change": -6.67
+            "current": 5.0469,
+            "change": -0.361,
+            "pct_change": -6.68
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -8104,33 +8167,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.0,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.6,
+          "latest_date": "2026-05-01",
           "series_id": "LOIURN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.333333333333333,
-          "12month_average": 4.1,
+          "3month_average": 4.366666666666666,
+          "12month_average": 4.163636363636364,
           "yoy_change": {
-            "current": 4.0,
-            "change": -0.3,
-            "pct_change": -6.98
+            "current": 4.6,
+            "change": 0.6,
+            "pct_change": 15.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.3333,
-            "change": -0.2333,
-            "pct_change": -5.11
+            "current_3mo": 4.3667,
+            "change": 0.1333,
+            "pct_change": 3.15
           }
         },
         "civilian_labor_force": {
-          "latest_value": 61.8477,
-          "latest_date": "2026-04-01",
+          "latest_value": 62.6502,
+          "latest_date": "2026-05-01",
           "series_id": "LOILFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 61.92016666666667,
+          "3month_average": 62.2376,
           "yoy_change": {
-            "current": 61.8477,
-            "change": -0.8842,
-            "pct_change": -1.41
+            "current": 62.6502,
+            "change": -0.6093,
+            "pct_change": -0.96
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -8226,50 +8289,50 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 180.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 179.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE31140",
           "metric_name": "Price per Sqft",
-          "3month_average": 180.0,
+          "3month_average": 179.66666666666666,
           "12month_average": 178.91666666666666,
           "yoy_change": {
-            "current": 180.0,
+            "current": 179.0,
             "change": 0.0,
             "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 180.0,
-            "change": 1.6667,
-            "pct_change": 0.93
+            "current_3mo": 179.6667,
+            "change": 0.6667,
+            "pct_change": 0.37
           }
         },
         "median_days_on_market": {
-          "latest_value": 38.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 40.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR31140",
           "metric_name": "Median Days on Market",
-          "3month_average": 40.333333333333336,
-          "12month_average": 43.5,
+          "3month_average": 38.666666666666664,
+          "12month_average": 43.666666666666664,
           "yoy_change": {
-            "current": 38.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 40.0,
+            "change": 2.0,
+            "pct_change": 5.26
           },
           "3month_avg_yoy": {
-            "current_3mo": 40.3333,
-            "change": 1.0,
-            "pct_change": 2.54
+            "current_3mo": 38.6667,
+            "change": 0.3333,
+            "pct_change": 0.87
           }
         },
         "cost_of_living": {
-          "latest_value": 5.7896,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.7575,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 5.7655,
+          "3month_average": 5.7549,
           "yoy_change": {
-            "current": 5.7896,
-            "change": -0.0678,
+            "current": 5.7575,
+            "change": -0.0674,
             "pct_change": -1.16
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
@@ -8297,33 +8360,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.4,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.5,
+          "latest_date": "2026-05-01",
           "series_id": "RICH051URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.6333333333333333,
-          "12month_average": 3.518181818181818,
+          "3month_average": 3.533333333333333,
+          "12month_average": 3.5454545454545454,
           "yoy_change": {
-            "current": 3.4,
-            "change": 0.4,
-            "pct_change": 13.33
+            "current": 3.5,
+            "change": 0.3,
+            "pct_change": 9.37
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.6333,
-            "change": 0.4333,
-            "pct_change": 13.54
+            "current_3mo": 3.5333,
+            "change": 0.3667,
+            "pct_change": 11.58
           }
         },
         "civilian_labor_force": {
-          "latest_value": 63.9995,
-          "latest_date": "2026-04-01",
+          "latest_value": 64.0112,
+          "latest_date": "2026-05-01",
           "series_id": "RICH051LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.00829999999999,
+          "3month_average": 64.04813333333333,
           "yoy_change": {
-            "current": 63.9995,
-            "change": -0.6009,
-            "pct_change": -0.93
+            "current": 64.0112,
+            "change": -0.6328,
+            "pct_change": -0.98
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -8419,51 +8482,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 232.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 229.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE40060",
           "metric_name": "Price per Sqft",
-          "3month_average": 232.33333333333334,
-          "12month_average": 227.83333333333334,
+          "3month_average": 231.33333333333334,
+          "12month_average": 228.08333333333334,
           "yoy_change": {
-            "current": 232.0,
-            "change": 5.0,
-            "pct_change": 2.2
+            "current": 229.0,
+            "change": 3.0,
+            "pct_change": 1.33
           },
           "3month_avg_yoy": {
-            "current_3mo": 232.3333,
+            "current_3mo": 231.3333,
             "change": 4.3333,
-            "pct_change": 1.9
+            "pct_change": 1.91
           }
         },
         "median_days_on_market": {
-          "latest_value": 36.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 37.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR40060",
           "metric_name": "Median Days on Market",
-          "3month_average": 37.666666666666664,
-          "12month_average": 45.833333333333336,
+          "3month_average": 37.0,
+          "12month_average": 45.333333333333336,
           "yoy_change": {
-            "current": 36.0,
-            "change": -1.0,
-            "pct_change": -2.7
+            "current": 37.0,
+            "change": -6.0,
+            "pct_change": -13.95
           },
           "3month_avg_yoy": {
-            "current_3mo": 37.6667,
-            "change": -1.3333,
-            "pct_change": -3.42
+            "current_3mo": 37.0,
+            "change": -1.6667,
+            "pct_change": -4.31
           }
         },
         "cost_of_living": {
-          "latest_value": 6.4444,
-          "latest_date": "2026-05-01",
+          "latest_value": 6.3611,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.4543,
+          "3month_average": 6.4265,
           "yoy_change": {
-            "current": 6.4444,
-            "change": -0.0524,
-            "pct_change": -0.81
+            "current": 6.3611,
+            "change": -0.1071,
+            "pct_change": -1.66
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -8491,32 +8554,32 @@
       "data": {
         "unemployment_rate": {
           "latest_value": 4.1,
-          "latest_date": "2026-04-01",
+          "latest_date": "2026-05-01",
           "series_id": "MPHURN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.333333333333333,
-          "12month_average": 4.4,
+          "3month_average": 4.133333333333333,
+          "12month_average": 4.409090909090909,
           "yoy_change": {
             "current": 4.1,
-            "change": 0.3,
-            "pct_change": 7.89
+            "change": 0.1,
+            "pct_change": 2.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.3333,
-            "change": 0.1667,
-            "pct_change": 4.0
+            "current_3mo": 4.1333,
+            "change": 0.1,
+            "pct_change": 2.48
           }
         },
         "civilian_labor_force": {
-          "latest_value": 59.9657,
-          "latest_date": "2026-04-01",
+          "latest_value": 59.99,
+          "latest_date": "2026-05-01",
           "series_id": "MPHLFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 59.85893333333333,
+          "3month_average": 59.86136666666667,
           "yoy_change": {
-            "current": 59.9657,
-            "change": -0.5414,
-            "pct_change": -0.89
+            "current": 59.99,
+            "change": -0.6992,
+            "pct_change": -1.15
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -8613,46 +8676,46 @@
         },
         "price_per_sqft": {
           "latest_value": 155.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE32820",
           "metric_name": "Price per Sqft",
-          "3month_average": 154.33333333333334,
-          "12month_average": 157.25,
+          "3month_average": 155.0,
+          "12month_average": 156.41666666666666,
           "yoy_change": {
             "current": 155.0,
             "change": -10.0,
             "pct_change": -6.06
           },
           "3month_avg_yoy": {
-            "current_3mo": 154.3333,
-            "change": -10.3333,
-            "pct_change": -6.28
+            "current_3mo": 155.0,
+            "change": -10.0,
+            "pct_change": -6.06
           }
         },
         "median_days_on_market": {
-          "latest_value": 58.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 64.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR32820",
           "metric_name": "Median Days on Market",
-          "3month_average": 58.0,
-          "12month_average": 66.66666666666667,
+          "3month_average": 58.666666666666664,
+          "12month_average": 67.16666666666667,
           "yoy_change": {
-            "current": 58.0,
-            "change": 1.0,
-            "pct_change": 1.75
+            "current": 64.0,
+            "change": 6.0,
+            "pct_change": 10.34
           },
           "3month_avg_yoy": {
-            "current_3mo": 58.0,
-            "change": 1.0,
-            "pct_change": 1.75
+            "current_3mo": 58.6667,
+            "change": 1.6667,
+            "pct_change": 2.92
           }
         },
         "cost_of_living": {
           "latest_value": 4.6617,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 4.7298,
+          "3month_average": 4.7502,
           "yoy_change": {
             "current": 4.6617,
             "change": -0.8146,
@@ -8683,33 +8746,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.6,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.4,
+          "latest_date": "2026-05-01",
           "series_id": "SALT649URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.8666666666666667,
+          "3month_average": 3.6333333333333333,
           "12month_average": 3.727272727272727,
           "yoy_change": {
-            "current": 3.6,
-            "change": 0.2,
-            "pct_change": 5.88
+            "current": 3.4,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.8667,
-            "change": 0.2667,
-            "pct_change": 7.41
+            "current_3mo": 3.6333,
+            "change": 0.1667,
+            "pct_change": 4.81
           }
         },
         "civilian_labor_force": {
-          "latest_value": 71.2387,
-          "latest_date": "2026-04-01",
+          "latest_value": 71.9618,
+          "latest_date": "2026-05-01",
           "series_id": "SALT649LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 71.4511,
+          "3month_average": 71.53903333333334,
           "yoy_change": {
-            "current": 71.2387,
-            "change": -0.758,
-            "pct_change": -1.05
+            "current": 71.9618,
+            "change": -0.0428,
+            "pct_change": -0.06
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -8806,46 +8869,46 @@
         },
         "price_per_sqft": {
           "latest_value": 266.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE41620",
           "metric_name": "Price per Sqft",
-          "3month_average": 264.6666666666667,
-          "12month_average": 261.4166666666667,
+          "3month_average": 265.6666666666667,
+          "12month_average": 261.5,
           "yoy_change": {
             "current": 266.0,
             "change": 1.0,
             "pct_change": 0.38
           },
           "3month_avg_yoy": {
-            "current_3mo": 264.6667,
-            "change": -0.3333,
-            "pct_change": -0.13
+            "current_3mo": 265.6667,
+            "change": 0.6667,
+            "pct_change": 0.25
           }
         },
         "median_days_on_market": {
-          "latest_value": 45.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 50.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR41620",
           "metric_name": "Median Days on Market",
-          "3month_average": 44.666666666666664,
-          "12month_average": 55.666666666666664,
+          "3month_average": 46.333333333333336,
+          "12month_average": 55.833333333333336,
           "yoy_change": {
-            "current": 45.0,
-            "change": 1.0,
-            "pct_change": 2.27
+            "current": 50.0,
+            "change": 2.0,
+            "pct_change": 4.17
           },
           "3month_avg_yoy": {
-            "current_3mo": 44.6667,
-            "change": 0.3333,
-            "pct_change": 0.75
+            "current_3mo": 46.3333,
+            "change": 1.0,
+            "pct_change": 2.21
           }
         },
         "cost_of_living": {
           "latest_value": 6.8468,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.769,
+          "3month_average": 6.7945,
           "yoy_change": {
             "current": 6.8468,
             "change": -0.2387,
@@ -8876,33 +8939,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 2.4,
-          "latest_date": "2026-04-01",
+          "latest_value": 3.2,
+          "latest_date": "2026-05-01",
           "series_id": "BIRM801URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 2.7,
-          "12month_average": 2.6363636363636362,
+          "3month_average": 2.7666666666666666,
+          "12month_average": 2.7181818181818183,
           "yoy_change": {
-            "current": 2.4,
-            "change": 0.1,
-            "pct_change": 4.35
+            "current": 3.2,
+            "change": 0.9,
+            "pct_change": 39.13
           },
           "3month_avg_yoy": {
-            "current_3mo": 2.7,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current_3mo": 2.7667,
+            "change": 0.3,
+            "pct_change": 12.16
           }
         },
         "civilian_labor_force": {
-          "latest_value": 59.668,
-          "latest_date": "2026-04-01",
+          "latest_value": 59.6948,
+          "latest_date": "2026-05-01",
           "series_id": "BIRM801LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 60.1019,
+          "3month_average": 59.925266666666666,
           "yoy_change": {
-            "current": 59.668,
-            "change": -0.6211,
-            "pct_change": -1.03
+            "current": 59.6948,
+            "change": -0.4649,
+            "pct_change": -0.77
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -8998,51 +9061,51 @@
           }
         },
         "price_per_sqft": {
-          "latest_value": 161.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 160.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE13820",
           "metric_name": "Price per Sqft",
           "3month_average": 160.66666666666666,
-          "12month_average": 159.25,
+          "12month_average": 159.0,
           "yoy_change": {
-            "current": 161.0,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 160.0,
+            "change": -3.0,
+            "pct_change": -1.84
           },
           "3month_avg_yoy": {
             "current_3mo": 160.6667,
-            "change": 1.0,
-            "pct_change": 0.63
+            "change": -0.6667,
+            "pct_change": -0.41
           }
         },
         "median_days_on_market": {
           "latest_value": 54.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR13820",
           "metric_name": "Median Days on Market",
-          "3month_average": 54.0,
+          "3month_average": 53.333333333333336,
           "12month_average": 61.166666666666664,
           "yoy_change": {
             "current": 54.0,
-            "change": 3.0,
-            "pct_change": 5.88
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 54.0,
-            "change": 2.3333,
-            "pct_change": 4.52
+            "current_3mo": 53.3333,
+            "change": 1.6667,
+            "pct_change": 3.23
           }
         },
         "cost_of_living": {
-          "latest_value": 4.9085,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.878,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
           "3month_average": 4.8999,
           "yoy_change": {
-            "current": 4.9085,
-            "change": -0.0606,
-            "pct_change": -1.22
+            "current": 4.878,
+            "change": -0.1528,
+            "pct_change": -3.04
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -9069,33 +9132,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 8.1,
-          "latest_date": "2026-04-01",
+          "latest_value": 7.4,
+          "latest_date": "2026-05-01",
           "series_id": "FRES406URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 8.7,
-          "12month_average": 8.309090909090909,
+          "3month_average": 8.133333333333333,
+          "12month_average": 8.254545454545454,
           "yoy_change": {
-            "current": 8.1,
-            "change": -0.5,
-            "pct_change": -5.81
+            "current": 7.4,
+            "change": -0.6,
+            "pct_change": -7.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 8.7,
-            "change": -0.4,
-            "pct_change": -4.4
+            "current_3mo": 8.1333,
+            "change": -0.5333,
+            "pct_change": -6.15
           }
         },
         "civilian_labor_force": {
-          "latest_value": 60.2369,
-          "latest_date": "2026-04-01",
+          "latest_value": 60.495,
+          "latest_date": "2026-05-01",
           "series_id": "FRES406LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 60.45256666666666,
+          "3month_average": 60.348099999999995,
           "yoy_change": {
-            "current": 60.2369,
-            "change": -0.1229,
-            "pct_change": -0.2
+            "current": 60.495,
+            "change": 0.0001,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -9188,51 +9251,51 @@
           "3month_avg_yoy": null
         },
         "price_per_sqft": {
-          "latest_value": 261.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 263.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE23420",
           "metric_name": "Price per Sqft",
-          "3month_average": 261.3333333333333,
+          "3month_average": 262.0,
           "12month_average": 261.0,
           "yoy_change": {
-            "current": 261.0,
-            "change": -2.0,
-            "pct_change": -0.76
+            "current": 263.0,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 261.3333,
-            "change": -1.3333,
-            "pct_change": -0.51
+            "current_3mo": 262.0,
+            "change": -0.6667,
+            "pct_change": -0.25
           }
         },
         "median_days_on_market": {
-          "latest_value": 52.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 55.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR23420",
           "metric_name": "Median Days on Market",
-          "3month_average": 51.333333333333336,
-          "12month_average": 56.75,
+          "3month_average": 52.333333333333336,
+          "12month_average": 57.0,
           "yoy_change": {
-            "current": 52.0,
-            "change": 5.0,
-            "pct_change": 10.64
+            "current": 55.0,
+            "change": 3.0,
+            "pct_change": 5.77
           },
           "3month_avg_yoy": {
-            "current_3mo": 51.3333,
-            "change": 4.3333,
-            "pct_change": 9.22
+            "current_3mo": 52.3333,
+            "change": 3.3333,
+            "pct_change": 6.8
           }
         },
         "cost_of_living": {
-          "latest_value": 7.8004,
-          "latest_date": "2026-05-01",
+          "latest_value": 7.8601,
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 7.9144,
+          "3month_average": 7.9346,
           "yoy_change": {
-            "current": 7.8004,
-            "change": -0.5942,
-            "pct_change": -7.08
+            "current": 7.8601,
+            "change": -0.5344,
+            "pct_change": -6.37
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -9259,33 +9322,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.6,
-          "latest_date": "2026-04-01",
+          "latest_value": 4.4,
+          "latest_date": "2026-05-01",
           "series_id": "GRAN326URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.8666666666666667,
+          "3month_average": 4.033333333333333,
           "12month_average": 4.236363636363636,
           "yoy_change": {
-            "current": 3.6,
-            "change": -0.6,
-            "pct_change": -14.29
+            "current": 4.4,
+            "change": -0.1,
+            "pct_change": -2.22
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.8667,
-            "change": -0.6333,
-            "pct_change": -14.07
+            "current_3mo": 4.0333,
+            "change": -0.4,
+            "pct_change": -9.02
           }
         },
         "civilian_labor_force": {
-          "latest_value": 61.9011,
-          "latest_date": "2026-04-01",
+          "latest_value": 62.1932,
+          "latest_date": "2026-05-01",
           "series_id": "GRAN326LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 62.83643333333333,
+          "3month_average": 62.43866666666666,
           "yoy_change": {
-            "current": 61.9011,
-            "change": -4.6391,
-            "pct_change": -6.97
+            "current": 62.1932,
+            "change": -4.1285,
+            "pct_change": -6.22
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -9382,50 +9445,50 @@
         },
         "price_per_sqft": {
           "latest_value": 224.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE24340",
           "metric_name": "Price per Sqft",
-          "3month_average": 222.0,
-          "12month_average": 215.25,
+          "3month_average": 223.33333333333334,
+          "12month_average": 216.33333333333334,
           "yoy_change": {
             "current": 224.0,
-            "change": 18.0,
-            "pct_change": 8.74
+            "change": 13.0,
+            "pct_change": 6.16
           },
           "3month_avg_yoy": {
-            "current_3mo": 222.0,
-            "change": 15.6667,
-            "pct_change": 7.59
+            "current_3mo": 223.3333,
+            "change": 15.3333,
+            "pct_change": 7.37
           }
         },
         "median_days_on_market": {
-          "latest_value": 30.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 33.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR24340",
           "metric_name": "Median Days on Market",
-          "3month_average": 37.0,
-          "12month_average": 44.666666666666664,
+          "3month_average": 33.333333333333336,
+          "12month_average": 44.416666666666664,
           "yoy_change": {
-            "current": 30.0,
-            "change": -1.0,
-            "pct_change": -3.23
+            "current": 33.0,
+            "change": -3.0,
+            "pct_change": -8.33
           },
           "3month_avg_yoy": {
-            "current_3mo": 37.0,
-            "change": 3.0,
-            "pct_change": 8.82
+            "current_3mo": 33.3333,
+            "change": 0.0,
+            "pct_change": 0.0
           }
         },
         "cost_of_living": {
           "latest_value": 6.8543,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.8182,
+          "3month_average": 6.8591,
           "yoy_change": {
             "current": 6.8543,
-            "change": 0.3764,
-            "pct_change": 5.81
+            "change": 0.2191,
+            "pct_change": 3.3
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
@@ -9579,50 +9642,50 @@
         },
         "price_per_sqft": {
           "latest_value": 254.0,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "MEDLISPRIPERSQUFEE25540",
           "metric_name": "Price per Sqft",
-          "3month_average": 253.33333333333334,
-          "12month_average": 247.08333333333334,
+          "3month_average": 254.0,
+          "12month_average": 247.25,
           "yoy_change": {
             "current": 254.0,
-            "change": -4.0,
-            "pct_change": -1.55
+            "change": 2.0,
+            "pct_change": 0.79
           },
           "3month_avg_yoy": {
-            "current_3mo": 253.3333,
-            "change": -4.0,
-            "pct_change": -1.55
+            "current_3mo": 254.0,
+            "change": -2.0,
+            "pct_change": -0.78
           }
         },
         "median_days_on_market": {
-          "latest_value": 25.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 29.0,
+          "latest_date": "2026-06-01",
           "series_id": "MEDDAYONMAR25540",
           "metric_name": "Median Days on Market",
-          "3month_average": 29.666666666666668,
-          "12month_average": 37.583333333333336,
+          "3month_average": 26.333333333333332,
+          "12month_average": 37.666666666666664,
           "yoy_change": {
-            "current": 25.0,
-            "change": -5.0,
-            "pct_change": -16.67
+            "current": 29.0,
+            "change": 1.0,
+            "pct_change": 3.57
           },
           "3month_avg_yoy": {
-            "current_3mo": 29.6667,
-            "change": -0.3333,
-            "pct_change": -1.11
+            "current_3mo": 26.3333,
+            "change": -3.0,
+            "pct_change": -10.23
           }
         },
         "cost_of_living": {
           "latest_value": 6.331,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": null,
           "metric_name": "Cost of Living",
-          "3month_average": 6.355,
+          "3month_average": 6.3718,
           "yoy_change": {
             "current": 6.331,
-            "change": -0.4282,
-            "pct_change": -6.34
+            "change": -0.271,
+            "pct_change": -4.11
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },

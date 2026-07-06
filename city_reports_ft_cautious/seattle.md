@@ -1,33 +1,33 @@
 # Seattle-Tacoma-Bellevue
 
-**Grade: B (Average) | 50.1th percentile | June 2026**
+**Grade: B (Average) | 52.6th percentile | July 2026**
 
 ---
 
-The Seattle-Tacoma-Bellevue metro area has an overall grade of B, ranking 50.1th percentile out of 50 US metros, with a composite score driven largely by its strong wage growth and building permits expansion. The city's economic character is most defined by its top-tier wage growth of 7.21% year-over-year and its significant increase in building permits, up 83.04% year-over-year. These metrics suggest a city with a growing economy and increasing housing supply.
+The Seattle-Tacoma-Bellevue metro area has an overall grade of B, ranking in the 52.6th percentile among 50 US metros, with a composite score reflecting a mix of strengths and weaknesses. The city's economic character is most defined by its top-tier wage growth of 7.21% year-over-year and its strong building permits growth of 83.04% year-over-year, indicating a dynamic and expanding economy. These metrics suggest a city with a high demand for labor and a rapidly growing housing supply.
 
 **Labor Demand**
-The employment growth rate in Seattle-Tacoma-Bellevue is 0.04% year-over-year, combined with a 0.263% deviation in weekly hours above its own trend, indicating a near median labor demand composite score of 4.62. This combination signals a genuine demand expansion, albeit at a moderate pace. The slight increase in hours worked suggests that the existing workforce is shouldering a bit more of the load, but not to an extent that indicates a survivor squeeze.
+The employment growth rate in Seattle-Tacoma-Bellevue is 0.04% year-over-year, combined with a weekly hours deviation of 0.263% above its own trend, signaling a genuine demand expansion. This combination indicates that the city is adding jobs and workers are putting in more hours, suggesting a strong and growing labor market. The labor demand composite score of 4.62 reflects this near-median performance.
 
 **Unemployment**
-The unemployment rate in Seattle-Tacoma-Bellevue stands at 5.10%, ranking in the bottom tier at the 2nd percentile, which means the job market is relatively tight. This tight market implies that businesses may face challenges in hiring, as the low unemployment rate translates to more wage pressure. Companies looking to staff up may need to offer competitive salaries to attract talent.
+The unemployment rate in Seattle-Tacoma-Bellevue is 4.80%, ranking in the bottom tier at the 8th percentile, indicating a tight labor market with limited slack. This means that businesses trying to hire in this city may face challenges in finding available workers, leading to potential wage pressure. The low unemployment rate suggests that workers have strong bargaining power.
 
 **Wage Growth**
-With a year-over-year wage growth rate of 7.21%, Seattle-Tacoma-Bellevue experiences fast wage growth, ranking in the top tier at the 88th percentile. This rapid wage growth suggests that labor costs for employers are rising, but it also means that workers have increasing purchasing power. Businesses should factor in these higher labor costs when considering operations in this metro area.
+The year-over-year wage growth in Seattle-Tacoma-Bellevue is 7.21%, ranking in the top tier at the 88th percentile, indicating fast and rising labor costs for employers. This strong wage growth is good for worker purchasing power, but may pose challenges for businesses looking to control labor costs. The high wage growth rate suggests a competitive labor market.
 
 **Cost of Living**
-Seattle-Tacoma-Bellevue has a cost of living score that ranks in the 38th percentile, with a PSF of $452/sqft and average hourly earnings of $47.70, resulting in a ratio of 9.48. The fact that PSF is falling by 3.6% year-over-year is a key driver of its relatively affordable score. This affordability, relative to peers, means that the city has a talent attraction advantage without needing significant wage premiums to compensate for high living costs.
+Seattle-Tacoma-Bellevue has a cost of living score with a PSF of $444/sqft, which is decreasing by 3.5% year-over-year, and an earnings ratio of $47.70/hr, resulting in a ratio of 9.31, ranking near the median at the 45th percentile. This suggests that the city is moderately affordable, but not exceptionally so, which may impact talent attraction without wage premiums. The decreasing PSF is a positive factor in the affordability score.
 
 **Labor Force Growth**
-The civilian labor force in Seattle-Tacoma-Bellevue is shrinking at a rate of -1.17% year-over-year, indicating a contracting labor supply. This contraction implies a structural headwind for hiring, as the pool of potential workers is decreasing. Businesses may face challenges in finding qualified candidates due to this shrinking labor force.
+The civilian labor force in Seattle-Tacoma-Bellevue is growing at a rate of -0.29% year-over-year, indicating a contracting labor supply. This means that the hiring capacity in the city may be limited, posing a structural headwind for businesses looking to expand. The negative growth rate suggests that the labor pool is shrinking.
 
 **Building Permits**
-The year-over-year change in residential building permits is up by 83.04%, signaling an expansion in housing supply. This significant increase in building permits suggests that developer confidence is high, and future housing supply is expected to improve, which should lead to better affordability and easier workforce accommodation.
+The number of building permits in Seattle-Tacoma-Bellevue is increasing by 83.04% year-over-year, indicating a rapidly expanding housing supply. This suggests that the city is experiencing a surge in developer confidence, which may lead to improved affordability and a more accommodating workforce in the future. The strong growth in building permits is a positive sign for the city's housing market.
 
 **Days on Market**
-Homes in Seattle-Tacoma-Bellevue are currently sitting on the market for 36 days, with a year-over-year increase of 20.0%, ranking in the top tier at the 98th percentile. This slower market means that relocating workers may find it more accessible to purchase or rent a home, as the market is less competitive compared to faster-moving markets.
+The median days on market in Seattle-Tacoma-Bellevue is 37 days, with a year-over-year increase of 2.8%, ranking above average at the 60th percentile. This suggests that the housing market is normalizing, with homes taking slightly longer to sell, making it more accessible for relocating workers. The rising days on market indicates a slower, more buyer-friendly market.
 
 **Office Economy**
-With an office/professional worker share composite score ranking in the 78th percentile, Seattle-Tacoma-Bellevue has a deep talent pool suited for tech, finance, consulting, and HQ decisions. This city is best suited for businesses that rely on professional and office sectors, offering a competitive advantage in terms of specialized labor.
+Seattle-Tacoma-Bellevue has a deep professional talent pool, with an office economy score ranking above average at the 78th percentile. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, but less suited for industrial or logistics-dominant economies. The strong office economy suggests a high concentration of specialized roles.
 
-The Seattle-Tacoma-Bellevue metro area offers businesses a unique combination of strong wage growth, expanding housing supply, and a deep professional talent pool, making it an attractive location for certain industries. However, the single biggest risk or constraint for decision-makers is the tight labor market and shrinking labor force, which could pose significant challenges for staffing and growth plans.
+The Seattle-Tacoma-Bellevue metro area offers businesses a dynamic and expanding economy with strong wage growth and a rapidly growing housing supply. However, the city's tight labor market and moderate affordability may pose challenges for businesses looking to hire and attract talent without wage premiums, making it essential for decision-makers to factor in these constraints when considering a location in this city. Overall, the city's strengths make it an attractive location for businesses in the knowledge economy, but its weaknesses require careful consideration.

@@ -1,33 +1,33 @@
 # St. Louis
 
-**Grade: B- (Below Average) | 46.5th percentile | June 2026**
+**Grade: B- (Below Average) | 47.9th percentile | July 2026**
 
 ---
 
-St. Louis has an overall grade of B- with a composite score ranking it 46.5th percentile out of 50 US metros. The city's economic character is most defined by its below-average labor demand, with a composite score of 3.50 ranking it in the 28th percentile, and its above-average unemployment rate of 3.60%, which ranks it in the 69th percentile. These metrics suggest a city with a relatively slow job market and moderate labor availability.
+St. Louis has an overall grade of B- with a composite score ranking it 47.9th percentile out of 50 US metros. The city's economic character is most defined by its below-average labor demand, with a composite score of 3.50 ranking it in the 28th percentile, and its above-average unemployment rate of 3.60%, which ranks it in the 72nd percentile. These metrics suggest a city with a relatively tight labor market but sluggish job growth.
 
 **Labor Demand**
-The employment growth rate in St. Louis is -0.27% year-over-year, and weekly hours are deviating from the trend by +0.423%. This combination signals a contraction in labor demand, as the city is experiencing job losses while hours are slightly above trend, indicating a potential survivor squeeze. This suggests that businesses may face challenges in finding new talent, as the existing workforce is absorbing the load of eliminated roles.
+St. Louis has an employment growth rate of -0.27% and a weekly hours deviation of +0.423% from its own trend. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. The labor demand composite score of 3.50 confirms this, ranking the city in the 28th percentile.
 
 **Unemployment**
-The unemployment rate in St. Louis is 3.60%, ranking it in the 69th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as there is less slack in the labor market, and may need to offer competitive wages to attract talent. However, this also suggests that the local consumer demand is relatively strong, which could be beneficial for businesses.
+The unemployment rate in St. Louis is 3.60%, which is relatively low and ranks the city in the 72nd percentile. This indicates a tight labor market with limited slack, making it harder for businesses to hire and potentially leading to upward wage pressure. As a result, companies may need to offer competitive salaries to attract top talent.
 
 **Wage Growth**
-The year-over-year wage growth in St. Louis is +1.53%, ranking it in the 20th percentile, indicating stagnant wage growth. This suggests that labor costs for employers are not rising rapidly, but worker purchasing power is also not increasing significantly. As a result, businesses may not face significant pressure to increase wages, but may also not benefit from a highly productive workforce with strong purchasing power.
+The year-over-year wage growth rate in St. Louis is +1.53%, which is below average and ranks the city in the 20th percentile. This moderate wage growth suggests that labor costs for employers are rising, but at a slower pace than in other cities. While this may be beneficial for workers' purchasing power, it also indicates weaker bargaining power.
 
 **Cost of Living**
-St. Louis has a cost of living percentile rank of 56th, with a PSF of $166/sqft and average hourly earnings of $37.16/hr, resulting in a ratio of 4.47. This indicates that the city is near the median in terms of affordability, neither particularly expensive nor cheap. This means that businesses may not have a significant talent attraction advantage due to low costs, but also do not need to offer large wage premiums to compensate for high costs.
+St. Louis has a cost of living score that ranks it in the 69th percentile, with a PSF of $164/sqft and average hourly earnings of $37.16/hr, resulting in a ratio of 4.41. This indicates that the city is relatively affordable compared to its peers, with a falling PSF (-1.2% YoY) contributing to its high affordability score. This makes St. Louis an attractive location for talent without requiring significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in St. Louis is growing at a rate of +0.01% year-over-year, ranking it in the 59th percentile. This indicates that the labor force supply is barely expanding, which may limit the city's hiring capacity and make it challenging for businesses to find new talent. However, this slow growth also suggests that the city is not experiencing significant labor shortages or skills gaps.
+The civilian labor force in St. Louis is shrinking at a rate of -0.72% year-over-year, ranking the city near the median in the 46th percentile. This contraction in labor supply poses a structural headwind for hiring, making it challenging for businesses to find and recruit new employees.
 
 **Building Permits**
-The number of building permits in St. Louis is increasing by +1.84% year-over-year, ranking it in the 54th percentile. This suggests that housing supply is expanding, which may improve affordability and accommodation for the workforce in the future. However, this growth is relatively modest, and the city may still face challenges in providing sufficient housing for a growing workforce.
+The number of residential building permits in St. Louis is increasing by +1.84% year-over-year, ranking the city near the median in the 54th percentile. This expansion in housing supply suggests that future affordability and workforce accommodation may improve, providing a more favorable environment for businesses and workers.
 
 **Days on Market**
-The median days on market in St. Louis is 42 days, with a year-over-year increase of +7.7%, ranking it in the 82nd percentile. This indicates a slower market, where homes are taking longer to sell, making it more accessible for workers relocating to the city. However, this also suggests that the city's housing market may be normalizing, and businesses may not face significant challenges in finding housing for their employees.
+The median days on market in St. Louis is 44 days, with a year-over-year increase of +10.0%, ranking the city in the top tier with a 94th percentile score. This slower market indicates that homes are sitting longer before being sold, making it a more accessible and less competitive market for workers relocating to the city.
 
 **Office Economy**
-St. Louis has a professional and office worker share ranking it in the 16th percentile, indicating a relatively shallow talent pool in these sectors. This suggests that the city is best suited for businesses that do not require a deep knowledge-economy talent pool, such as industrial or logistics companies, and less suited for tech, finance, or consulting firms that rely on specialized office workers.
+St. Louis has a relatively shallow professional talent pool, ranking in the 16th percentile. This makes the city less suited for businesses that require a deep knowledge-economy talent pool, such as tech, finance, or consulting firms, but more suitable for industries with fewer specialized roles.
 
-In conclusion, St. Louis offers a relatively stable labor market with moderate costs and a slow-growing workforce, making it a viable option for businesses that do not require a highly specialized talent pool. However, the city's biggest risk is its below-average labor demand, which may limit hiring capacity and make it challenging for businesses to find new talent, making it essential for decision-makers to carefully consider their staffing strategies when locating in St. Louis.
+In conclusion, St. Louis offers a relatively affordable cost of living and a tight labor market, but its sluggish job growth and shrinking labor force pose significant challenges for businesses. The single biggest risk or constraint for decision-makers is the city's limited labor supply, which may hinder hiring capacity and require companies to offer competitive salaries to attract top talent.
