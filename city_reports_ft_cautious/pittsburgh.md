@@ -4,30 +4,30 @@
 
 ---
 
-Pittsburgh earns an overall grade of A- with a composite score ranking at the 61.3th percentile among 50 US metros. The city's economic character is most defined by its strong wage growth, with a year-over-year increase of 6.54%, and its high cost of living affordability, ranking at the 92th percentile. These metrics suggest a city with a tight labor market and rising labor costs, but also an attractive environment for talent due to its relative affordability.
+Pittsburgh earns an overall grade of A- with a composite score ranking it at the 61.3th percentile among 50 US metros. The city's economic character is most defined by its strong wage growth, with a year-over-year increase of 6.54%, and its highly affordable cost of living, with a PSF to wages ratio of 5.14. These metrics suggest a city with a competitive labor market and attractive living conditions.
 
 **Labor Demand**
-Pittsburgh's employment growth rate is -0.49% year-over-year, and weekly hours are deviating -0.421% from the city's own 12-month baseline. This combination signals a contraction in labor demand, indicating that the city is not currently experiencing genuine demand expansion. The negative hours deviation suggests that the remaining workforce may be absorbing the load of eliminated roles, rather than taking on new responsibilities.
+Pittsburgh's labor demand is characterized by a -0.49% employment growth rate and a -0.421% deviation in weekly hours from its own trend, resulting in a composite score that ranks below average at the 32th percentile. This combination signals a contraction in labor demand, rather than genuine demand expansion or survivor squeeze. The city's labor market is not currently experiencing strong job growth.
 
 **Unemployment**
-The unemployment rate in Pittsburgh is 3.80%, ranking at the 64th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer competitive wages to attract talent. The tight market also implies upward pressure on wages.
+The unemployment rate in Pittsburgh is 3.80%, which ranks above average at the 63th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer competitive wages to attract talent. The tight market also suggests that workers may have more bargaining power.
 
 **Wage Growth**
-Pittsburgh's year-over-year wage growth rate is 6.54%, ranking at the 86th percentile, indicating fast and rising labor costs for employers. This strong wage growth is beneficial for worker purchasing power, as employees can afford more goods and services with their increasing earnings. However, it also poses a challenge for businesses, as they must adapt to a rising cost environment.
+With a year-over-year wage growth rate of 6.54%, Pittsburgh is experiencing fast wage growth, ranking in the top tier at the 86th percentile. This rapid wage growth implies rising labor costs for employers, but also increasing purchasing power for workers. Businesses should factor in the potential for higher labor costs when considering a location in Pittsburgh.
 
 **Cost of Living**
-Pittsburgh's cost of living is relatively affordable, with a PSF of $174/sqft and an earnings ratio of 5.14, ranking at the 92th percentile. This affordability advantage is a significant talent attraction factor, as workers can maintain a high standard of living without requiring substantial wage premiums. The city's affordability is a major draw for businesses looking to attract and retain top talent.
+Pittsburgh's cost of living is highly affordable, with a PSF to wages ratio of 5.14 and a percentile rank of 94th, indicating that it is one of the most affordable cities among its peers. This affordability advantage means that businesses can attract talent without needing to offer significant wage premiums, making it an attractive location for companies looking to relocate or expand.
 
 **Labor Force Growth**
-The civilian labor force in Pittsburgh is growing at a rate of 1.99% year-over-year, indicating an expanding workforce supply. This growth suggests that the city has a strong hiring capacity, with a increasing pool of available workers. Businesses can tap into this growing labor force to meet their staffing needs.
+The civilian labor force in Pittsburgh is growing at a rate of 1.99% year-over-year, which ranks in the top tier at the 92th percentile, indicating an expanding labor supply. This growth in the labor force suggests that businesses will have a larger pool of potential workers to hire from, making it easier to find and attract talent.
 
 **Building Permits**
-The year-over-year change in residential building permits in Pittsburgh is -0.14%, indicating a near-stable housing supply. This slight decline in permits may signal a potential tightening of the housing market, which could impact future affordability and workforce accommodation. However, the current stability suggests that the city's housing market is not experiencing significant stress.
+The number of building permits in Pittsburgh has decreased by -0.14% year-over-year, ranking near the median at the 49th percentile. This slight decline in building permits suggests that the housing supply may be tightening, which could impact future affordability and workforce accommodation. However, the decrease is relatively small, and the city's affordability is still a major advantage.
 
 **Days on Market**
-The median days on market in Pittsburgh is 47 days, with a year-over-year decline of -2.1%. This relatively fast market suggests that homes are selling quickly, making it challenging for relocating workers to find available housing. The competitive market may require businesses to offer relocation assistance or other incentives to attract talent.
+The median days on market in Pittsburgh is currently 47 days, with a year-over-year decrease of -2.1%, ranking below average at the 22th percentile. This relatively fast pace of home sales means that workers relocating to the city may face a competitive housing market, which could make it more challenging to find and secure housing.
 
 **Office Economy**
-Pittsburgh's professional and office worker share ranks at the 42nd percentile, indicating a moderately deep talent pool. The city is suited for businesses that require a mix of professional and industrial skills, but may not be the best fit for companies that rely heavily on specialized tech or finance talent. The moderate ranking suggests that Pittsburgh can support a variety of business types, but may not be a hub for specific industries.
+Pittsburgh's professional and office worker share ranks near the median at the 42th percentile, indicating a moderate depth of talent in these sectors. The city is well-suited for businesses that require a mix of professional and industrial skills, but may not be the best fit for companies that rely heavily on specialized office or tech talent.
 
-In conclusion, Pittsburgh offers businesses a unique combination of strong wage growth, affordable cost of living, and expanding labor force supply. However, the city's tight labor market and rising labor costs pose a significant risk, as businesses must adapt to a competitive hiring environment and increasing wages to attract and retain top talent.
+In conclusion, Pittsburgh offers businesses a unique combination of strong wage growth, highly affordable living conditions, and an expanding labor force, making it an attractive location for companies looking to relocate or expand. However, the city's relatively slow labor demand growth and tightening housing supply are potential risks that decision-makers should factor into their location decisions.

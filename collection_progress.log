@@ -1,17 +1,21 @@
-[12:39:00] ================================================================================
-[12:39:00] UNIFIED ECONOMIC DATA COLLECTION (FIXED)
-[12:39:00] ================================================================================
-[12:39:00] Start Time: 2026-07-06 12:39:00
-[12:39:00] FRED API Rate Limit: 120 requests/minute
-[12:39:00] Script Delay: 1.5 seconds between calls
-[12:39:00] Expected Runtime: ~14-16 minutes
-[12:39:00] Total API Calls: 452 (2 national + 450 metros)
-[12:39:00] Observations per metric: 15 (for historical analysis)
-[12:39:00] 
-[12:50:22] 
-[12:50:22] ================================================================================
-[12:50:22] COLLECTION COMPLETE
-[12:50:22] ================================================================================
-[12:50:22] End Time: 2026-07-06 12:50:22
-[12:50:22] National Metrics Collected: 2
-[12:50:22] Metro Data Points Collected: 450
+[11:54:35] ================================================================================
+[11:54:35] UNIFIED ECONOMIC DATA COLLECTION (FIXED)
+[11:54:35] ================================================================================
+[11:54:35] Start Time: 2026-07-13 11:54:35
+[11:54:35] FRED API Rate Limit: 120 requests/minute
+[11:54:35] Script Delay: 1.5 seconds between calls
+[11:54:35] Expected Runtime: ~14-16 minutes
+[11:54:35] Total API Calls: 452 (2 national + 450 metros)
+[11:54:35] Observations per metric: 15 (for historical analysis)
+[11:54:35] 
+[12:00:55] FAILED [Building Permits] AUST448BPPRIV: Timeout for series 'AUST448BPPRIV'
+[12:01:05] FAILED [Price per Sqft] MEDLISPRIPERSQUFEE12420: Timeout for series 'MEDLISPRIPERSQUFEE12420'
+[12:01:15] FAILED [Median Days on Market] MEDDAYONMAR12420: Timeout for series 'MEDDAYONMAR12420'
+[12:01:25] FAILED [Unemployment Rate] PORT941URN: Timeout for series 'PORT941URN'
+[12:07:29] 
+[12:07:29] ================================================================================
+[12:07:29] COLLECTION COMPLETE
+[12:07:29] ================================================================================
+[12:07:29] End Time: 2026-07-13 12:07:29
+[12:07:29] National Metrics Collected: 2
+[12:07:29] Metro Data Points Collected: 446

@@ -1,15 +1,15 @@
 {
-  "processing_timestamp": "2026-07-06T12:50:22.447266",
-  "processing_date": "2026-07-06 12:50:22",
+  "processing_timestamp": "2026-07-13T12:07:29.714997",
+  "processing_date": "2026-07-13 12:07:29",
   "version": 2,
   "metrics_count": 9,
   "metrics_scored": 9,
   "metrics_collected_only": 0,
-  "source_data": "2026-07-06 12:50:22",
+  "source_data": "2026-07-13 12:07:29",
   "msa_averages": {
     "unemployment_rate": {
-      "msa_average": 3.986,
-      "metros_with_data": 50
+      "msa_average": 3.9714,
+      "metros_with_data": 49
     },
     "civilian_labor_force": {
       "msa_average": 64.0542,
@@ -20,24 +20,24 @@
       "metros_with_data": 50
     },
     "cost_of_living": {
-      "msa_average": 7.2713,
-      "metros_with_data": 50
+      "msa_average": 7.2927,
+      "metros_with_data": 49
     },
     "office_worker_ratio": {
       "msa_average": 9.8591,
       "metros_with_data": 50
     },
     "building_permits": {
-      "msa_average": 1389.3542,
-      "metros_with_data": 50
+      "msa_average": 1386.0961,
+      "metros_with_data": 49
     },
     "price_per_sqft": {
-      "msa_average": 281.3,
-      "metros_with_data": 50
+      "msa_average": 282.2041,
+      "metros_with_data": 49
     },
     "median_days_on_market": {
-      "msa_average": 47.28,
-      "metros_with_data": 50
+      "msa_average": 46.9592,
+      "metros_with_data": 49
     }
   },
   "metros": {
@@ -4682,7 +4682,7 @@
       "metro_name": "Austin-Round Rock-San Marcos",
       "primary_city": "Austin",
       "civilian_population": 2073666,
-      "metrics_processed": 11,
+      "metrics_processed": 7,
       "data": {
         "unemployment_rate": {
           "latest_value": 3.5,
@@ -4788,73 +4788,6 @@
             "pct_change": 1.27
           }
         },
-        "building_permits": {
-          "latest_value": 1549.0,
-          "latest_date": "2026-05-01",
-          "series_id": "AUST448BPPRIV",
-          "metric_name": "Building Permits",
-          "3month_average": 1630.3333333333333,
-          "12month_average": 1968.5,
-          "yoy_change": {
-            "current": 1549.0,
-            "change": -1764.0,
-            "pct_change": -53.24
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 1630.3333,
-            "change": -1103.0,
-            "pct_change": -40.35
-          }
-        },
-        "price_per_sqft": {
-          "latest_value": 237.0,
-          "latest_date": "2026-06-01",
-          "series_id": "MEDLISPRIPERSQUFEE12420",
-          "metric_name": "Price per Sqft",
-          "3month_average": 239.33333333333334,
-          "12month_average": 242.83333333333334,
-          "yoy_change": {
-            "current": 237.0,
-            "change": -21.0,
-            "pct_change": -8.14
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 239.3333,
-            "change": -20.6667,
-            "pct_change": -7.95
-          }
-        },
-        "median_days_on_market": {
-          "latest_value": 63.0,
-          "latest_date": "2026-06-01",
-          "series_id": "MEDDAYONMAR12420",
-          "metric_name": "Median Days on Market",
-          "3month_average": 56.666666666666664,
-          "12month_average": 71.33333333333333,
-          "yoy_change": {
-            "current": 63.0,
-            "change": 5.0,
-            "pct_change": 8.62
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 56.6667,
-            "change": 7.3333,
-            "pct_change": 14.86
-          }
-        },
-        "cost_of_living": {
-          "latest_value": 6.2205,
-          "latest_date": "2026-06-01",
-          "series_id": null,
-          "metric_name": "Cost of Living",
-          "3month_average": 6.3238,
-          "yoy_change": {
-            "current": 6.2205,
-            "change": -0.9642,
-            "pct_change": -13.42
-          },
-          "note": "Calculated as (Price per Sqft / Hourly Earnings)"
-        },
         "office_worker_ratio": {
           "latest_value": 13.8344,
           "latest_date": "2026-05-01",
@@ -4875,26 +4808,8 @@
       "metro_name": "Portland-Vancouver-Hillsboro",
       "primary_city": "Portland",
       "civilian_population": 2102338,
-      "metrics_processed": 11,
+      "metrics_processed": 10,
       "data": {
-        "unemployment_rate": {
-          "latest_value": 4.7,
-          "latest_date": "2026-05-01",
-          "series_id": "PORT941URN",
-          "metric_name": "Unemployment Rate",
-          "3month_average": 4.9,
-          "12month_average": 5.0636363636363635,
-          "yoy_change": {
-            "current": 4.7,
-            "change": 0.1,
-            "pct_change": 2.17
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 4.9,
-            "change": 0.2667,
-            "pct_change": 5.76
-          }
-        },
         "civilian_labor_force": {
           "latest_value": 65.0431,
           "latest_date": "2026-05-01",
