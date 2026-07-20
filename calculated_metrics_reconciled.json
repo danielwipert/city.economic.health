@@ -1,6 +1,6 @@
 {
-  "calculation_timestamp": "2026-07-13T12:07:29.843751",
-  "calculation_date": "2026-07-13 12:07:29",
+  "calculation_timestamp": "2026-07-20T11:49:19.823693",
+  "calculation_date": "2026-07-20 11:49:19",
   "version": "5.0",
   "scoring_method": "Percentile-Based (Rank Order)",
   "rubric": "9-Metric Percentile System: 85% Employment / 15% Housing",
@@ -37,7 +37,7 @@
         "101A_unemp_yoy_pp": -0.1,
         "102A_clf_yoy": 0.45,
         "103B_earnings_yoy": 4.5,
-        "104C_col": 6.86,
+        "104C_col": 6.87,
         "105C_owr": 2.82,
         "107E_ldc_composite": 5.4,
         "107E_employment_growth_yoy": 0.48,
@@ -48,17 +48,17 @@
         "204A_dom_level_days": 47.0
       },
       "percentile_scores": {
-        "101A": 42.9,
+        "101A": 44.0,
         "102A": 76.0,
         "103B": 62.0,
-        "104C": 2.1,
+        "104C": 2.0,
         "105C": 56.0,
         "107E": 72.0,
-        "200B": 77.6,
-        "204A": 12.2
+        "200B": 78.0,
+        "204A": 12.0
       },
       "scores_100": {
-        "101A": 43,
+        "101A": 44,
         "102A": 76,
         "103B": 62,
         "104C": 2,
@@ -67,13 +67,13 @@
         "200B": 78,
         "204A": 12
       },
-      "weighted_percentile": 53.8,
+      "weighted_percentile": 54.0,
       "weighted_score": 54,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 53.8
+        "percentile": 54.0
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -87,7 +87,7 @@
         "101A_unemp_yoy_pp": -0.2,
         "102A_clf_yoy": -1.87,
         "103B_earnings_yoy": 4.18,
-        "104C_col": 5.85,
+        "104C_col": 5.86,
         "105C_owr": 2.6,
         "107E_ldc_composite": 6.23,
         "107E_employment_growth_yoy": 1.83,
@@ -98,32 +98,32 @@
         "204A_dom_level_days": 50.0
       },
       "percentile_scores": {
-        "101A": 26.5,
+        "101A": 28.0,
         "102A": 8.0,
         "103B": 54.0,
-        "104C": 4.2,
+        "104C": 4.1,
         "105C": 48.0,
         "107E": 84.0,
-        "200B": 79.6,
-        "204A": 67.3
+        "200B": 80.0,
+        "204A": 68.0
       },
       "scores_100": {
-        "101A": 27,
+        "101A": 28,
         "102A": 8,
         "103B": 54,
         "104C": 4,
         "105C": 48,
         "107E": 84,
         "200B": 80,
-        "204A": 67
+        "204A": 68
       },
-      "weighted_percentile": 48.5,
-      "weighted_score": 48,
+      "weighted_percentile": 48.8,
+      "weighted_score": 49,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 48.5
+        "percentile": 48.8
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -148,14 +148,14 @@
         "204A_dom_level_days": 33.0
       },
       "percentile_scores": {
-        "101A": 6.1,
+        "101A": 6.0,
         "102A": 12.0,
         "103B": 46.0,
-        "104C": 27.1,
+        "104C": 26.5,
         "105C": 36.0,
         "107E": 40.0,
-        "200B": 42.9,
-        "204A": 10.2
+        "200B": 44.0,
+        "204A": 10.0
       },
       "scores_100": {
         "101A": 6,
@@ -164,7 +164,7 @@
         "104C": 27,
         "105C": 36,
         "107E": 40,
-        "200B": 43,
+        "200B": 44,
         "204A": 10
       },
       "weighted_percentile": 28.5,
@@ -187,7 +187,7 @@
         "101A_unemp_yoy_pp": 0.3,
         "102A_clf_yoy": 0.19,
         "103B_earnings_yoy": 2.07,
-        "104C_col": 1.59,
+        "104C_col": 1.6,
         "105C_owr": 4.18,
         "107E_ldc_composite": 5.21,
         "107E_employment_growth_yoy": 0.57,
@@ -198,32 +198,32 @@
         "204A_dom_level_days": 51.0
       },
       "percentile_scores": {
-        "101A": 34.7,
+        "101A": 36.0,
         "102A": 70.0,
         "103B": 30.0,
-        "104C": 75.0,
+        "104C": 73.5,
         "105C": 94.0,
         "107E": 66.0,
-        "200B": 16.3,
-        "204A": 51.0
+        "200B": 18.0,
+        "204A": 52.0
       },
       "scores_100": {
-        "101A": 35,
+        "101A": 36,
         "102A": 70,
         "103B": 30,
-        "104C": 75,
+        "104C": 73,
         "105C": 94,
         "107E": 66,
-        "200B": 16,
-        "204A": 51
+        "200B": 18,
+        "204A": 52
       },
-      "weighted_percentile": 50.9,
+      "weighted_percentile": 51.2,
       "weighted_score": 51,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 50.9
+        "percentile": 51.2
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -237,7 +237,7 @@
         "101A_unemp_yoy_pp": 0.4,
         "102A_clf_yoy": 0.03,
         "103B_earnings_yoy": 2.01,
-        "104C_col": 1.21,
+        "104C_col": 1.22,
         "105C_owr": 3.34,
         "107E_ldc_composite": 5.06,
         "107E_employment_growth_yoy": 0.61,
@@ -248,32 +248,32 @@
         "204A_dom_level_days": 50.0
       },
       "percentile_scores": {
-        "101A": 22.4,
+        "101A": 22.0,
         "102A": 68.0,
         "103B": 28.0,
-        "104C": 91.7,
+        "104C": 89.8,
         "105C": 80.0,
         "107E": 60.0,
-        "200B": 14.3,
-        "204A": 75.5
+        "200B": 16.0,
+        "204A": 76.0
       },
       "scores_100": {
         "101A": 22,
         "102A": 68,
         "103B": 28,
-        "104C": 92,
+        "104C": 90,
         "105C": 80,
         "107E": 60,
-        "200B": 14,
+        "200B": 16,
         "204A": 76
       },
-      "weighted_percentile": 49.1,
+      "weighted_percentile": 49.0,
       "weighted_score": 49,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 49.1
+        "percentile": 49.0
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -298,32 +298,32 @@
         "204A_dom_level_days": 82.0
       },
       "percentile_scores": {
-        "101A": 42.9,
+        "101A": 44.0,
         "102A": 38.0,
         "103B": 92.0,
-        "104C": 25.0,
+        "104C": 24.5,
         "105C": 70.0,
         "107E": 38.0,
-        "200B": 83.7,
-        "204A": 26.5
+        "200B": 84.0,
+        "204A": 28.0
       },
       "scores_100": {
-        "101A": 43,
+        "101A": 44,
         "102A": 38,
         "103B": 92,
-        "104C": 25,
+        "104C": 24,
         "105C": 70,
         "107E": 38,
         "200B": 84,
-        "204A": 27
+        "204A": 28
       },
-      "weighted_percentile": 50.5,
-      "weighted_score": 50,
+      "weighted_percentile": 50.7,
+      "weighted_score": 51,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 50.5
+        "percentile": 50.7
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -337,7 +337,7 @@
         "101A_unemp_yoy_pp": 0.3,
         "102A_clf_yoy": -2.72,
         "103B_earnings_yoy": 5.31,
-        "104C_col": 1.77,
+        "104C_col": 1.78,
         "105C_owr": 1.98,
         "107E_ldc_composite": 1.5,
         "107E_employment_growth_yoy": -2.95,
@@ -348,32 +348,32 @@
         "204A_dom_level_days": 36.0
       },
       "percentile_scores": {
-        "101A": 40.8,
+        "101A": 42.0,
         "102A": 2.0,
         "103B": 68.0,
-        "104C": 68.8,
+        "104C": 67.3,
         "105C": 32.0,
         "107E": 0,
-        "200B": 85.7,
-        "204A": 77.6
+        "200B": 86.0,
+        "204A": 78.0
       },
       "scores_100": {
-        "101A": 41,
+        "101A": 42,
         "102A": 2,
         "103B": 68,
-        "104C": 69,
+        "104C": 67,
         "105C": 32,
         "107E": 0,
         "200B": 86,
         "204A": 78
       },
-      "weighted_percentile": 40.2,
+      "weighted_percentile": 40.3,
       "weighted_score": 40,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Poor",
-        "percentile": 40.2
+        "percentile": 40.3
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -387,7 +387,7 @@
         "101A_unemp_yoy_pp": 0.0,
         "102A_clf_yoy": 1.58,
         "103B_earnings_yoy": 4.31,
-        "104C_col": 1.76,
+        "104C_col": 1.77,
         "105C_owr": 3.12,
         "107E_ldc_composite": 5.35,
         "107E_employment_growth_yoy": 0.03,
@@ -398,32 +398,32 @@
         "204A_dom_level_days": 52.0
       },
       "percentile_scores": {
-        "101A": 77.6,
+        "101A": 78.0,
         "102A": 86.0,
         "103B": 60.0,
-        "104C": 72.9,
+        "104C": 71.4,
         "105C": 66.0,
         "107E": 70.0,
-        "200B": 67.3,
-        "204A": 49.0
+        "200B": 68.0,
+        "204A": 50.0
       },
       "scores_100": {
         "101A": 78,
         "102A": 86,
         "103B": 60,
-        "104C": 73,
+        "104C": 71,
         "105C": 66,
         "107E": 70,
-        "200B": 67,
-        "204A": 49
+        "200B": 68,
+        "204A": 50
       },
-      "weighted_percentile": 70.5,
+      "weighted_percentile": 70.6,
       "weighted_score": 71,
       "grade": {
         "letter": "A+",
         "emoji": "\ud83d\ude80",
         "description": "Excellent",
-        "percentile": 70.5
+        "percentile": 70.6
       },
       "grade_display": "\ud83d\ude80 A+"
     },
@@ -437,7 +437,7 @@
         "101A_unemp_yoy_pp": -0.2,
         "102A_clf_yoy": 1.49,
         "103B_earnings_yoy": -0.06,
-        "104C_col": 3.71,
+        "104C_col": 3.72,
         "105C_owr": 2.5,
         "107E_ldc_composite": 5.61,
         "107E_employment_growth_yoy": 0.19,
@@ -448,32 +448,32 @@
         "204A_dom_level_days": 39.0
       },
       "percentile_scores": {
-        "101A": 57.1,
+        "101A": 58.0,
         "102A": 84.0,
         "103B": 4.0,
-        "104C": 22.9,
+        "104C": 22.4,
         "105C": 46.0,
         "107E": 74.0,
-        "200B": 69.4,
-        "204A": 8.2
+        "200B": 70.0,
+        "204A": 8.0
       },
       "scores_100": {
-        "101A": 57,
+        "101A": 58,
         "102A": 84,
         "103B": 4,
-        "104C": 23,
+        "104C": 22,
         "105C": 46,
         "107E": 74,
-        "200B": 69,
+        "200B": 70,
         "204A": 8
       },
-      "weighted_percentile": 50.4,
-      "weighted_score": 50,
+      "weighted_percentile": 50.6,
+      "weighted_score": 51,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 50.4
+        "percentile": 50.6
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -487,7 +487,7 @@
         "101A_unemp_yoy_pp": 0.4,
         "102A_clf_yoy": -1.31,
         "103B_earnings_yoy": 2.55,
-        "104C_col": 2.54,
+        "104C_col": 2.55,
         "105C_owr": 3.3,
         "107E_ldc_composite": 5.84,
         "107E_employment_growth_yoy": 0.96,
@@ -498,32 +498,32 @@
         "204A_dom_level_days": 64.0
       },
       "percentile_scores": {
-        "101A": 28.6,
+        "101A": 30.0,
         "102A": 22.0,
         "103B": 32.0,
-        "104C": 47.9,
+        "104C": 46.9,
         "105C": 76.0,
         "107E": 82.0,
-        "200B": 6.1,
-        "204A": 44.9
+        "200B": 8.0,
+        "204A": 46.0
       },
       "scores_100": {
-        "101A": 29,
+        "101A": 30,
         "102A": 22,
         "103B": 32,
-        "104C": 48,
+        "104C": 47,
         "105C": 76,
         "107E": 82,
-        "200B": 6,
-        "204A": 45
+        "200B": 8,
+        "204A": 46
       },
-      "weighted_percentile": 44.1,
-      "weighted_score": 44,
+      "weighted_percentile": 44.5,
+      "weighted_score": 45,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 44.1
+        "percentile": 44.5
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -548,32 +548,32 @@
         "204A_dom_level_days": 37.0
       },
       "percentile_scores": {
-        "101A": 24.5,
+        "101A": 24.0,
         "102A": 98.0,
         "103B": 42.0,
-        "104C": 16.7,
+        "104C": 16.3,
         "105C": 62.0,
         "107E": 34.0,
-        "200B": 59.2,
+        "200B": 60.0,
         "204A": 98.0
       },
       "scores_100": {
         "101A": 24,
         "102A": 98,
         "103B": 42,
-        "104C": 17,
+        "104C": 16,
         "105C": 62,
         "107E": 34,
-        "200B": 59,
+        "200B": 60,
         "204A": 98
       },
-      "weighted_percentile": 44.2,
+      "weighted_percentile": 44.1,
       "weighted_score": 44,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 44.2
+        "percentile": 44.1
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -587,7 +587,7 @@
         "101A_unemp_yoy_pp": -0.3,
         "102A_clf_yoy": -2.31,
         "103B_earnings_yoy": 5.74,
-        "104C_col": 2.82,
+        "104C_col": 2.83,
         "105C_owr": 0.16,
         "107E_ldc_composite": 4.13,
         "107E_employment_growth_yoy": -0.12,
@@ -598,32 +598,32 @@
         "204A_dom_level_days": 59.0
       },
       "percentile_scores": {
-        "101A": 38.8,
+        "101A": 40.0,
         "102A": 6.0,
         "103B": 74.0,
-        "104C": 41.7,
+        "104C": 40.8,
         "105C": 0,
         "107E": 42.0,
-        "200B": 32.7,
-        "204A": 42.9
+        "200B": 34.0,
+        "204A": 44.0
       },
       "scores_100": {
-        "101A": 39,
+        "101A": 40,
         "102A": 6,
         "103B": 74,
-        "104C": 42,
+        "104C": 41,
         "105C": 0,
         "107E": 42,
-        "200B": 33,
-        "204A": 43
+        "200B": 34,
+        "204A": 44
       },
-      "weighted_percentile": 40.4,
-      "weighted_score": 40,
+      "weighted_percentile": 40.7,
+      "weighted_score": 41,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Poor",
-        "percentile": 40.4
+        "percentile": 40.7
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -637,7 +637,7 @@
         "101A_unemp_yoy_pp": -0.4,
         "102A_clf_yoy": -1.81,
         "103B_earnings_yoy": 6.51,
-        "104C_col": 4.07,
+        "104C_col": 4.08,
         "105C_owr": 3.0,
         "107E_ldc_composite": 5.11,
         "107E_employment_growth_yoy": 0.28,
@@ -648,32 +648,32 @@
         "204A_dom_level_days": 37.0
       },
       "percentile_scores": {
-        "101A": 79.6,
+        "101A": 80.0,
         "102A": 10.0,
         "103B": 82.0,
-        "104C": 18.8,
+        "104C": 18.4,
         "105C": 60.0,
         "107E": 62.0,
-        "200B": 30.6,
-        "204A": 6.1
+        "200B": 32.0,
+        "204A": 6.0
       },
       "scores_100": {
         "101A": 80,
         "102A": 10,
         "103B": 82,
-        "104C": 19,
+        "104C": 18,
         "105C": 60,
         "107E": 62,
-        "200B": 31,
+        "200B": 32,
         "204A": 6
       },
-      "weighted_percentile": 52.1,
+      "weighted_percentile": 52.3,
       "weighted_score": 52,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 52.1
+        "percentile": 52.3
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -701,29 +701,29 @@
         "101A": 2.0,
         "102A": 94.0,
         "103B": 22.0,
-        "104C": 39.6,
+        "104C": 38.8,
         "105C": 44.0,
         "107E": 18.0,
-        "200B": 28.6,
-        "204A": 83.7
+        "200B": 30.0,
+        "204A": 84.0
       },
       "scores_100": {
         "101A": 2,
         "102A": 94,
         "103B": 22,
-        "104C": 40,
+        "104C": 39,
         "105C": 44,
         "107E": 18,
-        "200B": 29,
+        "200B": 30,
         "204A": 84
       },
-      "weighted_percentile": 30.7,
+      "weighted_percentile": 30.8,
       "weighted_score": 31,
       "grade": {
         "letter": "C-",
         "emoji": "\ud83d\udea8",
         "description": "Critical",
-        "percentile": 30.7
+        "percentile": 30.8
       },
       "grade_display": "\ud83d\udea8 C-"
     },
@@ -737,7 +737,7 @@
         "101A_unemp_yoy_pp": 0.6,
         "102A_clf_yoy": -0.29,
         "103B_earnings_yoy": 7.21,
-        "104C_col": 2.61,
+        "104C_col": 2.62,
         "105C_owr": 3.32,
         "107E_ldc_composite": 4.62,
         "107E_employment_growth_yoy": 0.04,
@@ -748,32 +748,32 @@
         "204A_dom_level_days": 37.0
       },
       "percentile_scores": {
-        "101A": 8.2,
+        "101A": 8.0,
         "102A": 52.0,
         "103B": 88.0,
-        "104C": 45.8,
+        "104C": 44.9,
         "105C": 78.0,
         "107E": 50.0,
-        "200B": 93.9,
-        "204A": 59.2
+        "200B": 94.0,
+        "204A": 60.0
       },
       "scores_100": {
         "101A": 8,
         "102A": 52,
         "103B": 88,
-        "104C": 46,
+        "104C": 45,
         "105C": 78,
         "107E": 50,
         "200B": 94,
-        "204A": 59
+        "204A": 60
       },
-      "weighted_percentile": 52.7,
+      "weighted_percentile": 52.6,
       "weighted_score": 53,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 52.7
+        "percentile": 52.6
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -787,7 +787,7 @@
         "101A_unemp_yoy_pp": 0.5,
         "102A_clf_yoy": -1.38,
         "103B_earnings_yoy": 0.54,
-        "104C_col": 3.04,
+        "104C_col": 3.05,
         "105C_owr": 0.96,
         "107E_ldc_composite": 4.18,
         "107E_employment_growth_yoy": 0.27,
@@ -798,32 +798,32 @@
         "204A_dom_level_days": 37.0
       },
       "percentile_scores": {
-        "101A": 32.7,
+        "101A": 34.0,
         "102A": 20.0,
         "103B": 10.0,
-        "104C": 33.3,
+        "104C": 32.7,
         "105C": 12.0,
         "107E": 44.0,
-        "200B": 26.5,
-        "204A": 28.6
+        "200B": 28.0,
+        "204A": 30.0
       },
       "scores_100": {
-        "101A": 33,
+        "101A": 34,
         "102A": 20,
         "103B": 10,
         "104C": 33,
         "105C": 12,
         "107E": 44,
-        "200B": 27,
-        "204A": 29
+        "200B": 28,
+        "204A": 30
       },
-      "weighted_percentile": 29.5,
-      "weighted_score": 29,
+      "weighted_percentile": 29.9,
+      "weighted_score": 30,
       "grade": {
         "letter": "C-",
         "emoji": "\ud83d\udea8",
         "description": "Critical",
-        "percentile": 29.5
+        "percentile": 29.9
       },
       "grade_display": "\ud83d\udea8 C-"
     },
@@ -848,24 +848,24 @@
         "204A_dom_level_days": 68.0
       },
       "percentile_scores": {
-        "101A": 8.2,
+        "101A": 8.0,
         "102A": 50.0,
         "103B": 76.0,
-        "104C": 79.2,
+        "104C": 77.6,
         "105C": 72.0,
         "107E": 36.0,
-        "200B": 57.1,
-        "204A": 28.6
+        "200B": 58.0,
+        "204A": 30.0
       },
       "scores_100": {
         "101A": 8,
         "102A": 50,
         "103B": 76,
-        "104C": 79,
+        "104C": 78,
         "105C": 72,
         "107E": 36,
-        "200B": 57,
-        "204A": 29
+        "200B": 58,
+        "204A": 30
       },
       "weighted_percentile": 45.8,
       "weighted_score": 46,
@@ -887,7 +887,7 @@
         "101A_unemp_yoy_pp": -0.2,
         "102A_clf_yoy": -1.41,
         "103B_earnings_yoy": 7.78,
-        "104C_col": 4.68,
+        "104C_col": 4.69,
         "105C_owr": 3.1,
         "107E_ldc_composite": 5.29,
         "107E_employment_growth_yoy": 0.85,
@@ -898,32 +898,32 @@
         "204A_dom_level_days": 43.0
       },
       "percentile_scores": {
-        "101A": 65.3,
+        "101A": 66.0,
         "102A": 18.0,
         "103B": 96.0,
-        "104C": 12.5,
+        "104C": 12.2,
         "105C": 64.0,
         "107E": 68.0,
-        "200B": 55.1,
-        "204A": 69.4
+        "200B": 56.0,
+        "204A": 70.0
       },
       "scores_100": {
-        "101A": 65,
+        "101A": 66,
         "102A": 18,
         "103B": 96,
         "104C": 12,
         "105C": 64,
         "107E": 68,
-        "200B": 55,
-        "204A": 69
+        "200B": 56,
+        "204A": 70
       },
-      "weighted_percentile": 58.7,
+      "weighted_percentile": 58.9,
       "weighted_score": 59,
       "grade": {
         "letter": "B+",
         "emoji": "\ud83d\udcc8",
         "description": "Above Average",
-        "percentile": 58.7
+        "percentile": 58.9
       },
       "grade_display": "\ud83d\udcc8 B+"
     },
@@ -937,7 +937,7 @@
         "101A_unemp_yoy_pp": -0.3,
         "102A_clf_yoy": -2.58,
         "103B_earnings_yoy": 1.87,
-        "104C_col": 1.81,
+        "104C_col": 1.82,
         "105C_owr": 2.8,
         "107E_ldc_composite": 3.35,
         "107E_employment_growth_yoy": -0.57,
@@ -948,24 +948,24 @@
         "204A_dom_level_days": 48.0
       },
       "percentile_scores": {
-        "101A": 75.5,
+        "101A": 76.0,
         "102A": 4.0,
         "103B": 26.0,
-        "104C": 64.6,
+        "104C": 63.3,
         "105C": 54.0,
         "107E": 22.0,
-        "200B": 71.4,
-        "204A": 73.5
+        "200B": 72.0,
+        "204A": 74.0
       },
       "scores_100": {
         "101A": 76,
         "102A": 4,
         "103B": 26,
-        "104C": 65,
+        "104C": 63,
         "105C": 54,
         "107E": 22,
-        "200B": 71,
-        "204A": 73
+        "200B": 72,
+        "204A": 74
       },
       "weighted_percentile": 45.1,
       "weighted_score": 45,
@@ -987,7 +987,7 @@
         "101A_unemp_yoy_pp": 0.9,
         "102A_clf_yoy": 1.11,
         "103B_earnings_yoy": 4.17,
-        "104C_col": 1.56,
+        "104C_col": 1.57,
         "105C_owr": 3.96,
         "107E_ldc_composite": 6.45,
         "107E_employment_growth_yoy": 1.22,
@@ -998,32 +998,32 @@
         "204A_dom_level_days": 70.0
       },
       "percentile_scores": {
-        "101A": 12.2,
+        "101A": 12.0,
         "102A": 80.0,
         "103B": 52.0,
-        "104C": 77.1,
+        "104C": 75.5,
         "105C": 90.0,
         "107E": 86.0,
-        "200B": 4.1,
-        "204A": 28.6
+        "200B": 6.0,
+        "204A": 30.0
       },
       "scores_100": {
         "101A": 12,
         "102A": 80,
         "103B": 52,
-        "104C": 77,
+        "104C": 76,
         "105C": 90,
         "107E": 86,
-        "200B": 4,
-        "204A": 29
+        "200B": 6,
+        "204A": 30
       },
-      "weighted_percentile": 53.5,
+      "weighted_percentile": 53.6,
       "weighted_score": 54,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 53.5
+        "percentile": 53.6
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -1048,24 +1048,24 @@
         "204A_dom_level_days": 51.0
       },
       "percentile_scores": {
-        "101A": 69.4,
+        "101A": 70.0,
         "102A": 72.0,
         "103B": 48.0,
-        "104C": 81.2,
+        "104C": 79.6,
         "105C": 82.0,
         "107E": 92.0,
-        "200B": 65.3,
-        "204A": 65.3
+        "200B": 66.0,
+        "204A": 66.0
       },
       "scores_100": {
-        "101A": 69,
+        "101A": 70,
         "102A": 72,
         "103B": 48,
-        "104C": 81,
+        "104C": 80,
         "105C": 82,
         "107E": 92,
-        "200B": 65,
-        "204A": 65
+        "200B": 66,
+        "204A": 66
       },
       "weighted_percentile": 73.3,
       "weighted_score": 73,
@@ -1098,32 +1098,32 @@
         "204A_dom_level_days": 36.0
       },
       "percentile_scores": {
-        "101A": 49.0,
+        "101A": 50.0,
         "102A": 56.0,
         "103B": 56.0,
-        "104C": 66.7,
+        "104C": 65.3,
         "105C": 26.0,
         "107E": 20.0,
-        "200B": 24.5,
-        "204A": 87.8
+        "200B": 26.0,
+        "204A": 88.0
       },
       "scores_100": {
-        "101A": 49,
+        "101A": 50,
         "102A": 56,
         "103B": 56,
-        "104C": 67,
+        "104C": 65,
         "105C": 26,
         "107E": 20,
-        "200B": 24,
+        "200B": 26,
         "204A": 88
       },
-      "weighted_percentile": 44.4,
-      "weighted_score": 44,
+      "weighted_percentile": 44.6,
+      "weighted_score": 45,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 44.4
+        "percentile": 44.6
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -1137,7 +1137,7 @@
         "101A_unemp_yoy_pp": -0.2,
         "102A_clf_yoy": -0.72,
         "103B_earnings_yoy": 1.53,
-        "104C_col": 1.77,
+        "104C_col": 1.78,
         "105C_owr": 1.28,
         "107E_ldc_composite": 3.5,
         "107E_employment_growth_yoy": -0.27,
@@ -1148,23 +1148,23 @@
         "204A_dom_level_days": 44.0
       },
       "percentile_scores": {
-        "101A": 71.4,
+        "101A": 72.0,
         "102A": 46.0,
         "103B": 20.0,
-        "104C": 70.8,
+        "104C": 69.4,
         "105C": 16.0,
         "107E": 28.0,
-        "200B": 53.1,
-        "204A": 93.9
+        "200B": 54.0,
+        "204A": 94.0
       },
       "scores_100": {
-        "101A": 71,
+        "101A": 72,
         "102A": 46,
         "103B": 20,
-        "104C": 71,
+        "104C": 69,
         "105C": 16,
         "107E": 28,
-        "200B": 53,
+        "200B": 54,
         "204A": 94
       },
       "weighted_percentile": 47.9,
@@ -1187,7 +1187,7 @@
         "101A_unemp_yoy_pp": 0.4,
         "102A_clf_yoy": -0.11,
         "103B_earnings_yoy": 1.25,
-        "104C_col": 1.22,
+        "104C_col": 1.23,
         "105C_owr": 2.86,
         "107E_ldc_composite": 3.36,
         "107E_employment_growth_yoy": 0.4,
@@ -1198,32 +1198,32 @@
         "204A_dom_level_days": 61.0
       },
       "percentile_scores": {
-        "101A": 28.6,
+        "101A": 30.0,
         "102A": 62.0,
         "103B": 14.0,
-        "104C": 89.6,
+        "104C": 87.8,
         "105C": 58.0,
         "107E": 24.0,
-        "200B": 22.4,
-        "204A": 40.8
+        "200B": 24.0,
+        "204A": 42.0
       },
       "scores_100": {
-        "101A": 29,
+        "101A": 30,
         "102A": 62,
         "103B": 14,
-        "104C": 90,
+        "104C": 88,
         "105C": 58,
         "107E": 24,
-        "200B": 22,
-        "204A": 41
+        "200B": 24,
+        "204A": 42
       },
-      "weighted_percentile": 36.8,
+      "weighted_percentile": 37.1,
       "weighted_score": 37,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 36.8
+        "percentile": 37.1
       },
       "grade_display": "\u26d4 C"
     },
@@ -1237,54 +1237,54 @@
         "101A_unemp_yoy_pp": 0.2,
         "102A_clf_yoy": 0.44,
         "103B_earnings_yoy": 5.67,
-        "104C_col": null,
+        "104C_col": 0.9,
         "105C_owr": 4.04,
         "107E_ldc_composite": 5.14,
         "107E_employment_growth_yoy": 1.06,
         "107E_wh_trend_deviation_pct": -0.642,
-        "200B_permits_yoy": null,
-        "204A_dom_composite": 5.0,
-        "204A_dom_yoy_pct": null,
-        "204A_dom_level_days": null
+        "200B_permits_yoy": -40.35,
+        "204A_dom_composite": 6.83,
+        "204A_dom_yoy_pct": 8.62,
+        "204A_dom_level_days": 63.0
       },
       "percentile_scores": {
-        "101A": 67.3,
+        "101A": 68.0,
         "102A": 74.0,
         "103B": 72.0,
-        "104C": 50,
+        "104C": 95.9,
         "105C": 92.0,
         "107E": 64.0,
-        "200B": 50,
-        "204A": 0
+        "200B": 2.0,
+        "204A": 24.0
       },
       "scores_100": {
-        "101A": 67,
+        "101A": 68,
         "102A": 74,
         "103B": 72,
-        "104C": 50,
+        "104C": 96,
         "105C": 92,
         "107E": 64,
-        "200B": 50,
-        "204A": 0
+        "200B": 2,
+        "204A": 24
       },
-      "weighted_percentile": 61.4,
-      "weighted_score": 61,
+      "weighted_percentile": 63.5,
+      "weighted_score": 63,
       "grade": {
-        "letter": "A-",
-        "emoji": "\ud83d\udc4d",
-        "description": "Good",
-        "percentile": 61.4
+        "letter": "A",
+        "emoji": "\u2705",
+        "description": "Very Good",
+        "percentile": 63.5
       },
-      "grade_display": "\ud83d\udc4d A-"
+      "grade_display": "\u2705 A"
     },
     {
       "metro_name": "Portland-Vancouver-Hillsboro",
       "rank": 26,
       "primary_city": "Portland",
       "raw_values": {
-        "101A_composite": 5.0,
-        "101A_unemployment": null,
-        "101A_unemp_yoy_pp": null,
+        "101A_composite": 5.25,
+        "101A_unemployment": 4.7,
+        "101A_unemp_yoy_pp": 0.1,
         "102A_clf_yoy": -1.14,
         "103B_earnings_yoy": 6.37,
         "104C_col": 2.04,
@@ -1298,32 +1298,32 @@
         "204A_dom_level_days": 51.0
       },
       "percentile_scores": {
-        "101A": 22.4,
+        "101A": 24.0,
         "102A": 28.0,
         "103B": 80.0,
-        "104C": 58.3,
+        "104C": 57.1,
         "105C": 8.0,
         "107E": 0,
-        "200B": 61.2,
-        "204A": 55.1
+        "200B": 62.0,
+        "204A": 56.0
       },
       "scores_100": {
-        "101A": 22,
+        "101A": 24,
         "102A": 28,
         "103B": 80,
-        "104C": 58,
+        "104C": 57,
         "105C": 8,
         "107E": 0,
-        "200B": 61,
-        "204A": 55
+        "200B": 62,
+        "204A": 56
       },
-      "weighted_percentile": 35.4,
-      "weighted_score": 35,
+      "weighted_percentile": 35.7,
+      "weighted_score": 36,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 35.4
+        "percentile": 35.7
       },
       "grade_display": "\u26d4 C"
     },
@@ -1337,7 +1337,7 @@
         "101A_unemp_yoy_pp": -0.2,
         "102A_clf_yoy": -1.52,
         "103B_earnings_yoy": 1.25,
-        "104C_col": 4.26,
+        "104C_col": 4.27,
         "105C_owr": 1.26,
         "107E_ldc_composite": 4.64,
         "107E_employment_growth_yoy": 0.57,
@@ -1348,32 +1348,32 @@
         "204A_dom_level_days": 43.0
       },
       "percentile_scores": {
-        "101A": 53.1,
+        "101A": 54.0,
         "102A": 14.0,
         "103B": 14.0,
-        "104C": 14.6,
+        "104C": 14.3,
         "105C": 14.0,
         "107E": 52.0,
-        "200B": 44.9,
-        "204A": 20.4
+        "200B": 46.0,
+        "204A": 20.0
       },
       "scores_100": {
-        "101A": 53,
+        "101A": 54,
         "102A": 14,
         "103B": 14,
-        "104C": 15,
+        "104C": 14,
         "105C": 14,
         "107E": 52,
-        "200B": 45,
+        "200B": 46,
         "204A": 20
       },
-      "weighted_percentile": 34.8,
+      "weighted_percentile": 35.0,
       "weighted_score": 35,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 34.8
+        "percentile": 35.0
       },
       "grade_display": "\u26d4 C"
     },
@@ -1387,7 +1387,7 @@
         "101A_unemp_yoy_pp": 0.0,
         "102A_clf_yoy": 1.99,
         "103B_earnings_yoy": 6.54,
-        "104C_col": 1.13,
+        "104C_col": 1.14,
         "105C_owr": 2.18,
         "107E_ldc_composite": 3.61,
         "107E_employment_growth_yoy": -0.49,
@@ -1398,23 +1398,23 @@
         "204A_dom_level_days": 47.0
       },
       "percentile_scores": {
-        "101A": 63.3,
+        "101A": 64.0,
         "102A": 92.0,
         "103B": 86.0,
-        "104C": 93.8,
+        "104C": 91.8,
         "105C": 42.0,
         "107E": 32.0,
-        "200B": 49.0,
-        "204A": 22.4
+        "200B": 50.0,
+        "204A": 22.0
       },
       "scores_100": {
-        "101A": 63,
+        "101A": 64,
         "102A": 92,
         "103B": 86,
-        "104C": 94,
+        "104C": 92,
         "105C": 42,
         "107E": 32,
-        "200B": 49,
+        "200B": 50,
         "204A": 22
       },
       "weighted_percentile": 61.3,
@@ -1448,32 +1448,32 @@
         "204A_dom_level_days": 55.0
       },
       "percentile_scores": {
-        "101A": 14.3,
+        "101A": 14.0,
         "102A": 82.0,
         "103B": 64.0,
-        "104C": 52.1,
+        "104C": 51.0,
         "105C": 88.0,
         "107E": 94.0,
         "200B": 0,
-        "204A": 63.3
+        "204A": 64.0
       },
       "scores_100": {
         "101A": 14,
         "102A": 82,
         "103B": 64,
-        "104C": 52,
+        "104C": 51,
         "105C": 88,
         "107E": 94,
         "200B": 0,
-        "204A": 63
+        "204A": 64
       },
-      "weighted_percentile": 56.2,
+      "weighted_percentile": 56.1,
       "weighted_score": 56,
       "grade": {
         "letter": "B+",
         "emoji": "\ud83d\udcc8",
         "description": "Above Average",
-        "percentile": 56.2
+        "percentile": 56.1
       },
       "grade_display": "\ud83d\udcc8 B+"
     },
@@ -1487,7 +1487,7 @@
         "101A_unemp_yoy_pp": -1.1,
         "102A_clf_yoy": -0.97,
         "103B_earnings_yoy": 5.4,
-        "104C_col": 1.26,
+        "104C_col": 1.27,
         "105C_owr": 2.16,
         "107E_ldc_composite": 4.24,
         "107E_employment_growth_yoy": 0.45,
@@ -1498,32 +1498,32 @@
         "204A_dom_level_days": 37.0
       },
       "percentile_scores": {
-        "101A": 93.9,
+        "101A": 94.0,
         "102A": 34.0,
         "103B": 70.0,
-        "104C": 87.5,
+        "104C": 85.7,
         "105C": 40.0,
         "107E": 46.0,
-        "200B": 87.8,
-        "204A": 95.9
+        "200B": 88.0,
+        "204A": 96.0
       },
       "scores_100": {
         "101A": 94,
         "102A": 34,
         "103B": 70,
-        "104C": 88,
+        "104C": 86,
         "105C": 40,
         "107E": 46,
         "200B": 88,
         "204A": 96
       },
-      "weighted_percentile": 69.4,
+      "weighted_percentile": 69.3,
       "weighted_score": 69,
       "grade": {
         "letter": "A+",
         "emoji": "\ud83d\ude80",
         "description": "Excellent",
-        "percentile": 69.4
+        "percentile": 69.3
       },
       "grade_display": "\ud83d\ude80 A+"
     },
@@ -1537,7 +1537,7 @@
         "101A_unemp_yoy_pp": -0.3,
         "102A_clf_yoy": -0.7,
         "103B_earnings_yoy": 8.26,
-        "104C_col": 1.35,
+        "104C_col": 1.36,
         "105C_owr": 1.86,
         "107E_ldc_composite": 4.7,
         "107E_employment_growth_yoy": 0.25,
@@ -1548,24 +1548,24 @@
         "204A_dom_level_days": 45.0
       },
       "percentile_scores": {
-        "101A": 79.6,
+        "101A": 80.0,
         "102A": 48.0,
         "103B": 98.0,
-        "104C": 83.3,
+        "104C": 81.6,
         "105C": 30.0,
         "107E": 54.0,
-        "200B": 91.8,
-        "204A": 28.6
+        "200B": 92.0,
+        "204A": 30.0
       },
       "scores_100": {
         "101A": 80,
         "102A": 48,
         "103B": 98,
-        "104C": 83,
+        "104C": 82,
         "105C": 30,
         "107E": 54,
         "200B": 92,
-        "204A": 29
+        "204A": 30
       },
       "weighted_percentile": 70.4,
       "weighted_score": 70,
@@ -1587,7 +1587,7 @@
         "101A_unemp_yoy_pp": -1.5,
         "102A_clf_yoy": -1.5,
         "103B_earnings_yoy": 3.58,
-        "104C_col": 2.9,
+        "104C_col": 2.91,
         "105C_owr": 1.58,
         "107E_ldc_composite": 4.6,
         "107E_employment_growth_yoy": 0.23,
@@ -1598,34 +1598,34 @@
         "204A_dom_level_days": 39.0
       },
       "percentile_scores": {
-        "101A": 95.9,
+        "101A": 96.0,
         "102A": 16.0,
         "103B": 44.0,
-        "104C": 37.5,
+        "104C": 36.7,
         "105C": 24.0,
         "107E": 48.0,
-        "200B": 12.2,
-        "204A": 81.6
+        "200B": 14.0,
+        "204A": 82.0
       },
       "scores_100": {
         "101A": 96,
         "102A": 16,
         "103B": 44,
-        "104C": 38,
+        "104C": 37,
         "105C": 24,
         "107E": 48,
-        "200B": 12,
+        "200B": 14,
         "204A": 82
       },
-      "weighted_percentile": 49.9,
+      "weighted_percentile": 50.0,
       "weighted_score": 50,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
-        "percentile": 49.9
+        "letter": "B",
+        "emoji": "\u27a1\ufe0f",
+        "description": "Average",
+        "percentile": 50.0
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\u27a1\ufe0f B"
     },
     {
       "metro_name": "Indianapolis-Carmel-Greenwood",
@@ -1637,7 +1637,7 @@
         "101A_unemp_yoy_pp": -0.4,
         "102A_clf_yoy": -0.25,
         "103B_earnings_yoy": 0.36,
-        "104C_col": 5.26,
+        "104C_col": 5.27,
         "105C_owr": 1.3,
         "107E_ldc_composite": 2.42,
         "107E_employment_growth_yoy": -1.06,
@@ -1648,14 +1648,14 @@
         "204A_dom_level_days": 45.0
       },
       "percentile_scores": {
-        "101A": 91.8,
+        "101A": 92.0,
         "102A": 54.0,
         "103B": 6.0,
-        "104C": 8.3,
+        "104C": 8.2,
         "105C": 20.0,
         "107E": 10.0,
-        "200B": 81.6,
-        "204A": 89.8
+        "200B": 82.0,
+        "204A": 90.0
       },
       "scores_100": {
         "101A": 92,
@@ -1667,13 +1667,13 @@
         "200B": 82,
         "204A": 90
       },
-      "weighted_percentile": 41.4,
+      "weighted_percentile": 41.5,
       "weighted_score": 41,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Poor",
-        "percentile": 41.4
+        "percentile": 41.5
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -1698,32 +1698,32 @@
         "204A_dom_level_days": 55.0
       },
       "percentile_scores": {
-        "101A": 59.2,
+        "101A": 60.0,
         "102A": 90.0,
         "103B": 0,
         "104C": 50,
         "105C": 74.0,
         "107E": 56.0,
-        "200B": 51.0,
-        "204A": 57.1
+        "200B": 52.0,
+        "204A": 58.0
       },
       "scores_100": {
-        "101A": 59,
+        "101A": 60,
         "102A": 90,
         "103B": 0,
         "104C": 50,
         "105C": 74,
         "107E": 56,
-        "200B": 51,
-        "204A": 57
+        "200B": 52,
+        "204A": 58
       },
-      "weighted_percentile": 51.0,
+      "weighted_percentile": 51.3,
       "weighted_score": 51,
       "grade": {
         "letter": "B",
         "emoji": "\u27a1\ufe0f",
         "description": "Average",
-        "percentile": 51.0
+        "percentile": 51.3
       },
       "grade_display": "\u27a1\ufe0f B"
     },
@@ -1748,32 +1748,32 @@
         "204A_dom_level_days": 53.0
       },
       "percentile_scores": {
-        "101A": 87.8,
+        "101A": 88.0,
         "102A": 40.0,
         "103B": 88.0,
-        "104C": 60.4,
+        "104C": 59.2,
         "105C": 86.0,
         "107E": 80.0,
-        "200B": 20.4,
-        "204A": 46.9
+        "200B": 22.0,
+        "204A": 48.0
       },
       "scores_100": {
         "101A": 88,
         "102A": 40,
         "103B": 88,
-        "104C": 60,
+        "104C": 59,
         "105C": 86,
         "107E": 80,
-        "200B": 20,
-        "204A": 47
+        "200B": 22,
+        "204A": 48
       },
-      "weighted_percentile": 69.0,
+      "weighted_percentile": 69.1,
       "weighted_score": 69,
       "grade": {
         "letter": "A+",
         "emoji": "\ud83d\ude80",
         "description": "Excellent",
-        "percentile": 69.0
+        "percentile": 69.1
       },
       "grade_display": "\ud83d\ude80 A+"
     },
@@ -1798,14 +1798,14 @@
         "204A_dom_level_days": 37.0
       },
       "percentile_scores": {
-        "101A": 85.7,
+        "101A": 86.0,
         "102A": 44.0,
         "103B": 12.0,
-        "104C": 10.4,
+        "104C": 10.2,
         "105C": 84.0,
         "107E": 96.0,
-        "200B": 95.9,
-        "204A": 85.7
+        "200B": 96.0,
+        "204A": 86.0
       },
       "scores_100": {
         "101A": 86,
@@ -1837,7 +1837,7 @@
         "101A_unemp_yoy_pp": 0.3,
         "102A_clf_yoy": -1.31,
         "103B_earnings_yoy": 6.14,
-        "104C_col": 2.43,
+        "104C_col": 2.44,
         "105C_owr": 1.38,
         "107E_ldc_composite": 1.56,
         "107E_employment_growth_yoy": -0.96,
@@ -1848,20 +1848,20 @@
         "204A_dom_level_days": 37.0
       },
       "percentile_scores": {
-        "101A": 53.1,
+        "101A": 54.0,
         "102A": 22.0,
         "103B": 78.0,
-        "104C": 50.0,
+        "104C": 49.0,
         "105C": 22.0,
         "107E": 4.0,
         "200B": 98.0,
-        "204A": 18.4
+        "204A": 18.0
       },
       "scores_100": {
-        "101A": 53,
+        "101A": 54,
         "102A": 22,
         "103B": 78,
-        "104C": 50,
+        "104C": 49,
         "105C": 22,
         "107E": 4,
         "200B": 98,
@@ -1898,14 +1898,14 @@
         "204A_dom_level_days": 59.0
       },
       "percentile_scores": {
-        "101A": 4.1,
+        "101A": 4.0,
         "102A": 58.0,
         "103B": 2.0,
-        "104C": 35.4,
+        "104C": 34.7,
         "105C": 50.0,
         "107E": 16.0,
-        "200B": 18.4,
-        "204A": 24.5
+        "200B": 20.0,
+        "204A": 26.0
       },
       "scores_100": {
         "101A": 4,
@@ -1914,16 +1914,16 @@
         "104C": 35,
         "105C": 50,
         "107E": 16,
-        "200B": 18,
-        "204A": 24
+        "200B": 20,
+        "204A": 26
       },
-      "weighted_percentile": 19.7,
+      "weighted_percentile": 19.9,
       "weighted_score": 20,
       "grade": {
         "letter": "D",
         "emoji": "\ud83d\udca5",
         "description": "Emergency",
-        "percentile": 19.7
+        "percentile": 19.9
       },
       "grade_display": "\ud83d\udca5 D"
     },
@@ -1948,14 +1948,14 @@
         "204A_dom_level_days": 32.0
       },
       "percentile_scores": {
-        "101A": 20.4,
+        "101A": 20.0,
         "102A": 88.0,
         "103B": 40.0,
         "104C": 0,
         "105C": 68.0,
         "107E": 58.0,
-        "200B": 89.8,
-        "204A": 14.3
+        "200B": 90.0,
+        "204A": 14.0
       },
       "scores_100": {
         "101A": 20,
@@ -1967,13 +1967,13 @@
         "200B": 90,
         "204A": 14
       },
-      "weighted_percentile": 45.1,
+      "weighted_percentile": 45.0,
       "weighted_score": 45,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 45.1
+        "percentile": 45.0
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -1998,32 +1998,32 @@
         "204A_dom_level_days": 33.0
       },
       "percentile_scores": {
-        "101A": 83.7,
+        "101A": 84.0,
         "102A": 60.0,
         "103B": 18.0,
-        "104C": 20.8,
+        "104C": 20.4,
         "105C": 16.0,
         "107E": 14.0,
-        "200B": 63.3,
-        "204A": 91.8
+        "200B": 64.0,
+        "204A": 92.0
       },
       "scores_100": {
         "101A": 84,
         "102A": 60,
         "103B": 18,
-        "104C": 21,
+        "104C": 20,
         "105C": 16,
         "107E": 14,
-        "200B": 63,
+        "200B": 64,
         "204A": 92
       },
-      "weighted_percentile": 42.8,
+      "weighted_percentile": 42.9,
       "weighted_score": 43,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Poor",
-        "percentile": 42.8
+        "percentile": 42.9
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -2037,7 +2037,7 @@
         "101A_unemp_yoy_pp": -0.2,
         "102A_clf_yoy": 0.58,
         "103B_earnings_yoy": 4.25,
-        "104C_col": 1.31,
+        "104C_col": 1.32,
         "105C_owr": 4.54,
         "107E_ldc_composite": 8.84,
         "107E_employment_growth_yoy": 2.17,
@@ -2048,24 +2048,24 @@
         "204A_dom_level_days": 50.0
       },
       "percentile_scores": {
-        "101A": 87.8,
+        "101A": 88.0,
         "102A": 78.0,
         "103B": 58.0,
-        "104C": 85.4,
+        "104C": 83.7,
         "105C": 98.0,
         "107E": 98.0,
-        "200B": 75.5,
-        "204A": 28.6
+        "200B": 76.0,
+        "204A": 30.0
       },
       "scores_100": {
         "101A": 88,
         "102A": 78,
         "103B": 58,
-        "104C": 85,
+        "104C": 84,
         "105C": 98,
         "107E": 98,
         "200B": 76,
-        "204A": 29
+        "204A": 30
       },
       "weighted_percentile": 80.7,
       "weighted_score": 81,
@@ -2087,7 +2087,7 @@
         "101A_unemp_yoy_pp": 1.2,
         "102A_clf_yoy": -1.07,
         "103B_earnings_yoy": 6.51,
-        "104C_col": 1.06,
+        "104C_col": 1.07,
         "105C_owr": 0.46,
         "107E_ldc_composite": 3.54,
         "107E_employment_growth_yoy": -0.54,
@@ -2098,32 +2098,32 @@
         "204A_dom_level_days": 51.0
       },
       "percentile_scores": {
-        "101A": 14.3,
+        "101A": 14.0,
         "102A": 30.0,
         "103B": 82.0,
-        "104C": 95.8,
+        "104C": 93.9,
         "105C": 2.0,
         "107E": 30.0,
-        "200B": 38.8,
-        "204A": 79.6
+        "200B": 40.0,
+        "204A": 80.0
       },
       "scores_100": {
         "101A": 14,
         "102A": 30,
         "103B": 82,
-        "104C": 96,
+        "104C": 94,
         "105C": 2,
         "107E": 30,
-        "200B": 39,
+        "200B": 40,
         "204A": 80
       },
-      "weighted_percentile": 45.1,
+      "weighted_percentile": 44.9,
       "weighted_score": 45,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 45.1
+        "percentile": 44.9
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -2137,7 +2137,7 @@
         "101A_unemp_yoy_pp": 0.6,
         "102A_clf_yoy": -0.96,
         "103B_earnings_yoy": 1.79,
-        "104C_col": 3.07,
+        "104C_col": 3.08,
         "105C_owr": 0.5,
         "107E_ldc_composite": 2.11,
         "107E_employment_growth_yoy": -0.85,
@@ -2148,14 +2148,14 @@
         "204A_dom_level_days": 40.0
       },
       "percentile_scores": {
-        "101A": 18.4,
+        "101A": 18.0,
         "102A": 36.0,
         "103B": 24.0,
-        "104C": 31.2,
+        "104C": 30.6,
         "105C": 6.0,
         "107E": 6.0,
-        "200B": 2.0,
-        "204A": 71.4
+        "200B": 4.0,
+        "204A": 72.0
       },
       "scores_100": {
         "101A": 18,
@@ -2164,16 +2164,16 @@
         "104C": 31,
         "105C": 6,
         "107E": 6,
-        "200B": 2,
-        "204A": 71
+        "200B": 4,
+        "204A": 72
       },
-      "weighted_percentile": 20.1,
+      "weighted_percentile": 20.2,
       "weighted_score": 20,
       "grade": {
         "letter": "D",
         "emoji": "\ud83d\udca5",
         "description": "Emergency",
-        "percentile": 20.1
+        "percentile": 20.2
       },
       "grade_display": "\ud83d\udca5 D"
     },
@@ -2187,7 +2187,7 @@
         "101A_unemp_yoy_pp": 0.3,
         "102A_clf_yoy": -0.98,
         "103B_earnings_yoy": 3.0,
-        "104C_col": 3.13,
+        "104C_col": 3.14,
         "105C_owr": 1.68,
         "107E_ldc_composite": 2.27,
         "107E_employment_growth_yoy": -0.87,
@@ -2198,32 +2198,32 @@
         "204A_dom_level_days": 37.0
       },
       "percentile_scores": {
-        "101A": 59.2,
+        "101A": 60.0,
         "102A": 32.0,
         "103B": 36.0,
-        "104C": 29.2,
+        "104C": 28.6,
         "105C": 28.0,
         "107E": 8.0,
-        "200B": 46.9,
+        "200B": 48.0,
         "204A": 0
       },
       "scores_100": {
-        "101A": 59,
+        "101A": 60,
         "102A": 32,
         "103B": 36,
         "104C": 29,
         "105C": 28,
         "107E": 8,
-        "200B": 47,
+        "200B": 48,
         "204A": 0
       },
-      "weighted_percentile": 31.5,
-      "weighted_score": 31,
+      "weighted_percentile": 31.7,
+      "weighted_score": 32,
       "grade": {
         "letter": "C-",
         "emoji": "\ud83d\udea8",
         "description": "Critical",
-        "percentile": 31.5
+        "percentile": 31.7
       },
       "grade_display": "\ud83d\udea8 C-"
     },
@@ -2248,32 +2248,32 @@
         "204A_dom_level_days": 64.0
       },
       "percentile_scores": {
-        "101A": 42.9,
+        "101A": 44.0,
         "102A": 26.0,
         "103B": 94.0,
-        "104C": 97.9,
+        "104C": 98.0,
         "105C": 4.0,
         "107E": 12.0,
-        "200B": 73.5,
-        "204A": 16.3
+        "200B": 74.0,
+        "204A": 16.0
       },
       "scores_100": {
-        "101A": 43,
+        "101A": 44,
         "102A": 26,
         "103B": 94,
         "104C": 98,
         "105C": 4,
         "107E": 12,
-        "200B": 73,
+        "200B": 74,
         "204A": 16
       },
-      "weighted_percentile": 48.3,
-      "weighted_score": 48,
+      "weighted_percentile": 48.6,
+      "weighted_score": 49,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 48.3
+        "percentile": 48.6
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -2287,7 +2287,7 @@
         "101A_unemp_yoy_pp": 0.0,
         "102A_clf_yoy": -0.06,
         "103B_earnings_yoy": 4.07,
-        "104C_col": 2.66,
+        "104C_col": 2.67,
         "105C_owr": 4.36,
         "107E_ldc_composite": 6.8,
         "107E_employment_growth_yoy": 2.12,
@@ -2298,32 +2298,32 @@
         "204A_dom_level_days": 50.0
       },
       "percentile_scores": {
-        "101A": 71.4,
+        "101A": 72.0,
         "102A": 64.0,
         "103B": 50.0,
-        "104C": 43.8,
+        "104C": 42.9,
         "105C": 96.0,
         "107E": 90.0,
-        "200B": 40.8,
-        "204A": 59.2
+        "200B": 42.0,
+        "204A": 60.0
       },
       "scores_100": {
-        "101A": 71,
+        "101A": 72,
         "102A": 64,
         "103B": 50,
-        "104C": 44,
+        "104C": 43,
         "105C": 96,
         "107E": 90,
-        "200B": 41,
-        "204A": 59
+        "200B": 42,
+        "204A": 60
       },
-      "weighted_percentile": 65.9,
+      "weighted_percentile": 66.0,
       "weighted_score": 66,
       "grade": {
         "letter": "A",
         "emoji": "\u2705",
         "description": "Very Good",
-        "percentile": 65.9
+        "percentile": 66.0
       },
       "grade_display": "\u2705 A"
     },
@@ -2337,7 +2337,7 @@
         "101A_unemp_yoy_pp": 0.9,
         "102A_clf_yoy": -0.77,
         "103B_earnings_yoy": 0.37,
-        "104C_col": 1.94,
+        "104C_col": 1.95,
         "105C_owr": 2.76,
         "107E_ldc_composite": 5.63,
         "107E_employment_growth_yoy": 0.63,
@@ -2348,32 +2348,32 @@
         "204A_dom_level_days": 54.0
       },
       "percentile_scores": {
-        "101A": 49.0,
+        "101A": 50.0,
         "102A": 42.0,
         "103B": 8.0,
-        "104C": 62.5,
+        "104C": 61.2,
         "105C": 52.0,
         "107E": 76.0,
-        "200B": 34.7,
-        "204A": 28.6
+        "200B": 36.0,
+        "204A": 30.0
       },
       "scores_100": {
-        "101A": 49,
+        "101A": 50,
         "102A": 42,
         "103B": 8,
-        "104C": 62,
+        "104C": 61,
         "105C": 52,
         "107E": 76,
-        "200B": 35,
-        "204A": 29
+        "200B": 36,
+        "204A": 30
       },
-      "weighted_percentile": 48.2,
+      "weighted_percentile": 48.4,
       "weighted_score": 48,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 48.2
+        "percentile": 48.4
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -2401,29 +2401,29 @@
         "101A": 0,
         "102A": 66.0,
         "103B": 66.0,
-        "104C": 54.2,
+        "104C": 53.1,
         "105C": 34.0,
         "107E": 78.0,
-        "200B": 36.7,
-        "204A": 53.1
+        "200B": 38.0,
+        "204A": 54.0
       },
       "scores_100": {
         "101A": 0,
         "102A": 66,
         "103B": 66,
-        "104C": 54,
+        "104C": 53,
         "105C": 34,
         "107E": 78,
-        "200B": 37,
-        "204A": 53
+        "200B": 38,
+        "204A": 54
       },
-      "weighted_percentile": 49.8,
+      "weighted_percentile": 49.9,
       "weighted_score": 50,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 49.8
+        "percentile": 49.9
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -2437,7 +2437,7 @@
         "101A_unemp_yoy_pp": -0.1,
         "102A_clf_yoy": -6.22,
         "103B_earnings_yoy": 2.67,
-        "104C_col": 5.33,
+        "104C_col": 5.34,
         "105C_owr": 0.8,
         "107E_ldc_composite": 3.43,
         "107E_employment_growth_yoy": -0.62,
@@ -2448,32 +2448,32 @@
         "204A_dom_level_days": 33.0
       },
       "percentile_scores": {
-        "101A": 34.7,
+        "101A": 36.0,
         "102A": 0,
         "103B": 34.0,
-        "104C": 6.2,
+        "104C": 6.1,
         "105C": 10.0,
         "107E": 26.0,
-        "200B": 10.2,
+        "200B": 12.0,
         "204A": 2.0
       },
       "scores_100": {
-        "101A": 35,
+        "101A": 36,
         "102A": 0,
         "103B": 34,
         "104C": 6,
         "105C": 10,
         "107E": 26,
-        "200B": 10,
+        "200B": 12,
         "204A": 2
       },
-      "weighted_percentile": 20.7,
+      "weighted_percentile": 21.1,
       "weighted_score": 21,
       "grade": {
         "letter": "D",
         "emoji": "\ud83d\udca5",
         "description": "Emergency",
-        "percentile": 20.7
+        "percentile": 21.1
       },
       "grade_display": "\ud83d\udca5 D"
     },
@@ -2487,7 +2487,7 @@
         "101A_unemp_yoy_pp": -1.3,
         "102A_clf_yoy": 2.77,
         "103B_earnings_yoy": 3.35,
-        "104C_col": 2.14,
+        "104C_col": 2.15,
         "105C_owr": 2.14,
         "107E_ldc_composite": 6.56,
         "107E_employment_growth_yoy": 1.88,
@@ -2498,32 +2498,32 @@
         "204A_dom_level_days": 29.0
       },
       "percentile_scores": {
-        "101A": 95.9,
+        "101A": 96.0,
         "102A": 96.0,
         "103B": 38.0,
-        "104C": 56.2,
+        "104C": 55.1,
         "105C": 38.0,
         "107E": 88.0,
-        "200B": 8.2,
-        "204A": 4.1
+        "200B": 10.0,
+        "204A": 4.0
       },
       "scores_100": {
         "101A": 96,
         "102A": 96,
         "103B": 38,
-        "104C": 56,
+        "104C": 55,
         "105C": 38,
         "107E": 88,
-        "200B": 8,
+        "200B": 10,
         "204A": 4
       },
-      "weighted_percentile": 65.4,
+      "weighted_percentile": 65.5,
       "weighted_score": 65,
       "grade": {
         "letter": "A",
         "emoji": "\u2705",
         "description": "Very Good",
-        "percentile": 65.4
+        "percentile": 65.5
       },
       "grade_display": "\u2705 A"
     }
