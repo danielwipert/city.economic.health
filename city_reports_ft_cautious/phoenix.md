@@ -1,33 +1,33 @@
 # Phoenix-Mesa-Chandler
 
-**Grade: B- (Below Average) | 44.1th percentile | July 2026**
+**Grade: B- (Below Average) | 46.0th percentile | July 2026**
 
 ---
 
-The Phoenix-Mesa-Chandler metro area has an overall grade of B- with a composite score ranking it at the 44.1th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with an 82nd percentile ranking, and its below-average unemployment rate of 4.10%, which ranks at the 29th percentile. The labor demand composite score of 5.84, driven by a +0.96% employment growth rate and +0.193% weekly hours deviation, signals genuine demand expansion.
+The Phoenix-Mesa-Chandler metro area has an overall grade of B- with a composite score ranking it at the 46.0th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with a top-tier composite score of 80th percentile, and its relatively high share of office and professional workers, ranking at the 84th percentile. The labor demand is driven by a combination of employment growth and hours worked above trend.
 
 **Labor Demand**
-The employment growth rate of +0.96% and weekly hours deviation of +0.193% indicate a strong labor market with genuine demand expansion. This combination signals that the city is adding jobs and workers are putting in more hours, suggesting a healthy and growing economy. The labor demand composite score of 5.84 reinforces this assessment, ranking at the 82nd percentile.
+The Phoenix-Mesa-Chandler metro area has seen employment growth of 1.37% year-over-year, combined with a 0.048% deviation in weekly hours above its own 12-month trend. This signals genuine demand expansion, as hours are running above trend during a period of job growth. The labor demand composite score of 6.27 further supports this, indicating a strong and growing job market.
 
 **Unemployment**
-The unemployment rate of 4.10% is below the national average, ranking at the 29th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in finding and hiring qualified workers, and may need to offer competitive wages to attract talent. The tight labor market also suggests that workers may have more bargaining power.
+The unemployment rate in Phoenix-Mesa-Chandler is 4.10%, ranking at the 30th percentile, indicating a moderate level of slack in the labor market. This means that while it may not be extremely difficult to hire, there is still some competition for talent. Businesses trying to hire in this market may face some wage pressure, but it is not as intense as in tighter labor markets.
 
 **Wage Growth**
-The year-over-year wage growth rate of +2.55% is moderate, ranking at the 32nd percentile. This rate suggests that labor costs for employers are rising, but not excessively so. Workers in the area can expect to see some increase in their purchasing power, but it may not be enough to keep pace with cost of living increases.
+Wage growth in Phoenix-Mesa-Chandler has been moderate, with a year-over-year increase of 2.39% in hourly earnings, ranking at the 34th percentile. This rate of wage growth is not extremely high, but it still poses some upward pressure on labor costs for employers. At the same time, it supports worker purchasing power, which can be beneficial for local consumer demand.
 
 **Cost of Living**
-With a cost of living ratio of 7.22, based on $269/sqft and $37.26/hr, Phoenix-Mesa-Chandler ranks at the 48th percentile in terms of affordability. This means that the city is relatively affordable compared to its peers, which could be a talent attraction advantage. The fact that PSF is falling by 1.8% YoY also contributes to the city's affordability.
+With a cost of living ratio of $269/sqft to $37.40/hr, Phoenix-Mesa-Chandler ranks at the 51st percentile in terms of affordability, indicating a near-median level of affordability. The fact that PSF is falling by 1.8% year-over-year relative to wages suggests that the city is becoming more affordable. This can be a talent attraction advantage, as workers may not require significant wage premiums to afford the cost of living.
 
 **Labor Force Growth**
-The civilian labor force is contracting at a rate of -1.31% year-over-year, ranking at the 22nd percentile. This decline in labor force supply suggests that businesses may face structural headwinds in hiring and expanding their workforce. The shrinking labor pool may limit the city's ability to support rapid business growth.
+The civilian labor force in Phoenix-Mesa-Chandler has contracted by 1.31% year-over-year, indicating a shrinking labor pool. This poses a structural headwind for hiring, as the supply of potential workers is decreasing. Businesses may need to consider strategies to attract workers from other areas or invest in training and development to build the skills they need.
 
 **Building Permits**
-The year-over-year change in building permits is -29.08%, ranking at the 6th percentile, indicating a sharp decline in housing supply. This suggests that the city may be facing a future affordability crisis, which could impact its ability to attract and retain workers. The decline in building permits is a concern for businesses that rely on a steady supply of skilled workers.
+The number of residential building permits in Phoenix-Mesa-Chandler has decreased by 19.67% year-over-year, ranking at the 18th percentile. This sharp decline signals a tightening of housing supply, which can lead to decreased affordability and make it more challenging for workers to relocate to the area. This trend poses a risk to future workforce accommodation and affordability.
 
 **Days on Market**
-The current median days on market is 64 days, with a year-over-year decline of -1.5%. This suggests that the housing market is relatively competitive, but not extremely so. Workers relocating to the city may still find it accessible, but the market is not as slow as it could be.
+Homes in Phoenix-Mesa-Chandler are currently sitting on the market for a median of 64 days, with a year-over-year decrease of 1.5%. This indicates a relatively fast-moving market, which can make it challenging for relocating workers to find and secure housing. The market is somewhat competitive, but the relatively short days on market suggest that it is still accessible for those looking to relocate.
 
 **Office Economy**
-With an office/professional worker share of 3.30, ranking at the 76th percentile, Phoenix-Mesa-Chandler has a deep talent pool suited for tech, finance, and consulting businesses. The city's strong office economy makes it an attractive location for businesses that require specialized knowledge workers, but it may be less suitable for industrial or logistics-dominant businesses.
+With an office and professional worker share ranking at the 84th percentile, Phoenix-Mesa-Chandler has a deep talent pool suited for tech, finance, consulting, and HQ decisions. This city is well-suited for businesses that require specialized knowledge-economy roles, but may be less ideal for those with primarily industrial or logistics-dominant operations.
 
-The Phoenix-Mesa-Chandler metro area offers businesses a strong labor market with genuine demand expansion, but the single biggest risk or constraint is the declining labor force supply and sharp decline in building permits, which could lead to future affordability and workforce accommodation challenges. Despite these challenges, the city's relatively affordable cost of living and deep professional talent pool make it an attractive location for certain types of businesses. However, decision-makers should carefully consider the potential risks and constraints when evaluating this city as a potential location.
+The Phoenix-Mesa-Chandler metro area offers businesses a strong labor demand and a deep professional talent pool, making it an attractive location for knowledge-economy industries. However, the single biggest risk or constraint for decision-makers is the tightening housing supply, which poses a threat to future affordability and workforce accommodation, and may require businesses to consider strategies to attract and retain workers in a competitive market.

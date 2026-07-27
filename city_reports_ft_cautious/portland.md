@@ -1,33 +1,33 @@
 # Portland-Vancouver-Hillsboro
 
-**Grade: C (Very Poor) | 35.4th percentile | July 2026**
+**Grade: C (Very Poor) | 35.7th percentile | July 2026**
 
 ---
 
-The Portland-Vancouver-Hillsboro metro area has an overall grade of C, ranking 35.4th percentile out of 50 US metros, with a composite score largely defined by its weak labor demand and strong wage growth, at -2.81% employment growth and +6.37% wage growth, respectively. The labor demand composite score of 1.50, combining employment growth and weekly hours deviation, signals a contraction in the job market. This is further emphasized by the bottom-tier percentile ranks in labor demand metrics.
+The Portland-Vancouver-Hillsboro metro area has an overall grade of C, ranking 35.7th percentile out of 50 US metros, with a composite score largely defined by its weak labor demand and high wage growth. The labor demand composite score of 1.50, combining a -2.07% employment growth rate and a -0.245% weekly hours deviation from trend, signals a contraction in labor demand. This, coupled with a wage growth rate of +5.82%, suggests a complex economic environment.
 
 **Labor Demand**
-The employment growth rate of -2.81% and weekly hours deviation of -0.489% indicate a contraction in labor demand, signaling a lack of genuine demand expansion in the job market. This combination suggests that the city is experiencing a decline in job creation and hours worked, which can lead to a surplus of labor. The labor demand composite score of 1.50 reinforces this notion, ranking at the 0th percentile.
+The employment growth rate of -2.07% and weekly hours deviation of -0.245% from the city's own trend indicate a contraction in labor demand, signaling that the city is experiencing a period of job losses and reduced working hours. This combination suggests a lack of genuine demand expansion, instead pointing to a potential survivor squeeze where remaining workers are absorbing the load of eliminated roles. The labor demand composite score of 1.50 falls into the bottom tier, reinforcing this interpretation.
 
 **Unemployment**
-Although the exact unemployment rate is not available, the city's unemployment rate percentile rank of 22nd suggests that the market has some slack, making it slightly easier for businesses to hire. However, this also implies weaker local consumer demand. With an unemployment rate that is not exceptionally low, businesses may face less competition for talent, but may also encounter a less vibrant local economy.
+The unemployment rate of 4.70% places the city below the average, ranking at the 24th percentile. This indicates that while the market is not extremely tight, there is some slack, making it somewhat easier for businesses to hire compared to tighter markets. However, the practical implication for a business trying to hire here is that it may still face some competition for talent, albeit less than in markets with lower unemployment rates.
 
 **Wage Growth**
-The year-over-year wage growth rate of +6.37% indicates fast-rising wages, ranking at the 80th percentile. This rapid wage growth implies increasing labor costs for employers, but also stronger worker purchasing power. As wages rise, businesses may need to adjust their budgets to accommodate higher labor costs, while workers will have more disposable income to spend in the local economy.
+The year-over-year wage growth rate of +5.82% is above average, ranking at the 76th percentile. This fast wage growth implies rising labor costs for employers but also indicates good worker purchasing power. Businesses should factor in the potential for increasing labor costs when considering this location.
 
 **Cost of Living**
-With a cost of living percentile rank of 58th, the city is near the median in terms of affordability, with a PSF of $309/sqft and average hourly earnings of $41.92/hr, resulting in a ratio of 7.37. The fact that PSF is falling by 1.9% YoY suggests some improvement in affordability. This near-median affordability ranking means that the city may not have a significant talent attraction advantage due to cost of living alone, but it also does not require substantial wage premiums to compensate for high costs.
+With a cost of living ratio of $309/sqft to $42.08/hr, and a PSF that is falling by -1.9% YoY, the city ranks at the 67th percentile in terms of affordability. This means the city is more affordable relative to its peers, which can be a talent attraction advantage without needing wage premiums. The falling PSF relative to wages is a key driver of this affordability.
 
 **Labor Force Growth**
-The year-over-year growth rate of the civilian labor force is -1.14%, indicating a contracting labor pool. This decline in labor force supply implies a structural headwind for hiring, as the available workforce is shrinking. Businesses may face challenges in finding and recruiting talent in a market with a declining labor force.
+The civilian labor force is growing at a rate of -1.14% year-over-year, indicating a contraction in the labor force supply. This negative growth rate suggests that the workforce pool is shrinking, presenting a structural headwind for hiring and business expansion in the area.
 
 **Building Permits**
-The year-over-year change in residential building permits is +7.12%, signaling an expansion in housing supply. This increase in permits suggests that developer confidence is rising, and future housing supply is likely to improve, which can lead to better affordability and workforce accommodation. As housing supply expands, the city may become more attractive to relocating workers and businesses.
+The year-over-year change in residential building permits is +2.48%, which is near the median. This slight increase suggests that housing supply is slowly expanding, which could improve affordability and accommodate workforce growth in the future. However, the rate of increase is modest, indicating that significant supply constraints are not being rapidly addressed.
 
 **Days on Market**
-The current median days on market is 51 days, with a year-over-year increase of 4.1%. This rising days on market indicates a slowing market, making it slightly more accessible for workers relocating to the city. However, the near-median percentile rank of 55th suggests that the market is not exceptionally slow or fast, providing a relatively balanced environment for homebuyers.
+The current median days on market is 51 days, with a year-over-year increase of +4.1%. This indicates a slowing market where homes are sitting longer before being sold. For a worker relocating to this city, the market is becoming more accessible, as there is less competition and pressure to act quickly on housing decisions.
 
 **Office Economy**
-With an office/professional worker share percentile rank of 8th, the city has a relatively shallow professional talent pool. This suggests that the city is less suited for businesses relying heavily on tech, finance, or consulting talent, but may be more accommodating to industrial or logistics-dominant economies. The city's economic character is more aligned with traditional industries rather than knowledge-economy sectors.
+The share of jobs in professional and office sectors is 0.68, ranking at the 8th percentile. This suggests a relatively shallow talent pool in these areas, making the city less suited for businesses requiring deep knowledge-economy talent, such as tech, finance, consulting, or HQ decisions. Instead, the economy may be more industrial or logistics-dominant.
 
-The Portland-Vancouver-Hillsboro metro area offers a unique combination of strong wage growth and a relatively affordable cost of living, but its weak labor demand and contracting labor force pose significant risks for businesses. The single biggest constraint for decision-makers is the city's limited labor pool and declining job market, which may hinder hiring and expansion efforts.
+The Portland-Vancouver-Hillsboro metro area offers a complex mix of high wage growth and relatively low labor demand, suggesting that while labor costs may be rising, the pool of available workers might be shrinking. The single biggest risk or constraint for a decision-maker considering this location is the shrinking labor force and the potential for a survivor squeeze, which could impact hiring capacity and business expansion plans.

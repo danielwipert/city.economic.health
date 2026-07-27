@@ -1,33 +1,33 @@
 # San Francisco-Oakland-Fremont
 
-**Grade: B (Average) | 52.1th percentile | July 2026**
+**Grade: B (Average) | 52.3th percentile | July 2026**
 
 ---
 
-The San Francisco-Oakland-Fremont metro area has an overall grade of B, ranking in the 52.1th percentile among 50 US metros, with a composite score driven largely by its strong labor demand and low unemployment rate, at 3.60% and a top-tier wage growth of 6.51%. The city's economic character is defined by these two metrics, indicating a tight labor market with rising wages. With an employment growth rate of 0.28% and weekly hours 0.421% above trend, the city is experiencing genuine demand expansion.
+The San Francisco-Oakland-Fremont metro area has an overall grade of B, ranking 52.3th percentile out of 50 US metros, with a composite score driven largely by its strong unemployment rate of 3.60% and high wage growth of 6.15%. These two metrics define the city's current economic character, indicating a tight labor market with rising labor costs. The labor demand composite score of 4.92, although near median, suggests a more nuanced economic environment.
 
 **Labor Demand**
-The employment growth rate of 0.28% and weekly hours deviation of 0.421% above trend signal genuine demand expansion in the San Francisco-Oakland-Fremont metro area. This combination indicates that the city is adding jobs and workers are putting in more hours, suggesting a strong and growing economy. The labor demand composite score of 5.11, ranking in the 62th percentile, further supports this assessment.
+The employment growth rate of +0.60% and weekly hours deviation of -0.223% from the city's own trend suggest a moderate labor demand expansion, indicating genuine demand for labor rather than a survivor squeeze. This combination signals a growing economy, albeit with some constraints on labor supply. The near-median percentile rank of 42nd suggests a balanced labor market.
 
 **Unemployment**
-The unemployment rate of 3.60% is relatively low, ranking in the 80th percentile, indicating a tight labor market with limited slack. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer competitive wages to attract talent. The low unemployment rate also suggests that workers have more bargaining power.
+The unemployment rate of 3.60% indicates a tight labor market, ranking in the top tier at the 80th percentile. This means that businesses may face challenges in hiring, with more wage pressure and competition for talent. In practical terms, companies may need to offer higher salaries or more attractive benefits to attract and retain employees.
 
 **Wage Growth**
-The year-over-year wage growth rate of 6.51% is relatively high, ranking in the 82th percentile, indicating fast-rising wages. This suggests that employer labor costs are increasing, but workers also have more purchasing power, which can be beneficial for businesses that rely on local consumer demand. The strong wage growth may also attract more skilled workers to the area.
+The year-over-year wage growth rate of 6.15% is relatively high, ranking in the top tier at the 84th percentile. This signals rising labor costs for employers, but also increasing purchasing power for workers. As a result, businesses may need to factor in higher labor costs, while also benefiting from a more affluent local consumer base.
 
 **Cost of Living**
-The cost of living in San Francisco-Oakland-Fremont is relatively high, with a percentile rank of 19, due to a PSF of $649/sqft and average hourly earnings of $50.06, resulting in a ratio of 12.96. Although the PSF is falling by 4.1% YoY, the city remains expensive, which may make it challenging to attract talent without offering wage premiums. The high cost of living may be a constraint for businesses that are sensitive to labor costs.
+The city's cost of living, with a PSF of $649/sqft and an earnings ratio of 12.95, ranks in the bottom tier at the 18th percentile, indicating a relatively expensive environment. However, the -4.1% YoY change in PSF suggests some improvement in affordability. This means that talent attraction may be challenging without offering wage premiums to offset the high cost of living.
 
 **Labor Force Growth**
-The civilian labor force is contracting at a rate of -1.81% year-over-year, ranking in the 10th percentile, indicating a shrinking labor pool. This suggests that the supply of workers is decreasing, which may exacerbate hiring challenges and create a structural headwind for businesses looking to expand. The declining labor force growth may limit the city's ability to support rapid business growth.
+The civilian labor force is contracting at a rate of -1.81% year-over-year, ranking in the bottom tier at the 10th percentile. This suggests a shrinking labor pool, which may pose structural headwinds for hiring and business expansion. Companies may need to consider strategies to attract talent from outside the area or invest in workforce development programs.
 
 **Building Permits**
-The year-over-year change in building permits is -11.22%, ranking in the 31st percentile, indicating a tightening housing supply. This suggests that the city's housing market may become less affordable in the future, which could impact workforce accommodation and attraction. The decline in building permits may signal a future supply squeeze, making it more challenging for businesses to attract and retain talent.
+The year-over-year change in residential building permits is +19.88%, ranking in the top tier at the 80th percentile. This indicates an expanding housing supply, which may improve affordability and accommodation options for the workforce. As a result, businesses may benefit from a more stable and attractive environment for relocating workers.
 
 **Days on Market**
-The median days on market is 37 days, with a year-over-year decrease of -7.5%, ranking in the 6th percentile, indicating a fast-paced and competitive housing market. This suggests that workers relocating to the city may face challenges in finding affordable housing, as homes are selling quickly. The fast-paced market may make it difficult for businesses to attract talent, as relocating workers may struggle to find suitable housing.
+The current median days on market is 37 days, with a -7.5% year-over-year change, ranking in the bottom tier at the 6th percentile. This suggests a highly competitive housing market, which may pose challenges for relocating workers. However, the decreasing days on market may indicate a normalization of the market, making it slightly more accessible for newcomers.
 
 **Office Economy**
-The share of professional and office workers is 3.00, ranking in the 60th percentile, indicating a deep talent pool suited for tech, finance, consulting, and HQ decisions. The city's office economy is well-suited for businesses that require specialized knowledge workers, but may be less suitable for industries that rely on industrial or logistics workers.
+The share of professional and office workers is 2.88, ranking near the median at the 58th percentile. This indicates a moderately deep talent pool, suited for businesses in the tech, finance, and consulting sectors. However, the city may be less suitable for industries with more industrial or logistics-oriented workforces.
 
-The San Francisco-Oakland-Fremont metro area offers businesses a strong and growing economy with a highly skilled workforce, but the high cost of living and tightening housing supply may pose significant challenges. The single biggest risk or constraint for decision-makers is the city's expensive housing market and shrinking labor force, which may limit the city's ability to support rapid business growth and require businesses to offer competitive wages to attract and retain talent.
+The San Francisco-Oakland-Fremont metro area offers businesses a highly skilled and affluent workforce, with a strong economy and expanding housing supply. However, the single biggest risk or constraint for decision-makers is the tight labor market and high cost of living, which may require significant investments in talent attraction and retention strategies to remain competitive.

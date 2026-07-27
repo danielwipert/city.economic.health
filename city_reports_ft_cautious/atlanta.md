@@ -1,33 +1,33 @@
 # Atlanta-Sandy Springs-Roswell
 
-**Grade: A+ (Excellent) | 70.5th percentile | July 2026**
+**Grade: A (Very Good) | 65.3th percentile | July 2026**
 
 ---
 
-The Atlanta-Sandy Springs-Roswell metro area has earned an overall grade of A+ with a composite score of 70.5th percentile, ranking it among the top US metros. The city's economic character is largely defined by its strong labor demand, with a composite score of 5.35, and its low unemployment rate of 3.20%, which ranks in the 78th percentile. These metrics signal a city with a thriving job market and a tight labor pool.
+The Atlanta-Sandy Springs-Roswell metro area has earned an overall grade of A, ranking in the 65.3th percentile among 50 US metros, with a strong labor demand and low unemployment rate defining its current economic character, at 70th and 78th percentiles, respectively. The labor demand composite score of 5.66, driven by a +0.41% employment growth rate and +0.789% weekly hours deviation from trend, signals genuine demand expansion. This combination of metrics suggests a city with a growing economy and increasing labor needs.
 
 **Labor Demand**
-The employment growth rate in Atlanta is 0.03% year-over-year, combined with a 1.004% deviation in weekly hours above its own trend, indicating genuine demand expansion. This combination signals that the city is experiencing a real increase in labor demand, rather than just a shift in hours worked. As a result, businesses can expect to find a strong and growing workforce in the area.
+The employment growth rate of +0.41% and weekly hours deviation of +0.789% from trend indicate a labor market with genuine demand expansion, as hours are running above trend during a period of job growth. This signals that the city is experiencing an increase in labor needs, driven by expanding businesses and industries. The labor demand composite score of 5.66, at the 70th percentile, further supports this assessment.
 
 **Unemployment**
-The unemployment rate in Atlanta is 3.20%, which is relatively low and indicates a tight labor market. This means that businesses may face challenges in finding and hiring qualified workers, and may need to offer competitive wages to attract top talent. With an unemployment rate ranking in the 78th percentile, the market has relatively little slack, making it a seller's market for labor.
+The unemployment rate of 3.20% is relatively low, ranking in the 78th percentile, indicating a tight labor market with limited slack. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer competitive wages to attract talent. The low unemployment rate also suggests that workers have more bargaining power, which can drive up labor costs.
 
 **Wage Growth**
-Wages in Atlanta are growing at a rate of 4.31% year-over-year, which is a moderate pace. This rate of wage growth suggests that labor costs for employers are rising, but at a manageable rate. At the same time, workers in the area are seeing an increase in their purchasing power, which can have positive effects on local consumer demand.
+The year-over-year wage growth rate of +3.15% is near the median, ranking in the 42nd percentile, indicating moderate wage growth. This rate suggests that labor costs for employers are rising, but not excessively, while workers are experiencing some increase in purchasing power. The moderate wage growth rate may help balance the needs of businesses and workers in the city.
 
 **Cost of Living**
-With a cost of living ratio of $198/sqft to $36.88/hr, Atlanta ranks in the 73rd percentile for affordability, indicating that it is more affordable than many of its peer cities. This means that businesses can attract talent without needing to offer significant wage premiums to offset high living costs. The city's relatively low cost of living is a major advantage for talent attraction and retention.
+The cost of living in Atlanta, with a PSF of $198/sqft and an earnings ratio of 5.39, ranks in the 47th percentile, indicating a near-median affordability level. This means that the city is neither extremely affordable nor expensive, relative to peers, and may not offer a significant talent attraction advantage without wage premiums. The stable PSF-to-earnings ratio, with a 0.0% year-over-year change, suggests that affordability is not significantly improving or deteriorating.
 
 **Labor Force Growth**
-The civilian labor force in Atlanta is growing at a rate of 1.58% year-over-year, which is a relatively strong pace. This indicates that the workforce supply is expanding, giving businesses a larger pool of potential employees to draw from. With a labor force growth rate ranking in the 86th percentile, Atlanta is well-positioned to support the hiring needs of growing businesses.
+The civilian labor force is growing at a rate of +1.58% year-over-year, ranking in the 86th percentile, indicating an expanding workforce supply. This growth suggests that the city has a strong hiring capacity, with a increasing pool of available workers, which can support business expansion and growth. The growing labor force also indicates a dynamic and attractive labor market.
 
 **Building Permits**
-The number of residential building permits in Atlanta is increasing at a rate of 8.79% year-over-year, which suggests that housing supply is expanding. This is a positive sign for future affordability and workforce accommodation, as it indicates that the city is investing in new housing stock to support its growing population. The increase in building permits is a key factor in maintaining affordability and attracting new residents.
+The year-over-year change in building permits is +15.16%, ranking in the 72nd percentile, indicating an expansion of housing supply. This growth suggests that developer confidence is high, and the city is likely to experience improving affordability and increased accommodation options for the workforce in the future. The rising permits also signal a reduction in the risk of a supply squeeze, which can constrain workforce growth.
 
 **Days on Market**
-The median days on market for homes in Atlanta is currently 52 days, with a year-over-year increase of 2.0%. This suggests that the housing market is relatively balanced, with homes selling at a moderate pace. For workers relocating to the city, this means that they may have a relatively accessible and competitive housing market, with a range of options available.
+The current median days on market is 52 days, with a +2.0% year-over-year increase, ranking in the 50th percentile, indicating a near-median market speed. This suggests that the housing market is relatively balanced, neither extremely competitive nor accessible, for workers relocating to the city. The slow increase in days on market may indicate a healthy normalization of the market, rather than a demand erosion.
 
 **Office Economy**
-With an office economy ranking in the 66th percentile, Atlanta has a deep talent pool in professional and office sectors. This makes it an attractive location for businesses in the tech, finance, and consulting industries, which require a high concentration of skilled workers. However, the city may be less suited for industries that require a large workforce in industrial or logistics roles.
+The share of professional and office workers is 3.06, ranking in the 64th percentile, indicating a deep talent pool suited for tech, finance, consulting, and HQ decisions. This suggests that the city is well-suited for businesses requiring specialized knowledge-economy talent, but may be less suitable for industries with more industrial or logistics-dominant needs.
 
-The Atlanta-Sandy Springs-Roswell metro area offers businesses a unique combination of a strong labor market, low unemployment, and moderate wage growth, making it an attractive location for companies looking to expand or relocate. However, the city's tight labor market and relatively low cost of living also mean that businesses may need to be competitive in their hiring practices and wage offers to attract and retain top talent, which is the single biggest risk or constraint for decision-makers to factor in.
+The Atlanta-Sandy Springs-Roswell metro area offers businesses a strong labor market with growing demand, a tight unemployment environment, and moderate wage growth, making it an attractive location for companies seeking to expand or establish operations. However, the single biggest risk or constraint for decision-makers is the potential for increasing labor costs and competition for talent, driven by the low unemployment rate and growing labor needs, which may require businesses to offer competitive wages and benefits to attract and retain workers.

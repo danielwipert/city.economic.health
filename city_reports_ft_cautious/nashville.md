@@ -1,33 +1,33 @@
 # Nashville-Davidson--Murfreesboro--Franklin
 
-**Grade: A+ (Excellent) | 69.0th percentile | July 2026**
+**Grade: A+ (Excellent) | 71.8th percentile | July 2026**
 
 ---
 
-Nashville-Davidson--Murfreesboro--Franklin has earned an overall grade of A+ with a composite score of 69.0th percentile, ranking it among the top US metros. The city's economic character is most defined by its strong labor demand, with a composite score in the 80th percentile, and its low unemployment rate of 2.80%, which places it in the 88th percentile. These metrics signal a highly competitive job market with genuine demand expansion.
+Nashville-Davidson--Murfreesboro--Franklin has earned an overall grade of A+ with a composite score ranking in the 71.8th percentile among 50 US metros. The city's economic character is most defined by its top-tier labor demand, with an 86th percentile ranking, and its low unemployment rate of 2.80%, which ranks in the 88th percentile. These metrics signal a strong and competitive job market.
 
 **Labor Demand**
-The city's employment growth rate of +0.35% year-over-year, combined with a +0.942% deviation in weekly hours from its own trend, indicates genuine demand expansion. This combination signals that the city is adding jobs and workers are putting in more hours, suggesting a strong and growing economy. The labor demand composite score of 5.73 further reinforces this assessment, placing the city in the top tier.
+The city's employment growth rate is 1.56% year-over-year, and weekly hours are running 0.141% below trend. This combination signals genuine demand expansion, as the job market is growing and hours are not excessively stretched, indicating a healthy labor market. The labor demand composite score of 6.34 further reinforces this assessment, ranking in the top tier at the 86th percentile.
 
 **Unemployment**
-The unemployment rate of 2.80% is exceptionally low, placing the city in the 88th percentile. This tight labor market implies that businesses may face challenges in hiring, as the pool of available workers is limited, and may need to offer competitive wages to attract talent. The low unemployment rate also suggests that workers have strong bargaining power.
+The unemployment rate in Nashville-Davidson--Murfreesboro--Franklin is 2.80%, ranking in the 88th percentile. This low rate indicates a tight labor market with little slack, making it challenging for businesses to hire new employees. As a result, businesses may face upward pressure on wages to attract and retain top talent.
 
 **Wage Growth**
-The year-over-year wage growth rate of +7.21% is robust, indicating fast-rising labor costs for employers. This strong wage growth is beneficial for worker purchasing power, as employees can afford more goods and services. However, it may pose a challenge for businesses looking to maintain profit margins.
+The year-over-year wage growth rate in the city is 5.97%, ranking in the 82nd percentile. This fast wage growth rate implies rising labor costs for employers, but it also means workers have strong purchasing power. Businesses should factor in these increasing labor costs when considering relocation or expansion in the area.
 
 **Cost of Living**
-With a cost of living ratio of 7.31, which is above average, and a PSF of $260/sqft that is decreasing by -1.1% year-over-year relative to wages of $35.58/hr, the city is relatively affordable, ranking in the 60th percentile. This affordability advantage can attract talent without requiring significant wage premiums, making it an attractive location for businesses.
+Nashville-Davidson--Murfreesboro--Franklin has a cost of living score ranking in the 61st percentile, with a price-to-salary ratio of $260/sqft to $35.48/hr, or 7.33. Although not the most affordable, the city's relatively moderate cost of living, combined with a slight decline in PSF of 1.1% year-over-year, makes it an attractive location for talent without requiring significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force is contracting at a rate of -0.82% year-over-year, indicating a shrinking labor pool. This decline in labor force growth may pose a structural headwind for hiring, as the supply of available workers is decreasing. Businesses may need to adapt their recruitment strategies to attract talent from other areas.
+The civilian labor force in the city is shrinking at a rate of -0.82% year-over-year, ranking near the median at the 40th percentile. This contraction in labor force supply poses a structural headwind for hiring, as businesses may face challenges in finding qualified candidates to fill open positions.
 
 **Building Permits**
-The year-over-year change in building permits is -12.54%, indicating a tightening of housing supply. This decline in permits may signal future affordability challenges and constraints on workforce accommodation, as the supply of new housing is not keeping pace with demand.
+The city has experienced a -5.10% year-over-year change in residential building permits, also ranking near the median at the 40th percentile. This decline in permits suggests that housing supply is tightening, which may lead to future affordability concerns and challenges in accommodating a growing workforce.
 
 **Days on Market**
-The current median days on market is 53 days, with a year-over-year increase of +1.9%. This suggests a relatively balanced market, neither extremely competitive nor overly accessible. Relocating workers may still find it relatively easy to find housing, but the market is not as slow as it could be.
+The median days on market for homes in Nashville-Davidson--Murfreesboro--Franklin is 53 days, with a year-over-year increase of 1.9%, ranking near the median at the 48th percentile. This relatively moderate pace of home sales indicates a competitive but still accessible market for relocating workers.
 
 **Office Economy**
-With an office/professional worker share of 3.80, ranking in the 86th percentile, the city has a deep talent pool suited for tech, finance, consulting, and HQ decisions. This makes Nashville-Davidson--Murfreesboro--Franklin an attractive location for businesses in these sectors, but less ideal for those in industrial or logistics-dominant economies.
+The city's professional and office worker share ranks in the 88th percentile, indicating a deep and talented knowledge-economy pool. This makes Nashville-Davidson--Murfreesboro--Franklin an ideal location for businesses in the tech, finance, consulting, and HQ sectors, but less suited for industries with primarily industrial or logistics-based workforces.
 
-In conclusion, Nashville-Davidson--Murfreesboro--Franklin offers businesses a highly competitive job market with strong labor demand and low unemployment, making it an attractive location for those willing to invest in talent. However, the single biggest risk or constraint is the tightening housing supply, which may pose future affordability challenges and constraints on workforce accommodation, making it essential for businesses to factor this into their location decision.
+In conclusion, Nashville-Davidson--Murfreesboro--Franklin offers businesses a strong and competitive job market, with low unemployment and fast wage growth. However, the single biggest risk or constraint for decision-makers to consider is the tightening housing supply and potential future affordability concerns, which may impact the city's ability to attract and retain top talent.
