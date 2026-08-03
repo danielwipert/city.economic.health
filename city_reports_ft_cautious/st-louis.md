@@ -1,33 +1,33 @@
 # St. Louis
 
-**Grade: A- (Good) | 61.6th percentile | July 2026**
+**Grade: A (Very Good) | 64.8th percentile | August 2026**
 
 ---
 
-St. Louis has earned an overall grade of A- with a composite score ranking it at the 61.6th percentile among 50 US metros. The city's economic character is most defined by its above-average labor demand, with a composite score of 5.59, and its highly affordable cost of living, ranked at the 76th percentile. Specifically, the labor demand is driven by a 0.44% year-over-year employment growth rate and a 0.672% deviation in weekly hours above its own trend.
+St. Louis earns an overall grade of A, ranking in the 64.8th percentile among 50 US metros, with a strong labor demand and low unemployment rate defining its current economic character. The city's labor demand composite score of 5.59 and unemployment rate of 3.80% signal a tight labor market. Specifically, the employment growth rate of +0.44% and weekly hours deviation of +0.672% indicate genuine demand expansion.
 
 **Labor Demand**
-The combination of a 0.44% employment growth rate and a 0.672% increase in weekly hours signals genuine demand expansion in St. Louis, indicating that the city is adding jobs and workers are putting in more hours. This suggests a strong and growing economy. The labor demand composite score of 5.59 further reinforces this notion, ranking the city above average.
+The employment growth rate of +0.44% and weekly hours deviation of +0.672% suggest that St. Louis is experiencing genuine demand expansion, with more jobs being added and hours running above trend. This combination signals a healthy labor market, where businesses are hiring and workers are putting in more hours. The labor demand composite score of 5.59, ranking in the 62nd percentile, further supports this assessment.
 
 **Unemployment**
-The unemployment rate in St. Louis stands at 3.60%, which is above average, ranking at the 72nd percentile. This indicates a relatively tight labor market with some slack, making it moderately challenging for businesses to hire. However, the practical implication is that businesses may need to offer competitive wages to attract top talent.
+The unemployment rate of 3.80% indicates a tight labor market, ranking in the 78th percentile. This means that businesses may face challenges in hiring, as the pool of available workers is relatively small. As a result, companies may need to offer competitive wages to attract top talent.
 
 **Wage Growth**
-St. Louis has experienced a year-over-year wage growth rate of 2.03%, which is below average, ranking at the 30th percentile. This moderate wage growth suggests that labor costs for employers are rising, but at a slower pace, and worker purchasing power is increasing, albeit gradually. This could be beneficial for businesses looking to manage labor costs.
+The year-over-year wage growth rate of +2.03% is below average, ranking in the 30th percentile. This moderate wage growth rate suggests that labor costs for employers are rising, but at a slower pace. While this may be beneficial for workers' purchasing power, it also indicates that workers may not have strong bargaining power.
 
 **Cost of Living**
-With a cost of living ranked at the 76th percentile, St. Louis is more affordable relative to its peers. The city's PSF of $164/sqft, which has decreased by 1.2% year-over-year, combined with an average hourly earnings of $37.27, results in a ratio of 4.40. This affordability advantage can be a significant talent attraction factor, as businesses may not need to offer wage premiums to compensate for a high cost of living.
+St. Louis has a cost of living score ranking in the 76th percentile, with a PSF of $164/sqft and an average hourly earnings of $37.27/hr, resulting in a ratio of 4.40. The fact that PSF is falling by -1.2% YoY makes the city more affordable. This affordability advantage can attract talent without requiring wage premiums, making it an attractive location for businesses.
 
 **Labor Force Growth**
-The civilian labor force in St. Louis has contracted by 0.72% year-over-year, indicating a shrinking labor pool. This contraction implies a structural headwind for hiring, as the supply of workers is decreasing. Businesses may need to adapt their hiring strategies to accommodate this trend.
+The civilian labor force is growing at a rate of +0.69% year-over-year, indicating an expanding workforce supply. This positive growth rate suggests that businesses will have access to a growing pool of potential employees, making it easier to hire and staff their operations.
 
 **Building Permits**
-The city has seen a 16.20% year-over-year increase in residential building permits, signaling an expansion in housing supply. This growth suggests that developer confidence is high, and future affordability and workforce accommodation are likely to improve. As a result, St. Louis may become a more attractive location for businesses looking to relocate or expand.
+The year-over-year change in residential building permits is +16.20%, ranking in the 76th percentile. This significant increase in permits suggests that housing supply is expanding, which can improve affordability and accommodate a growing workforce. This is a positive signal for businesses considering relocation, as it indicates a city that can support a growing population.
 
 **Days on Market**
-The current median days on market in St. Louis is 44 days, with a 10.0% year-over-year increase. This slower market, ranked at the 94th percentile, indicates that homes are sitting longer before being sold. For workers relocating to the city, this means a more accessible and less competitive housing market, which can be beneficial for businesses looking to attract talent.
+The current median days on market is 44 days, with a year-over-year increase of +10.0%, ranking in the 94th percentile. This slower market means that homes are sitting longer before being sold, making it a more accessible market for relocating workers. However, this also indicates a potential normalization of the market, rather than a highly competitive one.
 
 **Office Economy**
-St. Louis has a professional talent pool ranked at the 42nd percentile, indicating a moderately deep pool of specialized workers. The city is best suited for businesses that can thrive in a mixed economy, but may not be the ideal location for those requiring a highly specialized or knowledge-intensive workforce, such as tech or finance companies.
+The office economy in St. Louis has a percentile rank of 42, indicating a near-median depth of professional talent pool. This suggests that the city is suited for businesses that require a moderate level of specialized office workers, but may not be the best fit for those requiring a highly specialized or deep talent pool, such as tech or finance companies.
 
-In conclusion, St. Louis offers businesses a unique combination of above-average labor demand, affordable cost of living, and expanding housing supply. However, the single biggest risk or constraint for decision-makers is the shrinking labor pool, which may require businesses to adapt their hiring strategies to accommodate this trend. Overall, St. Louis presents an attractive location for businesses looking to balance growth, affordability, and talent attraction.
+In conclusion, St. Louis offers businesses a strong labor market, low unemployment rate, and affordable cost of living, making it an attractive location for companies considering relocation. However, the single biggest risk or constraint for decision-makers is the moderate wage growth rate, which may impact labor costs and worker purchasing power.

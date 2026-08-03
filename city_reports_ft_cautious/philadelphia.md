@@ -1,33 +1,33 @@
 # Philadelphia-Camden-Wilmington
 
-**Grade: B (Average) | 50.4th percentile | July 2026**
+**Grade: B (Average) | 53.8th percentile | August 2026**
 
 ---
 
-The Philadelphia-Camden-Wilmington metro area has an overall grade of B, ranking 50.4th percentile out of 50 US metros, with a composite score driven largely by its above-average labor demand and labor force growth. The city's labor demand composite score of 5.65, combining a +0.61% employment growth rate and a +0.496% weekly hours deviation from its own trend, suggests genuine demand expansion. Additionally, its labor force growth rate of +1.49% YoY indicates an expanding workforce supply.
+The Philadelphia-Camden-Wilmington metro area has an overall grade of B, ranking in the 53.8th percentile among 50 US metros, with a composite score driven largely by its above-average labor demand and labor force growth. The city's labor demand composite score of 5.65, combining a +0.61% employment growth rate and a +0.496% weekly hours deviation from its own trend, signals genuine demand expansion. Additionally, its +2.00% labor force growth rate indicates an expanding workforce supply.
 
 **Labor Demand**
-The employment growth rate of +0.61% and weekly hours deviation of +0.496% signal genuine demand expansion, as both metrics are above their respective trends. This combination indicates that the city is experiencing a genuine increase in labor demand, with more jobs being added and hours worked above the trend. The labor demand composite score of 5.65, ranking in the 68th percentile, further supports this assessment.
+The employment growth rate of +0.61% and weekly hours deviation of +0.496% from its own trend suggest that Philadelphia-Camden-Wilmington is experiencing genuine demand expansion, with more jobs being added and hours worked above the trend. This combination indicates a healthy labor market where businesses can find the workers they need. The labor demand composite score of 5.65 further reinforces this assessment, placing the city in the 68th percentile.
 
 **Unemployment**
-The unemployment rate of 4.10% places the city near the median, ranking in the 58th percentile. This rate suggests that the labor market has some slack, making it slightly easier for businesses to hire compared to tighter markets. However, the relatively low unemployment rate still implies some competition for talent, which may lead to moderate wage pressure.
+The unemployment rate of 4.10% is relatively low, ranking in the 72nd percentile, which means the job market is tight. This tight market implies that businesses may face challenges in hiring, as workers have more bargaining power, and wage pressure may be higher. However, it also suggests a skilled and employed workforce, which can be beneficial for businesses looking for qualified talent.
 
 **Wage Growth**
-The year-over-year wage growth rate of +0.68% is relatively slow, ranking in the 12th percentile. This slow wage growth implies a flat cost environment for employers, but it also means weaker bargaining power for workers. As a result, businesses may not face significant labor cost increases, but workers may not have strong purchasing power.
+The year-over-year wage growth rate of +0.68% is relatively slow, ranking in the 12th percentile, indicating stagnant wage growth. This slow wage growth means that labor costs for employers are not rising rapidly, but it also implies weaker bargaining power for workers and potentially less purchasing power. For businesses, this could mean a more stable labor cost environment but may also indicate less consumer demand.
 
 **Cost of Living**
-The city's cost of living, with a PSF of $232/sqft and an earnings ratio of 7.13, ranks in the 24th percentile, indicating that it is less affordable compared to its peers. The fact that PSF is decreasing by -0.4% YoY is a positive sign, but the overall affordability score suggests that the city may require wage premiums to attract talent.
+With a cost of living ratio of 7.13, based on $232/sqft (which has decreased by 0.4% YoY) compared to $32.52/hr, Philadelphia-Camden-Wilmington ranks in the 24th percentile for affordability. This means the city is relatively expensive compared to its peers, which could make it challenging to attract talent without offering wage premiums. The decreasing PSF value is a positive sign, but the overall affordability remains a concern.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of +1.49% YoY, indicating an expanding workforce supply. This growth rate, ranking in the 84th percentile, suggests that the city has a strong hiring capacity, with a increasing number of workers available to fill job openings.
+The civilian labor force is growing at a rate of +2.00% year-over-year, indicating an expanding workforce supply. This growth suggests that the city has a structural advantage in terms of hiring capacity, as more workers are available to fill positions. This can be particularly beneficial for businesses looking to expand or establish operations in the area.
 
 **Building Permits**
-The year-over-year change in building permits is +14.19%, indicating an expansion of housing supply. This increase in permits, ranking in the 68th percentile, signals that developer confidence is high, and future housing supply is likely to improve, which may lead to better affordability and workforce accommodation.
+The year-over-year change in residential building permits is +14.19%, indicating that housing supply is expanding. This expansion signals improving affordability and a better ability to accommodate a growing workforce, which is crucial for attracting and retaining talent. The increase in building permits is a positive sign for the city's future housing market and workforce accommodation.
 
 **Days on Market**
-The current median days on market is 39 days, with a year-over-year decrease of -4.9%. This decrease, ranking in the 8th percentile, suggests a competitive market, where homes are selling relatively quickly. However, for a worker relocating to this city, the fast-paced market may make it challenging to find a home.
+The current median days on market is 39 days, with a year-over-year decrease of -4.9%, ranking in the 8th percentile. This fast-paced market means that homes are selling quickly, which can make it challenging for relocating workers to find housing. However, it also indicates a strong demand for housing in the area, which can be beneficial for the local economy.
 
 **Office Economy**
-The city's office economy, with a professional worker share of 2.58, ranks near the median, in the 50th percentile. This suggests that the city has a moderately deep talent pool, making it suitable for businesses that require a mix of professional and non-professional roles. However, it may not be the best fit for businesses that require a highly specialized or knowledge-intensive workforce.
+With an office/professional worker share composite score of 2.58, ranking near the median in the 50th percentile, Philadelphia-Camden-Wilmington has a moderately deep professional talent pool. This makes the city suited for businesses in the tech, finance, consulting, and HQ sectors, but it may not be as competitive for industries requiring more specialized or industrial talent.
 
-The Philadelphia-Camden-Wilmington metro area offers businesses a unique combination of above-average labor demand and labor force growth, making it an attractive location for companies looking to expand their workforce. However, the city's relatively slow wage growth and less affordable cost of living may require businesses to offer wage premiums to attract and retain talent, which is the single biggest risk or constraint that decision-makers should factor in when considering this location.
+The Philadelphia-Camden-Wilmington metro area offers businesses a unique combination of above-average labor demand and labor force growth, making it an attractive location for expansion or establishment. However, the single biggest risk or constraint for decision-makers is the relatively expensive cost of living, which may require wage premiums to attract and retain talent, potentially offsetting the benefits of the city's other economic advantages.

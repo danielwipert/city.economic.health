@@ -1,19 +1,19 @@
 {
-  "processing_timestamp": "2026-07-27T12:25:05.934704",
-  "processing_date": "2026-07-27 12:25:05",
+  "processing_timestamp": "2026-08-03T12:25:44.185937",
+  "processing_date": "2026-08-03 12:25:44",
   "version": 2,
   "metrics_count": 9,
   "metrics_scored": 9,
   "metrics_collected_only": 0,
-  "source_data": "2026-07-27 12:25:05",
+  "source_data": "2026-08-03 12:25:43",
   "msa_averages": {
     "unemployment_rate": {
-      "msa_average": 3.986,
+      "msa_average": 4.3,
       "metros_with_data": 50
     },
     "civilian_labor_force": {
-      "msa_average": 64.0542,
-      "metros_with_data": 50
+      "msa_average": 64.0633,
+      "metros_with_data": 49
     },
     "hourly_earnings": {
       "msa_average": 37.4044,
@@ -49,33 +49,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.3,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.5,
+          "latest_date": "2026-06-01",
           "series_id": "NEWY636URN",
           "metric_name": "Unemployment Rate",
           "3month_average": 4.333333333333333,
-          "12month_average": 4.836363636363636,
+          "12month_average": 4.8090909090909095,
           "yoy_change": {
-            "current": 4.3,
-            "change": -0.1,
-            "pct_change": -2.27
+            "current": 4.5,
+            "change": -0.3,
+            "pct_change": -6.25
           },
           "3month_avg_yoy": {
             "current_3mo": 4.3333,
-            "change": -0.0333,
-            "pct_change": -0.76
+            "change": -0.1333,
+            "pct_change": -2.99
           }
         },
         "civilian_labor_force": {
-          "latest_value": 63.6286,
-          "latest_date": "2026-05-01",
+          "latest_value": 63.6921,
+          "latest_date": "2026-06-01",
           "series_id": "NEWY636LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 63.6552,
+          "3month_average": 63.60913333333333,
           "yoy_change": {
-            "current": 63.6286,
-            "change": 0.2876,
-            "pct_change": 0.45
+            "current": 63.6921,
+            "change": 0.7718,
+            "pct_change": 1.23
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -242,33 +242,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.8,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.0,
+          "latest_date": "2026-06-01",
           "series_id": "LOSA106URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.8,
-          "12month_average": 5.1909090909090905,
+          "3month_average": 4.866666666666666,
+          "12month_average": 5.154545454545454,
           "yoy_change": {
-            "current": 4.8,
-            "change": -0.2,
-            "pct_change": -4.0
+            "current": 5.0,
+            "change": -0.4,
+            "pct_change": -7.41
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.8,
-            "change": -0.2,
-            "pct_change": -4.0
+            "current_3mo": 4.8667,
+            "change": -0.2333,
+            "pct_change": -4.58
           }
         },
         "civilian_labor_force": {
-          "latest_value": 61.9683,
-          "latest_date": "2026-05-01",
+          "latest_value": 61.3192,
+          "latest_date": "2026-06-01",
           "series_id": "LOSA106LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 62.227,
+          "3month_average": 61.78483333333333,
           "yoy_change": {
-            "current": 61.9683,
-            "change": -1.1835,
-            "pct_change": -1.87
+            "current": 61.3192,
+            "change": -1.404,
+            "pct_change": -2.24
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -435,33 +435,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.9,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.3,
+          "latest_date": "2026-06-01",
           "series_id": "CHIC917URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.966666666666667,
-          "12month_average": 4.818181818181818,
+          "3month_average": 5.033333333333333,
+          "12month_average": 4.872727272727273,
           "yoy_change": {
-            "current": 4.9,
+            "current": 5.3,
             "change": 0.6,
-            "pct_change": 13.95
+            "pct_change": 12.77
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.9667,
-            "change": 0.4333,
-            "pct_change": 9.56
+            "current_3mo": 5.0333,
+            "change": 0.5667,
+            "pct_change": 12.69
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.4831,
-          "latest_date": "2026-05-01",
+          "latest_value": 65.0023,
+          "latest_date": "2026-06-01",
           "series_id": "CHIC917LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.57773333333333,
+          "3month_average": 64.55793333333334,
           "yoy_change": {
-            "current": 64.4831,
-            "change": -1.091,
-            "pct_change": -1.66
+            "current": 65.0023,
+            "change": -0.3448,
+            "pct_change": -0.53
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -625,39 +625,25 @@
       "metro_name": "Dallas-Fort Worth-Arlington",
       "primary_city": "Dallas",
       "civilian_population": 6553832,
-      "metrics_processed": 11,
+      "metrics_processed": 10,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.7,
+          "latest_date": "2026-06-01",
           "series_id": "DALL148URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.9,
-          "12month_average": 4.027272727272727,
+          "3month_average": 4.166666666666667,
+          "12month_average": 4.090909090909091,
           "yoy_change": {
-            "current": 4.0,
-            "change": 0.3,
-            "pct_change": 8.11
+            "current": 4.7,
+            "change": 0.7,
+            "pct_change": 17.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.9,
-            "change": 0.2333,
-            "pct_change": 6.36
+            "current_3mo": 4.1667,
+            "change": 0.4333,
+            "pct_change": 11.61
           }
-        },
-        "civilian_labor_force": {
-          "latest_value": 69.7163,
-          "latest_date": "2026-05-01",
-          "series_id": "DALL148LFN",
-          "metric_name": "Labor Force Participation Rate",
-          "3month_average": 69.56813333333334,
-          "yoy_change": {
-            "current": 69.7163,
-            "change": 0.132,
-            "pct_change": 0.19
-          },
-          "3month_avg_yoy": null,
-          "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
         },
         "all_employees": {
           "latest_value": 4363.3,
@@ -821,33 +807,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.6,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.2,
+          "latest_date": "2026-06-01",
           "series_id": "HOUS448URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.433333333333334,
-          "12month_average": 4.618181818181818,
+          "3month_average": 4.7,
+          "12month_average": 4.681818181818182,
           "yoy_change": {
-            "current": 4.6,
-            "change": 0.4,
-            "pct_change": 9.52
+            "current": 5.2,
+            "change": 0.7,
+            "pct_change": 15.56
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.4333,
-            "change": 0.3,
-            "pct_change": 7.26
+            "current_3mo": 4.7,
+            "change": 0.4667,
+            "pct_change": 11.02
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.6137,
-          "latest_date": "2026-05-01",
+          "latest_value": 64.7477,
+          "latest_date": "2026-06-01",
           "series_id": "HOUS448LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.4562,
+          "3month_average": 64.55906666666667,
           "yoy_change": {
-            "current": 64.6137,
-            "change": 0.0216,
-            "pct_change": 0.03
+            "current": 64.7477,
+            "change": 0.5676,
+            "pct_change": 0.88
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -1014,33 +1000,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.6,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.9,
+          "latest_date": "2026-06-01",
           "series_id": "MIAM112URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.7333333333333334,
-          "12month_average": 3.6636363636363636,
+          "3month_average": 3.8333333333333335,
+          "12month_average": 3.727272727272727,
           "yoy_change": {
-            "current": 3.6,
+            "current": 3.9,
             "change": 0.6,
-            "pct_change": 20.0
+            "pct_change": 18.18
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.7333,
+            "current_3mo": 3.8333,
             "change": 0.7667,
-            "pct_change": 25.84
+            "pct_change": 25.0
           }
         },
         "civilian_labor_force": {
-          "latest_value": 61.0555,
-          "latest_date": "2026-05-01",
+          "latest_value": 61.2232,
+          "latest_date": "2026-06-01",
           "series_id": "MIAM112LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 61.45816666666667,
+          "3month_average": 61.2934,
           "yoy_change": {
-            "current": 61.0555,
-            "change": -0.5726,
-            "pct_change": -0.93
+            "current": 61.2232,
+            "change": -0.0886,
+            "pct_change": -0.14
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -1207,33 +1193,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.9,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.1,
+          "latest_date": "2026-06-01",
           "series_id": "WASH911URN",
           "metric_name": "Unemployment Rate",
           "3month_average": 3.9666666666666663,
-          "12month_average": 4.1,
+          "12month_average": 4.118181818181818,
           "yoy_change": {
-            "current": 3.9,
-            "change": 0.3,
-            "pct_change": 8.33
+            "current": 4.1,
+            "change": 0.2,
+            "pct_change": 5.13
           },
           "3month_avg_yoy": {
             "current_3mo": 3.9667,
-            "change": 0.4667,
-            "pct_change": 13.33
+            "change": 0.3667,
+            "pct_change": 10.19
           }
         },
         "civilian_labor_force": {
-          "latest_value": 66.3873,
-          "latest_date": "2026-05-01",
+          "latest_value": 66.8197,
+          "latest_date": "2026-06-01",
           "series_id": "WASH911LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 66.5819,
+          "3month_average": 66.62906666666666,
           "yoy_change": {
-            "current": 66.3873,
-            "change": -1.8587,
-            "pct_change": -2.72
+            "current": 66.8197,
+            "change": -1.1584,
+            "pct_change": -1.7
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -1400,33 +1386,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.2,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.5,
+          "latest_date": "2026-06-01",
           "series_id": "ATLA013URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.1,
+          "3month_average": 3.1666666666666665,
           "12month_average": 3.390909090909091,
           "yoy_change": {
-            "current": 3.2,
+            "current": 3.5,
             "change": 0.0,
             "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.1,
+            "current_3mo": 3.1667,
             "change": -0.0333,
-            "pct_change": -1.06
+            "pct_change": -1.04
           }
         },
         "civilian_labor_force": {
-          "latest_value": 65.431,
-          "latest_date": "2026-05-01",
+          "latest_value": 65.6788,
+          "latest_date": "2026-06-01",
           "series_id": "ATLA013LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 65.33149999999999,
+          "3month_average": 65.4508,
           "yoy_change": {
-            "current": 65.431,
-            "change": 1.0193,
-            "pct_change": 1.58
+            "current": 65.6788,
+            "change": 1.2416,
+            "pct_change": 1.93
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -1594,32 +1580,32 @@
       "data": {
         "unemployment_rate": {
           "latest_value": 4.1,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "PHIL942URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.1,
-          "12month_average": 4.536363636363636,
+          "3month_average": 4.033333333333333,
+          "12month_average": 4.4818181818181815,
           "yoy_change": {
             "current": 4.1,
-            "change": -0.2,
-            "pct_change": -4.65
+            "change": -0.6,
+            "pct_change": -12.77
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.1,
-            "change": -0.1,
-            "pct_change": -2.38
+            "current_3mo": 4.0333,
+            "change": -0.3,
+            "pct_change": -6.92
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.7267,
-          "latest_date": "2026-05-01",
+          "latest_value": 64.8288,
+          "latest_date": "2026-06-01",
           "series_id": "PHIL942LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.56766666666667,
+          "3month_average": 64.71793333333333,
           "yoy_change": {
-            "current": 64.7267,
-            "change": 0.9472,
-            "pct_change": 1.49
+            "current": 64.8288,
+            "change": 1.2685,
+            "pct_change": 2.0
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -1786,33 +1772,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.1,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.9,
+          "latest_date": "2026-06-01",
           "series_id": "PHOE004URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.9666666666666663,
-          "12month_average": 4.054545454545455,
+          "3month_average": 4.266666666666667,
+          "12month_average": 4.136363636363637,
           "yoy_change": {
-            "current": 4.1,
-            "change": 0.4,
-            "pct_change": 10.81
+            "current": 4.9,
+            "change": 0.9,
+            "pct_change": 22.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.9667,
-            "change": 0.4333,
-            "pct_change": 12.26
+            "current_3mo": 4.2667,
+            "change": 0.5667,
+            "pct_change": 15.32
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.2332,
-          "latest_date": "2026-05-01",
+          "latest_value": 63.4768,
+          "latest_date": "2026-06-01",
           "series_id": "PHOE004LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.03623333333334,
+          "3month_average": 63.72526666666667,
           "yoy_change": {
-            "current": 64.2332,
-            "change": -0.8538,
-            "pct_change": -1.31
+            "current": 63.4768,
+            "change": -1.7639,
+            "pct_change": -2.7
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -2176,33 +2162,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.6,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.3,
+          "latest_date": "2026-06-01",
           "series_id": "RIVE106URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.866666666666666,
-          "12month_average": 5.445454545454545,
+          "3month_average": 4.933333333333334,
+          "12month_average": 5.409090909090909,
           "yoy_change": {
-            "current": 4.6,
-            "change": -0.3,
-            "pct_change": -6.12
+            "current": 5.3,
+            "change": -0.4,
+            "pct_change": -7.02
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.8667,
-            "change": -0.1667,
-            "pct_change": -3.31
+            "current_3mo": 4.9333,
+            "change": -0.2667,
+            "pct_change": -5.13
           }
         },
         "civilian_labor_force": {
-          "latest_value": 58.3913,
-          "latest_date": "2026-05-01",
+          "latest_value": 58.4018,
+          "latest_date": "2026-06-01",
           "series_id": "RIVE106LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 58.9114,
+          "3month_average": 58.60223333333333,
           "yoy_change": {
-            "current": 58.3913,
-            "change": -1.3823,
-            "pct_change": -2.31
+            "current": 58.4018,
+            "change": -1.1134,
+            "pct_change": -1.87
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -2369,33 +2355,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.6,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.2,
+          "latest_date": "2026-06-01",
           "series_id": "SANF806URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.8333333333333335,
-          "12month_average": 4.336363636363636,
+          "3month_average": 3.9,
+          "12month_average": 4.3,
           "yoy_change": {
-            "current": 3.6,
+            "current": 4.2,
             "change": -0.4,
-            "pct_change": -10.0
+            "pct_change": -8.7
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.8333,
-            "change": -0.2667,
-            "pct_change": -6.5
+            "current_3mo": 3.9,
+            "change": -0.3333,
+            "pct_change": -7.87
           }
         },
         "civilian_labor_force": {
-          "latest_value": 62.8211,
-          "latest_date": "2026-05-01",
+          "latest_value": 62.8828,
+          "latest_date": "2026-06-01",
           "series_id": "SANF806LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 63.248466666666666,
+          "3month_average": 62.972166666666666,
           "yoy_change": {
-            "current": 62.8211,
-            "change": -1.1559,
-            "pct_change": -1.81
+            "current": 62.8828,
+            "change": -1.0135,
+            "pct_change": -1.59
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -2562,33 +2548,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 5.5,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.4,
+          "latest_date": "2026-06-01",
           "series_id": "DETR826URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 5.066666666666666,
-          "12month_average": 5.081818181818182,
+          "3month_average": 5.1000000000000005,
+          "12month_average": 5.136363636363637,
           "yoy_change": {
-            "current": 5.5,
-            "change": 0.7,
-            "pct_change": 14.58
+            "current": 5.4,
+            "change": 0.6,
+            "pct_change": 12.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 5.0667,
-            "change": 0.4333,
-            "pct_change": 9.35
+            "current_3mo": 5.1,
+            "change": 0.5667,
+            "pct_change": 12.5
           }
         },
         "civilian_labor_force": {
-          "latest_value": 61.4,
-          "latest_date": "2026-05-01",
+          "latest_value": 61.6483,
+          "latest_date": "2026-06-01",
           "series_id": "DETR826LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 61.0251,
+          "3month_average": 61.27186666666667,
           "yoy_change": {
-            "current": 61.4,
-            "change": 1.33,
-            "pct_change": 2.21
+            "current": 61.6483,
+            "change": 1.6103,
+            "pct_change": 2.68
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -2755,33 +2741,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.8,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.0,
+          "latest_date": "2026-06-01",
           "series_id": "SEAT653URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.9,
-          "12month_average": 5.081818181818182,
+          "3month_average": 4.933333333333334,
+          "12month_average": 5.109090909090909,
           "yoy_change": {
-            "current": 4.8,
-            "change": 0.6,
-            "pct_change": 14.29
+            "current": 5.0,
+            "change": 0.3,
+            "pct_change": 6.38
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.9,
-            "change": 0.6667,
-            "pct_change": 15.75
+            "current_3mo": 4.9333,
+            "change": 0.6,
+            "pct_change": 13.85
           }
         },
         "civilian_labor_force": {
-          "latest_value": 68.0956,
-          "latest_date": "2026-05-01",
+          "latest_value": 67.2134,
+          "latest_date": "2026-06-01",
           "series_id": "SEAT653LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 68.0754,
+          "3month_average": 67.74686666666666,
           "yoy_change": {
-            "current": 68.0956,
-            "change": -0.2008,
-            "pct_change": -0.29
+            "current": 67.2134,
+            "change": -0.649,
+            "pct_change": -0.96
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -2948,33 +2934,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.9,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.4,
+          "latest_date": "2026-06-01",
           "series_id": "MINN427URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.066666666666666,
-          "12month_average": 4.081818181818182,
+          "3month_average": 4.033333333333333,
+          "12month_average": 4.136363636363637,
           "yoy_change": {
-            "current": 3.9,
-            "change": 0.5,
-            "pct_change": 14.71
+            "current": 4.4,
+            "change": 0.6,
+            "pct_change": 15.79
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.0667,
-            "change": 0.6,
-            "pct_change": 17.31
+            "current_3mo": 4.0333,
+            "change": 0.5333,
+            "pct_change": 15.24
           }
         },
         "civilian_labor_force": {
-          "latest_value": 69.029,
-          "latest_date": "2026-05-01",
+          "latest_value": 69.3063,
+          "latest_date": "2026-06-01",
           "series_id": "MINN427LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 68.7607,
+          "3month_average": 69.04023333333333,
           "yoy_change": {
-            "current": 69.029,
-            "change": -0.9667,
-            "pct_change": -1.38
+            "current": 69.3063,
+            "change": -0.6778,
+            "pct_change": -0.97
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -3141,33 +3127,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.5,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.7,
+          "latest_date": "2026-06-01",
           "series_id": "TAMP312URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.566666666666666,
-          "12month_average": 4.527272727272727,
+          "3month_average": 4.666666666666667,
+          "12month_average": 4.6,
           "yoy_change": {
-            "current": 4.5,
-            "change": 0.9,
-            "pct_change": 25.0
+            "current": 4.7,
+            "change": 0.7,
+            "pct_change": 17.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.5667,
-            "change": 1.0667,
-            "pct_change": 30.48
+            "current_3mo": 4.6667,
+            "change": 1.0,
+            "pct_change": 27.27
           }
         },
         "civilian_labor_force": {
-          "latest_value": 59.2572,
-          "latest_date": "2026-05-01",
+          "latest_value": 59.5474,
+          "latest_date": "2026-06-01",
           "series_id": "TAMP312LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 59.3579,
+          "3month_average": 59.4367,
           "yoy_change": {
-            "current": 59.2572,
-            "change": -0.1799,
-            "pct_change": -0.3
+            "current": 59.5474,
+            "change": 0.3077,
+            "pct_change": 0.52
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -3334,33 +3320,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.9,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.4,
+          "latest_date": "2026-06-01",
           "series_id": "SAND706URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.1,
-          "12month_average": 4.581818181818182,
+          "3month_average": 4.133333333333333,
+          "12month_average": 4.554545454545455,
           "yoy_change": {
-            "current": 3.9,
-            "change": -0.2,
-            "pct_change": -4.88
+            "current": 4.4,
+            "change": -0.3,
+            "pct_change": -6.38
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.1,
-            "change": -0.1,
-            "pct_change": -2.38
+            "current_3mo": 4.1333,
+            "change": -0.2,
+            "pct_change": -4.62
           }
         },
         "civilian_labor_force": {
-          "latest_value": 60.7462,
-          "latest_date": "2026-05-01",
+          "latest_value": 60.5885,
+          "latest_date": "2026-06-01",
           "series_id": "SAND706LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 61.0923,
+          "3month_average": 60.7991,
           "yoy_change": {
-            "current": 60.7462,
-            "change": -0.8677,
-            "pct_change": -1.41
+            "current": 60.5885,
+            "change": -0.7996,
+            "pct_change": -1.3
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -3527,33 +3513,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.6,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.9,
+          "latest_date": "2026-06-01",
           "series_id": "DENV708URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.6,
-          "12month_average": 3.8454545454545452,
+          "3month_average": 3.6666666666666665,
+          "12month_average": 3.8363636363636364,
           "yoy_change": {
-            "current": 3.6,
-            "change": -0.3,
-            "pct_change": -7.69
+            "current": 3.9,
+            "change": -0.1,
+            "pct_change": -2.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.6,
-            "change": -0.3667,
-            "pct_change": -9.24
+            "current_3mo": 3.6667,
+            "change": -0.2667,
+            "pct_change": -6.78
           }
         },
         "civilian_labor_force": {
-          "latest_value": 69.2146,
-          "latest_date": "2026-05-01",
+          "latest_value": 69.3414,
+          "latest_date": "2026-06-01",
           "series_id": "DENV708LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 69.18913333333333,
+          "3month_average": 69.2149,
           "yoy_change": {
-            "current": 69.2146,
-            "change": -1.8298,
-            "pct_change": -2.58
+            "current": 69.3414,
+            "change": -1.5267,
+            "pct_change": -2.15
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -3720,33 +3706,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.4,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.6,
+          "latest_date": "2026-06-01",
           "series_id": "ORLA712URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.433333333333334,
-          "12month_average": 4.409090909090909,
+          "3month_average": 4.5,
+          "12month_average": 4.472727272727273,
           "yoy_change": {
-            "current": 4.4,
-            "change": 0.9,
-            "pct_change": 25.71
+            "current": 4.6,
+            "change": 0.7,
+            "pct_change": 17.95
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.4333,
-            "change": 1.0333,
-            "pct_change": 30.39
+            "current_3mo": 4.5,
+            "change": 0.9333,
+            "pct_change": 26.17
           }
         },
         "civilian_labor_force": {
-          "latest_value": 63.7641,
-          "latest_date": "2026-05-01",
+          "latest_value": 64.1093,
+          "latest_date": "2026-06-01",
           "series_id": "ORLA712LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 63.5978,
+          "3month_average": 63.8355,
           "yoy_change": {
-            "current": 63.7641,
-            "change": 0.699,
-            "pct_change": 1.11
+            "current": 64.1093,
+            "change": 1.0938,
+            "pct_change": 1.74
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -3914,32 +3900,32 @@
       "data": {
         "unemployment_rate": {
           "latest_value": 3.6,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "CHAR737URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.6,
-          "12month_average": 3.918181818181818,
+          "3month_average": 3.566666666666667,
+          "12month_average": 3.881818181818182,
           "yoy_change": {
             "current": 3.6,
-            "change": -0.1,
-            "pct_change": -2.7
+            "change": -0.4,
+            "pct_change": -10.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.6,
-            "change": -0.0667,
-            "pct_change": -1.82
+            "current_3mo": 3.5667,
+            "change": -0.1667,
+            "pct_change": -4.46
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.261,
-          "latest_date": "2026-05-01",
+          "latest_value": 64.3483,
+          "latest_date": "2026-06-01",
           "series_id": "CHAR737LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.32456666666667,
+          "3month_average": 64.23463333333333,
           "yoy_change": {
-            "current": 64.261,
-            "change": 0.2076,
-            "pct_change": 0.32
+            "current": 64.3483,
+            "change": 0.21,
+            "pct_change": 0.33
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -4106,33 +4092,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.9,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.0,
+          "latest_date": "2026-06-01",
           "series_id": "BALT524URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.166666666666666,
-          "12month_average": 4.263636363636364,
+          "3month_average": 4.066666666666666,
+          "12month_average": 4.254545454545455,
           "yoy_change": {
-            "current": 3.9,
-            "change": 0.2,
-            "pct_change": 5.41
+            "current": 4.0,
+            "change": -0.1,
+            "pct_change": -2.44
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.1667,
-            "change": 0.5667,
-            "pct_change": 15.74
+            "current_3mo": 4.0667,
+            "change": 0.3333,
+            "pct_change": 8.93
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.4472,
-          "latest_date": "2026-05-01",
+          "latest_value": 65.2031,
+          "latest_date": "2026-06-01",
           "series_id": "BALT524LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.79003333333333,
+          "3month_average": 64.83670000000001,
           "yoy_change": {
-            "current": 64.4472,
-            "change": -0.1444,
-            "pct_change": -0.22
+            "current": 65.2031,
+            "change": 0.7938,
+            "pct_change": 1.23
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -4299,33 +4285,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.6,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.8,
+          "latest_date": "2026-06-01",
           "series_id": "STLURN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.8333333333333335,
-          "12month_average": 4.009090909090909,
+          "3month_average": 3.6666666666666665,
+          "12month_average": 3.981818181818182,
           "yoy_change": {
-            "current": 3.6,
-            "change": -0.2,
-            "pct_change": -5.26
+            "current": 3.8,
+            "change": -0.3,
+            "pct_change": -7.32
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.8333,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current_3mo": 3.6667,
+            "change": -0.1667,
+            "pct_change": -4.35
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.6425,
-          "latest_date": "2026-05-01",
+          "latest_value": 65.4447,
+          "latest_date": "2026-06-01",
           "series_id": "STLLFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.62286666666667,
+          "3month_average": 64.957,
           "yoy_change": {
-            "current": 64.6425,
-            "change": -0.4678,
-            "pct_change": -0.72
+            "current": 65.4447,
+            "change": 0.4511,
+            "pct_change": 0.69
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -4492,33 +4478,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.1,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.8,
+          "latest_date": "2026-06-01",
           "series_id": "SANA748URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.9666666666666663,
-          "12month_average": 4.090909090909091,
+          "3month_average": 4.233333333333333,
+          "12month_average": 4.163636363636363,
           "yoy_change": {
-            "current": 4.1,
-            "change": 0.4,
-            "pct_change": 10.81
+            "current": 4.8,
+            "change": 0.8,
+            "pct_change": 20.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.9667,
-            "change": 0.3,
-            "pct_change": 8.18
+            "current_3mo": 4.2333,
+            "change": 0.5,
+            "pct_change": 13.39
           }
         },
         "civilian_labor_force": {
-          "latest_value": 61.8634,
-          "latest_date": "2026-05-01",
+          "latest_value": 61.6993,
+          "latest_date": "2026-06-01",
           "series_id": "SANA748LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 61.6628,
+          "3month_average": 61.72593333333333,
           "yoy_change": {
-            "current": 61.8634,
-            "change": -0.0661,
-            "pct_change": -0.11
+            "current": 61.6993,
+            "change": 0.1414,
+            "pct_change": 0.23
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -4685,33 +4671,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.5,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.1,
+          "latest_date": "2026-06-01",
           "series_id": "AUST448URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.433333333333333,
-          "12month_average": 3.5454545454545454,
+          "3month_average": 3.6666666666666665,
+          "12month_average": 3.6,
           "yoy_change": {
-            "current": 3.5,
-            "change": 0.2,
-            "pct_change": 6.06
+            "current": 4.1,
+            "change": 0.6,
+            "pct_change": 17.14
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.4333,
-            "change": 0.1667,
-            "pct_change": 5.1
+            "current_3mo": 3.6667,
+            "change": 0.3667,
+            "pct_change": 11.11
           }
         },
         "civilian_labor_force": {
-          "latest_value": 75.4861,
-          "latest_date": "2026-05-01",
+          "latest_value": 75.6792,
+          "latest_date": "2026-06-01",
           "series_id": "AUST448LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 75.26476666666666,
+          "3month_average": 75.44606666666667,
           "yoy_change": {
-            "current": 75.4861,
-            "change": 0.3339,
-            "pct_change": 0.44
+            "current": 75.6792,
+            "change": 0.9471,
+            "pct_change": 1.27
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -4878,33 +4864,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.7,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.0,
+          "latest_date": "2026-06-01",
           "series_id": "PORT941URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.9,
-          "12month_average": 5.0636363636363635,
+          "3month_average": 4.833333333333333,
+          "12month_average": 5.081818181818182,
           "yoy_change": {
-            "current": 4.7,
-            "change": 0.1,
-            "pct_change": 2.17
+            "current": 5.0,
+            "change": 0.2,
+            "pct_change": 4.17
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.9,
-            "change": 0.2667,
-            "pct_change": 5.76
+            "current_3mo": 4.8333,
+            "change": 0.2333,
+            "pct_change": 5.07
           }
         },
         "civilian_labor_force": {
-          "latest_value": 65.0431,
-          "latest_date": "2026-05-01",
+          "latest_value": 65.1623,
+          "latest_date": "2026-06-01",
           "series_id": "PORT941LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.99663333333334,
+          "3month_average": 65.03266666666667,
           "yoy_change": {
-            "current": 65.0431,
-            "change": -0.7477,
-            "pct_change": -1.14
+            "current": 65.1623,
+            "change": -0.5301,
+            "pct_change": -0.81
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -5071,33 +5057,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.2,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.8,
+          "latest_date": "2026-06-01",
           "series_id": "SACR906URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.466666666666667,
-          "12month_average": 4.954545454545454,
+          "3month_average": 4.5,
+          "12month_average": 4.927272727272728,
           "yoy_change": {
-            "current": 4.2,
-            "change": -0.2,
-            "pct_change": -4.55
+            "current": 4.8,
+            "change": -0.3,
+            "pct_change": -5.88
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.4667,
-            "change": -0.1667,
-            "pct_change": -3.6
+            "current_3mo": 4.5,
+            "change": -0.2,
+            "pct_change": -4.26
           }
         },
         "civilian_labor_force": {
-          "latest_value": 59.535,
-          "latest_date": "2026-05-01",
+          "latest_value": 59.435,
+          "latest_date": "2026-06-01",
           "series_id": "SACR906LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 59.89013333333333,
+          "3month_average": 59.6236,
           "yoy_change": {
-            "current": 59.535,
-            "change": -0.9178,
-            "pct_change": -1.52
+            "current": 59.435,
+            "change": -0.8405,
+            "pct_change": -1.39
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -5265,32 +5251,32 @@
       "data": {
         "unemployment_rate": {
           "latest_value": 3.8,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "PITT342URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.7666666666666666,
-          "12month_average": 4.136363636363637,
+          "3month_average": 3.6999999999999997,
+          "12month_average": 4.090909090909091,
           "yoy_change": {
             "current": 3.8,
-            "change": 0.0,
-            "pct_change": 0.0
+            "change": -0.5,
+            "pct_change": -11.63
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.7667,
-            "change": -0.1,
-            "pct_change": -2.59
+            "current_3mo": 3.7,
+            "change": -0.2333,
+            "pct_change": -5.93
           }
         },
         "civilian_labor_force": {
-          "latest_value": 61.2154,
-          "latest_date": "2026-05-01",
+          "latest_value": 61.5466,
+          "latest_date": "2026-06-01",
           "series_id": "PITT342LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 60.860533333333336,
+          "3month_average": 61.18953333333333,
           "yoy_change": {
-            "current": 61.2154,
-            "change": 1.1935,
-            "pct_change": 1.99
+            "current": 61.5466,
+            "change": 1.528,
+            "pct_change": 2.55
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -5457,33 +5443,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 5.3,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.2,
+          "latest_date": "2026-06-01",
           "series_id": "LASV832URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 5.266666666666667,
-          "12month_average": 5.554545454545455,
+          "3month_average": 5.2,
+          "12month_average": 5.509090909090909,
           "yoy_change": {
-            "current": 5.3,
-            "change": -0.1,
-            "pct_change": -1.85
+            "current": 5.2,
+            "change": -0.5,
+            "pct_change": -8.77
           },
           "3month_avg_yoy": {
-            "current_3mo": 5.2667,
-            "change": -0.1333,
-            "pct_change": -2.47
+            "current_3mo": 5.2,
+            "change": -0.3,
+            "pct_change": -5.45
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.0577,
-          "latest_date": "2026-05-01",
+          "latest_value": 63.3376,
+          "latest_date": "2026-06-01",
           "series_id": "LASV832LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.20333333333333,
+          "3month_average": 63.698366666666665,
           "yoy_change": {
-            "current": 64.0577,
-            "change": 0.8409,
-            "pct_change": 1.33
+            "current": 63.3376,
+            "change": 0.1397,
+            "pct_change": 0.22
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -5650,33 +5636,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.1,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.9,
+          "latest_date": "2026-06-01",
           "series_id": "CINC139URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.3000000000000003,
-          "12month_average": 3.9545454545454546,
+          "3month_average": 3.3666666666666667,
+          "12month_average": 3.881818181818182,
           "yoy_change": {
-            "current": 3.1,
-            "change": -1.1,
-            "pct_change": -26.19
+            "current": 3.9,
+            "change": -0.8,
+            "pct_change": -17.02
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.3,
-            "change": -1.0667,
-            "pct_change": -24.43
+            "current_3mo": 3.3667,
+            "change": -0.9667,
+            "pct_change": -22.31
           }
         },
         "civilian_labor_force": {
-          "latest_value": 63.7767,
-          "latest_date": "2026-05-01",
+          "latest_value": 64.4121,
+          "latest_date": "2026-06-01",
           "series_id": "CINC139LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 63.7632,
+          "3month_average": 63.97943333333333,
           "yoy_change": {
-            "current": 63.7767,
-            "change": -0.6274,
-            "pct_change": -0.97
+            "current": 64.4121,
+            "change": 0.0902,
+            "pct_change": 0.14
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -5843,33 +5829,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.5,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.7,
+          "latest_date": "2026-06-01",
           "series_id": "KANS129URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.5666666666666664,
-          "12month_average": 3.827272727272727,
+          "3month_average": 3.5,
+          "12month_average": 3.8,
           "yoy_change": {
-            "current": 3.5,
+            "current": 3.7,
             "change": -0.3,
-            "pct_change": -7.89
+            "pct_change": -7.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.5667,
-            "change": -0.3,
-            "pct_change": -7.76
+            "current_3mo": 3.5,
+            "change": -0.3333,
+            "pct_change": -8.7
           }
         },
         "civilian_labor_force": {
-          "latest_value": 67.706,
-          "latest_date": "2026-05-01",
+          "latest_value": 68.4301,
+          "latest_date": "2026-06-01",
           "series_id": "KANS129LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 67.78486666666667,
+          "3month_average": 68.0025,
           "yoy_change": {
-            "current": 67.706,
-            "change": -0.4768,
-            "pct_change": -0.7
+            "current": 68.4301,
+            "change": 0.3379,
+            "pct_change": 0.5
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -6036,33 +6022,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 2.7,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.3,
+          "latest_date": "2026-06-01",
           "series_id": "COLU139URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 2.966666666666667,
-          "12month_average": 3.7727272727272725,
+          "3month_average": 2.933333333333333,
+          "12month_average": 3.6636363636363636,
           "yoy_change": {
-            "current": 2.7,
-            "change": -1.5,
-            "pct_change": -35.71
+            "current": 3.3,
+            "change": -1.2,
+            "pct_change": -26.67
           },
           "3month_avg_yoy": {
-            "current_3mo": 2.9667,
-            "change": -1.4333,
-            "pct_change": -32.58
+            "current_3mo": 2.9333,
+            "change": -1.4,
+            "pct_change": -32.31
           }
         },
         "civilian_labor_force": {
-          "latest_value": 65.4506,
-          "latest_date": "2026-05-01",
+          "latest_value": 66.1369,
+          "latest_date": "2026-06-01",
           "series_id": "COLU139LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 65.68156666666667,
+          "3month_average": 65.74576666666667,
           "yoy_change": {
-            "current": 65.4506,
-            "change": -0.997,
-            "pct_change": -1.5
+            "current": 66.1369,
+            "change": -0.2863,
+            "pct_change": -0.43
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -6229,33 +6215,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.4,
+          "latest_date": "2026-06-01",
           "series_id": "INDI918URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 2.933333333333333,
-          "12month_average": 3.172727272727273,
+          "3month_average": 2.966666666666667,
+          "12month_average": 3.1545454545454543,
           "yoy_change": {
-            "current": 3.0,
-            "change": -0.4,
-            "pct_change": -11.76
+            "current": 3.4,
+            "change": -0.2,
+            "pct_change": -5.56
           },
           "3month_avg_yoy": {
-            "current_3mo": 2.9333,
+            "current_3mo": 2.9667,
             "change": -0.3667,
-            "pct_change": -11.11
+            "pct_change": -11.0
           }
         },
         "civilian_labor_force": {
-          "latest_value": 67.6704,
-          "latest_date": "2026-05-01",
+          "latest_value": 68.0618,
+          "latest_date": "2026-06-01",
           "series_id": "INDI918LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 67.20026666666666,
+          "3month_average": 67.53873333333334,
           "yoy_change": {
-            "current": 67.6704,
-            "change": -0.1707,
-            "pct_change": -0.25
+            "current": 68.0618,
+            "change": 0.1512,
+            "pct_change": 0.22
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -6619,33 +6605,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 2.8,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.3,
+          "latest_date": "2026-06-01",
           "series_id": "NASH947URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 2.9,
-          "12month_average": 3.109090909090909,
+          "3month_average": 3.033333333333333,
+          "12month_average": 3.1,
           "yoy_change": {
-            "current": 2.8,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 3.3,
+            "change": -0.1,
+            "pct_change": -2.94
           },
           "3month_avg_yoy": {
-            "current_3mo": 2.9,
-            "change": 0.1333,
-            "pct_change": 4.82
+            "current_3mo": 3.0333,
+            "change": 0.1,
+            "pct_change": 3.41
           }
         },
         "civilian_labor_force": {
-          "latest_value": 75.8747,
-          "latest_date": "2026-05-01",
+          "latest_value": 76.1636,
+          "latest_date": "2026-06-01",
           "series_id": "NASH947LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 75.5539,
+          "3month_average": 75.96166666666667,
           "yoy_change": {
-            "current": 75.8747,
-            "change": -0.6256,
-            "pct_change": -0.82
+            "current": 76.1636,
+            "change": -0.1054,
+            "pct_change": -0.14
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -6812,33 +6798,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.5,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.0,
+          "latest_date": "2026-06-01",
           "series_id": "SANJ906URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.7333333333333334,
-          "12month_average": 4.218181818181818,
+          "3month_average": 3.7666666666666666,
+          "12month_average": 4.172727272727273,
           "yoy_change": {
-            "current": 3.5,
+            "current": 4.0,
             "change": -0.5,
-            "pct_change": -12.5
+            "pct_change": -11.11
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.7333,
-            "change": -0.3333,
-            "pct_change": -8.2
+            "current_3mo": 3.7667,
+            "change": -0.4,
+            "pct_change": -9.6
           }
         },
         "civilian_labor_force": {
-          "latest_value": 63.7003,
-          "latest_date": "2026-05-01",
+          "latest_value": 63.6285,
+          "latest_date": "2026-06-01",
           "series_id": "SANJ906LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.01853333333334,
+          "3month_average": 63.75696666666667,
           "yoy_change": {
-            "current": 63.7003,
-            "change": -0.4876,
-            "pct_change": -0.76
+            "current": 63.6285,
+            "change": -0.3815,
+            "pct_change": -0.6
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -7005,33 +6991,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.7,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.0,
+          "latest_date": "2026-06-01",
           "series_id": "VIRG251URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.7,
-          "12month_average": 3.7363636363636363,
+          "3month_average": 3.7333333333333334,
+          "12month_average": 3.772727272727273,
           "yoy_change": {
-            "current": 3.7,
-            "change": 0.3,
-            "pct_change": 8.82
+            "current": 4.0,
+            "change": 0.4,
+            "pct_change": 11.11
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.7,
-            "change": 0.4,
-            "pct_change": 12.12
+            "current_3mo": 3.7333,
+            "change": 0.3667,
+            "pct_change": 10.89
           }
         },
         "civilian_labor_force": {
-          "latest_value": 59.7041,
-          "latest_date": "2026-05-01",
+          "latest_value": 59.7738,
+          "latest_date": "2026-06-01",
           "series_id": "VIRG251LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 59.76776666666667,
+          "3month_average": 59.725766666666665,
           "yoy_change": {
-            "current": 59.7041,
-            "change": -0.7924,
-            "pct_change": -1.31
+            "current": 59.7738,
+            "change": -0.6313,
+            "pct_change": -1.05
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -7198,33 +7184,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.7,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.8,
+          "latest_date": "2026-06-01",
           "series_id": "JACK212URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.733333333333333,
-          "12month_average": 4.681818181818182,
+          "3month_average": 4.766666666666667,
+          "12month_average": 4.736363636363636,
           "yoy_change": {
-            "current": 4.7,
-            "change": 1.0,
-            "pct_change": 27.03
+            "current": 4.8,
+            "change": 0.6,
+            "pct_change": 14.29
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.7333,
-            "change": 1.1333,
-            "pct_change": 31.48
+            "current_3mo": 4.7667,
+            "change": 0.9667,
+            "pct_change": 25.44
           }
         },
         "civilian_labor_force": {
-          "latest_value": 59.0718,
-          "latest_date": "2026-05-01",
+          "latest_value": 59.6773,
+          "latest_date": "2026-06-01",
           "series_id": "JACK212LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 59.02316666666667,
+          "3month_average": 59.297266666666665,
           "yoy_change": {
-            "current": 59.0718,
-            "change": -0.0881,
-            "pct_change": -0.15
+            "current": 59.6773,
+            "change": 0.4616,
+            "pct_change": 0.78
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -7588,33 +7574,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.2,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.8,
+          "latest_date": "2026-06-01",
           "series_id": "MILW355URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.7,
+          "3month_average": 3.566666666666667,
           "12month_average": 3.6363636363636367,
           "yoy_change": {
-            "current": 3.2,
-            "change": -0.2,
-            "pct_change": -5.88
+            "current": 3.8,
+            "change": 0.0,
+            "pct_change": 0.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.7,
-            "change": 0.1667,
-            "pct_change": 4.72
+            "current_3mo": 3.5667,
+            "change": 0.0333,
+            "pct_change": 0.94
           }
         },
         "civilian_labor_force": {
-          "latest_value": 62.9647,
-          "latest_date": "2026-05-01",
+          "latest_value": 63.9288,
+          "latest_date": "2026-06-01",
           "series_id": "MILW355LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 63.07426666666667,
+          "3month_average": 63.283166666666666,
           "yoy_change": {
-            "current": 62.9647,
-            "change": -0.089,
-            "pct_change": -0.14
+            "current": 63.9288,
+            "change": 1.0436,
+            "pct_change": 1.66
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -7781,33 +7767,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.0,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.1,
+          "latest_date": "2026-06-01",
           "series_id": "RALE537URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.0,
-          "12month_average": 3.2363636363636363,
+          "3month_average": 3.033333333333333,
+          "12month_average": 3.209090909090909,
           "yoy_change": {
-            "current": 3.0,
-            "change": -0.2,
-            "pct_change": -6.25
+            "current": 3.1,
+            "change": -0.3,
+            "pct_change": -8.82
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.0,
-            "change": -0.1,
-            "pct_change": -3.23
+            "current_3mo": 3.0333,
+            "change": -0.1333,
+            "pct_change": -4.21
           }
         },
         "civilian_labor_force": {
-          "latest_value": 68.6836,
-          "latest_date": "2026-05-01",
+          "latest_value": 68.7196,
+          "latest_date": "2026-06-01",
           "series_id": "RALE537LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 68.8258,
+          "3month_average": 68.7408,
           "yoy_change": {
-            "current": 68.6836,
-            "change": 0.3986,
-            "pct_change": 0.58
+            "current": 68.7196,
+            "change": 0.2545,
+            "pct_change": 0.37
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -7975,32 +7961,32 @@
       "data": {
         "unemployment_rate": {
           "latest_value": 4.2,
-          "latest_date": "2026-05-01",
+          "latest_date": "2026-06-01",
           "series_id": "OKLA440URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.7333333333333334,
-          "12month_average": 3.6545454545454548,
+          "3month_average": 4.0,
+          "12month_average": 3.7454545454545456,
           "yoy_change": {
             "current": 4.2,
-            "change": 1.2,
-            "pct_change": 40.0
+            "change": 1.0,
+            "pct_change": 31.25
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.7333,
-            "change": 0.9667,
-            "pct_change": 34.94
+            "current_3mo": 4.0,
+            "change": 1.1,
+            "pct_change": 37.93
           }
         },
         "civilian_labor_force": {
-          "latest_value": 65.6525,
-          "latest_date": "2026-05-01",
+          "latest_value": 66.2098,
+          "latest_date": "2026-06-01",
           "series_id": "OKLA440LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 65.13013333333333,
+          "3month_average": 65.46753333333334,
           "yoy_change": {
-            "current": 65.6525,
-            "change": -0.71,
-            "pct_change": -1.07
+            "current": 66.2098,
+            "change": -0.024,
+            "pct_change": -0.04
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -8167,33 +8153,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.6,
-          "latest_date": "2026-05-01",
+          "latest_value": 5.2,
+          "latest_date": "2026-06-01",
           "series_id": "LOIURN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.366666666666666,
-          "12month_average": 4.163636363636364,
+          "3month_average": 4.633333333333333,
+          "12month_average": 4.236363636363636,
           "yoy_change": {
-            "current": 4.6,
-            "change": 0.6,
-            "pct_change": 15.0
+            "current": 5.2,
+            "change": 0.8,
+            "pct_change": 18.18
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.3667,
-            "change": 0.1333,
-            "pct_change": 3.15
+            "current_3mo": 4.6333,
+            "change": 0.4,
+            "pct_change": 9.45
           }
         },
         "civilian_labor_force": {
-          "latest_value": 62.6502,
-          "latest_date": "2026-05-01",
+          "latest_value": 63.0885,
+          "latest_date": "2026-06-01",
           "series_id": "LOILFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 62.2376,
+          "3month_average": 62.57416666666667,
           "yoy_change": {
-            "current": 62.6502,
-            "change": -0.6093,
-            "pct_change": -0.96
+            "current": 63.0885,
+            "change": 0.0494,
+            "pct_change": 0.08
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -8360,33 +8346,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.5,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.8,
+          "latest_date": "2026-06-01",
           "series_id": "RICH051URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.533333333333333,
-          "12month_average": 3.5454545454545454,
+          "3month_average": 3.5666666666666664,
+          "12month_average": 3.5818181818181816,
           "yoy_change": {
-            "current": 3.5,
-            "change": 0.3,
-            "pct_change": 9.37
+            "current": 3.8,
+            "change": 0.4,
+            "pct_change": 11.76
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.5333,
+            "current_3mo": 3.5667,
             "change": 0.3667,
-            "pct_change": 11.58
+            "pct_change": 11.46
           }
         },
         "civilian_labor_force": {
-          "latest_value": 64.0112,
-          "latest_date": "2026-05-01",
+          "latest_value": 64.1407,
+          "latest_date": "2026-06-01",
           "series_id": "RICH051LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 64.04813333333333,
+          "3month_average": 64.04643333333333,
           "yoy_change": {
-            "current": 64.0112,
-            "change": -0.6328,
-            "pct_change": -0.98
+            "current": 64.1407,
+            "change": -0.5189,
+            "pct_change": -0.8
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -8553,33 +8539,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.1,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.8,
+          "latest_date": "2026-06-01",
           "series_id": "MPHURN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.133333333333333,
-          "12month_average": 4.409090909090909,
+          "3month_average": 4.333333333333333,
+          "12month_average": 4.4,
           "yoy_change": {
-            "current": 4.1,
-            "change": 0.1,
-            "pct_change": 2.5
+            "current": 4.8,
+            "change": -0.1,
+            "pct_change": -2.04
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.1333,
+            "current_3mo": 4.3333,
             "change": 0.1,
-            "pct_change": 2.48
+            "pct_change": 2.36
           }
         },
         "civilian_labor_force": {
-          "latest_value": 59.99,
-          "latest_date": "2026-05-01",
+          "latest_value": 59.566,
+          "latest_date": "2026-06-01",
           "series_id": "MPHLFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 59.86136666666667,
+          "3month_average": 59.779133333333334,
           "yoy_change": {
-            "current": 59.99,
-            "change": -0.6992,
-            "pct_change": -1.15
+            "current": 59.566,
+            "change": -0.8244,
+            "pct_change": -1.37
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -8746,33 +8732,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.4,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.6,
+          "latest_date": "2026-06-01",
           "series_id": "SALT649URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 3.6333333333333333,
-          "12month_average": 3.727272727272727,
+          "3month_average": 3.533333333333333,
+          "12month_average": 3.709090909090909,
           "yoy_change": {
-            "current": 3.4,
-            "change": 0.0,
-            "pct_change": 0.0
+            "current": 3.6,
+            "change": -0.2,
+            "pct_change": -5.26
           },
           "3month_avg_yoy": {
-            "current_3mo": 3.6333,
-            "change": 0.1667,
-            "pct_change": 4.81
+            "current_3mo": 3.5333,
+            "change": 0.0,
+            "pct_change": 0.0
           }
         },
         "civilian_labor_force": {
-          "latest_value": 71.9618,
-          "latest_date": "2026-05-01",
+          "latest_value": 72.6944,
+          "latest_date": "2026-06-01",
           "series_id": "SALT649LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 71.53903333333334,
+          "3month_average": 72.00359999999999,
           "yoy_change": {
-            "current": 71.9618,
-            "change": -0.0428,
-            "pct_change": -0.06
+            "current": 72.6944,
+            "change": 0.6924,
+            "pct_change": 0.96
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -8939,33 +8925,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 3.2,
-          "latest_date": "2026-05-01",
+          "latest_value": 3.7,
+          "latest_date": "2026-06-01",
           "series_id": "BIRM801URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 2.7666666666666666,
-          "12month_average": 2.7181818181818183,
+          "3month_average": 3.1,
+          "12month_average": 2.8,
           "yoy_change": {
-            "current": 3.2,
+            "current": 3.7,
             "change": 0.9,
-            "pct_change": 39.13
+            "pct_change": 32.14
           },
           "3month_avg_yoy": {
-            "current_3mo": 2.7667,
-            "change": 0.3,
-            "pct_change": 12.16
+            "current_3mo": 3.1,
+            "change": 0.6333,
+            "pct_change": 25.68
           }
         },
         "civilian_labor_force": {
-          "latest_value": 59.6948,
-          "latest_date": "2026-05-01",
+          "latest_value": 59.8349,
+          "latest_date": "2026-06-01",
           "series_id": "BIRM801LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 59.925266666666666,
+          "3month_average": 59.7285,
           "yoy_change": {
-            "current": 59.6948,
-            "change": -0.4649,
-            "pct_change": -0.77
+            "current": 59.8349,
+            "change": -0.1692,
+            "pct_change": -0.28
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -9132,33 +9118,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 7.4,
-          "latest_date": "2026-05-01",
+          "latest_value": 7.7,
+          "latest_date": "2026-06-01",
           "series_id": "FRES406URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 8.133333333333333,
-          "12month_average": 8.254545454545454,
+          "3month_average": 7.733333333333333,
+          "12month_average": 8.2,
           "yoy_change": {
-            "current": 7.4,
+            "current": 7.7,
             "change": -0.6,
-            "pct_change": -7.5
+            "pct_change": -7.23
           },
           "3month_avg_yoy": {
-            "current_3mo": 8.1333,
-            "change": -0.5333,
-            "pct_change": -6.15
+            "current_3mo": 7.7333,
+            "change": -0.5667,
+            "pct_change": -6.83
           }
         },
         "civilian_labor_force": {
-          "latest_value": 60.495,
-          "latest_date": "2026-05-01",
+          "latest_value": 59.8423,
+          "latest_date": "2026-06-01",
           "series_id": "FRES406LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 60.348099999999995,
+          "3month_average": 60.20393333333333,
           "yoy_change": {
-            "current": 60.495,
-            "change": 0.0001,
-            "pct_change": 0.0
+            "current": 59.8423,
+            "change": -1.0295,
+            "pct_change": -1.69
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
@@ -9322,33 +9308,33 @@
       "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
-          "latest_value": 4.4,
-          "latest_date": "2026-05-01",
+          "latest_value": 4.2,
+          "latest_date": "2026-06-01",
           "series_id": "GRAN326URN",
           "metric_name": "Unemployment Rate",
-          "3month_average": 4.033333333333333,
-          "12month_average": 4.236363636363636,
+          "3month_average": 4.1000000000000005,
+          "12month_average": 4.181818181818182,
           "yoy_change": {
-            "current": 4.4,
-            "change": -0.1,
-            "pct_change": -2.22
+            "current": 4.2,
+            "change": -0.6,
+            "pct_change": -12.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 4.0333,
+            "current_3mo": 4.1,
             "change": -0.4,
-            "pct_change": -9.02
+            "pct_change": -8.89
           }
         },
         "civilian_labor_force": {
-          "latest_value": 62.1932,
-          "latest_date": "2026-05-01",
+          "latest_value": 61.1665,
+          "latest_date": "2026-06-01",
           "series_id": "GRAN326LFN",
           "metric_name": "Labor Force Participation Rate",
-          "3month_average": 62.43866666666666,
+          "3month_average": 61.7701,
           "yoy_change": {
-            "current": 62.1932,
-            "change": -4.1285,
-            "pct_change": -6.22
+            "current": 61.1665,
+            "change": -5.87,
+            "pct_change": -8.76
           },
           "3month_avg_yoy": null,
           "note": "Calculated as (Civilian Labor Force / Civilian Population) \u00d7 100"
