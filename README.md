@@ -26,7 +26,7 @@ FRED API ──► pull_economic_data_unified_FIXED.py
     Economic_Metrics_All_Metros.xlsx
                     │
                     ▼
-       city_econ_pipeline_cautious.py          ← automated weekly
+       city_econ_pipeline.py                   ← automated weekly
                     │
                     ▼
           city_reports_ft_cautious/
@@ -50,7 +50,7 @@ Calculates derived fields for each series: 3-month average, 12-month average, Yo
 ### Step 3 — Scoring Engine (`calculate_metrics_reconciled_V6.py`)
 Builds percentile scores for 8 metrics across 50 metros, applies weights, calculates composite grades. Key staleness guards: PSF data older than 9 months is treated as missing for 104C; building permits data older than 6 months (monthly series) or 3 years (annual series) is treated as missing or falls back to annual YoY. Outputs JSON and a formatted Excel workbook (5 sheets).
 
-### Step 4 — LLM Reports (`city_econ_pipeline_cautious.py`)
+### Step 4 — LLM Reports (`city_econ_pipeline.py`)
 Generates a two-pass AI report per city using Together AI:
 - Pass 1 (Qwen 2.5 72B): evidence-based economic analysis from the metric data
 - Pass 2 (Llama 3.1 8B): copy-editing pass for FT-style tone and restraint
@@ -96,7 +96,7 @@ TOGETHER_API_KEY=your_together_api_key
 python pull_economic_data_unified_FIXED.py
 python process_historical_data_v2_FIXED.py
 python calculate_metrics_reconciled_V6.py
-python city_econ_pipeline_cautious.py   # optional — requires TOGETHER_API_KEY
+python city_econ_pipeline.py            # optional — requires TOGETHER_API_KEY
 python generate_pdf_report.py           # optional — generates PDF + site
 python generate_rankings_pdf.py         # optional — rankings PDF only
 ```

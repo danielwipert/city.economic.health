@@ -1,10 +1,10 @@
 {
-  "calculation_timestamp": "2026-08-03T12:25:44.319275",
-  "calculation_date": "2026-08-03 12:25:44",
-  "version": "5.0",
+  "calculation_timestamp": "2026-08-03T19:36:55.844902",
+  "calculation_date": "2026-08-03 19:36:55",
+  "version": "6.0",
   "scoring_method": "Percentile-Based (Rank Order)",
   "rubric": "9-Metric Percentile System: 85% Employment / 15% Housing",
-  "note": "HPI and PSF YoY removed \u2014 housing price appreciation conflates supply constraints with genuine demand; payroll growth (107E) captures demand directly. 106D weekly hours scored as deviation from own 12-month trend to remove industry-composition bias. 104C COL: absolute affordability (3pts) + direction (4pts) + volatility (3pts). 105C OWR: YoY growth (3pts) + absolute % (2pts). 200B permits uses 3-month smoothed YoY.",
+  "note": "HPI and PSF YoY removed \u2014 housing price appreciation conflates supply constraints with genuine demand; payroll growth (107E) captures demand directly. 107E Labor Demand Composite combines total nonfarm employment growth with employment-conditioned weekly hours deviation. 104C COL: absolute affordability (5pts) + direction (3pts) + peer-relative trend (2pts). 105C OWR: YoY growth (3pts) + absolute % (2pts). 200B permits uses 3-month smoothed YoY.",
   "weight_configuration": {
     "101A": 20,
     "102A": 10,
@@ -16,13 +16,12 @@
     "204A": 5
   },
   "score_codes": {
-    "101A": "unemployment_rate (20)",
-    "102A": "labor_force_participation (15)",
-    "103B": "hourly_earnings_yoy (10)",
-    "104C": "cost_of_living_3component (10)",
-    "105C": "office_worker_ratio_2component (5)",
-    "106D": "weekly_hours_trend_deviation_pct (10)",
-    "107E": "total_nonfarm_employment_growth_yoy (15)",
+    "101A": "unemployment_rate_composite (20)",
+    "102A": "civilian_labor_force_yoy (10)",
+    "103B": "hourly_earnings_yoy_3month_avg (15)",
+    "104C": "cost_of_living_3component (12)",
+    "105C": "office_worker_ratio_2component (3)",
+    "107E": "labor_demand_composite (25)",
     "200B": "building_permits_3month_smoothed_yoy (10)",
     "204A": "median_days_on_market_2component_composite (5)"
   },

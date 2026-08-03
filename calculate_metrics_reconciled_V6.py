@@ -730,19 +730,18 @@ def calculate_metrics():
     output = {
         "calculation_timestamp": datetime.now().isoformat(),
         "calculation_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "version": "5.0",
+        "version": "6.0",
         "scoring_method": "Percentile-Based (Rank Order)",
         "rubric": "9-Metric Percentile System: 85% Employment / 15% Housing",
-        "note": "HPI and PSF YoY removed — housing price appreciation conflates supply constraints with genuine demand; payroll growth (107E) captures demand directly. 106D weekly hours scored as deviation from own 12-month trend to remove industry-composition bias. 104C COL: absolute affordability (3pts) + direction (4pts) + volatility (3pts). 105C OWR: YoY growth (3pts) + absolute % (2pts). 200B permits uses 3-month smoothed YoY.",
+        "note": "HPI and PSF YoY removed — housing price appreciation conflates supply constraints with genuine demand; payroll growth (107E) captures demand directly. 107E Labor Demand Composite combines total nonfarm employment growth with employment-conditioned weekly hours deviation. 104C COL: absolute affordability (5pts) + direction (3pts) + peer-relative trend (2pts). 105C OWR: YoY growth (3pts) + absolute % (2pts). 200B permits uses 3-month smoothed YoY.",
         "weight_configuration": weights,
         "score_codes": {
-            "101A": "unemployment_rate (20)",
-            "102A": "labor_force_participation (15)",
-            "103B": "hourly_earnings_yoy (10)",
-            "104C": "cost_of_living_3component (10)",
-            "105C": "office_worker_ratio_2component (5)",
-            "106D": "weekly_hours_trend_deviation_pct (10)",
-            "107E": "total_nonfarm_employment_growth_yoy (15)",
+            "101A": "unemployment_rate_composite (20)",
+            "102A": "civilian_labor_force_yoy (10)",
+            "103B": "hourly_earnings_yoy_3month_avg (15)",
+            "104C": "cost_of_living_3component (12)",
+            "105C": "office_worker_ratio_2component (3)",
+            "107E": "labor_demand_composite (25)",
             "200B": "building_permits_3month_smoothed_yoy (10)",
             "204A": "median_days_on_market_2component_composite (5)",
         },
@@ -835,11 +834,10 @@ def create_excel_from_metrics(output_data):
     # ========== SHEET 2: METRIC SCORES ==========
     ws_scores = wb.create_sheet("Metric Scores", 1)
     
-    metric_codes = ['101A', '102A', '103B', '104C', '105C', '106D', '107E', '200B', '204A']
+    metric_codes = ['101A', '102A', '103B', '104C', '105C', '107E', '200B', '204A']
     metric_names = {
-        '101A': 'Unemployment', '102A': 'LFP', '103B': 'Earnings YoY', '104C': 'COL',
-        '105C': 'Office Workers', '106D': 'Weekly Hours', '107E': 'Emp Growth YoY',
-        '200B': 'Permits YoY', '204A': 'DoM YoY'
+        '101A': 'Unemployment', '102A': 'CLF YoY', '103B': 'Earnings YoY', '104C': 'COL',
+        '105C': 'Office Workers', '107E': 'Labor Demand', '200B': 'Permits YoY', '204A': 'DoM'
     }
     
     headers_scores = ['Metro Name', 'Weighted Score'] + [f"{code}\n({metric_names[code]})" for code in metric_codes]
@@ -909,7 +907,7 @@ def create_excel_from_metrics(output_data):
     
     by_rank = sorted(output_data['metros'], key=lambda x: x['rank'])
     headers_rank = ['Rank', 'Metro Name', 'Primary City', 'Weighted Score', 'Grade', 'Percentile', 
-                    'Unemployment', 'LFP %', 'Earnings YoY', 'COL Score']
+                    'Unemployment', 'CLF YoY %', 'Earnings YoY', 'COL Score']
     
     for col, header in enumerate(headers_rank, 1):
         cell = ws_rank.cell(row=1, column=col, value=header)
@@ -1070,8 +1068,8 @@ def main():
     print("   • Sheet 5: Top vs Bottom (leaders vs laggards)")
     print("\n✅ READY FOR LINKEDIN CONTENT GENERATION\n")
     print("📊 Current Scoring — 8 Metrics (April 2026):")
-    print("  Weights: 107E LDC 25% | 101A Unemp 20% | 103B Earnings 15% | 104C COL 12%")
-    print("           102A LFP 10% | 200B Permits 10% | 204A DoM 5% | 105C OWR 3%")
+    print("  Weights: 107E LDC 25% | 101A Unemp Composite 20% | 103B Earnings 15% | 104C COL 12%")
+    print("           102A CLF YoY Growth 10% | 200B Permits 10% | 204A DoM 5% | 105C OWR 3%")
     print("  Split: 85% Employment / 15% Housing\n")
     print("  Key design decisions:")
     print("  • 107E Labor Demand Composite: employment growth (70%) + hours deviation (30%)")
@@ -1080,8 +1078,8 @@ def main():
     print("  • 204A DoM: 60-day inflection — rising DoM penalized above 60 days (demand destruction)")
     print("    - Below 60 days: loosening = good (inventory for workers)")
     print("    - Above 60 days: loosening = bad (owners locked in, labor mobility impaired)")
-    print("  • 102A LFP reduced 15%→10%: annual population benchmark anchor limits dynamic value")
-    print("  • 103B Earnings increased 10%→15%: real-time monthly signal, redistributed from LFP")
+    print("  • 102A CLF YoY Growth (10%): replaced LFP to eliminate stale population denominator")
+    print("  • 103B Earnings increased 10%→15%: real-time monthly signal, redistributed from former LFP rate")
     print("  • 104C COL increased 10%→12%: redistributed from OWR reduction")
     print("  • 105C OWR reduced 5%→3%: tiebreaker only, avoids penalising industrial/energy metros\n")
 

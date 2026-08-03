@@ -25,27 +25,39 @@ This approach has several deliberate advantages over z-scores or absolute thresh
 
 ## The 8 Metrics
 
-### 101A — Unemployment Rate (Weight: 20%)
+### 101A — Unemployment Rate Composite (Weight: 20%)
 
-**What it measures:** The share of the civilian labor force that is unemployed and actively seeking work. Sourced from BLS Local Area Unemployment Statistics (LAUS).
+**What it measures:** A 2-component composite combining the absolute level of unemployment with its year-over-year point-to-point change. Sourced from BLS Local Area Unemployment Statistics (LAUS).
 
-**Direction:** `invert=True` — lower unemployment = higher percentile score.
+**Direction:** `invert=False` for the composite — a HIGHER composite score indicates a healthier market (low unemployment and improving/stable trend), which is then percentile-ranked.
 
 **Why 20% weight:** Unemployment is the most widely tracked, most politically salient, and most directly actionable labor market signal. A 0.5 percentage point difference in unemployment is statistically and economically significant — it represents tens of thousands of workers in a large metro. It is the single most powerful indicator of labor market health.
 
-**What it does not capture:** Unemployment is a lagging indicator. It peaks after recessions have already begun and falls after recoveries are already underway. It also misses discouraged workers who have left the labor force entirely, which is why 102A (LFP) complements it.
+#### Component 1 — Absolute Level (0-7.5 points, 75% of composite)
+Scores the current unemployment rate on an absolute fixed scale anchored at 2.0% (full employment floor, full 7.5 points) and 8.0% (distress ceiling, 0 points). This assesses the raw level of local joblessness regardless of where other metros sit.
+
+#### Component 2 — YoY Direction (0-2.5 points, 25% of composite)
+Assesses the year-over-year point-to-point change in percentage points (pp). An improvement (falling unemployment rate) is rewarded, and deterioration is penalized, scored over a ±1.0pp range. A flat change receives neutral (1.25 points) credit.
+
+**Why point-to-point YoY is used instead of 3-month average YoY:** BLS LAUS releases create a systematic publication gap at the third-most-recent month (~46/50 metros each run), which would nullify a 3-month average for almost the entire dataset. Point-to-point YoY avoids these nulls, and a 13-month fallback handles rare cases where a year-ago month was never published.
+
+**What it does not capture:** It misses discouraged workers who have left the labor force entirely, which is why 102A (Civilian Labor Force YoY Growth) complements it.
 
 ---
 
-### 102A — Labor Force Participation Rate (Weight: 10%)
+### 102A — Civilian Labor Force YoY Growth (Weight: 10%)
 
-**What it measures:** The share of the civilian non-institutional population (age 16+) that is either employed or actively looking for work. Sourced from BLS LAUS.
+**What it measures:** The year-over-year percent change in the civilian labor force count (the total number of people employed or actively seeking work). Sourced from BLS LAUS.
 
-**Direction:** `invert=False` — higher LFP = higher percentile score.
+**Direction:** `invert=False` — higher labor force growth = higher percentile score.
 
-**Why 10% weight:** LFP captures what unemployment misses — a city can have low unemployment simply because discouraged workers stopped looking. However, LFP is anchored to annual population benchmarks from BLS, meaning the denominator only updates meaningfully once per year. This makes it a slow-moving structural snapshot rather than a dynamic monthly signal. It retains genuine value as a measure of workforce engagement depth, but does not deserve equal footing with monthly dynamic signals. Weight reduced from 15% to reflect this cadence constraint.
+**Why 10% weight:** It captures labor supply-side momentum. A growing labor force means workers are moving in or re-entering the workforce, expanding the hiring pool and mitigating labor shortages. Slower-growing or contracting labor forces represent a structural headwind for hiring.
 
-**Structural caveat:** LFP varies significantly by demographic composition — cities with older populations (Tampa, Cleveland, Pittsburgh), large student populations (Providence), or significant military presence (Virginia Beach) will have structurally lower LFP independent of economic conditions. The percentile ranking compares cities against each other, which partially mitigates absolute level bias but does not eliminate it.
+**Why this replaced the former Labor Force Participation (LFP) Rate:**
+The previous LFP rate calculation (labor force ÷ civilian population) suffered from a compounding data quality problem: the civilian population denominator relied on stale Census estimates that only updated annually, creating severe distortion in fast-growing metros (some of which had grown 20%+ since the last Census benchmark). In addition, BLS LAUS geographic codes do not perfectly align with ACS CBSA boundaries. Switching to YoY Civilian Labor Force growth eliminates the population denominator completely — comparing the labor force count directly to itself 12 months prior.
+
+**Differentiating from 107E:**
+While 107E (Labor Demand Composite) measures employment/hiring demand, 102A measures worker availability and supply-side momentum.
 
 ---
 
@@ -55,7 +67,7 @@ This approach has several deliberate advantages over z-scores or absolute thresh
 
 **Direction:** `invert=False` — stronger wage growth = higher percentile score.
 
-**Why 15% weight:** Rising wages are a real-time demand signal — employers bid up labor prices when they need workers and expect revenue growth. It also directly affects worker purchasing power and quality of life. Weight increased from 10% to 15%: earnings data updates monthly and reflects genuine labor market tightness more dynamically than the annual-anchored LFP rate. The 5% redistributed from 102A reflects the relative timeliness advantage of earnings data.
+**Why 15% weight:** Rising wages are a real-time demand signal — employers bid up labor prices when they need workers and expect revenue growth. It also directly affects worker purchasing power and quality of life. Weight increased from 10% to 15%: earnings data updates monthly and reflects genuine labor market tightness more dynamically than the former annual-anchored LFP rate. The 5% redistributed from the former LFP rate reflects the relative timeliness advantage of earnings data.
 
 **What to watch:** A city with strong wage growth but rising unemployment (a rare but possible leading indicator of overheating or layoffs in progress) would show split signals across 101A and 103B — exactly the kind of nuance the multi-metric composite is designed to surface.
 
@@ -249,10 +261,10 @@ The resulting `weighted_percentile` represents approximately what percentile the
 | Code | Metric | Weight | Category |
 |------|--------|--------|----------|
 | 107E | Labor Demand Composite (employment + hours) | 25% | Employment |
-| 101A | Unemployment Rate | 20% | Employment |
+| 101A | Unemployment Rate Composite | 20% | Employment |
 | 103B | Hourly Earnings YoY | 15% | Employment |
 | 104C | Cost of Living Composite | 12% | Employment |
-| 102A | Labor Force Participation Rate | 10% | Employment |
+| 102A | Civilian Labor Force YoY Growth | 10% | Employment |
 | 200B | Building Permits YoY | 10% | Housing |
 | 204A | Days on Market Composite | 5% | Housing |
 | 105C | Office Worker Ratio Composite | 3% | Employment |
