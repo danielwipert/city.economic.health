@@ -1,18 +1,17 @@
-[12:14:16] ================================================================================
-[12:14:16] UNIFIED ECONOMIC DATA COLLECTION (FIXED)
-[12:14:16] ================================================================================
-[12:14:16] Start Time: 2026-08-03 12:14:16
-[12:14:16] FRED API Rate Limit: 120 requests/minute
-[12:14:16] Script Delay: 1.5 seconds between calls
-[12:14:16] Expected Runtime: ~14-16 minutes
-[12:14:16] Total API Calls: 452 (2 national + 450 metros)
-[12:14:16] Observations per metric: 15 (for historical analysis)
-[12:14:16] 
-[12:15:02] FAILED [Civilian Labor Force] DALL148LFN: HTTP 502 for series 'DALL148LFN'
-[12:25:44] 
-[12:25:44] ================================================================================
-[12:25:44] COLLECTION COMPLETE
-[12:25:44] ================================================================================
-[12:25:44] End Time: 2026-08-03 12:25:44
-[12:25:44] National Metrics Collected: 2
-[12:25:44] Metro Data Points Collected: 449
+[10:09:56] ================================================================================
+[10:09:56] UNIFIED ECONOMIC DATA COLLECTION (FIXED)
+[10:09:56] ================================================================================
+[10:09:56] Start Time: 2026-08-10 10:09:56
+[10:09:56] FRED API Rate Limit: 120 requests/minute
+[10:09:56] Script Delay: 1.5 seconds between calls
+[10:09:56] Expected Runtime: ~14-16 minutes
+[10:09:56] Total API Calls: 452 (2 national + 450 metros)
+[10:09:56] Observations per metric: 15 (for historical analysis)
+[10:09:56] 
+[10:21:14] 
+[10:21:14] ================================================================================
+[10:21:14] COLLECTION COMPLETE
+[10:21:14] ================================================================================
+[10:21:14] End Time: 2026-08-10 10:21:14
+[10:21:14] National Metrics Collected: 2
+[10:21:14] Metro Data Points Collected: 450

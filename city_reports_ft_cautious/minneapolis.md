@@ -1,33 +1,33 @@
 # Minneapolis-St. Paul-Bloomington
 
-**Grade: C (Very Poor) | 36.9th percentile | August 2026**
+**Grade: C+ (Poor) | 38.6th percentile | August 2026**
 
 ---
 
-The Minneapolis-St. Paul-Bloomington metro area has an overall grade of C, ranking 36.9th percentile out of 50 US metros, with a labor demand composite score of 5.63 and an unemployment rate of 4.40%. The city's economic character is most defined by its above-average labor demand, driven by a 1.46% employment growth rate, and its stagnant wage growth, with a year-over-year change of only 0.01%. These metrics suggest a mixed economic environment, with some positive trends but also significant challenges.
+The Minneapolis-St. Paul-Bloomington metro area has an overall grade of C+ with a composite score ranking it 38.6th percentile out of 50 US metros. This city's economic character is most defined by its labor demand, which is above average, and its stagnant wage growth, ranking in the bottom tier at 6th percentile. The labor demand composite score of 5.63, driven by a 1.46% employment growth rate and -0.718% weekly hours deviation, signals a genuine demand expansion.
 
 **Labor Demand**
-The Minneapolis-St. Paul-Bloomington metro area has an employment growth rate of 1.46% and a weekly hours deviation of -0.718% from its own 12-month baseline, resulting in a labor demand composite score of 5.63, which ranks in the 64th percentile. This combination signals genuine demand expansion, as the city is adding jobs and hours are running above trend. However, the negative hours deviation suggests some inefficiencies in the labor market.
+The employment growth rate of 1.46% and weekly hours deviation of -0.718% indicate a labor market with genuine demand expansion, as hours are not excessively above trend during job growth. This combination suggests that the city is adding jobs at a moderate pace, with workers' hours not being overly stretched. The labor demand composite score of 5.63 ranks in the 64th percentile, indicating a relatively strong labor market.
 
 **Unemployment**
-The unemployment rate in the Minneapolis-St. Paul-Bloomington metro area is 4.40%, which ranks in the 30th percentile, indicating a relatively loose labor market. This means that businesses may find it easier to hire workers, but may also face weaker local consumer demand. With an unemployment rate above the national average, companies may have a larger pool of potential employees to draw from.
+The unemployment rate of 4.40% is below average, ranking in the 30th percentile, which means the market has some slack but is not extremely loose. This implies that while it may not be extremely difficult to hire, there is still some competition for talent, and businesses may face moderate wage pressure. The relatively low unemployment rate suggests that the local consumer demand is not extremely weak.
 
 **Wage Growth**
-The year-over-year wage growth in the Minneapolis-St. Paul-Bloomington metro area is 0.01%, ranking in the 6th percentile, indicating stagnant wage growth. This means that employer labor costs are not rising rapidly, but worker purchasing power is also not increasing significantly. As a result, businesses may not face significant pressure to increase wages, but may also struggle to attract top talent.
+The year-over-year wage growth rate of 0.01% is stagnant, ranking in the bottom tier at 6th percentile. This slow wage growth implies a flat cost environment for employers, but it also means that workers have weak bargaining power. The stagnant wage growth may limit the purchasing power of workers, potentially affecting local consumer demand.
 
 **Cost of Living**
-The cost of living in the Minneapolis-St. Paul-Bloomington metro area is relatively high, with a PSF of $212/sqft and an earnings ratio of 5.37, ranking in the 29th percentile. However, the PSF is falling by 0.5% year-over-year, which is a positive trend. This means that the city is less affordable than many of its peers, making it challenging for businesses to attract talent without offering wage premiums.
+The city's cost of living, with a PSF of $208/sqft and earnings of $39.46/hr, resulting in a ratio of 5.27, ranks near the median at 45th percentile. This means that the city is neither extremely affordable nor expensive relative to its peers. The fact that PSF is falling by 1.9% YoY is a positive sign for affordability. This cost of living profile may not provide a significant talent attraction advantage without wage premiums.
 
 **Labor Force Growth**
-The labor force in the Minneapolis-St. Paul-Bloomington metro area is contracting, with a year-over-year growth rate of -0.97%, ranking in the 24th percentile. This means that the supply of workers is shrinking, creating a structural headwind for hiring and potentially limiting the city's ability to support business growth.
+The civilian labor force is contracting at a rate of -0.97% year-over-year, ranking in the 24th percentile. This decline in labor force supply implies a structural headwind for hiring, as the pool of available workers is shrinking. Businesses may face challenges in finding and recruiting talent in this environment.
 
 **Building Permits**
-The number of building permits in the Minneapolis-St. Paul-Bloomington metro area is increasing, with a year-over-year change of 9.15%, ranking in the 62nd percentile. This suggests that housing supply is expanding, which could improve affordability and make it easier for workers to relocate to the city.
+The year-over-year change in residential building permits is 9.15%, ranking in the 62nd percentile, indicating an expansion in housing supply. This suggests that developer confidence is rising, and future housing supply is likely to increase, which may improve affordability and accommodate a growing workforce.
 
 **Days on Market**
-The median days on market for homes in the Minneapolis-St. Paul-Bloomington metro area is 37 days, with no year-over-year change. This indicates a relatively fast-paced market, which can make it challenging for relocating workers to find housing. However, the stable days on market suggests that the market is not becoming more competitive.
+The current median days on market is 38 days, with a 0% year-over-year change. This relatively fast market, ranking in the 26th percentile, may make it challenging for relocating workers to find housing, as homes are selling quickly. However, the stable days on market suggests a balanced market, neither extremely competitive nor accessible.
 
 **Office Economy**
-The Minneapolis-St. Paul-Bloomington metro area has a relatively shallow professional talent pool, ranking in the 14th percentile. This means that the city is less suited for businesses that require a deep pool of office-based talent, such as tech or finance companies. However, the city may be more attractive to businesses with industrial or logistics-oriented operations.
+The share of professional and office workers is 1.26, ranking in the bottom tier at 14th percentile, indicating a relatively shallow talent pool in these sectors. This city is less suited for businesses that require a deep knowledge-economy talent pool, such as tech, finance, or consulting, but may be more suitable for industrial or logistics-dominant economies.
 
-The Minneapolis-St. Paul-Bloomington metro area offers businesses a mixed economic environment, with some positive trends in labor demand and building permits, but also significant challenges in terms of stagnant wage growth and a shrinking labor force. The single biggest risk or constraint for businesses in this city is the limited supply of workers, which could limit their ability to grow and expand operations.
+The Minneapolis-St. Paul-Bloomington metro area offers a business a labor market with genuine demand expansion and a relatively low unemployment rate, but it also comes with the risk of a stagnant wage growth environment and a contracting labor force supply. The single biggest risk or constraint for a decision-maker to factor in is the potential challenge in finding and recruiting talent due to the shrinking labor pool, which may limit the city's attractiveness for businesses with high labor demands.

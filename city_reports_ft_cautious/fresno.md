@@ -1,33 +1,33 @@
 # Fresno
 
-**Grade: C (Very Poor) | 36.8th percentile | August 2026**
+**Grade: C (Very Poor) | 36.4th percentile | August 2026**
 
 ---
 
-The city of Fresno has an overall grade of C, ranking 36.8th percentile out of 50 US metros, with a labor demand composite score of 5.04. The city's economic character is most defined by its high wage growth rate of 5.96% and its low unemployment rate of 7.70%, which indicates a tight labor market. However, the labor force growth rate of -1.69% suggests a shrinking labor pool, which could pose a challenge for businesses looking to hire.
+The city of Fresno has an overall grade of C, ranking 36.4th percentile out of 50 US metros, with a labor demand composite score of 5.04. The city's economic character is most defined by its high wage growth rate of 5.96% and its low unemployment rate of 7.70%, which indicates a tight labor market. These metrics suggest that Fresno has a strong demand for labor, but also faces challenges in terms of labor supply and affordability.
 
 **Labor Demand**
-Fresno's employment growth rate is 1.60% year-over-year, while weekly hours are deviating -2.051% from the city's own 12-month baseline. This combination signals a moderate labor demand expansion, but the decrease in weekly hours suggests that the growth may not be entirely driven by genuine demand. The labor demand composite score of 5.04 is near the median, indicating a stable but not exceptional labor market.
+Fresno's employment growth rate is 1.60% year-over-year, while weekly hours are deviating -2.051% from the city's own 12-month baseline. This combination signals a moderate labor demand expansion, as the city is adding jobs, but hours worked are slightly below trend. This suggests that the labor market is growing, but not at a rapid pace.
 
 **Unemployment**
-The unemployment rate in Fresno is 7.70%, which is the lowest percentile rank, indicating a very tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is limited, and wage pressure may be high. As a result, companies may need to offer competitive salaries to attract and retain talent.
+The unemployment rate in Fresno is 7.70%, which is the lowest percentile rank, indicating a very tight labor market. This means that businesses may face challenges in hiring, as there are fewer available workers, and may need to offer higher wages to attract talent. The tight labor market also implies that workers have more bargaining power, which can drive up labor costs.
 
 **Wage Growth**
-The year-over-year wage growth rate in Fresno is 5.96%, which is in the top tier, ranking 80th percentile. This fast wage growth rate implies rising labor costs for employers, but it also means that workers have strong purchasing power, which can be beneficial for local businesses. However, the high wage growth may also lead to increased costs for companies operating in the area.
+The year-over-year wage growth rate in Fresno is 5.96%, which is in the top tier, ranking 80th percentile. This fast wage growth rate implies that labor costs for employers are rising rapidly, but it also means that workers have increasing purchasing power. This can be beneficial for businesses that rely on local consumer demand, but may be a challenge for those with tight profit margins.
 
 **Cost of Living**
-Fresno has a cost of living ratio of 7.82, with a PSF of $263/sqft and average hourly earnings of $33.62/hr, ranking near the median at 45th percentile. This indicates that the city is neither extremely affordable nor expensive relative to its peers. The stable PSF growth rate of 0.0% year-over-year suggests that the cost of living is not increasing rapidly, making it moderately attractive for talent without requiring significant wage premiums.
+Fresno has a cost of living percentile rank of 47th, with a PSF of $263/sqft and an hourly earnings ratio of $33.62/hr, resulting in a ratio of 7.82. This indicates that the city is near median in terms of affordability, neither extremely expensive nor very affordable. This means that businesses may not have a significant talent attraction advantage due to low costs, but also do not need to offer large wage premiums to compensate for high living costs.
 
 **Labor Force Growth**
-The civilian labor force in Fresno is shrinking at a rate of -1.69% year-over-year, indicating a contracting labor pool. This decline in labor force growth poses a significant challenge for businesses looking to hire, as it may lead to a shortage of skilled workers and increased competition for available talent.
+The civilian labor force in Fresno is contracting at a rate of -1.69% year-over-year, which is in the bottom tier, ranking 12th percentile. This implies that the labor pool is shrinking, creating a structural headwind for hiring and business expansion. Businesses may need to invest in training and development programs to attract and retain talent in this environment.
 
 **Building Permits**
-The number of building permits in Fresno has decreased by 6.89% year-over-year, indicating a tightening housing supply. This decline in building permits may lead to a supply squeeze, making it more difficult for workers to find affordable housing, which could negatively impact the city's attractiveness to businesses and talent.
+The year-over-year change in building permits in Fresno is -6.89%, which is below average, ranking 36th percentile. This indicates that housing supply is tightening, which can lead to decreased affordability and increased competition for workforce accommodation. This may be a challenge for businesses that rely on a mobile workforce or need to attract talent from other areas.
 
 **Days on Market**
-The median days on market in Fresno is 55 days, with a year-over-year increase of 5.8%. This suggests a moderately competitive housing market, which may make it accessible for relocating workers to find homes. However, the rising days on market may also indicate a normalization of the market, rather than a significant slowdown.
+The median days on market in Fresno is 55 days, with a year-over-year increase of 1.9%. This indicates a near median market pace, neither extremely fast nor slow. For workers relocating to this city, the market is relatively accessible, but not extremely competitive, which can be beneficial for businesses that need to attract talent from other areas.
 
 **Office Economy**
-Fresno's professional and office worker share is below average, ranking 30th percentile, with a composite score of 1.86. This indicates a relatively shallow talent pool, making the city less suited for businesses that require a deep knowledge-economy talent pool, such as tech or finance companies. However, the city may be more attractive to industries with fewer specialized roles, such as logistics or manufacturing.
+Fresno has an office economy percentile rank of 30th, with a share of professional and office workers of 1.86. This indicates that the city has a relatively shallow professional talent pool, making it less suited for businesses that require a deep knowledge-economy talent pool, such as tech or finance companies. However, it may be more suitable for businesses with industrial or logistics-dominated economies.
 
-In conclusion, Fresno offers a unique combination of high wage growth and a tight labor market, making it an attractive location for businesses that can adapt to these conditions. However, the single biggest risk or constraint for businesses is the shrinking labor pool, which may lead to significant challenges in hiring and retaining talent, making it essential for decision-makers to carefully consider this factor when evaluating Fresno as a potential location.
+The city of Fresno offers businesses a unique combination of high wage growth and a tight labor market, but also poses challenges in terms of labor supply and affordability. The single biggest risk or constraint for decision-makers is the shrinking labor pool, which can create a structural headwind for hiring and business expansion, and may require businesses to invest in training and development programs to attract and retain talent.

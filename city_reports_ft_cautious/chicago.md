@@ -1,33 +1,33 @@
 # Chicago-Naperville-Elgin
 
-**Grade: C- (Critical) | 28.2th percentile | August 2026**
+**Grade: C- (Critical) | 27.2th percentile | August 2026**
 
 ---
 
-The Chicago-Naperville-Elgin metro area has an overall grade of C- with a composite score ranking it at the 28.2th percentile out of 50 US metros. The city's economic character is most defined by its high unemployment rate of 5.30% and its stagnant labor force growth rate of -0.53% YoY. These metrics signal a challenging labor market with limited opportunities for expansion.
+The Chicago-Naperville-Elgin metro area has an overall grade of C- with a composite score ranking it at the 27.2th percentile out of 50 US metros. This city's economic character is most defined by its low unemployment rate of 5.30% and its stagnant labor force growth rate of -0.53% YoY, indicating a tight labor market with limited workforce expansion. The labor demand composite score of 4.84, near the median, suggests a moderate level of job growth.
 
 **Labor Demand**
-The employment growth rate in Chicago-Naperville-Elgin is +0.12% YoY, combined with a weekly hours deviation of +0.375% from its own trend, resulting in a labor demand composite score of 4.84, which ranks near the median at the 40th percentile. This combination signals a genuine demand expansion, albeit a slow one. The positive hours deviation indicates that existing workers are shouldering a slightly increased workload, which is a sign of modest labor market tightening.
+The employment growth rate of +0.12% YoY and weekly hours deviation of +0.375% from the city's own trend signal a genuine demand expansion, albeit at a slow pace. This combination indicates that jobs are being added, and hours are running above trend, suggesting a moderate level of labor demand. However, the near-median percentile rank of 40th suggests that this demand is not exceptionally strong.
 
 **Unemployment**
-The unemployment rate in Chicago-Naperville-Elgin stands at 5.30%, ranking it at the 8th percentile, indicating a relatively loose labor market with significant slack. This means that businesses trying to hire in this city will face less competition for talent and may have an easier time staffing their operations. However, the high unemployment rate also suggests weaker local consumer demand.
+The unemployment rate of 5.30% is relatively high, ranking at the 8th percentile, indicating a labor market with some slack. This means that businesses may find it easier to hire workers, but the local consumer demand may be weaker due to the higher unemployment rate. The practical implication for a business trying to hire here is that they may have a larger pool of potential candidates to choose from.
 
 **Wage Growth**
-The year-over-year wage growth in Chicago-Naperville-Elgin is +3.22%, ranking it near the median at the 46th percentile. This moderate wage growth rate implies that labor costs for employers are rising, but not excessively so. At the same time, workers in the area are experiencing a modest increase in their purchasing power.
+The year-over-year wage growth rate of +3.22% is moderate, ranking at the 46th percentile. This rate suggests that labor costs for employers are rising, but not exceptionally fast, and worker purchasing power is increasing at a moderate pace. The implication for employer labor costs is that they will need to budget for moderate wage increases.
 
 **Cost of Living**
-With a cost of living ratio of $221/sqft to $37.09/hr, Chicago-Naperville-Elgin ranks at the 35th percentile in terms of affordability. This means that the city is relatively expensive compared to its peers, which could make it challenging to attract talent without offering wage premiums. The fact that PSF is rising by 1.8% YoY relative to wages further exacerbates the affordability concern.
+The city's cost of living, with a PSF of $221/sqft and an earnings ratio of $37.09/hr, resulting in a ratio of 5.96, ranks at the 26th percentile, indicating that the city is relatively expensive. However, the 2.8% YoY increase in PSF suggests that the city is becoming even less affordable. This means that businesses may need to offer wage premiums to attract talent, as the city's high cost of living may be a deterrent.
 
 **Labor Force Growth**
-The civilian labor force in Chicago-Naperville-Elgin is contracting at a rate of -0.53% YoY, indicating a shrinking labor pool. This contraction signals a structural headwind for hiring, as the supply of available workers is decreasing. Businesses looking to expand their operations in this city may face challenges in finding the talent they need.
+The civilian labor force is contracting at a rate of -0.53% YoY, indicating a shrinking labor pool. This contraction implies that businesses may face structural headwinds when trying to hire, as the supply of workers is decreasing. The implication for hiring capacity is that businesses may need to look outside the local labor market to find the talent they need.
 
 **Building Permits**
-The number of residential building permits in Chicago-Naperville-Elgin has decreased by 28.57% YoY, indicating a tightening of the housing supply. This sharp decline in permits suggests that the city's affordability and workforce accommodation may be at risk in the future, as the supply of new housing units is not keeping pace with demand.
+The year-over-year change in building permits is -28.57%, indicating a sharp decline in housing supply. This decline signals that the city's housing market may become even tighter, leading to decreased affordability and increased competition for workforce accommodation. The practical implication is that businesses may need to consider the potential impact on their employees' ability to find affordable housing.
 
 **Days on Market**
-The median days on market for homes in Chicago-Naperville-Elgin is 33 days, with no change YoY, ranking it at the 10th percentile. This means that the housing market is relatively hot, with homes selling quickly. For workers relocating to this city, the fast-paced market may make it challenging to find and secure a home.
+The current median days on market is 35 days, with a YoY decrease of -2.8%, indicating a relatively fast-paced market. However, the low percentile rank of 12th suggests that homes are selling quickly, making it a competitive market for relocating workers. This means that workers may face challenges in finding and securing housing, which could impact their decision to relocate to the city.
 
 **Office Economy**
-With an office/professional worker share of 1.92, ranking it at the 32nd percentile, Chicago-Naperville-Elgin has a relatively shallow talent pool in professional and office sectors. This city is best suited for businesses that do not require a deep knowledge-economy talent pool, such as industrial or logistics-dominant companies. In contrast, it may be less suitable for tech, finance, or consulting firms that rely heavily on specialized office workers.
+The city's office economy, with a composite score of 1.92, ranks at the 32nd percentile, indicating a relatively shallow professional talent pool. This suggests that the city is best suited for businesses that do not require a deep pool of specialized office workers, such as industrial or logistics companies. On the other hand, the city may not be the best fit for tech, finance, or consulting companies that require a highly specialized workforce.
 
-The Chicago-Naperville-Elgin metro area offers businesses a relatively loose labor market with moderate wage growth, but its high unemployment rate and stagnant labor force growth pose significant challenges. The single biggest risk or constraint for decision-makers is the city's limited labor market expansion capacity, which may hinder businesses' ability to grow and attract talent.
+The Chicago-Naperville-Elgin metro area offers businesses a moderate level of labor demand and a relatively large pool of potential candidates due to its higher unemployment rate. However, the single biggest risk or constraint for businesses is the city's tight labor market and limited workforce expansion, which may lead to increased competition for talent and higher labor costs.

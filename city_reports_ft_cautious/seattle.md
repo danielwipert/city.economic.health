@@ -1,33 +1,33 @@
 # Seattle-Tacoma-Bellevue
 
-**Grade: B- (Below Average) | 48.6th percentile | August 2026**
+**Grade: B (Average) | 50.1th percentile | August 2026**
 
 ---
 
-The Seattle-Tacoma-Bellevue metro area has an overall grade of B- with a composite score ranking it at the 48.6th percentile out of 50 US metros. This city's economic character is most defined by its strong wage growth, with a year-over-year increase of 6.37%, and its high building permits growth, with a 91.03% year-over-year change. These metrics signal a city with a growing economy, but also with some challenges in terms of labor demand and cost of living.
+The Seattle-Tacoma-Bellevue metro area has an overall grade of B, ranking 50.1th percentile out of 50 US metros, with a composite score driven largely by its strong wage growth and building permits expansion. The city's economic character is most defined by its top-tier wage growth of 6.37% year-over-year and its significant increase in building permits, up 91.03% year-over-year. These metrics suggest a city with a growing economy and increasing housing supply.
 
 **Labor Demand**
-The employment growth rate in Seattle-Tacoma-Bellevue is 0.27% year-over-year, and weekly hours are deviating from the trend by 0.048%. This combination signals a genuine demand expansion, although at a slow pace. The labor demand composite score of 4.73 ranks below average at the 38th percentile, indicating that the city's job market is not as strong as others.
+The employment growth rate in Seattle-Tacoma-Bellevue is 0.27% year-over-year, combined with a weekly hours deviation of 0.048% above its own trend, indicating a moderate labor demand expansion. This combination signals genuine demand for labor, although at a slower pace than many other metros. The labor demand composite score of 4.73 places the city in the 38th percentile, below average.
 
 **Unemployment**
-The unemployment rate in Seattle-Tacoma-Bellevue is 5.00%, which is relatively high and ranks at the 20th percentile. This means that the labor market has some slack, making it easier for businesses to hire workers. However, this also implies weaker local consumer demand, which could impact businesses that rely on local spending.
+The unemployment rate in Seattle-Tacoma-Bellevue is 5.00%, placing it in the 20th percentile, which means the market has some slack. This rate suggests that while it may not be extremely difficult to hire, there is still competition for talent, and businesses may face some wage pressure. The practical implication for a business trying to hire here is that it may need to offer competitive wages to attract the right candidates.
 
 **Wage Growth**
-The year-over-year wage growth in Seattle-Tacoma-Bellevue is 6.37%, which is a strong increase ranking at the 88th percentile. This fast wage growth means that labor costs for employers are rising, but it also gives workers more purchasing power. Businesses may need to factor in higher labor costs when considering this location.
+The year-over-year wage growth in Seattle-Tacoma-Bellevue is 6.37%, ranking in the 88th percentile, which is considered fast. This rapid wage growth implies rising labor costs for employers but also means workers have strong purchasing power. Businesses should factor in the potential for increasing labor costs when considering this location.
 
 **Cost of Living**
-Seattle-Tacoma-Bellevue has a cost of living score that ranks at the 39th percentile, with a PSF of $444/sqft and average hourly earnings of $47.26/hr, resulting in a ratio of 9.39. This means that the city is relatively expensive, which could make it harder to attract talent without offering wage premiums. The fact that PSF is falling by 3.5% year-over-year is a positive sign, but the city still has a way to go in terms of affordability.
+Seattle-Tacoma-Bellevue has a cost of living ratio of $438/sqft to $47.26/hr, with the price per square foot decreasing by 2.2% year-over-year, placing it in the 39th percentile. This means the city is relatively expensive compared to its peers, which could make it challenging to attract talent without offering wage premiums. The decreasing PSF relative to wages is a positive sign, but the overall affordability score remains below average.
 
 **Labor Force Growth**
-The civilian labor force in Seattle-Tacoma-Bellevue is shrinking at a rate of -0.96% year-over-year, which ranks at the 26th percentile. This contraction in labor supply means that businesses may face structural headwinds when trying to hire workers, making it a challenging location for companies that need to expand their workforce.
+The civilian labor force in Seattle-Tacoma-Bellevue is shrinking at a rate of -0.96% year-over-year, indicating a contracting labor supply. This contraction implies a structural headwind for hiring, as the pool of potential workers is decreasing. Businesses may face challenges in finding the right talent due to this shrinking labor force.
 
 **Building Permits**
-The number of building permits in Seattle-Tacoma-Bellevue has increased by 91.03% year-over-year, ranking at the 94th percentile. This rapid growth in permits signals that housing supply is expanding, which could improve affordability and make it easier for workers to relocate to the city. This is a positive sign for businesses that are concerned about their employees' ability to find housing.
+The number of residential building permits in Seattle-Tacoma-Bellevue has increased by 91.03% year-over-year, signaling an expansion in housing supply. This significant increase suggests that future affordability and workforce accommodation may improve, making it easier for businesses to attract and retain talent.
 
 **Days on Market**
-The median days on market in Seattle-Tacoma-Bellevue is 37 days, with a year-over-year increase of 2.8%. This ranks at the 60th percentile, indicating a relatively slow market. For workers relocating to this city, this means that they may have a more accessible and less competitive housing market, which could be a plus.
+The median days on market for homes in Seattle-Tacoma-Bellevue is 44 days, with a year-over-year increase of 10.0%, placing it in the 92nd percentile. This means the market is relatively slow, making it more accessible for workers relocating to the city. However, this also indicates a less competitive market for sellers.
 
 **Office Economy**
-Seattle-Tacoma-Bellevue has a deep professional talent pool, with an office economy score ranking at the 72nd percentile. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors. However, it may not be the best fit for companies in industrial or logistics-dominant sectors.
+Seattle-Tacoma-Bellevue has a deep professional talent pool, ranking in the 72nd percentile for its share of office and professional workers. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, but less ideal for those in industrial or logistics-dominant economies.
 
-The Seattle-Tacoma-Bellevue metro area offers businesses a strong economy with growing wages and an expanding housing supply, but it also comes with challenges such as a shrinking labor force and high cost of living. The single biggest risk or constraint for decision-makers is the city's relatively expensive cost of living, which could make it harder to attract and retain talent without offering significant wage premiums.
+The Seattle-Tacoma-Bellevue metro area offers businesses a unique combination of strong wage growth and expanding housing supply, making it an attractive location for talent. However, the single biggest risk or constraint for decision-makers is the city's relatively expensive cost of living and shrinking labor force, which could impact hiring capacity and labor costs.
