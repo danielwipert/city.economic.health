@@ -4,30 +4,30 @@
 
 ---
 
-The San Antonio-New Braunfels metro area has an overall grade of C, ranking 34th out of 50 US metros, with a composite score reflecting a mix of weak labor demand and affordable cost of living. The city's economic character is most defined by its low labor demand composite score of 3.65, which combines a modest employment growth rate of +0.61% with a significant deviation of -2.35% in weekly hours from its own trend. This suggests a lack of genuine demand expansion in the labor market.
+The San Antonio-New Braunfels metro area has an overall grade of C, ranking 34th out of 50 US metros, with a composite score defined largely by its low labor demand and high cost of living affordability. The labor demand composite score of 3.65, combining a +0.61% employment growth rate and a -2.35% weekly hours deviation from trend, signals a weak labor market. The cost of living, with a PSF of $172/sqft and a ratio of 5.29 to hourly earnings of $32.51, ranks in the top tier for affordability, at the 94th percentile.
 
 **Labor Demand**
-The employment growth rate of +0.61% is modest, while the weekly hours deviation of -2.35% indicates that hours are running below trend, signaling a contraction in labor demand rather than genuine expansion. This combination suggests that the labor market is not experiencing strong growth, and businesses may not face intense competition for workers. The labor demand composite score of 3.65, ranking in the 12th percentile, further reinforces this assessment.
+The employment growth rate of +0.61% and weekly hours deviation of -2.35% from trend indicate a labor market that is not experiencing genuine demand expansion, but rather a slight increase in jobs without corresponding increases in hours worked. This combination suggests that while there are some new jobs being added, the existing workforce is not seeing significant increases in their workloads. The labor demand composite score of 3.65 is in the bottom tier, at the 12th percentile.
 
 **Unemployment**
-The unemployment rate of 4.80% is relatively high, ranking in the 12th percentile, indicating that the labor market has some slack. This means that businesses may find it easier to hire workers, but may also face weaker local consumer demand. With a relatively high unemployment rate, businesses may have a larger pool of potential employees to draw from.
+The unemployment rate of 4.80% indicates a labor market with some slack, rather than being extremely tight. This means that businesses trying to hire in this market may have an easier time finding candidates, but may also face weaker local consumer demand. The unemployment rate ranks in the bottom tier, at the 12th percentile.
 
 **Wage Growth**
-The year-over-year wage growth rate of +1.33% is below average, ranking in the 20th percentile, indicating moderate wage pressure. This suggests that labor costs for employers are not rising rapidly, but worker purchasing power is also not increasing significantly. As a result, businesses may not face strong upward pressure on wages, but may also not see significant increases in consumer spending.
+The year-over-year wage growth rate of +1.33% is below average, indicating moderate wage growth. This means that employer labor costs are not rising rapidly, but worker purchasing power is also not increasing significantly. The wage growth rate ranks below average, at the 20th percentile.
 
 **Cost of Living**
-The city has a cost of living ratio of $172/sqft to $32.51/hr, with a PSF that is falling by -4.4% year-over-year, resulting in a top-tier percentile rank of 94th. This indicates that the city is highly affordable relative to its peers, making it an attractive location for talent without requiring significant wage premiums. The falling PSF is a key driver of this affordability, making it easier for businesses to attract and retain workers.
+The city's cost of living, with a PSF of $172/sqft and a ratio of 5.29 to hourly earnings of $32.51, is highly affordable, ranking in the top tier at the 94th percentile. This means that the city has a talent attraction advantage, as workers can afford to live here without requiring significant wage premiums. The PSF is also falling by -4.4% year-over-year, making the city even more affordable.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of +0.23% year-over-year, ranking near the median at 54th percentile, indicating a slowly expanding workforce supply. This moderate growth rate suggests that the labor pool is not shrinking, but is also not expanding rapidly, which may limit the city's ability to support rapid business growth.
+The civilian labor force is growing at a rate of +0.23% year-over-year, indicating a slowly expanding workforce supply. This means that the hiring capacity in the city is increasing, but only slightly. The labor force growth rate ranks near the median, at the 54th percentile.
 
 **Building Permits**
-The number of residential building permits is increasing by +5.83% year-over-year, ranking near the median at 58th percentile, indicating a moderate expansion of housing supply. This suggests that developer confidence is present, and future housing supply is likely to increase, which could improve affordability and support workforce growth.
+The year-over-year change in building permits is +5.83%, indicating an expansion in housing supply. This suggests that developer confidence is increasing, and future affordability and workforce accommodation may improve. The building permits growth rate ranks near the median, at the 58th percentile.
 
 **Days on Market**
-The median days on market is 65 days, with a year-over-year change of +0.0%, ranking in the 26th percentile, indicating a relatively fast-paced market. This suggests that homes are selling quickly, which may make it challenging for relocating workers to find housing, potentially affecting a business's ability to attract talent.
+The current median days on market is 65 days, with a year-over-year change of +0.0%. This indicates a relatively slow market, where homes are sitting for a moderate amount of time before being sold. For a worker relocating to this city, the market is relatively accessible, but not extremely competitive.
 
 **Office Economy**
-The city has an above-average share of professional and office workers, ranking in the 60th percentile, indicating a deep talent pool suited for tech, finance, consulting, and HQ decisions. However, the city may be less suited for industrial or logistics-dominant businesses, which may require a different type of workforce.
+The share of professional and office workers is 2.98, ranking above average at the 60th percentile. This indicates a deep talent pool suited for tech, finance, consulting, and HQ decisions. The city is well-suited for businesses that require specialized knowledge-economy roles, but may not be as suitable for industrial or logistics-dominant businesses.
 
-The San Antonio-New Braunfels metro area offers businesses an affordable cost of living and a moderate labor market, but the single biggest risk or constraint is the weak labor demand, which may limit the city's ability to support rapid business growth. Despite this, the city's affordable cost of living and expanding housing supply make it an attractive location for businesses looking to establish or expand operations.
+The San Antonio-New Braunfels metro area offers businesses a highly affordable cost of living and a slowly expanding workforce supply, but also presents a risk of weak labor demand and moderate wage growth. The single biggest constraint for a decision-maker to factor in is the city's low labor demand, which may limit the growth potential of businesses that require a highly skilled and dynamic workforce.
