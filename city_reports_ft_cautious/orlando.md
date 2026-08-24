@@ -1,33 +1,33 @@
 # Orlando-Kissimmee-Sanford
 
-**Grade: A- (Good) | 60.7th percentile | August 2026**
+**Grade: A- (Good) | 60.5th percentile | August 2026**
 
 ---
 
-The Orlando-Kissimmee-Sanford metro area has earned an overall grade of A- with a composite score ranking in the 60.7th percentile among 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the top tier at the 82nd percentile, and its high share of office and professional workers, ranking in the top tier at the 92nd percentile. Specifically, the city's employment growth rate of +1.39% and weekly hours deviation of +0.025% signal a genuine demand expansion.
+The Orlando-Kissimmee-Sanford metro area has earned an overall grade of A- with a composite score ranking in the 60.5th percentile among 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the 74th percentile, and its top-tier wage growth, at 5.78% year-over-year. These metrics signal a city with a growing economy and increasing labor costs.
 
 **Labor Demand**
-The employment growth rate of +1.39% and weekly hours deviation of +0.025% indicate a strong labor market with genuine demand expansion. This combination signals that the city is adding jobs and workers are putting in more hours than the 12-month trend, suggesting a healthy and growing economy. The labor demand composite score of 6.27 further reinforces this assessment, ranking in the top tier at the 82nd percentile.
+The Orlando-Kissimmee-Sanford metro area has seen employment growth of 1.11% year-over-year, combined with a 0.294% deviation in weekly hours above its own 12-month trend. This combination signals genuine demand expansion, as hours are running above trend during a period of job growth. This indicates that the city is experiencing a real increase in labor demand, rather than just a shift in hours worked.
 
 **Unemployment**
-The unemployment rate of 4.60% is below average, ranking in the 22nd percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer competitive wages to attract talent. The tight market also implies that workers may have more bargaining power, potentially driving up labor costs.
+The unemployment rate in Orlando-Kissimmee-Sanford is 4.60%, ranking in the 22nd percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer higher wages to attract talent. As a result, companies may experience upward pressure on labor costs.
 
 **Wage Growth**
-The year-over-year wage growth rate of +5.04% is above average, ranking in the 66th percentile, indicating a moderate to fast pace of wage increases. This suggests that employer labor costs are rising, but workers are also experiencing an increase in purchasing power. The relatively strong wage growth may attract workers to the area, but it also poses a challenge for businesses looking to manage labor costs.
+Wage growth in the Orlando-Kissimmee-Sanford metro area is 5.78% year-over-year, ranking in the 82nd percentile, indicating fast and rising labor costs for employers. This strong wage growth is good for worker purchasing power, as employees have more disposable income to spend on goods and services. However, it also means that businesses will need to budget for increasing labor costs.
 
 **Cost of Living**
-With a cost of living ratio of $223/sqft to $33.41/hr, and a year-over-year decrease of -3.0% in PSF, the city ranks in the top tier at the 82nd percentile for affordability. This means that the city is relatively affordable compared to its peers, making it an attractive location for talent without requiring significant wage premiums. The decreasing PSF relative to wages is a key driver of this affordability, making it an advantageous location for businesses looking to attract workers.
+Orlando-Kissimmee-Sanford has a cost of living score in the 78th percentile, with a price-to-salary ratio of $223/sqft to $33.52/hr, or 6.65, and a year-over-year decrease in PSF of 3.0%. This makes the city relatively affordable compared to its peers, which is a talent attraction advantage, as workers can maintain a high standard of living without requiring large wage premiums.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of +1.74% year-over-year, ranking in the top tier at the 84th percentile, indicating an expanding workforce supply. This suggests that the city has a growing pool of potential workers, making it easier for businesses to hire and expand their operations. The increasing labor force supply is a positive sign for businesses looking to grow in the area.
+The civilian labor force in Orlando-Kissimmee-Sanford is growing at a rate of 1.74% year-over-year, ranking in the 84th percentile, indicating an expanding workforce supply. This means that businesses have a growing pool of potential employees to draw from, making it easier to hire and staff new positions.
 
 **Building Permits**
-The year-over-year change in building permits is -17.79%, ranking below average at the 20th percentile, indicating a tightening housing supply. This suggests that the city may face challenges in accommodating a growing workforce, potentially leading to increased housing costs and decreased affordability. The decline in building permits is a concern for businesses looking to attract and retain workers in the area.
+The number of residential building permits in Orlando-Kissimmee-Sanford has decreased by 17.79% year-over-year, ranking in the 20th percentile, indicating a tightening housing supply. This signals that future affordability and workforce accommodation may be at risk, as the supply of new housing is not keeping pace with demand.
 
 **Days on Market**
-The current median days on market is 74 days, with a year-over-year decrease of -1.3%, ranking near the median at the 58th percentile. This suggests that the housing market is relatively balanced, neither extremely competitive nor extremely slow. For workers relocating to the city, this means that they may face a moderately competitive housing market, but still have a reasonable chance of finding a home.
+The median days on market for homes in Orlando-Kissimmee-Sanford is 74 days, with a year-over-year decrease of 1.3%, ranking in the 58th percentile. This means that the market is relatively competitive, but still accessible for workers relocating to the city, as homes are selling at a moderate pace.
 
 **Office Economy**
-With an office and professional worker share of 4.08, ranking in the top tier at the 92nd percentile, the city has a deep talent pool suited for tech, finance, consulting, and HQ decisions. This makes the city an attractive location for businesses in these sectors, but less suited for industries with more industrial or logistics-oriented workforces. The strong office economy is a significant advantage for businesses looking to tap into a skilled and knowledgeable workforce.
+The office economy in Orlando-Kissimmee-Sanford is deep, with a professional and office worker share ranking in the 90th percentile. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, which require a highly skilled and specialized workforce.
 
-The Orlando-Kissimmee-Sanford metro area offers businesses a strong labor market, a growing workforce supply, and a relatively affordable cost of living, making it an attractive location for companies looking to expand or relocate. However, the single biggest risk or constraint for decision-makers is the tightening housing supply, which may lead to increased housing costs and decreased affordability, potentially impacting the city's ability to attract and retain workers.
+In conclusion, the Orlando-Kissimmee-Sanford metro area offers businesses a growing economy with strong labor demand and a deep professional talent pool. However, the single biggest risk or constraint for decision-makers is the tightening housing supply, which may impact future affordability and workforce accommodation, and could require businesses to offer higher wages or other incentives to attract and retain talent.

@@ -1,33 +1,33 @@
 # Virginia Beach-Chesapeake-Norfolk
 
-**Grade: C+ (Poor) | 41.7th percentile | August 2026**
+**Grade: C+ (Poor) | 43.3th percentile | August 2026**
 
 ---
 
-The Virginia Beach-Chesapeake-Norfolk metro area has an overall grade of C+ with a composite score ranking it 41.7th percentile out of 50 US metros. The city's economic character is most defined by its weak labor demand, with a labor demand composite score of 3.01 ranking in the bottom tier at the 8th percentile, and its strong wage growth, with a year-over-year increase of 5.91% in hourly earnings. These two metrics signal a complex economic environment with both challenges and opportunities.
+The Virginia Beach-Chesapeake-Norfolk metro area has an overall grade of C+ with a composite score ranking it at the 43.3th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score in the bottom tier, and its high wage growth, with a year-over-year change of +5.54% ranking it in the top tier. The combination of these metrics suggests a complex economic environment with both challenges and opportunities.
 
 **Labor Demand**
-The employment growth rate in Virginia Beach-Chesapeake-Norfolk is -0.55% year-over-year, and weekly hours are deviating from the trend by +0.523%. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. The labor demand composite score of 3.01 confirms this, ranking in the bottom tier at the 8th percentile.
+The employment growth rate in this metro area is -0.68% year-over-year, and weekly hours are deviating from the trend by +0.075%. This combination signals a contraction in labor demand, rather than genuine demand expansion or survivor squeeze, indicating that the job market is not growing. The labor demand composite score of 3.27 is in the bottom tier, confirming this assessment.
 
 **Unemployment**
-The unemployment rate in Virginia Beach-Chesapeake-Norfolk is 4.00%, which is near the median at the 50th percentile. This indicates a relatively balanced labor market with neither significant tightness nor slack. For a business trying to hire in this city, the moderate unemployment rate suggests that finding talent may not be overly challenging, but it also may not be particularly easy.
+The unemployment rate in this metro area is 4.00%, which is near the median. This suggests that the labor market has some slack, rather than being extremely tight. For a business trying to hire in this area, this means that there may be a slightly easier time finding candidates, but it also implies that local consumer demand may be weaker.
 
 **Wage Growth**
-The year-over-year wage growth in Virginia Beach-Chesapeake-Norfolk is 5.91%, which is above average at the 78th percentile. This rapid wage growth signals rising labor costs for employers, but it also indicates strong worker purchasing power. Businesses operating in this city should be prepared for increasing labor expenses, but they can also expect a workforce with robust consumer demand.
+The year-over-year wage growth in this metro area is +5.54%, which is relatively fast. This suggests that labor costs for employers may be rising, but it also means that workers have stronger purchasing power. As a result, businesses may need to consider higher wage costs when operating in this area.
 
 **Cost of Living**
-Virginia Beach-Chesapeake-Norfolk has a cost of living score ranking it at the 37th percentile, indicating that it is below average in terms of affordability. With a PSF of $224/sqft and average hourly earnings of $35.28/hr, the ratio is 6.35. This suggests that the city may not offer a significant talent attraction advantage without wage premiums, as the cost of living is relatively high compared to peers.
+The cost of living in this metro area is near the median, with a percentile rank of 41. The PSF-to-earnings ratio is $224/sqft vs $35.13/hr, resulting in a ratio of 6.38. This means that the city is neither extremely affordable nor extremely expensive relative to peers. For talent attraction, this means that businesses may not have a significant advantage or disadvantage in terms of cost of living.
 
 **Labor Force Growth**
-The civilian labor force in Virginia Beach-Chesapeake-Norfolk is contracting at a rate of -1.05% year-over-year, ranking below average at the 22nd percentile. This decline in labor force supply signals a structural headwind for hiring, as the pool of available workers is shrinking. Businesses may face challenges in finding and recruiting talent in this environment.
+The civilian labor force in this metro area is growing at a rate of -1.05% year-over-year. This means that the labor force supply is contracting, rather than expanding. As a result, businesses may face structural headwinds when trying to hire in this area, as the shrinking labor pool may limit their ability to find qualified candidates.
 
 **Building Permits**
-The number of residential building permits in Virginia Beach-Chesapeake-Norfolk has increased by 106.92% year-over-year, ranking in the top tier at the 96th percentile. This surge in building permits indicates that housing supply is expanding, which should improve affordability and accommodate workforce growth in the future. This is a positive signal for businesses considering relocation or expansion in the area.
+The number of building permits in this metro area has increased by +106.92% year-over-year. This suggests that housing supply is expanding, which may improve affordability and accommodation for the workforce in the future. This is a positive signal for businesses considering locating in this area, as it may help to attract and retain talent.
 
 **Days on Market**
-The median days on market for homes in Virginia Beach-Chesapeake-Norfolk is 39 days, with no year-over-year change. This relatively fast market, ranking below average at the 26th percentile, suggests that relocating workers may face a competitive environment when searching for housing. However, the stable days on market indicates a balanced market without significant signs of overheating or cooling.
+The current median days on market is 39 days, with a year-over-year change of +0.0%. This means that the housing market is relatively stable, but still relatively fast. For workers relocating to this city, this may mean that they will face a competitive housing market, which could be a challenge.
 
 **Office Economy**
-The share of professional and office workers in Virginia Beach-Chesapeake-Norfolk is relatively low, ranking in the bottom tier at the 18th percentile. This indicates a less deep talent pool for businesses requiring specialized office or professional skills, making the city less suited for tech, finance, or consulting headquarters. However, it may be more accommodating to industries with different workforce requirements.
+The professional and office worker share in this metro area is below average, with a percentile rank of 26. This suggests that the talent pool is not as deep as in other cities, and may not be as well-suited for businesses that require a high concentration of tech, finance, or consulting talent. However, it may be more suitable for businesses with industrial or logistics-oriented operations.
 
-The Virginia Beach-Chesapeake-Norfolk metro area offers a complex economic environment with strong wage growth but weak labor demand and a shrinking labor force. The single biggest risk or constraint for businesses considering this location is the challenging labor market conditions, which may require strategic hiring and retention strategies to overcome. Despite these challenges, the city's expanding housing supply and relatively balanced labor market suggest opportunities for businesses that can adapt to the local economic character.
+The Virginia Beach-Chesapeake-Norfolk metro area offers a complex economic environment with both challenges and opportunities for businesses. While it has high wage growth and an expanding housing supply, it also has low labor demand and a contracting labor force. The single biggest risk or constraint for decision-makers to factor in is the limited labor force growth, which may limit the ability of businesses to find and hire qualified candidates.

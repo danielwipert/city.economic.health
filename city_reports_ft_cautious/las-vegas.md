@@ -1,33 +1,33 @@
 # Las Vegas-Henderson-North Las Vegas
 
-**Grade: B+ (Above Average) | 57.6th percentile | August 2026**
+**Grade: B (Average) | 54.8th percentile | August 2026**
 
 ---
 
-The Las Vegas-Henderson-North Las Vegas metro area has earned an overall grade of B+ with a composite score ranking at the 57.6th percentile among 50 US metros. This city's economic character is most defined by its top-tier labor demand, with a composite score of 8.57, and its strong office economy, ranking at the 86th percentile. The labor demand is driven by a 2.93% year-over-year employment growth rate and a 0.171% deviation in weekly hours above its own trend.
+The Las Vegas-Henderson-North Las Vegas metro area has an overall grade of B, ranking 54.8th percentile out of 50 US metros, with a composite score driven largely by its strong labor demand and deep professional talent pool. The city's labor demand composite score of 7.02, which combines a 1.42% employment growth rate and a 0.733% weekly hours deviation above trend, signals genuine demand expansion. This, along with its top-tier office economy, defines the city's current economic character.
 
 **Labor Demand**
-The combination of a 2.93% employment growth rate and a 0.171% increase in weekly hours signals genuine demand expansion in the Las Vegas-Henderson-North Las Vegas metro area. This indicates that jobs are being added and hours are running above trend, suggesting a healthy and growing labor market. The top-tier labor demand composite score of 8.57 further reinforces this assessment.
+The employment growth rate of 1.42% and weekly hours deviation of 0.733% above trend indicate a strong labor market with genuine demand expansion. This combination signals that the city is adding jobs and workers are putting in more hours than usual, suggesting a healthy and growing economy. The labor demand composite score of 7.02 reinforces this assessment, placing the city in the top tier.
 
 **Unemployment**
-The unemployment rate in Las Vegas-Henderson-North Las Vegas stands at 5.20%, ranking at the 36th percentile, indicating a market with some slack. This means that while it may not be extremely difficult to hire, there is still a notable pool of potential employees available. For a business trying to hire in this market, the relatively higher unemployment rate compared to other metros could mean less wage pressure.
+The unemployment rate of 5.20% is below average, ranking 36th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer competitive wages to attract talent. The tight market also suggests that workers may have more bargaining power.
 
 **Wage Growth**
-The year-over-year wage growth in Las Vegas-Henderson-North Las Vegas is 4.53%, ranking near the median at the 58th percentile. This moderate wage growth suggests that labor costs for employers are increasing, but not at an alarming rate, and worker purchasing power is also on the rise. This balance could be attractive for businesses looking to manage labor expenses while still offering competitive compensation.
+The year-over-year wage growth rate of 3.95% is near the median, ranking 54th percentile, indicating moderate wage growth. This rate suggests that labor costs for employers are rising, but not excessively, and workers are seeing some improvement in their purchasing power. The moderate wage growth may help attract and retain workers without breaking the bank for employers.
 
 **Cost of Living**
-With a cost of living ratio of $262/sqft to $33.03/hr, and a year-over-year decrease of 2.2% in PSF, Las Vegas-Henderson-North Las Vegas ranks at the 61st percentile in terms of affordability. This means the city is relatively more affordable compared to its peers, which could be a significant talent attraction advantage without needing to offer substantial wage premiums.
+The cost of living in Las Vegas, with a PSF of $262/sqft and average hourly earnings of $32.65/hr, resulting in a ratio of 8.02, is near the median, ranking 51st percentile. This means that the city is relatively affordable compared to its peers, which can be a talent attraction advantage without requiring significant wage premiums. The -2.2% year-over-year decrease in PSF also contributes to the city's affordability.
 
 **Labor Force Growth**
-The civilian labor force in Las Vegas-Henderson-North Las Vegas has grown by 0.22% year-over-year, ranking near the median at the 50th percentile. This slow but positive growth indicates that the workforce supply is expanding, albeit at a modest pace. For businesses, this means that while hiring capacity is not significantly constrained by labor force growth, it also does not offer a rapidly expanding pool of potential employees.
+The civilian labor force is growing at a rate of 0.22% year-over-year, which is near the median, ranking 50th percentile. This slow growth rate indicates that the workforce supply is expanding, but only slightly, which may pose some challenges for hiring in the long term. However, the slow growth also suggests that the labor market is not overheating.
 
 **Building Permits**
-The year-over-year change in residential building permits has decreased by 38.98%, ranking at the bottom tier. This sharp decline signals that housing supply is tightening, which could lead to future affordability issues and challenges in accommodating a growing workforce. This trend is a significant concern for businesses considering relocation or expansion in the area.
+The year-over-year change in building permits is -38.98%, ranking at the bottom tier, indicating a significant tightening of housing supply. This sharp decline in permits suggests that future affordability and workforce accommodation may be at risk, as the supply of new housing is not keeping pace with demand. This could lead to increased housing costs and reduced attractiveness for workers.
 
 **Days on Market**
-Homes in Las Vegas-Henderson-North Las Vegas currently sit on the market for a median of 57 days, with a year-over-year increase of 5.6%. This suggests a slightly slower market, which could be more accessible for relocating workers. However, the near-median percentile rank of 56th indicates that the market is not excessively slow or fast, offering a relatively balanced environment for both buyers and sellers.
+The current median days on market is 57 days, with a year-over-year increase of 5.6%, ranking near the median at 56th percentile. This indicates a relatively balanced market, neither extremely competitive nor extremely accessible, for workers relocating to the city. The rising days on market suggests a healthy normalization of the housing market.
 
 **Office Economy**
-With an office and professional worker share ranking at the 86th percentile, Las Vegas-Henderson-North Las Vegas has a deep talent pool suited for tech, finance, consulting, and HQ decisions. This makes the city an attractive location for businesses in these sectors but less ideal for those in industrial or logistics-dominant economies.
+The office economy in Las Vegas is deep, with a professional worker share of 3.86, ranking in the top tier at 86th percentile. This suggests that the city has a strong talent pool suited for tech, finance, consulting, and HQ decisions. However, the city may be less suited for industries that require a large workforce in industrial or logistics roles.
 
-In conclusion, Las Vegas-Henderson-North Las Vegas offers a strong labor demand and a deep professional talent pool, making it an attractive location for certain types of businesses. However, the single biggest risk or constraint for decision-makers is the sharp decline in building permits, which signals potential future affordability issues and challenges in accommodating workforce growth. This could offset some of the city's advantages and should be carefully considered in any relocation or expansion decision.
+The Las Vegas-Henderson-North Las Vegas metro area offers businesses a strong labor market with genuine demand expansion and a deep professional talent pool, making it an attractive location for certain industries. However, the single biggest risk or constraint for decision-makers is the significant decline in building permits, which may lead to future affordability and workforce accommodation challenges, potentially offsetting the city's other advantages.
