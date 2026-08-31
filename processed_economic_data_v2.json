@@ -1,11 +1,11 @@
 {
-  "processing_timestamp": "2026-08-24T09:49:31.694102",
-  "processing_date": "2026-08-24 09:49:31",
+  "processing_timestamp": "2026-08-31T16:46:09.707059",
+  "processing_date": "2026-08-31 16:46:09",
   "version": 2,
   "metrics_count": 9,
   "metrics_scored": 9,
   "metrics_collected_only": 0,
-  "source_data": "2026-08-24 09:49:31",
+  "source_data": "2026-08-31 16:46:09",
   "msa_averages": {
     "unemployment_rate": {
       "msa_average": 4.3,
@@ -28,7 +28,7 @@
       "metros_with_data": 50
     },
     "building_permits": {
-      "msa_average": 1466.1286,
+      "msa_average": 1448.5755,
       "metros_with_data": 50
     },
     "price_per_sqft": {
@@ -153,21 +153,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 5399.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 4939.0,
+          "latest_date": "2026-07-01",
           "series_id": "NEWY636BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 4425.0,
-          "12month_average": 4700.083333333333,
+          "3month_average": 4976.0,
+          "12month_average": 4781.25,
           "yoy_change": {
-            "current": 5399.0,
-            "change": 1836.0,
-            "pct_change": 51.53
+            "current": 4939.0,
+            "change": 974.0,
+            "pct_change": 24.56
           },
           "3month_avg_yoy": {
-            "current_3mo": 4425.0,
-            "change": 815.6667,
-            "pct_change": 22.6
+            "current_3mo": 4976.0,
+            "change": 1246.6667,
+            "pct_change": 33.43
           }
         },
         "price_per_sqft": {
@@ -346,21 +346,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 2385.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 2776.0,
+          "latest_date": "2026-07-01",
           "series_id": "LOSA106BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 2371.6666666666665,
-          "12month_average": 2801.1666666666665,
+          "3month_average": 2579.3333333333335,
+          "12month_average": 2891.3333333333335,
           "yoy_change": {
-            "current": 2385.0,
-            "change": -95.0,
-            "pct_change": -3.83
+            "current": 2776.0,
+            "change": 1082.0,
+            "pct_change": 63.87
           },
           "3month_avg_yoy": {
-            "current_3mo": 2371.6667,
-            "change": -59.0,
-            "pct_change": -2.43
+            "current_3mo": 2579.3333,
+            "change": 387.6667,
+            "pct_change": 17.69
           }
         },
         "price_per_sqft": {
@@ -539,21 +539,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1162.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1192.0,
+          "latest_date": "2026-07-01",
           "series_id": "CHIC917BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1246.0,
-          "12month_average": 1288.3333333333333,
+          "3month_average": 1103.3333333333333,
+          "12month_average": 1233.4166666666667,
           "yoy_change": {
-            "current": 1162.0,
-            "change": -765.0,
-            "pct_change": -39.7
+            "current": 1192.0,
+            "change": -659.0,
+            "pct_change": -35.6
           },
           "3month_avg_yoy": {
-            "current_3mo": 1246.0,
-            "change": -498.3333,
-            "pct_change": -28.57
+            "current_3mo": 1103.3333,
+            "change": -810.6667,
+            "pct_change": -42.35
           }
         },
         "price_per_sqft": {
@@ -732,21 +732,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 5703.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 5102.0,
+          "latest_date": "2026-07-01",
           "series_id": "DALL148BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 5468.0,
-          "12month_average": 5164.416666666667,
+          "3month_average": 5339.333333333333,
+          "12month_average": 5106.25,
           "yoy_change": {
-            "current": 5703.0,
-            "change": -1802.0,
-            "pct_change": -24.01
+            "current": 5102.0,
+            "change": -698.0,
+            "pct_change": -12.03
           },
           "3month_avg_yoy": {
-            "current_3mo": 5468.0,
-            "change": -1570.3333,
-            "pct_change": -22.31
+            "current_3mo": 5339.3333,
+            "change": -829.3333,
+            "pct_change": -13.44
           }
         },
         "price_per_sqft": {
@@ -925,21 +925,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 4773.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 5773.0,
+          "latest_date": "2026-07-01",
           "series_id": "HOUS448BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 4973.333333333333,
-          "12month_average": 4934.333333333333,
+          "3month_average": 5221.333333333333,
+          "12month_average": 4934.5,
           "yoy_change": {
-            "current": 4773.0,
-            "change": -417.0,
-            "pct_change": -8.03
+            "current": 5773.0,
+            "change": 2.0,
+            "pct_change": 0.03
           },
           "3month_avg_yoy": {
-            "current_3mo": 4973.3333,
-            "change": -854.3333,
-            "pct_change": -14.66
+            "current_3mo": 5221.3333,
+            "change": -369.3333,
+            "pct_change": -6.61
           }
         },
         "price_per_sqft": {
@@ -1118,21 +1118,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1559.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 2732.0,
+          "latest_date": "2026-07-01",
           "series_id": "MIAM112BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1680.0,
-          "12month_average": 1595.4166666666667,
+          "3month_average": 1912.3333333333333,
+          "12month_average": 1581.0833333333333,
           "yoy_change": {
-            "current": 1559.0,
-            "change": -3172.0,
-            "pct_change": -67.05
+            "current": 2732.0,
+            "change": -172.0,
+            "pct_change": -5.92
           },
           "3month_avg_yoy": {
-            "current_3mo": 1680.0,
-            "change": -736.0,
-            "pct_change": -30.46
+            "current_3mo": 1912.3333,
+            "change": -1086.3333,
+            "pct_change": -36.23
           }
         },
         "price_per_sqft": {
@@ -1311,21 +1311,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 2998.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1844.0,
+          "latest_date": "2026-07-01",
           "series_id": "WASH911BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 2374.3333333333335,
-          "12month_average": 1799.0,
+          "3month_average": 2278.6666666666665,
+          "12month_average": 1814.9166666666667,
           "yoy_change": {
-            "current": 2998.0,
-            "change": 1321.0,
-            "pct_change": 78.77
+            "current": 1844.0,
+            "change": 191.0,
+            "pct_change": 11.55
           },
           "3month_avg_yoy": {
-            "current_3mo": 2374.3333,
-            "change": 824.0,
-            "pct_change": 53.15
+            "current_3mo": 2278.6667,
+            "change": 655.3333,
+            "pct_change": 40.37
           }
         },
         "price_per_sqft": {
@@ -1504,21 +1504,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 2834.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 2870.0,
+          "latest_date": "2026-07-01",
           "series_id": "ATLA013BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 3254.3333333333335,
-          "12month_average": 2793.1666666666665,
+          "3month_average": 2839.3333333333335,
+          "12month_average": 2792.5833333333335,
           "yoy_change": {
-            "current": 2834.0,
-            "change": 592.0,
-            "pct_change": 26.4
+            "current": 2870.0,
+            "change": -7.0,
+            "pct_change": -0.24
           },
           "3month_avg_yoy": {
-            "current_3mo": 3254.3333,
-            "change": 428.3333,
-            "pct_change": 15.16
+            "current_3mo": 2839.3333,
+            "change": 195.0,
+            "pct_change": 7.37
           }
         },
         "price_per_sqft": {
@@ -1697,21 +1697,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1184.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1055.0,
+          "latest_date": "2026-07-01",
           "series_id": "PHIL942BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1244.3333333333333,
-          "12month_average": 1169.6666666666667,
+          "3month_average": 1085.3333333333333,
+          "12month_average": 1179.5,
           "yoy_change": {
-            "current": 1184.0,
-            "change": -92.0,
-            "pct_change": -7.21
+            "current": 1055.0,
+            "change": 118.0,
+            "pct_change": 12.59
           },
           "3month_avg_yoy": {
-            "current_3mo": 1244.3333,
-            "change": 154.6667,
-            "pct_change": 14.19
+            "current_3mo": 1085.3333,
+            "change": 22.3333,
+            "pct_change": 2.1
           }
         },
         "price_per_sqft": {
@@ -1890,21 +1890,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 3923.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 2401.0,
+          "latest_date": "2026-07-01",
           "series_id": "PHOE004BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 2899.0,
-          "12month_average": 3034.5,
+          "3month_average": 2859.6666666666665,
+          "12month_average": 2929.9166666666665,
           "yoy_change": {
-            "current": 3923.0,
-            "change": 488.0,
-            "pct_change": 14.21
+            "current": 2401.0,
+            "change": -1255.0,
+            "pct_change": -34.33
           },
           "3month_avg_yoy": {
-            "current_3mo": 2899.0,
-            "change": -710.0,
-            "pct_change": -19.67
+            "current_3mo": 2859.6667,
+            "change": -660.3333,
+            "pct_change": -18.76
           }
         },
         "price_per_sqft": {
@@ -2087,21 +2087,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1835.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1313.0,
+          "latest_date": "2026-07-01",
           "series_id": "BOST625BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1353.6666666666667,
-          "12month_average": 871.5,
+          "3month_average": 1496.6666666666667,
+          "12month_average": 904.1666666666666,
           "yoy_change": {
-            "current": 1835.0,
-            "change": 1279.0,
-            "pct_change": 230.04
+            "current": 1313.0,
+            "change": 392.0,
+            "pct_change": 42.56
           },
           "3month_avg_yoy": {
-            "current_3mo": 1353.6667,
-            "change": 545.3333,
-            "pct_change": 67.46
+            "current_3mo": 1496.6667,
+            "change": 697.3333,
+            "pct_change": 87.24
           }
         },
         "price_per_sqft": {
@@ -2280,21 +2280,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1456.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 903.0,
+          "latest_date": "2026-07-01",
           "series_id": "RIVE106BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1262.3333333333333,
-          "12month_average": 1153.5833333333333,
+          "3month_average": 1140.3333333333333,
+          "12month_average": 1144.9166666666667,
           "yoy_change": {
-            "current": 1456.0,
-            "change": -163.0,
-            "pct_change": -10.07
+            "current": 903.0,
+            "change": -104.0,
+            "pct_change": -10.33
           },
           "3month_avg_yoy": {
-            "current_3mo": 1262.3333,
-            "change": -134.0,
-            "pct_change": -9.6
+            "current_3mo": 1140.3333,
+            "change": -175.0,
+            "pct_change": -13.3
           }
         },
         "price_per_sqft": {
@@ -2473,21 +2473,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 966.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1041.0,
+          "latest_date": "2026-07-01",
           "series_id": "SANF806BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 818.0,
-          "12month_average": 619.1666666666666,
+          "3month_average": 884.0,
+          "12month_average": 681.0,
           "yoy_change": {
-            "current": 966.0,
-            "change": 265.0,
-            "pct_change": 37.8
+            "current": 1041.0,
+            "change": 742.0,
+            "pct_change": 248.16
           },
           "3month_avg_yoy": {
-            "current_3mo": 818.0,
-            "change": 135.6667,
-            "pct_change": 19.88
+            "current_3mo": 884.0,
+            "change": 215.0,
+            "pct_change": 32.14
           }
         },
         "price_per_sqft": {
@@ -2666,21 +2666,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 877.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 655.0,
+          "latest_date": "2026-07-01",
           "series_id": "DETR826BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 729.0,
-          "12month_average": 715.75,
+          "3month_average": 753.3333333333334,
+          "12month_average": 693.5,
           "yoy_change": {
-            "current": 877.0,
-            "change": -236.0,
-            "pct_change": -21.2
+            "current": 655.0,
+            "change": -267.0,
+            "pct_change": -28.96
           },
           "3month_avg_yoy": {
-            "current_3mo": 729.0,
-            "change": -90.0,
-            "pct_change": -10.99
+            "current_3mo": 753.3333,
+            "change": -173.3333,
+            "pct_change": -18.71
           }
         },
         "price_per_sqft": {
@@ -2859,21 +2859,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1947.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1702.0,
+          "latest_date": "2026-07-01",
           "series_id": "SEAT653BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 2137.0,
-          "12month_average": 1668.1666666666667,
+          "3month_average": 1970.6666666666667,
+          "12month_average": 1726.0,
           "yoy_change": {
-            "current": 1947.0,
-            "change": 755.0,
-            "pct_change": 63.34
+            "current": 1702.0,
+            "change": 694.0,
+            "pct_change": 68.85
           },
           "3month_avg_yoy": {
-            "current_3mo": 2137.0,
-            "change": 1018.3333,
-            "pct_change": 91.03
+            "current_3mo": 1970.6667,
+            "change": 954.6667,
+            "pct_change": 93.96
           }
         },
         "price_per_sqft": {
@@ -3052,21 +3052,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1524.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1776.0,
+          "latest_date": "2026-07-01",
           "series_id": "MINN427BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1415.0,
-          "12month_average": 1185.1666666666667,
+          "3month_average": 1505.6666666666667,
+          "12month_average": 1229.75,
           "yoy_change": {
-            "current": 1524.0,
-            "change": 645.0,
-            "pct_change": 73.38
+            "current": 1776.0,
+            "change": 535.0,
+            "pct_change": 43.11
           },
           "3month_avg_yoy": {
-            "current_3mo": 1415.0,
-            "change": 118.6667,
-            "pct_change": 9.15
+            "current_3mo": 1505.6667,
+            "change": 364.3333,
+            "pct_change": 31.92
           }
         },
         "price_per_sqft": {
@@ -3245,21 +3245,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1842.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 2473.0,
+          "latest_date": "2026-07-01",
           "series_id": "TAMP312BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1982.0,
-          "12month_average": 1805.5,
+          "3month_average": 2273.3333333333335,
+          "12month_average": 1866.0,
           "yoy_change": {
-            "current": 1842.0,
-            "change": -594.0,
-            "pct_change": -24.38
+            "current": 2473.0,
+            "change": 726.0,
+            "pct_change": 41.56
           },
           "3month_avg_yoy": {
-            "current_3mo": 1982.0,
-            "change": -219.0,
-            "pct_change": -9.95
+            "current_3mo": 2273.3333,
+            "change": 70.3333,
+            "pct_change": 3.19
           }
         },
         "price_per_sqft": {
@@ -3438,21 +3438,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 930.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 560.0,
+          "latest_date": "2026-07-01",
           "series_id": "SAND706BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 974.0,
-          "12month_average": 915.75,
+          "3month_average": 821.3333333333334,
+          "12month_average": 867.8333333333334,
           "yoy_change": {
-            "current": 930.0,
-            "change": -884.0,
-            "pct_change": -48.73
+            "current": 560.0,
+            "change": -575.0,
+            "pct_change": -50.66
           },
           "3month_avg_yoy": {
-            "current_3mo": 974.0,
-            "change": -295.6667,
-            "pct_change": -23.29
+            "current_3mo": 821.3333,
+            "change": -484.3333,
+            "pct_change": -37.09
           }
         },
         "price_per_sqft": {
@@ -3631,21 +3631,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 905.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1490.0,
+          "latest_date": "2026-07-01",
           "series_id": "DENV708BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1412.3333333333333,
-          "12month_average": 1292.1666666666667,
+          "3month_average": 1179.3333333333333,
+          "12month_average": 1337.9166666666667,
           "yoy_change": {
-            "current": 905.0,
-            "change": -603.0,
-            "pct_change": -39.99
+            "current": 1490.0,
+            "change": 549.0,
+            "pct_change": 58.34
           },
           "3month_avg_yoy": {
-            "current_3mo": 1412.3333,
-            "change": -232.0,
-            "pct_change": -14.11
+            "current_3mo": 1179.3333,
+            "change": -257.0,
+            "pct_change": -17.89
           }
         },
         "price_per_sqft": {
@@ -3824,21 +3824,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1857.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 2008.0,
+          "latest_date": "2026-07-01",
           "series_id": "ORLA712BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1876.3333333333333,
-          "12month_average": 1770.0,
+          "3month_average": 1903.6666666666667,
+          "12month_average": 1763.8333333333333,
           "yoy_change": {
-            "current": 1857.0,
-            "change": -739.0,
-            "pct_change": -28.47
+            "current": 2008.0,
+            "change": -74.0,
+            "pct_change": -3.55
           },
           "3month_avg_yoy": {
-            "current_3mo": 1876.3333,
-            "change": -406.0,
-            "pct_change": -17.79
+            "current_3mo": 1903.6667,
+            "change": -253.0,
+            "pct_change": -11.73
           }
         },
         "price_per_sqft": {
@@ -4017,21 +4017,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1320.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1289.0,
+          "latest_date": "2026-07-01",
           "series_id": "CHAR737BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1792.3333333333333,
-          "12month_average": 1655.5,
+          "3month_average": 1424.0,
+          "12month_average": 1623.75,
           "yoy_change": {
-            "current": 1320.0,
-            "change": -1036.0,
-            "pct_change": -43.97
+            "current": 1289.0,
+            "change": -381.0,
+            "pct_change": -22.81
           },
           "3month_avg_yoy": {
-            "current_3mo": 1792.3333,
-            "change": -96.3333,
-            "pct_change": -5.1
+            "current_3mo": 1424.0,
+            "change": -441.6667,
+            "pct_change": -23.67
           }
         },
         "price_per_sqft": {
@@ -4210,21 +4210,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 407.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 406.0,
+          "latest_date": "2026-07-01",
           "series_id": "BALT524BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 554.3333333333334,
-          "12month_average": 461.1666666666667,
+          "3month_average": 424.3333333333333,
+          "12month_average": 462.5833333333333,
           "yoy_change": {
-            "current": 407.0,
-            "change": 20.0,
-            "pct_change": 5.17
+            "current": 406.0,
+            "change": 17.0,
+            "pct_change": 4.37
           },
           "3month_avg_yoy": {
-            "current_3mo": 554.3333,
-            "change": -16.0,
-            "pct_change": -2.81
+            "current_3mo": 424.3333,
+            "change": -49.0,
+            "pct_change": -10.35
           }
         },
         "price_per_sqft": {
@@ -4403,21 +4403,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 723.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 532.0,
+          "latest_date": "2026-07-01",
           "series_id": "STLBPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 619.3333333333334,
-          "12month_average": 542.5833333333334,
+          "3month_average": 596.6666666666666,
+          "12month_average": 545.3333333333334,
           "yoy_change": {
-            "current": 723.0,
-            "change": 185.0,
-            "pct_change": 34.39
+            "current": 532.0,
+            "change": 33.0,
+            "pct_change": 6.61
           },
           "3month_avg_yoy": {
-            "current_3mo": 619.3333,
-            "change": 86.3333,
-            "pct_change": 16.2
+            "current_3mo": 596.6667,
+            "change": 94.6667,
+            "pct_change": 18.86
           }
         },
         "price_per_sqft": {
@@ -4596,21 +4596,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1168.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1113.0,
+          "latest_date": "2026-07-01",
           "series_id": "SANA748BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1046.0,
-          "12month_average": 823.5833333333334,
+          "3month_average": 1098.0,
+          "12month_average": 831.75,
           "yoy_change": {
-            "current": 1168.0,
-            "change": 383.0,
-            "pct_change": 48.79
+            "current": 1113.0,
+            "change": 98.0,
+            "pct_change": 9.66
           },
           "3month_avg_yoy": {
-            "current_3mo": 1046.0,
-            "change": 57.6667,
-            "pct_change": 5.83
+            "current_3mo": 1098.0,
+            "change": 177.0,
+            "pct_change": 19.22
           }
         },
         "price_per_sqft": {
@@ -4789,21 +4789,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1539.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 2605.0,
+          "latest_date": "2026-07-01",
           "series_id": "AUST448BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1533.0,
-          "12month_average": 1947.3333333333333,
+          "3month_average": 1897.6666666666667,
+          "12month_average": 1921.3333333333333,
           "yoy_change": {
-            "current": 1539.0,
-            "change": -254.0,
-            "pct_change": -14.17
+            "current": 2605.0,
+            "change": -312.0,
+            "pct_change": -10.7
           },
           "3month_avg_yoy": {
-            "current_3mo": 1533.0,
-            "change": -931.6667,
-            "pct_change": -37.8
+            "current_3mo": 1897.6667,
+            "change": -776.6667,
+            "pct_change": -29.04
           }
         },
         "price_per_sqft": {
@@ -4982,21 +4982,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1141.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 821.0,
+          "latest_date": "2026-07-01",
           "series_id": "PORT941BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 896.3333333333334,
-          "12month_average": 738.25,
+          "3month_average": 922.3333333333334,
+          "12month_average": 756.75,
           "yoy_change": {
-            "current": 1141.0,
-            "change": 351.0,
-            "pct_change": 44.43
+            "current": 821.0,
+            "change": 222.0,
+            "pct_change": 37.06
           },
           "3month_avg_yoy": {
-            "current_3mo": 896.3333,
-            "change": 21.6667,
-            "pct_change": 2.48
+            "current_3mo": 922.3333,
+            "change": 103.3333,
+            "pct_change": 12.62
           }
         },
         "price_per_sqft": {
@@ -5175,21 +5175,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1138.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 714.0,
+          "latest_date": "2026-07-01",
           "series_id": "SACR906BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1206.6666666666667,
-          "12month_average": 873.25,
+          "3month_average": 982.0,
+          "12month_average": 869.8333333333334,
           "yoy_change": {
-            "current": 1138.0,
-            "change": 437.0,
-            "pct_change": 62.34
+            "current": 714.0,
+            "change": -41.0,
+            "pct_change": -5.43
           },
           "3month_avg_yoy": {
-            "current_3mo": 1206.6667,
-            "change": 168.0,
-            "pct_change": 16.17
+            "current_3mo": 982.0,
+            "change": 176.6667,
+            "pct_change": 21.94
           }
         },
         "price_per_sqft": {
@@ -5368,21 +5368,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 595.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 594.0,
+          "latest_date": "2026-07-01",
           "series_id": "PITT342BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 533.6666666666666,
-          "12month_average": 446.0,
+          "3month_average": 573.0,
+          "12month_average": 459.5,
           "yoy_change": {
-            "current": 595.0,
-            "change": 128.0,
-            "pct_change": 27.41
+            "current": 594.0,
+            "change": 162.0,
+            "pct_change": 37.5
           },
           "3month_avg_yoy": {
-            "current_3mo": 533.6667,
-            "change": 62.0,
-            "pct_change": 13.14
+            "current_3mo": 573.0,
+            "change": 117.6667,
+            "pct_change": 25.84
           }
         },
         "price_per_sqft": {
@@ -5561,21 +5561,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1101.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 740.0,
+          "latest_date": "2026-07-01",
           "series_id": "LASV832BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 769.0,
-          "12month_average": 925.9166666666666,
+          "3month_average": 815.6666666666666,
+          "12month_average": 917.0,
           "yoy_change": {
-            "current": 1101.0,
-            "change": 542.0,
-            "pct_change": 96.96
+            "current": 740.0,
+            "change": -107.0,
+            "pct_change": -12.63
           },
           "3month_avg_yoy": {
-            "current_3mo": 769.0,
-            "change": -491.3333,
-            "pct_change": -38.98
+            "current_3mo": 815.6667,
+            "change": -89.0,
+            "pct_change": -9.84
           }
         },
         "price_per_sqft": {
@@ -5754,21 +5754,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 491.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 547.0,
+          "latest_date": "2026-07-01",
           "series_id": "CINC139BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 898.0,
-          "12month_average": 720.25,
+          "3month_average": 688.6666666666666,
+          "12month_average": 724.0,
           "yoy_change": {
-            "current": 491.0,
-            "change": -79.0,
-            "pct_change": -13.86
+            "current": 547.0,
+            "change": 45.0,
+            "pct_change": 8.96
           },
           "3month_avg_yoy": {
-            "current_3mo": 898.0,
-            "change": 290.6667,
-            "pct_change": 47.86
+            "current_3mo": 688.6667,
+            "change": 136.6667,
+            "pct_change": 24.76
           }
         },
         "price_per_sqft": {
@@ -5947,21 +5947,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 880.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 855.0,
+          "latest_date": "2026-07-01",
           "series_id": "KANS129BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 969.3333333333334,
-          "12month_average": 831.5833333333334,
+          "3month_average": 925.6666666666666,
+          "12month_average": 844.4166666666666,
           "yoy_change": {
-            "current": 880.0,
-            "change": -735.0,
-            "pct_change": -45.51
+            "current": 855.0,
+            "change": 154.0,
+            "pct_change": 21.97
           },
           "3month_avg_yoy": {
-            "current_3mo": 969.3333,
-            "change": -12.3333,
-            "pct_change": -1.26
+            "current_3mo": 925.6667,
+            "change": -54.6667,
+            "pct_change": -5.58
           }
         },
         "price_per_sqft": {
@@ -6140,21 +6140,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 886.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1696.0,
+          "latest_date": "2026-07-01",
           "series_id": "COLU139BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1258.0,
-          "12month_average": 1075.0833333333333,
+          "3month_average": 1133.6666666666667,
+          "12month_average": 1095.4166666666667,
           "yoy_change": {
-            "current": 886.0,
-            "change": -808.0,
-            "pct_change": -47.7
+            "current": 1696.0,
+            "change": 244.0,
+            "pct_change": 16.8
           },
           "3month_avg_yoy": {
-            "current_3mo": 1258.0,
-            "change": -431.3333,
-            "pct_change": -25.53
+            "current_3mo": 1133.6667,
+            "change": -679.0,
+            "pct_change": -37.46
           }
         },
         "price_per_sqft": {
@@ -6333,21 +6333,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1062.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1176.0,
+          "latest_date": "2026-07-01",
           "series_id": "INDI918BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1200.6666666666667,
-          "12month_average": 1062.5,
+          "3month_average": 1157.6666666666667,
+          "12month_average": 1069.25,
           "yoy_change": {
-            "current": 1062.0,
-            "change": -195.0,
-            "pct_change": -15.51
+            "current": 1176.0,
+            "change": 81.0,
+            "pct_change": 7.4
           },
           "3month_avg_yoy": {
-            "current_3mo": 1200.6667,
-            "change": -2.6667,
-            "pct_change": -0.22
+            "current_3mo": 1157.6667,
+            "change": -37.6667,
+            "pct_change": -3.15
           }
         },
         "price_per_sqft": {
@@ -6530,21 +6530,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 2075.0531,
-          "latest_date": "2026-06-01",
+          "latest_value": 2984.2527,
+          "latest_date": "2026-07-01",
           "series_id": "OHBPPRIVSA",
           "metric_name": "Building Permits",
-          "3month_average": 2899.09562844207,
-          "12month_average": 2646.5101383123542,
+          "3month_average": 2467.1200820975932,
+          "12month_average": 2678.6444649567015,
           "yoy_change": {
-            "current": 2075.0531,
-            "change": -652.8621,
-            "pct_change": -23.93
+            "current": 2984.2527,
+            "change": 358.7363,
+            "pct_change": 13.66
           },
           "3month_avg_yoy": {
-            "current_3mo": 2899.0956,
-            "change": 16.2278,
-            "pct_change": 0.56
+            "current_3mo": 2467.1201,
+            "change": -491.552,
+            "pct_change": -16.61
           }
         },
         "price_per_sqft": {
@@ -6723,21 +6723,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1452.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1472.0,
+          "latest_date": "2026-07-01",
           "series_id": "NASH947BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1556.3333333333333,
-          "12month_average": 1459.1666666666667,
+          "3month_average": 1400.0,
+          "12month_average": 1406.9166666666667,
           "yoy_change": {
-            "current": 1452.0,
-            "change": -420.0,
-            "pct_change": -22.44
+            "current": 1472.0,
+            "change": -627.0,
+            "pct_change": -29.87
           },
           "3month_avg_yoy": {
-            "current_3mo": 1556.3333,
-            "change": -83.6667,
-            "pct_change": -5.1
+            "current_3mo": 1400.0,
+            "change": -392.3333,
+            "pct_change": -21.89
           }
         },
         "price_per_sqft": {
@@ -6916,21 +6916,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 476.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 299.0,
+          "latest_date": "2026-07-01",
           "series_id": "SANJ906BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 747.0,
-          "12month_average": 674.75,
+          "3month_average": 773.6666666666666,
+          "12month_average": 647.75,
           "yoy_change": {
-            "current": 476.0,
-            "change": 231.0,
-            "pct_change": 94.29
+            "current": 299.0,
+            "change": -324.0,
+            "pct_change": -52.01
           },
           "3month_avg_yoy": {
-            "current_3mo": 747.0,
-            "change": 426.0,
-            "pct_change": 132.71
+            "current_3mo": 773.6667,
+            "change": 422.3333,
+            "pct_change": 120.21
           }
         },
         "price_per_sqft": {
@@ -7109,21 +7109,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 284.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 388.0,
+          "latest_date": "2026-07-01",
           "series_id": "VIRG251BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 627.6666666666666,
-          "12month_average": 448.25,
+          "3month_average": 654.3333333333334,
+          "12month_average": 436.5833333333333,
           "yoy_change": {
-            "current": 284.0,
-            "change": -9.0,
-            "pct_change": -3.07
+            "current": 388.0,
+            "change": -140.0,
+            "pct_change": -26.52
           },
           "3month_avg_yoy": {
-            "current_3mo": 627.6667,
-            "change": 324.3333,
-            "pct_change": 106.92
+            "current_3mo": 654.3333,
+            "change": 285.0,
+            "pct_change": 77.17
           }
         },
         "price_per_sqft": {
@@ -7302,21 +7302,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1541.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 844.0,
+          "latest_date": "2026-07-01",
           "series_id": "JACK212BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1280.6666666666667,
-          "12month_average": 1036.9166666666667,
+          "3month_average": 1084.6666666666667,
+          "12month_average": 994.1666666666666,
           "yoy_change": {
-            "current": 1541.0,
-            "change": 465.0,
-            "pct_change": 43.22
+            "current": 844.0,
+            "change": -513.0,
+            "pct_change": -37.8
           },
           "3month_avg_yoy": {
-            "current_3mo": 1280.6667,
-            "change": 167.3333,
-            "pct_change": 15.03
+            "current_3mo": 1084.6667,
+            "change": -124.3333,
+            "pct_change": -10.28
           }
         },
         "price_per_sqft": {
@@ -7499,21 +7499,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 146.8504,
-          "latest_date": "2026-06-01",
+          "latest_value": 193.4476,
+          "latest_date": "2026-07-01",
           "series_id": "RIBPPRIVSA",
           "metric_name": "Building Permits",
-          "3month_average": 127.50190637838134,
-          "12month_average": 170.91829179579102,
+          "3month_average": 149.90809941405766,
+          "12month_average": 176.36878190792643,
           "yoy_change": {
-            "current": 146.8504,
-            "change": -7.4079,
-            "pct_change": -4.8
+            "current": 193.4476,
+            "change": 60.5786,
+            "pct_change": 45.59
           },
           "3month_avg_yoy": {
-            "current_3mo": 127.5019,
-            "change": -11.2906,
-            "pct_change": -8.13
+            "current_3mo": 149.9081,
+            "change": 8.4163,
+            "pct_change": 5.95
           }
         },
         "price_per_sqft": {
@@ -7692,21 +7692,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 444.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 228.0,
+          "latest_date": "2026-07-01",
           "series_id": "MILW355BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 320.6666666666667,
-          "12month_average": 277.75,
+          "3month_average": 316.6666666666667,
+          "12month_average": 260.5,
           "yoy_change": {
-            "current": 444.0,
-            "change": 195.0,
-            "pct_change": 78.31
+            "current": 228.0,
+            "change": -207.0,
+            "pct_change": -47.59
           },
           "3month_avg_yoy": {
-            "current_3mo": 320.6667,
-            "change": 29.0,
-            "pct_change": 9.94
+            "current_3mo": 316.6667,
+            "change": -36.6667,
+            "pct_change": -10.38
           }
         },
         "price_per_sqft": {
@@ -7885,21 +7885,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1970.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1538.0,
+          "latest_date": "2026-07-01",
           "series_id": "RALE537BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 1989.3333333333333,
-          "12month_average": 1584.8333333333333,
+          "3month_average": 1696.6666666666667,
+          "12month_average": 1558.5833333333333,
           "yoy_change": {
-            "current": 1970.0,
-            "change": 622.0,
-            "pct_change": 46.14
+            "current": 1538.0,
+            "change": -315.0,
+            "pct_change": -17.0
           },
           "3month_avg_yoy": {
-            "current_3mo": 1989.3333,
-            "change": 473.6667,
-            "pct_change": 31.25
+            "current_3mo": 1696.6667,
+            "change": 67.6667,
+            "pct_change": 4.15
           }
         },
         "price_per_sqft": {
@@ -8078,21 +8078,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 648.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 711.0,
+          "latest_date": "2026-07-01",
           "series_id": "OKLA440BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 688.0,
-          "12month_average": 667.5833333333334,
+          "3month_average": 708.6666666666666,
+          "12month_average": 677.4166666666666,
           "yoy_change": {
-            "current": 648.0,
-            "change": -14.0,
-            "pct_change": -2.11
+            "current": 711.0,
+            "change": 118.0,
+            "pct_change": 19.9
           },
           "3month_avg_yoy": {
-            "current_3mo": 688.0,
-            "change": -45.0,
-            "pct_change": -6.14
+            "current_3mo": 708.6667,
+            "change": 107.0,
+            "pct_change": 17.78
           }
         },
         "price_per_sqft": {
@@ -8271,21 +8271,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 447.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 505.0,
+          "latest_date": "2026-07-01",
           "series_id": "LOIBPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 480.3333333333333,
-          "12month_average": 472.3333333333333,
+          "3month_average": 444.6666666666667,
+          "12month_average": 463.5,
           "yoy_change": {
-            "current": 447.0,
-            "change": -168.0,
-            "pct_change": -27.32
+            "current": 505.0,
+            "change": -106.0,
+            "pct_change": -17.35
           },
           "3month_avg_yoy": {
-            "current_3mo": 480.3333,
-            "change": -182.6667,
-            "pct_change": -27.55
+            "current_3mo": 444.6667,
+            "change": -206.0,
+            "pct_change": -31.66
           }
         },
         "price_per_sqft": {
@@ -8464,21 +8464,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 527.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 705.0,
+          "latest_date": "2026-07-01",
           "series_id": "RICH051BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 816.0,
-          "12month_average": 707.75,
+          "3month_average": 733.6666666666666,
+          "12month_average": 727.75,
           "yoy_change": {
-            "current": 527.0,
-            "change": -92.0,
-            "pct_change": -14.86
+            "current": 705.0,
+            "change": 240.0,
+            "pct_change": 51.61
           },
           "3month_avg_yoy": {
-            "current_3mo": 816.0,
-            "change": 62.0,
-            "pct_change": 8.22
+            "current_3mo": 733.6667,
+            "change": 68.6667,
+            "pct_change": 10.33
           }
         },
         "price_per_sqft": {
@@ -8657,21 +8657,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 274.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 367.0,
+          "latest_date": "2026-07-01",
           "series_id": "MPHBPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 287.0,
-          "12month_average": 299.5,
+          "3month_average": 308.6666666666667,
+          "12month_average": 306.9166666666667,
           "yoy_change": {
-            "current": 274.0,
-            "change": -43.0,
-            "pct_change": -13.56
+            "current": 367.0,
+            "change": 89.0,
+            "pct_change": 32.01
           },
           "3month_avg_yoy": {
-            "current_3mo": 287.0,
-            "change": -4.3333,
-            "pct_change": -1.49
+            "current_3mo": 308.6667,
+            "change": 17.3333,
+            "pct_change": 5.95
           }
         },
         "price_per_sqft": {
@@ -8850,21 +8850,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 292.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 1167.0,
+          "latest_date": "2026-07-01",
           "series_id": "SALT649BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 280.6666666666667,
-          "12month_average": 588.75,
+          "3month_average": 572.0,
+          "12month_average": 635.75,
           "yoy_change": {
-            "current": 292.0,
-            "change": -96.0,
-            "pct_change": -24.74
+            "current": 1167.0,
+            "change": 564.0,
+            "pct_change": 93.53
           },
           "3month_avg_yoy": {
-            "current_3mo": 280.6667,
-            "change": -78.6667,
-            "pct_change": -21.89
+            "current_3mo": 572.0,
+            "change": 163.6667,
+            "pct_change": 40.08
           }
         },
         "price_per_sqft": {
@@ -9043,21 +9043,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 605.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 358.0,
+          "latest_date": "2026-07-01",
           "series_id": "BIRM801BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 432.6666666666667,
-          "12month_average": 393.4166666666667,
+          "3month_average": 429.6666666666667,
+          "12month_average": 396.8333333333333,
           "yoy_change": {
-            "current": 605.0,
-            "change": 308.0,
-            "pct_change": 103.7
+            "current": 358.0,
+            "change": 41.0,
+            "pct_change": 12.93
           },
           "3month_avg_yoy": {
-            "current_3mo": 432.6667,
-            "change": 103.0,
-            "pct_change": 31.24
+            "current_3mo": 429.6667,
+            "change": 121.6667,
+            "pct_change": 39.5
           }
         },
         "price_per_sqft": {
@@ -9426,21 +9426,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 281.0,
-          "latest_date": "2026-06-01",
+          "latest_value": 275.0,
+          "latest_date": "2026-07-01",
           "series_id": "GRAN326BPPRIV",
           "metric_name": "Building Permits",
-          "3month_average": 281.6666666666667,
-          "12month_average": 339.75,
+          "3month_average": 283.6666666666667,
+          "12month_average": 333.5833333333333,
           "yoy_change": {
-            "current": 281.0,
-            "change": 13.0,
-            "pct_change": 4.85
+            "current": 275.0,
+            "change": -74.0,
+            "pct_change": -21.2
           },
           "3month_avg_yoy": {
-            "current_3mo": 281.6667,
-            "change": -50.6667,
-            "pct_change": -15.25
+            "current_3mo": 283.6667,
+            "change": -11.0,
+            "pct_change": -3.73
           }
         },
         "price_per_sqft": {
@@ -9623,21 +9623,21 @@
           }
         },
         "building_permits": {
-          "latest_value": 1062.5275,
-          "latest_date": "2026-06-01",
+          "latest_value": 430.077,
+          "latest_date": "2026-07-01",
           "series_id": "CTBPPRIVSA",
           "metric_name": "Building Permits",
-          "3month_average": 670.7037901199831,
-          "12month_average": 576.6547063496404,
+          "3month_average": 657.0432276246767,
+          "12month_average": 530.516119823114,
           "yoy_change": {
-            "current": 1062.5275,
-            "change": 627.0838,
-            "pct_change": 144.01
+            "current": 430.077,
+            "change": -603.8665,
+            "pct_change": -58.4
           },
           "3month_avg_yoy": {
-            "current_3mo": 670.7038,
-            "change": 102.5345,
-            "pct_change": 18.05
+            "current_3mo": 657.0432,
+            "change": -53.7073,
+            "pct_change": -7.56
           }
         },
         "price_per_sqft": {
