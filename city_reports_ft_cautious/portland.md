@@ -1,33 +1,33 @@
 # Portland-Vancouver-Hillsboro
 
-**Grade: C (Very Poor) | 36.5th percentile | August 2026**
+**Grade: C+ (Poor) | 39.4th percentile | September 2026**
 
 ---
 
-The Portland-Vancouver-Hillsboro metro area has an overall grade of C, ranking 36.5th percentile out of 50 US metros, with a composite score largely defined by its weak labor demand and limited office economy. The labor demand composite score of 2.28, combining a -1.44% employment growth rate and a -0.393% weekly hours deviation from trend, suggests a contraction in job opportunities. Additionally, the office/professional worker share is at the bottom tier, ranking 8th percentile.
+The Portland-Vancouver-Hillsboro metro area has an overall grade of C+ with a composite score ranking it 39.4th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score in the bottom tier, and its above-average wage growth, at 5.27% year-over-year. The combination of a -1.44% employment growth rate and a -0.393% weekly hours deviation signals a contraction in labor demand.
 
 **Labor Demand**
-The employment growth rate in Portland-Vancouver-Hillsboro is -1.44% year-over-year, and weekly hours are deviating -0.393% from the city's own 12-month baseline, indicating a contraction in labor demand. This combination signals a lack of genuine demand expansion, with hours below trend during a period of job losses, suggesting a survivor squeeze where remaining workers are absorbing the load of eliminated roles. This scenario points to a challenging environment for businesses looking to expand or hire.
+The employment growth rate in Portland-Vancouver-Hillsboro is -1.44% year-over-year, and weekly hours are deviating -0.393% from the city's own 12-month baseline. This combination signals a contraction in labor demand, indicating that the city is experiencing a decline in job creation and hours worked. This suggests that businesses may face less competition for labor, but also indicates a slower economy.
 
 **Unemployment**
-The unemployment rate in Portland-Vancouver-Hillsboro is 5.00%, ranking at the 24th percentile, which indicates a market with some slack but not excessively loose. For a business trying to hire, this means there is a pool of available workers, but the market is not so tight that it would drive up wages significantly due to intense competition for labor.
+The unemployment rate in Portland-Vancouver-Hillsboro is 4.90%, ranking it in the 38th percentile, which indicates a below-average but not extremely tight labor market. This means that while there is some slack in the market, businesses may still face challenges in finding the right talent, and wage pressure may be moderate. However, the market is not as competitive as in cities with lower unemployment rates.
 
 **Wage Growth**
-The year-over-year wage growth in Portland-Vancouver-Hillsboro is +5.27%, placing it at the 74th percentile, which is above average. This rate of wage growth suggests that labor costs for employers are rising, but it also means that workers have increasing purchasing power, which can be beneficial for local consumer demand.
+The year-over-year wage growth in Portland-Vancouver-Hillsboro is 5.27%, which is above average and ranks in the 74th percentile. This indicates that wages are rising faster than in most other cities, which may lead to higher labor costs for employers but also increases worker purchasing power. As a result, businesses may need to budget for higher wage expenses, but workers will have more disposable income to spend.
 
 **Cost of Living**
-Portland-Vancouver-Hillsboro has a cost of living score that ranks at the 65th percentile, with a PSF of $306/sqft and average hourly earnings of $42.18/hr, resulting in a ratio of 7.25. The PSF is falling by -2.2% year-over-year, which is a key driver of its above-average affordability score. This makes the city more attractive for talent without needing significant wage premiums to offset high living costs.
+Portland-Vancouver-Hillsboro has a cost of living score that ranks in the 63rd percentile, with a PSF of $304/sqft and average hourly earnings of $42.18/hr, resulting in a ratio of 7.21. This indicates that the city is relatively affordable compared to its peers, which can be a talent attraction advantage without requiring wage premiums. The fact that PSF is falling -2.2% year-over-year also contributes to the city's affordability.
 
 **Labor Force Growth**
-The civilian labor force in Portland-Vancouver-Hillsboro is growing at a rate of -0.81% year-over-year, indicating a contraction in the labor force supply. This implies a structural headwind for hiring, as the pool of potential workers is shrinking, making it more challenging for businesses to find and recruit talent.
+The civilian labor force in Portland-Vancouver-Hillsboro is growing at a rate of -0.58% year-over-year, which indicates a slight contraction in the labor pool. This means that the supply of workers is shrinking, which can create a structural headwind for hiring and may lead to increased competition for talent. Businesses may need to adapt their recruitment strategies to attract workers from other areas.
 
 **Building Permits**
-The number of residential building permits in Portland-Vancouver-Hillsboro has increased by +12.62% year-over-year, signaling an expansion in future housing supply. This growth in building permits suggests that developer confidence is strong, and the city is likely to see improvements in affordability and an easier time accommodating a growing workforce.
+The number of residential building permits in Portland-Vancouver-Hillsboro is increasing by 12.62% year-over-year, which signals that housing supply is expanding. This is a positive indicator for future affordability and workforce accommodation, as it suggests that the city is investing in new housing stock to support growing demand. As a result, businesses may find it easier to attract and retain workers in the long term.
 
 **Days on Market**
-Homes in Portland-Vancouver-Hillsboro are currently sitting on the market for a median of 57 days, with a year-over-year increase of +3.6%. This indicates a market that is normalizing, becoming slightly less competitive for buyers. For a worker relocating to this city, the housing market is becoming more accessible, with less pressure to act quickly on a purchase.
+The median days on market for homes in Portland-Vancouver-Hillsboro is 61 days, with a year-over-year increase of 1.7%. This indicates a relatively slow market, which can make it more accessible for workers relocating to the city. However, the market is not extremely slow, and workers may still face some competition when searching for housing.
 
 **Office Economy**
-The share of jobs in professional and office sectors in Portland-Vancouver-Hillsboro ranks at the 8th percentile, indicating a relatively shallow talent pool in these areas. This makes the city less suited for businesses in tech, finance, consulting, or those looking to establish a headquarters, but it may be more appropriate for industries with different labor requirements.
+The share of jobs in professional and office sectors in Portland-Vancouver-Hillsboro ranks in the 8th percentile, indicating a relatively shallow talent pool. This suggests that the city is best suited for businesses that do not require a deep knowledge-economy talent pool, such as industrial or logistics-dominant companies. However, it may not be the ideal location for tech, finance, or consulting firms that rely on specialized office workers.
 
-The Portland-Vancouver-Hillsboro metro area offers a mix of above-average wage growth and improving affordability, which could attract talent and support local consumer demand. However, the single biggest risk or constraint for a business considering this location is the weak labor demand and contracting labor force, which could significantly hinder hiring and expansion plans.
+The Portland-Vancouver-Hillsboro metro area offers businesses a relatively affordable cost of living and above-average wage growth, which can be attractive for workers. However, the city's low labor demand and shrinking labor pool pose significant risks for businesses looking to hire and expand in the area, and decision-makers should carefully consider these constraints when evaluating this location. Overall, the city's economic character is complex, and businesses must weigh the pros and cons before making a location decision.

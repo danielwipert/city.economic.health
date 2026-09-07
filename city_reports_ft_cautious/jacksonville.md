@@ -1,33 +1,33 @@
 # Jacksonville
 
-**Grade: C (Very Poor) | 33.4th percentile | August 2026**
+**Grade: C- (Critical) | 28.5th percentile | September 2026**
 
 ---
 
-Jacksonville has an overall grade of C, ranking 33.4th percentile out of 50 US metros, with a labor demand composite score of 4.01, which is in the bottom tier at the 18th percentile. The city's economic character is most defined by its low labor demand and stagnant wage growth, with employment growth at +0.36% year-over-year and weekly hours deviating -0.794% from its own trend. These metrics signal a lack of genuine demand expansion in the labor market.
+Jacksonville has an overall grade of C- with a composite score ranking it 28.5th percentile out of 50 US metros. The city's economic character is most defined by its low labor demand, with a composite score of 4.01 ranking in the bottom tier at 18th percentile, and its high unemployment rate of 4.90%, which ranks in the bottom tier at 4th percentile. These metrics signal a challenging environment for businesses looking to expand or relocate.
 
 **Labor Demand**
-The employment growth rate of +0.36% year-over-year, combined with weekly hours deviating -0.794% from its own trend, signals a contraction in labor demand. This indicates that the city is not experiencing genuine demand expansion, but rather a potential survivor squeeze where remaining workers are absorbing the load of eliminated roles. The low labor demand composite score of 4.01 further reinforces this notion.
+Jacksonville's employment growth rate is +0.36% year-over-year, while weekly hours are -0.794% below trend, indicating a contraction in labor demand. This combination signals a lack of genuine demand expansion, with the city's labor market experiencing a slowdown. The low labor demand composite score of 4.01 reinforces this signal, suggesting that businesses may face challenges in finding skilled workers.
 
 **Unemployment**
-The unemployment rate in Jacksonville is 4.80%, which is in the bottom tier at the 18th percentile, indicating a relatively high level of unemployment. This suggests that the market has some slack, making it easier for businesses to hire, but also potentially weakening local consumer demand. As a result, businesses may find it relatively easier to staff their operations, but may also face weaker demand for their products or services.
+The unemployment rate in Jacksonville is 4.90%, ranking in the bottom tier at 4th percentile, indicating a relatively tight labor market with limited slack. This tight market implies that businesses trying to hire in Jacksonville may face challenges in finding qualified candidates, and may need to offer competitive wages to attract top talent.
 
 **Wage Growth**
-The year-over-year wage growth rate in Jacksonville is +0.39%, which is in the bottom tier at the 6th percentile, indicating stagnant wage growth. This slow wage growth means that labor costs for employers are not rising rapidly, but it also implies weak bargaining power for workers and potentially limited purchasing power. As a result, businesses may not face significant pressure to increase wages, but workers may not have the disposable income to drive local economic growth.
+Wage growth in Jacksonville is +0.39% year-over-year, ranking in the bottom tier at 6th percentile, indicating stagnant wage growth. This slow wage growth environment means that employer labor costs are not rising rapidly, but worker purchasing power is also not increasing significantly. As a result, businesses may not face significant pressure to increase wages, but may also not see a boost in consumer demand.
 
 **Cost of Living**
-Jacksonville has a cost of living percentile rank of 76th, with a PSF of $216/sqft and average hourly earnings of $36.85/hr, resulting in a ratio of 5.86. This indicates that the city is relatively affordable compared to its peers. The fact that PSF is falling by -3.1% year-over-year further reinforces the city's affordability. This makes Jacksonville an attractive location for talent, as businesses may not need to offer significant wage premiums to compensate for a high cost of living.
+Jacksonville has a cost of living score ranking it 69th percentile, with a PSF of $214/sqft and average hourly earnings of $36.85/hr, resulting in a ratio of 5.81. This indicates that the city is relatively affordable compared to its peers. The fact that PSF is falling -2.3% year-over-year further supports this assessment, making Jacksonville an attractive location for talent without requiring significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in Jacksonville is growing at a rate of +0.78% year-over-year, which is above average at the 68th percentile. This indicates that the labor force supply is expanding, providing businesses with a growing pool of potential workers to hire from. As a result, businesses may find it easier to attract and retain talent in the city.
+The civilian labor force in Jacksonville is shrinking at a rate of -0.29% year-over-year, ranking near the median at 50th percentile. This contraction in labor force supply implies that businesses may face structural headwinds in hiring, as the pool of available workers is decreasing.
 
 **Building Permits**
-The number of building permits in Jacksonville is decreasing by -10.28% year-over-year, which is below average at the 34th percentile. This suggests that housing supply is tightening, which may lead to decreased affordability and increased competition for workforce accommodation in the future. As a result, businesses may need to consider the potential impact of a tightening housing market on their ability to attract and retain workers.
+Building permits in Jacksonville are declining at a rate of -10.28% year-over-year, ranking below average at 34th percentile. This decrease in permits suggests that housing supply is tightening, which may lead to future affordability challenges and constraints on workforce accommodation.
 
 **Days on Market**
-The median days on market in Jacksonville is 63 days, with a year-over-year decrease of -12.5%, resulting in an above-average percentile rank of 70th. This indicates that the housing market is relatively fast-paced, making it potentially competitive for workers relocating to the city. However, the decreasing days on market also suggests that the market is still relatively accessible, with homes selling relatively quickly.
+The median days on market in Jacksonville is 65 days, with a year-over-year decrease of -12.2%, ranking above average at 78th percentile. This indicates a slower market, where homes are taking longer to sell, making it more accessible for relocating workers to find housing.
 
 **Office Economy**
-Jacksonville has an office economy percentile rank of 56th, with a share of professional and office workers at 2.74 out of 5. This indicates that the city has a relatively deep talent pool in professional and office sectors, making it suited for businesses in tech, finance, consulting, and HQ decisions. However, the city may be less suited for businesses in industrial or logistics-dominant sectors.
+Jacksonville's office economy has a professional worker share ranking it near the median at 56th percentile, indicating a moderately deep talent pool. This makes the city suitable for businesses that require a mix of office and non-office skills, but may not be the best fit for businesses that require a highly specialized or knowledge-intensive workforce.
 
-In conclusion, Jacksonville offers businesses a relatively affordable cost of living and an expanding labor force, but also presents challenges such as low labor demand and stagnant wage growth. The single biggest risk or constraint for businesses considering locating in Jacksonville is the potential for a tightening housing market, which may lead to decreased affordability and increased competition for workforce accommodation.
+In conclusion, Jacksonville offers businesses a relatively affordable cost of living and a slow wage growth environment, but its low labor demand and tightening housing supply pose significant challenges. The single biggest risk or constraint for decision-makers is the city's limited labor market slack and shrinking labor force supply, which may hinder hiring capacity and business expansion plans.

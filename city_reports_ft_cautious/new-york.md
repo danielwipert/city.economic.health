@@ -1,33 +1,33 @@
 # New York Newark-Jersey City
 
-**Grade: B- (Below Average) | 49.1th percentile | August 2026**
+**Grade: B (Average) | 52.9th percentile | September 2026**
 
 ---
 
-The New York Newark-Jersey City metro area has an overall grade of B- with a composite score ranking it at the 49.1th percentile out of 50 US metros. This city's economic character is most defined by its above-average labor demand, with a composite score of 5.42, and its extremely low affordability, with a cost of living percentile rank of 2. The labor demand is driven by employment growth of 0.96% year-over-year and a weekly hours deviation of -0.228% from its own trend.
+The New York Newark-Jersey City metro area has an overall grade of B, ranking in the 52.9th percentile among 50 US metros, with a composite score driven largely by its above-average labor demand and labor force growth, which stand at 60th and 72nd percentiles, respectively. The city's economic character is defined by these metrics, alongside its relatively low unemployment rate of 4.30%, which positions it in the 72nd percentile. With employment growth at +0.96% year-over-year, this metro presents a mixed picture of stability and growth.
 
 **Labor Demand**
-The employment growth rate of 0.96% year-over-year, combined with a weekly hours deviation of -0.228% from its own trend, signals a genuine demand expansion, albeit with some moderation in hours worked. This suggests that the city is adding jobs, but the existing workforce is not being overutilized. The labor demand composite score of 5.42 ranks in the 60th percentile, indicating a relatively strong job market.
+The New York Newark-Jersey City metro area exhibits a labor demand composite score of 5.42, placing it in the 60th percentile, driven by employment growth of +0.96% and weekly hours deviation of -0.228% from its own trend. This combination signals a genuine demand expansion, albeit with some moderation in hours worked, indicating that while jobs are being added, the existing workforce is not being overly stretched. This scenario suggests a balanced labor market.
 
 **Unemployment**
-The unemployment rate of 4.50% ranks in the 54th percentile, indicating a near-median level of slack in the labor market. This means that while the market is not extremely tight, it is also not overly loose, making it moderately challenging for businesses to hire. The practical implication is that businesses may need to offer competitive wages to attract top talent.
+The unemployment rate in the New York Newark-Jersey City metro area is 4.30%, ranking in the 72nd percentile, which indicates a relatively tight labor market with less slack than many of its peers. For a business trying to hire in this market, the practical implication is that it may face challenges in finding suitable candidates, potentially leading to higher wage offers to attract top talent.
 
 **Wage Growth**
-The year-over-year wage growth rate of 1.95% is below average, ranking in the 28th percentile. This suggests that labor costs are not rising rapidly, but worker purchasing power is also not increasing significantly. The moderate wage growth implies that employers may not face significant pressure to increase wages, but workers may not have strong bargaining power either.
+Year-over-year wage growth in the metro area is +1.95%, which ranks in the 28th percentile, indicating moderate to slow wage growth. This rate suggests that labor costs for employers are not rising rapidly, but it also means that worker purchasing power is not increasing significantly. As a result, businesses may enjoy a relatively stable labor cost environment, but workers may not see substantial improvements in their standards of living.
 
 **Cost of Living**
-The city's cost of living is extremely high, with a percentile rank of 2, indicating that it is one of the most expensive cities in the US. The PSF of $522/sqft, combined with an average hourly wage of $40.39, results in a ratio of 12.92, making it challenging for businesses to attract talent without offering significant wage premiums. The 2.8% year-over-year increase in PSF further exacerbates the affordability issue.
+With a cost of living ratio of $490/sqft to $40.39/hr, resulting in a ratio of 12.13, and a percentile rank of 6th, the New York Newark-Jersey City metro area is relatively expensive. The fact that PSF is falling by -0.6% year-over-year slightly mitigates this, but the city remains in the bottom tier for affordability. This means that attracting talent without offering wage premiums could be challenging, as the high cost of living may deter some potential employees.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of 1.23% year-over-year, ranking in the 74th percentile. This indicates that the labor force supply is expanding, making it easier for businesses to hire. The growing labor force provides a positive implication for hiring capacity, as there are more potential workers available.
+The civilian labor force in the New York Newark-Jersey City metro area is growing at a rate of +0.60% year-over-year, placing it in the 72nd percentile. This indicates that the workforce supply is expanding, which is a positive sign for businesses looking to hire, as it suggests a growing pool of potential employees.
 
 **Building Permits**
-The year-over-year change in building permits is 33.43%, ranking in the 84th percentile. This significant increase in permits suggests that housing supply is expanding, which may improve affordability and accommodate a growing workforce. The strong growth in building permits is a positive signal for future workforce accommodation.
+The metro area has seen a significant increase in residential building permits, with a year-over-year change of +33.43%, ranking it in the 84th percentile. This surge in permits signals that housing supply is likely to expand, which could improve affordability and make the area more attractive to relocating workers, thus supporting future workforce growth.
 
 **Days on Market**
-The current median days on market is 53 days, with a year-over-year decrease of 1.9%. This indicates a relatively fast-moving market, making it challenging for relocating workers to find housing. The below-average percentile rank of 20 suggests that the market is competitive, and workers may need to act quickly to secure housing.
+Homes in the New York Newark-Jersey City metro area currently sit on the market for a median of 56 days, with a year-over-year decrease of -3.5%. This relatively fast pace of home sales, corresponding to a bottom-tier percentile rank of 18th, indicates a competitive market that may be challenging for relocating workers to find housing quickly.
 
 **Office Economy**
-The city's office economy is relatively deep, with a professional worker share ranking in the 68th percentile. This makes it well-suited for businesses in the tech, finance, consulting, and HQ sectors. However, it may be less suitable for industrial or logistics-dominant businesses, which may require a different type of workforce.
+The share of jobs in professional and office sectors in the metro area is significant, with a composite score placing it in the 68th percentile. This suggests a deep talent pool suited for businesses in tech, finance, consulting, and HQ operations, making it an attractive location for knowledge-economy businesses but less ideal for those in industrial or logistics sectors.
 
-The New York Newark-Jersey City metro area offers businesses a strong labor demand and expanding labor force, but its extremely high cost of living and competitive housing market pose significant challenges. The single biggest risk or constraint for decision-makers is the need to offer significant wage premiums to attract and retain talent, which may impact business profitability and competitiveness.
+In conclusion, the New York Newark-Jersey City metro area offers businesses a stable and slightly growing labor market, with a tight unemployment situation that may drive up hiring costs. However, the single biggest risk or constraint for decision-makers is the high cost of living, which, despite some mitigation from falling PSF, remains a significant deterrent to talent attraction without substantial wage premiums.

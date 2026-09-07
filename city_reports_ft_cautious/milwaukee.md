@@ -1,33 +1,33 @@
 # Milwaukee-Waukesha
 
-**Grade: C+ (Poor) | 40.9th percentile | August 2026**
+**Grade: C+ (Poor) | 39.4th percentile | September 2026**
 
 ---
 
-The Milwaukee-Waukesha metro area has an overall grade of C+ with a composite score ranking it 40.9th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score of 4.17, and its slow wage growth, at +1.46% year-over-year. The labor demand metric, in particular, signals a contraction in the job market.
+The Milwaukee-Waukesha metro area has an overall grade of C+ with a composite score ranking it 39.4th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score of 4.17 ranking it in the 24th percentile, and its slow wage growth, at +1.46% year-over-year, ranking it in the 16th percentile. These metrics signal a challenging environment for businesses looking to expand or relocate.
 
 **Labor Demand**
-The employment growth rate in Milwaukee-Waukesha is -0.09% year-over-year, and weekly hours are deviating -1.171% from the city's own 12-month baseline. This combination signals a contraction in the job market, rather than genuine demand expansion or survivor squeeze. The low labor demand composite score of 4.17, ranking in the 24th percentile, further reinforces this notion.
+The employment growth rate in Milwaukee-Waukesha is -0.09% year-over-year, and weekly hours are deviating -1.171% from the city's own 12-month baseline. This combination signals a contraction in labor demand, indicating that the city is not adding jobs at a significant rate and hours are below trend. This suggests a lack of genuine demand expansion in the labor market.
 
 **Unemployment**
-The unemployment rate in Milwaukee-Waukesha is 3.80%, which is relatively low and ranks in the 68th percentile. This indicates a tight labor market with some slack, making it moderately challenging for businesses to hire in this city. As a result, businesses may face some wage pressure when trying to attract and retain talent.
+The unemployment rate in Milwaukee-Waukesha is 3.80%, ranking it in the 64th percentile, indicating a relatively tight labor market. This means that there is less slack in the market, making it harder for businesses to hire new employees. As a result, businesses may face upward pressure on wages to attract and retain talent.
 
 **Wage Growth**
-The year-over-year wage growth in Milwaukee-Waukesha is +1.46%, which is relatively slow and ranks in the 16th percentile. This slow wage growth implies a flat cost environment for employers, but it also means workers have weak bargaining power. As a result, businesses may not face significant labor cost pressures, but workers may not have strong purchasing power either.
+The year-over-year wage growth in Milwaukee-Waukesha is +1.46%, ranking it in the 16th percentile, indicating stagnant wage growth. This slow wage growth means that labor costs for employers are not rising rapidly, but it also implies weak bargaining power for workers and potentially limited purchasing power.
 
 **Cost of Living**
-Milwaukee-Waukesha has a cost of living score that ranks in the 18th percentile, with a PSF of $227/sqft and average hourly earnings of $36.01/hr, resulting in a ratio of 6.30. This indicates that the city is relatively expensive, which could make it challenging to attract talent without offering wage premiums. The fact that PSF is rising +1.8% year-over-year further exacerbates the affordability concerns.
+Milwaukee-Waukesha has a cost of living score ranking it in the 14th percentile, with a PSF of $227/sqft and average hourly earnings of $36.01/hr, resulting in a ratio of 6.30. This indicates that the city is relatively expensive compared to its peers. The fact that PSF is rising +2.2% year-over-year relative to wages further exacerbates the affordability issue, making it challenging to attract talent without offering wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in Milwaukee-Waukesha is growing at a rate of +1.66% year-over-year, which ranks in the 80th percentile. This indicates that the labor force supply is expanding, which is a positive sign for businesses looking to hire in this city. The growing labor force can help mitigate some of the hiring challenges posed by the tight labor market.
+The civilian labor force in Milwaukee-Waukesha is growing at a rate of +0.85% year-over-year, ranking it in the 80th percentile. This means that the labor force supply is expanding, which is a positive sign for businesses looking to hire. However, the slow wage growth and high cost of living may offset this advantage.
 
 **Building Permits**
-The number of residential building permits in Milwaukee-Waukesha is decreasing by -10.38% year-over-year, which ranks in the 30th percentile. This decline in building permits signals a tightening of the housing supply, which could lead to affordability concerns and challenges in accommodating a growing workforce.
+The number of building permits in Milwaukee-Waukesha has decreased by -10.38% year-over-year, ranking it in the 30th percentile. This decline in permits suggests that housing supply is tightening, which may lead to future affordability issues and challenges in accommodating a growing workforce.
 
 **Days on Market**
-The median days on market for homes in Milwaukee-Waukesha is currently 35 days, with a year-over-year increase of +16.7%, ranking in the 96th percentile. This indicates a relatively slow market, which could be beneficial for workers relocating to the city as they have more time to find a home. However, this could also be a sign of a weakening demand for housing.
+The median days on market for homes in Milwaukee-Waukesha is 36 days, with a year-over-year increase of +12.5%, ranking it in the 92nd percentile. This indicates a slower market, making it more accessible for workers relocating to the city. However, this trend may also signal a weakening demand for housing.
 
 **Office Economy**
-The share of professional and office workers in Milwaukee-Waukesha ranks in the 30th percentile, with a composite score of 1.94. This indicates a relatively shallow talent pool, making the city less suited for businesses that require a deep knowledge-economy talent pool, such as tech or finance companies. However, the city may be more suitable for businesses with industrial or logistics-dominated economies.
+Milwaukee-Waukesha has an office economy score ranking it in the 30th percentile, with a share of professional and office workers at 1.94 out of 5. This suggests a relatively shallow talent pool, making the city less suited for businesses requiring a deep knowledge-economy talent pool, such as tech or finance companies.
 
-The Milwaukee-Waukesha metro area offers businesses a relatively slow-growing labor market with moderate hiring challenges. However, the single biggest risk or constraint for businesses in this city is the potential for affordability concerns and a tightening housing supply, which could impact their ability to attract and retain talent.
+The Milwaukee-Waukesha metro area offers a relatively tight labor market and an expanding labor force, but it is also characterized by slow wage growth, a high cost of living, and tightening housing supply. The single biggest risk or constraint for businesses considering this location is the potential difficulty in attracting and retaining talent due to the high cost of living and slow wage growth, which may require offering wage premiums to remain competitive.
