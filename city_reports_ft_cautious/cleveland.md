@@ -4,30 +4,30 @@
 
 ---
 
-Cleveland earns an overall grade of B- with a composite score ranking it 47.1th percentile out of 50 US metros. The city's economic character is most defined by its stagnant wage growth, with a year-over-year increase of only 0.10%, and its strong labor force growth, with a 1.80% year-over-year expansion. These two metrics signal a mixed economic environment, with a growing workforce but limited upward pressure on wages.
+Cleveland earns an overall grade of B- with a composite score ranking it 47.1th percentile among 50 US metros. The city's economic character is most defined by its near-median labor demand composite score of 4.66 and its bottom-tier wage growth of +0.10% year-over-year. These metrics suggest a mixed economic environment, with labor demand neither strongly expanding nor contracting, but with notable pressure on wage costs.
 
 **Labor Demand**
-Cleveland's employment growth rate is 0.57% year-over-year, while weekly hours are deviating -0.438% from the city's own 12-month baseline. This combination signals a moderate labor demand expansion, with some genuine demand for workers but not enough to drive significant increases in hours worked. The labor demand composite score of 4.66 ranks near the median, at the 42nd percentile.
+Cleveland's employment growth rate is +0.57% year-over-year, while weekly hours are -0.438% below the city's own trend. This combination signals a lack of genuine demand expansion, as hours are not running above trend during a period of modest job growth. The labor market is not experiencing significant contraction, but the below-trend hours suggest some level of inefficiency or underutilization.
 
 **Unemployment**
-The unemployment rate in Cleveland is 3.40%, ranking above average at the 66th percentile. This indicates a relatively tight labor market, with some slack but generally favorable conditions for workers. For a business trying to hire in Cleveland, this means that recruiting and retaining top talent may be challenging, with potential upward pressure on wages.
+The unemployment rate in Cleveland is 3.40%, ranking it in the 66th percentile, indicating a relatively tight labor market. This tightness implies that businesses may face challenges in hiring, with more wage pressure likely. However, the current rate does not suggest an overly competitive market that would significantly hinder recruitment efforts.
 
 **Wage Growth**
-With a year-over-year wage growth rate of 0.10%, Cleveland's wage environment is stagnant. This slow wage growth implies a flat cost environment for employers, but it also means that workers have limited bargaining power and may not see significant increases in their purchasing power. As a result, businesses may not face significant labor cost pressures, but they may also struggle to attract and retain top talent.
+Wage growth in Cleveland is +0.10% year-over-year, placing it in the bottom tier of the 4th percentile. This stagnant wage growth environment means labor costs for employers are not rising significantly, but it also indicates weak bargaining power for workers and potentially limited purchasing power. This could affect the attractiveness of the city for talent seeking better compensation.
 
 **Cost of Living**
-Cleveland's cost of living is near the median, with a percentile rank of 50th. The city's PSF of $143/sqft and average hourly earnings of $34.00/hr result in a ratio of 4.21. Although the PSF is increasing by 13.5% year-over-year, the city's affordability is still relatively neutral. This means that Cleveland may not offer a significant talent attraction advantage without wage premiums, as the cost of living is not particularly low or high compared to peer cities.
+Cleveland's cost of living, with a PSF of $143/sqft and average hourly earnings of $34.00/hr, results in a ratio of 4.21, ranking it near the median in the 50th percentile. This suggests the city is neither particularly affordable nor expensive relative to its peers. The 13.5% year-over-year increase in PSF, however, indicates rising costs. This mixed affordability picture means that while Cleveland may not require significant wage premiums to attract talent, it does not offer a substantial cost-of-living advantage either.
 
 **Labor Force Growth**
-The civilian labor force in Cleveland is growing at a rate of 1.80% year-over-year, ranking in the top tier at the 94th percentile. This expansion in labor force supply is a positive sign for businesses looking to hire, as it indicates a growing pool of potential workers. However, the city's stagnant wage growth may limit the attractiveness of these new workers.
+The civilian labor force in Cleveland is growing at a rate of +1.80% year-over-year, placing it in the top tier of the 94th percentile. This indicates an expanding workforce supply, which is a positive sign for businesses looking to hire, as it suggests a structural advantage in terms of hiring capacity.
 
 **Building Permits**
-Cleveland's residential building permits are decreasing by 16.61% year-over-year, ranking below average at the 22nd percentile. This decline in permits suggests that the city's housing supply is tightening, which may lead to future affordability challenges and limitations on workforce accommodation. As a result, businesses may face increasing competition for talent and rising labor costs due to limited housing options.
+The year-over-year change in residential building permits is -16.61%, ranking Cleveland below average in the 22nd percentile. This decline suggests that housing supply is tightening, which could lead to future affordability issues and challenges in accommodating a growing workforce.
 
 **Days on Market**
-The median days on market in Cleveland is 55 days, with a year-over-year increase of 7.8%. This ranks above average at the 66th percentile, indicating a slower market. For workers relocating to Cleveland, this means that the housing market is relatively accessible, with more time to find and secure a home. However, this slower market may also signal weaker demand and limited upward pressure on prices.
+Homes in Cleveland are currently sitting on the market for a median of 55 days, with a year-over-year increase of +7.8%. This places the city above average in terms of days on market, indicating a slower, more buyer-friendly market. For workers relocating to Cleveland, this could mean a more accessible and less competitive housing market.
 
 **Office Economy**
-Cleveland's professional and office worker share is 2.92, ranking above average at the 64th percentile. This indicates a deep talent pool suited for businesses in the tech, finance, consulting, and HQ sectors. However, the city may be less suited for industries with limited specialized roles, such as industrial or logistics-dominant economies.
+Cleveland's share of professional and office workers is 2.92, ranking it above average in the 64th percentile. This suggests a deep talent pool suited for businesses in tech, finance, consulting, and HQ operations. The city is less suited for industries requiring large industrial or logistics workforces.
 
-In conclusion, Cleveland offers a mixed economic environment with a growing labor force but stagnant wage growth. The city's relatively tight labor market and limited housing supply may pose challenges for businesses looking to hire and attract top talent. The single biggest risk or constraint for decision-makers is the potential for increasing labor costs and competition for talent due to the tightening housing market and limited upward pressure on wages.
+In conclusion, Cleveland offers businesses a mixed economic environment with a tight labor market and stagnant wage growth. The single biggest risk or constraint for decision-makers is the potential for future affordability issues due to tightening housing supply, which could impact workforce attraction and accommodation. Despite this, the city's expanding labor force and deep professional talent pool are significant advantages for certain types of businesses.

@@ -4,30 +4,30 @@
 
 ---
 
-The Boston-Cambridge-Newton metro area has an overall grade of C+ with a composite score ranking it 43.7th percentile out of 50 US metros. The city's economic character is most defined by its low labor demand, with a composite score in the bottom tier, and its high labor force growth, with a 98th percentile rank. Specifically, the labor demand composite score of 3.73 and labor force growth rate of +2.87% YoY are the key metrics shaping this city's economic landscape.
+The Boston-Cambridge-Newton metro area has an overall grade of C+ with a composite score ranking it 43.7th percentile out of 50 US metros. The city's economic character is most defined by its strong labor force growth of +2.87% YoY and its high building permits growth of +87.24% YoY, indicating a expanding workforce and housing supply. However, its labor demand composite score of 3.73 ranks in the bottom tier, suggesting a mismatch between job growth and hours worked.
 
 **Labor Demand**
-The employment growth rate is +0.27% YoY, and weekly hours are deviating -0.951% from the city's own 12-month baseline, signaling a contraction in labor demand. This combination indicates a lack of genuine demand expansion, with hours below trend during a period of slow job growth. The labor demand composite score of 3.73 is in the bottom tier, ranking 14th percentile, which suggests a challenging environment for businesses looking to expand.
+The employment growth rate of +0.27% YoY is modest, while the weekly hours deviation from trend is -0.951%, indicating a contraction in labor demand. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. This metric ranks in the bottom tier, at the 14th percentile.
 
 **Unemployment**
-The unemployment rate is 3.90%, ranking 32nd percentile, indicating a below-average level of slack in the labor market. This means the market is relatively tight, making it harder for businesses to hire, with potential upward pressure on wages. As a result, companies may need to offer competitive salaries to attract talent in this market.
+The unemployment rate of 3.90% is below average, ranking at the 32nd percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, with more wage pressure. However, it also suggests a skilled and experienced workforce.
 
 **Wage Growth**
-The year-over-year wage growth rate is +2.89%, ranking near the median at 40th percentile. This moderate wage growth suggests that labor costs for employers are rising, but not excessively, while workers are experiencing some improvement in their purchasing power. However, the pace of wage growth is not exceptionally high, which may limit the city's attractiveness to businesses seeking to control labor costs.
+The year-over-year wage growth rate of +2.89% is near median, ranking at the 40th percentile, indicating moderate wage growth. This implies rising labor costs for employers, but also increasing worker purchasing power. While not extremely high, wage growth is still a factor to consider for businesses.
 
 **Cost of Living**
-With a cost of living ratio of $458/sqft to $45.37/hr, resulting in a ratio of 10.09, and a percentile rank of 20th, the city is relatively expensive. The fact that PSF is falling -1.5% YoY is a positive sign, but the overall affordability score is still below average. This means that businesses may need to offer wage premiums to attract talent, as the high cost of living could be a deterrent without corresponding salary adjustments.
+The cost of living in Boston-Cambridge-Newton is relatively expensive, with a percentile rank of 20th, indicating a lower affordability score. The PSF to earnings ratio is $458/sqft vs $45.37/hr, resulting in a ratio of 10.09. This means that talent attraction may require wage premiums to compensate for the high cost of living.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of +2.87% YoY, indicating an expanding workforce supply. This top-tier growth rate, ranking 98th percentile, suggests a favorable environment for hiring, with a growing pool of potential employees. As a result, businesses looking to expand their workforce may find this city an attractive location.
+The civilian labor force is growing at a rate of +2.87% YoY, indicating an expanding workforce supply. This top-tier growth rate, ranking at the 98th percentile, suggests a positive hiring capacity and a growing pool of potential employees.
 
 **Building Permits**
-The year-over-year change in residential building permits is +87.24%, ranking 94th percentile, indicating a significant expansion in housing supply. This surge in permits suggests that developer confidence is high, and future housing supply is likely to increase, which could improve affordability and accommodate a growing workforce. However, the current pace of growth may lead to short-term fluctuations in the housing market.
+The year-over-year change in building permits is +87.24%, indicating a significant expansion in housing supply. This top-tier growth rate, ranking at the 94th percentile, signals improving affordability and a more accommodating environment for the workforce.
 
 **Days on Market**
-The current median days on market is 51 days, with a year-over-year increase of +13.3%, ranking 88th percentile. This means that homes are sitting on the market for a relatively long time, indicating a slower, more buyer-friendly market. For workers relocating to this city, the slower market may make it easier to find a home, but it also suggests that the housing market is not as competitive as in other cities.
+The current median days on market is 51 days, with a year-over-year increase of +13.3%, ranking at the 88th percentile. This suggests a slower market, making it more accessible for workers relocating to the city. However, this also indicates a potential normalization of the housing market.
 
 **Office Economy**
-With an office/professional worker share composite score of 2.84, ranking 58th percentile, the city has a near-median depth of professional talent pool. This suggests that Boston-Cambridge-Newton is suited for businesses in the tech, finance, and consulting sectors, but may not be as attractive for industries requiring a more specialized or industrial workforce.
+The professional and office worker share is 2.84, ranking at the 58th percentile, indicating a deep but not exceptional talent pool. This city is well-suited for businesses in the tech, finance, and consulting sectors, but may not be the best fit for industrial or logistics-dominant economies.
 
-The Boston-Cambridge-Newton metro area offers businesses a unique combination of a growing labor force and expanding housing supply, but the low labor demand and relatively high cost of living are significant constraints. The single biggest risk for decision-makers is the potential for wage pressure and hiring challenges due to the tight labor market, which may offset the benefits of the city's growing workforce and improving affordability.
+The Boston-Cambridge-Newton metro area offers businesses a unique combination of a growing workforce and expanding housing supply, but also poses challenges in terms of labor demand and cost of living. The single biggest risk or constraint for decision-makers is the potential for wage pressure and talent attraction challenges due to the high cost of living, which may require careful consideration of compensation packages and relocation incentives.
