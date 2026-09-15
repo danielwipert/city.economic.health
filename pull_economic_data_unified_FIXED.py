@@ -52,6 +52,19 @@ MAX_RETRIES = 3
 RETRY_BACKOFF = 2  # exponential backoff multiplier
 
 
+def redact(text) -> str:
+    """Strip the API key out of any text before it is printed or logged.
+
+    The key travels as a URL query parameter, and requests embeds the full
+    request URL in its connection-error messages. Raw exception text must
+    never reach the console or collection_progress.log (a tracked file).
+    """
+    text = str(text)
+    if FRED_API_KEY:
+        text = text.replace(FRED_API_KEY, '***REDACTED***')
+    return text
+
+
 class RateLimitedAPIClient:
     """Safe FRED API client with intelligent rate limiting"""
     
@@ -119,7 +132,7 @@ class RateLimitedAPIClient:
             
             # Handle other HTTP errors
             if response.status_code == 400:
-                body = response.text[:300] if response.text else 'empty'
+                body = redact(response.text[:300]) if response.text else 'empty'
                 msg = f"HTTP 400 - Series ID '{series_id}' may be invalid. Response: {body}"
                 print(f"   ERROR: {msg}")
                 log_progress(f"FAILED [{metric_name}] {series_id}: {msg}")
@@ -156,12 +169,12 @@ class RateLimitedAPIClient:
             log_progress(f"FAILED [{metric_name}] {series_id}: {msg}")
             return None
         except requests.exceptions.RequestException as e:
-            msg = f"Request error for series '{series_id}': {str(e)}"
+            msg = f"Request error for series '{series_id}': {redact(e)}"
             print(f"   ERROR: {msg}")
             log_progress(f"FAILED [{metric_name}] {series_id}: {msg}")
             return None
         except Exception as e:
-            msg = f"Unexpected error for series '{series_id}': {str(e)}"
+            msg = f"Unexpected error for series '{series_id}': {redact(e)}"
             print(f"   ERROR: {msg}")
             log_progress(f"FAILED [{metric_name}] {series_id}: {msg}")
             return None
@@ -183,7 +196,7 @@ def load_metro_config():
 def log_progress(message, filename='collection_progress.log'):
     """Log progress to both console and file"""
     timestamp = datetime.now().strftime('%H:%M:%S')
-    log_message = f"[{timestamp}] {message}"
+    log_message = f"[{timestamp}] {redact(message)}"
     print(log_message)
     
     with open(SCRIPT_DIR / filename, 'a', encoding='utf-8') as f:
@@ -392,7 +405,6 @@ def main():
         return
     
     print("✓ FRED_API_KEY loaded successfully")
-    print(f"  Key: {FRED_API_KEY[:10]}...{FRED_API_KEY[-10:]}")
     print()
     
     # Load configuration
