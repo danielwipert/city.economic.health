@@ -14,6 +14,7 @@ Why this works:
 """
 
 import json
+import sys
 from pathlib import Path
 from statistics import mean, stdev
 from datetime import datetime, date
@@ -456,7 +457,43 @@ def calculate_percentile_score(value: float, all_values: List[float],
 # STEP 3: MAIN CALCULATION FUNCTION
 # ============================================================================
 
-def calculate_metrics():
+# Maximum age of the underlying FRED pull before scoring refuses to run. The
+# pipeline is weekly, so older input means an upstream pull failed and the site
+# would otherwise republish stale numbers stamped with today's date.
+MAX_DATA_AGE_DAYS = 10
+
+
+def check_data_freshness(processed_data, allow_stale=False):
+    """Return the source FRED collection date, refusing to score stale input."""
+    source = processed_data.get('source_data')
+    if not source:
+        print("⚠️  WARNING: no 'source_data' date present; cannot verify freshness")
+        return None
+
+    try:
+        collected = datetime.strptime(source, '%Y-%m-%d %H:%M:%S')
+    except (TypeError, ValueError):
+        print(f'⚠️  WARNING: unrecognised source_data date {source!r}')
+        return source
+
+    age_days = (datetime.now() - collected).days
+    print(f'✓ Source FRED data collected {source} ({age_days} days ago)')
+
+    if age_days > MAX_DATA_AGE_DAYS:
+        msg = (f'source data is {age_days} days old (limit {MAX_DATA_AGE_DAYS}); '
+               'an upstream pull has probably failed')
+        if allow_stale:
+            print(f'⚠️  WARNING: {msg}. Continuing because --allow-stale was passed.')
+        else:
+            print(f'❌ ERROR: {msg}.')
+            print('   Re-run pull_economic_data_unified_FIXED.py, or pass')
+            print('   --allow-stale to deliberately score old data.')
+            sys.exit(1)
+
+    return source
+
+
+def calculate_metrics(allow_stale=False):
     """Main calculation logic"""
     
     print("\n" + "=" * 80)
@@ -479,6 +516,8 @@ def calculate_metrics():
         print(f"❌ ERROR loading data: {e}")
         return None
     
+    data_collection_date = check_data_freshness(processed_data, allow_stale)
+
     all_metros = list(processed_data['metros'].values())
     
     # Calculate COL components for all metros
@@ -730,6 +769,10 @@ def calculate_metrics():
     output = {
         "calculation_timestamp": datetime.now().isoformat(),
         "calculation_date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        # When the underlying FRED data was actually collected, as opposed to
+        # when this scoring run happened. The site displays THIS date, so a
+        # re-score of old data can never present itself as fresh numbers.
+        "data_collection_date": data_collection_date,
         "version": "5.0",
         "scoring_method": "Percentile-Based (Rank Order)",
         "rubric": "9-Metric Percentile System: 85% Employment / 15% Housing",
@@ -1006,11 +1049,12 @@ def create_excel_from_metrics(output_data):
 
 def main():
     """Main entry point"""
-    output = calculate_metrics()
+    allow_stale = '--allow-stale' in sys.argv
+    output = calculate_metrics(allow_stale=allow_stale)
     
     if not output:
         print("\n❌ Failed to calculate metrics")
-        return
+        sys.exit(1)
     
     # Save JSON output
     json_path = SCRIPT_DIR / 'calculated_metrics_reconciled.json'
@@ -1021,7 +1065,7 @@ def main():
         print(f"\n✓ JSON saved to: {json_path}")
     except Exception as e:
         print(f"\n❌ ERROR saving JSON: {e}")
-        return
+        sys.exit(1)
     
     # Create Excel file (YOUR RECEIPT!)
     try:
@@ -1030,7 +1074,7 @@ def main():
         print(f"\n❌ ERROR creating Excel file: {e}")
         import traceback
         traceback.print_exc()
-        return
+        sys.exit(1)
     
     # Show summary
     print("\n" + "=" * 80)

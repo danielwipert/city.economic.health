@@ -24,6 +24,7 @@ Output: processed_economic_data_v2.json
 """
 
 import json
+import sys
 from pathlib import Path
 from datetime import datetime
 from statistics import mean, stdev
@@ -535,28 +536,28 @@ def main():
     print("STEP 1: Loading config with Census population data")
     print("-" * 80)
     if not processor.load_config():
-        return
+        sys.exit(1)
     print()
     
     # Load raw data
     print("STEP 2: Loading raw data from pull_economic_data_unified_FIXED.py")
     print("-" * 80)
     if not processor.load_raw_data():
-        return
+        sys.exit(1)
     print()
     
     # Process all metros
     print("STEP 3: Processing historical data for all metros")
     print("-" * 80)
     if not processor.process_all_metros():
-        return
+        sys.exit(1)
     print()
     
     # Calculate MSA averages
     print("STEP 4: Calculating MSA comparison benchmarks")
     print("-" * 80)
     if not processor.calculate_msa_averages():
-        return
+        sys.exit(1)
     print()
     
     # Save processed data
@@ -564,7 +565,7 @@ def main():
     print("-" * 80)
     output_file = processor.save_processed_data()
     if not output_file:
-        return
+        sys.exit(1)
     print()
     
     print("\n" + "=" * 80)

@@ -27,6 +27,7 @@ Before running:
 """
 
 import json
+import sys
 import requests
 import time
 from datetime import datetime
@@ -45,6 +46,16 @@ FRED_API_BASE = "https://api.stlouisfed.org/fred/series/observations"
 
 # Get the directory where this script is located
 SCRIPT_DIR = Path(__file__).parent
+
+# How many FRED series are actually requested per metro. The config carries 11
+# fred_codes, but home_price_index and housing_price are deliberately skipped
+# (see module docstring), so success rates must be measured against 9.
+METRICS_PER_METRO = 9
+
+# A pull below this share of successful metro series is treated as a failed run
+# rather than published. Occasional FRED series retirements are tolerated;
+# a broad outage is not.
+MIN_SUCCESS_RATE = 0.95
 
 # Rate limiting configuration - CONSERVATIVE AND SAFE
 DELAY_BETWEEN_CALLS = 1.5  # seconds - safely under 120 req/min limit
@@ -186,7 +197,7 @@ def load_metro_config():
     
     if not config_path.exists():
         print(f"❌ ERROR: Configuration file not found at: {config_path}")
-        exit(1)
+        sys.exit(1)
     
     with open(config_path, 'r') as f:
         config = json.load(f)
@@ -348,7 +359,7 @@ def pull_metro_data(api_client, config):
     print("\n" + "=" * 80)
     print("METRO DATA COLLECTION SUMMARY")
     print("=" * 80)
-    total_calls = len(metros) * 11
+    total_calls = len(metros) * METRICS_PER_METRO
     success_rate = (total_successful / total_calls * 100) if total_calls > 0 else 0
     print(f"✅ Total Successful: {total_successful}/{total_calls}")
     print(f"❌ Total Failed: {total_failed}/{total_calls}")
@@ -359,7 +370,8 @@ def pull_metro_data(api_client, config):
     return all_results
 
 
-def save_combined_results(national_data, metro_data):
+def save_combined_results(national_data, metro_data,
+                          filename='economic_data_combined.json'):
     """Save combined national and metro data to JSON file"""
     
     output_data = {
@@ -373,18 +385,50 @@ def save_combined_results(national_data, metro_data):
             'national_metrics_collected': len(national_data),
             'observations_per_metric': 15,
             'total_metro_data_points': sum(len(m['data']) for m in metro_data),
-            'total_metro_expected': len(metro_data) * 11
+            'total_metro_expected': len(metro_data) * METRICS_PER_METRO
         }
     }
     
     # Save to JSON
-    output_file = SCRIPT_DIR / 'economic_data_combined.json'
+    output_file = SCRIPT_DIR / filename
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2)
     
     print(f"✅ Combined data saved to: {output_file}")
     
     return output_file
+
+
+def validate_pull(national_data, metro_data, config):
+    """Decide whether a pull is complete enough to publish.
+
+    Returns a list of human-readable problems; an empty list means the pull
+    is good. Callers must not overwrite the last known-good data file when
+    this returns problems.
+    """
+    problems = []
+
+    expected_national = len([k for k in config.get('_national_metrics', {})
+                             if k != 'description'])
+    if len(national_data) < expected_national:
+        problems.append(
+            f'national metrics incomplete: {len(national_data)}/{expected_national}'
+        )
+
+    if not metro_data:
+        problems.append('no metro data collected at all')
+        return problems
+
+    attempted = len(metro_data) * METRICS_PER_METRO
+    collected = sum(len(m['data']) for m in metro_data)
+    rate = collected / attempted if attempted else 0.0
+    if rate < MIN_SUCCESS_RATE:
+        problems.append(
+            f'metro success rate {rate:.1%} is below the required '
+            f'{MIN_SUCCESS_RATE:.0%} ({collected}/{attempted} series)'
+        )
+
+    return problems
 
 
 def main():
@@ -402,7 +446,7 @@ def main():
         print("  Create a .env file with: FRED_API_KEY=your_key_here")
         print()
         print("Get your key at: https://fred.stlouisfed.org/docs/api/")
-        return
+        sys.exit(1)
     
     print("✓ FRED_API_KEY loaded successfully")
     print()
@@ -444,6 +488,25 @@ def main():
     print("=" * 80)
     print()
     
+    # Validate BEFORE overwriting economic_data_combined.json. A bad pull must
+    # not clobber the last known-good data, and must not let the rest of the
+    # weekly pipeline republish stale numbers under a fresh date.
+    problems = validate_pull(national_data, metro_data, config)
+    if problems:
+        failed_file = save_combined_results(
+            national_data, metro_data,
+            filename='economic_data_combined.FAILED.json',
+        )
+        print()
+        log_progress('=' * 80)
+        log_progress('COLLECTION FAILED - existing data left untouched')
+        log_progress('=' * 80)
+        for problem in problems:
+            log_progress(f'  - {problem}')
+        log_progress(f'Partial results written to {failed_file.name} for debugging.')
+        log_progress('economic_data_combined.json was NOT modified.')
+        sys.exit(1)
+
     output_file = save_combined_results(national_data, metro_data)
     
     # Final summary
@@ -452,7 +515,7 @@ def main():
     print("=" * 80)
     print()
     
-    total_metro_calls = len(metro_data) * 9
+    total_metro_calls = len(metro_data) * METRICS_PER_METRO
     metro_success = sum(len(m['data']) for m in metro_data)
     
     print(f"📊 National Metrics: {len(national_data)}/2 collected")

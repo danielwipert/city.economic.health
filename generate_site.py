@@ -21,7 +21,8 @@ import json
 import re
 import shutil
 from pathlib import Path
-from datetime import datetime
+
+from report_dates import display_date
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
     sys.stdout.reconfigure(encoding='utf-8')
@@ -989,12 +990,7 @@ def load_data():
     with open(METRICS_FILE, encoding='utf-8') as f:
         data = json.load(f)
     metros = sorted(data['metros'], key=lambda x: x['weighted_percentile'], reverse=True)
-    ts = data.get('calculation_timestamp', '')
-    if ts:
-        calc_date = datetime.fromisoformat(ts).strftime('%B %Y')
-    else:
-        calc_date = data.get('calculation_date', 'April 2026')
-    return metros, calc_date
+    return metros, display_date(data)
 
 
 def prepare_city(metro: dict, rank: int) -> dict:

@@ -72,7 +72,20 @@ These are not part of the automated weekly run. Uses Jinja2 for HTML templating 
 
 ## Automation
 
-GitHub Actions runs steps 1–4 every Monday at 9:00 AM UTC (`.github/workflows/economic-data-weekly.yml`). Results are committed back to the repo automatically. Requires two repository secrets: `FRED_API_KEY` and `TOGETHER_API_KEY`.
+GitHub Actions runs the full pipeline — data pull, processing, scoring, briefs, PDF and site — every Monday at 9:00 AM UTC (`.github/workflows/economic-data-weekly.yml`). Results are committed back to the repo automatically. Requires two repository secrets: `FRED_API_KEY` and `TOGETHER_API_KEY`.
+
+### Failure behaviour
+
+Every step exits non-zero when it fails, so the workflow stops instead of publishing stale numbers under a fresh date:
+
+| Guard | Where | Effect |
+|-------|-------|--------|
+| Missing `FRED_API_KEY` | data pull | Run fails immediately |
+| Under 95% of metro series collected, or missing national metrics | data pull | `economic_data_combined.json` is left untouched; the partial pull is written to `economic_data_combined.FAILED.json` for debugging |
+| Source FRED data older than 10 days | scoring | Run fails; override with `--allow-stale` to deliberately re-score old data |
+| Any city brief that cannot be generated | LLM briefs | Run fails after 3 retries per city, rather than silently republishing last week's brief |
+
+Reports always display **when the FRED data was collected**, not when the scoring run happened.
 
 ---
 
@@ -96,7 +109,7 @@ TOGETHER_API_KEY=your_together_api_key
 python pull_economic_data_unified_FIXED.py
 python process_historical_data_v2_FIXED.py
 python calculate_metrics_reconciled_V6.py
-python city_econ_pipeline_cautious.py   # optional — requires TOGETHER_API_KEY
+python city_econ_pipeline.py            # optional — requires TOGETHER_API_KEY
 python generate_pdf_report.py           # optional — generates PDF + site
 python generate_rankings_pdf.py         # optional — rankings PDF only
 ```
