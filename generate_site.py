@@ -1131,9 +1131,18 @@ def copy_pdf(site_dir: Path) -> str:
         shutil.copy2(src, dest)
         print(f'  ✓ pdfs/city_economic_report_latest.pdf (from {src.name})')
         return 'pdfs/city_economic_report_latest.pdf'
-    else:
-        print('  ⚠ No PDF found — download button will be omitted')
-        return ''
+
+    # pdf_output/ is a build directory and is not committed, so a site-only
+    # rebuild from a fresh clone has no freshly generated PDF. Keep the copy
+    # already published under docs/pdfs/ rather than silently dropping the
+    # download button from the live site.
+    existing = pdfs_dir / 'city_economic_report_latest.pdf'
+    if existing.exists():
+        print('  ✓ pdfs/city_economic_report_latest.pdf (kept already-published copy)')
+        return 'pdfs/city_economic_report_latest.pdf'
+
+    print('  ⚠ No PDF found — download button will be omitted')
+    return ''
 
 
 # ─── WRITE HOMEPAGE ───────────────────────────────────────────────────────────

@@ -57,16 +57,21 @@ Generates a two-pass AI report per city using Together AI:
 
 Output: one Markdown file per city in `city_reports_ft_cautious/`.
 
-### Step 5 — PDF & Site Generation (local / on-demand)
-Three standalone scripts for publishing output:
+### Step 5 — PDF & Site Generation
+Three scripts for publishing output:
 
-| Script | Output |
-|--------|--------|
-| `generate_pdf_report.py` | Full PDF report — `pdf_output/city_economic_report_YYYY-MM-DD.pdf` |
-| `generate_rankings_pdf.py` | Single-page landscape rankings — `pdf_output/city_rankings_YYYY-MM-DD.pdf` |
-| `generate_site.py` | Full static website — `site/` (index, rankings, methodology, 50 metro pages) |
+| Script | Output | In weekly run? |
+|--------|--------|----------------|
+| `generate_pdf_report.py` | Full PDF report — `pdf_output/city_economic_report_YYYY-MM-DD.pdf` | Yes |
+| `generate_site.py` | Full static website — `docs/` (index, rankings, methodology, 50 metro pages) | Yes |
+| `generate_rankings_pdf.py` | Single-page landscape rankings — `pdf_output/city_rankings_YYYY-MM-DD.pdf` | No — run manually |
 
-These are not part of the automated weekly run. Uses Jinja2 for HTML templating and Playwright (headless Chromium) for PDF rendering.
+Uses Jinja2 for HTML templating and Playwright (headless Chromium) for PDF rendering.
+
+`pdf_output/` is a build directory and is **not committed** — committing it
+rewrote ~1.2 MB of binary per week. Each run's PDFs are published as a workflow
+artifact (`economic-reports`, kept 90 days) instead. The copy the live site
+serves is `docs/pdfs/city_economic_report_latest.pdf`, which **is** tracked.
 
 ---
 

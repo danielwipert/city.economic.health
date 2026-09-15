@@ -7,9 +7,10 @@ __pycache__/
 *.pyc
 *.pyo
 
-# PDF output — track only latest.pdf, exclude dated files and debug HTML
-pdf_output/city_economic_report_20*.pdf
-pdf_output/report_debug.html
+# pdf_output/ is a build directory. PDFs are published as workflow artifacts
+# instead of being committed, which kept rewriting ~1.2 MB of binary per week.
+# The copy the live site actually serves lives in docs/pdfs/ and IS tracked.
+pdf_output/
 
 # Partial pull written aside when a collection run fails validation
 economic_data_combined.FAILED.json
