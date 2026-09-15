@@ -94,9 +94,16 @@ Reports always display **when the FRED data was collected**, not when the scorin
 **Requirements:** Python 3.11+
 
 ```bash
-pip install requests pandas openpyxl pillow together python-dotenv jinja2 playwright
+pip install -r requirements.txt
 playwright install chromium
 ```
+
+Dependencies are pinned to exact versions in `requirements.txt` so the weekly
+run cannot be broken by an upstream release. `requirements-dev.txt` adds the
+extras used by `testing/` only.
+
+To upgrade a package, bump its pin, run the pipeline locally, and commit only
+if the output is still correct.
 
 Create `.env` in `final.1/`:
 ```

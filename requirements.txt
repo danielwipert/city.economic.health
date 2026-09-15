@@ -1,0 +1,22 @@
+# Runtime dependencies for the weekly economic data pipeline.
+#
+# Pinned exactly so an unattended Monday run cannot be broken by an upstream
+# release. To upgrade: bump a pin, run the pipeline locally, commit only if it
+# still produces correct output.
+#
+# Targets Python 3.11 (see .github/workflows/economic-data-weekly.yml).
+
+# Step 1 - pull_economic_data_unified_FIXED.py
+requests==2.33.1
+python-dotenv==1.2.3
+
+# Step 3 - calculate_metrics_reconciled_V6.py (Excel output)
+openpyxl==3.1.5
+
+# Step 4 - city_econ_pipeline.py (LLM briefs)
+pandas==3.0.5
+together==2.33.2
+
+# Step 5 - generate_pdf_report.py, generate_rankings_pdf.py, generate_site.py
+jinja2==3.1.6
+playwright==1.62.0

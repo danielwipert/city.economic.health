@@ -1,0 +1,5 @@
+# Extras not needed by the weekly pipeline.
+-r requirements.txt
+
+# testing/create_linkedin_cards.py
+pillow==12.3.0
