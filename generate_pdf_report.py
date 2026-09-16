@@ -23,6 +23,8 @@ if sys.stderr.encoding and sys.stderr.encoding.lower() != "utf-8":
 from jinja2 import Environment, FileSystemLoader
 from playwright.sync_api import sync_playwright
 
+from report_dates import display_date
+
 # ─── PATHS ────────────────────────────────────────────────────────────────────
 SCRIPT_DIR   = Path(__file__).parent
 METRICS_FILE = SCRIPT_DIR / 'calculated_metrics_reconciled.json'
@@ -261,7 +263,7 @@ def main():
     metros = sorted(data['metros'], key=lambda x: x['weighted_percentile'], reverse=True)
     print(f'  {len(metros)} metros loaded')
 
-    calc_date = datetime.fromisoformat(data['calculation_timestamp']).strftime('%B %Y')
+    calc_date = display_date(data)
 
     # Prepare city data
     print('→ Preparing city data...')

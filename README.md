@@ -57,22 +57,40 @@ Generates a two-pass AI report per city using Together AI:
 
 Output: one Markdown file per city in `city_reports_ft_cautious/`.
 
-### Step 5 — PDF & Site Generation (local / on-demand)
-Three standalone scripts for publishing output:
+### Step 5 — PDF & Site Generation
+Three scripts for publishing output:
 
-| Script | Output |
-|--------|--------|
-| `generate_pdf_report.py` | Full PDF report — `pdf_output/city_economic_report_YYYY-MM-DD.pdf` |
-| `generate_rankings_pdf.py` | Single-page landscape rankings — `pdf_output/city_rankings_YYYY-MM-DD.pdf` |
-| `generate_site.py` | Full static website — `site/` (index, rankings, methodology, 50 metro pages) |
+| Script | Output | In weekly run? |
+|--------|--------|----------------|
+| `generate_pdf_report.py` | Full PDF report — `pdf_output/city_economic_report_YYYY-MM-DD.pdf` | Yes |
+| `generate_site.py` | Full static website — `docs/` (index, rankings, methodology, 50 metro pages) | Yes |
+| `generate_rankings_pdf.py` | Single-page landscape rankings — `pdf_output/city_rankings_YYYY-MM-DD.pdf` | No — run manually |
 
-These are not part of the automated weekly run. Uses Jinja2 for HTML templating and Playwright (headless Chromium) for PDF rendering.
+Uses Jinja2 for HTML templating and Playwright (headless Chromium) for PDF rendering.
+
+`pdf_output/` is a build directory and is **not committed** — committing it
+rewrote ~1.2 MB of binary per week. Each run's PDFs are published as a workflow
+artifact (`economic-reports`, kept 90 days) instead. The copy the live site
+serves is `docs/pdfs/city_economic_report_latest.pdf`, which **is** tracked.
 
 ---
 
 ## Automation
 
-GitHub Actions runs steps 1–4 every Monday at 9:00 AM UTC (`.github/workflows/economic-data-weekly.yml`). Results are committed back to the repo automatically. Requires two repository secrets: `FRED_API_KEY` and `TOGETHER_API_KEY`.
+GitHub Actions runs the full pipeline — data pull, processing, scoring, briefs, PDF and site — every Monday at 9:00 AM UTC (`.github/workflows/economic-data-weekly.yml`). Results are committed back to the repo automatically. Requires two repository secrets: `FRED_API_KEY` and `TOGETHER_API_KEY`.
+
+### Failure behaviour
+
+Every step exits non-zero when it fails, so the workflow stops instead of publishing stale numbers under a fresh date:
+
+| Guard | Where | Effect |
+|-------|-------|--------|
+| Missing `FRED_API_KEY` | data pull | Run fails immediately |
+| Under 95% of metro series collected, or missing national metrics | data pull | `economic_data_combined.json` is left untouched; the partial pull is written to `economic_data_combined.FAILED.json` for debugging |
+| Source FRED data older than 10 days | scoring | Run fails; override with `--allow-stale` to deliberately re-score old data |
+| Any city brief that cannot be generated | LLM briefs | Run fails after 3 retries per city, rather than silently republishing last week's brief |
+
+Reports always display **when the FRED data was collected**, not when the scoring run happened.
 
 ---
 
@@ -81,9 +99,16 @@ GitHub Actions runs steps 1–4 every Monday at 9:00 AM UTC (`.github/workflows/
 **Requirements:** Python 3.11+
 
 ```bash
-pip install requests pandas openpyxl pillow together python-dotenv jinja2 playwright
+pip install -r requirements.txt
 playwright install chromium
 ```
+
+Dependencies are pinned to exact versions in `requirements.txt` so the weekly
+run cannot be broken by an upstream release. `requirements-dev.txt` adds the
+extras used by `testing/` only.
+
+To upgrade a package, bump its pin, run the pipeline locally, and commit only
+if the output is still correct.
 
 Create `.env` in `final.1/`:
 ```
@@ -96,7 +121,7 @@ TOGETHER_API_KEY=your_together_api_key
 python pull_economic_data_unified_FIXED.py
 python process_historical_data_v2_FIXED.py
 python calculate_metrics_reconciled_V6.py
-python city_econ_pipeline_cautious.py   # optional — requires TOGETHER_API_KEY
+python city_econ_pipeline.py            # optional — requires TOGETHER_API_KEY
 python generate_pdf_report.py           # optional — generates PDF + site
 python generate_rankings_pdf.py         # optional — rankings PDF only
 ```

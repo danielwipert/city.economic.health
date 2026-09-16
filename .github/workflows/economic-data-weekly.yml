@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pandas openpyxl pillow together python-dotenv jinja2 playwright
+          pip install -r requirements.txt
 
       - name: Install Playwright Chromium
         run: playwright install chromium --with-deps
@@ -48,6 +48,16 @@ jobs:
 
       - name: Generate website
         run: python generate_site.py
+
+      # pdf_output/ is no longer committed. Publish the PDFs here so each run's
+      # output stays retrievable; the copy the site serves is in docs/pdfs/.
+      - name: Upload PDF reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: economic-reports
+          path: pdf_output/*.pdf
+          retention-days: 90
+          if-no-files-found: error
 
       - name: Commit and push changes
         run: |

@@ -18,6 +18,7 @@ Usage:
 import os
 import json
 import re
+import time
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -46,6 +47,11 @@ MODEL_ID   = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
 JSON_PATH  = "calculated_metrics_reconciled.json"
 OUTPUT_DIR = Path("city_reports_ft_cautious")
 MAX_WORKERS = 4
+
+# Transient Together API blips should not fail the weekly run, but a city that
+# genuinely cannot be regenerated must not silently keep last week's brief.
+LLM_MAX_ATTEMPTS = 3
+LLM_RETRY_BACKOFF = 5  # seconds, multiplied by attempt number
 
 # ─── METRIC ORDER (matches the website scorecard) ─────────────────────────────
 
@@ -304,6 +310,25 @@ FORMAT RULES — follow exactly:
 
 def call_llm(prompt: str) -> str:
     client = Together(api_key=TOGETHER_API_KEY)
+    last_error = None
+
+    for attempt in range(1, LLM_MAX_ATTEMPTS + 1):
+        try:
+            return _complete(client, prompt)
+        except Exception as e:
+            last_error = e
+            if attempt < LLM_MAX_ATTEMPTS:
+                wait = LLM_RETRY_BACKOFF * attempt
+                print(f'  [retry] LLM call failed ({e}); retrying in {wait}s '
+                      f'[attempt {attempt}/{LLM_MAX_ATTEMPTS}]')
+                time.sleep(wait)
+
+    raise RuntimeError(
+        f'LLM call failed after {LLM_MAX_ATTEMPTS} attempts: {last_error}'
+    )
+
+
+def _complete(client, prompt: str) -> str:
     completion = client.chat.completions.create(
         model=MODEL_ID,
         messages=[
@@ -420,6 +445,7 @@ def main():
     print(f"→ Generating briefs ({MAX_WORKERS} parallel workers)...\n")
 
     futures = {}
+    failures = []
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         for city in cities:
             futures[executor.submit(process_city, city, df)] = city
@@ -431,6 +457,16 @@ def main():
                 print(f"  [OK]    {city:<30} → {path.name}")
             except Exception as e:
                 print(f"  [ERROR] {city:<30} → {e}")
+                failures.append(city)
+
+    if failures:
+        print(f"\n❌ {len(failures)} of {len(cities)} city briefs could not be generated:")
+        for city in sorted(failures):
+            print(f"     - {city}")
+        print()
+        print("Those cities still hold their previous brief on disk, which the site")
+        print("would republish as current analysis. Failing the run instead.")
+        sys.exit(1)
 
     print(f"\n✓ Done. Reports saved to: {OUTPUT_DIR.resolve()}")
     print("\nNext: run generate_site.py to rebuild the website.")

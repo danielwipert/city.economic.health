@@ -21,7 +21,8 @@ import json
 import re
 import shutil
 from pathlib import Path
-from datetime import datetime
+
+from report_dates import display_date
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
     sys.stdout.reconfigure(encoding='utf-8')
@@ -989,12 +990,7 @@ def load_data():
     with open(METRICS_FILE, encoding='utf-8') as f:
         data = json.load(f)
     metros = sorted(data['metros'], key=lambda x: x['weighted_percentile'], reverse=True)
-    ts = data.get('calculation_timestamp', '')
-    if ts:
-        calc_date = datetime.fromisoformat(ts).strftime('%B %Y')
-    else:
-        calc_date = data.get('calculation_date', 'April 2026')
-    return metros, calc_date
+    return metros, display_date(data)
 
 
 def prepare_city(metro: dict, rank: int) -> dict:
@@ -1135,9 +1131,18 @@ def copy_pdf(site_dir: Path) -> str:
         shutil.copy2(src, dest)
         print(f'  ✓ pdfs/city_economic_report_latest.pdf (from {src.name})')
         return 'pdfs/city_economic_report_latest.pdf'
-    else:
-        print('  ⚠ No PDF found — download button will be omitted')
-        return ''
+
+    # pdf_output/ is a build directory and is not committed, so a site-only
+    # rebuild from a fresh clone has no freshly generated PDF. Keep the copy
+    # already published under docs/pdfs/ rather than silently dropping the
+    # download button from the live site.
+    existing = pdfs_dir / 'city_economic_report_latest.pdf'
+    if existing.exists():
+        print('  ✓ pdfs/city_economic_report_latest.pdf (kept already-published copy)')
+        return 'pdfs/city_economic_report_latest.pdf'
+
+    print('  ⚠ No PDF found — download button will be omitted')
+    return ''
 
 
 # ─── WRITE HOMEPAGE ───────────────────────────────────────────────────────────
