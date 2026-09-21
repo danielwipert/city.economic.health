@@ -1,33 +1,33 @@
 # Baltimore-Columbia-Towson
 
-**Grade: B (Average) | 51.3th percentile | September 2026**
+**Grade: B (Average) | 54.0th percentile | September 2026**
 
 ---
 
-The Baltimore-Columbia-Towson metro area has an overall grade of B, ranking 51.3th percentile out of 50 US metros, with a composite score driven largely by its above-average wage growth and highly affordable cost of living, scoring 84th percentile. The city's economic character is defined by these two metrics, with wage growth at +4.94% YoY and a cost of living ratio of $214/sqft to $37.54/hr, indicating a relatively affordable environment. This affordability is further underscored by the cost of living's top-tier ranking.
+The Baltimore-Columbia-Towson metro area has an overall grade of B, ranking in the 54.0th percentile among 50 US metros, with a composite score driven largely by its strong wage growth and affordable cost of living, scoring 88th percentile in both metrics, with a wage growth rate of +5.99% and a cost of living ratio of $214/sqft vs $37.96/hr. The city's economic character is defined by these two metrics, which signal a competitive labor market with rising earnings and a relatively low cost of living. Specifically, the cost of living is becoming more affordable, with PSF falling by 3.2% YoY.
 
 **Labor Demand**
-The employment growth rate in Baltimore-Columbia-Towson is -0.10% YoY, combined with a -0.673% deviation in weekly hours from its own trend, signaling a contraction in labor demand. This combination indicates a lack of genuine demand expansion, suggesting that the labor market is not experiencing significant growth. The negative hours deviation alongside negative employment growth points to a weakening labor market.
+The employment growth rate in Baltimore-Columbia-Towson is -0.47% YoY, and weekly hours are deviating -0.175% from the city's own 12-month baseline, resulting in a labor demand composite score of 3.64, which ranks in the bottom tier at 18th percentile. This combination signals a contraction in labor demand, indicating that the city is experiencing a slowdown in job growth and hours worked. This suggests that businesses may face less competition for labor, but also a less dynamic job market.
 
 **Unemployment**
-The unemployment rate in Baltimore-Columbia-Towson is 4.20%, placing it near the median at the 56th percentile. This rate suggests that the labor market has some slack, making it slightly easier for businesses to hire compared to tighter markets. However, it's not so high as to indicate a severely weak local consumer demand, offering a relatively balanced environment for hiring.
+The unemployment rate in Baltimore-Columbia-Towson is 4.20%, ranking near the median at 56th percentile, indicating a relatively balanced labor market with some slack. This means that businesses may find it moderately easy to hire workers, without excessive wage pressure. However, the market is not so loose that it would lead to a significant surplus of available labor.
 
 **Wage Growth**
-Wage growth in the area is +4.94% YoY, which is above average, ranking at the 68th percentile. This fast wage growth implies rising labor costs for employers but also indicates strong worker purchasing power. Businesses should anticipate higher payroll expenses but also a workforce with increasing disposable income.
+The year-over-year wage growth in Baltimore-Columbia-Towson is +5.99%, ranking in the top tier at 88th percentile, indicating fast-rising labor costs for employers. This strong wage growth is good for worker purchasing power, as employees are seeing significant increases in their earnings. However, this may put pressure on businesses to adjust their compensation packages to remain competitive.
 
 **Cost of Living**
-Baltimore-Columbia-Towson has a cost of living score that ranks at the 84th percentile, indicating it is more affordable compared to its peers. With a PSF of $214/sqft and hourly earnings of $37.54, the ratio of 5.70, combined with a -3.2% YoY change in PSF, suggests that the city offers a talent attraction advantage without needing significant wage premiums. This affordability is a major draw for businesses looking to attract and retain talent.
+Baltimore-Columbia-Towson has a cost of living ratio of $214/sqft vs $37.96/hr, with PSF falling by 3.2% YoY, resulting in a top-tier percentile rank of 88th, making it more affordable relative to peers. This means that the city has a talent attraction advantage, as workers can afford a higher standard of living without requiring wage premiums. The falling PSF is a key driver of this affordability, making the city an attractive location for businesses looking to relocate or expand.
 
 **Labor Force Growth**
-The civilian labor force in Baltimore-Columbia-Towson has a YoY growth rate of -0.04%, indicating a slightly contracting labor pool. This negative growth suggests a structural headwind for hiring, as the supply of potential workers is not expanding. Businesses may face challenges in finding new talent in a shrinking labor pool.
+The civilian labor force in Baltimore-Columbia-Towson is growing at a rate of -0.04% YoY, ranking near the median at 56th percentile, indicating a slightly contracting labor pool. This means that the supply of available workers is not expanding, which may pose a structural headwind for hiring in the long term. Businesses may need to consider strategies to attract workers from other areas or invest in workforce development programs.
 
 **Building Permits**
-The area has seen a -10.35% YoY change in residential building permits, signaling a tightening in housing supply. This decrease in permits suggests that future affordability and workforce accommodation may be at risk, as the supply of new housing is not keeping pace with potential demand. This could lead to increased housing costs and reduced attractiveness for relocating workers.
+The number of residential building permits in Baltimore-Columbia-Towson is decreasing by -10.35% YoY, ranking below average at 32nd percentile, indicating a tightening housing supply. This signals that future affordability and workforce accommodation may be at risk, as the supply of new housing is not keeping pace with demand. This could lead to increased competition for available housing and higher costs for workers.
 
 **Days on Market**
-The current median days on market is 44 days, with a +12.8% YoY increase, placing it at the 94th percentile. This slower market means homes are sitting longer before being sold, indicating a more accessible and less competitive environment for workers relocating to the city. However, in the context of a weakening labor market, this could also signal demand erosion.
+The current median days on market in Baltimore-Columbia-Towson is 44 days, with a YoY increase of +12.8%, resulting in a top-tier percentile rank of 94th. This means that homes are sitting on the market for longer, indicating a slower and more buyer-friendly market. For workers relocating to this city, this means that they may have more time to find a home and negotiate a better price, making the city a more accessible location.
 
 **Office Economy**
-Baltimore-Columbia-Towson has an office economy score that ranks at the 28th percentile, indicating a less deep professional talent pool compared to other metros. This suggests the city is less suited for businesses requiring a large pool of tech, finance, or consulting talent but may be more appropriate for industries with different workforce needs.
+Baltimore-Columbia-Towson has an office economy percentile rank of 36th, indicating a relatively shallow professional talent pool. This means that the city is less suited for businesses that require a deep pool of specialized office workers, such as tech or finance companies. However, the city may be more attractive to businesses that require a more general workforce or have a strong logistics or industrial component.
 
-The bottom line for businesses considering Baltimore-Columbia-Towson is that it offers a unique blend of affordability and above-average wage growth, making it an attractive location for talent. However, the single biggest risk or constraint is the contracting labor demand and shrinking labor pool, which could pose significant challenges for hiring and workforce expansion.
+The Baltimore-Columbia-Towson metro area offers businesses a competitive labor market with rising earnings and a relatively low cost of living, making it an attractive location for talent attraction and retention. However, the single biggest risk or constraint for decision-makers is the tightening housing supply, which may lead to increased competition for available housing and higher costs for workers, potentially offsetting the city's affordability advantages.

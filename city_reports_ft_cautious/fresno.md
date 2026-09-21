@@ -1,33 +1,33 @@
 # Fresno
 
-**Grade: C+ (Poor) | 42.9th percentile | September 2026**
+**Grade: C (Very Poor) | 32.5th percentile | September 2026**
 
 ---
 
-The city of Fresno has an overall grade of C+ with a composite score ranking it at the 42.9th percentile out of 50 US metros. The city's economic character is most defined by its strong labor demand, with a composite score in the top tier at the 80th percentile, and its high unemployment rate, which is in the bottom tier at the 0th percentile, standing at 7.70%. These two metrics signal a complex labor market with both opportunities and challenges.
+Fresno, with an overall grade of C and a composite score ranking it 32.5th percentile among 50 US metros, is characterized by its below-average labor demand and high unemployment rate, with 7.70% of the labor force unemployed. The labor demand composite score of 4.90 and unemployment rate are the two metrics that most define this city's current economic character, with the latter being a significant concern for businesses looking to hire. Specifically, the combination of a low labor demand score and high unemployment rate suggests a challenging environment for businesses.
 
 **Labor Demand**
-Fresno's employment growth rate is 2.47% year-over-year, and its weekly hours are -1.481% below its own trend, indicating a genuine demand expansion despite some inefficiencies in labor utilization. The combination of these metrics suggests that the city is adding jobs, but the hours worked are slightly below the trend, which may indicate some level of labor market tightening. This signals a labor market with strong job growth but potential for inefficiencies.
+Fresno's employment growth rate is +0.79% year-over-year, while weekly hours are -0.503% below the city's own trend, indicating a labor market that is not experiencing genuine demand expansion. This combination signals a contraction in labor demand, rather than a survivor squeeze, as hours are below trend despite some job growth. The labor demand composite score of 4.90 is below average, ranking 38th percentile.
 
 **Unemployment**
-The unemployment rate in Fresno is 7.70%, which is in the bottom tier, indicating a labor market with significant slack. This means that businesses trying to hire in this city may find it easier to staff their operations due to the available workforce. However, the high unemployment rate also implies weaker local consumer demand, which could affect businesses reliant on local spending.
+The unemployment rate in Fresno is 7.70%, which is the lowest percentile rank, indicating a significant amount of slack in the labor market. This means that the market is not tight, and businesses may find it easier to hire workers, but may also face weaker local consumer demand. The high unemployment rate has a practical implication for businesses trying to hire, as they may have a larger pool of potential candidates to choose from.
 
 **Wage Growth**
-The year-over-year wage growth in Fresno is 5.14%, which is above average, ranking in the 70th percentile. This rate of wage growth suggests that labor costs for employers are rising, but it also indicates good worker purchasing power. As wages grow faster than in many other cities, businesses may face increasing labor costs, but the local workforce will have more disposable income to spend.
+Wage growth in Fresno is +4.51% year-over-year, which is above average, ranking 66th percentile. This rate of wage growth is relatively fast, which implies rising labor costs for employers, but also good news for worker purchasing power. As wages rise, businesses may need to adjust their compensation packages to remain competitive, while workers may see an increase in their disposable income.
 
 **Cost of Living**
-Fresno has a cost of living score that ranks in the 33rd percentile, with a price per square foot of $263 and average hourly earnings of $33.85, resulting in a ratio of 7.77. This indicates that the city is less affordable than many of its peers, which could make it harder to attract talent without offering wage premiums. The slight increase in PSF year-over-year further suggests that affordability is not improving.
+Fresno has a cost of living score that ranks 43rd percentile, with a PSF of $263/sqft and average hourly earnings of $34.06/hr, resulting in a ratio of 7.72. This means that the city is near the median in terms of affordability, neither particularly expensive nor cheap compared to its peers. The fact that PSF is rising +0.4% year-over-year relative to wages suggests that affordability may be decreasing over time. This has implications for talent attraction, as businesses may not need to offer significant wage premiums to compensate for the cost of living.
 
 **Labor Force Growth**
-The civilian labor force in Fresno is shrinking at a rate of -1.42% year-over-year, indicating a contracting labor supply. This contraction implies a structural headwind for hiring, as the pool of available workers is decreasing. Businesses looking to expand or establish operations in Fresno may face challenges in finding the necessary talent.
+The civilian labor force in Fresno is shrinking at a rate of -1.42% year-over-year, indicating a contracting labor pool. This means that the supply of workers is decreasing, which may pose a structural headwind for hiring and business expansion. As the labor force contracts, businesses may need to compete more aggressively for a smaller pool of potential candidates.
 
 **Building Permits**
-The year-over-year change in residential building permits in Fresno is -6.89%, which is near the median but still indicates a tightening in housing supply. This decrease in building permits suggests that future affordability and workforce accommodation may be at risk, as the supply of new housing is not keeping pace with demand.
+The number of building permits in Fresno is decreasing at a rate of -6.89% year-over-year, which signals a tightening of the housing supply. This decrease in permits may lead to a supply squeeze in the future, making it more difficult for workers to find affordable housing and potentially eroding the city's attractiveness to relocating workers. The near-median percentile rank of 40th suggests that this trend is not drastically different from other cities.
 
 **Days on Market**
-The median days on market for homes in Fresno is 57 days, with no year-over-year change. This relatively slow pace indicates a buyer-friendly market, which could make it more accessible for relocating workers to find housing. However, the lack of change also suggests that the housing market is not becoming more competitive or dynamic.
+The median days on market in Fresno is 57 days, with a year-over-year change of +0.0%, indicating a relatively stable market. However, the below-average percentile rank of 28th suggests that homes are selling relatively quickly, which may make it challenging for relocating workers to find housing. This could be a concern for businesses looking to attract talent from outside the area.
 
 **Office Economy**
-Fresno's professional and office worker share ranks in the 36th percentile, indicating a relatively shallow talent pool in these sectors. This suggests that the city is less suited for businesses requiring deep knowledge-economy talent, such as tech, finance, or consulting firms, but may be more appropriate for industries with different workforce needs.
+Fresno's professional and office worker share is relatively low, ranking 18th percentile, indicating a shallow talent pool in these sectors. This suggests that the city is not well-suited for businesses that require a deep knowledge-economy talent pool, such as tech, finance, or consulting firms. Instead, the city may be more suitable for businesses with industrial or logistics-dominated economies.
 
-In conclusion, Fresno offers a complex economic environment with strong labor demand but significant challenges, including a high unemployment rate and a shrinking labor force. The single biggest risk or constraint for a business considering locating in Fresno is the potential difficulty in attracting and retaining talent due to the city's less affordable cost of living and tightening labor market.
+In conclusion, Fresno offers a unique combination of below-average labor demand and high unemployment, which may make it an attractive location for businesses looking for a large pool of potential candidates. However, the single biggest risk or constraint for businesses is the city's shrinking labor force, which may pose significant challenges for hiring and expansion. Decision-makers should carefully consider this factor when evaluating Fresno as a potential location for their business.
