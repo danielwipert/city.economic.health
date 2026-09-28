@@ -1,33 +1,33 @@
 # Austin-Round Rock-San Marcos
 
-**Grade: A- (Good) | 63.0th percentile | September 2026**
+**Grade: A (Very Good) | 67.0th percentile | September 2026**
 
 ---
 
-The Austin-Round Rock-San Marcos metro area has an overall grade of A- with a composite score ranking at the 63.0th percentile among 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the top tier at the 80th percentile, and its highly affordable cost of living, ranked at the 94th percentile. The combination of these metrics suggests a city with a thriving job market and attractive living costs.
+The Austin-Round Rock-San Marcos metro area has earned an overall grade of A, ranking in the 67.0th percentile among 50 US metros, with a composite score driven largely by its strong labor demand and highly affordable cost of living, as evidenced by a top-tier percentile rank of 94th in the latter metric, with a PSF to wages ratio of 6.09 ($231/sqft vs $37.93/hr). The city's labor demand composite score of 6.59 and cost of living score are the two metrics that most define its current economic character. With these numbers, Austin presents a unique blend of job market vitality and affordability.
 
 **Labor Demand**
-The Austin-Round Rock-San Marcos metro area has seen employment growth of +1.16% year-over-year and weekly hours deviation of +0.667% from its own trend, indicating genuine demand expansion. This combination signals that the city is experiencing a period of job growth where hours are running above trend, suggesting that businesses are not only hiring but also increasing the workload for existing employees. This is a positive indicator for companies looking to expand or establish operations in the area.
+The employment growth rate in Austin is +1.16% year-over-year, combined with a +0.667% deviation in weekly hours from its own 12-month baseline, signaling genuine demand expansion as hours are running above trend during a period of job growth. This combination indicates a strong and growing job market where businesses are not only adding jobs but also requiring more work hours from their existing employees. The top-tier percentile rank of 80th for labor demand reinforces this interpretation.
 
 **Unemployment**
-The unemployment rate in Austin-Round Rock-San Marcos stands at 4.00%, placing it near the median at the 44th percentile. This rate suggests that the job market has some slack, making it relatively easier for businesses to hire compared to cities with tighter labor markets. However, it also implies that local consumer demand might not be as strong as in areas with lower unemployment rates.
+The unemployment rate in Austin stands at 4.00%, placing it near the median in terms of labor market tightness, with a percentile rank of 44th. This rate suggests that while the market is not overly tight, it is also not excessively slack, implying a moderate level of competition for talent. For businesses trying to hire, this means they may face some competition, but it's still feasible to find qualified candidates without extreme wage pressure.
 
 **Wage Growth**
-The year-over-year wage growth in the metro area is +5.08%, ranking above average at the 70th percentile. This indicates a moderate to fast pace of wage growth, which could lead to rising labor costs for employers. On the other hand, it also suggests good worker purchasing power, potentially benefiting local businesses through increased consumer spending.
+Austin experiences a year-over-year wage growth of +5.08%, which is above average, ranking in the 70th percentile. This level of wage growth indicates that labor costs for employers are rising, but it also means that workers have increasing purchasing power. The implication is a dynamic labor market where businesses must balance the cost of attracting and retaining talent with the benefits of a growing, high-demand economy.
 
 **Cost of Living**
-With a cost of living ratio of $231/sqft to $37.93/hr, and a year-over-year decrease of -8.0% in PSF, Austin-Round Rock-San Marcos is highly affordable, ranked at the 94th percentile. This affordability is a significant talent attraction advantage, as businesses can attract and retain workers without needing to offer substantial wage premiums to offset high living costs.
+With a cost of living percentile rank of 94th, Austin is highly affordable relative to its peers, especially considering the PSF is $231/sqft and has been falling by -8.0% year-over-year, compared to hourly earnings of $37.93. This affordability is a significant talent attraction advantage, as businesses can recruit without needing to offer substantial wage premiums to offset high living costs.
 
 **Labor Force Growth**
-The civilian labor force in the metro area has grown by +0.80% year-over-year, ranking above average at the 78th percentile. This expansion in the labor force supply is a positive indicator for businesses, as it suggests that the pool of potential workers is increasing, making it easier to find and hire talent.
+The civilian labor force in Austin is growing at a rate of +0.80% year-over-year, indicating an expanding workforce supply. This growth is above average, ranking in the 78th percentile, which is a positive sign for businesses looking to hire, as it suggests a structural advantage in terms of hiring capacity and access to a growing pool of potential employees.
 
 **Building Permits**
-The year-over-year change in residential building permits is -29.04%, placing it in the bottom tier at the 10th percentile. This significant decrease in building permits suggests that the housing supply is tightening, which could lead to future affordability issues and challenges in accommodating a growing workforce.
+The year-over-year change in residential building permits is +2.50%, which, while only near the median, suggests that housing supply is slowly expanding. This expansion is a positive signal for future affordability and the ability of the workforce to find accommodation, though the moderate pace may not entirely keep up with demand, potentially leading to some affordability challenges.
 
 **Days on Market**
-Homes in Austin-Round Rock-San Marcos are currently sitting on the market for a median of 73 days, with a year-over-year increase of +1.4%. This indicates a slightly slower market, which could be seen as more accessible for workers relocating to the area, as they have more time to find a suitable home.
+Homes in Austin are currently sitting on the market for a median of 73 days, with a year-over-year increase of +1.4%. This situation indicates a slightly slower market, which can be beneficial for relocating workers, making it more accessible for them to find housing. However, the bottom-tier percentile rank of 16th for days on market suggests that, relative to other cities, Austin's housing market is still relatively competitive.
 
 **Office Economy**
-The share of jobs in professional and office sectors is significant, with the city ranking at the 94th percentile. This deep talent pool makes Austin-Round Rock-San Marcos highly suited for businesses in the tech, finance, consulting, and HQ sectors, but less ideal for those in industrial or logistics-dominant economies.
+Austin boasts a deep professional talent pool, with an office/professional worker share composite score ranking in the top tier at the 94th percentile. This makes the city highly suited for businesses in the tech, finance, consulting, and HQ sectors that rely on specialized knowledge-economy talent. Conversely, it may be less ideal for industries dominated by industrial or logistics roles.
 
-In conclusion, Austin-Round Rock-San Marcos offers businesses a unique combination of strong labor demand, affordable living costs, and a deep professional talent pool. However, the single biggest risk or constraint for decision-makers to consider is the tightening housing supply, signaled by the sharp decline in residential building permits, which could lead to future affordability issues and challenges in attracting and retaining workers.
+The bottom line for businesses considering Austin is that the city offers a compelling combination of strong labor demand, affordable cost of living, and a deep talent pool in professional sectors. However, the single biggest risk or constraint to factor in is the potential for housing affordability challenges if the supply of residential units does not keep pace with demand, which could impact the ability to attract and retain talent over the long term.

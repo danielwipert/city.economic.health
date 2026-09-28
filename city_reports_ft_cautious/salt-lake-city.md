@@ -1,33 +1,33 @@
 # Salt Lake City-Murray
 
-**Grade: A+ (Excellent) | 72.2th percentile | September 2026**
+**Grade: A+ (Excellent) | 71.8th percentile | September 2026**
 
 ---
 
-The Salt Lake City-Murray metro area has earned an overall grade of A+ with a composite score of 72.2th percentile, ranking it among the top US metros. This city's economic character is defined by its exceptional labor demand, with a composite score in the 90th percentile, and its strong office economy, ranking in the 92nd percentile. The labor demand is driven by a 2.49% year-over-year employment growth rate and a -0.398% deviation in weekly hours from its own trend.
+The Salt Lake City-Murray metro area has earned an overall grade of A+ with a composite score of 71.8th percentile, ranking it among the top US metros. This city's economic character is largely defined by its strong labor demand, with a composite score in the 90th percentile, and its deep professional talent pool, ranking in the 92nd percentile. The combination of a 2.49% employment growth rate and a -0.398% weekly hours deviation signals genuine demand expansion.
 
 **Labor Demand**
-The combination of a 2.49% employment growth rate and a -0.398% deviation in weekly hours signals genuine demand expansion, indicating that the city is adding jobs and workers are putting in slightly fewer hours than trend, suggesting a healthy and sustainable labor market. This is a positive sign for businesses looking to expand or relocate, as it indicates a strong and growing workforce. The labor demand composite score of 7.39 further reinforces this, placing the city in the top tier.
+The Salt Lake City-Murray metro area has seen a 2.49% employment growth rate year-over-year, combined with a -0.398% deviation in weekly hours from its own 12-month baseline. This combination signals a genuine demand expansion, indicating that the city is adding jobs and workers are putting in slightly fewer hours, suggesting a healthy labor market. The labor demand composite score of 7.39 places the city in the top tier, with a 90th percentile rank.
 
 **Unemployment**
-The unemployment rate in Salt Lake City-Murray is 3.50%, which is in the 72nd percentile, indicating a relatively tight labor market. This means that businesses may face challenges in finding and hiring qualified workers, and may need to offer competitive wages to attract top talent. However, this also suggests that the local consumer demand is strong, which can be beneficial for businesses.
+The unemployment rate in Salt Lake City-Murray stands at 3.50%, placing it in the 72nd percentile. This indicates a relatively tight labor market, although not extremely so. For a business trying to hire in this city, the moderate unemployment rate means that while it may not be extremely difficult to find talent, there is still some competition for workers, and wages may be subject to upward pressure.
 
 **Wage Growth**
-The year-over-year wage growth rate in Salt Lake City-Murray is 4.49%, which is above average, ranking in the 64th percentile. This indicates that labor costs for employers are rising, but worker purchasing power is also increasing, which can be beneficial for businesses that rely on local consumer demand. The moderate wage growth suggests that businesses can expect to pay more for labor, but the increase is not excessive.
+The city has experienced a 4.49% year-over-year wage growth rate, ranking it in the 64th percentile. This moderate wage growth suggests that labor costs for employers are rising, but not extremely rapidly. At the same time, workers are seeing their purchasing power increase, which can have positive effects on local consumer demand.
 
 **Cost of Living**
-Salt Lake City-Murray has a cost of living score in the 37th percentile, with a PSF of $263/sqft and an average hourly earnings of $39.26/hr, resulting in a ratio of 6.70. This indicates that the city is relatively expensive compared to its peers, which may make it challenging to attract talent without offering wage premiums. The 0.8% year-over-year increase in PSF further reinforces this, suggesting that the city's affordability is decreasing.
+With a cost of living ratio of $263/sqft to $39.26/hr, resulting in a ratio of 6.70, Salt Lake City-Murray ranks in the 37th percentile for affordability. This means the city is relatively expensive compared to its peers. The modest affordability score implies that attracting talent may require wage premiums to offset the higher cost of living.
 
 **Labor Force Growth**
-The civilian labor force in Salt Lake City-Murray is growing at a rate of 1.13% year-over-year, which is in the top tier, ranking in the 86th percentile. This indicates that the workforce supply is expanding, which is a positive sign for businesses looking to hire and grow. The increasing labor force suggests that businesses will have access to a growing pool of potential employees.
+The civilian labor force in Salt Lake City-Murray has grown by 1.13% year-over-year, placing it in the 86th percentile. This positive growth rate indicates that the workforce supply is expanding, which is a favorable condition for businesses looking to hire, as it suggests a growing pool of potential employees.
 
 **Building Permits**
-The number of building permits in Salt Lake City-Murray has increased by 40.08% year-over-year, which is in the top tier, ranking in the 88th percentile. This suggests that housing supply is expanding, which can help improve affordability and accommodate a growing workforce. The increase in building permits is a positive sign for businesses, as it indicates that the city is investing in its infrastructure and preparing for growth.
+The city has seen a 28.20% year-over-year increase in residential building permits, ranking it in the 84th percentile. This significant rise in permits suggests that housing supply is expanding, which can lead to improved affordability and a more accommodating environment for the workforce in the future.
 
 **Days on Market**
-The median days on market in Salt Lake City-Murray is 57 days, with a year-over-year decrease of 1.7%. This indicates that the housing market is relatively competitive, with homes selling quickly. However, the decrease in days on market suggests that the market is still accessible for relocating workers, and businesses can expect a relatively smooth transition for new employees.
+Homes in Salt Lake City-Murray are currently selling in a median of 57 days, with a -1.7% year-over-year change, placing the city in the 22nd percentile. This relatively fast pace of home sales indicates a competitive market for relocating workers, potentially making it challenging for them to find and secure housing.
 
 **Office Economy**
-Salt Lake City-Murray has a deep professional talent pool, ranking in the 92nd percentile, with a share of 4.32 out of 5. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, which require a high concentration of specialized workers. However, the city may be less suitable for businesses in industrial or logistics-dominant sectors, which require a different type of workforce.
+The city's professional and office worker share is ranked in the 92nd percentile, indicating a deep and talented pool of workers suited for tech, finance, consulting, and HQ decisions. This makes Salt Lake City-Murray an attractive location for businesses in these sectors, but less ideal for those in industrial or logistics-dominant fields.
 
-The Salt Lake City-Murray metro area offers businesses a unique combination of strong labor demand, a deep professional talent pool, and a growing workforce. However, the relatively high cost of living and tight labor market may pose challenges for businesses looking to attract and retain top talent, making it essential for decision-makers to factor in these constraints when considering relocation or expansion in this city. Overall, the city's strong economic character and growing infrastructure make it an attractive location for businesses, but careful planning and strategic decision-making are necessary to navigate its competitive labor market.
+In conclusion, Salt Lake City-Murray offers businesses a strong labor market with genuine demand expansion, a growing workforce, and a deep professional talent pool. However, the relatively high cost of living and competitive housing market may pose challenges for attracting and retaining talent without offering wage premiums, making it a key consideration for decision-makers.
