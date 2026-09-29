@@ -1,10 +1,10 @@
 # Orlando-Kissimmee-Sanford
 
-**Grade: B+ (Above Average) | 56.6th percentile | September 2026**
+**Grade: B (Average) | 56.6th percentile | September 2026**
 
 ---
 
-The Orlando-Kissimmee-Sanford metro area has earned an overall grade of B+ with a composite score ranking it at the 56.6th percentile among 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the 72nd percentile, and its top-tier wage growth of 6.12% year-over-year. The combination of these metrics suggests a city with a robust job market and increasing labor costs.
+The Orlando-Kissimmee-Sanford metro area has earned an overall grade of B with a composite score ranking it at the 56.6th percentile among 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the 72nd percentile, and its top-tier wage growth of 6.12% year-over-year. The combination of these metrics suggests a city with a robust job market and increasing labor costs.
 
 **Labor Demand**
 The Orlando-Kissimmee-Sanford metro area has seen employment growth of 0.80% year-over-year and weekly hours 0.783% above its own trend, indicating genuine demand expansion. This combination signals that the city is adding jobs and workers are putting in more hours, a positive sign for businesses looking to expand. The labor demand composite score of 6.20 further reinforces this trend, placing it in the 72nd percentile.

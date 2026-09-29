@@ -1,10 +1,10 @@
 # Richmond
 
-**Grade: C (Very Poor) | 33.8th percentile | September 2026**
+**Grade: C- (Critical) | 33.8th percentile | September 2026**
 
 ---
 
-The Richmond metro area has an overall grade of C, ranking 33.8th percentile out of 50 US metros, with a labor demand composite score of 2.93, placing it in the bottom tier. The city's economic character is most defined by its low labor demand and high building permit growth, with employment growth at -0.82% year-over-year and building permits increasing by 83.77% year-over-year. These metrics signal a complex economic environment, with both challenges and opportunities for businesses.
+The Richmond metro area has an overall grade of C-, ranking 33.8th percentile out of 50 US metros, with a labor demand composite score of 2.93, placing it in the bottom tier. The city's economic character is most defined by its low labor demand and high building permit growth, with employment growth at -0.82% year-over-year and building permits increasing by 83.77% year-over-year. These metrics signal a complex economic environment, with both challenges and opportunities for businesses.
 
 **Labor Demand**
 The employment growth rate in Richmond is -0.82% year-over-year, and weekly hours are deviating from the trend by +0.219%. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. This indicates a challenging labor market for businesses looking to hire and expand.

@@ -1,10 +1,10 @@
 # Cincinnati
 
-**Grade: A+ (Excellent) | 68.4th percentile | September 2026**
+**Grade: A (Very Good) | 68.4th percentile | September 2026**
 
 ---
 
-Cincinnati earns an overall grade of A+ with a composite score of 68.4th percentile, ranking it among the top US metros. The city's economic character is most defined by its exceptionally low unemployment rate of 3.70% and high wage growth of 8.11% year-over-year. These metrics signal a highly competitive labor market with strong demand for workers.
+Cincinnati earns an overall grade of A with a composite score of 68.4th percentile, ranking it among the top US metros. The city's economic character is most defined by its exceptionally low unemployment rate of 3.70% and high wage growth of 8.11% year-over-year. These metrics signal a highly competitive labor market with strong demand for workers.
 
 **Labor Demand**
 Cincinnati's employment growth rate is 0.31% year-over-year, and weekly hours are deviating by 0.00% from its own 12-month baseline, resulting in a labor demand composite score of 4.73. This combination signals a modest expansion of genuine demand, as hours are not significantly above trend despite job growth. However, the low labor demand score suggests that the city's job market is not as robust as its low unemployment rate might suggest.

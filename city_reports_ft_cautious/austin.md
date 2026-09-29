@@ -1,10 +1,10 @@
 # Austin-Round Rock-San Marcos
 
-**Grade: A (Very Good) | 67.0th percentile | September 2026**
+**Grade: A- (Good) | 67.0th percentile | September 2026**
 
 ---
 
-The Austin-Round Rock-San Marcos metro area has earned an overall grade of A, ranking in the 67.0th percentile among 50 US metros, with a composite score driven largely by its strong labor demand and highly affordable cost of living, as evidenced by a top-tier percentile rank of 94th in the latter metric, with a PSF to wages ratio of 6.09 ($231/sqft vs $37.93/hr). The city's labor demand composite score of 6.59 and cost of living score are the two metrics that most define its current economic character. With these numbers, Austin presents a unique blend of job market vitality and affordability.
+The Austin-Round Rock-San Marcos metro area has earned an overall grade of A-, ranking in the 67.0th percentile among 50 US metros, with a composite score driven largely by its strong labor demand and highly affordable cost of living, as evidenced by a top-tier percentile rank of 94th in the latter metric, with a PSF to wages ratio of 6.09 ($231/sqft vs $37.93/hr). The city's labor demand composite score of 6.59 and cost of living score are the two metrics that most define its current economic character. With these numbers, Austin presents a unique blend of job market vitality and affordability.
 
 **Labor Demand**
 The employment growth rate in Austin is +1.16% year-over-year, combined with a +0.667% deviation in weekly hours from its own 12-month baseline, signaling genuine demand expansion as hours are running above trend during a period of job growth. This combination indicates a strong and growing job market where businesses are not only adding jobs but also requiring more work hours from their existing employees. The top-tier percentile rank of 80th for labor demand reinforces this interpretation.

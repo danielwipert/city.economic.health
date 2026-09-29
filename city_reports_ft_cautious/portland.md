@@ -1,10 +1,10 @@
 # Portland-Vancouver-Hillsboro
 
-**Grade: C+ (Poor) | 42.4th percentile | September 2026**
+**Grade: C (Very Poor) | 42.4th percentile | September 2026**
 
 ---
 
-The Portland-Vancouver-Hillsboro metro area has an overall grade of C+ with a composite score ranking it 42.4th percentile out of 50 US metros. This city's economic character is most defined by its weak labor demand, with a labor demand composite score in the bottom tier, and strong wage growth, with a year-over-year increase of 5.68%. The combination of these metrics suggests a challenging environment for businesses looking to hire and expand.
+The Portland-Vancouver-Hillsboro metro area has an overall grade of C with a composite score ranking it 42.4th percentile out of 50 US metros. This city's economic character is most defined by its weak labor demand, with a labor demand composite score in the bottom tier, and strong wage growth, with a year-over-year increase of 5.68%. The combination of these metrics suggests a challenging environment for businesses looking to hire and expand.
 
 **Labor Demand**
 The employment growth rate in Portland-Vancouver-Hillsboro is -1.52% year-over-year, and weekly hours are deviating from the trend by +0.368%. This combination signals a contraction in labor demand, indicating that the city is experiencing a decline in job creation. The positive deviation in weekly hours may suggest a survivor squeeze, where remaining workers are absorbing the load of eliminated roles.

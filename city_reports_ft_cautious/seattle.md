@@ -1,10 +1,10 @@
 # Seattle-Tacoma-Bellevue
 
-**Grade: B (Average) | 50.7th percentile | September 2026**
+**Grade: B- (Below Average) | 50.7th percentile | September 2026**
 
 ---
 
-The Seattle-Tacoma-Bellevue metro area has an overall grade of B, ranking in the 50.7th percentile out of 50 US metros, with a composite score driven largely by its above-average labor demand and strong wage growth, at 66th and 76th percentiles, respectively. The city's economic character is defined by these two metrics, with employment growth at 0.88% year-over-year and weekly hours 0.406% above trend. This combination signals genuine demand expansion, with jobs being added and hours running above trend.
+The Seattle-Tacoma-Bellevue metro area has an overall grade of B-, ranking in the 50.7th percentile out of 50 US metros, with a composite score driven largely by its above-average labor demand and strong wage growth, at 66th and 76th percentiles, respectively. The city's economic character is defined by these two metrics, with employment growth at 0.88% year-over-year and weekly hours 0.406% above trend. This combination signals genuine demand expansion, with jobs being added and hours running above trend.
 
 **Labor Demand**
 The employment growth rate of 0.88% and hours deviation of 0.406% above trend indicate a strong labor market, signaling genuine demand expansion. This combination suggests that the city is experiencing an increase in jobs and working hours, which is a positive sign for businesses looking to expand or establish themselves in the area. The labor demand composite score of 5.94, ranking in the 66th percentile, further supports this assessment.

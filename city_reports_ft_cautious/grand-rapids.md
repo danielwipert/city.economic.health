@@ -1,10 +1,10 @@
 # Grand Rapids-Wyoming-Kentwood
 
-**Grade: C (Very Poor) | 32.1th percentile | September 2026**
+**Grade: C- (Critical) | 32.1th percentile | September 2026**
 
 ---
 
-The Grand Rapids-Wyoming-Kentwood metro area has an overall grade of C, ranking 32.1th percentile out of 50 US metros, with a composite score driven largely by its low labor demand and stagnant wage growth. The labor demand composite score of 4.59, combining a +0.68% employment growth rate and a -0.658% weekly hours deviation, signals a contraction in genuine demand expansion. This, coupled with the bottom-tier wage growth, defines the city's current economic character.
+The Grand Rapids-Wyoming-Kentwood metro area has an overall grade of C-, ranking 32.1th percentile out of 50 US metros, with a composite score driven largely by its low labor demand and stagnant wage growth. The labor demand composite score of 4.59, combining a +0.68% employment growth rate and a -0.658% weekly hours deviation, signals a contraction in genuine demand expansion. This, coupled with the bottom-tier wage growth, defines the city's current economic character.
 
 **Labor Demand**
 The employment growth rate of +0.68% and weekly hours deviation of -0.658% indicate a lack of genuine demand expansion, suggesting that while there is some job growth, it is not being accompanied by increased hours worked, which could signal a survivor squeeze where remaining workers absorb the load of eliminated roles. This combination does not bode well for businesses looking to expand or relocate, as it may indicate a lack of momentum in the labor market. The labor demand composite score of 4.59 further reinforces this notion, ranking below average at the 30th percentile.

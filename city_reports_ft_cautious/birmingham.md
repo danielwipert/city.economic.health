@@ -1,10 +1,10 @@
 # Birmingham
 
-**Grade: B- (Below Average) | 45.6th percentile | September 2026**
+**Grade: C+ (Poor) | 45.6th percentile | September 2026**
 
 ---
 
-Birmingham, with an overall grade of B- and a composite score ranking it 45.6th out of 50 US metros, is characterized by its above-average labor demand and top-tier building permit growth. The city's labor demand composite score of 5.94, driven by a +0.92% employment growth rate and +0.349% weekly hours deviation from its own trend, signals genuine demand expansion. Additionally, the +36.73% year-over-year change in building permits highlights a significant expansion in housing supply.
+Birmingham, with an overall grade of C+ and a composite score ranking it 45.6th out of 50 US metros, is characterized by its above-average labor demand and top-tier building permit growth. The city's labor demand composite score of 5.94, driven by a +0.92% employment growth rate and +0.349% weekly hours deviation from its own trend, signals genuine demand expansion. Additionally, the +36.73% year-over-year change in building permits highlights a significant expansion in housing supply.
 
 **Labor Demand**
 Birmingham's employment growth rate of +0.92% and weekly hours deviation of +0.349% from its own trend indicate a genuine demand expansion, as both jobs and hours worked are increasing. This combination suggests that the city is experiencing a period of economic growth, with businesses adding jobs and workers putting in more hours. The labor demand composite score of 5.94, ranking in the 64th percentile, further supports this assessment.

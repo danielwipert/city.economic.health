@@ -1,10 +1,10 @@
 # Memphis
 
-**Grade: C+ (Poor) | 40.1th percentile | September 2026**
+**Grade: C (Very Poor) | 40.1th percentile | September 2026**
 
 ---
 
-The city of Memphis has an overall grade of C+ with a composite score ranking it 40.1th percentile out of 50 US metros. The city's economic character is most defined by its low labor demand, with a composite score of 2.11, and its high cost of living affordability, with a ratio of $153/sqft to $33.22/hr, ranking in the top tier at the 98th percentile. The labor demand and cost of living metrics are crucial in understanding the city's current economic state, with the labor demand indicating a contraction and the cost of living suggesting an attractive environment for talent.
+The city of Memphis has an overall grade of C with a composite score ranking it 40.1th percentile out of 50 US metros. The city's economic character is most defined by its low labor demand, with a composite score of 2.11, and its high cost of living affordability, with a ratio of $153/sqft to $33.22/hr, ranking in the top tier at the 98th percentile. The labor demand and cost of living metrics are crucial in understanding the city's current economic state, with the labor demand indicating a contraction and the cost of living suggesting an attractive environment for talent.
 
 **Labor Demand**
 Memphis has an employment growth rate of -0.49% and a weekly hours deviation of +1.586% from its own trend. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. The low labor demand composite score of 2.11, ranking in the bottom tier at the 4th percentile, further supports this conclusion.

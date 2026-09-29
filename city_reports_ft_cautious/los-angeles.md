@@ -1,10 +1,10 @@
 # Los Angeles-Long Beach-Anaheim
 
-**Grade: B (Average) | 50.3th percentile | September 2026**
+**Grade: B- (Below Average) | 50.3th percentile | September 2026**
 
 ---
 
-The Los Angeles-Long Beach-Anaheim metro area has an overall grade of B, ranking 50.3th percentile out of 50 US metros, with a composite score driven largely by its strong labor demand and building permits growth. The city's economic character is defined by its top-tier labor demand composite score of 7.01, which combines a +1.83% employment growth rate and a +0.151% weekly hours deviation from its own trend. This signals a genuine demand expansion, with jobs being added and hours running above trend.
+The Los Angeles-Long Beach-Anaheim metro area has an overall grade of B-, ranking 50.3th percentile out of 50 US metros, with a composite score driven largely by its strong labor demand and building permits growth. The city's economic character is defined by its top-tier labor demand composite score of 7.01, which combines a +1.83% employment growth rate and a +0.151% weekly hours deviation from its own trend. This signals a genuine demand expansion, with jobs being added and hours running above trend.
 
 **Labor Demand**
 The employment growth rate of +1.83% and weekly hours deviation of +0.151% indicate a strong labor market with genuine demand expansion. This combination signals that the city is experiencing an increase in jobs and working hours, which is a positive indicator for businesses looking to expand or relocate. The labor demand composite score of 7.01, ranking in the 88th percentile, further reinforces this trend.

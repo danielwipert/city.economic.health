@@ -1,10 +1,10 @@
 # Nashville-Davidson--Murfreesboro--Franklin
 
-**Grade: B (Average) | 52.4th percentile | September 2026**
+**Grade: B- (Below Average) | 52.4th percentile | September 2026**
 
 ---
 
-Nashville-Davidson--Murfreesboro--Franklin has an overall grade of B, ranking 52.4th percentile among 50 US metros, with a composite score reflecting a near median performance across key economic metrics. The city's economic character is most defined by its low unemployment rate of 3.10% and its near median labor demand composite score of 5.26, indicating a balance between job growth and labor utilization. Specifically, the combination of a 92nd percentile unemployment rate and 46th percentile labor demand score suggests a tight labor market with genuine demand expansion.
+Nashville-Davidson--Murfreesboro--Franklin has an overall grade of B-, ranking 52.4th percentile among 50 US metros, with a composite score reflecting a near median performance across key economic metrics. The city's economic character is most defined by its low unemployment rate of 3.10% and its near median labor demand composite score of 5.26, indicating a balance between job growth and labor utilization. Specifically, the combination of a 92nd percentile unemployment rate and 46th percentile labor demand score suggests a tight labor market with genuine demand expansion.
 
 **Labor Demand**
 The city's employment growth rate is +0.65% year-over-year, and weekly hours are deviating +0.047% from the 12-month baseline, signaling genuine demand expansion. This combination indicates that jobs are being added and hours are running above trend, suggesting a healthy labor market. The labor demand composite score of 5.26, ranking near the median at 46th percentile, further supports this interpretation.

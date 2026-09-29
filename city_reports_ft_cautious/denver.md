@@ -1,10 +1,10 @@
 # Denver-Aurora-Centennial
 
-**Grade: B- (Below Average) | 44.8th percentile | September 2026**
+**Grade: C+ (Poor) | 44.8th percentile | September 2026**
 
 ---
 
-The Denver-Aurora-Centennial metro area has an overall grade of B- with a composite score ranking at the 44.8th percentile out of 50 US metros. This city's economic character is most defined by its labor demand, with a composite score at the 68th percentile, and its cost of living, which ranks at the 63rd percentile, indicating a relatively affordable environment. The labor demand and cost of living metrics are crucial in understanding the city's economic landscape, with employment growth at +0.10% and weekly hours deviation at +1.564%.
+The Denver-Aurora-Centennial metro area has an overall grade of C+ with a composite score ranking at the 44.8th percentile out of 50 US metros. This city's economic character is most defined by its labor demand, with a composite score at the 68th percentile, and its cost of living, which ranks at the 63rd percentile, indicating a relatively affordable environment. The labor demand and cost of living metrics are crucial in understanding the city's economic landscape, with employment growth at +0.10% and weekly hours deviation at +1.564%.
 
 **Labor Demand**
 The employment growth rate of +0.10% and weekly hours deviation of +1.564% signal genuine demand expansion, as hours are running above trend during a period of job growth. This combination indicates that the city is experiencing a real increase in labor demand, rather than just a survivor squeeze where remaining workers absorb the load of eliminated roles. The labor demand composite score of 5.94 further supports this conclusion, ranking at the 68th percentile.

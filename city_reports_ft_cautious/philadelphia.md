@@ -1,10 +1,10 @@
 # Philadelphia-Camden-Wilmington
 
-**Grade: A (Very Good) | 65.2th percentile | September 2026**
+**Grade: A- (Good) | 65.2th percentile | September 2026**
 
 ---
 
-The Philadelphia-Camden-Wilmington metro area has earned an overall grade of A, ranking in the 65.2th percentile among 50 US metros, with a composite score driven largely by its strong labor demand and labor force growth, which stand at 84th and 88th percentiles, respectively. The city's employment growth rate of 0.83% and weekly hours deviation of 1.300% above its own trend are key indicators of its economic character. With these metrics, Philadelphia-Camden-Wilmington presents a compelling case for businesses looking to expand or relocate.
+The Philadelphia-Camden-Wilmington metro area has earned an overall grade of A-, ranking in the 65.2th percentile among 50 US metros, with a composite score driven largely by its strong labor demand and labor force growth, which stand at 84th and 88th percentiles, respectively. The city's employment growth rate of 0.83% and weekly hours deviation of 1.300% above its own trend are key indicators of its economic character. With these metrics, Philadelphia-Camden-Wilmington presents a compelling case for businesses looking to expand or relocate.
 
 **Labor Demand**
 The employment growth rate of 0.83% combined with weekly hours 1.300% above the city's own trend signals genuine demand expansion, indicating that jobs are being added and hours are increasing, suggesting a healthy and growing economy. This combination is a strong indicator of labor market strength, pointing to increased economic activity. The labor demand composite score of 6.76 further reinforces this, placing the city in the top tier.

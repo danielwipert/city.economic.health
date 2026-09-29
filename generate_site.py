@@ -1611,16 +1611,16 @@ def write_methodology(date: str, site_dir: Path):
 
     grade_rows = ''
     grade_thresholds = [
-        ('68+',      'A+', 'Excellent'),
-        ('63&ndash;67.9',  'A',  'Very Good'),
-        ('59&ndash;62.9',  'A-', 'Good'),
-        ('55&ndash;58.9',  'B+', 'Above Average'),
-        ('50&ndash;54.9',  'B',  'Average'),
-        ('44&ndash;49.9',  'B-', 'Below Average'),
-        ('38&ndash;43.9',  'C+', 'Poor'),
-        ('32&ndash;37.9',  'C',  'Very Poor'),
-        ('26&ndash;31.9',  'C-', 'Critical'),
-        ('Below 26', 'D',  'Emergency'),
+        ('72+', 'A+', 'Excellent'),
+        ('68&ndash;71.9', 'A', 'Very Good'),
+        ('64&ndash;67.9', 'A-', 'Good'),
+        ('60&ndash;63.9', 'B+', 'Above Average'),
+        ('55&ndash;59.9', 'B', 'Average'),
+        ('50&ndash;54.9', 'B-', 'Below Average'),
+        ('44&ndash;49.9', 'C+', 'Poor'),
+        ('38&ndash;43.9', 'C', 'Very Poor'),
+        ('30&ndash;37.9', 'C-', 'Critical'),
+        ('Below 30', 'D', 'Emergency'),
     ]
     for threshold, grade, desc in grade_thresholds:
         color = GRADE_COLORS.get(grade, '#64748B')
@@ -1956,9 +1956,9 @@ def write_methodology(date: str, site_dir: Path):
 
     <h2>Grade Thresholds</h2>
     <p>
-      Thresholds are calibrated to the actual achievable range of scores, not the theoretical
-      0&ndash;100. They are set so the grade distribution is meaningful and discriminating across
-      the full spectrum of metros.
+      The average metro scores about 48.5. Thresholds are deliberately strict: roughly the top 15%
+      of scores reach the A range and the typical metro earns a C+, so an A or B marks a metro that
+      is genuinely ahead of most of its peers.
     </p>
     <table class="meth-table grade-threshold-table" style="max-width:420px;">
       <thead>

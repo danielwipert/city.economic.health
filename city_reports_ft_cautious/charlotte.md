@@ -1,10 +1,10 @@
 # Charlotte-Concord-Gastonia
 
-**Grade: A (Very Good) | 66.9th percentile | September 2026**
+**Grade: A- (Good) | 66.9th percentile | September 2026**
 
 ---
 
-The Charlotte-Concord-Gastonia metro area has earned an overall grade of A, ranking in the 66.9th percentile among 50 US metros. This city's economic character is largely defined by its strong labor demand, with a composite score of 7.82, and its low unemployment rate of 3.70%. The combination of a 1.54% employment growth rate and a 1.361% deviation in weekly hours above trend suggests a genuine demand expansion.
+The Charlotte-Concord-Gastonia metro area has earned an overall grade of A-, ranking in the 66.9th percentile among 50 US metros. This city's economic character is largely defined by its strong labor demand, with a composite score of 7.82, and its low unemployment rate of 3.70%. The combination of a 1.54% employment growth rate and a 1.361% deviation in weekly hours above trend suggests a genuine demand expansion.
 
 **Labor Demand**
 The employment growth rate of 1.54% and weekly hours deviation of 1.361% above trend indicate a strong labor market with genuine demand expansion. This combination signals that the city is experiencing an increase in jobs and hours worked, suggesting a healthy and growing economy. The labor demand composite score of 7.82, ranking in the top tier at the 96th percentile, further reinforces this assessment.

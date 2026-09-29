@@ -1,10 +1,10 @@
 # Salt Lake City-Murray
 
-**Grade: A+ (Excellent) | 71.8th percentile | September 2026**
+**Grade: A (Very Good) | 71.8th percentile | September 2026**
 
 ---
 
-The Salt Lake City-Murray metro area has earned an overall grade of A+ with a composite score of 71.8th percentile, ranking it among the top US metros. This city's economic character is largely defined by its strong labor demand, with a composite score in the 90th percentile, and its deep professional talent pool, ranking in the 92nd percentile. The combination of a 2.49% employment growth rate and a -0.398% weekly hours deviation signals genuine demand expansion.
+The Salt Lake City-Murray metro area has earned an overall grade of A with a composite score of 71.8th percentile, ranking it among the top US metros. This city's economic character is largely defined by its strong labor demand, with a composite score in the 90th percentile, and its deep professional talent pool, ranking in the 92nd percentile. The combination of a 2.49% employment growth rate and a -0.398% weekly hours deviation signals genuine demand expansion.
 
 **Labor Demand**
 The Salt Lake City-Murray metro area has seen a 2.49% employment growth rate year-over-year, combined with a -0.398% deviation in weekly hours from its own 12-month baseline. This combination signals a genuine demand expansion, indicating that the city is adding jobs and workers are putting in slightly fewer hours, suggesting a healthy labor market. The labor demand composite score of 7.39 places the city in the top tier, with a 90th percentile rank.

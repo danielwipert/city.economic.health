@@ -1,10 +1,10 @@
 # St. Louis
 
-**Grade: A+ (Excellent) | 71.2th percentile | September 2026**
+**Grade: A (Very Good) | 71.2th percentile | September 2026**
 
 ---
 
-St. Louis boasts an overall grade of A+ with a composite score ranking at the 71.2th percentile among 50 US metros. The city's economic character is largely defined by its strong labor demand, with a composite score of 6.44, and its highly affordable cost of living, ranked at the 96th percentile. These metrics signal a city with a thriving job market and an attractive environment for talent.
+St. Louis boasts an overall grade of A with a composite score ranking at the 71.2th percentile among 50 US metros. The city's economic character is largely defined by its strong labor demand, with a composite score of 6.44, and its highly affordable cost of living, ranked at the 96th percentile. These metrics signal a city with a thriving job market and an attractive environment for talent.
 
 **Labor Demand**
 St. Louis exhibits a notable employment growth rate of +0.68% year-over-year, combined with a +1.193% deviation in weekly hours above its own trend. This combination signals genuine demand expansion, indicating that the city is experiencing a real increase in job opportunities and working hours. This is a positive sign for businesses looking to establish or expand operations in the area.
