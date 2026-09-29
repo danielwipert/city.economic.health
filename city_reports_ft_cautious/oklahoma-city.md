@@ -1,6 +1,6 @@
 # Oklahoma City
 
-**Grade: C+ (Poor) | 44.2th percentile | September 2026**
+**Grade: C+ (Fair) | 44.2th percentile | September 2026**
 
 ---
 

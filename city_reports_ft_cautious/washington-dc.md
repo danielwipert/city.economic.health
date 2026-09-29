@@ -1,6 +1,6 @@
 # Washington-Arlington-Alexandria
 
-**Grade: C+ (Poor) | 47.3th percentile | September 2026**
+**Grade: C+ (Fair) | 47.3th percentile | September 2026**
 
 ---
 

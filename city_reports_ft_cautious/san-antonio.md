@@ -1,6 +1,6 @@
 # San Antonio-New Braunfels
 
-**Grade: C+ (Poor) | 46.6th percentile | September 2026**
+**Grade: C+ (Fair) | 46.6th percentile | September 2026**
 
 ---
 

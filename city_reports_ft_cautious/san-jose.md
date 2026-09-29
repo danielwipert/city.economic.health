@@ -1,6 +1,6 @@
 # San Jose-Sunnyvale-Santa Clara
 
-**Grade: C+ (Poor) | 44.6th percentile | September 2026**
+**Grade: C+ (Fair) | 44.6th percentile | September 2026**
 
 ---
 

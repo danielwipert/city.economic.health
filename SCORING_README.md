@@ -276,7 +276,7 @@ Across every weekly run the average metro scores about 48.5. The thresholds are 
 | 60+ | B+ | Above Average |
 | 55+ | B | Average |
 | 50+ | B- | Below Average |
-| 44+ | C+ | Poor |
+| 44+ | C+ | Fair |
 | 38+ | C | Very Poor |
 | 30+ | C- | Critical |
 | Below 30 | D | Emergency |

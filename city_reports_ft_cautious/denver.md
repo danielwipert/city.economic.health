@@ -1,6 +1,6 @@
 # Denver-Aurora-Centennial
 
-**Grade: C+ (Poor) | 44.8th percentile | September 2026**
+**Grade: C+ (Fair) | 44.8th percentile | September 2026**
 
 ---
 

@@ -1,6 +1,6 @@
 # Boston-Cambridge-Newton
 
-**Grade: C+ (Poor) | 45.4th percentile | September 2026**
+**Grade: C+ (Fair) | 45.4th percentile | September 2026**
 
 ---
 

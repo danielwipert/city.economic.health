@@ -1,6 +1,6 @@
 # Birmingham
 
-**Grade: C+ (Poor) | 45.6th percentile | September 2026**
+**Grade: C+ (Fair) | 45.6th percentile | September 2026**
 
 ---
 

@@ -1,6 +1,6 @@
 # Providence-Warwick
 
-**Grade: C+ (Poor) | 44.3th percentile | September 2026**
+**Grade: C+ (Fair) | 44.3th percentile | September 2026**
 
 ---
 
