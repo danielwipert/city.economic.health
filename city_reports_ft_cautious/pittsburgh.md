@@ -1,10 +1,10 @@
 # Pittsburgh
 
-**Grade: B+ (Above Average) | 58.1th percentile | September 2026**
+**Grade: A- (Good) | 58.1th percentile | September 2026**
 
 ---
 
-Pittsburgh earns an overall grade of B+ with a composite score ranking it at the 58.1th percentile among 50 US metros. The city's economic character is most defined by its low unemployment rate of 3.70% and its strong labor force growth of 1.61% YoY. These metrics suggest a tight labor market with a growing workforce.
+Pittsburgh earns an overall grade of A- with a composite score ranking it at the 58.1th percentile among 50 US metros. The city's economic character is most defined by its low unemployment rate of 3.70% and its strong labor force growth of 1.61% YoY. These metrics suggest a tight labor market with a growing workforce.
 
 **Labor Demand**
 Pittsburgh's employment growth rate is -0.05% YoY, and weekly hours are deviating 0.173% above its own trend. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. The labor demand composite score of 4.06 ranks below average at the 24th percentile.

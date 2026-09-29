@@ -1,10 +1,10 @@
 # Chicago-Naperville-Elgin
 
-**Grade: C- (Critical) | 29.9th percentile | September 2026**
+**Grade: C (Very Poor) | 29.9th percentile | September 2026**
 
 ---
 
-The Chicago-Naperville-Elgin metro area has an overall grade of C- with a composite score ranking it at the 29.9th percentile out of 50 US metros. This city's economic character is most defined by its low labor force growth rate of -2.46% YoY and its high cost of living, with a PSF to earnings ratio of 5.87, ranking it in the 18th percentile for affordability. The combination of these metrics suggests a challenging environment for businesses looking to hire and expand.
+The Chicago-Naperville-Elgin metro area has an overall grade of C with a composite score ranking it at the 29.9th percentile out of 50 US metros. This city's economic character is most defined by its low labor force growth rate of -2.46% YoY and its high cost of living, with a PSF to earnings ratio of 5.87, ranking it in the 18th percentile for affordability. The combination of these metrics suggests a challenging environment for businesses looking to hire and expand.
 
 **Labor Demand**
 The employment growth rate in Chicago-Naperville-Elgin is +0.22% YoY, and weekly hours are deviating from the trend by +0.823%, indicating a near median labor demand composite score of 5.43. This combination signals a genuine demand expansion, albeit a modest one. The city's labor market is growing, but not at a rapid pace.

@@ -1,10 +1,10 @@
 # Louisville-Jefferson County
 
-**Grade: C- (Critical) | 27.0th percentile | September 2026**
+**Grade: C (Very Poor) | 27.0th percentile | September 2026**
 
 ---
 
-The Louisville-Jefferson County metro area has an overall grade of C- with a composite score ranking it at the 27.0th percentile out of 50 US metros. The city's economic character is most defined by its low labor demand, with a composite score in the bottom tier, and its slow wage growth, at +1.74% year-over-year. These metrics signal a challenging environment for businesses looking to expand or relocate.
+The Louisville-Jefferson County metro area has an overall grade of C with a composite score ranking it at the 27.0th percentile out of 50 US metros. The city's economic character is most defined by its low labor demand, with a composite score in the bottom tier, and its slow wage growth, at +1.74% year-over-year. These metrics signal a challenging environment for businesses looking to expand or relocate.
 
 **Labor Demand**
 The employment growth rate in Louisville-Jefferson County is -0.13% year-over-year, and weekly hours are deviating from the trend by +1.140%. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. The labor demand composite score of 2.98 is in the bottom tier, indicating a weak job market.

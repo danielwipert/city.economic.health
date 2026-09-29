@@ -234,20 +234,20 @@ The blend zone eliminates the cliff where a 1-day difference in DoM level caused
 
 ## Grade Thresholds
 
-Thresholds are calibrated to the achievable weighted-average range (~24–79) that results from averaging 8 percentile scores across 50 metros. No city can realistically score above ~79 on the weighted average.
+The average metro's weighted score sits near 48.5, so the B (Average) band is centred there and the bands above and below mirror each other in 6-point steps.
 
 | Grade | Threshold | Description |
 |-------|-----------|-------------|
-| A+ | ≥ 68 | Excellent |
-| A | ≥ 63 | Very Good |
-| A- | ≥ 59 | Good |
-| B+ | ≥ 55 | Above Average |
-| B | ≥ 50 | Average |
-| B- | ≥ 44 | Below Average |
-| C+ | ≥ 38 | Poor |
-| C | ≥ 32 | Very Poor |
-| C- | ≥ 26 | Critical |
-| D | < 26 | Emergency |
+| A+ | ≥ 70 | Excellent |
+| A | ≥ 64 | Very Good |
+| A- | ≥ 58 | Good |
+| B+ | ≥ 52 | Above Average |
+| B | ≥ 45 | Average |
+| B- | ≥ 39 | Below Average |
+| C+ | ≥ 33 | Poor |
+| C | ≥ 27 | Very Poor |
+| C- | ≥ 21 | Critical |
+| D | < 21 | Emergency |
 
 ---
 

@@ -1,10 +1,10 @@
 # Milwaukee-Waukesha
 
-**Grade: C+ (Poor) | 39.2th percentile | September 2026**
+**Grade: B- (Below Average) | 39.2th percentile | September 2026**
 
 ---
 
-The Milwaukee-Waukesha metro area has an overall grade of C+ with a composite score ranking it 39.2th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score of 3.95, and its stagnant wage growth, at +0.52% year-over-year. These metrics signal a challenging environment for businesses looking to expand or relocate.
+The Milwaukee-Waukesha metro area has an overall grade of B- with a composite score ranking it 39.2th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score of 3.95, and its stagnant wage growth, at +0.52% year-over-year. These metrics signal a challenging environment for businesses looking to expand or relocate.
 
 **Labor Demand**
 The employment growth rate in Milwaukee-Waukesha is -0.25% year-over-year, and weekly hours are deviating -1.588% from the city's own 12-month baseline. This combination signals a contraction in labor demand, indicating that the city is not adding jobs at a significant rate and existing workers are seeing reduced hours. This scenario suggests a lack of genuine demand expansion.

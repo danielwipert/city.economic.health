@@ -1,10 +1,10 @@
 # Columbus
 
-**Grade: B (Average) | 54.1th percentile | September 2026**
+**Grade: B+ (Above Average) | 54.1th percentile | September 2026**
 
 ---
 
-Columbus, with an overall grade of B and a composite score ranking it at the 54.1th percentile among 50 US metros, is characterized by its low unemployment rate of 3.20% and a labor demand composite score of 4.88, which ranks below average at the 36th percentile. The city's economic character is most defined by its tight labor market and moderate wage growth. Specifically, the combination of a +0.06% employment growth rate and +0.492% weekly hours deviation signals a genuine demand expansion, albeit at a slow pace.
+Columbus, with an overall grade of B+ and a composite score ranking it at the 54.1th percentile among 50 US metros, is characterized by its low unemployment rate of 3.20% and a labor demand composite score of 4.88, which ranks below average at the 36th percentile. The city's economic character is most defined by its tight labor market and moderate wage growth. Specifically, the combination of a +0.06% employment growth rate and +0.492% weekly hours deviation signals a genuine demand expansion, albeit at a slow pace.
 
 **Labor Demand**
 The employment growth rate in Columbus is +0.06% year-over-year, accompanied by a +0.492% deviation in weekly hours from its own 12-month baseline. This combination indicates a genuine demand expansion, as hours are running above trend during a period of job growth, suggesting that the economy is absorbing new workers. However, the pace of this expansion is slow, ranking below average at the 36th percentile.

@@ -1,10 +1,10 @@
 # Riverside-San Bernardino-Ontario
 
-**Grade: C (Very Poor) | 34.2th percentile | September 2026**
+**Grade: C+ (Poor) | 34.2th percentile | September 2026**
 
 ---
 
-The Riverside-San Bernardino-Ontario metro area has an overall grade of C, ranking 34.2th percentile out of 50 US metros, with a labor demand composite score of 5.20. This city's economic character is most defined by its high wage growth rate of +5.51% year-over-year and its low unemployment rate of 5.70%, which signals a tight labor market. The combination of these metrics suggests a challenging hiring environment for businesses.
+The Riverside-San Bernardino-Ontario metro area has an overall grade of C+, ranking 34.2th percentile out of 50 US metros, with a labor demand composite score of 5.20. This city's economic character is most defined by its high wage growth rate of +5.51% year-over-year and its low unemployment rate of 5.70%, which signals a tight labor market. The combination of these metrics suggests a challenging hiring environment for businesses.
 
 **Labor Demand**
 The employment growth rate in Riverside-San Bernardino-Ontario is +0.75% year-over-year, while weekly hours are deviating -0.149% from the city's own 12-month baseline. This combination signals a moderate labor demand expansion, with some genuine demand for jobs but not excessively high. The labor demand composite score of 5.20 is near the median, indicating a balanced job market.

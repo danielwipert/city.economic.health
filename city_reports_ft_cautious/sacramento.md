@@ -1,10 +1,10 @@
 # Sacramento-Roseville-Folsom
 
-**Grade: C+ (Poor) | 40.2th percentile | September 2026**
+**Grade: B- (Below Average) | 40.2th percentile | September 2026**
 
 ---
 
-The Sacramento-Roseville-Folsom metro area has an overall grade of C+ with a composite score ranking it 40.2th percentile out of 50 US metros. This city's economic character is most defined by its labor demand, with a composite score of 5.87 ranking it in the 62nd percentile, and its cost of living, which is in the 26th percentile due to a PSF to wages ratio of 8.82. The labor demand and cost of living metrics suggest a city with genuine demand expansion but limited affordability.
+The Sacramento-Roseville-Folsom metro area has an overall grade of B- with a composite score ranking it 40.2th percentile out of 50 US metros. This city's economic character is most defined by its labor demand, with a composite score of 5.87 ranking it in the 62nd percentile, and its cost of living, which is in the 26th percentile due to a PSF to wages ratio of 8.82. The labor demand and cost of living metrics suggest a city with genuine demand expansion but limited affordability.
 
 **Labor Demand**
 The employment growth rate in Sacramento-Roseville-Folsom is +0.76% year-over-year, combined with a +0.508% deviation in weekly hours from its own trend, signaling genuine demand expansion. This combination indicates that the city is adding jobs and workers are putting in more hours, suggesting a strong labor market. The labor demand composite score of 5.87 further supports this, ranking the city in the 62nd percentile.

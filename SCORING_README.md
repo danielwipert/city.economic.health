@@ -266,22 +266,22 @@ Grade thresholds are calibrated to the **actual achievable range** of weighted p
 
 Because the weighted score is an average of 8 individual percentile scores across 50 cities, the distribution compresses. No city can plausibly average 90+ across all 8 metrics simultaneously, and no city averages below 20. The practical range observed is approximately 21-79.
 
-Thresholds are set so the grade distribution is meaningful and discriminating across the full spectrum:
+Across every weekly run the average metro scores about 48.5. The thresholds centre the B (Average) band on that point, and the bands above and below mirror each other in 6-point steps (B+ mirrors B-, A- mirrors C+, and so on). A typical city therefore earns a plain B, and roughly the top 15% of scores reach the A range.
 
 | Threshold | Grade | Description |
 |-----------|-------|-------------|
-| 68+ | A+ | Excellent |
-| 63+ | A | Very Good |
-| 59+ | A- | Good |
-| 55+ | B+ | Above Average |
-| 50+ | B | Average |
-| 44+ | B- | Below Average |
-| 38+ | C+ | Poor |
-| 32+ | C | Very Poor |
-| 26+ | C- | Critical |
-| Below 26 | D | Emergency |
+| 70+ | A+ | Excellent |
+| 64+ | A | Very Good |
+| 58+ | A- | Good |
+| 52+ | B+ | Above Average |
+| 45+ | B | Average |
+| 39+ | B- | Below Average |
+| 33+ | C+ | Poor |
+| 27+ | C | Very Poor |
+| 21+ | C- | Critical |
+| Below 21 | D | Emergency |
 
-This produces a natural bell-curve distribution across the 50 metros with meaningful separation at every grade level. Cities in the A range are genuinely performing well across most metrics; D-grade cities have meaningful weakness across the board.
+This produces a roughly symmetric distribution around the typical metro with meaningful separation at every grade level. Cities in the A range are genuinely performing well across most metrics; D-grade cities have meaningful weakness across the board.
 
 ---
 

@@ -1,10 +1,10 @@
 # Cleveland
 
-**Grade: B (Average) | 52.0th percentile | September 2026**
+**Grade: B+ (Above Average) | 52.0th percentile | September 2026**
 
 ---
 
-Cleveland earns an overall grade of B, ranking at the 52.0th percentile among 50 US metros, with a composite score driven largely by its near-median labor demand and above-average unemployment rate, which stand at 5.27 and 3.40%, respectively. The city's economic character is also defined by its strong labor force growth of +1.80% YoY and its stagnant wage growth of +0.88% YoY. These metrics suggest a mixed economic environment with both opportunities and challenges for businesses.
+Cleveland earns an overall grade of B+, ranking at the 52.0th percentile among 50 US metros, with a composite score driven largely by its near-median labor demand and above-average unemployment rate, which stand at 5.27 and 3.40%, respectively. The city's economic character is also defined by its strong labor force growth of +1.80% YoY and its stagnant wage growth of +0.88% YoY. These metrics suggest a mixed economic environment with both opportunities and challenges for businesses.
 
 **Labor Demand**
 Cleveland's employment growth rate of +0.57% YoY and weekly hours deviation of +0.170% indicate a near-median labor demand composite score of 5.27, signaling a moderate expansion of genuine demand. This combination suggests that the city is experiencing a gradual increase in job creation and working hours, which is a positive sign for businesses looking to expand or relocate. However, the near-median score also implies that the demand is not exceptionally strong.

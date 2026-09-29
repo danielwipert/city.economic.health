@@ -1,10 +1,10 @@
 # San Diego-Chula Vista-Carlsbad
 
-**Grade: C+ (Poor) | 41.6th percentile | September 2026**
+**Grade: B- (Below Average) | 41.6th percentile | September 2026**
 
 ---
 
-The San Diego-Chula Vista-Carlsbad metro area has an overall grade of C+ with a composite score ranking it 41.6th percentile out of 50 US metros. This city's economic character is most defined by its high wage growth rate of 7.50% year-over-year and its low cost of living affordability score, ranking it in the 14th percentile. The combination of these two metrics suggests a city with rising labor costs but a challenging environment for attracting talent due to high costs.
+The San Diego-Chula Vista-Carlsbad metro area has an overall grade of B- with a composite score ranking it 41.6th percentile out of 50 US metros. This city's economic character is most defined by its high wage growth rate of 7.50% year-over-year and its low cost of living affordability score, ranking it in the 14th percentile. The combination of these two metrics suggests a city with rising labor costs but a challenging environment for attracting talent due to high costs.
 
 **Labor Demand**
 The employment growth rate in San Diego-Chula Vista-Carlsbad is 0.70% year-over-year, and weekly hours are deviating 0.152% above the city's own 12-month baseline. This combination signals a genuine demand expansion, as both jobs and hours are increasing, indicating a growing economy. However, the near-median percentile rank of 52nd suggests that this growth is not exceptionally strong compared to other metros.

@@ -71,12 +71,12 @@
       "weighted_percentile": 45.6,
       "weighted_score": 46,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
+        "letter": "B",
+        "emoji": "\u27a1\ufe0f",
+        "description": "Average",
         "percentile": 45.6
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\u27a1\ufe0f B"
     },
     {
       "metro_name": "Los Angeles-Long Beach-Anaheim",
@@ -171,12 +171,12 @@
       "weighted_percentile": 29.9,
       "weighted_score": 30,
       "grade": {
-        "letter": "C-",
-        "emoji": "\ud83d\udea8",
-        "description": "Critical",
+        "letter": "C",
+        "emoji": "\u26d4",
+        "description": "Very Poor",
         "percentile": 29.9
       },
-      "grade_display": "\ud83d\udea8 C-"
+      "grade_display": "\u26d4 C"
     },
     {
       "metro_name": "Dallas-Fort Worth-Arlington",
@@ -221,12 +221,12 @@
       "weighted_percentile": 58.3,
       "weighted_score": 58,
       "grade": {
-        "letter": "B+",
-        "emoji": "\ud83d\udcc8",
-        "description": "Above Average",
+        "letter": "A-",
+        "emoji": "\ud83d\udc4d",
+        "description": "Good",
         "percentile": 58.3
       },
-      "grade_display": "\ud83d\udcc8 B+"
+      "grade_display": "\ud83d\udc4d A-"
     },
     {
       "metro_name": "Houston-Pasadena-The Woodlands",
@@ -271,12 +271,12 @@
       "weighted_percentile": 47.8,
       "weighted_score": 48,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
+        "letter": "B",
+        "emoji": "\u27a1\ufe0f",
+        "description": "Average",
         "percentile": 47.8
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\u27a1\ufe0f B"
     },
     {
       "metro_name": "Miami-Fort Lauderdale-West Palm Beach",
@@ -371,12 +371,12 @@
       "weighted_percentile": 47.3,
       "weighted_score": 47,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
+        "letter": "B",
+        "emoji": "\u27a1\ufe0f",
+        "description": "Average",
         "percentile": 47.3
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\u27a1\ufe0f B"
     },
     {
       "metro_name": "Atlanta-Sandy Springs-Roswell",
@@ -421,12 +421,12 @@
       "weighted_percentile": 52.3,
       "weighted_score": 52,
       "grade": {
-        "letter": "B",
-        "emoji": "\u27a1\ufe0f",
-        "description": "Average",
+        "letter": "B+",
+        "emoji": "\ud83d\udcc8",
+        "description": "Above Average",
         "percentile": 52.3
       },
-      "grade_display": "\u27a1\ufe0f B"
+      "grade_display": "\ud83d\udcc8 B+"
     },
     {
       "metro_name": "Philadelphia-Camden-Wilmington",
@@ -521,12 +521,12 @@
       "weighted_percentile": 45.4,
       "weighted_score": 45,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
+        "letter": "B",
+        "emoji": "\u27a1\ufe0f",
+        "description": "Average",
         "percentile": 45.4
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\u27a1\ufe0f B"
     },
     {
       "metro_name": "Boston-Cambridge-Newton",
@@ -571,12 +571,12 @@
       "weighted_percentile": 45.4,
       "weighted_score": 45,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
+        "letter": "B",
+        "emoji": "\u27a1\ufe0f",
+        "description": "Average",
         "percentile": 45.4
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\u27a1\ufe0f B"
     },
     {
       "metro_name": "Riverside-San Bernardino-Ontario",
@@ -621,12 +621,12 @@
       "weighted_percentile": 34.2,
       "weighted_score": 34,
       "grade": {
-        "letter": "C",
-        "emoji": "\u26d4",
-        "description": "Very Poor",
+        "letter": "C+",
+        "emoji": "\ud83d\udcc9",
+        "description": "Poor",
         "percentile": 34.2
       },
-      "grade_display": "\u26d4 C"
+      "grade_display": "\ud83d\udcc9 C+"
     },
     {
       "metro_name": "San Francisco-Oakland-Fremont",
@@ -671,12 +671,12 @@
       "weighted_percentile": 52.5,
       "weighted_score": 53,
       "grade": {
-        "letter": "B",
-        "emoji": "\u27a1\ufe0f",
-        "description": "Average",
+        "letter": "B+",
+        "emoji": "\ud83d\udcc8",
+        "description": "Above Average",
         "percentile": 52.5
       },
-      "grade_display": "\u27a1\ufe0f B"
+      "grade_display": "\ud83d\udcc8 B+"
     },
     {
       "metro_name": "Detroit-Warren-Dearborn",
@@ -721,12 +721,12 @@
       "weighted_percentile": 25.7,
       "weighted_score": 26,
       "grade": {
-        "letter": "D",
-        "emoji": "\ud83d\udca5",
-        "description": "Emergency",
+        "letter": "C-",
+        "emoji": "\ud83d\udea8",
+        "description": "Critical",
         "percentile": 25.7
       },
-      "grade_display": "\ud83d\udca5 D"
+      "grade_display": "\ud83d\udea8 C-"
     },
     {
       "metro_name": "Seattle-Tacoma-Bellevue",
@@ -821,12 +821,12 @@
       "weighted_percentile": 39.4,
       "weighted_score": 39,
       "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
         "percentile": 39.4
       },
-      "grade_display": "\ud83d\udcc9 C+"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "Tampa-St. Petersburg-Clearwater",
@@ -921,12 +921,12 @@
       "weighted_percentile": 41.6,
       "weighted_score": 42,
       "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
         "percentile": 41.6
       },
-      "grade_display": "\ud83d\udcc9 C+"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "Denver-Aurora-Centennial",
@@ -1221,12 +1221,12 @@
       "weighted_percentile": 46.6,
       "weighted_score": 47,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
+        "letter": "B",
+        "emoji": "\u27a1\ufe0f",
+        "description": "Average",
         "percentile": 46.6
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\u27a1\ufe0f B"
     },
     {
       "metro_name": "Austin-Round Rock-San Marcos",
@@ -1321,12 +1321,12 @@
       "weighted_percentile": 42.4,
       "weighted_score": 42,
       "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
         "percentile": 42.4
       },
-      "grade_display": "\ud83d\udcc9 C+"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "Sacramento-Roseville-Folsom",
@@ -1371,12 +1371,12 @@
       "weighted_percentile": 40.2,
       "weighted_score": 40,
       "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
         "percentile": 40.2
       },
-      "grade_display": "\ud83d\udcc9 C+"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "Pittsburgh",
@@ -1421,12 +1421,12 @@
       "weighted_percentile": 58.1,
       "weighted_score": 58,
       "grade": {
-        "letter": "B+",
-        "emoji": "\ud83d\udcc8",
-        "description": "Above Average",
+        "letter": "A-",
+        "emoji": "\ud83d\udc4d",
+        "description": "Good",
         "percentile": 58.1
       },
-      "grade_display": "\ud83d\udcc8 B+"
+      "grade_display": "\ud83d\udc4d A-"
     },
     {
       "metro_name": "Las Vegas-Henderson-North Las Vegas",
@@ -1521,12 +1521,12 @@
       "weighted_percentile": 68.4,
       "weighted_score": 68,
       "grade": {
-        "letter": "A+",
-        "emoji": "\ud83d\ude80",
-        "description": "Excellent",
+        "letter": "A",
+        "emoji": "\u2705",
+        "description": "Very Good",
         "percentile": 68.4
       },
-      "grade_display": "\ud83d\ude80 A+"
+      "grade_display": "\u2705 A"
     },
     {
       "metro_name": "Kansas City",
@@ -1571,12 +1571,12 @@
       "weighted_percentile": 69.3,
       "weighted_score": 69,
       "grade": {
-        "letter": "A+",
-        "emoji": "\ud83d\ude80",
-        "description": "Excellent",
+        "letter": "A",
+        "emoji": "\u2705",
+        "description": "Very Good",
         "percentile": 69.3
       },
-      "grade_display": "\ud83d\ude80 A+"
+      "grade_display": "\u2705 A"
     },
     {
       "metro_name": "Columbus",
@@ -1621,12 +1621,12 @@
       "weighted_percentile": 54.1,
       "weighted_score": 54,
       "grade": {
-        "letter": "B",
-        "emoji": "\u27a1\ufe0f",
-        "description": "Average",
+        "letter": "B+",
+        "emoji": "\ud83d\udcc8",
+        "description": "Above Average",
         "percentile": 54.1
       },
-      "grade_display": "\u27a1\ufe0f B"
+      "grade_display": "\ud83d\udcc8 B+"
     },
     {
       "metro_name": "Indianapolis-Carmel-Greenwood",
@@ -1721,12 +1721,12 @@
       "weighted_percentile": 52.0,
       "weighted_score": 52,
       "grade": {
-        "letter": "B",
-        "emoji": "\u27a1\ufe0f",
-        "description": "Average",
+        "letter": "B+",
+        "emoji": "\ud83d\udcc8",
+        "description": "Above Average",
         "percentile": 52.0
       },
-      "grade_display": "\u27a1\ufe0f B"
+      "grade_display": "\ud83d\udcc8 B+"
     },
     {
       "metro_name": "Nashville-Davidson--Murfreesboro--Franklin",
@@ -1771,12 +1771,12 @@
       "weighted_percentile": 52.4,
       "weighted_score": 52,
       "grade": {
-        "letter": "B",
-        "emoji": "\u27a1\ufe0f",
-        "description": "Average",
+        "letter": "B+",
+        "emoji": "\ud83d\udcc8",
+        "description": "Above Average",
         "percentile": 52.4
       },
-      "grade_display": "\u27a1\ufe0f B"
+      "grade_display": "\ud83d\udcc8 B+"
     },
     {
       "metro_name": "San Jose-Sunnyvale-Santa Clara",
@@ -1871,12 +1871,12 @@
       "weighted_percentile": 37.8,
       "weighted_score": 38,
       "grade": {
-        "letter": "C",
-        "emoji": "\u26d4",
-        "description": "Very Poor",
+        "letter": "C+",
+        "emoji": "\ud83d\udcc9",
+        "description": "Poor",
         "percentile": 37.8
       },
-      "grade_display": "\u26d4 C"
+      "grade_display": "\ud83d\udcc9 C+"
     },
     {
       "metro_name": "Jacksonville",
@@ -1921,12 +1921,12 @@
       "weighted_percentile": 30.6,
       "weighted_score": 31,
       "grade": {
-        "letter": "C-",
-        "emoji": "\ud83d\udea8",
-        "description": "Critical",
+        "letter": "C",
+        "emoji": "\u26d4",
+        "description": "Very Poor",
         "percentile": 30.6
       },
-      "grade_display": "\ud83d\udea8 C-"
+      "grade_display": "\u26d4 C"
     },
     {
       "metro_name": "Providence-Warwick",
@@ -2021,12 +2021,12 @@
       "weighted_percentile": 39.2,
       "weighted_score": 39,
       "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
         "percentile": 39.2
       },
-      "grade_display": "\ud83d\udcc9 C+"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "Raleigh-Cary",
@@ -2171,12 +2171,12 @@
       "weighted_percentile": 27.0,
       "weighted_score": 27,
       "grade": {
-        "letter": "C-",
-        "emoji": "\ud83d\udea8",
-        "description": "Critical",
+        "letter": "C",
+        "emoji": "\u26d4",
+        "description": "Very Poor",
         "percentile": 27.0
       },
-      "grade_display": "\ud83d\udea8 C-"
+      "grade_display": "\u26d4 C"
     },
     {
       "metro_name": "Richmond",
@@ -2221,12 +2221,12 @@
       "weighted_percentile": 33.8,
       "weighted_score": 34,
       "grade": {
-        "letter": "C",
-        "emoji": "\u26d4",
-        "description": "Very Poor",
+        "letter": "C+",
+        "emoji": "\ud83d\udcc9",
+        "description": "Poor",
         "percentile": 33.8
       },
-      "grade_display": "\u26d4 C"
+      "grade_display": "\ud83d\udcc9 C+"
     },
     {
       "metro_name": "Memphis",
@@ -2271,12 +2271,12 @@
       "weighted_percentile": 40.1,
       "weighted_score": 40,
       "grade": {
-        "letter": "C+",
-        "emoji": "\ud83d\udcc9",
-        "description": "Poor",
+        "letter": "B-",
+        "emoji": "\u26a0\ufe0f",
+        "description": "Below Average",
         "percentile": 40.1
       },
-      "grade_display": "\ud83d\udcc9 C+"
+      "grade_display": "\u26a0\ufe0f B-"
     },
     {
       "metro_name": "Salt Lake City-Murray",
@@ -2371,12 +2371,12 @@
       "weighted_percentile": 45.6,
       "weighted_score": 46,
       "grade": {
-        "letter": "B-",
-        "emoji": "\u26a0\ufe0f",
-        "description": "Below Average",
+        "letter": "B",
+        "emoji": "\u27a1\ufe0f",
+        "description": "Average",
         "percentile": 45.6
       },
-      "grade_display": "\u26a0\ufe0f B-"
+      "grade_display": "\u27a1\ufe0f B"
     },
     {
       "metro_name": "Fresno",
@@ -2421,12 +2421,12 @@
       "weighted_percentile": 31.7,
       "weighted_score": 32,
       "grade": {
-        "letter": "C-",
-        "emoji": "\ud83d\udea8",
-        "description": "Critical",
+        "letter": "C",
+        "emoji": "\u26d4",
+        "description": "Very Poor",
         "percentile": 31.7
       },
-      "grade_display": "\ud83d\udea8 C-"
+      "grade_display": "\u26d4 C"
     },
     {
       "metro_name": "Grand Rapids-Wyoming-Kentwood",

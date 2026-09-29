@@ -1,10 +1,10 @@
 # Boston-Cambridge-Newton
 
-**Grade: B- (Below Average) | 45.4th percentile | September 2026**
+**Grade: B (Average) | 45.4th percentile | September 2026**
 
 ---
 
-The Boston-Cambridge-Newton metro area has an overall grade of B- with a composite score ranking it 45.4th percentile out of 50 US metros. This city's economic character is most defined by its strong labor force growth, with a 2.87% year-over-year increase, and its high cost of living, with a PSF to earnings ratio of 9.99. The labor demand composite score of 4.13, ranking in the 26th percentile, also plays a significant role in shaping the city's economic landscape.
+The Boston-Cambridge-Newton metro area has an overall grade of B with a composite score ranking it 45.4th percentile out of 50 US metros. This city's economic character is most defined by its strong labor force growth, with a 2.87% year-over-year increase, and its high cost of living, with a PSF to earnings ratio of 9.99. The labor demand composite score of 4.13, ranking in the 26th percentile, also plays a significant role in shaping the city's economic landscape.
 
 **Labor Demand**
 The employment growth rate in Boston-Cambridge-Newton is -0.12% year-over-year, and weekly hours are deviating -0.351% from the city's own 12-month baseline. This combination signals a contraction in labor demand, indicating that the city is not experiencing genuine demand expansion. The negative employment growth rate and below-trend hours suggest that the city's labor market is experiencing a slowdown.

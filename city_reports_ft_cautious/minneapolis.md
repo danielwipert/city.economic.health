@@ -1,10 +1,10 @@
 # Minneapolis-St. Paul-Bloomington
 
-**Grade: C+ (Poor) | 39.4th percentile | September 2026**
+**Grade: B- (Below Average) | 39.4th percentile | September 2026**
 
 ---
 
-The Minneapolis-St. Paul-Bloomington metro area has an overall grade of C+ with a composite score ranking it at the 39.4th percentile out of 50 US metros. This city's economic character is most defined by its near-median labor demand composite score of 5.57 and its bottom-tier wage growth of +0.27% year-over-year. The combination of these metrics suggests a mixed economic environment, with labor demand driven more by hours worked than job growth.
+The Minneapolis-St. Paul-Bloomington metro area has an overall grade of B- with a composite score ranking it at the 39.4th percentile out of 50 US metros. This city's economic character is most defined by its near-median labor demand composite score of 5.57 and its bottom-tier wage growth of +0.27% year-over-year. The combination of these metrics suggests a mixed economic environment, with labor demand driven more by hours worked than job growth.
 
 **Labor Demand**
 The employment growth rate in Minneapolis-St. Paul-Bloomington is +1.39% year-over-year, while weekly hours are -0.671% below the city's own 12-month trend. This combination signals a labor market that is not experiencing genuine demand expansion, as the growth in jobs is not accompanied by an increase in hours worked, indicating some level of survivor squeeze where remaining workers may be absorbing the load of eliminated roles.

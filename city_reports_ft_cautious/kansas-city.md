@@ -1,10 +1,10 @@
 # Kansas City
 
-**Grade: A+ (Excellent) | 69.3th percentile | September 2026**
+**Grade: A (Very Good) | 69.3th percentile | September 2026**
 
 ---
 
-Kansas City earns an overall grade of A+ with a composite score ranking at the 69.3th percentile among 50 US metros. The city's economic character is most defined by its strong labor demand, with a composite score of 5.99, and its top-tier wage growth of 7.35% year-over-year. These metrics signal a city with a robust job market and rising earnings.
+Kansas City earns an overall grade of A with a composite score ranking at the 69.3th percentile among 50 US metros. The city's economic character is most defined by its strong labor demand, with a composite score of 5.99, and its top-tier wage growth of 7.35% year-over-year. These metrics signal a city with a robust job market and rising earnings.
 
 **Labor Demand**
 Kansas City's employment growth rate is 0.73% year-over-year, combined with a 0.665% deviation in weekly hours above its own trend. This combination signals genuine demand expansion, as hours are running above trend during a period of job growth. This indicates that the city's labor market is experiencing a real increase in demand for workers.
