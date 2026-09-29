@@ -1,10 +1,10 @@
 # Houston-Pasadena-The Woodlands
 
-**Grade: B (Average) | 47.8th percentile | September 2026**
+**Grade: C+ (Poor) | 47.8th percentile | September 2026**
 
 ---
 
-The Houston-Pasadena-The Woodlands metro area has an overall grade of B with a composite score ranking at the 47.8th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the 74th percentile, and its high cost of living affordability, ranked in the 82nd percentile. The labor demand is driven by a combination of employment growth and hours worked above trend, while the cost of living is influenced by a PSF to earnings ratio of $169/sqft to $36.92/hr, which is decreasing by 2.3% YoY.
+The Houston-Pasadena-The Woodlands metro area has an overall grade of C+ with a composite score ranking at the 47.8th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the 74th percentile, and its high cost of living affordability, ranked in the 82nd percentile. The labor demand is driven by a combination of employment growth and hours worked above trend, while the cost of living is influenced by a PSF to earnings ratio of $169/sqft to $36.92/hr, which is decreasing by 2.3% YoY.
 
 **Labor Demand**
 The employment growth rate in Houston-Pasadena-The Woodlands is 1.30% YoY, and weekly hours are deviating 0.091% above the city's own 12-month baseline. This combination signals genuine demand expansion, as hours are running above trend during a period of job growth. This indicates a strong labor market with increasing job opportunities.

@@ -1,10 +1,10 @@
 # Baltimore-Columbia-Towson
 
-**Grade: B+ (Above Average) | 55.0th percentile | September 2026**
+**Grade: B (Average) | 55.0th percentile | September 2026**
 
 ---
 
-The Baltimore-Columbia-Towson metro area has an overall grade of B+ with a composite score ranking at the 55.0th percentile among 50 US metros. This city's economic character is most defined by its strong wage growth of 5.99% year-over-year and its affordable cost of living, with a PSF to wages ratio of 5.64, ranking in the top tier at the 88th percentile. The combination of these metrics suggests a city with a competitive labor market.
+The Baltimore-Columbia-Towson metro area has an overall grade of B with a composite score ranking at the 55.0th percentile among 50 US metros. This city's economic character is most defined by its strong wage growth of 5.99% year-over-year and its affordable cost of living, with a PSF to wages ratio of 5.64, ranking in the top tier at the 88th percentile. The combination of these metrics suggests a city with a competitive labor market.
 
 **Labor Demand**
 The employment growth rate in Baltimore-Columbia-Towson is -0.47% year-over-year, and weekly hours are deviating -0.175% from the city's own 12-month baseline, indicating a contraction in labor demand. This combination signals a scenario where payrolls are contracting, and hours are below trend, suggesting a lack of genuine demand expansion. The labor demand composite score of 3.64 ranks in the bottom tier at the 18th percentile.

@@ -1,10 +1,10 @@
 # Hartford-West Hartford-East Hartford
 
-**Grade: A (Very Good) | 67.7th percentile | September 2026**
+**Grade: A- (Good) | 67.7th percentile | September 2026**
 
 ---
 
-The Hartford-West Hartford-East Hartford metro area has earned an overall grade of A, ranking in the 67.7th percentile among 50 US metros, with a strong labor demand and low unemployment rate being the two metrics that most define its current economic character, at 86th and 98th percentiles, respectively. The labor demand composite score of 6.96, driven by a +1.88% employment growth rate and +0.025% weekly hours deviation from trend, signals a genuine demand expansion. This combination of metrics suggests a city with a robust job market.
+The Hartford-West Hartford-East Hartford metro area has earned an overall grade of A-, ranking in the 67.7th percentile among 50 US metros, with a strong labor demand and low unemployment rate being the two metrics that most define its current economic character, at 86th and 98th percentiles, respectively. The labor demand composite score of 6.96, driven by a +1.88% employment growth rate and +0.025% weekly hours deviation from trend, signals a genuine demand expansion. This combination of metrics suggests a city with a robust job market.
 
 **Labor Demand**
 The employment growth rate of +1.88% and weekly hours deviation of +0.025% from trend indicate a strong labor market with genuine demand expansion. This combination signals that the city is adding jobs and workers are putting in more hours, suggesting a healthy and growing economy. The labor demand composite score of 6.96, at the 86th percentile, further reinforces this assessment.

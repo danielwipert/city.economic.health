@@ -1,10 +1,10 @@
 # Oklahoma City
 
-**Grade: B- (Below Average) | 44.2th percentile | September 2026**
+**Grade: C+ (Poor) | 44.2th percentile | September 2026**
 
 ---
 
-Oklahoma City has an overall grade of B- with a composite score ranking it at the 44.2th percentile out of 50 US metros. The city's economic character is most defined by its near-median labor demand composite score of 5.17 and its bottom-tier unemployment rate of 4.30%, which signals a mix of modest job growth and significant labor market tightness. Specifically, the labor demand is driven by a +0.74% employment growth rate and a -0.163% weekly hours deviation from its own trend.
+Oklahoma City has an overall grade of C+ with a composite score ranking it at the 44.2th percentile out of 50 US metros. The city's economic character is most defined by its near-median labor demand composite score of 5.17 and its bottom-tier unemployment rate of 4.30%, which signals a mix of modest job growth and significant labor market tightness. Specifically, the labor demand is driven by a +0.74% employment growth rate and a -0.163% weekly hours deviation from its own trend.
 
 **Labor Demand**
 The employment growth rate of +0.74% and weekly hours deviation of -0.163% suggest a modest expansion in labor demand, but the combination of these metrics indicates that the city is experiencing a genuine demand expansion rather than a survivor squeeze. This is because the hours deviation is slightly negative, which means that the remaining workers are not absorbing a significantly increased load. The labor demand composite score of 5.17 ranks at the 42nd percentile, indicating a near-median performance.

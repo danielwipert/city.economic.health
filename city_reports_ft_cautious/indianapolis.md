@@ -1,10 +1,10 @@
 # Indianapolis-Carmel-Greenwood
 
-**Grade: C (Very Poor) | 32.8th percentile | September 2026**
+**Grade: C- (Critical) | 32.8th percentile | September 2026**
 
 ---
 
-The Indianapolis-Carmel-Greenwood metro area has an overall grade of C, ranking 32.8th percentile out of 50 US metros, with a composite score driven largely by its low labor demand and stagnant wage growth. The city's labor demand composite score of 2.36, combining a -1.05% employment growth rate and a +0.471% weekly hours deviation, signals a contraction in labor demand. This, coupled with a low wage growth rate of +0.58%, defines the city's current economic character.
+The Indianapolis-Carmel-Greenwood metro area has an overall grade of C-, ranking 32.8th percentile out of 50 US metros, with a composite score driven largely by its low labor demand and stagnant wage growth. The city's labor demand composite score of 2.36, combining a -1.05% employment growth rate and a +0.471% weekly hours deviation, signals a contraction in labor demand. This, coupled with a low wage growth rate of +0.58%, defines the city's current economic character.
 
 **Labor Demand**
 The employment growth rate in Indianapolis-Carmel-Greenwood is -1.05% year-over-year, while weekly hours are running +0.471% above the city's own 12-month trend. This combination signals a contraction in labor demand, rather than genuine demand expansion or survivor squeeze, indicating that the city is not adding jobs at a pace that would suggest strong labor market health. The labor demand composite score of 2.36 falls in the bottom tier, at the 6th percentile.

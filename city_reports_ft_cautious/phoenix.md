@@ -1,10 +1,10 @@
 # Phoenix-Mesa-Chandler
 
-**Grade: B (Average) | 45.4th percentile | September 2026**
+**Grade: C+ (Poor) | 45.4th percentile | September 2026**
 
 ---
 
-The Phoenix-Mesa-Chandler metro area has an overall grade of B with a composite score ranking it 45.4th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the 76th percentile, and its low unemployment rate, which is in the 14th percentile. The labor demand is driven by a 0.91% year-over-year employment growth rate and a 0.771% deviation in weekly hours above its own trend.
+The Phoenix-Mesa-Chandler metro area has an overall grade of C+ with a composite score ranking it 45.4th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the 76th percentile, and its low unemployment rate, which is in the 14th percentile. The labor demand is driven by a 0.91% year-over-year employment growth rate and a 0.771% deviation in weekly hours above its own trend.
 
 **Labor Demand**
 The Phoenix-Mesa-Chandler metro area has a labor demand composite score of 6.34, driven by a 0.91% year-over-year employment growth rate and a 0.771% deviation in weekly hours above its own trend. This combination signals genuine demand expansion, as hours are running above trend during a period of job growth. The strong labor demand indicates a competitive market for workers.

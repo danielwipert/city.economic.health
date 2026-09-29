@@ -1,10 +1,10 @@
 # Dallas-Fort Worth-Arlington
 
-**Grade: A- (Good) | 58.3th percentile | September 2026**
+**Grade: B (Average) | 58.3th percentile | September 2026**
 
 ---
 
-The Dallas-Fort Worth-Arlington metro area has an overall grade of A- with a composite score ranking at the 58.3th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the top tier at the 82nd percentile, and its highly affordable cost of living, ranked at the 86th percentile. The labor demand is driven by a 1.00% year-over-year employment growth rate and a 0.903% deviation in weekly hours above its own trend.
+The Dallas-Fort Worth-Arlington metro area has an overall grade of B with a composite score ranking at the 58.3th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the top tier at the 82nd percentile, and its highly affordable cost of living, ranked at the 86th percentile. The labor demand is driven by a 1.00% year-over-year employment growth rate and a 0.903% deviation in weekly hours above its own trend.
 
 **Labor Demand**
 The combination of a 1.00% employment growth rate and a 0.903% increase in weekly hours above trend signals genuine demand expansion in the Dallas-Fort Worth-Arlington metro area. This indicates that not only are jobs being added, but existing workers are also seeing their hours increase, suggesting a strong and growing economy. The labor demand composite score of 6.60 further reinforces this positive outlook.

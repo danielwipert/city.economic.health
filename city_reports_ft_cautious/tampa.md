@@ -1,10 +1,10 @@
 # Tampa-St. Petersburg-Clearwater
 
-**Grade: B (Average) | 50.3th percentile | September 2026**
+**Grade: B- (Below Average) | 50.3th percentile | September 2026**
 
 ---
 
-The Tampa-St. Petersburg-Clearwater metro area has an overall grade of B, ranking 50.3th percentile out of 50 US metros, with a composite score driven largely by its above-average labor demand and top-tier cost of living. The city's economic character is defined by its 60th percentile labor demand composite score, which combines a +0.92% employment growth rate and a +0.120% weekly hours deviation from its own trend. This suggests a genuine demand expansion, with jobs being added and hours running above trend.
+The Tampa-St. Petersburg-Clearwater metro area has an overall grade of B-, ranking 50.3th percentile out of 50 US metros, with a composite score driven largely by its above-average labor demand and top-tier cost of living. The city's economic character is defined by its 60th percentile labor demand composite score, which combines a +0.92% employment growth rate and a +0.120% weekly hours deviation from its own trend. This suggests a genuine demand expansion, with jobs being added and hours running above trend.
 
 **Labor Demand**
 The employment growth rate of +0.92% and weekly hours deviation of +0.120% signal a genuine demand expansion, indicating that the city is experiencing an increase in jobs and working hours. This combination suggests that the labor market is strong, with employers adding jobs and workers putting in more hours. The labor demand composite score of 5.71, ranking in the 60th percentile, further supports this assessment.

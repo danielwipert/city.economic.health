@@ -266,22 +266,22 @@ Grade thresholds are calibrated to the **actual achievable range** of weighted p
 
 Because the weighted score is an average of 8 individual percentile scores across 50 cities, the distribution compresses. No city can plausibly average 90+ across all 8 metrics simultaneously, and no city averages below 20. The practical range observed is approximately 21-79.
 
-Across every weekly run the average metro scores about 48.5. The thresholds centre the B (Average) band on that point, and the bands above and below mirror each other in 6-point steps (B+ mirrors B-, A- mirrors C+, and so on). A typical city therefore earns a plain B, and roughly the top 15% of scores reach the A range.
+Across every weekly run the average metro scores about 48.5. The thresholds are deliberately strict: across past runs roughly the top 15% of scores reach the A range, about 30% land in the B range, and the typical metro earns a C+. An A or B therefore signals a metro that is genuinely ahead of most of its peers.
 
 | Threshold | Grade | Description |
 |-----------|-------|-------------|
-| 70+ | A+ | Excellent |
-| 64+ | A | Very Good |
-| 58+ | A- | Good |
-| 52+ | B+ | Above Average |
-| 45+ | B | Average |
-| 39+ | B- | Below Average |
-| 33+ | C+ | Poor |
-| 27+ | C | Very Poor |
-| 21+ | C- | Critical |
-| Below 21 | D | Emergency |
+| 72+ | A+ | Excellent |
+| 68+ | A | Very Good |
+| 64+ | A- | Good |
+| 60+ | B+ | Above Average |
+| 55+ | B | Average |
+| 50+ | B- | Below Average |
+| 44+ | C+ | Poor |
+| 38+ | C | Very Poor |
+| 30+ | C- | Critical |
+| Below 30 | D | Emergency |
 
-This produces a roughly symmetric distribution around the typical metro with meaningful separation at every grade level. Cities in the A range are genuinely performing well across most metrics; D-grade cities have meaningful weakness across the board.
+This keeps A and B grades meaningful and preserves separation at every grade level. Cities in the A range are genuinely performing well across most metrics; D-grade cities have meaningful weakness across the board.
 
 ---
 

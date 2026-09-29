@@ -1,10 +1,10 @@
 # Detroit-Warren-Dearborn
 
-**Grade: C- (Critical) | 25.7th percentile | September 2026**
+**Grade: D (Emergency) | 25.7th percentile | September 2026**
 
 ---
 
-The Detroit-Warren-Dearborn metro area has an overall grade of C-, ranking in the 25.7th percentile out of 50 US metros, with a labor demand composite score of 3.58. This city's economic character is most defined by its low unemployment rate of 6.00% and its negative employment growth rate of -0.20%. The combination of these metrics, along with a weekly hours deviation of +0.439%, signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles.
+The Detroit-Warren-Dearborn metro area has an overall grade of D, ranking in the 25.7th percentile out of 50 US metros, with a labor demand composite score of 3.58. This city's economic character is most defined by its low unemployment rate of 6.00% and its negative employment growth rate of -0.20%. The combination of these metrics, along with a weekly hours deviation of +0.439%, signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles.
 
 **Labor Demand**
 The employment growth rate in Detroit-Warren-Dearborn is -0.20% year-over-year, while weekly hours are deviating +0.439% from the city's own 12-month baseline. This combination signals a contraction in labor demand, rather than genuine demand expansion. The labor demand composite score of 3.58 falls in the bottom tier, at the 16th percentile.

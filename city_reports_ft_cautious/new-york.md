@@ -1,10 +1,10 @@
 # New York Newark-Jersey City
 
-**Grade: B (Average) | 45.6th percentile | September 2026**
+**Grade: C+ (Poor) | 45.6th percentile | September 2026**
 
 ---
 
-The New York Newark-Jersey City metro area has an overall grade of B with a composite score ranking it 45.6th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score ranking 34th percentile, and its high cost of living, with a percentile rank of 8th. The labor demand is driven by a modest employment growth rate of 0.50% and a weekly hours deviation of -0.202% from its own trend.
+The New York Newark-Jersey City metro area has an overall grade of C+ with a composite score ranking it 45.6th percentile out of 50 US metros. This city's economic character is most defined by its low labor demand, with a composite score ranking 34th percentile, and its high cost of living, with a percentile rank of 8th. The labor demand is driven by a modest employment growth rate of 0.50% and a weekly hours deviation of -0.202% from its own trend.
 
 **Labor Demand**
 The employment growth rate of 0.50% and weekly hours deviation of -0.202% signal a contraction in labor demand, indicating that the city is not experiencing genuine demand expansion. This combination suggests that the city's job market is not as strong as others, with hours worked being below trend. The labor demand composite score of 4.80 ranks 34th percentile, further emphasizing the city's below-average labor demand.

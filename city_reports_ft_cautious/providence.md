@@ -1,10 +1,10 @@
 # Providence-Warwick
 
-**Grade: B- (Below Average) | 44.3th percentile | September 2026**
+**Grade: C+ (Poor) | 44.3th percentile | September 2026**
 
 ---
 
-The Providence-Warwick metro area has an overall grade of B- with a composite score ranking it 44.3th percentile out of 50 US metros. This city's economic character is most defined by its high labor force growth rate of +1.69% YoY and its extremely low affordability score, with a cost of living ratio of 9.94, ranking it at the 0th percentile. The labor demand composite score of 5.47 also suggests a near median performance.
+The Providence-Warwick metro area has an overall grade of C+ with a composite score ranking it 44.3th percentile out of 50 US metros. This city's economic character is most defined by its high labor force growth rate of +1.69% YoY and its extremely low affordability score, with a cost of living ratio of 9.94, ranking it at the 0th percentile. The labor demand composite score of 5.47 also suggests a near median performance.
 
 **Labor Demand**
 The employment growth rate in Providence-Warwick is +0.60% YoY, combined with a weekly hours deviation of +0.326% from its own trend, indicating a genuine demand expansion. This combination signals that the city is experiencing a moderate increase in jobs and hours worked, suggesting a growing economy. The near median percentile rank of 54th for labor demand composite score further supports this assessment.

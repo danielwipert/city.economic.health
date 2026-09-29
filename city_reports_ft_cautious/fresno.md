@@ -1,10 +1,10 @@
 # Fresno
 
-**Grade: C (Very Poor) | 31.7th percentile | September 2026**
+**Grade: C- (Critical) | 31.7th percentile | September 2026**
 
 ---
 
-The city of Fresno has an overall grade of C with a composite score ranking it 31.7th percentile out of 50 US metros. The city's economic character is most defined by its low unemployment rate of 7.70% and its above-average wage growth of 4.51% year-over-year. These metrics suggest a complex labor market with both strengths and weaknesses.
+The city of Fresno has an overall grade of C- with a composite score ranking it 31.7th percentile out of 50 US metros. The city's economic character is most defined by its low unemployment rate of 7.70% and its above-average wage growth of 4.51% year-over-year. These metrics suggest a complex labor market with both strengths and weaknesses.
 
 **Labor Demand**
 Fresno's employment growth rate is 0.79% year-over-year, while weekly hours are deviating -0.503% from the city's own 12-month baseline. This combination signals a labor demand contraction, as the city is not adding jobs at a significant rate and hours are below trend. This suggests that the labor market is not experiencing genuine demand expansion.

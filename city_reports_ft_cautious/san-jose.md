@@ -1,10 +1,10 @@
 # San Jose-Sunnyvale-Santa Clara
 
-**Grade: B- (Below Average) | 44.6th percentile | September 2026**
+**Grade: C+ (Poor) | 44.6th percentile | September 2026**
 
 ---
 
-The San Jose-Sunnyvale-Santa Clara metro area has an overall grade of B- with a composite score ranking at the 44.6th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with a top-tier composite score of 94th percentile, and its extremely low wage growth, ranking at the 0th percentile with a -0.78% year-over-year change. The combination of these two metrics suggests a complex economic environment.
+The San Jose-Sunnyvale-Santa Clara metro area has an overall grade of C+ with a composite score ranking at the 44.6th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with a top-tier composite score of 94th percentile, and its extremely low wage growth, ranking at the 0th percentile with a -0.78% year-over-year change. The combination of these two metrics suggests a complex economic environment.
 
 **Labor Demand**
 The San Jose-Sunnyvale-Santa Clara metro area has an employment growth rate of +1.59% year-over-year and a weekly hours deviation of +1.289% from its own trend, indicating genuine demand expansion. This combination signals that the city is experiencing a period of job growth, with hours worked above the trend, suggesting that businesses are hiring and workers are in high demand. The labor demand composite score of 7.81 further reinforces this notion, ranking in the top tier at the 94th percentile.

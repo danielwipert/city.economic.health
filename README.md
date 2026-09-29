@@ -234,20 +234,20 @@ The blend zone eliminates the cliff where a 1-day difference in DoM level caused
 
 ## Grade Thresholds
 
-The average metro's weighted score sits near 48.5, so the B (Average) band is centred there and the bands above and below mirror each other in 6-point steps.
+The average metro's weighted score sits near 48.5. Thresholds are set so that, across past weekly runs, roughly the top 15% of scores earn an A and fewer than half earn an A or B; the typical metro lands at C+.
 
 | Grade | Threshold | Description |
 |-------|-----------|-------------|
-| A+ | ≥ 70 | Excellent |
-| A | ≥ 64 | Very Good |
-| A- | ≥ 58 | Good |
-| B+ | ≥ 52 | Above Average |
-| B | ≥ 45 | Average |
-| B- | ≥ 39 | Below Average |
-| C+ | ≥ 33 | Poor |
-| C | ≥ 27 | Very Poor |
-| C- | ≥ 21 | Critical |
-| D | < 21 | Emergency |
+| A+ | ≥ 72 | Excellent |
+| A | ≥ 68 | Very Good |
+| A- | ≥ 64 | Good |
+| B+ | ≥ 60 | Above Average |
+| B | ≥ 55 | Average |
+| B- | ≥ 50 | Below Average |
+| C+ | ≥ 44 | Poor |
+| C | ≥ 38 | Very Poor |
+| C- | ≥ 30 | Critical |
+| D | < 30 | Emergency |
 
 ---
 

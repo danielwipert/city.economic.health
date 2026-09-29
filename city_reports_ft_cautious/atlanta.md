@@ -1,10 +1,10 @@
 # Atlanta-Sandy Springs-Roswell
 
-**Grade: B+ (Above Average) | 52.3th percentile | September 2026**
+**Grade: B- (Below Average) | 52.3th percentile | September 2026**
 
 ---
 
-The Atlanta-Sandy Springs-Roswell metro area has an overall grade of B+, ranking 52.3th percentile out of 50 US metros, with a composite score driven largely by its low unemployment rate of 3.20% and a cost of living score that indicates relative affordability. The city's economic character is defined by these two metrics, which signal a tight labor market with moderate affordability. Specifically, the cost of living index shows a PSF of $195/sqft, which has decreased by 0.5% YoY, combined with an average hourly wage of $37.62, resulting in a ratio of 5.18.
+The Atlanta-Sandy Springs-Roswell metro area has an overall grade of B-, ranking 52.3th percentile out of 50 US metros, with a composite score driven largely by its low unemployment rate of 3.20% and a cost of living score that indicates relative affordability. The city's economic character is defined by these two metrics, which signal a tight labor market with moderate affordability. Specifically, the cost of living index shows a PSF of $195/sqft, which has decreased by 0.5% YoY, combined with an average hourly wage of $37.62, resulting in a ratio of 5.18.
 
 **Labor Demand**
 The employment growth rate in Atlanta is -0.46% YoY, while weekly hours are deviating 0.595% above the city's own 12-month baseline, indicating a scenario where hours are increasing despite job losses, which suggests a survivor squeeze. This combination signals that the labor market is not expanding in terms of job numbers, but existing workers are taking on more hours. The labor demand composite score of 3.06 falls into the bottom tier, at the 12th percentile.

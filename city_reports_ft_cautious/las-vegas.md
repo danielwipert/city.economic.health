@@ -1,10 +1,10 @@
 # Las Vegas-Henderson-North Las Vegas
 
-**Grade: A (Very Good) | 66.0th percentile | September 2026**
+**Grade: A- (Good) | 66.0th percentile | September 2026**
 
 ---
 
-The Las Vegas-Henderson-North Las Vegas metro area has earned an overall grade of A, ranking in the 66.0th percentile among 50 US metros, with a composite score driven largely by its strong labor demand and office economy. The city's labor demand composite score of 7.44, combining a 1.46% employment growth rate and a 1.098% weekly hours deviation above trend, signals a genuine demand expansion. This, coupled with its top-tier office economy, defines the city's current economic character.
+The Las Vegas-Henderson-North Las Vegas metro area has earned an overall grade of A-, ranking in the 66.0th percentile among 50 US metros, with a composite score driven largely by its strong labor demand and office economy. The city's labor demand composite score of 7.44, combining a 1.46% employment growth rate and a 1.098% weekly hours deviation above trend, signals a genuine demand expansion. This, coupled with its top-tier office economy, defines the city's current economic character.
 
 **Labor Demand**
 The Las Vegas-Henderson-North Las Vegas metro area is experiencing a labor demand expansion, with a 1.46% employment growth rate and weekly hours 1.098% above its own 12-month trend. This combination signals genuine demand, as hours are increasing during a period of job growth, indicating that businesses are hiring and workers are putting in more hours to meet demand. The labor demand composite score of 7.44 is in the top tier, at the 92nd percentile.

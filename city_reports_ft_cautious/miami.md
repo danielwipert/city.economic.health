@@ -1,10 +1,10 @@
 # Miami-Fort Lauderdale-West Palm Beach
 
-**Grade: B (Average) | 50.5th percentile | September 2026**
+**Grade: B- (Below Average) | 50.5th percentile | September 2026**
 
 ---
 
-The Miami-Fort Lauderdale-West Palm Beach metro area has an overall grade of B, ranking at the 50.5th percentile out of 50 US metros, with a composite score driven largely by its strong wage growth and above-average office economy. The city's economic character is most defined by its top-tier wage growth of 7.68% year-over-year and its above-average share of professional and office workers, at 64th percentile. These metrics suggest a city with a strong, knowledge-based economy.
+The Miami-Fort Lauderdale-West Palm Beach metro area has an overall grade of B-, ranking at the 50.5th percentile out of 50 US metros, with a composite score driven largely by its strong wage growth and above-average office economy. The city's economic character is most defined by its top-tier wage growth of 7.68% year-over-year and its above-average share of professional and office workers, at 64th percentile. These metrics suggest a city with a strong, knowledge-based economy.
 
 **Labor Demand**
 The Miami-Fort Lauderdale-West Palm Beach metro area has an employment growth rate of 0.35% year-over-year and a weekly hours deviation of 0.285% above its own trend, indicating a near-median labor demand composite score of 5.08, which signals a genuine demand expansion. This combination suggests that the city is experiencing modest job growth, with hours worked above trend, indicating that employers are demanding more labor. However, the growth rate is not exceptionally high, suggesting a relatively stable labor market.

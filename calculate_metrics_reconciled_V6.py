@@ -495,18 +495,19 @@ def check_data_freshness(processed_data, allow_stale=False):
 
 # Grade cutoffs on the weighted percentile score, highest first.
 # The average metro's weighted score sits near 48.5 (percentile ranks averaged
-# across 50 metros), so the "B" (Average) band is centred there and the bands
-# above and below mirror each other in 6-point steps.
+# across 50 metros). Cutoffs are set so that, across past weekly runs, roughly
+# the top 15% of scores earn an A and fewer than half earn an A or B; the
+# typical metro lands at C+.
 GRADE_SCALE = [
-    (70, "A+", "🚀", "Excellent"),
-    (64, "A",  "✅", "Very Good"),
-    (58, "A-", "👍", "Good"),
-    (52, "B+", "📈", "Above Average"),
-    (45, "B",  "➡️", "Average"),
-    (39, "B-", "⚠️", "Below Average"),
-    (33, "C+", "📉", "Poor"),
-    (27, "C",  "⛔", "Very Poor"),
-    (21, "C-", "🚨", "Critical"),
+    (72, "A+", "🚀", "Excellent"),
+    (68, "A",  "✅", "Very Good"),
+    (64, "A-", "👍", "Good"),
+    (60, "B+", "📈", "Above Average"),
+    (55, "B",  "➡️", "Average"),
+    (50, "B-", "⚠️", "Below Average"),
+    (44, "C+", "📉", "Poor"),
+    (38, "C",  "⛔", "Very Poor"),
+    (30, "C-", "🚨", "Critical"),
 ]
 
 

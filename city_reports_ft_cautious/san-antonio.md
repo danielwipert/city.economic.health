@@ -1,10 +1,10 @@
 # San Antonio-New Braunfels
 
-**Grade: B (Average) | 46.6th percentile | September 2026**
+**Grade: C+ (Poor) | 46.6th percentile | September 2026**
 
 ---
 
-The San Antonio-New Braunfels metro area has an overall grade of B with a composite score ranking it at the 46.6th percentile out of 50 US metros. This city's economic character is most defined by its below-average labor demand, with a composite score of 4.36 ranking it at the 28th percentile, and its highly affordable cost of living, with a ratio of $170/sqft to $33.17/hr and a percentile rank of 92. The labor demand metrics, including employment growth and weekly hours, signal a contraction in genuine demand expansion.
+The San Antonio-New Braunfels metro area has an overall grade of C+ with a composite score ranking it at the 46.6th percentile out of 50 US metros. This city's economic character is most defined by its below-average labor demand, with a composite score of 4.36 ranking it at the 28th percentile, and its highly affordable cost of living, with a ratio of $170/sqft to $33.17/hr and a percentile rank of 92. The labor demand metrics, including employment growth and weekly hours, signal a contraction in genuine demand expansion.
 
 **Labor Demand**
 The employment growth rate in San Antonio-New Braunfels is +0.51% year-over-year, while weekly hours are deviating -0.651% from the city's own 12-month baseline. This combination signals a contraction in labor demand, rather than genuine demand expansion or survivor squeeze. The below-average labor demand composite score of 4.36, ranking at the 28th percentile, further supports this conclusion.

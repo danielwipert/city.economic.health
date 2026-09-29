@@ -1,10 +1,10 @@
 # Jacksonville
 
-**Grade: C (Very Poor) | 30.6th percentile | September 2026**
+**Grade: C- (Critical) | 30.6th percentile | September 2026**
 
 ---
 
-The city of Jacksonville has an overall grade of C with a composite score ranking it 30.6th percentile out of 50 US metros. The city's economic character is most defined by its low labor demand, with a composite score of 3.86, and its high unemployment rate of 4.90%, which ranks in the bottom tier at the 4th percentile. These metrics signal a challenging environment for businesses looking to expand or relocate.
+The city of Jacksonville has an overall grade of C- with a composite score ranking it 30.6th percentile out of 50 US metros. The city's economic character is most defined by its low labor demand, with a composite score of 3.86, and its high unemployment rate of 4.90%, which ranks in the bottom tier at the 4th percentile. These metrics signal a challenging environment for businesses looking to expand or relocate.
 
 **Labor Demand**
 Jacksonville's employment growth rate is a modest +0.06% year-over-year, while weekly hours are deviating -0.520% from the city's own 12-month trend. This combination signals a contraction in labor demand, indicating that the city is not experiencing genuine demand expansion. The low labor demand composite score of 3.86, ranking in the 20th percentile, further supports this assessment.

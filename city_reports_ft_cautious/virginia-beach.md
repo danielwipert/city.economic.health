@@ -1,10 +1,10 @@
 # Virginia Beach-Chesapeake-Norfolk
 
-**Grade: C+ (Poor) | 37.8th percentile | September 2026**
+**Grade: C- (Critical) | 37.8th percentile | September 2026**
 
 ---
 
-The Virginia Beach-Chesapeake-Norfolk metro area has an overall grade of C+, ranking 37.8th percentile out of 50 US metros, with a labor demand composite score of 3.36, placing it in the bottom tier. The city's economic character is most defined by its weak labor demand, with a -0.55% employment growth rate, and moderate wage growth of 5.51% year-over-year. These metrics signal a challenging environment for businesses looking to expand or relocate.
+The Virginia Beach-Chesapeake-Norfolk metro area has an overall grade of C-, ranking 37.8th percentile out of 50 US metros, with a labor demand composite score of 3.36, placing it in the bottom tier. The city's economic character is most defined by its weak labor demand, with a -0.55% employment growth rate, and moderate wage growth of 5.51% year-over-year. These metrics signal a challenging environment for businesses looking to expand or relocate.
 
 **Labor Demand**
 The employment growth rate in Virginia Beach-Chesapeake-Norfolk is -0.55% year-over-year, and weekly hours are deviating from the trend by +0.174%. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. This indicates a contraction in the labor market, which may lead to difficulties in finding skilled workers.

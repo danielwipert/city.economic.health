@@ -1,10 +1,10 @@
 # Washington-Arlington-Alexandria
 
-**Grade: B (Average) | 47.3th percentile | September 2026**
+**Grade: C+ (Poor) | 47.3th percentile | September 2026**
 
 ---
 
-The Washington-Arlington-Alexandria metro area has an overall grade of B with a composite score ranking it at the 47.3th percentile out of 50 US metros. This city's economic character is most defined by its strong wage growth, with a year-over-year increase of 5.85%, and its low labor demand, indicated by a -1.96% employment growth rate and a -0.606% deviation in weekly hours from its own trend. These metrics suggest a complex economic environment with both positive and negative signals.
+The Washington-Arlington-Alexandria metro area has an overall grade of C+ with a composite score ranking it at the 47.3th percentile out of 50 US metros. This city's economic character is most defined by its strong wage growth, with a year-over-year increase of 5.85%, and its low labor demand, indicated by a -1.96% employment growth rate and a -0.606% deviation in weekly hours from its own trend. These metrics suggest a complex economic environment with both positive and negative signals.
 
 **Labor Demand**
 The employment growth rate in Washington-Arlington-Alexandria is -1.96%, and weekly hours are deviating -0.606% from the city's own trend, resulting in a labor demand composite score of 1.56, which ranks in the bottom tier. This combination signals a contraction in labor demand, indicating that the city is experiencing a decline in job creation and hours worked. This suggests a survivor squeeze, where remaining workers are absorbing the load of eliminated roles.

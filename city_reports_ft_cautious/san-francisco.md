@@ -1,10 +1,10 @@
 # San Francisco-Oakland-Fremont
 
-**Grade: B+ (Above Average) | 52.5th percentile | September 2026**
+**Grade: B- (Below Average) | 52.5th percentile | September 2026**
 
 ---
 
-The San Francisco-Oakland-Fremont metro area has an overall grade of B+, ranking at the 52.5th percentile among 50 US metros, with a composite score driven largely by its strong wage growth and building permits expansion. The city's economic character is most defined by its top-tier wage growth of 5.78% year-over-year and its significant increase in building permits, up 118.02% year-over-year. These metrics suggest a city with a growing economy but also with specific challenges related to affordability and labor supply.
+The San Francisco-Oakland-Fremont metro area has an overall grade of B-, ranking at the 52.5th percentile among 50 US metros, with a composite score driven largely by its strong wage growth and building permits expansion. The city's economic character is most defined by its top-tier wage growth of 5.78% year-over-year and its significant increase in building permits, up 118.02% year-over-year. These metrics suggest a city with a growing economy but also with specific challenges related to affordability and labor supply.
 
 **Labor Demand**
 The employment growth rate in San Francisco-Oakland-Fremont is 0.56% year-over-year, combined with a 0.469% deviation in weekly hours above its own trend, indicating a genuine demand expansion. This combination signals that the city is experiencing an increase in jobs and hours worked, suggesting a healthy labor market. However, the near-median percentile rank of 56th suggests that this growth is not exceptionally strong compared to other metros.
