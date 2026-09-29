@@ -47,7 +47,7 @@ GRADE_COLORS = {
 GRADE_DESCRIPTIONS = {
     'A+': 'Excellent', 'A': 'Very Good', 'A-': 'Good',
     'B+': 'Above Average', 'B': 'Average', 'B-': 'Below Average',
-    'C+': 'Poor', 'C': 'Very Poor', 'C-': 'Critical', 'D': 'Emergency',
+    'C+': 'Fair', 'C': 'Very Poor', 'C-': 'Critical', 'D': 'Emergency',
 }
 
 GRADE_TIERS = [
@@ -1617,7 +1617,7 @@ def write_methodology(date: str, site_dir: Path):
         ('60&ndash;63.9', 'B+', 'Above Average'),
         ('55&ndash;59.9', 'B', 'Average'),
         ('50&ndash;54.9', 'B-', 'Below Average'),
-        ('44&ndash;49.9', 'C+', 'Poor'),
+        ('44&ndash;49.9', 'C+', 'Fair'),
         ('38&ndash;43.9', 'C', 'Very Poor'),
         ('30&ndash;37.9', 'C-', 'Critical'),
         ('Below 30', 'D', 'Emergency'),

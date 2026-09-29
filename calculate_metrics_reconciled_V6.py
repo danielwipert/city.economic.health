@@ -505,7 +505,7 @@ GRADE_SCALE = [
     (60, "B+", "📈", "Above Average"),
     (55, "B",  "➡️", "Average"),
     (50, "B-", "⚠️", "Below Average"),
-    (44, "C+", "📉", "Poor"),
+    (44, "C+", "📉", "Fair"),
     (38, "C",  "⛔", "Very Poor"),
     (30, "C-", "🚨", "Critical"),
 ]

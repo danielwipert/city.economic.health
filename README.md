@@ -244,7 +244,7 @@ The average metro's weighted score sits near 48.5. Thresholds are set so that, a
 | B+ | ≥ 60 | Above Average |
 | B | ≥ 55 | Average |
 | B- | ≥ 50 | Below Average |
-| C+ | ≥ 44 | Poor |
+| C+ | ≥ 44 | Fair |
 | C | ≥ 38 | Very Poor |
 | C- | ≥ 30 | Critical |
 | D | < 30 | Emergency |

@@ -44,7 +44,7 @@ GRADE_COLORS = {
 GRADE_DESCRIPTIONS = {
     'A+': 'Excellent', 'A': 'Very Good', 'A-': 'Good',
     'B+': 'Above Average', 'B': 'Average', 'B-': 'Below Average',
-    'C+': 'Poor', 'C': 'Very Poor', 'C-': 'Critical', 'D': 'Emergency',
+    'C+': 'Fair', 'C': 'Very Poor', 'C-': 'Critical', 'D': 'Emergency',
 }
 
 # Grade distribution groupings for cover page
