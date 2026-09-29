@@ -1155,7 +1155,8 @@ def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
     # Summary stats
     total       = len(cities)
     median_score = cities[total // 2]['score']
-    ab_count    = sum(1 for c in cities if c['grade'] in ['A+','A','A-','B+','B','B-'])
+    # B- is labelled "Below Average", so it is not counted as a healthy market.
+    ab_count    = sum(1 for c in cities if c['grade'] in ['A+','A','A-','B+','B'])
     strong_count = sum(1 for c in cities if c['scenario'] == 'STRONG')
     growing_count = sum(1 for c in cities if c['scenario'] in ['STRONG','GROWING'])
 
@@ -1272,8 +1273,8 @@ def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
   </div>
   <div class="snapshot-stat">
     <div class="snapshot-num">{ab_count}</div>
-    <div class="snapshot-label">A &amp; B Grade Markets</div>
-    <div class="snapshot-sub">healthy or above average</div>
+    <div class="snapshot-label">Average or Better</div>
+    <div class="snapshot-sub">graded B or higher</div>
   </div>
   <div class="snapshot-stat">
     <div class="snapshot-num">{growing_count}</div>
