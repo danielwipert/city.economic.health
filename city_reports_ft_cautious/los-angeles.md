@@ -1,33 +1,33 @@
 # Los Angeles-Long Beach-Anaheim
 
-**Grade: B- (Below Average) | 50.3th percentile | September 2026**
+**Grade: B- (Below Average) | 54.0th percentile | October 2026**
 
 ---
 
-The Los Angeles-Long Beach-Anaheim metro area has an overall grade of B-, ranking 50.3th percentile out of 50 US metros, with a composite score driven largely by its strong labor demand and building permits growth. The city's economic character is defined by its top-tier labor demand composite score of 7.01, which combines a +1.83% employment growth rate and a +0.151% weekly hours deviation from its own trend. This signals a genuine demand expansion, with jobs being added and hours running above trend.
+The Los Angeles-Long Beach-Anaheim metro area has an overall grade of B- with a composite score ranking at the 54.0th percentile out of 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the top tier at the 88th percentile, and its high cost of living, ranked at the 4th percentile. The labor demand is driven by a 1.83% year-over-year employment growth rate and a 0.151% deviation in weekly hours above its own trend.
 
 **Labor Demand**
-The employment growth rate of +1.83% and weekly hours deviation of +0.151% indicate a strong labor market with genuine demand expansion. This combination signals that the city is experiencing an increase in jobs and working hours, which is a positive indicator for businesses looking to expand or relocate. The labor demand composite score of 7.01, ranking in the 88th percentile, further reinforces this trend.
+The combination of a 1.83% employment growth rate and a 0.151% increase in weekly hours above trend signals genuine demand expansion in the Los Angeles-Long Beach-Anaheim metro area. This indicates that the city is experiencing a period of job growth, with hours worked also increasing, suggesting a strong and vibrant labor market. The labor demand composite score of 7.01 further reinforces this, ranking in the top tier at the 88th percentile.
 
 **Unemployment**
-The unemployment rate of 5.00% ranks in the 48th percentile, indicating a near-median level of unemployment. This suggests that the market has some slack, making it relatively easier for businesses to hire compared to cities with tighter labor markets. However, this also means that local consumer demand may be weaker compared to cities with lower unemployment rates.
+The unemployment rate in the Los Angeles-Long Beach-Anaheim metro area is 4.80%, ranking at the 60th percentile, indicating a relatively tight labor market with some slack. For a business trying to hire in this city, this means that while it may be slightly challenging to find the right talent, it is still possible to attract workers without excessive wage pressure. However, the market is not so loose that it would be easy to find qualified candidates at low wages.
 
 **Wage Growth**
-The year-over-year wage growth rate of +3.39% ranks in the 46th percentile, indicating a moderate level of wage growth. This means that employer labor costs are rising, but at a pace that is not excessively high. Workers in the city are also experiencing an increase in purchasing power, which can have a positive impact on local consumer demand.
+The year-over-year wage growth rate in the Los Angeles-Long Beach-Anaheim metro area is 3.39%, ranking near the median at the 46th percentile. This moderate wage growth rate suggests that labor costs for employers are increasing, but not at an alarming rate, while workers are seeing some improvement in their purchasing power. This balance is generally favorable for businesses looking to manage labor costs while still attracting and retaining talent.
 
 **Cost of Living**
-The cost of living in Los Angeles-Long Beach-Anaheim is relatively expensive, with a percentile rank of 4th, indicating that it is one of the more expensive cities in the US. The PSF of $652/sqft, which is decreasing at a rate of -2.1% YoY, combined with an hourly earnings rate of $41.54/hr, results in a ratio of 15.70. This makes it challenging for businesses to attract talent without offering wage premiums, as the high cost of living may offset the benefits of working in the city.
+The Los Angeles-Long Beach-Anaheim metro area has a cost of living ranked at the 4th percentile, with a price per square foot of $647 and average hourly earnings of $41.54, resulting in a ratio of 15.58. This makes the city one of the more expensive places to live relative to peers, which can be a significant disadvantage for talent attraction, as businesses may need to offer wage premiums to compensate for the high cost of living.
 
 **Labor Force Growth**
-The civilian labor force is contracting at a rate of -2.18% year-over-year, ranking in the 8th percentile. This indicates that the labor pool is shrinking, which can create a structural headwind for hiring and may limit the city's ability to support business growth.
+The civilian labor force in the Los Angeles-Long Beach-Anaheim metro area is contracting at a rate of -1.91% year-over-year, ranking below average at the 24th percentile. This contraction in labor force supply implies that the hiring capacity for businesses may be limited, making it more challenging to find and recruit new talent, potentially leading to increased competition for workers and upward pressure on wages.
 
 **Building Permits**
-The year-over-year change in building permits is +26.84%, ranking in the 78th percentile, indicating a strong expansion in housing supply. This suggests that developer confidence is high, and the city is likely to experience an increase in available housing, which can improve affordability and make it easier for workers to relocate to the area.
+The year-over-year change in residential building permits in the Los Angeles-Long Beach-Anaheim metro area is +26.84%, ranking above average at the 78th percentile. This significant increase in building permits suggests that housing supply is expanding, which could lead to improved affordability and a more accommodating environment for the workforce in the future.
 
 **Days on Market**
-The current median days on market is 53 days, with a year-over-year change of +0.0%, ranking in the 28th percentile. This indicates a relatively fast-paced market, making it challenging for relocating workers to find housing. However, the stable days on market suggests that the market is not becoming increasingly competitive.
+The median days on market for homes in the Los Angeles-Long Beach-Anaheim metro area is 55 days, with a year-over-year decrease of -3.5%, ranking below average at the 22nd percentile. This relatively fast pace of home sales indicates a competitive market, which could make it challenging for relocating workers to find and purchase homes, potentially affecting their decision to move to the area.
 
 **Office Economy**
-The share of professional and office workers in the city is 2.32, ranking in the 44th percentile, indicating a near-median level of depth in the professional talent pool. This makes the city suitable for businesses that require a moderate level of specialized knowledge workers, but may not be the best fit for businesses that require a highly specialized or deep talent pool.
+The Los Angeles-Long Beach-Anaheim metro area has a professional and office worker share ranked near the median at the 44th percentile, with a composite score of 2.32. This suggests that while the city has a notable presence of professional and office sectors, it is not as deep as in some other metros, making it more suited for businesses that can thrive in a mixed economy, rather than those requiring a highly specialized or abundant professional talent pool.
 
-The Los Angeles-Long Beach-Anaheim metro area offers businesses a strong labor demand and expanding housing supply, making it an attractive location for companies looking to grow. However, the city's high cost of living and shrinking labor force are significant constraints that decision-makers should factor in, as they may limit the city's ability to support long-term business growth and require businesses to offer wage premiums to attract talent.
+In conclusion, the Los Angeles-Long Beach-Anaheim metro area offers a strong labor demand and expanding housing supply, which could support business growth and talent attraction. However, the single biggest risk or constraint for businesses considering this location is the high cost of living, which may necessitate offering wage premiums to attract and retain talent, potentially increasing labor costs and affecting profitability.
