@@ -1,11 +1,11 @@
 {
-  "processing_timestamp": "2026-10-05T17:49:20.580999",
-  "processing_date": "2026-10-05 17:49:20",
+  "processing_timestamp": "2026-10-12T18:36:54.886562",
+  "processing_date": "2026-10-12 18:36:54",
   "version": 2,
   "metrics_count": 9,
   "metrics_scored": 9,
   "metrics_collected_only": 0,
-  "source_data": "2026-10-05 17:49:20",
+  "source_data": "2026-10-12 18:36:54",
   "msa_averages": {
     "unemployment_rate": {
       "msa_average": 4.282,
@@ -36,8 +36,8 @@
       "metros_with_data": 50
     },
     "median_days_on_market": {
-      "msa_average": 54.08,
-      "metros_with_data": 50
+      "msa_average": 53.8776,
+      "metros_with_data": 49
     }
   },
   "metros": {
@@ -3910,7 +3910,7 @@
       "metro_name": "Charlotte-Concord-Gastonia",
       "primary_city": "Charlotte",
       "civilian_population": 2309074,
-      "metrics_processed": 11,
+      "metrics_processed": 10,
       "data": {
         "unemployment_rate": {
           "latest_value": 3.7,
@@ -4050,24 +4050,6 @@
             "current_3mo": 218.3333,
             "change": -2.0,
             "pct_change": -0.91
-          }
-        },
-        "median_days_on_market": {
-          "latest_value": 64.0,
-          "latest_date": "2026-09-01",
-          "series_id": "MEDDAYONMAR16740",
-          "metric_name": "Median Days on Market",
-          "3month_average": 60.666666666666664,
-          "12month_average": 59.5,
-          "yoy_change": {
-            "current": 64.0,
-            "change": 6.0,
-            "pct_change": 10.34
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 60.6667,
-            "change": 4.6667,
-            "pct_change": 8.33
           }
         },
         "cost_of_living": {

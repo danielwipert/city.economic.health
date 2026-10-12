@@ -1,7 +1,7 @@
 {
-  "calculation_timestamp": "2026-10-05T17:49:20.703892",
-  "calculation_date": "2026-10-05 17:49:20",
-  "data_collection_date": "2026-10-05 17:49:20",
+  "calculation_timestamp": "2026-10-12T18:36:55.022877",
+  "calculation_date": "2026-10-12 18:36:55",
+  "data_collection_date": "2026-10-12 18:36:54",
   "version": "5.0",
   "scoring_method": "Percentile-Based (Rank Order)",
   "rubric": "9-Metric Percentile System: 85% Employment / 15% Housing",
@@ -56,7 +56,7 @@
         "105C": 72.0,
         "107E": 34.0,
         "200B": 82.0,
-        "204A": 24.0
+        "204A": 22.4
       },
       "scores_100": {
         "101A": 46,
@@ -66,7 +66,7 @@
         "105C": 72,
         "107E": 34,
         "200B": 82,
-        "204A": 24
+        "204A": 22
       },
       "weighted_percentile": 39.9,
       "weighted_score": 40,
@@ -106,7 +106,7 @@
         "105C": 44.0,
         "107E": 88.0,
         "200B": 78.0,
-        "204A": 22.0
+        "204A": 20.4
       },
       "scores_100": {
         "101A": 60,
@@ -116,15 +116,15 @@
         "105C": 44,
         "107E": 88,
         "200B": 78,
-        "204A": 22
+        "204A": 20
       },
-      "weighted_percentile": 54.0,
+      "weighted_percentile": 53.9,
       "weighted_score": 54,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 54.0
+        "percentile": 53.9
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -156,7 +156,7 @@
         "105C": 50.0,
         "107E": 50.0,
         "200B": 24.0,
-        "204A": 8.0
+        "204A": 8.2
       },
       "scores_100": {
         "101A": 4,
@@ -168,13 +168,13 @@
         "200B": 24,
         "204A": 8
       },
-      "weighted_percentile": 26.4,
+      "weighted_percentile": 26.5,
       "weighted_score": 26,
       "grade": {
         "letter": "D",
         "emoji": "\ud83d\udca5",
         "description": "Emergency",
-        "percentile": 26.4
+        "percentile": 26.5
       },
       "grade_display": "\ud83d\udca5 D"
     },
@@ -206,7 +206,7 @@
         "105C": 94.0,
         "107E": 82.0,
         "200B": 20.0,
-        "204A": 46.0
+        "204A": 44.9
       },
       "scores_100": {
         "101A": 36,
@@ -216,15 +216,15 @@
         "105C": 94,
         "107E": 82,
         "200B": 20,
-        "204A": 46
+        "204A": 45
       },
-      "weighted_percentile": 61.3,
+      "weighted_percentile": 61.2,
       "weighted_score": 61,
       "grade": {
         "letter": "B+",
         "emoji": "\ud83d\udcc8",
         "description": "Above Average",
-        "percentile": 61.3
+        "percentile": 61.2
       },
       "grade_display": "\ud83d\udcc8 B+"
     },
@@ -256,7 +256,7 @@
         "105C": 84.0,
         "107E": 74.0,
         "200B": 44.0,
-        "204A": 28.0
+        "204A": 26.5
       },
       "scores_100": {
         "101A": 18,
@@ -266,10 +266,10 @@
         "105C": 84,
         "107E": 74,
         "200B": 44,
-        "204A": 28
+        "204A": 27
       },
       "weighted_percentile": 48.5,
-      "weighted_score": 49,
+      "weighted_score": 48,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
@@ -306,7 +306,7 @@
         "105C": 64.0,
         "107E": 40.0,
         "200B": 4.0,
-        "204A": 50.0
+        "204A": 49.0
       },
       "scores_100": {
         "101A": 66,
@@ -316,7 +316,7 @@
         "105C": 64,
         "107E": 40,
         "200B": 4,
-        "204A": 50
+        "204A": 49
       },
       "weighted_percentile": 53.9,
       "weighted_score": 54,
@@ -356,7 +356,7 @@
         "105C": 32.0,
         "107E": 0,
         "200B": 80.0,
-        "204A": 94.0
+        "204A": 93.9
       },
       "scores_100": {
         "101A": 78,
@@ -406,7 +406,7 @@
         "105C": 32.0,
         "107E": 12.0,
         "200B": 62.0,
-        "204A": 36.0
+        "204A": 34.7
       },
       "scores_100": {
         "101A": 84,
@@ -416,7 +416,7 @@
         "105C": 32,
         "107E": 12,
         "200B": 62,
-        "204A": 36
+        "204A": 35
       },
       "weighted_percentile": 51.8,
       "weighted_score": 52,
@@ -456,7 +456,7 @@
         "105C": 60.0,
         "107E": 84.0,
         "200B": 64.0,
-        "204A": 78.0
+        "204A": 77.6
       },
       "scores_100": {
         "101A": 76,
@@ -506,7 +506,7 @@
         "105C": 80.0,
         "107E": 76.0,
         "200B": 56.0,
-        "204A": 52.0
+        "204A": 51.0
       },
       "scores_100": {
         "101A": 8,
@@ -516,7 +516,7 @@
         "105C": 80,
         "107E": 76,
         "200B": 56,
-        "204A": 52
+        "204A": 51
       },
       "weighted_percentile": 44.6,
       "weighted_score": 45,
@@ -606,7 +606,7 @@
         "105C": 0,
         "107E": 44.0,
         "200B": 14.0,
-        "204A": 54.0
+        "204A": 53.1
       },
       "scores_100": {
         "101A": 6,
@@ -616,15 +616,15 @@
         "105C": 0,
         "107E": 44,
         "200B": 14,
-        "204A": 54
+        "204A": 53
       },
-      "weighted_percentile": 35.4,
+      "weighted_percentile": 35.3,
       "weighted_score": 35,
       "grade": {
         "letter": "C-",
         "emoji": "\ud83d\udea8",
         "description": "Critical",
-        "percentile": 35.4
+        "percentile": 35.3
       },
       "grade_display": "\ud83d\udea8 C-"
     },
@@ -706,7 +706,7 @@
         "105C": 38.0,
         "107E": 16.0,
         "200B": 6.0,
-        "204A": 80.0
+        "204A": 79.6
       },
       "scores_100": {
         "101A": 2,
@@ -756,7 +756,7 @@
         "105C": 74.0,
         "107E": 66.0,
         "200B": 72.0,
-        "204A": 70.0
+        "204A": 69.4
       },
       "scores_100": {
         "101A": 28,
@@ -766,7 +766,7 @@
         "105C": 74,
         "107E": 66,
         "200B": 72,
-        "204A": 70
+        "204A": 69
       },
       "weighted_percentile": 57.6,
       "weighted_score": 58,
@@ -806,7 +806,7 @@
         "105C": 40.0,
         "107E": 58.0,
         "200B": 70.0,
-        "204A": 82.0
+        "204A": 81.6
       },
       "scores_100": {
         "101A": 10,
@@ -856,7 +856,7 @@
         "105C": 82.0,
         "107E": 60.0,
         "200B": 30.0,
-        "204A": 66.0
+        "204A": 65.3
       },
       "scores_100": {
         "101A": 16,
@@ -866,7 +866,7 @@
         "105C": 82,
         "107E": 60,
         "200B": 30,
-        "204A": 66
+        "204A": 65
       },
       "weighted_percentile": 54.8,
       "weighted_score": 55,
@@ -906,7 +906,7 @@
         "105C": 52.0,
         "107E": 52.0,
         "200B": 2.0,
-        "204A": 4.0
+        "204A": 4.1
       },
       "scores_100": {
         "101A": 30,
@@ -956,7 +956,7 @@
         "105C": 64.0,
         "107E": 68.0,
         "200B": 16.0,
-        "204A": 30.0
+        "204A": 28.6
       },
       "scores_100": {
         "101A": 12,
@@ -966,15 +966,15 @@
         "105C": 64,
         "107E": 68,
         "200B": 16,
-        "204A": 30
+        "204A": 29
       },
-      "weighted_percentile": 36.6,
-      "weighted_score": 37,
+      "weighted_percentile": 36.5,
+      "weighted_score": 36,
       "grade": {
         "letter": "C-",
         "emoji": "\ud83d\udea8",
         "description": "Critical",
-        "percentile": 36.6
+        "percentile": 36.5
       },
       "grade_display": "\ud83d\udea8 C-"
     },
@@ -1006,7 +1006,7 @@
         "105C": 90.0,
         "107E": 72.0,
         "200B": 22.0,
-        "204A": 62.0
+        "204A": 61.2
       },
       "scores_100": {
         "101A": 24,
@@ -1016,15 +1016,15 @@
         "105C": 90,
         "107E": 72,
         "200B": 22,
-        "204A": 62
+        "204A": 61
       },
-      "weighted_percentile": 60.3,
+      "weighted_percentile": 60.2,
       "weighted_score": 60,
       "grade": {
         "letter": "B+",
         "emoji": "\ud83d\udcc8",
         "description": "Above Average",
-        "percentile": 60.3
+        "percentile": 60.2
       },
       "grade_display": "\ud83d\udcc8 B+"
     },
@@ -1044,9 +1044,9 @@
         "107E_employment_growth_yoy": 1.54,
         "107E_wh_trend_deviation_pct": 1.361,
         "200B_permits_yoy": -22.75,
-        "204A_dom_composite": 6.72,
-        "204A_dom_yoy_pct": 10.34,
-        "204A_dom_level_days": 64.0
+        "204A_dom_composite": 5.0,
+        "204A_dom_yoy_pct": null,
+        "204A_dom_level_days": null
       },
       "percentile_scores": {
         "101A": 84.0,
@@ -1056,7 +1056,7 @@
         "105C": 86.0,
         "107E": 96.0,
         "200B": 12.0,
-        "204A": 16.0
+        "204A": 0
       },
       "scores_100": {
         "101A": 84,
@@ -1066,15 +1066,15 @@
         "105C": 86,
         "107E": 96,
         "200B": 12,
-        "204A": 16
+        "204A": 0
       },
-      "weighted_percentile": 68.0,
-      "weighted_score": 68,
+      "weighted_percentile": 67.2,
+      "weighted_score": 67,
       "grade": {
         "letter": "A-",
         "emoji": "\ud83d\udc4d",
         "description": "Good",
-        "percentile": 68.0
+        "percentile": 67.2
       },
       "grade_display": "\ud83d\udc4d A-"
     },
@@ -1106,7 +1106,7 @@
         "105C": 36.0,
         "107E": 18.0,
         "200B": 42.0,
-        "204A": 96.0
+        "204A": 95.9
       },
       "scores_100": {
         "101A": 82,
@@ -1156,7 +1156,7 @@
         "105C": 54.0,
         "107E": 78.0,
         "200B": 66.0,
-        "204A": 74.0
+        "204A": 73.5
       },
       "scores_100": {
         "101A": 72,
@@ -1166,15 +1166,15 @@
         "105C": 54,
         "107E": 78,
         "200B": 66,
-        "204A": 74
+        "204A": 73
       },
-      "weighted_percentile": 69.2,
+      "weighted_percentile": 69.1,
       "weighted_score": 69,
       "grade": {
         "letter": "A",
         "emoji": "\u2705",
         "description": "Very Good",
-        "percentile": 69.2
+        "percentile": 69.1
       },
       "grade_display": "\u2705 A"
     },
@@ -1206,7 +1206,7 @@
         "105C": 76.0,
         "107E": 28.0,
         "200B": 76.0,
-        "204A": 60.0
+        "204A": 59.2
       },
       "scores_100": {
         "101A": 30,
@@ -1216,7 +1216,7 @@
         "105C": 76,
         "107E": 28,
         "200B": 76,
-        "204A": 60
+        "204A": 59
       },
       "weighted_percentile": 51.2,
       "weighted_score": 51,
@@ -1256,7 +1256,7 @@
         "105C": 94.0,
         "107E": 80.0,
         "200B": 50.0,
-        "204A": 20.0
+        "204A": 18.4
       },
       "scores_100": {
         "101A": 46,
@@ -1266,17 +1266,17 @@
         "105C": 94,
         "107E": 80,
         "200B": 50,
-        "204A": 20
+        "204A": 18
       },
-      "weighted_percentile": 68.0,
+      "weighted_percentile": 67.9,
       "weighted_score": 68,
       "grade": {
-        "letter": "A",
-        "emoji": "\u2705",
-        "description": "Very Good",
-        "percentile": 68.0
+        "letter": "A-",
+        "emoji": "\ud83d\udc4d",
+        "description": "Good",
+        "percentile": 67.9
       },
-      "grade_display": "\u2705 A"
+      "grade_display": "\ud83d\udc4d A-"
     },
     {
       "metro_name": "Portland-Vancouver-Hillsboro",
@@ -1306,7 +1306,7 @@
         "105C": 6.0,
         "107E": 2.0,
         "200B": 90.0,
-        "204A": 36.0
+        "204A": 34.7
       },
       "scores_100": {
         "101A": 36,
@@ -1316,15 +1316,15 @@
         "105C": 6,
         "107E": 2,
         "200B": 90,
-        "204A": 36
+        "204A": 35
       },
-      "weighted_percentile": 44.7,
+      "weighted_percentile": 44.6,
       "weighted_score": 45,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Fair",
-        "percentile": 44.7
+        "percentile": 44.6
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -1356,7 +1356,7 @@
         "105C": 8.0,
         "107E": 62.0,
         "200B": 88.0,
-        "204A": 6.0
+        "204A": 6.1
       },
       "scores_100": {
         "101A": 22,
@@ -1368,13 +1368,13 @@
         "200B": 88,
         "204A": 6
       },
-      "weighted_percentile": 38.8,
+      "weighted_percentile": 38.9,
       "weighted_score": 39,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 38.8
+        "percentile": 38.9
       },
       "grade_display": "\u26d4 C"
     },
@@ -1406,7 +1406,7 @@
         "105C": 20.0,
         "107E": 24.0,
         "200B": 74.0,
-        "204A": 56.0
+        "204A": 55.1
       },
       "scores_100": {
         "101A": 90,
@@ -1416,7 +1416,7 @@
         "105C": 20,
         "107E": 24,
         "200B": 74,
-        "204A": 56
+        "204A": 55
       },
       "weighted_percentile": 58.6,
       "weighted_score": 59,
@@ -1456,7 +1456,7 @@
         "105C": 88.0,
         "107E": 92.0,
         "200B": 86.0,
-        "204A": 48.0
+        "204A": 46.9
       },
       "scores_100": {
         "101A": 56,
@@ -1466,15 +1466,15 @@
         "105C": 88,
         "107E": 92,
         "200B": 86,
-        "204A": 48
+        "204A": 47
       },
-      "weighted_percentile": 69.2,
+      "weighted_percentile": 69.1,
       "weighted_score": 69,
       "grade": {
         "letter": "A",
         "emoji": "\u2705",
         "description": "Very Good",
-        "percentile": 69.2
+        "percentile": 69.1
       },
       "grade_display": "\u2705 A"
     },
@@ -1506,7 +1506,7 @@
         "105C": 42.0,
         "107E": 32.0,
         "200B": 46.0,
-        "204A": 92.0
+        "204A": 91.8
       },
       "scores_100": {
         "101A": 92,
@@ -1556,7 +1556,7 @@
         "105C": 28.0,
         "107E": 70.0,
         "200B": 40.0,
-        "204A": 18.0
+        "204A": 16.3
       },
       "scores_100": {
         "101A": 64,
@@ -1566,15 +1566,15 @@
         "105C": 28,
         "107E": 70,
         "200B": 40,
-        "204A": 18
+        "204A": 16
       },
-      "weighted_percentile": 61.4,
+      "weighted_percentile": 61.3,
       "weighted_score": 61,
       "grade": {
         "letter": "B+",
         "emoji": "\ud83d\udcc8",
         "description": "Above Average",
-        "percentile": 61.4
+        "percentile": 61.3
       },
       "grade_display": "\ud83d\udcc8 B+"
     },
@@ -1606,7 +1606,7 @@
         "105C": 12.0,
         "107E": 36.0,
         "200B": 26.0,
-        "204A": 72.0
+        "204A": 71.4
       },
       "scores_100": {
         "101A": 96,
@@ -1616,7 +1616,7 @@
         "105C": 12,
         "107E": 36,
         "200B": 26,
-        "204A": 72
+        "204A": 71
       },
       "weighted_percentile": 52.8,
       "weighted_score": 53,
@@ -1656,7 +1656,7 @@
         "105C": 14.0,
         "107E": 6.0,
         "200B": 38.0,
-        "204A": 76.0
+        "204A": 75.5
       },
       "scores_100": {
         "101A": 88,
@@ -1706,7 +1706,7 @@
         "105C": 60.0,
         "107E": 48.0,
         "200B": 48.0,
-        "204A": 64.0
+        "204A": 63.3
       },
       "scores_100": {
         "101A": 60,
@@ -1716,7 +1716,7 @@
         "105C": 60,
         "107E": 48,
         "200B": 48,
-        "204A": 64
+        "204A": 63
       },
       "weighted_percentile": 50.7,
       "weighted_score": 51,
@@ -1756,7 +1756,7 @@
         "105C": 78.0,
         "107E": 46.0,
         "200B": 18.0,
-        "204A": 26.0
+        "204A": 24.5
       },
       "scores_100": {
         "101A": 80,
@@ -1766,15 +1766,15 @@
         "105C": 78,
         "107E": 46,
         "200B": 18,
-        "204A": 26
+        "204A": 24
       },
-      "weighted_percentile": 51.2,
+      "weighted_percentile": 51.1,
       "weighted_score": 51,
       "grade": {
         "letter": "B-",
         "emoji": "\u26a0\ufe0f",
         "description": "Below Average",
-        "percentile": 51.2
+        "percentile": 51.1
       },
       "grade_display": "\u26a0\ufe0f B-"
     },
@@ -1806,7 +1806,7 @@
         "105C": 64.0,
         "107E": 94.0,
         "200B": 0,
-        "204A": 12.0
+        "204A": 12.2
       },
       "scores_100": {
         "101A": 56,
@@ -1856,7 +1856,7 @@
         "105C": 24.0,
         "107E": 14.0,
         "200B": 28.0,
-        "204A": 36.0
+        "204A": 34.7
       },
       "scores_100": {
         "101A": 66,
@@ -1866,15 +1866,15 @@
         "105C": 24,
         "107E": 14,
         "200B": 28,
-        "204A": 36
+        "204A": 35
       },
-      "weighted_percentile": 41.3,
+      "weighted_percentile": 41.2,
       "weighted_score": 41,
       "grade": {
         "letter": "C",
         "emoji": "\u26d4",
         "description": "Very Poor",
-        "percentile": 41.3
+        "percentile": 41.2
       },
       "grade_display": "\u26d4 C"
     },
@@ -1906,7 +1906,7 @@
         "105C": 58.0,
         "107E": 20.0,
         "200B": 54.0,
-        "204A": 68.0
+        "204A": 67.3
       },
       "scores_100": {
         "101A": 14,
@@ -1916,15 +1916,15 @@
         "105C": 58,
         "107E": 20,
         "200B": 54,
-        "204A": 68
+        "204A": 67
       },
-      "weighted_percentile": 31.7,
+      "weighted_percentile": 31.6,
       "weighted_score": 32,
       "grade": {
         "letter": "C-",
         "emoji": "\ud83d\udea8",
         "description": "Critical",
-        "percentile": 31.7
+        "percentile": 31.6
       },
       "grade_display": "\ud83d\udea8 C-"
     },
@@ -1956,7 +1956,7 @@
         "105C": 64.0,
         "107E": 54.0,
         "200B": 68.0,
-        "204A": 86.0
+        "204A": 85.7
       },
       "scores_100": {
         "101A": 18,
@@ -2006,7 +2006,7 @@
         "105C": 30.0,
         "107E": 22.0,
         "200B": 58.0,
-        "204A": 88.0
+        "204A": 87.8
       },
       "scores_100": {
         "101A": 54,
@@ -2056,7 +2056,7 @@
         "105C": 98.0,
         "107E": 98.0,
         "200B": 36.0,
-        "204A": 36.0
+        "204A": 34.7
       },
       "scores_100": {
         "101A": 94,
@@ -2066,7 +2066,7 @@
         "105C": 98,
         "107E": 98,
         "200B": 36,
-        "204A": 36
+        "204A": 35
       },
       "weighted_percentile": 70.7,
       "weighted_score": 71,
@@ -2106,7 +2106,7 @@
         "105C": 10.0,
         "107E": 42.0,
         "200B": 60.0,
-        "204A": 58.0
+        "204A": 57.1
       },
       "scores_100": {
         "101A": 40,
@@ -2116,15 +2116,15 @@
         "105C": 10,
         "107E": 42,
         "200B": 60,
-        "204A": 58
+        "204A": 57
       },
-      "weighted_percentile": 46.7,
+      "weighted_percentile": 46.6,
       "weighted_score": 47,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Fair",
-        "percentile": 46.7
+        "percentile": 46.6
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -2156,7 +2156,7 @@
         "105C": 2.0,
         "107E": 10.0,
         "200B": 8.0,
-        "204A": 90.0
+        "204A": 89.8
       },
       "scores_100": {
         "101A": 44,
@@ -2206,7 +2206,7 @@
         "105C": 22.0,
         "107E": 8.0,
         "200B": 96.0,
-        "204A": 10.0
+        "204A": 10.2
       },
       "scores_100": {
         "101A": 66,
@@ -2306,7 +2306,7 @@
         "105C": 92.0,
         "107E": 90.0,
         "200B": 84.0,
-        "204A": 36.0
+        "204A": 34.7
       },
       "scores_100": {
         "101A": 74,
@@ -2316,15 +2316,15 @@
         "105C": 92,
         "107E": 90,
         "200B": 84,
-        "204A": 36
+        "204A": 35
       },
-      "weighted_percentile": 71.7,
+      "weighted_percentile": 71.6,
       "weighted_score": 72,
       "grade": {
         "letter": "A",
         "emoji": "\u2705",
         "description": "Very Good",
-        "percentile": 71.7
+        "percentile": 71.6
       },
       "grade_display": "\u2705 A"
     },
@@ -2356,7 +2356,7 @@
         "105C": 48.0,
         "107E": 64.0,
         "200B": 92.0,
-        "204A": 32.0
+        "204A": 30.6
       },
       "scores_100": {
         "101A": 50,
@@ -2366,15 +2366,15 @@
         "105C": 48,
         "107E": 64,
         "200B": 92,
-        "204A": 32
+        "204A": 31
       },
-      "weighted_percentile": 48.3,
+      "weighted_percentile": 48.2,
       "weighted_score": 48,
       "grade": {
         "letter": "C+",
         "emoji": "\ud83d\udcc9",
         "description": "Fair",
-        "percentile": 48.3
+        "percentile": 48.2
       },
       "grade_display": "\ud83d\udcc9 C+"
     },
@@ -2406,7 +2406,7 @@
         "105C": 18.0,
         "107E": 38.0,
         "200B": 32.0,
-        "204A": 34.0
+        "204A": 32.7
       },
       "scores_100": {
         "101A": 0,
@@ -2416,7 +2416,7 @@
         "105C": 18,
         "107E": 38,
         "200B": 32,
-        "204A": 34
+        "204A": 33
       },
       "weighted_percentile": 33.8,
       "weighted_score": 34,
@@ -2456,7 +2456,7 @@
         "105C": 16.0,
         "107E": 30.0,
         "200B": 34.0,
-        "204A": 82.0
+        "204A": 81.6
       },
       "scores_100": {
         "101A": 50,
@@ -2506,7 +2506,7 @@
         "105C": 26.0,
         "107E": 86.0,
         "200B": 10.0,
-        "204A": 12.0
+        "204A": 12.2
       },
       "scores_100": {
         "101A": 98,
