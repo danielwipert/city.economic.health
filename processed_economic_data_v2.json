@@ -1,11 +1,11 @@
 {
-  "processing_timestamp": "2026-10-12T18:36:54.886562",
-  "processing_date": "2026-10-12 18:36:54",
+  "processing_timestamp": "2026-10-19T16:16:43.733811",
+  "processing_date": "2026-10-19 16:16:43",
   "version": 2,
   "metrics_count": 9,
   "metrics_scored": 9,
   "metrics_collected_only": 0,
-  "source_data": "2026-10-12 18:36:54",
+  "source_data": "2026-10-19 16:16:43",
   "msa_averages": {
     "unemployment_rate": {
       "msa_average": 4.282,
@@ -20,24 +20,24 @@
       "metros_with_data": 50
     },
     "cost_of_living": {
-      "msa_average": 7.0574,
-      "metros_with_data": 50
+      "msa_average": 7.1035,
+      "metros_with_data": 49
     },
     "office_worker_ratio": {
-      "msa_average": 9.8866,
-      "metros_with_data": 50
+      "msa_average": 10.0081,
+      "metros_with_data": 49
     },
     "building_permits": {
-      "msa_average": 1351.4769,
-      "metros_with_data": 50
+      "msa_average": 1358.854,
+      "metros_with_data": 49
     },
     "price_per_sqft": {
-      "msa_average": 275.72,
-      "metros_with_data": 50
+      "msa_average": 278.1429,
+      "metros_with_data": 49
     },
     "median_days_on_market": {
-      "msa_average": 53.8776,
-      "metros_with_data": 49
+      "msa_average": 54.08,
+      "metros_with_data": 50
     }
   },
   "metros": {
@@ -2752,7 +2752,7 @@
       "metro_name": "Seattle-Tacoma-Bellevue",
       "primary_city": "Seattle",
       "civilian_population": 3404334,
-      "metrics_processed": 11,
+      "metrics_processed": 10,
       "data": {
         "unemployment_rate": {
           "latest_value": 4.8,
@@ -2856,24 +2856,6 @@
             "current_3mo": 382.4219,
             "change": 3.6593,
             "pct_change": 0.97
-          }
-        },
-        "building_permits": {
-          "latest_value": 990.0,
-          "latest_date": "2026-08-01",
-          "series_id": "SEAT653BPPRIV",
-          "metric_name": "Building Permits",
-          "3month_average": 1546.3333333333333,
-          "12month_average": 1679.3333333333333,
-          "yoy_change": {
-            "current": 990.0,
-            "change": -560.0,
-            "pct_change": -36.13
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 1546.3333,
-            "change": 296.3333,
-            "pct_change": 23.71
           }
         },
         "price_per_sqft": {
@@ -3910,7 +3892,7 @@
       "metro_name": "Charlotte-Concord-Gastonia",
       "primary_city": "Charlotte",
       "civilian_population": 2309074,
-      "metrics_processed": 10,
+      "metrics_processed": 11,
       "data": {
         "unemployment_rate": {
           "latest_value": 3.7,
@@ -4050,6 +4032,24 @@
             "current_3mo": 218.3333,
             "change": -2.0,
             "pct_change": -0.91
+          }
+        },
+        "median_days_on_market": {
+          "latest_value": 64.0,
+          "latest_date": "2026-09-01",
+          "series_id": "MEDDAYONMAR16740",
+          "metric_name": "Median Days on Market",
+          "3month_average": 60.666666666666664,
+          "12month_average": 59.5,
+          "yoy_change": {
+            "current": 64.0,
+            "change": 6.0,
+            "pct_change": 10.34
+          },
+          "3month_avg_yoy": {
+            "current_3mo": 60.6667,
+            "change": 4.6667,
+            "pct_change": 8.33
           }
         },
         "cost_of_living": {
@@ -8918,7 +8918,7 @@
       "metro_name": "Birmingham",
       "primary_city": "Birmingham",
       "civilian_population": 955062,
-      "metrics_processed": 11,
+      "metrics_processed": 9,
       "data": {
         "unemployment_rate": {
           "latest_value": 3.4,
@@ -9042,24 +9042,6 @@
             "pct_change": 36.73
           }
         },
-        "price_per_sqft": {
-          "latest_value": 157.0,
-          "latest_date": "2026-09-01",
-          "series_id": "MEDLISPRIPERSQUFEE13820",
-          "metric_name": "Price per Sqft",
-          "3month_average": 158.66666666666666,
-          "12month_average": 158.58333333333334,
-          "yoy_change": {
-            "current": 157.0,
-            "change": -2.0,
-            "pct_change": -1.26
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 158.6667,
-            "change": -1.6667,
-            "pct_change": -1.04
-          }
-        },
         "median_days_on_market": {
           "latest_value": 61.0,
           "latest_date": "2026-09-01",
@@ -9077,19 +9059,6 @@
             "change": 1.6667,
             "pct_change": 2.89
           }
-        },
-        "cost_of_living": {
-          "latest_value": 4.7998,
-          "latest_date": "2026-09-01",
-          "series_id": null,
-          "metric_name": "Cost of Living",
-          "3month_average": 4.8581,
-          "yoy_change": {
-            "current": 4.7998,
-            "change": -0.0537,
-            "pct_change": -1.11
-          },
-          "note": "Calculated as (Price per Sqft / Hourly Earnings)"
         },
         "office_worker_ratio": {
           "latest_value": 7.8982,
@@ -9111,7 +9080,7 @@
       "metro_name": "Fresno",
       "primary_city": "Fresno",
       "civilian_population": 908392,
-      "metrics_processed": 11,
+      "metrics_processed": 9,
       "data": {
         "unemployment_rate": {
           "latest_value": 7.8,
@@ -9199,24 +9168,6 @@
             "pct_change": -3.41
           }
         },
-        "office_workers": {
-          "latest_value": 35.758,
-          "latest_date": "2026-08-01",
-          "series_id": "FRES406PBSV",
-          "metric_name": "Office Workers",
-          "3month_average": 36.5568144995,
-          "12month_average": 36.24203688386667,
-          "yoy_change": {
-            "current": 35.758,
-            "change": -0.7036,
-            "pct_change": -1.93
-          },
-          "3month_avg_yoy": {
-            "current_3mo": 36.5568,
-            "change": 0.2416,
-            "pct_change": 0.67
-          }
-        },
         "building_permits": {
           "latest_value": 2271.0,
           "latest_date": "2025-01-01",
@@ -9280,19 +9231,6 @@
             "pct_change": -3.66
           },
           "note": "Calculated as (Price per Sqft / Hourly Earnings)"
-        },
-        "office_worker_ratio": {
-          "latest_value": 3.9364,
-          "latest_date": "2026-08-01",
-          "series_id": "FRES406PBSV",
-          "metric_name": "Office Worker Ratio",
-          "3month_average": 4.0243,
-          "yoy_change": {
-            "current": 3.9364,
-            "change": -0.0775,
-            "pct_change": -1.93
-          },
-          "note": "Calculated as (Office Workers \u00d7 1000 / Civilian Population) \u00d7 100"
         }
       }
     },
