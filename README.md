@@ -50,10 +50,11 @@ Calculates derived fields for each series: 3-month average, 12-month average, Yo
 ### Step 3 — Scoring Engine (`calculate_metrics_reconciled_V6.py`)
 Builds percentile scores for 8 metrics across 50 metros, applies weights, calculates composite grades. Key staleness guards: PSF data older than 9 months is treated as missing for 104C; building permits data older than 6 months (monthly series) or 3 years (annual series) is treated as missing or falls back to annual YoY. Outputs JSON and a formatted Excel workbook (5 sheets).
 
-### Step 4 — LLM Reports (`city_econ_pipeline_cautious.py`)
-Generates a two-pass AI report per city using Together AI:
-- Pass 1 (Qwen 2.5 72B): evidence-based economic analysis from the metric data
-- Pass 2 (Llama 3.1 8B): copy-editing pass for FT-style tone and restraint
+### Step 4 — LLM Reports (`city_econ_pipeline.py`)
+Generates one AI brief per city with Llama 3.3 70B Instruct
+(`meta-llama/llama-3.3-70b-instruct`), called through OpenRouter. OpenRouter
+automatically switches to another host for the model if one is down. To change
+models, edit `MODEL_ID` in `city_econ_pipeline.py`.
 
 Output: one Markdown file per city in `city_reports_ft_cautious/`.
 
@@ -77,7 +78,7 @@ serves is `docs/pdfs/city_economic_report_latest.pdf`, which **is** tracked.
 
 ## Automation
 
-GitHub Actions runs the full pipeline — data pull, processing, scoring, briefs, PDF and site — every Monday at 9:00 AM UTC (`.github/workflows/economic-data-weekly.yml`). Results are committed back to the repo automatically. Requires two repository secrets: `FRED_API_KEY` and `TOGETHER_API_KEY`.
+GitHub Actions runs the full pipeline — data pull, processing, scoring, briefs, PDF and site — every Monday at 9:00 AM UTC (`.github/workflows/economic-data-weekly.yml`). Results are committed back to the repo automatically. Requires two repository secrets: `FRED_API_KEY` and `OPENROUTER_API_KEY`.
 
 ### Failure behaviour
 
@@ -113,7 +114,7 @@ if the output is still correct.
 Create `.env` in `final.1/`:
 ```
 FRED_API_KEY=your_fred_api_key
-TOGETHER_API_KEY=your_together_api_key
+OPENROUTER_API_KEY=your_openrouter_api_key
 ```
 
 **Run the full pipeline:**
@@ -121,7 +122,7 @@ TOGETHER_API_KEY=your_together_api_key
 python pull_economic_data_unified_FIXED.py
 python process_historical_data_v2_FIXED.py
 python calculate_metrics_reconciled_V6.py
-python city_econ_pipeline.py            # optional — requires TOGETHER_API_KEY
+python city_econ_pipeline.py            # optional — requires OPENROUTER_API_KEY
 python generate_pdf_report.py           # optional — generates PDF + site
 python generate_rankings_pdf.py         # optional — rankings PDF only
 ```
@@ -152,7 +153,7 @@ Free FRED API key: https://fred.stlouisfed.org/docs/api/api_key.html
 | Data processing | Python — pandas, requests |
 | Scoring engine | Python — custom percentile ranking |
 | Excel output | openpyxl |
-| LLM inference | Together AI (Qwen 2.5 72B + Llama 3.1 8B) |
+| LLM inference | OpenRouter (Llama 3.3 70B Instruct) |
 | PDF generation | Jinja2 + Playwright (headless Chromium) |
 | Static site | Jinja2 HTML templates |
 | Automation | GitHub Actions |

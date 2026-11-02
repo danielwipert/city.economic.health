@@ -23,7 +23,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import pandas as pd
-from together import Together
+from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -36,19 +36,22 @@ if sys.stderr.encoding and sys.stderr.encoding.lower() != 'utf-8':
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 
-TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
-if TOGETHER_API_KEY is None:
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+if OPENROUTER_API_KEY is None:
     raise RuntimeError(
-        "TOGETHER_API_KEY not set.\n"
-        "In PowerShell run: $env:TOGETHER_API_KEY = 'your_key_here'"
+        "OPENROUTER_API_KEY not set.\n"
+        "In PowerShell run: $env:OPENROUTER_API_KEY = 'your_key_here'"
     )
 
-MODEL_ID   = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+# All model calls go through OpenRouter, which speaks the OpenAI API format.
+# OpenRouter automatically switches to another host if one is down.
+OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+MODEL_ID   = "meta-llama/llama-3.3-70b-instruct"
 JSON_PATH  = "calculated_metrics_reconciled.json"
 OUTPUT_DIR = Path("city_reports_ft_cautious")
 MAX_WORKERS = 4
 
-# Transient Together API blips should not fail the weekly run, but a city that
+# Transient OpenRouter API blips should not fail the weekly run, but a city that
 # genuinely cannot be regenerated must not silently keep last week's brief.
 LLM_MAX_ATTEMPTS = 3
 LLM_RETRY_BACKOFF = 5  # seconds, multiplied by attempt number
@@ -309,7 +312,7 @@ FORMAT RULES — follow exactly:
 # ─── LLM CALL ─────────────────────────────────────────────────────────────────
 
 def call_llm(prompt: str) -> str:
-    client = Together(api_key=TOGETHER_API_KEY)
+    client = OpenAI(base_url=OPENROUTER_BASE_URL, api_key=OPENROUTER_API_KEY)
     last_error = None
 
     for attempt in range(1, LLM_MAX_ATTEMPTS + 1):
