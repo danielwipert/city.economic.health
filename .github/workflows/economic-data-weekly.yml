@@ -40,7 +40,7 @@ jobs:
       
       - name: Generate cautious LLM summaries
         env:
-          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python city_econ_pipeline.py
 
       - name: Generate PDF report
