@@ -1,33 +1,33 @@
 # Cincinnati
 
-**Grade: A- (Good) | 67.1th percentile | October 2026**
+**Grade: B+ (Above Average) | 60.0th percentile | November 2026**
 
 ---
 
-Cincinnati earns an overall grade of A- with a composite score ranking at the 67.1th percentile among 50 US metros. The city's economic character is most defined by its exceptionally low unemployment rate of 3.60% and strong wage growth of +8.11% year-over-year, indicating a tight labor market with rising labor costs. These metrics suggest that Cincinnati is an attractive location for businesses looking for a skilled workforce, but may face challenges in hiring due to the competitive job market.
+Cincinnati earns an overall grade of B+ with a composite score ranking it at the 60.0th percentile among 50 US metros. The city's economic character is most defined by its exceptionally high wage growth, with hourly earnings rising 8.92% year-over-year, and its relatively low unemployment rate of 3.60%, which ranks in the 74th percentile. These metrics suggest a city with a strong labor market, but also one that may pose challenges for businesses looking to hire and retain talent.
 
 **Labor Demand**
-Cincinnati's employment growth rate is +0.31% year-over-year, and weekly hours are deviating by +0.000% from its own trend, resulting in a labor demand composite score of 4.73, which ranks below average at the 32th percentile. This combination signals a modest expansion of genuine demand, but at a slower pace than many peer cities. The labor market is growing, but not at a rate that would indicate a significant surge in hiring activity.
+Cincinnati's employment growth rate is 0.43% year-over-year, while weekly hours are deviating -0.149% from the city's own 12-month baseline. This combination signals a labor demand environment that is not particularly robust, with hours worked not increasing significantly despite some job growth, indicating a potential survivor squeeze where remaining workers may be absorbing the load of eliminated roles.
 
 **Unemployment**
-The unemployment rate in Cincinnati is 3.60%, ranking at the 92th percentile, indicating a very tight labor market with minimal slack. This means that businesses trying to hire in this city will face significant competition for talent, potentially leading to upward pressure on wages. With such a low unemployment rate, companies may need to offer competitive salaries and benefits to attract and retain top workers.
+The city's unemployment rate of 3.60% indicates a relatively tight labor market, ranking in the 74th percentile. This means that businesses may face challenges in finding and hiring qualified candidates, and may need to offer competitive wages to attract top talent.
 
 **Wage Growth**
-Wage growth in Cincinnati is +8.11% year-over-year, ranking at the 98th percentile, which is exceptionally strong. This rapid wage growth implies rising labor costs for employers, but also increasing purchasing power for workers. As a result, businesses may need to budget for higher labor costs, but can also expect a skilled and affluent workforce with strong consumer demand.
+With a year-over-year wage growth rate of 8.92%, Cincinnati is experiencing rapid increases in labor costs, which may be a challenge for employers. However, this also means that workers have strong purchasing power, which can be beneficial for businesses that rely on local consumer demand.
 
 **Cost of Living**
-Cincinnati has a cost of living score that ranks at the 94th percentile, with a price-to-salary ratio of $190/sqft (decreasing by 1.0% year-over-year) to $36.31/hr, resulting in a ratio of 5.23. This indicates that the city is relatively affordable compared to its peers, making it an attractive location for talent without requiring significant wage premiums. The decreasing price-to-salary ratio is a key driver of this affordability, suggesting that the city's housing market is becoming more accessible.
+Cincinnati's cost of living is relatively affordable, with a percentile rank of 92, driven by a PSF of $189/sqft that is decreasing by 0.5% year-over-year, and an average hourly wage of $36.19. This makes the city an attractive location for talent, as workers can afford a high quality of life without requiring significant wage premiums.
 
 **Labor Force Growth**
-The civilian labor force in Cincinnati is shrinking at a rate of -1.35% year-over-year, ranking near the median at the 42th percentile. This contraction in labor force supply implies that hiring capacity may be limited, and businesses may face challenges in finding qualified workers. As the labor force shrinks, companies may need to invest in training and development programs to attract and retain talent.
+The city's labor force is contracting at a rate of -1.16% year-over-year, indicating a shrinking labor pool. This poses a structural headwind for hiring, as businesses may struggle to find qualified candidates to fill open positions.
 
 **Building Permits**
-The number of building permits in Cincinnati is decreasing by -1.83% year-over-year, ranking near the median at the 47th percentile. This decline in permits suggests that housing supply is tightening, which may lead to decreased affordability and increased competition for workforce accommodation in the future. As the housing market becomes less accessible, businesses may need to consider offering relocation assistance or other incentives to attract workers.
+The number of building permits in Cincinnati is decreasing by 20.21% year-over-year, indicating a tightening of the housing supply. This signals potential future affordability challenges and may make it more difficult for workers to relocate to the city, which could impact businesses' ability to attract and retain talent.
 
 **Days on Market**
-The median days on market in Cincinnati is currently 44 days, with a year-over-year increase of +12.8%, ranking at the 92th percentile. This indicates a slower market, where homes are sitting longer before being sold, making it more accessible for relocating workers to find housing. However, this trend may also suggest a normalization of the housing market, rather than a significant decrease in demand.
+Homes in Cincinnati are currently sitting on the market for 44 days, with a year-over-year increase of 15.8%. This suggests a slower market, which can be beneficial for workers relocating to the city, as they may have more time to find a suitable home.
 
 **Office Economy**
-Cincinnati's professional and office worker share ranks near the median at the 41st percentile, with a composite score of 2.31. This suggests that the city has a moderate-sized talent pool suited for tech, finance, consulting, and HQ decisions, but may not be as deep as in other major metropolitan areas. While Cincinnati is a viable location for knowledge-economy businesses, it may not be the best fit for companies requiring a highly specialized or abundant professional workforce.
+Cincinnati's professional talent pool is relatively shallow, ranking in the 36th percentile. The city is best suited for businesses that do not require a deep pool of specialized office workers, such as industrial or logistics companies, and may not be the best fit for tech, finance, or consulting firms that rely on a strong knowledge economy.
 
-In conclusion, Cincinnati offers businesses a unique combination of a tight labor market, strong wage growth, and relatively low cost of living, making it an attractive location for companies looking for a skilled and affluent workforce. However, the single biggest risk or constraint for decision-makers is the shrinking labor force supply, which may limit hiring capacity and require investments in training and development programs to attract and retain talent.
+In conclusion, Cincinnati offers businesses a unique combination of high wage growth and relatively low unemployment, making it an attractive location for companies that can navigate its tight labor market. However, the city's shrinking labor force and tightening housing supply pose significant risks that decision-makers should carefully consider when evaluating Cincinnati as a potential location.

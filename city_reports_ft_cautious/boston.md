@@ -1,33 +1,33 @@
 # Boston-Cambridge-Newton
 
-**Grade: C+ (Fair) | 45.0th percentile | October 2026**
+**Grade: C (Very Poor) | 43.4th percentile | November 2026**
 
 ---
 
-The Boston-Cambridge-Newton metro area has an overall grade of C+ with a composite score ranking it at the 45.0th percentile out of 50 US metros. This city's economic character is most defined by its strong labor force growth of 2.87% YoY and its high building permits growth of 72.27% YoY, indicating a expanding workforce and housing supply. The labor demand composite score of 4.13, however, suggests a more nuanced economic picture.
+The Boston-Cambridge-Newton metro area has an overall grade of C, ranking 43.4th percentile out of 50 US metros, with a labor demand composite score of 4.24. This city's economic character is most defined by its low labor demand, with a -0.04% employment growth rate and -0.025% weekly hours deviation from its own trend, as well as its high cost of living, with a PSF to wages ratio of 9.83. The combination of these metrics suggests a challenging environment for businesses looking to expand or relocate.
 
 **Labor Demand**
-The employment growth rate of -0.12% YoY and weekly hours deviation of -0.351% from the city's own trend signal a contraction in labor demand, indicating that the city is experiencing a decline in job creation and hours worked. This combination suggests that the city is not experiencing genuine demand expansion, but rather a slowdown in economic activity. The labor demand composite score of 4.13, ranking at the 26th percentile, further supports this assessment.
+The employment growth rate in Boston-Cambridge-Newton is -0.04%, and weekly hours are deviating -0.025% from the city's own trend, indicating a contraction in labor demand. This combination signals a lack of genuine demand expansion, with the city's labor market experiencing a slowdown. The low labor demand composite score of 4.24 further reinforces this assessment, ranking below average at the 32nd percentile.
 
 **Unemployment**
-The unemployment rate of 3.90% is relatively low, ranking at the 26th percentile, indicating a tight labor market with some slack. For a business trying to hire in this city, this means that it may be moderately challenging to find qualified candidates, and wage pressure may be present. However, the unemployment rate is not extremely low, suggesting that there is still some availability of labor.
+The unemployment rate in Boston-Cambridge-Newton is 3.90%, which is relatively low, ranking in the bottom tier at the 12th percentile. This tight labor market implies that businesses may face challenges in hiring, with upward pressure on wages. As a result, companies may need to offer competitive salaries to attract top talent in this market.
 
 **Wage Growth**
-The year-over-year wage growth rate of 2.93% is moderate, ranking at the 32nd percentile, indicating that labor costs for employers are rising, but not extremely quickly. This moderate wage growth suggests that worker purchasing power is increasing, but not at a rapid pace. For employers, this means that labor costs are manageable, but may still be a consideration in hiring and compensation decisions.
+The year-over-year wage growth in Boston-Cambridge-Newton is +3.26%, which is below average, ranking at the 38th percentile. This moderate wage growth rate suggests that labor costs for employers are rising, but at a slower pace than in other cities. While this may be beneficial for worker purchasing power, it also means that businesses may need to budget for increasing labor expenses.
 
 **Cost of Living**
-The cost of living in Boston-Cambridge-Newton, with a PSF of $459/sqft and an earnings ratio of 10.02, ranks at the 23rd percentile, indicating that the city is relatively expensive compared to its peers. The fact that PSF is falling by 3.0% YoY is a positive sign, but the overall affordability score suggests that the city may not have a significant talent attraction advantage without wage premiums. This may make it challenging for businesses to attract and retain talent without offering competitive compensation packages.
+Boston-Cambridge-Newton has a cost of living score that ranks below average at the 31st percentile, with a PSF to wages ratio of 9.83, and a -2.6% year-over-year change in PSF. This indicates that the city is relatively expensive, making it challenging for businesses to attract talent without offering wage premiums. The falling PSF relative to wages is a positive trend, but the overall affordability score remains a concern.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of 2.87% YoY, ranking at the 98th percentile, indicating that the workforce supply is expanding rapidly. This strong labor force growth suggests that the city has a significant hiring capacity, making it an attractive location for businesses looking to expand their workforce. The growing labor force also suggests that the city is likely to have a diverse and skilled talent pool.
+The civilian labor force in Boston-Cambridge-Newton is growing at a rate of +2.87% year-over-year, which is a top-tier growth rate, ranking at the 98th percentile. This expanding labor force supply is a positive sign for businesses, as it implies a growing pool of potential employees. However, the city's low labor demand and high cost of living may offset some of this advantage.
 
 **Building Permits**
-The year-over-year change in building permits is 72.27%, ranking at the 94th percentile, indicating that housing supply is expanding rapidly. This suggests that the city is likely to experience improving affordability and a more accommodating workforce in the future. The strong growth in building permits is a positive sign for businesses looking to relocate or expand in the city, as it suggests that the city is investing in its infrastructure and housing stock.
+The number of residential building permits in Boston-Cambridge-Newton has increased by +39.61% year-over-year, which is a top-tier growth rate, ranking at the 90th percentile. This expansion in housing supply is a positive signal for future affordability and workforce accommodation, suggesting that the city may become more attractive to relocating workers and businesses in the long term.
 
 **Days on Market**
-The current median days on market is 43 days, with a year-over-year increase of 19.4%, ranking at the 98th percentile, indicating a slower market. For a worker relocating to this city, this means that the housing market is relatively accessible, with homes taking longer to sell. This slower market may give relocating workers more time to find a suitable home, making the city a more attractive location for talent.
+The median days on market for homes in Boston-Cambridge-Newton is currently 38 days, with a +2.7% year-over-year increase. This indicates a relatively slow market, ranking above average at the 62nd percentile. For workers relocating to this city, the slower market may make it easier to find a home, but it also suggests a less competitive environment for businesses looking to attract talent.
 
 **Office Economy**
-The share of jobs in professional and office sectors is 2.71, ranking at the 55th percentile, indicating a moderately deep talent pool. This suggests that the city is suited for businesses in the tech, finance, and consulting sectors, but may not be as attractive for industrial or logistics-dominant businesses. The city's office economy is relatively balanced, making it a viable location for a variety of businesses.
+The professional and office worker share in Boston-Cambridge-Newton is near the median, ranking at the 58th percentile. This suggests a moderately deep talent pool, making the city suitable for businesses in the tech, finance, and consulting sectors. However, the city may be less attractive for industrial or logistics-dominant businesses, which may require a different type of workforce.
 
-The Boston-Cambridge-Newton metro area offers businesses a unique combination of a growing labor force and expanding housing supply, making it an attractive location for companies looking to expand their workforce. However, the city's relatively high cost of living and moderate wage growth may pose challenges for businesses looking to attract and retain talent without offering competitive compensation packages.
+The Boston-Cambridge-Newton metro area offers businesses a unique combination of a highly educated workforce and a growing labor force supply, but it also presents significant challenges, including a high cost of living and low labor demand. The single biggest risk or constraint for decision-makers is the city's expensive cost of living, which may require businesses to offer wage premiums to attract and retain top talent.

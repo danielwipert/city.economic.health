@@ -1,33 +1,33 @@
 # Detroit-Warren-Dearborn
 
-**Grade: D (Emergency) | 19.1th percentile | October 2026**
+**Grade: D (Emergency) | 24.5th percentile | November 2026**
 
 ---
 
-The Detroit-Warren-Dearborn metro area has an overall grade of D, ranking in the 19.1th percentile out of 50 US metros, with a labor demand composite score of 3.58. This city's economic character is most defined by its low unemployment rate of 5.70% and its negative employment growth rate of -0.20%. The combination of these metrics suggests a challenging labor market for businesses looking to hire.
+The Detroit-Warren-Dearborn metro area has an overall grade of D, ranking in the 24.5th percentile out of 50 US metros, with a labor demand composite score of 3.71 and an unemployment rate of 5.60%. The city's economic character is most defined by its struggling labor market, with below-average employment growth and high unemployment, as well as its relatively low cost of living, with a PSF to wages ratio of 5.01. These metrics suggest a challenging environment for businesses looking to hire and grow.
 
 **Labor Demand**
-The employment growth rate in Detroit-Warren-Dearborn is -0.20% year-over-year, while weekly hours are deviating 0.439% above the city's own 12-month trend. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. This metric ranks in the bottom tier, at the 16th percentile.
+The employment growth rate in Detroit-Warren-Dearborn is -0.16% year-over-year, while weekly hours are deviating 0.366% above the city's own 12-month baseline. This combination signals a survivor squeeze, where remaining workers are absorbing the load of eliminated roles, rather than genuine demand expansion. This is a concern for businesses looking to expand their workforce in the area.
 
 **Unemployment**
-The unemployment rate in Detroit-Warren-Dearborn is 5.70%, which is relatively high, ranking in the bottom tier at the 2nd percentile. This indicates a labor market with some slack, making it easier for businesses to hire, but also suggesting weaker local consumer demand. Businesses looking to hire in this market may find it easier to staff, but may also face less competitive pressure to offer high wages.
+The unemployment rate in Detroit-Warren-Dearborn is 5.60%, which is in the bottom tier, ranking 2nd percentile. This indicates a slack labor market, making it easier for businesses to staff, but also suggesting weaker local consumer demand. However, this also means that businesses may not face significant wage pressure, as there are more workers available than jobs.
 
 **Wage Growth**
-The year-over-year wage growth rate in Detroit-Warren-Dearborn is +1.48%, which is relatively slow, ranking in the bottom tier at the 18th percentile. This slow wage growth suggests a flat cost environment for employers, but also weak bargaining power for workers. As a result, businesses may not face significant labor cost pressures, but workers may not have strong purchasing power.
+The year-over-year wage growth in Detroit-Warren-Dearborn is +2.10%, which is below average, ranking 24th percentile. This moderate wage growth suggests that labor costs for employers are rising, but not rapidly, and worker purchasing power is increasing, but not strongly. This may be a concern for businesses looking to attract and retain top talent.
 
 **Cost of Living**
-Detroit-Warren-Dearborn has a cost of living score that ranks in the 27th percentile, with a PSF of $186/sqft and average hourly earnings of $37.53/hr, resulting in a ratio of 4.96. This suggests that the city is relatively affordable compared to its peers, although the PSF is rising 3.3% year-over-year. This affordability could be a talent attraction advantage for businesses, as they may not need to offer wage premiums to compensate for high living costs.
+Detroit-Warren-Dearborn has a cost of living percentile rank of 24th, with a PSF to wages ratio of 5.01, and a PSF of $185/sqft that is increasing 3.4% year-over-year. This suggests that the city is relatively expensive, ranking below average in terms of affordability. However, this also means that businesses may need to offer wage premiums to attract talent, as the cost of living is relatively high compared to other cities.
 
 **Labor Force Growth**
-The civilian labor force in Detroit-Warren-Dearborn is contracting at a rate of -1.76% year-over-year, ranking below average at the 30th percentile. This decline in labor force supply suggests a structural headwind for hiring, making it more challenging for businesses to find and recruit talent. As a result, businesses may need to invest more in recruitment and training to attract and retain workers.
+The civilian labor force in Detroit-Warren-Dearborn is growing at a rate of +0.49% year-over-year, which is above average, ranking 66th percentile. This indicates that the workforce supply is expanding, which is a positive sign for businesses looking to hire and grow in the area. However, this growth may be limited by the city's overall economic challenges.
 
 **Building Permits**
-The number of residential building permits in Detroit-Warren-Dearborn is declining at a rate of -32.95% year-over-year, ranking in the bottom tier at the 6th percentile. This sharp decline in building permits suggests a tightening housing supply, which could lead to decreased affordability and make it more challenging for workers to relocate to the city. This could be a significant risk for businesses looking to attract talent to the area.
+The number of building permits in Detroit-Warren-Dearborn is decreasing by -35.82% year-over-year, which is in the bottom tier, ranking 4th percentile. This suggests that housing supply is tightening, which may lead to future affordability and workforce accommodation challenges. This is a concern for businesses looking to attract and retain talent, as a limited housing supply can drive up costs and make it harder for workers to relocate.
 
 **Days on Market**
-The median days on market for homes in Detroit-Warren-Dearborn is 43 days, with a year-over-year increase of 7.5%, ranking in the top tier at the 80th percentile. This suggests a slower market, where homes are sitting longer before being sold, making it more accessible for relocating workers to find housing. However, this could also indicate a weakening demand for housing, which could have implications for the local economy.
+The median days on market in Detroit-Warren-Dearborn is 45 days, with a year-over-year increase of +7.1%, ranking in the top tier, 82nd percentile. This suggests a slower market, where homes are sitting longer before being sold, making it more accessible for workers relocating to the city. However, this may also indicate a weaker demand for housing, which could be a concern for businesses looking to attract talent.
 
 **Office Economy**
-The share of professional and office workers in Detroit-Warren-Dearborn is 2.24, ranking below average at the 39th percentile. This suggests a relatively shallow talent pool for businesses in the tech, finance, and consulting sectors, making it less suitable for HQ decisions or businesses requiring specialized knowledge-economy talent. However, the city may be more suited for industrial or logistics-dominant businesses.
+The professional and office worker share in Detroit-Warren-Dearborn is near the median, ranking 50th percentile, with a composite score of 2.52. This suggests a moderate depth of professional talent pool, making the city suitable for businesses that require a mix of office and industrial skills. However, it may not be the best fit for businesses that require a deep knowledge-economy talent pool, such as tech or finance companies.
 
-The Detroit-Warren-Dearborn metro area offers businesses a relatively affordable cost of living and a slower housing market, making it more accessible for relocating workers. However, the city's low unemployment rate, slow wage growth, and declining labor force supply suggest a challenging labor market, and the sharp decline in building permits poses a significant risk to future affordability and workforce accommodation.
+The Detroit-Warren-Dearborn metro area offers businesses a relatively low-cost environment and an expanding workforce supply, but it also poses significant challenges, including a struggling labor market, high unemployment, and a tightening housing supply. The single biggest risk or constraint for businesses considering locating in this city is the limited availability of skilled workers and the potential for future affordability and workforce accommodation challenges.

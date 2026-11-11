@@ -1,33 +1,33 @@
 # Providence-Warwick
 
-**Grade: C+ (Fair) | 44.8th percentile | October 2026**
+**Grade: C (Very Poor) | 43.3th percentile | November 2026**
 
 ---
 
-The Providence-Warwick metro area has an overall grade of C+ with a composite score ranking it 44.8th percentile out of 50 US metros. This city's economic character is most defined by its low unemployment rate of 4.30% and its high labor force growth rate of +1.69% YoY, indicating a tight labor market with an expanding workforce. The labor demand composite score of 5.47, near the median, suggests a moderate level of job growth and hours worked.
+The Providence-Warwick metro area has an overall grade of C, ranking 43.3th percentile out of 50 US metros, with a composite score reflecting a mix of near-median labor demand and significant challenges in affordability. The city's economic character is most defined by its low unemployment rate of 4.30% and its high cost of living, with a PSF to wages ratio of 9.73. These metrics signal a tight labor market with upward pressure on wages, but also a challenging environment for attracting talent due to high living costs.
 
 **Labor Demand**
-The employment growth rate of +0.60% YoY and weekly hours deviation of +0.326% from the city's own trend signal a genuine demand expansion, as hours are running above trend during a period of job growth. This combination indicates that the labor market is experiencing an increase in jobs and working hours, suggesting a healthy demand for labor. The near-median percentile rank of 54th suggests that this growth is moderate compared to other cities.
+The employment growth rate in Providence-Warwick is +0.60% year-over-year, combined with a +0.426% deviation in weekly hours from its own trend, indicating a near-median labor demand composite score of 5.57. This combination signals a genuine demand expansion, albeit at a moderate pace. The city's labor market is adding jobs, and hours are running above trend, suggesting that businesses are experiencing some level of growth.
 
 **Unemployment**
-The unemployment rate of 4.30% is relatively low, ranking in the bottom tier at the 18th percentile, indicating a tight labor market with limited slack. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer higher wages to attract talent. The low unemployment rate also suggests that workers have more bargaining power.
+The unemployment rate in Providence-Warwick is 4.30%, ranking in the bottom tier at the 8th percentile, indicating a very tight labor market. This means that businesses trying to hire in this city will face significant competition for workers, leading to upward pressure on wages. With such a low unemployment rate, hiring may be challenging, and companies may need to offer competitive salaries to attract top talent.
 
 **Wage Growth**
-The year-over-year wage growth rate of +3.09% is below average, ranking at the 34th percentile, indicating moderate wage growth. This suggests that labor costs for employers are rising, but at a slower pace than in many other cities, and worker purchasing power is increasing, but not as quickly as in other areas. The moderate wage growth may help businesses manage labor costs while still providing workers with some increase in earnings.
+The year-over-year wage growth in Providence-Warwick is +3.47%, ranking near the median at the 40th percentile. This moderate wage growth rate suggests that labor costs for employers are rising, but not excessively so. As a result, worker purchasing power is increasing, which can be beneficial for local consumer demand, but may also lead to higher costs for businesses operating in the area.
 
 **Cost of Living**
-The cost of living in Providence-Warwick is relatively expensive, with a percentile rank of 2, indicating that it is one of the least affordable cities. The PSF of $360/sqft and average hourly earnings of $36.41/hr result in a ratio of 9.89, which is high compared to other cities. This means that the city may struggle to attract talent without offering wage premiums to offset the high cost of living.
+Providence-Warwick has a cost of living score that ranks in the bottom tier at the 2nd percentile, with a PSF to wages ratio of 9.73, driven by a PSF of $357/sqft that has increased by 7.5% year-over-year, compared to hourly earnings of $36.70. This makes the city relatively expensive compared to its peers, which can be a significant disadvantage for talent attraction, as businesses may need to offer wage premiums to compensate for the high cost of living.
 
 **Labor Force Growth**
-The labor force growth rate of +1.69% YoY is in the top tier, ranking at the 92nd percentile, indicating that the workforce supply is expanding rapidly. This suggests that the city has a growing pool of potential workers, which can help businesses meet their hiring needs. The expanding labor force also indicates a healthy and dynamic labor market.
+The civilian labor force in Providence-Warwick is growing at a rate of +1.69% year-over-year, ranking in the top tier at the 90th percentile. This indicates that the workforce supply is expanding, which is a positive sign for businesses looking to hire, as it suggests a growing pool of potential employees. This growth can help mitigate some of the challenges posed by the tight labor market.
 
 **Building Permits**
-The year-over-year change in building permits is +18.42%, ranking above average at the 69th percentile, indicating that housing supply is expanding. This suggests that the city is experiencing an increase in new housing construction, which can help improve affordability and accommodate a growing workforce. The rising permits also signal that developers are confident in the city's future growth prospects.
+The number of residential building permits in Providence-Warwick has increased by +15.64% year-over-year, ranking above average at the 74th percentile. This suggests that housing supply is expanding, which can help improve affordability and accommodate a growing workforce. As a result, the city may become more attractive to workers and businesses in the future.
 
 **Days on Market**
-The current median days on market is 39 days, with a year-over-year increase of +8.3%, ranking in the top tier at the 86th percentile. This indicates a slower market, where homes are sitting longer before being sold, making it more accessible for workers relocating to the city. The rising days on market also suggest a healthy normalization of the housing market.
+The median days on market for homes in Providence-Warwick is 39 days, with a year-over-year increase of +5.4%, ranking in the top tier at the 80th percentile. This indicates a relatively slow market, which can make it more accessible for workers relocating to the city, as they have more time to find a home. However, this may also signal a normalization of the market after a period of rapid growth.
 
 **Office Economy**
-The share of professional and office workers is 2.88, ranking above average at the 63rd percentile, indicating a deep talent pool in these sectors. This suggests that the city is well-suited for businesses in the tech, finance, consulting, and HQ sectors, but may be less suitable for industrial or logistics-dominant businesses. The city's professional talent pool is a significant advantage for businesses looking to locate or expand in the area.
+Providence-Warwick has an office economy score that ranks above average at the 68th percentile, with a share of professional and office workers at 2.90. This suggests a deep talent pool suited for businesses in the tech, finance, consulting, and HQ sectors. However, the city may be less suited for industries that require a large workforce in industrial or logistics roles.
 
-The Providence-Warwick metro area offers businesses a unique combination of a tight labor market, moderate labor demand, and an expanding workforce, making it an attractive location for companies looking to tap into a growing talent pool. However, the single biggest risk or constraint for businesses is the high cost of living, which may require wage premiums to attract and retain talent, potentially increasing labor costs and affecting profitability.
+The Providence-Warwick metro area offers businesses a growing labor force and expanding housing supply, but its high cost of living and tight labor market pose significant challenges. The single biggest risk or constraint for decision-makers is the need to offer competitive wages and potentially wage premiums to attract and retain top talent in this expensive city, which can increase labor costs and impact business profitability.

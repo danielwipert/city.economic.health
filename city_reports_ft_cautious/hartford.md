@@ -1,33 +1,33 @@
 # Hartford-West Hartford-East Hartford
 
-**Grade: A- (Good) | 67.1th percentile | October 2026**
+**Grade: A+ (Excellent) | 73.0th percentile | November 2026**
 
 ---
 
-The Hartford-West Hartford-East Hartford metro area has earned an overall grade of A- with a composite score ranking it at the 67.1th percentile among 50 US metros. This city's economic character is most defined by its strong labor demand, with a top-tier composite score of 86th percentile, and its extremely low unemployment rate of 2.70%, ranking it at the 98th percentile. The combination of these two metrics signals a highly competitive job market with genuine demand expansion.
+The Hartford-West Hartford-East Hartford metro area boasts an overall grade of A+ with a composite score of 73.0th percentile, ranking it among the top US metros. The city's economic character is largely defined by its exceptional labor demand, with a composite score in the 90th percentile, and its extremely low unemployment rate of 2.70%, ranking in the 98th percentile. These metrics signal a highly competitive job market with strong demand for labor.
 
 **Labor Demand**
-The employment growth rate in Hartford-West Hartford-East Hartford is +1.88% year-over-year, accompanied by a +0.025% deviation in weekly hours from its own 12-month baseline. This combination signals genuine demand expansion, as hours are running above trend during a period of job growth, indicating that the economy is adding jobs and workers are putting in more hours to meet the increased demand. This is a positive sign for businesses looking to expand or establish operations in the area.
+The city's employment growth rate of +1.88% YoY, combined with a +0.741% deviation in weekly hours from its own trend, indicates genuine demand expansion, as hours are running above trend during a period of job growth. This suggests that the labor market is experiencing an increase in jobs and working hours, signaling a strong and growing economy. The labor demand composite score of 7.67 further reinforces this notion, placing it in the top tier.
 
 **Unemployment**
-The unemployment rate in Hartford-West Hartford-East Hartford is 2.70%, which is extremely low and ranks at the 98th percentile. This indicates a very tight labor market with little slack, making it challenging for businesses to hire new employees. As a result, businesses may face upward pressure on wages to attract and retain top talent in this competitive market.
+The unemployment rate of 2.70% is extremely low, ranking in the 98th percentile, indicating a very tight labor market with little slack. This means that businesses may face challenges in finding and hiring qualified workers, as the pool of available labor is limited. As a result, companies may need to offer competitive wages and benefits to attract top talent.
 
 **Wage Growth**
-The year-over-year wage growth rate in Hartford-West Hartford-East Hartford is +5.30%, which is above average and ranks at the 74th percentile. This moderate to fast wage growth rate implies that labor costs for employers are rising, but it also means that workers have increasing purchasing power, which can be beneficial for local businesses that rely on consumer spending.
+The year-over-year wage growth rate of +4.96% is above average, ranking in the 76th percentile, indicating moderate to fast wage growth. This implies that labor costs for employers are rising, while worker purchasing power is increasing. As a result, businesses may need to factor in higher labor costs when operating in this city.
 
 **Cost of Living**
-Hartford-West Hartford-East Hartford has a cost of living score that ranks at the 25th percentile, with a PSF of $250/sqft and average hourly earnings of $40.19/hr, resulting in a ratio of 6.22. This indicates that the city is relatively expensive compared to its peers, which may make it challenging to attract talent without offering wage premiums. The fact that PSF is rising by 3.7% year-over-year further exacerbates the affordability issue.
+With a cost of living ratio of 6.13, based on $246/sqft and $40.13/hr, the city ranks in the 49th percentile, indicating a near-median affordability level. However, the PSF is increasing by 1.6% YoY, which may impact affordability in the future. This means that the city is neither extremely affordable nor expensive, and businesses may not need to offer significant wage premiums to attract talent.
 
 **Labor Force Growth**
-The civilian labor force in Hartford-West Hartford-East Hartford is growing at a rate of +2.77% year-over-year, which is a top-tier growth rate ranking at the 96th percentile. This expanding labor force supply is a positive sign for businesses, as it indicates a growing pool of potential employees and reduced hiring constraints.
+The civilian labor force is growing at a rate of +2.77% YoY, ranking in the 96th percentile, indicating a rapidly expanding workforce supply. This suggests that the city has a strong pipeline of potential workers, making it easier for businesses to hire and expand their operations.
 
 **Building Permits**
-The number of residential building permits in Hartford-West Hartford-East Hartford has decreased by -26.73% year-over-year, which is a bottom-tier performance ranking at the 10th percentile. This sharp decline in building permits signals a potential tightening of the housing supply, which could lead to decreased affordability and increased challenges for businesses looking to attract and retain workers.
+The year-over-year change in building permits is -53.87%, ranking in the bottom tier, indicating a sharp decline in housing supply. This signals a potential tightening of the housing market, which may impact future affordability and workforce accommodation, making it more challenging for workers to relocate to the city.
 
 **Days on Market**
-The current median days on market for homes in Hartford-West Hartford-East Hartford is 35 days, with a year-over-year decrease of -2.8%. This relatively fast pace of home sales indicates a competitive market, which may make it challenging for relocating workers to find affordable housing options.
+The current median days on market is 37 days, with a +2.8% YoY increase, ranking in the 64th percentile. This suggests a relatively accessible market for workers relocating to the city, as homes are not selling extremely quickly. However, the rising DOM may indicate a normalization of the market, rather than a demand erosion.
 
 **Office Economy**
-Hartford-West Hartford-East Hartford has a professional and office worker share that ranks at the 22nd percentile, indicating a relatively shallow talent pool in these sectors. This city is best suited for businesses that do not rely heavily on specialized office or professional workers, such as industrial or logistics companies, but may be less ideal for tech, finance, or consulting firms that require a deep knowledge-economy talent pool.
+The city's office economy is below average, ranking in the 26th percentile, with a composite score of 1.90. This indicates a relatively shallow professional talent pool, making it less suited for businesses that require a deep knowledge-economy talent pool, such as tech or finance companies. However, it may be more suitable for industries with fewer specialized roles, such as logistics or manufacturing.
 
-The Hartford-West Hartford-East Hartford metro area offers businesses a highly competitive job market with strong labor demand and low unemployment, but also presents challenges such as a tight labor market, rising labor costs, and decreasing affordability. The single biggest risk or constraint for decision-makers is the potential tightening of the housing supply, which could exacerbate affordability issues and make it even more challenging to attract and retain top talent in the area.
+In conclusion, the Hartford-West Hartford-East Hartford metro area offers a highly competitive job market with strong labor demand, low unemployment, and moderate wage growth, making it an attractive location for businesses. However, the single biggest risk or constraint is the sharp decline in building permits, which may lead to a tightening of the housing market and impact future affordability and workforce accommodation, potentially limiting the city's ability to attract and retain top talent.
