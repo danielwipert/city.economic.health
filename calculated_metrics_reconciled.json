@@ -1,7 +1,7 @@
 {
-  "calculation_timestamp": "2026-11-11T17:13:59.519426",
-  "calculation_date": "2026-11-11 17:13:59",
-  "data_collection_date": "2026-11-11 17:13:59",
+  "calculation_timestamp": "2026-11-16T19:17:39.402980",
+  "calculation_date": "2026-11-16 19:17:39",
+  "data_collection_date": "2026-11-16 19:17:39",
   "version": "5.0",
   "scoring_method": "Percentile-Based (Rank Order)",
   "rubric": "9-Metric Percentile System: 85% Employment / 15% Housing",
