@@ -134,6 +134,27 @@ def slugify(name: str) -> str:
     return name.strip("-") or "city"
 
 
+# Plain-words meaning of a HIGH vs LOW score, so the model never has to work
+# out which direction is good (it got Cost of Living backwards when it did).
+VERDICT_WORDS = {
+    "107E": ("stronger hiring than most metros",          "weaker hiring than most metros"),
+    "101A": ("lower unemployment than most metros",       "higher unemployment than most metros"),
+    "103B": ("faster pay growth than most metros",        "slower pay growth than most metros"),
+    "104C": ("MORE affordable than most metros",          "LESS affordable (more expensive) than most metros"),
+    "102A": ("faster workforce growth than most metros",  "slower workforce growth than most metros"),
+    "200B": ("stronger home-building than most metros",   "weaker home-building than most metros"),
+    "204A": ("healthier housing market than most metros", "weaker housing market than most metros"),
+    "105C": ("larger office workforce than most metros",  "smaller office workforce than most metros"),
+}
+
+
+def verdict(code: str, score: float) -> str:
+    good, bad = VERDICT_WORDS[code]
+    if score >= 60: return f"a strength: {good}"
+    if score <= 40: return f"a weakness: {bad}"
+    return "about average for the 50 metros"
+
+
 def tier_label(score: float) -> str:
     if score >= 80: return "top tier"
     if score >= 60: return "above average"
@@ -190,7 +211,7 @@ def build_briefing(record: dict, city_name: str) -> str:
     grade_letter = grade.get("letter", "?") if isinstance(grade, dict) else str(grade)
     grade_desc   = grade.get("description", "") if isinstance(grade, dict) else ""
 
-    def fmt_pct(key, decimals=2):
+    def fmt_pct(key, decimals=1):
         v = raw.get(key)
         return f"{v:+.{decimals}f}%" if v is not None else "N/A"
 
@@ -200,7 +221,8 @@ def build_briefing(record: dict, city_name: str) -> str:
 
     def row(label, value_str, pct_key):
         sc = pct.get(pct_key, 50)
-        return f"  {label:<40} {value_str:<22} {tier_label(sc)} (score {round(sc)}/100)"
+        return (f"  {label:<40} {value_str:<22} score {round(sc)}/100 — "
+                f"{verdict(pct_key, sc)}")
 
     dom_yoy   = raw.get("204A_dom_yoy_pct")
     dom_level = raw.get("204A_dom_level_days")
@@ -228,11 +250,11 @@ def build_briefing(record: dict, city_name: str) -> str:
         f"METRO: {metro}",
         f"OVERALL GRADE: {grade_letter} — {grade_desc} (overall score {wp}/100 across 50 US metros)",
         "",
-        f"  {'METRIC':<40} {'VALUE':<22} SCORE (0-100; 80 = better than 80% of metros)",
+        f"  {'METRIC':<40} {'VALUE':<22} SCORE (0-100; 80 = better than 80% of metros) — MEANING",
         "  " + "-" * 74,
         row("Employment growth YoY",            fmt_pct("107E_employment_growth_yoy"),          "107E"),
         row("Weekly hours vs own 12-mo average", fmt_pct("107E_wh_trend_deviation_pct", 1),      "107E"),
-        row("Unemployment rate",                 fmt_val("101A_unemployment", suffix="%"),       "101A"),
+        row("Unemployment rate",                 fmt_val("101A_unemployment", 1, suffix="%"),    "101A"),
         row("Wage growth (hourly earnings YoY)", fmt_pct("103B_earnings_yoy"),                  "103B"),
         row("Cost of living (PSF vs wages)",     col_str,                                        "104C"),
         row("Labor force growth YoY",            fmt_pct("102A_clf_yoy"),                        "102A"),
@@ -273,8 +295,9 @@ HOW TO WRITE:
   putting in extra hours after job cuts"), "deviation", "trend deviation", "ratio".
 - Only quote numbers a reader would recognize: percentages, dollars, days, hours, and
   the 0-100 score. Round to one decimal place. Never quote internal index values.
-- Make every verdict match the score. A low score is a weakness, even if you can
-  imagine an upside.
+- Each data row ends with its MEANING ("a strength: ...", "a weakness: ...", or "about
+  average"). Your verdict for that metric MUST agree with it. Never contradict it,
+  and never call a strength a risk.
 
 Write the brief in EXACTLY this structure:
 
