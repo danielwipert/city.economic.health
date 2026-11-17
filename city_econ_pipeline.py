@@ -111,12 +111,12 @@ METRIC_NOTES = {
         "Falling sharply = supply squeeze building ahead, future affordability and workforce attraction at risk."
     ),
     "204A": (
-        "Days on Market (5% weight): how long homes sit before going under contract. "
-        "INVERTED — HIGH percentile = homes sitting LONGER (slower, buyer-friendly market). "
-        "LOW percentile = homes selling very fast (hot market, tough for relocating workers). "
-        "Rising DOM in a strong job market = healthy normalization. "
-        "Rising DOM with weak jobs = demand erosion. "
-        "Name both the absolute level in days AND the year-over-year direction."
+        "Days on Market (5% weight): median days a home for sale takes to go under contract. "
+        "NOT inverted — a HIGH percentile score means a HEALTHIER housing market; a LOW score is a weakness. "
+        "The healthiest range is roughly 35-80 days. Under 35 days is too tight — relocating workers struggle to find a home. "
+        "At 60+ days, rising days on market is BAD: buyers are pulling back and owners who cannot sell cannot relocate. "
+        "Below 60 days, rising days on market is GOOD: more homes available and more time for buyers. "
+        "Name both the level in days AND the year-over-year direction, and make sure your verdict matches the percentile."
     ),
     "105C": (
         "Office Economy (3% weight): share of jobs in professional/office sectors + growth trend. "
@@ -287,7 +287,7 @@ Write the brief in EXACTLY this structure:
 [2-3 sentences. Name the YoY change in permits. State whether housing supply is expanding or tightening. Name what this signals for future affordability and workforce accommodation.]
 
 **Days on Market**
-[2-3 sentences. Name the current median days on market AND the YoY direction. State what this means for a worker relocating to this city — competitive or accessible?]
+[2-3 sentences. Name the current median days on market AND the YoY direction. State whether this is a healthy, too-tight, or softening housing market, consistent with the percentile, and what it means for a worker relocating here.]
 
 **Office Economy**
 [2-3 sentences. State how deep the professional talent pool is, using the percentile rank. Name the type of business this city is best and worst suited for.]
@@ -302,7 +302,7 @@ FORMAT RULES — follow exactly:
   **Labor Force Growth**, **Building Permits**, **Days on Market**, **Office Economy**
 - Each metric section: 2-3 sentences, no more
 - Use specific numbers — percentages, days, percentile ranks
-- INVERSION reminders: high Cost of Living percentile = MORE affordable; high Days on Market percentile = SLOWER market
+- Direction reminders: high Cost of Living percentile = MORE affordable; high Days on Market percentile = HEALTHIER housing market (low = weakness)
 - No bullet points inside metric sections
 - No preamble like "Here is the brief:" — start directly with the opening paragraph
 """
