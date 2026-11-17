@@ -4,30 +4,30 @@
 
 ---
 
-The Sacramento-Roseville-Folsom metro area has an overall grade of C, ranking 38.6th percentile out of 50 US metros, with a labor demand composite score of 6.29 and an unemployment rate of 5.00%. The city's economic character is most defined by its above-average labor demand, with a 74th percentile ranking, and its bottom-tier unemployment rate, which ranks 14th percentile. These metrics signal a complex labor market with both opportunities and challenges.
+The Sacramento-Roseville-Folsom metro area has an overall grade of C, with a score of 38.6 out of 100, indicating it performs worse than most of the 50 metros. The city's economy is currently defined by a relatively high unemployment rate of 5.00% and slow wage growth of 2.60% over the past year, which are major concerns for businesses and workers alike.
 
 **Labor Demand**
-The city's employment growth rate is +0.82% year-over-year, and weekly hours are deviating +0.838% from the 12-month baseline, indicating genuine demand expansion. This combination signals that the city is adding jobs and workers are putting in more hours, suggesting a strong labor market. The labor demand composite score of 6.29, ranking 74th percentile, further supports this assessment.
+The city is adding jobs at a rate of 0.82% over the past year, which is a positive sign, and workers' hours are also rising by 0.8%, indicating a genuine demand for labor. This means that the job market is growing, but the pace is not exceptionally strong, with a score of 74 out of 100, indicating it is better than about 26% of the 50 metros.
 
 **Unemployment**
-The unemployment rate in Sacramento-Roseville-Folsom is 5.00%, ranking 14th percentile, indicating a relatively loose labor market. This means that there is some slack in the market, making it easier for businesses to hire workers. However, this also implies weaker local consumer demand, which could impact businesses that rely on local spending.
+The unemployment rate of 5.00% makes it relatively easy for employers to hire, as there are more workers available, but this also means that the local labor market is not as tight as in other cities, with a score of 14 out of 100, indicating it is worse than about 86% of the 50 metros. This could lead to weaker wage pressure and lower consumer demand, as workers may have fewer job opportunities and less bargaining power.
 
 **Wage Growth**
-The year-over-year wage growth rate is +2.60%, ranking 28th percentile, indicating moderate wage growth. This rate suggests that labor costs for employers are rising, but not excessively so, and worker purchasing power is increasing, but not dramatically. This moderate wage growth may provide a stable environment for businesses to operate.
+Wages rose by 2.60% over the past year, which is a relatively slow pace, meaning that employers' labor costs are not increasing rapidly, but workers' paychecks are not growing quickly either, with a score of 28 out of 100, indicating it is worse than about 72% of the 50 metros. This slow wage growth could make it harder for workers to afford the cost of living in the area, especially if housing costs continue to rise.
 
 **Cost of Living**
-The city's cost of living is relatively expensive, with a percentile rank of 22, and a PSF-to-earnings ratio of $338/sqft to $38.15/hr, resulting in a ratio of 8.86. Although the PSF is falling by 0.3% year-over-year, the city remains less affordable than many of its peers, which could make it challenging to attract talent without offering wage premiums.
+The cost of living in Sacramento-Roseville-Folsom is relatively high, with a price per square foot of $338 and hourly pay of $38.15, and it is not getting better, as housing prices are falling at a rate of -0.3% over the past year, but still remain high, with a score of 22 out of 100, indicating it is worse than about 78% of the 50 metros. This makes it challenging for workers to afford housing, and employers may need to offer higher wages to attract and retain talent.
 
 **Labor Force Growth**
-The civilian labor force is contracting at a rate of -1.29% year-over-year, ranking 22nd percentile, indicating a shrinking labor pool. This contraction implies a structural headwind for hiring, as the supply of workers is decreasing, making it more difficult for businesses to find the talent they need.
+The pool of workers in the area is shrinking at a rate of -1.29% over the past year, which is a concern for businesses looking to hire, as it means the labor supply is decreasing, with a score of 22 out of 100, indicating it is worse than about 78% of the 50 metros. This could lead to a structural headwind for hiring and make it harder for companies to find the workers they need.
 
 **Building Permits**
-The city is experiencing a +15.85% year-over-year increase in residential building permits, ranking 76th percentile, indicating an expansion of housing supply. This growth suggests that developer confidence is strong, and future housing supply is likely to increase, which could improve affordability and make it easier for workers to relocate to the area.
+New home approvals increased by 15.85% over the past year, which is a positive sign, indicating that developers are confident in the market and that future housing supply is likely to expand, with a score of 76 out of 100, indicating it is better than about 24% of the 50 metros. This could help improve affordability and attract more workers to the area.
 
 **Days on Market**
-The median days on market is 52 days, with a year-over-year decrease of -10.3%, ranking 6th percentile, indicating a relatively fast-paced market. This means that homes are selling quickly, making it challenging for relocating workers to find and secure housing, which could be a concern for businesses looking to attract talent from outside the area.
+Homes are taking 52 days to sell, which is relatively fast, and this time is decreasing by -10.3% over the past year, indicating a tight housing market, with a score of 6 out of 100, indicating it is worse than about 94% of the 50 metros. This could make it challenging for relocating workers to find a home, as the market is moving quickly.
 
 **Office Economy**
-The city's professional and office worker share is 0.84, ranking 10th percentile, indicating a relatively shallow talent pool in these sectors. This suggests that the city is not well-suited for businesses that require a deep knowledge-economy talent pool, such as tech, finance, or consulting firms, but may be more suitable for industries with different workforce requirements.
+The city's office-based workforce is relatively small, with a score of 10 out of 100, indicating it is worse than about 90% of the 50 metros, which makes it less suited for businesses in the tech, finance, and professional services sectors. This could limit the city's ability to attract and retain companies in these industries, which often require a deep pool of specialized talent.
 
-The Sacramento-Roseville-Folsom metro area offers a complex labor market with both opportunities and challenges, including above-average labor demand and a relatively loose unemployment market. However, the single biggest risk or constraint for businesses is the shrinking labor pool, which could make it difficult to find and attract the necessary talent, and the relatively expensive cost of living, which may require wage premiums to compete for workers.
+The biggest strength of the Sacramento-Roseville-Folsom metro area is its growing job market, with new jobs being added at a rate of 0.82% over the past year, which could attract businesses and workers to the area. However, the city's biggest risk is its high cost of living and slow wage growth, which could make it challenging for workers to afford housing and for employers to attract and retain talent, ultimately limiting the city's economic growth.

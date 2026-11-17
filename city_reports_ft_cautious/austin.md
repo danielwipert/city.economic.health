@@ -4,30 +4,30 @@
 
 ---
 
-The Austin-Round Rock-San Marcos metro area has earned an overall grade of A+ with a composite score of 73.6th percentile, ranking it among the top US metros. The city's economic character is most defined by its strong labor demand, with a composite score of 6.72, and its highly affordable cost of living, with a percentile rank of 96th. These metrics signal a city with a thriving job market and a competitive edge in attracting talent without needing to offer significant wage premiums, with a cost of living ratio of $226/sqft to $37.91/hr, a ratio of 5.96.
+The Austin-Round Rock-San Marcos metro area has earned an overall grade of A+, with a score of 73.6 out of 100, making it better than most of the 50 metros, driven in part by its strong labor demand, with employment growth of 1.08% over the past year. This growth, combined with a 0.9% increase in weekly hours, suggests a genuine demand for labor in the area.
 
 **Labor Demand**
-The Austin-Round Rock-San Marcos metro area has seen employment growth of 1.08% year-over-year, combined with a 0.906% deviation in weekly hours above its own 12-month baseline. This combination signals genuine demand expansion, indicating that the city is adding jobs and workers are putting in more hours, a sign of a healthy and growing economy. The labor demand composite score of 6.72, ranking in the 84th percentile, further reinforces this assessment.
+The city is adding jobs at a rate of 1.08% over the past year, with workers' hours also rising by 0.9%, indicating a strong and growing job market. This means that businesses are likely to face competition for talent, but also have a large and growing pool of potential employees to draw from, with a score of 84, better than most of the 50 metros.
 
 **Unemployment**
-The unemployment rate in Austin-Round Rock-San Marcos stands at 3.70%, placing it near the median in terms of labor market tightness. This rate suggests that while the market is not extremely tight, it still presents some challenges for businesses looking to hire, as the pool of available workers is relatively limited. However, it is not as competitive as markets with significantly lower unemployment rates.
+The unemployment rate in Austin-Round Rock-San Marcos is 3.70%, which is near the median, making it neither extremely easy nor difficult for employers to hire, with a score of 56. This rate suggests that while there are still workers available, the labor market is relatively balanced, with a moderate level of competition for jobs.
 
 **Wage Growth**
-Year-over-year wage growth in the Austin-Round Rock-San Marcos metro area is 5.42%, which is above average and indicates a moderate to fast pace of wage increases. This level of wage growth suggests that labor costs for employers are rising, but it also means that workers have increasing purchasing power, which can be beneficial for local consumer demand. The 78th percentile rank for wage growth underscores the city's position in terms of compensation trends.
+Pay in the area has risen by 5.42% over the past year, which is above average, with a score of 78, indicating that employers may face rising labor costs, but workers are seeing significant increases in their paychecks. This rapid wage growth suggests a strong and competitive labor market, where workers have bargaining power and employers must offer attractive compensation packages.
 
 **Cost of Living**
-With a cost of living percentile rank of 96th, Austin-Round Rock-San Marcos is highly affordable relative to its peers, especially considering the PSF has decreased by 8.5% year-over-year to $226/sqft, compared to hourly earnings of $37.91. This affordability is a significant talent attraction advantage, as businesses can recruit without needing to offer substantial wage premiums to offset high living costs.
+The cost of living in Austin-Round Rock-San Marcos is relatively affordable, with a price per square foot of $226 and hourly pay of $37.91, and it's getting even better, with a decline of 8.5% in the price per square foot over the past year, earning a score of 96, better than most of the 50 metros. This makes the area an attractive destination for workers and businesses looking for a relatively low cost of living, with a high score indicating a talent attraction advantage.
 
 **Labor Force Growth**
-The civilian labor force in Austin-Round Rock-San Marcos has grown by 0.97% year-over-year, indicating an expanding workforce supply. This growth is positive for businesses looking to hire, as it suggests a structural advantage in terms of hiring capacity, with more potential workers entering or already in the labor market.
+The pool of workers in the area is growing at a rate of 0.97% over the past year, which is top-tier, with a score of 82, indicating a strong and expanding workforce. This growth suggests that businesses will have access to a large and growing pool of potential employees, making it easier to hire and staff new positions.
 
 **Building Permits**
-The city has seen a 15.35% year-over-year increase in residential building permits, signaling an expansion in future housing supply. This increase is a positive indicator for affordability and the ability to accommodate a growing workforce, suggesting that the city is likely to remain attractive for relocating workers and businesses alike.
+New home approvals in the area have increased by 15.35% over the past year, with a score of 72, indicating a moderate level of developer confidence and a growing housing supply. This growth in building permits suggests that the area is likely to see an increase in available housing, which could help to moderate prices and improve affordability.
 
 **Days on Market**
-Homes in Austin-Round Rock-San Marcos currently sit on the market for a median of 84 days, with a year-over-year increase of 6.3%. This indicates a slower market compared to the previous year, which can be beneficial for workers relocating to the city, as it provides them with more time to find suitable housing and potentially more negotiating power.
+Homes in the area are taking 84 days to sell, which is getting slower, with a 6.3% increase in days on market over the past year, earning a score of 0, which is a weakness. This slow pace of home sales suggests a softening housing market, where buyers may have more negotiating power and sellers may need to be more flexible on price.
 
 **Office Economy**
-With an office/professional worker share composite score ranking in the 94th percentile, Austin-Round Rock-San Marcos has a deep talent pool suited for tech, finance, consulting, and HQ decisions. This makes the city an excellent location for businesses in these sectors but less ideal for those requiring a predominantly industrial or logistics-based workforce.
+The city has a large and growing office-based workforce, with a score of 94, better than most of the 50 metros, making it an attractive location for businesses in the tech, finance, and professional services sectors. This strong office economy suggests that the area has a deep talent pool and a high level of expertise in these fields, making it well-suited for businesses that rely on skilled office workers.
 
-The Austin-Round Rock-San Marcos metro area offers businesses a unique combination of strong labor demand, affordable cost of living, and a deep professional talent pool, making it an attractive location for a variety of industries. However, the single biggest risk or constraint for decision-makers to factor in is the potential for labor market tightness and rising labor costs due to the city's growing popularity and economic growth, which could impact hiring and operational expenses over time.
+The bottom line is that Austin-Round Rock-San Marcos's biggest strength is its strong and growing labor market, with high scores in labor demand and labor force growth, making it an attractive location for businesses looking to hire and expand. However, the area's biggest risk is its softening housing market, with a low score in days on market, which could make it harder for workers to find affordable housing and for businesses to attract and retain talent.

@@ -4,30 +4,30 @@
 
 ---
 
-The Hartford-West Hartford-East Hartford metro area has earned an overall grade of A+ with a composite score of 73.0th percentile, ranking it among the top US metros. The city's economic character is defined by its exceptional labor demand, with a composite score in the 90th percentile, and its extremely low unemployment rate of 2.70%, ranking it in the 98th percentile. These metrics signal a highly competitive job market with strong demand for labor.
+The Hartford-West Hartford-East Hartford metro area earns an overall grade of A+, with a score of 73.0 out of 100, making it better than most of the 50 metros. What most defines this city's economy right now is its strong job market, with employment growth of 1.88% over the past year and a low unemployment rate of 2.70%, indicating a high demand for labor.
 
 **Labor Demand**
-The city's employment growth rate of +1.88% YoY, combined with a +0.741% deviation in weekly hours from its own trend, indicates genuine demand expansion, as hours are running above trend during a period of job growth. This combination signals that the labor market is experiencing robust growth, with employers adding jobs and workers putting in more hours. The labor demand composite score of 7.67, ranking in the 90th percentile, further reinforces this assessment.
+The city is adding jobs at a rate of 1.88% over the past year, and workers' hours are rising by 0.7%, indicating a genuine demand for labor. This means that the job market is healthy, with employers looking to hire and workers putting in more hours, making it a great time for businesses to expand.
 
 **Unemployment**
-The unemployment rate of 2.70% is extremely low, ranking in the 98th percentile, indicating a very tight labor market with little slack. This means that businesses trying to hire in this city will face significant competition for talent, potentially driving up wages and making it harder to attract and retain workers. The low unemployment rate suggests that workers have strong bargaining power in this market.
+The unemployment rate of 2.70% is extremely low, making it hard for employers to hire, as there are fewer available workers. This low unemployment rate, which scores 98 out of 100, indicates that the labor market is tight, and employers may need to offer competitive wages to attract talent.
 
 **Wage Growth**
-The year-over-year wage growth rate of +4.96% is above average, ranking in the 76th percentile, indicating moderate to fast wage growth. This implies that employer labor costs are rising, while workers are experiencing an increase in purchasing power. As wages continue to grow, businesses may need to adjust their compensation packages to remain competitive in this market.
+Pay rose by 4.96% over the past year, which is a relatively fast pace, scoring 76 out of 100. This means that employers' labor costs are rising, but workers are also seeing an increase in their paychecks, which can boost consumer spending and economic growth.
 
 **Cost of Living**
-With a cost of living ratio of 6.13, based on $246/sqft and $40.13/hr, and a percentile rank of 49th, the city is near the median in terms of affordability. However, the fact that PSF is rising by 1.6% YoY relative to wages suggests that the city may be becoming less affordable over time. This could impact talent attraction, as workers may require wage premiums to offset the increasing cost of living.
+Housing in the area is relatively expensive, with a price per square foot of $246 and hourly pay near $40.13, scoring 49 out of 100. The cost of living is getting worse, as housing prices are rising by 1.6% over the past year, making it less affordable for local workers compared to other metros.
 
 **Labor Force Growth**
-The civilian labor force is growing at a rate of +2.77% YoY, ranking in the 96th percentile, indicating that the workforce supply is expanding rapidly. This suggests that businesses have a growing pool of potential workers to draw from, making it easier to hire and staff operations in the city.
+The pool of workers is growing at a rate of 2.77% over the past year, which is a fast pace, scoring 96 out of 100. This means that the labor market is expanding, and hiring should be easier, as there are more available workers, making it an attractive location for businesses.
 
 **Building Permits**
-The year-over-year change in building permits is -53.87%, ranking in the 0th percentile, indicating a sharp decline in housing supply. This signals that the city may be facing a future affordability crisis, as the lack of new housing developments could drive up prices and rents, making it harder for workers to afford living in the area.
+New home approvals plummeted by 53.87% over the past year, scoring 0 out of 100, which signals a potential future housing supply shortage. This sharp decline in building permits is a concern, as it may lead to higher housing costs and reduced affordability in the future.
 
 **Days on Market**
-The current median days on market is 37 days, with a year-over-year increase of +2.8%, ranking in the 64th percentile. This suggests that the housing market is relatively balanced, with homes selling at a moderate pace. For workers relocating to this city, the market is still relatively accessible, but the rising days on market could indicate a slight shift towards a more buyer-friendly environment.
+A typical home takes 37 days to sell, and this is getting slightly slower, with a 2.8% increase over the past year, scoring 64 out of 100. This indicates a relatively healthy housing market, but one that is not too tight, giving buyers some time to find a home, although it is not as strong as some other metros.
 
 **Office Economy**
-With an office/professional worker share of 1.90, ranking in the 26th percentile, the city has a relatively shallow talent pool in professional and office sectors. This makes it less suited for businesses that require a deep knowledge-economy talent pool, such as tech, finance, or consulting firms, but more suitable for industries with different workforce requirements.
+The city's office-based workforce is relatively small, scoring 26 out of 100, which makes it less suited for businesses that rely heavily on professional services, such as tech, finance, or consulting. This means that the city may not be the best fit for companies that require a large pool of specialized office workers, but could be more attractive to industries with different labor needs.
 
-The Hartford-West Hartford-East Hartford metro area offers businesses a highly competitive labor market with strong demand and a growing workforce, but also presents a significant risk due to its extremely low unemployment rate and potential future affordability crisis driven by the sharp decline in building permits. Decision-makers should carefully consider these factors when evaluating this city as a potential location for their business.
+The bottom line is that Hartford-West Hartford-East Hartford's biggest strength is its strong job market, with low unemployment and rising labor demand, making it an attractive location for businesses. However, its biggest risk is the potential future housing supply shortage, driven by a sharp decline in building permits, which could lead to higher housing costs and reduced affordability, making it less competitive in the long run.

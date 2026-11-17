@@ -4,30 +4,30 @@
 
 ---
 
-The Washington-Arlington-Alexandria metro area has an overall grade of C+ with a composite score ranking it at the 49.0th percentile among 50 US metros. This city's economic character is most defined by its strong wage growth, with a year-over-year increase of 6.02%, and its low labor demand, with employment growth at -1.82% and weekly hours deviation at -0.510%. These metrics suggest a complex labor market with both positive and negative trends.
+The Washington-Arlington-Alexandria metro area has an overall grade of C+, scoring 49.0 out of 100 across 50 US metros, with its economy currently defined by a mix of slow job growth and rising wages. Over the past year, the city has seen a decline in employment of 1.82%, while wages have risen by 6.02%, indicating a complex labor market.
 
 **Labor Demand**
-The employment growth rate of -1.82% and weekly hours deviation of -0.510% indicate a contraction in labor demand, signaling a lack of genuine demand expansion. This combination suggests that the city is experiencing a decline in job creation and a decrease in working hours, which may lead to a surplus of labor. The labor demand composite score of 1.75 is in the bottom tier, reinforcing this assessment.
+The city is losing jobs, with employment down 1.82% over the past year, and workers' hours are also falling, by 0.5%, indicating a weak job market with reduced demand for labor. This means that employers may not be hiring as aggressively, and workers may be facing reduced hours or fewer job opportunities.
 
 **Unemployment**
-The unemployment rate of 3.70% ranks in the 70th percentile, indicating a relatively tight labor market. This means that businesses may face challenges in hiring, as the pool of available workers is smaller, and may need to offer competitive wages to attract talent. The tight market also implies upward pressure on wages.
+The unemployment rate in the city is 3.70%, which is lower than many other metros, scoring 70 out of 100, making it relatively hard for employers to hire as the labor market is tight. With a low unemployment rate, employers may face wage pressure and competition for skilled workers, making it challenging to attract and retain talent.
 
 **Wage Growth**
-The year-over-year wage growth rate of 6.02% is in the top tier, ranking at the 88th percentile. This rapid wage growth suggests that labor costs for employers are increasing, while worker purchasing power is also rising. Businesses should be prepared for higher labor costs, but also benefit from a workforce with increased disposable income.
+Wages in the city have risen by 6.02% over the past year, scoring 88 out of 100, indicating strong wage growth that benefits workers but may increase labor costs for employers. This rapid wage growth suggests that workers have significant bargaining power, and employers may need to offer competitive salaries to attract and retain top talent.
 
 **Cost of Living**
-With a cost of living ratio of 6.58, based on $299/sqft (decreasing by 2.9% year-over-year) and $45.44/hr, this city ranks in the 69th percentile for affordability. This means that the city is relatively affordable compared to its peers, making it an attractive location for talent without requiring significant wage premiums. The decreasing PSF value is a key driver of this affordability.
+The cost of living in the city is relatively affordable, with a price per square foot of $299 and hourly pay of $45.44, scoring 69 out of 100, and housing prices are actually falling by 2.9% over the past year. This makes the city more attractive to workers and employers alike, as the affordability of housing can be a significant factor in relocation decisions.
 
 **Labor Force Growth**
-The civilian labor force is contracting at a rate of -2.24% year-over-year, indicating a shrinking labor pool. This decline in labor force growth poses a structural headwind for hiring, as businesses may struggle to find qualified workers to fill open positions. The bottom-tier ranking of 8th percentile reinforces this concern.
+The labor force in the city is shrinking, with a decline of 2.24% over the past year, scoring just 8 out of 100, which poses a significant challenge for employers looking to hire and expand their workforce. A shrinking labor pool can lead to a structural headwind for hiring, making it difficult for businesses to find the talent they need to grow.
 
 **Building Permits**
-The year-over-year change in building permits is +13.92%, indicating an expansion in housing supply. This increase in permits suggests that developer confidence is rising, and future housing supply is likely to improve, which should help maintain affordability and support workforce accommodation.
+New home approvals in the city have increased by 13.92% over the past year, scoring 70 out of 100, indicating a growing housing supply and potential relief for the city's affordability challenges. This uptick in building permits suggests that developers are confident in the city's future growth, which could lead to a more balanced housing market and improved affordability.
 
 **Days on Market**
-The current median days on market is 43 days, with a year-over-year increase of 13.2%, ranking in the 94th percentile. This slower market means that homes are sitting longer before being sold, making it a more accessible market for relocating workers. However, this trend may also indicate a normalization of the market rather than a demand erosion.
+Homes in the city are selling relatively quickly, with a median of 43 days on the market, and this number is actually rising by 13.2% over the past year, scoring 94 out of 100, indicating a healthy housing market. This suggests that the city's housing market is balanced, with enough supply to meet demand, and buyers have a reasonable amount of time to find a home without feeling rushed.
 
 **Office Economy**
-The office economy percentile rank of 34th indicates a relatively shallow professional talent pool. This city is less suited for businesses requiring a deep knowledge-economy talent pool, such as tech, finance, or consulting firms, but may be more suitable for industries with fewer specialized roles, such as logistics or manufacturing.
+The city's office-based workforce is smaller than many other metros, scoring 34 out of 100, which may make it less suitable for businesses in the tech, finance, or professional services sectors that rely on a deep talent pool. This could limit the city's appeal to companies that require a large pool of specialized workers, potentially hindering its ability to attract and retain major office-based employers.
 
-The Washington-Arlington-Alexandria metro area offers a unique combination of strong wage growth and relatively affordable cost of living, making it an attractive location for businesses seeking to balance labor costs and talent attraction. However, the single biggest risk or constraint for decision-makers is the declining labor force growth, which may pose significant challenges for hiring and workforce expansion in the future.
+The city's biggest strength is its strong wage growth, which benefits workers and can attract top talent, but its biggest risk is the shrinking labor force, which poses a significant challenge for employers looking to hire and expand their workforce. Overall, the Washington-Arlington-Alexandria metro area faces a complex economic landscape, with both opportunities and challenges that businesses and workers must navigate.
