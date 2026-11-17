@@ -200,7 +200,7 @@ def build_briefing(record: dict, city_name: str) -> str:
 
     def row(label, value_str, pct_key):
         sc = pct.get(pct_key, 50)
-        return f"  {label:<40} {value_str:<22} {tier_label(sc)} ({round(sc)}th pct)"
+        return f"  {label:<40} {value_str:<22} {tier_label(sc)} (score {round(sc)}/100)"
 
     dom_yoy   = raw.get("204A_dom_yoy_pct")
     dom_level = raw.get("204A_dom_level_days")
@@ -219,28 +219,26 @@ def build_briefing(record: dict, city_name: str) -> str:
     earn_val   = earn_block.get("latest_value")
 
     if psf_val is not None and earn_val is not None:
-        raw_ratio  = psf_val / earn_val
         psf_yoy_s  = f" ({psf_yoy:+.1f}% YoY)" if psf_yoy is not None else ""
-        col_str    = f"${psf_val:.0f}/sqft{psf_yoy_s} vs ${earn_val:.2f}/hr → ratio {raw_ratio:.2f}"
+        col_str    = f"${psf_val:.0f}/sqft{psf_yoy_s} vs ${earn_val:.2f}/hr pay"
     else:
-        col_str    = fmt_val("104C_col", suffix=" (composite 0-10)")
+        col_str    = "N/A"
 
     lines = [
         f"METRO: {metro}",
-        f"OVERALL GRADE: {grade_letter} — {grade_desc} ({wp}th percentile, ranked out of 50 US metros)",
+        f"OVERALL GRADE: {grade_letter} — {grade_desc} (overall score {wp}/100 across 50 US metros)",
         "",
-        f"  {'METRIC':<40} {'RAW VALUE':<22} PERCENTILE TIER",
+        f"  {'METRIC':<40} {'VALUE':<22} SCORE (0-100; 80 = better than 80% of metros)",
         "  " + "-" * 74,
         row("Employment growth YoY",            fmt_pct("107E_employment_growth_yoy"),          "107E"),
-        row("Weekly hours vs own trend",         fmt_pct("107E_wh_trend_deviation_pct", 3),      "107E"),
-        row("Labor demand composite score",      fmt_val("107E_ldc_composite", suffix=""),       "107E"),
+        row("Weekly hours vs own 12-mo average", fmt_pct("107E_wh_trend_deviation_pct", 1),      "107E"),
         row("Unemployment rate",                 fmt_val("101A_unemployment", suffix="%"),       "101A"),
         row("Wage growth (hourly earnings YoY)", fmt_pct("103B_earnings_yoy"),                  "103B"),
         row("Cost of living (PSF vs wages)",     col_str,                                        "104C"),
         row("Labor force growth YoY",            fmt_pct("102A_clf_yoy"),                        "102A"),
         row("Building permits YoY",              fmt_pct("200B_permits_yoy"),                    "200B"),
         row("Days on market",                    dom_str,                                        "204A"),
-        row("Office/professional worker share",  fmt_val("105C_owr", suffix=" (composite 0-5)"), "105C"),
+        row("Office/professional job share",     "(use score only)",                             "105C"),
     ]
     return "\n".join(lines)
 
@@ -254,45 +252,59 @@ def build_prompt(record: dict, city_name: str) -> str:
     )
 
     prompt = f"""\
-You are writing an economic city brief for a senior executive making a business location decision.
-The audience is financially literate. Be direct, specific, and anchor every claim in actual numbers.
+You are writing a short economic brief about one U.S. city for business leaders and
+curious general readers. Many readers are not economists. Write so anyone can follow it.
 
-METRIC INTERPRETATION GUIDE — read this before writing:
+METRIC INTERPRETATION GUIDE — for your understanding only, do not repeat it:
 {notes_block}
 
 CITY DATA:
 {briefing}
 
 ─────────────────────────────────────────────
+HOW TO WRITE:
+- Plain English. Short sentences. Explain what a number means in everyday terms.
+- Every score is 0-100, where 80 means better than 80% of the 50 metros. Say it that
+  way ("a score of 80", "better than most of the 50 metros"). Never say "percentile".
+- Each metric already has a one-line definition shown above your text on the website.
+  Do NOT define the metric again. Go straight to what this city's number shows.
+- Banned words and phrases: "composite", "percentile", "YoY", "year-over-year" (say
+  "over the past year"), "survivor squeeze" (say it plainly, e.g. "remaining workers are
+  putting in extra hours after job cuts"), "deviation", "trend deviation", "ratio".
+- Only quote numbers a reader would recognize: percentages, dollars, days, hours, and
+  the 0-100 score. Round to one decimal place. Never quote internal index values.
+- Make every verdict match the score. A low score is a weakness, even if you can
+  imagine an upside.
+
 Write the brief in EXACTLY this structure:
 
-[Opening paragraph — 2-3 sentences. State the overall grade and composite score. Name the 1-2 metrics that most define this city's current economic character. Use specific numbers.]
+[Opening paragraph — 2 sentences. State the overall grade and what most defines this city's economy right now, with one or two specific numbers.]
 
 **Labor Demand**
-[2-3 sentences. Name the employment growth rate and hours deviation. State what the combination signals — genuine demand expansion, contraction, or survivor squeeze. Be direct.]
+[2 sentences. Is the city adding or losing jobs, by how much over the past year, and are workers' hours rising or falling? What does that mean for the job market?]
 
 **Unemployment**
-[2-3 sentences. Name the actual unemployment rate. State whether the market is tight or has slack. Name the practical implication for a business trying to hire here.]
+[2 sentences. The unemployment rate, and whether that makes it easy or hard for employers to hire.]
 
 **Wage Growth**
-[2-3 sentences. Name the YoY wage growth rate. State whether it is fast, moderate, or stagnant. Name the implication for employer labor costs and worker purchasing power.]
+[2 sentences. How fast pay rose over the past year, and what that means for employers' costs and workers' paychecks.]
 
 **Cost of Living**
-[2-3 sentences. State whether the city is affordable or expensive relative to peers, using the percentile rank as context. Name what this means for talent attraction without wage premiums.]
+[2 sentences. Is housing affordable for local workers compared with other metros? Use the price per square foot and hourly pay if given, and say whether it is getting better or worse.]
 
 **Labor Force Growth**
-[2-3 sentences. Name the YoY growth rate of the civilian labor force. State whether supply is expanding or contracting. Name the implication for hiring capacity.]
+[2 sentences. How fast the pool of workers is growing or shrinking, and what that means for hiring.]
 
 **Building Permits**
-[2-3 sentences. Name the YoY change in permits. State whether housing supply is expanding or tightening. Name what this signals for future affordability and workforce accommodation.]
+[2 sentences. How new home approvals changed over the past year, and what that signals about future housing supply.]
 
 **Days on Market**
-[2-3 sentences. Name the current median days on market AND the YoY direction. State whether this is a healthy, too-tight, or softening housing market, consistent with the percentile, and what it means for a worker relocating here.]
+[2 sentences. How many days a typical home takes to sell and whether that is getting faster or slower. Say whether this is a healthy, too-tight, or softening housing market, consistent with the score.]
 
 **Office Economy**
-[2-3 sentences. State how deep the professional talent pool is, using the percentile rank. Name the type of business this city is best and worst suited for.]
+[2 sentences. How large the city's office-based workforce (tech, finance, professional services) is compared with other metros, and what kinds of businesses that suits.]
 
-[Closing paragraph — 2-3 sentences. Bottom line: what does this city offer a business, and what is the single biggest risk or constraint a decision-maker should factor in?]
+[Closing paragraph — 2 sentences. The bottom line: the city's biggest strength and its biggest risk.]
 
 ─────────────────────────────────────────────
 FORMAT RULES — follow exactly:
@@ -300,9 +312,8 @@ FORMAT RULES — follow exactly:
 - The 8 metric sections use exactly these bold headers on their own line:
   **Labor Demand**, **Unemployment**, **Wage Growth**, **Cost of Living**,
   **Labor Force Growth**, **Building Permits**, **Days on Market**, **Office Economy**
-- Each metric section: 2-3 sentences, no more
-- Use specific numbers — percentages, days, percentile ranks
-- Direction reminders: high Cost of Living percentile = MORE affordable; high Days on Market percentile = HEALTHIER housing market (low = weakness)
+- Each metric section: exactly 2 sentences
+- Direction reminders: high Cost of Living score = MORE affordable; high Days on Market score = HEALTHIER housing market (low = weakness); high Unemployment score = LOW unemployment
 - No bullet points inside metric sections
 - No preamble like "Here is the brief:" — start directly with the opening paragraph
 """

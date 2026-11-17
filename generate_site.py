@@ -62,11 +62,25 @@ METRICS = [
     ('101A', 'Unemployment',      '20%'),
     ('103B', 'Wage Growth',       '15%'),
     ('104C', 'Cost of Living',    '12%'),
-    ('102A', 'Labor Force YoY',  '10%'),
-    ('200B', 'Bldg. Permits',     '10%'),
+    ('102A', 'Labor Force Growth', '10%'),
+    ('200B', 'Building Permits',  '10%'),
     ('204A', 'Days on Market',    ' 5%'),
     ('105C', 'Office Economy',    ' 3%'),
 ]
+
+# One plain sentence per metric, shown under its name on every city page.
+METRIC_EXPLAINERS = {
+    'Labor Demand':       'Whether employers are adding jobs, based on job growth over the past year and changes in weekly work hours.',
+    'Unemployment':       "The share of people who want a job but can't find one; lower is better.",
+    'Wage Growth':        'How much average hourly pay rose over the past year.',
+    'Cost of Living':     "How many hours a local worker needs to work to pay for one square foot of a home, and whether that's improving.",
+    'Labor Force Growth': 'Whether the number of people working or looking for work is growing.',
+    'Building Permits':   'How many new homes builders got approval for, compared with a year ago.',
+    'Days on Market':     'How long a typical home for sale takes to find a buyer; about 35 to 80 days is healthiest.',
+    'Office Economy':     'The share of jobs in office-based fields like tech, finance and professional services.',
+}
+
+SCORE_SCALE_NOTE = 'Scores run 0&ndash;100. A score of 80 means this city beats 80% of the 50 metros.'
 
 SCENARIO_COLORS = {
     'STRONG':  '#059669',
@@ -399,6 +413,17 @@ td a:hover { color: var(--color-primary); text-decoration: none; }
   font-weight: 700;
   color: var(--color-text);
   margin: 1.2em 0 0.3em;
+}
+.analysis-section p.metric-explainer {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--color-text-muted);
+  margin: 0 0 0.5em;
+}
+.score-scale-note {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin: -8px 0 14px;
 }
 
 /* ── SCORECARD ── */
@@ -976,6 +1001,9 @@ def load_narrative(primary_city: str) -> str:
                     heading = header_match.group(1)
                     body_text = header_match.group(2).strip()
                     html_parts.append(f'<h4 class="narrative-heading">{heading}</h4>')
+                    explainer = METRIC_EXPLAINERS.get(heading)
+                    if explainer:
+                        html_parts.append(f'<p class="metric-explainer">{explainer}</p>')
                     if body_text:
                         html_parts.append(f'<p>{body_text}</p>')
                 else:
@@ -1468,7 +1496,7 @@ def write_rankings(cities: list, date: str, site_dir: Path):
 
 # ─── WRITE CITY PAGES ─────────────────────────────────────────────────────────
 
-def write_city(city: dict, all_cities: list, site_dir: Path):
+def write_city(city: dict, all_cities: list, site_dir: Path, date: str):
     rank = city['rank']
     total = len(all_cities)
 
@@ -1539,6 +1567,7 @@ def write_city(city: dict, all_cities: list, site_dir: Path):
 
     <div class="scorecard">
       <div class="section-title">Metric Scorecard</div>
+      <p class="score-scale-note">{SCORE_SCALE_NOTE}</p>
       {metric_rows}
     </div>
 
@@ -1575,7 +1604,7 @@ def write_city(city: dict, all_cities: list, site_dir: Path):
         css_path='../',
         nav=nav_html('../', ''),
         main_content=main_content,
-        footer=footer_html('April 2026'),
+        footer=footer_html(date),
     )
     metros_dir = site_dir / 'metros'
     metros_dir.mkdir(parents=True, exist_ok=True)
@@ -2054,7 +2083,7 @@ def main():
     # Write city pages
     print(f'→ Writing {len(all_cities)} city pages...')
     for city in all_cities:
-        write_city(city, all_cities, SITE_DIR)
+        write_city(city, all_cities, SITE_DIR, calc_date)
     print(f'  ✓ {len(all_cities)} metro pages written to site/metros/')
 
     print(f'\n✓ Site written to: {SITE_DIR}')
