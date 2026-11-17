@@ -4,30 +4,30 @@
 
 ---
 
-Memphis has an overall grade of B-, scoring 54.9 out of 100 across 50 US metros, with its labor demand and cost of living being two of the most defining aspects of its economy right now, including a labor demand score of 62 and a cost of living score of 94. The city's economy is characterized by a relatively slow employment growth of 0.17% over the past year, but with workers putting in more hours, indicating a genuine demand for labor.
+Memphis has an overall grade of B-, scoring 54.9 out of 100 across 50 US metros, with its economy defined by a mix of strengths and weaknesses, including a strong cost of living score of 94 and a weak labor force growth score of 16. The city's employment growth is up 0.2% over the past year, with workers putting in 1.2% more hours, indicating a relatively strong job market.
 
 **Labor Demand**
-Memphis is adding jobs at a rate of 0.17% over the past year, which is a slower pace than most cities, and workers are putting in 1.2% more hours, indicating a strong demand for labor. This means that the job market is relatively healthy, with employers looking to hire and workers being utilized more, scoring above average with a score of 62, better than 62% of the 50 metros.
+Memphis is adding jobs at a rate of 0.2% over the past year, with workers' hours rising by 1.2%, which means the city is experiencing genuine demand for labor. This strength in labor demand suggests that employers are hiring and workers are putting in extra hours, indicating a healthy job market with a score of 62, better than most of the 50 metros.
 
 **Unemployment**
-The unemployment rate in Memphis is 4.10%, which is near the median, making it neither extremely easy nor hard for employers to hire, with a score of 48, indicating it is around the middle of the pack compared to other metros. This rate suggests that while there are still workers available, the labor market is not overly loose, and employers may face some competition for talent.
+The unemployment rate in Memphis is 4.1%, which is about average for the 50 metros, with a score of 48, making it neither particularly easy nor hard for employers to hire. This average unemployment rate means that employers may not face significant challenges in finding workers, but they also may not have a large pool of candidates to choose from.
 
 **Wage Growth**
-Wages in Memphis rose by 3.62% over the past year, which is a near-median growth rate, indicating that employers' labor costs are increasing, but not at an alarming rate, with a score of 48, similar to many other metros. This wage growth also means that workers' paychecks are getting slightly bigger, but not at a pace that would significantly boost consumer spending.
+Wages in Memphis rose by 3.6% over the past year, which is about average for the 50 metros, with a score of 48, indicating that employers' labor costs are increasing at a moderate pace. This average wage growth means that workers are seeing some increase in their paychecks, but it may not be enough to keep up with cost of living increases in other cities.
 
 **Cost of Living**
-Memphis has a cost of living score of 94, indicating that it is more affordable than most metros, with a price per square foot of $152 and hourly pay of $33.13, and housing prices are actually falling by 1.9% over the past year. This makes Memphis an attractive location for workers and businesses looking for a lower cost of living, with its high score of 94 indicating it is better than 94% of the 50 metros in terms of affordability.
+Memphis has a cost of living score of 94, with a price per square foot of $152 and hourly pay of $33.13, indicating that housing is more affordable than in most metros, and it's getting even better with a 1.9% decrease in price per square foot over the past year. This affordability makes Memphis an attractive option for workers and employers looking to relocate or start a business.
 
 **Labor Force Growth**
-The labor force in Memphis is shrinking by 1.73% over the past year, which is a significant decline, indicating that the pool of available workers is decreasing, with a score of 16, making it one of the weaker labor markets. This decline in labor force growth poses a challenge for employers looking to hire, as it may lead to a shortage of skilled workers and increased competition for talent.
+The labor force in Memphis is shrinking by 1.7% over the past year, with a score of 16, which is a weakness, indicating that the pool of available workers is decreasing. This decline in labor force growth means that employers may face challenges in finding qualified workers, which could limit the city's ability to attract new businesses.
 
 **Building Permits**
-New home approvals in Memphis surged by 112.99% over the past year, which is a top-tier growth rate, signaling a significant increase in future housing supply and potential relief for the city's affordability. This rapid growth in building permits, with a score of 94, better than 94% of the 50 metros, suggests that developers are confident in the city's housing market and are responding to demand.
+New home approvals in Memphis increased by 113.0% over the past year, with a score of 94, which is a strength, signaling that the city is experiencing a surge in new home construction. This increase in building permits suggests that the city's housing supply will expand in the future, making it more attractive to workers and employers.
 
 **Days on Market**
-Homes in Memphis are taking 73 days to sell, which is an increase of 7.3% over the past year, indicating a softening housing market, with a score of 4, making it one of the weakest housing markets. This slower pace of home sales suggests that buyers may be pulling back, and the market may be becoming less competitive, making it a challenging time for sellers.
+Homes in Memphis are taking 73 days to sell, with a 7.3% increase over the past year, and a score of 4, which is a weakness, indicating a softer housing market. This slower pace of home sales means that buyers have more time to find a home, but it also suggests that the housing market may be losing some of its momentum.
 
 **Office Economy**
-Memphis has a relatively small office-based workforce, with a score of 4, indicating that it is not as well-suited for businesses in the tech, finance, or professional services sectors compared to other metros. This limited presence of office-based jobs may make it more challenging for businesses in these sectors to find the talent they need, and the city may need to focus on developing its office economy to attract more diverse businesses.
+Memphis has a small office-based workforce, with a score of 4, which is a weakness, indicating that the city may not be the best fit for businesses in the tech, finance, or professional services sectors. This smaller office economy means that businesses looking for a deep pool of specialized talent may need to look elsewhere, but it also means that there may be opportunities for businesses to establish themselves in a less competitive market.
 
-Memphis's biggest strength is its affordable cost of living, making it an attractive location for workers and businesses, but its biggest risk is its shrinking labor force, which poses a challenge for employers looking to hire and may lead to a shortage of skilled workers. Overall, Memphis needs to address its labor force decline to take full advantage of its affordable cost of living and attract more businesses to the area.
+Memphis's biggest strength is its affordable cost of living, with a score of 94, making it an attractive option for workers and employers looking to relocate or start a business. However, the city's biggest risk is its slow labor force growth, with a score of 16, which could limit its ability to attract new businesses and hinder its economic development.

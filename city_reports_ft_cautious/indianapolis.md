@@ -4,30 +4,30 @@
 
 ---
 
-The Indianapolis-Carmel-Greenwood metro area has an overall grade of D, with a score of 28.2 out of 100, indicating it is struggling compared to other metros. The city's economy is defined by its weak job market, with employment growth declining by 0.59% over the past year, and a low score of 2 out of 100, which is a significant concern for businesses looking to locate there.
+The Indianapolis-Carmel-Greenwood metro area has an overall grade of D, with a score of 28.2 out of 100, indicating significant economic challenges. One of the most defining features of this city's economy is its weak labor demand, with employment growth declining by 0.6% over the past year, and weekly hours only slightly above average, scoring 2 out of 100.
 
 **Labor Demand**
-The city is losing jobs, with a decline of 0.59% over the past year, and while workers' hours are rising by 0.7%, this is not enough to offset the job losses, indicating a weak labor demand. This means that the job market is not strong, and businesses may struggle to find the workers they need, with a score of 2 out of 100, which is better than only a few metros.
+The city is losing jobs, with a decline of 0.6% in employment growth over the past year, and while weekly hours are 0.7% above average, this is not enough to offset the job losses, indicating a weak job market. This means that the city is not adding new jobs at a rate that is competitive with most other metros, scoring 2 out of 100.
 
 **Unemployment**
-The unemployment rate is 3.40%, which is relatively low, making it harder for employers to hire, with a score of 64 out of 100, indicating that the city has a tighter labor market than most metros. This low unemployment rate puts upward pressure on wages, as employers must compete for a limited pool of workers.
+The unemployment rate in Indianapolis is 3.4%, which is lower than most other metros, scoring 64 out of 100, making it harder for employers to hire new workers. This low unemployment rate puts upward pressure on wages, as employers must compete for a limited pool of available workers.
 
 **Wage Growth**
-Pay rose by only 0.53% over the past year, which is a slow pace, with a score of 6 out of 100, indicating that wage growth is weaker than in most metros. This slow wage growth means that employers may not face significant labor cost increases, but workers may not see much improvement in their paychecks.
+Wages in Indianapolis have risen by only 0.5% over the past year, which is slower than most other metros, scoring 6 out of 100, meaning that employers' labor costs are not increasing rapidly, but workers' paychecks are not growing much either. This slow wage growth may make it harder for workers to afford the rising cost of living in the city.
 
 **Cost of Living**
-Housing in the city is relatively expensive, with a price of $164 per square foot, compared to an hourly pay of $33.83, and prices are rising by 5.1% over the past year, with a score of 10 out of 100, indicating that the city is less affordable than most metros. This makes it challenging for workers to afford housing, and the rising prices are making the situation worse.
+The cost of living in Indianapolis is relatively high, with a price per square foot of $164 and hourly pay of $33.83, scoring 10 out of 100, indicating that housing is less affordable than in most other metros. The price per square foot has increased by 5.1% over the past year, making it even harder for local workers to afford housing.
 
 **Labor Force Growth**
-The pool of workers is shrinking by 1.13% over the past year, with a score of 28 out of 100, indicating that the city's labor force is declining faster than in most metros. This decline in the labor force makes it even harder for businesses to find the workers they need, and it is a significant concern for the city's economic growth.
+The labor force in Indianapolis is shrinking, with a decline of 1.1% over the past year, scoring 28 out of 100, which means that the pool of available workers is decreasing, making it harder for employers to find new hires. This decline in labor force growth is a significant challenge for the city's economy.
 
 **Building Permits**
-New home approvals are increasing by 10.41% over the past year, with a score of 62 out of 100, indicating that the city is seeing more new housing development than most metros. This increase in building permits is a positive sign, as it suggests that the city's housing supply may improve in the future, making it more attractive to workers and businesses.
+The number of new home building permits in Indianapolis has increased by 10.4% over the past year, scoring 62 out of 100, which is a positive sign for the city's housing market, indicating that developers are confident in the city's future growth. This increase in building permits should help to expand the city's housing supply and improve affordability.
 
 **Days on Market**
-Homes are taking 55 days to sell, which is getting slower by 10% over the past year, with a score of 66 out of 100, indicating that the city's housing market is healthier than in most metros. This slower pace is actually a positive sign, as it gives buyers more time to find a home, and it suggests that the housing market is not too tight.
+Homes in Indianapolis are taking an average of 55 days to sell, which is an increase of 10% over the past year, scoring 66 out of 100, indicating a relatively healthy housing market. This increase in days on market is a sign that the housing market is not too tight, giving buyers more time to find a home, and is a positive sign for the city's economy.
 
 **Office Economy**
-The city's office-based workforce is relatively small, with a score of 16 out of 100, indicating that it is smaller than in most metros. This makes the city less suited for businesses that rely on a deep pool of professional and technical talent, such as tech, finance, and consulting firms.
+The office-based workforce in Indianapolis is smaller than in most other metros, scoring 16 out of 100, which means that the city may not be as attractive to businesses in the tech, finance, and professional services sectors. This smaller office workforce may limit the city's ability to attract certain types of businesses and talent.
 
-The city's biggest strength is its increasing building permits, which suggest that the housing supply may improve in the future, making it more attractive to workers and businesses. However, the city's biggest risk is its weak job market, with declining employment growth and a shrinking labor force, which makes it challenging for businesses to find the workers they need and for the city to achieve economic growth.
+The biggest strength of the Indianapolis economy is its relatively low unemployment rate, which indicates a tight labor market, but also poses challenges for employers looking to hire new workers. However, the city's biggest risk is its weak labor demand and slow wage growth, which may make it harder for the city to attract and retain businesses and talent, and ultimately hinder its economic growth.

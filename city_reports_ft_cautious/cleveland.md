@@ -4,30 +4,30 @@
 
 ---
 
-Cleveland earns a B- grade, with an overall score of 52.6 out of 100, indicating it performs below average compared to the 50 metros. The city's labor force is growing at a rate of 1.8% over the past year, which is a notable strength, but its wage growth is a concern, with hourly earnings rising by only 1.81% over the past year.
+Cleveland earns an overall grade of B-, with a score of 52.6 out of 100, indicating it is below average compared to the 50 metros. The city's economy is currently defined by its slow wage growth, with hourly earnings rising by only 1.8% over the past year, which is a weakness compared to most metros.
 
 **Labor Demand**
-Cleveland is adding jobs at a rate of 0.57% over the past year, which is near the median, and workers are putting in 0.6% more hours than their 12-month average, indicating a moderate level of labor demand. This suggests that the job market is stable, but not particularly strong, with employers neither aggressively hiring nor cutting back.
+Cleveland is adding jobs at a rate of 0.6% over the past year, which is about average for the 50 metros, and workers are putting in 0.6% more hours, indicating a moderate level of labor demand. This means the job market is relatively stable, but not particularly strong, with a score of 58 out of 100, indicating it is about average compared to most metros.
 
 **Unemployment**
-The unemployment rate in Cleveland is 3.4%, which is near the median, making it neither extremely easy nor difficult for employers to hire. With a score of 54, Cleveland's unemployment rate is not a major advantage or disadvantage compared to other metros.
+The unemployment rate in Cleveland is 3.4%, which is about average for the 50 metros, with a score of 54 out of 100, making it neither particularly easy nor hard for employers to hire. This rate indicates a relatively balanced labor market, where employers may not have to compete too aggressively for workers, but can still find qualified candidates.
 
 **Wage Growth**
-Hourly earnings in Cleveland rose by 1.81% over the past year, which is below average, with a score of 20, indicating that wage pressure is relatively low. This means that employers may not face significant cost increases, but workers may not see substantial gains in their paychecks either.
+Hourly earnings in Cleveland rose by 1.8% over the past year, which is slower than most metros, with a score of 20 out of 100, indicating a weakness. This slow wage growth means that employers may not face significant pressure to increase salaries, but workers may not see much improvement in their purchasing power.
 
 **Cost of Living**
-The cost of living in Cleveland is near the median, with a score of 50, and the price per square foot is $143, compared to an hourly pay of $34.42, which is not particularly affordable. The price per square foot has increased by 13.5% over the past year, making it even more challenging for local workers to afford housing.
+The cost of living in Cleveland is about average, with a price per square foot of $143 and hourly pay of $34.42, and a score of 50 out of 100, indicating it is neither particularly affordable nor unaffordable compared to other metros. However, the price per square foot has increased by 13.5% over the past year, making it less affordable for local workers.
 
 **Labor Force Growth**
-The labor force in Cleveland is growing at a rate of 1.8% over the past year, which is a top-tier performance, with a score of 92, indicating a significant expansion of the workforce. This growth in the labor pool is a major advantage for employers looking to hire, as it provides a larger talent pool to draw from.
+The labor force in Cleveland is growing at a rate of 1.8% over the past year, which is faster than most metros, with a score of 92 out of 100, indicating a strength. This growing pool of workers means that employers may have an easier time finding qualified candidates, and the city may be more attractive to businesses looking to expand.
 
 **Building Permits**
-New home approvals in Cleveland have decreased by 6.79% over the past year, which is near the median, with a score of 42, suggesting that the future housing supply may not keep pace with demand. This could lead to affordability issues and make it more challenging for workers to find housing in the area.
+New home approvals in Cleveland have decreased by 6.8% over the past year, with a score of 42 out of 100, indicating a relatively average level of new housing supply. This decrease in building permits may signal a potential supply squeeze in the future, which could impact affordability and workforce attraction.
 
 **Days on Market**
-Homes in Cleveland are taking 55 days to sell, which is an increase of 7.8% over the past year, earning a score of 60, indicating a relatively healthy housing market. This suggests that buyers have a reasonable amount of time to find a home, and the market is not overly tight or soft.
+Homes in Cleveland are taking 55 days to sell, which is getting slower by 7.8% over the past year, with a score of 60 out of 100, indicating a healthier housing market. This relatively moderate pace of home sales suggests a balanced market, where buyers have some time to find a home, but sellers can still expect to sell relatively quickly.
 
 **Office Economy**
-Cleveland has an above-average share of office-based jobs, with a score of 62, making it an attractive location for businesses in the tech, finance, and professional services sectors. This suggests that the city has a deep talent pool in these areas, which could be a significant advantage for companies looking to establish or expand their operations.
+Cleveland has a larger office-based workforce than most metros, with a score of 62 out of 100, indicating a strength. This makes the city a good fit for businesses in the tech, finance, and professional services sectors, which require a deep pool of skilled workers.
 
-Cleveland's biggest strength is its growing labor force, which provides a significant advantage for employers looking to hire, but its biggest risk is its slow wage growth, which may make it challenging to attract and retain top talent. Overall, Cleveland's economy is stable, but it faces challenges in terms of affordability and wage growth, which may impact its ability to attract businesses and workers in the long term.
+The bottom line is that Cleveland's biggest strength is its growing labor force, which makes it an attractive location for businesses looking to expand, while its biggest risk is its slow wage growth, which may impact workers' purchasing power and the city's overall economic competitiveness. Overall, Cleveland's economy is stable, but not particularly strong, and the city will need to address its slow wage growth to remain competitive with other metros.

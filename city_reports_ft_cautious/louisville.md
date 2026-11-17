@@ -4,30 +4,30 @@
 
 ---
 
-Louisville-Jefferson County has an overall grade of D, with a score of 22.0 out of 100, indicating significant economic challenges. The city's labor market is particularly weak, with employment growth of -0.03% over the past year and a low score of 6 out of 100, suggesting that the city is struggling to add new jobs.
+The Louisville-Jefferson County metro area has an overall grade of D, with a score of 22.0 out of 100, indicating significant economic challenges. One of the key issues facing the city is its weak labor demand, with employment growth at 0.0% over the past year and a score of 6 out of 100, making it harder for businesses to find the workers they need.
 
 **Labor Demand**
-The city is losing jobs, with a decline of 0.03% over the past year, and while workers' hours are rising by 1.3%, this is not enough to offset the job losses, indicating a weak labor market. This means that the city's job market is not experiencing genuine demand, and employers may not be confident in hiring new workers.
+The city is not adding jobs, with a 0.0% growth rate over the past year, and workers' hours are only slightly rising, by 1.3%, indicating a weak job market. This means that businesses may struggle to find the talent they need, and workers may not have as many job opportunities as they would in other cities, with a score of 6 out of 100, weaker than most metros.
 
 **Unemployment**
-The unemployment rate is 4.40%, which is relatively high, earning a score of 14 out of 100, making it easier for employers to hire but also indicating weaker local consumer demand. With a score this low, employers may have an easier time finding workers, but the city's overall economic health is still a concern.
+The unemployment rate in Louisville-Jefferson County is 4.4%, which is higher than many other metros, with a score of 14 out of 100, making it easier for employers to hire but also indicating weaker local consumer demand. This higher unemployment rate means that employers may have an easier time finding workers, but it also suggests that the local economy is not as strong as it could be.
 
 **Wage Growth**
-Wages rose by 1.43% over the past year, which is a slow pace, earning a score of 14 out of 100, meaning that labor costs are not rising quickly, but workers' purchasing power is also not increasing significantly. This slow wage growth may be good for employers looking to keep costs low, but it also means that workers may not have much bargaining power.
+Wages in the city have risen by 1.4% over the past year, which is slower than many other metros, with a score of 14 out of 100, indicating slower pay growth. This slower wage growth means that employers may not face as much pressure to raise wages, but it also means that workers may not see as much improvement in their standard of living.
 
 **Cost of Living**
-The cost of living in Louisville-Jefferson County is relatively affordable, with a price per square foot of $177 and hourly pay of $31.18, earning a score of 39 out of 100, indicating that housing is more affordable than in many other metros, and the price per square foot is even falling by 0.6% over the past year. This makes the city more attractive to workers and employers looking for a lower cost of living.
+The cost of living in Louisville-Jefferson County is relatively high, with a price per square foot of $177 and hourly pay of $31.18, and a score of 39 out of 100, indicating that the city is less affordable than most metros. The price per square foot has actually fallen by 0.6% over the past year, but the city is still less affordable than many other metros, making it harder for workers to afford housing.
 
 **Labor Force Growth**
-The labor force is growing at a rate of 0.22% over the past year, earning a score of 58 out of 100, which is near the median, indicating that the pool of workers is expanding, but not at a rapid pace. This moderate growth means that employers may have a slightly easier time finding workers, but the city's labor market is still not particularly dynamic.
+The labor force in the city is growing slowly, at a rate of 0.2% over the past year, with a score of 58 out of 100, which is about average for the 50 metros. This slow growth means that the pool of available workers is not expanding quickly, which could make it harder for businesses to find the talent they need.
 
 **Building Permits**
-New home approvals fell by 31.69% over the past year, earning a score of 6 out of 100, which is a sharp decline, signaling that the city's housing supply may not be keeping up with demand, and affordability may suffer in the future. This decline in building permits is a concern for the city's future economic health and may lead to a shortage of housing options.
+The number of new home building permits in the city has fallen by 31.7% over the past year, with a score of 6 out of 100, indicating a significant decline in new housing construction. This decline suggests that the city's housing supply may not be keeping up with demand, which could lead to higher housing costs and make it harder for workers to afford homes.
 
 **Days on Market**
-Homes are taking 45 days to sell, which is relatively fast, and this time is even increasing by 9.8% over the past year, earning a score of 90 out of 100, indicating a healthy housing market. This fast pace of home sales suggests that the city's housing market is strong, and buyers are actively looking for homes, but the increasing days on market may indicate a slight softening of the market.
+Homes in the city are taking an average of 45 days to sell, which is getting slower, with a 9.8% increase over the past year, and a score of 90 out of 100, indicating a healthier housing market. This slower pace is actually a sign of a healthier housing market, as it gives buyers more time to find a home and sellers more time to find a buyer.
 
 **Office Economy**
-The city's office-based workforce is relatively small, earning a score of 2 out of 100, which is a significant weakness, indicating that the city may not be well-suited for businesses that rely on a deep pool of professional and technical talent. This limited office economy means that businesses looking for a large pool of skilled workers may not find Louisville-Jefferson County to be an attractive location.
+The city's office-based workforce is relatively small, with a score of 2 out of 100, indicating a smaller office workforce than most metros. This smaller office workforce means that the city may not be as well-suited for businesses that rely on a large pool of professional and technical workers, such as tech or finance companies.
 
-The city's biggest strength is its relatively affordable cost of living, which could attract workers and employers looking for a lower cost of living, but its biggest risk is its weak labor market, which may make it difficult for businesses to find the workers they need to grow and thrive. Overall, Louisville-Jefferson County's economic challenges make it a less attractive location for businesses and workers, and the city will need to address these weaknesses to improve its economic health.
+The biggest strength of the Louisville-Jefferson County metro area is its relatively healthy housing market, with a score of 90 out of 100, indicating a more balanced market. However, the city's biggest risk is its weak labor demand and slow wage growth, which could make it harder for businesses to find the workers they need and for workers to improve their standard of living.

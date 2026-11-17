@@ -4,30 +4,30 @@
 
 ---
 
-The Tampa-St. Petersburg-Clearwater metro area has an overall grade of B-, scoring 54.3 out of 100 across 50 US metros, with its economy defined by a near-median employment growth of 1.05% over the past year. This modest job growth, combined with a relatively high unemployment rate of 4.30%, suggests a mixed labor market with both opportunities and challenges for employers and workers.
+The Tampa-St. Petersburg-Clearwater metro area has an overall grade of B-, scoring 54.3 out of 100 across 50 US metros, with its economy defined by a mix of average job growth and a relatively affordable cost of living, as seen in its $232 per square foot housing price and $36.77 hourly pay. The city's labor market is characterized by a score of 54 for employment growth and 54 for weekly hours, indicating a generally average performance.
 
 **Labor Demand**
-The city is adding jobs at a rate of 1.05% over the past year, but workers' hours are falling by 0.2%, indicating a slightly softening labor market. This means that while there are some new job opportunities, the existing workforce is not seeing a significant increase in working hours, which could impact the overall demand for labor.
+The city is adding jobs at a rate of 1.1% over the past year, but workers' hours are falling by 0.2%, suggesting a moderate demand for labor. This means that while the job market is growing, it's not necessarily leading to increased hours for existing workers, resulting in a score of 54, about average for the 50 metros.
 
 **Unemployment**
-The unemployment rate of 4.30% is higher than many other metros, scoring 26 out of 100, making it relatively easier for employers to hire workers. However, this also means that there may be weaker local consumer demand, as a larger proportion of the workforce is not actively contributing to the economy.
+The unemployment rate in Tampa-St. Petersburg-Clearwater is 4.3%, which is higher than most metros, making it a weakness with a score of 26. This higher unemployment rate means that employers may find it easier to hire, but it also indicates weaker local consumer demand.
 
 **Wage Growth**
-Wages in the Tampa-St. Petersburg-Clearwater metro area rose by 3.99% over the past year, which is near the median score of 56 out of 100, indicating a moderate increase in labor costs for employers. This wage growth is good news for workers, as it means their paychecks are increasing, but it may also put pressure on employers to manage their labor costs.
+Pay rose by 4.0% over the past year, which is about average for the 50 metros, resulting in a score of 56. This moderate wage growth means that employers' labor costs are increasing, but workers' paychecks are also growing, albeit not at a rapid pace.
 
 **Cost of Living**
-The cost of living in Tampa-St. Petersburg-Clearwater is relatively affordable, with a score of 71 out of 100, and a price per square foot of $232, which is 5.7% lower than the previous year, compared to an hourly pay of $36.77. This makes the city an attractive option for workers and businesses looking for a more affordable location, as the falling housing prices relative to wages improve the overall affordability.
+The cost of living in Tampa-St. Petersburg-Clearwater is relatively affordable, with a score of 71, indicating that it's more affordable than most metros, thanks to a housing price of $232 per square foot and hourly pay of $36.77. The fact that housing prices are falling by 5.7% over the past year makes it an even more attractive option for workers.
 
 **Labor Force Growth**
-The labor force in the Tampa-St. Petersburg-Clearwater metro area is growing at a rate of 0.77% over the past year, which is above average, scoring 76 out of 100, indicating a expanding pool of workers. This growth in the labor force is a positive sign for employers, as it means there will be more workers available to hire in the future.
+The pool of workers in the city is growing at a rate of 0.8% over the past year, which is faster than most metros, resulting in a score of 76. This means that hiring should be easier, as the workforce is expanding and providing a larger talent pool for employers.
 
 **Building Permits**
-The number of new home building permits in the Tampa-St. Petersburg-Clearwater metro area increased by 3.72% over the past year, which is near the median score of 56 out of 100, signaling a moderate expansion of future housing supply. This increase in building permits suggests that developers are confident in the local economy and are investing in new housing, which will help to meet the demand for homes and improve affordability.
+New home approvals increased by 3.7% over the past year, which is about average for the 50 metros, resulting in a score of 56. This moderate growth in building permits suggests that the future housing supply will be relatively stable, but not necessarily expanding rapidly.
 
 **Days on Market**
-Homes in the Tampa-St. Petersburg-Clearwater metro area are taking 77 days to sell, which is 2.5% fewer days than the previous year, scoring 58 out of 100, indicating a relatively healthy housing market. This moderate pace of home sales suggests that the housing market is balanced, with neither too much nor too little supply, making it a good time for both buyers and sellers.
+A typical home in Tampa-St. Petersburg-Clearwater takes 77 days to sell, which is getting slower by 2.5% over the past year, resulting in a score of 58. This indicates a relatively healthy housing market, but one that's not too tight, giving buyers a reasonable amount of time to find a home.
 
 **Office Economy**
-The Tampa-St. Petersburg-Clearwater metro area has a strong office-based workforce, scoring 84 out of 100, indicating a deep talent pool in tech, finance, and professional services. This makes the city an attractive location for businesses in these sectors, as they can tap into a large and skilled workforce, and it is well-suited for companies looking to establish or expand their operations in these fields.
+The city has a large office-based workforce, with a score of 84, indicating that it's better than most metros, making it an attractive location for tech, finance, and professional services businesses. This suggests that the city has a deep talent pool in these sectors, which could support businesses that require specialized knowledge workers.
 
-The biggest strength of the Tampa-St. Petersburg-Clearwater metro area is its affordable cost of living, which makes it an attractive option for workers and businesses, while its biggest risk is its relatively high unemployment rate, which may impact local consumer demand and make it easier for employers to hire, but also signals a weaker labor market. Overall, the city's mixed labor market and moderate economic growth make it a decent, but not outstanding, location for businesses and workers.
+The bottom line is that Tampa-St. Petersburg-Clearwater's biggest strength is its relatively affordable cost of living, making it an attractive option for workers and businesses alike. However, its biggest risk is its higher-than-average unemployment rate, which could indicate weaker local consumer demand and make it easier for employers to hire, but also limit the city's overall economic growth.

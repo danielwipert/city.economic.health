@@ -4,30 +4,30 @@
 
 ---
 
-San Diego-Chula Vista-Carlsbad has an overall grade of B-, scoring 50.3 out of 100 across 50 US metros, with its economy defined by strong job growth and rising wages, but also a high cost of living, as seen in its $583 per square foot housing price. The city's employment growth is a notable 1.28% over the past year, with workers also putting in 0.5% more hours, indicating a genuine demand for labor.
+San Diego-Chula Vista-Carlsbad has an overall grade of B-, scoring 50.3 out of 100 across 50 US metros, with its economy defined by strong job growth and wage increases, but also a high cost of living and slower workforce growth. The city's employment growth is up 1.3% over the past year, with workers putting in 0.5% more hours, indicating a strong demand for labor.
 
 **Labor Demand**
-The city is adding jobs at a rate of 1.28% over the past year, with workers' hours also rising by 0.5%, signaling a strong labor market with genuine demand for workers. This means that businesses are likely to face competition for talent, but also have opportunities to expand their workforce in a growing economy.
+The city is adding jobs at a rate of 1.3% over the past year, with workers' hours rising by 0.5%, which means the job market is strong and employers are looking for more workers. This is a strength, with a score of 80, indicating that San Diego is hiring more workers than most metros.
 
 **Unemployment**
-The unemployment rate is 4.70%, which is higher than most of the 50 metros, scoring 24 out of 100, making it relatively easier for employers to hire compared to other cities. However, this also means that local consumer demand may be weaker due to a larger number of unemployed individuals.
+The unemployment rate is 4.7%, which is higher than most metros, making it a weakness with a score of 24, and indicating that it may be easier for employers to find workers. However, this also means that there may be less pressure on wages, as there are more workers available.
 
 **Wage Growth**
-Wages in the city have risen by 7.80% over the past year, scoring 94 out of 100, indicating a rapid increase in labor costs for employers, but also a significant boost to workers' paychecks. This strong wage growth suggests that workers have good bargaining power, but may also lead to higher costs for businesses.
+Wages in San Diego have risen by 7.8% over the past year, which is a strength, with a score of 94, indicating that pay is growing faster than in most metros. This means that employers may face higher labor costs, but workers will have more purchasing power.
 
 **Cost of Living**
-The cost of living in San Diego-Chula Vista-Carlsbad is relatively high, with a price per square foot of $583 and hourly pay of $43.46, scoring 12 out of 100, making it one of the more expensive cities to live in. However, the housing price per square foot has fallen by 3.6% over the past year, which may indicate a slight improvement in affordability.
+The cost of living in San Diego is high, with a price per square foot of $583 and hourly pay of $43.46, and it's getting worse, with a score of 12, indicating that the city is less affordable than most metros. This is a weakness, as it may be difficult for workers to afford housing and other living expenses.
 
 **Labor Force Growth**
-The labor force in the city has shrunk by 0.76% over the past year, scoring 32 out of 100, indicating a decline in the pool of available workers, which may pose a challenge for businesses looking to hire. This decline in labor force growth may lead to a structural headwind for hiring and economic expansion.
+The labor force in San Diego is shrinking by 0.8% over the past year, which is a weakness, with a score of 32, indicating that the pool of available workers is smaller than in most metros. This may make it harder for employers to find the workers they need.
 
 **Building Permits**
-The number of new home approvals has fallen by 16.72% over the past year, scoring 22 out of 100, signaling a potential supply squeeze in the housing market, which may lead to higher prices and reduced affordability. This decline in building permits may exacerbate the city's existing housing affordability challenges.
+New home approvals in San Diego have fallen by 16.7% over the past year, which is a weakness, with a score of 22, indicating that the city is building fewer new homes than most metros. This may lead to a shortage of housing in the future, making it harder for workers to find affordable places to live.
 
 **Days on Market**
-Homes in the city are taking 48 days to sell, with a 2.1% increase over the past year, scoring 54 out of 100, indicating a relatively healthy housing market, but one that is not overly tight or soft. This suggests that buyers have a reasonable amount of time to find a home, and sellers can expect to sell their properties within a moderate timeframe.
+Homes in San Diego are taking 48 days to sell, which is about average, with a score of 54, and the time to sell is getting slightly longer, by 2.1% over the past year. This indicates a relatively healthy housing market, but one that is not too tight or too soft.
 
 **Office Economy**
-The city has a relatively large office-based workforce, scoring 60 out of 100, indicating a deep talent pool suited for tech, finance, and professional services businesses. This makes San Diego-Chula Vista-Carlsbad an attractive location for companies in these sectors, which can tap into the city's skilled and knowledgeable workforce.
+San Diego has a large office-based workforce, with a score of 60, indicating that the city has a larger share of tech, finance, and professional services jobs than most metros. This makes it a good location for businesses in these sectors, which require a deep pool of skilled workers.
 
-The city's biggest strength lies in its strong labor demand and rapid wage growth, making it an attractive location for businesses looking to expand their workforce and for workers seeking better pay. However, its biggest risk is the high cost of living and declining labor force growth, which may pose challenges for businesses looking to hire and for the city's long-term economic sustainability.
+The bottom line is that San Diego's biggest strength is its strong job growth and wage increases, but its biggest risk is its high cost of living and slower workforce growth, which may make it harder for employers to attract and retain workers. Overall, the city's economy is defined by a mix of strengths and weaknesses, making it a challenging but potentially rewarding location for businesses to operate.

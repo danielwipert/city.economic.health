@@ -4,30 +4,30 @@
 
 ---
 
-The Milwaukee-Waukesha metro area has an overall grade of C-, with a score of 34.9 out of 100, indicating it is struggling in several key areas, particularly in labor demand, where it scores a low 10 out of 100. The city's employment growth is sluggish, with only a 0.19% increase in jobs over the past year, and workers are putting in 1.9% fewer hours, suggesting a weak job market.
+The Milwaukee-Waukesha metro area has an overall grade of C-, with a score of 34.9 out of 100, indicating it is weaker than most of the 50 metros, with employment growth being a significant concern, at only 0.2% over the past year. This slow job growth, combined with a decline in weekly hours worked, suggests a challenging labor market, with a score of 10 out of 100, indicating it is weaker than most metros.
 
 **Labor Demand**
-The city is adding jobs at a slow pace, with only a 0.19% increase over the past year, and workers' hours are falling by 1.9%, indicating a lack of genuine demand for labor. This means that the job market is not strong, and employers may not be looking to hire as many new workers, which could be a challenge for job seekers.
+The city is adding jobs, but at a slow pace of 0.2% over the past year, and workers' hours are actually falling by 1.9%, indicating a weak labor market. This means that the job market is not as strong as it is in most other metros, with a score of 10 out of 100, making it a weakness for the local economy.
 
 **Unemployment**
-The unemployment rate in Milwaukee-Waukesha is 3.20%, which is lower than many other metros, scoring 68 out of 100, making it harder for employers to find new hires. With a relatively low unemployment rate, employers may face more competition for workers and potentially higher wages, which could increase their costs.
+The unemployment rate in Milwaukee-Waukesha is 3.2%, which is lower than in most metros, with a score of 68 out of 100, indicating it is a strength. This low unemployment rate makes it harder for employers to hire, as there are fewer workers available, and may also lead to upward pressure on wages.
 
 **Wage Growth**
-Wages in Milwaukee-Waukesha have actually decreased by 0.19% over the past year, scoring a low 4 out of 100, which means that workers' paychecks are not getting bigger. This slow wage growth could be a challenge for workers who are looking for higher pay, but it may also mean that employers can keep their labor costs under control.
+Pay rose by -0.2% over the past year, which is slower than in most metros, with a score of 4 out of 100, indicating it is a weakness. This slow wage growth means that employers may not face significant labor cost increases, but workers may not see much improvement in their paychecks.
 
 **Cost of Living**
-The cost of living in Milwaukee-Waukesha is relatively high, with a price per square foot of $227 and hourly pay of $36.28, scoring a low 8 out of 100, making it less affordable for local workers. The price per square foot has increased by 2.7% over the past year, which means that housing is becoming even less affordable for workers, potentially making it harder for employers to attract and retain talent.
+The cost of living in Milwaukee-Waukesha is relatively high, with a price per square foot of $227 and hourly pay of $36.28, and it is getting worse, with a score of 8 out of 100, indicating it is a weakness. This means that housing is less affordable for local workers compared to other metros, which could make it harder to attract and retain talent.
 
 **Labor Force Growth**
-The labor force in Milwaukee-Waukesha is growing at a rate of 0.39% over the past year, scoring 62 out of 100, which is a relatively slow pace. This slow growth means that the pool of available workers is not expanding quickly, which could make it harder for employers to find new hires, but it also means that the workforce is relatively stable.
+The pool of workers in Milwaukee-Waukesha is growing at a rate of 0.4% over the past year, which is faster than in most metros, with a score of 62 out of 100, indicating it is a strength. This growing labor force means that employers may have an easier time finding workers, and the local economy may have a more stable foundation for growth.
 
 **Building Permits**
-The number of new home building permits in Milwaukee-Waukesha has decreased by 4.20% over the past year, scoring 48 out of 100, which signals that the future housing supply may be limited. This decrease in building permits could lead to a shortage of housing options, which could drive up prices and make it even harder for workers to afford housing.
+New home approvals in Milwaukee-Waukesha fell by 4.2% over the past year, with a score of 48 out of 100, indicating it is about average for the 50 metros. This decline in building permits may signal that the future housing supply could be limited, which could affect affordability and workforce attraction.
 
 **Days on Market**
-Homes in Milwaukee-Waukesha are taking 37 days to sell, which is getting slower, with a 15.6% increase in days on market over the past year, scoring a high 96 out of 100. This relatively fast pace of home sales suggests a healthy housing market, where buyers are actively looking for homes, but the increase in days on market could indicate a slight softening of the market.
+Homes in Milwaukee-Waukesha are taking 37 days to sell, which is getting slower, with a score of 96 out of 100, indicating it is a strength. This healthier housing market means that buyers have more time to find a home, and sellers may have more flexibility in pricing, making it a more balanced market.
 
 **Office Economy**
-Milwaukee-Waukesha has a relatively small office-based workforce, scoring 46 out of 100, which means that it may not be the best fit for businesses that rely heavily on tech, finance, or professional services. The city's economy is more suited to industries that do not require a large pool of office workers, such as manufacturing or logistics.
+The office-based workforce in Milwaukee-Waukesha is about average, with a score of 46 out of 100, indicating it is suited for a mix of industries, but may not be as strong as some other metros. This means that the city may be a good fit for businesses that require a mix of office and non-office workers, but may not be as attractive to companies that require a deep pool of specialized office talent.
 
-The biggest strength of the Milwaukee-Waukesha metro area is its relatively low unemployment rate, which suggests a stable workforce, but its biggest risk is its slow labor demand and limited housing supply, which could make it harder for employers to attract and retain workers. Overall, the city's economy is facing significant challenges, and employers and workers alike may need to be flexible and adaptable to succeed in this market.
+The biggest strength of the Milwaukee-Waukesha metro area is its relatively low unemployment rate, which indicates a strong labor market, but the biggest risk is its slow employment growth and high cost of living, which could make it harder to attract and retain workers. Overall, the city's economy is facing significant challenges, and addressing these issues will be crucial to improving its overall grade and competitiveness.

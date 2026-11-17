@@ -4,30 +4,30 @@
 
 ---
 
-Fresno has an overall grade of C, with a score of 41.8 out of 100, indicating it performs worse than most of the 50 metros, with its high unemployment rate of 7.30% being a major concern. The city's economy is defined by its struggling job market, with employment growth of 1.86% over the past year, which is above average, but not enough to offset its other weaknesses.
+Fresno has an overall grade of C, with a score of 41.8 out of 100, indicating it is a very poor performer compared to other metros. The city's economy is currently defined by its high unemployment rate of 7.3%, which is a major weakness, and its stronger-than-average employment growth of 1.9% over the past year, which is a strength.
 
 **Labor Demand**
-Fresno is adding jobs, with employment growth of 1.86% over the past year, and workers' hours are slightly falling, by 0.8%, which suggests a moderate demand for labor. This means the job market is growing, but not strongly enough to absorb the available workforce, with a score of 70, indicating it is better than about 30% of the 50 metros.
+Fresno is adding jobs at a rate of 1.9% over the past year, which is stronger than most metros, with a score of 70 out of 100. However, workers' hours are falling by 0.8%, which, combined with job growth, indicates a genuine demand for labor, meaning the job market is active, with a score of 70 out of 100.
 
 **Unemployment**
-The unemployment rate of 7.30% makes it relatively easy for employers to hire, as there are many workers available, but this also indicates a weak labor market, with a score of 0, meaning it is one of the weakest among the 50 metros. This high unemployment rate puts downward pressure on wages and makes it harder for workers to find jobs.
+The unemployment rate in Fresno is 7.3%, which is higher than most metros, making it easier for employers to hire, but also indicating weaker local consumer demand, with a score of 0 out of 100. This high unemployment rate is a significant weakness for the city's economy, as it suggests a large pool of available workers, but also lower spending power.
 
 **Wage Growth**
-Pay rose by 4.23% over the past year, which is above average, and means employers' labor costs are increasing, while workers' paychecks are getting bigger, with a score of 60, indicating it is better than about 40% of the 50 metros. This wage growth is a positive sign for the local economy, but it may not be enough to offset the high unemployment rate.
+Wages in Fresno rose by 4.2% over the past year, which is faster than most metros, with a score of 60 out of 100, indicating rising labor costs for employers, but also increasing paychecks for workers. This faster wage growth is a strength for the city, as it suggests a competitive job market with rising incomes.
 
 **Cost of Living**
-Housing in Fresno is relatively expensive, with a price of $261 per square foot, compared to the hourly pay of $33.92, and this ratio is not improving, as the price per square foot is not falling, with a score of 41, indicating it is more expensive than about 60% of the 50 metros. This makes it harder for workers to afford housing, and may discourage some businesses from locating in the area.
+The cost of living in Fresno is about average, with a price per square foot of $261 and hourly pay of $33.92, resulting in a score of 41 out of 100, indicating that housing is not particularly affordable or unaffordable compared to other metros. The fact that the price per square foot is not changing over the past year means that affordability is not improving or worsening significantly.
 
 **Labor Force Growth**
-The pool of workers in Fresno is shrinking, with a decline of 0.53% over the past year, which makes it harder for businesses to find the workers they need, with a score of 46, indicating it is near the median of the 50 metros. This decline in the labor force is a concern for the local economy, as it may limit its ability to grow and attract new businesses.
+The pool of workers in Fresno is shrinking by 0.5% over the past year, which is about average compared to other metros, with a score of 46 out of 100, indicating a neutral labor market. This slow labor force growth means that hiring may become more challenging in the future, as the supply of workers is not expanding.
 
 **Building Permits**
-New home approvals in Fresno fell by 6.89% over the past year, which signals that the future housing supply may be limited, and this could drive up prices and make housing even less affordable, with a score of 40, indicating it is near the median of the 50 metros. This decline in building permits is a concern for the local economy, as it may limit its ability to attract new residents and businesses.
+New home approvals in Fresno fell by 6.9% over the past year, which is weaker than most metros, with a score of 40 out of 100, signaling a potential future housing supply shortage. This decline in building permits is a weakness, as it suggests that the city's housing stock may not be growing fast enough to meet demand.
 
 **Days on Market**
-A typical home in Fresno takes 61 days to sell, and this is getting slightly slower, with an increase of 3.4% over the past year, which is a sign of a softening housing market, with a score of 26, indicating it is weaker than about 75% of the 50 metros. This slower pace of home sales may indicate that the housing market is becoming less competitive, and may discourage some buyers.
+Homes in Fresno take an average of 61 days to sell, which is getting slower, with a 3.4% increase over the past year, resulting in a score of 26 out of 100, indicating a weaker housing market. This slower pace of home sales suggests a softening housing market, where buyers have more time to consider purchases, but may also be less eager to buy.
 
 **Office Economy**
-Fresno has a relatively small office-based workforce, with a score of 18, indicating it is weaker than about 85% of the 50 metros, which makes it less suitable for businesses that rely on professional and technical services. This limits the city's ability to attract businesses in sectors such as tech, finance, and consulting, and may make it harder for businesses to find the skilled workers they need.
+Fresno's office-based workforce is smaller than most metros, with a score of 18 out of 100, indicating a less prominent presence of tech, finance, and professional services. This smaller office economy makes the city less suited for businesses that rely on a deep pool of specialized knowledge workers, such as tech or consulting firms.
 
-Fresno's biggest strength is its above-average employment growth, which suggests that the city is creating new job opportunities, but its biggest risk is its high unemployment rate, which indicates a weak labor market and may limit its ability to attract new businesses and residents. Overall, Fresno's economy is struggling, and it will need to address its weaknesses in order to attract new businesses and create a more vibrant economy.
+Fresno's biggest strength is its stronger-than-average employment growth, which suggests an active job market, while its biggest risk is its high unemployment rate, which indicates weaker local consumer demand and a large pool of available workers, making it challenging to attract and retain businesses. Overall, the city's economy faces significant challenges, including a high unemployment rate and a shrinking labor force, which may hinder its ability to attract new businesses and investments.

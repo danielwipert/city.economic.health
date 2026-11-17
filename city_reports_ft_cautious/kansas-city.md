@@ -4,30 +4,30 @@
 
 ---
 
-Kansas City earns an overall grade of B+, scoring 62.8 out of 100, with its strong wage growth being a key defining feature of its economy right now, at 7.6% over the past year. This growth, combined with a low unemployment rate of 3.4%, suggests a city with a robust job market, where employers may face challenges in finding and retaining top talent.
+Kansas City earns an overall grade of B+, scoring 62.8 out of 100 across 50 US metros, with its strong wage growth and affordable cost of living being key defining features of its economy right now, including a 7.6% rise in hourly earnings over the past year. The city's economy is characterized by a mix of strengths and weaknesses, with a score of 92 out of 100 for wage growth, indicating faster pay growth than most metros.
 
 **Labor Demand**
-Kansas City added 0.5% more jobs over the past year, with workers' hours rising by 0.2%, indicating a moderate increase in labor demand. This means the job market is growing, but not at a rapid pace, with employers likely having some, but not excessive, difficulty finding workers to fill open positions.
+Kansas City added jobs at a rate of 0.5% over the past year, with workers' hours rising by 0.2%, indicating a moderate level of labor demand. This means that the city's job market is growing, but at a pace that is about average for the 50 metros, with a score of 46 out of 100.
 
 **Unemployment**
-The city's unemployment rate of 3.4% is lower than most of the 50 metros, with a score of 70, making it harder for employers to hire as there are fewer available workers. This low unemployment rate also puts upward pressure on wages, as workers have more bargaining power in a tight labor market.
+The city's unemployment rate stands at 3.4%, which is lower than most metros, earning a score of 70 out of 100. This low unemployment rate makes it harder for employers to hire, as the labor market is relatively tight, with a smaller pool of available workers.
 
 **Wage Growth**
-Wages in Kansas City rose by 7.6% over the past year, earning a top-tier score of 92, which means employers are facing rising labor costs, while workers are seeing significant increases in their paychecks. This strong wage growth is a double-edged sword, as it attracts talent but also increases the cost of doing business in the city.
+Hourly earnings in Kansas City rose by 7.6% over the past year, which is faster than most metros, with a score of 92 out of 100. This strong wage growth means that employers face rising labor costs, while workers enjoy increasing purchasing power, with paychecks growing at a rate that outpaces most other cities.
 
 **Cost of Living**
-The cost of living in Kansas City is relatively affordable, with a score of 82, as the price per square foot of $194 is relatively low compared to the average hourly pay of $36.10, although it is rising by 1.6% over the past year. This affordability makes the city attractive to workers and businesses looking to relocate, as the cost of housing is not overly burdensome.
+The cost of living in Kansas City is relatively affordable, with a price per square foot of $194 and hourly pay of $36.10, earning a score of 82 out of 100. Although housing prices are rising by 1.6% per year, the city remains more affordable than most metros, making it an attractive location for workers and businesses.
 
 **Labor Force Growth**
-The pool of workers in Kansas City is shrinking, with a decline of 2.1% over the past year, earning a bottom-tier score of 10, which poses a significant challenge for employers looking to hire and expand their operations. This decline in the labor force means that businesses may need to offer more competitive wages and benefits to attract and retain talent.
+The pool of workers in Kansas City is shrinking at a rate of 2.1% per year, which is slower than most metros, with a score of 10 out of 100. This decline in the labor force makes it a challenge for employers to find new hires, as the workforce is not growing to meet demand.
 
 **Building Permits**
-New home approvals in Kansas City surged by 96% over the past year, with a top-tier score of 92, indicating a strong signal of future housing supply growth and potential improvements in affordability. This increase in building permits suggests that the city is poised to address some of its housing needs, which could help attract more workers and businesses.
+New home approvals in Kansas City surged by 96.0% over the past year, earning a score of 92 out of 100. This strong growth in building permits signals that the city's housing supply is likely to increase, which should improve affordability and attract more workers to the area.
 
 **Days on Market**
-Homes in Kansas City are taking around 52 days to sell, with a near-median score of 50, and this time is increasing by 2% over the past year, indicating a relatively balanced housing market. This moderate pace of home sales suggests that the market is not too tight, allowing buyers and sellers to negotiate, but it is not overly soft, which could indicate a weakening market.
+Homes in Kansas City typically take 52 days to sell, with the time to sell rising by 2.0% over the past year, earning a score of 50 out of 100. This indicates a relatively balanced housing market, neither too tight nor too soft, with buyers having a moderate amount of time to find a home.
 
 **Office Economy**
-Kansas City's office-based workforce is smaller than most of the 50 metros, with a below-average score of 32, which may make it less suitable for businesses in the tech, finance, and professional services sectors. This smaller office economy means that businesses in these sectors may need to look elsewhere for a deep pool of specialized talent.
+Kansas City's office-based workforce is smaller than most metros, with a score of 32 out of 100. This suggests that the city may not be the best fit for businesses that rely heavily on professional services, tech, or finance, as the talent pool is not as deep as in other cities.
 
-The bottom line is that Kansas City's biggest strength is its strong wage growth, which attracts talent and drives economic activity, but its biggest risk is the shrinking labor force, which poses a significant challenge for employers looking to hire and expand their operations. Overall, Kansas City remains an attractive location for businesses and workers, with its relatively affordable cost of living and growing economy, but it needs to address its labor force decline to sustain long-term growth.
+The bottom line is that Kansas City's biggest strength is its strong wage growth, which makes it an attractive location for workers, while its biggest risk is the shrinking labor force, which poses a challenge for employers looking to hire. Overall, the city's economy is well-positioned for growth, with its affordable cost of living and increasing housing supply likely to attract new businesses and workers to the area.
