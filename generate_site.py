@@ -23,6 +23,7 @@ import shutil
 from pathlib import Path
 
 from report_dates import display_date
+import city_page
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
     sys.stdout.reconfigure(encoding='utf-8')
@@ -32,6 +33,7 @@ if sys.stderr.encoding and sys.stderr.encoding.lower() != 'utf-8':
 # ─── PATHS ────────────────────────────────────────────────────────────────────
 SCRIPT_DIR   = Path(__file__).parent
 METRICS_FILE = SCRIPT_DIR / 'calculated_metrics_reconciled.json'
+PROCESSED_FILE = SCRIPT_DIR / 'processed_economic_data_v2.json'
 REPORTS_DIR  = SCRIPT_DIR / 'city_reports_ft_cautious'
 PDF_DIR      = SCRIPT_DIR / 'pdf_output'
 SITE_DIR     = SCRIPT_DIR / 'docs'
@@ -1060,6 +1062,8 @@ def prepare_city(metro: dict, rank: int) -> dict:
         'scenario_color':    SCENARIO_COLORS[scenario],
         'scenario_desc':     SCENARIO_DESCS[scenario],
         'narrative':         load_narrative(metro['primary_city']),
+        'scores':            {code: int(round(pctl.get(code, 50))) for code, _, _ in METRICS},
+        'raw':               raw,
         # Formatted stats for key indicators
         'unemp':      fmt_pct(raw.get('101A_unemployment'), plus=False),
         'earnings':   fmt_pct(raw.get('103B_earnings_yoy')),
@@ -1105,7 +1109,9 @@ def footer_html(date: str) -> str:
 </footer>'''
 
 
-def page_shell(title: str, css_path: str, nav: str, main_content: str, footer: str) -> str:
+def page_shell(title: str, css_path: str, nav: str, main_content: str, footer: str,
+               extra_head: str = '', body_class: str = '') -> str:
+    body_attr = f' class="{body_class}"' if body_class else ''
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1113,8 +1119,9 @@ def page_shell(title: str, css_path: str, nav: str, main_content: str, footer: s
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{title} | U.S. Metro Economic Health Report</title>
   <link rel="stylesheet" href="{css_path}assets/style.css">
+  {extra_head}
 </head>
-<body>
+<body{body_attr}>
   {nav}
   <main class="site-main">
     {main_content}
@@ -1131,6 +1138,8 @@ def write_css(site_dir: Path):
     assets_dir.mkdir(parents=True, exist_ok=True)
     (assets_dir / 'style.css').write_text(CSS, encoding='utf-8')
     print('  ✓ style.css')
+    (assets_dir / 'city.css').write_text(city_page.CITY_CSS, encoding='utf-8')
+    print('  ✓ city.css')
 
 
 # ─── COPY PDF ─────────────────────────────────────────────────────────────────
@@ -1496,7 +1505,24 @@ def write_rankings(cities: list, date: str, site_dir: Path):
 
 # ─── WRITE CITY PAGES ─────────────────────────────────────────────────────────
 
-def write_city(city: dict, all_cities: list, site_dir: Path, date: str):
+CITY_FONTS = (
+    '<link rel="preconnect" href="https://fonts.googleapis.com">\n'
+    '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
+    '  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?'
+    'family=Inter:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap">'
+)
+
+
+def load_processed() -> dict:
+    """Processed series per metro (pay, price per sq ft, office share)."""
+    try:
+        with open(PROCESSED_FILE, encoding='utf-8') as f:
+            return json.load(f).get('metros', {})
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def write_city(city: dict, all_cities: list, site_dir: Path, date: str, processed: dict):
     rank = city['rank']
     total = len(all_cities)
 
@@ -1509,95 +1535,12 @@ def write_city(city: dict, all_cities: list, site_dir: Path, date: str):
         nxt = all_cities[rank]
         next_link = f'<a href="{nxt["slug"]}.html">#{nxt["rank"]} {nxt["primary_city"]} &rarr;</a>'
 
-    # Metric scorecard rows
-    metric_rows = ''
-    for m in city['metrics']:
-        metric_rows += f'''\
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">{m['label']}</span>
-    <span class="metric-weight">{m['weight']} weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:{m['score']}%;background:{m['bar_color']};"></div>
-  </div>
-  <div class="metric-score" style="color:{m['bar_color']};">{m['score']}</div>
-</div>
-'''
+    brief = city_page.parse_brief(REPORTS_DIR / f"{city['slug']}.md")
+    proc = (processed.get(city['metro_name']) or {}).get('data', {})
+    numbers = city_page.headline_numbers(city['raw'], proc)
 
-    # Key indicators grid
-    indicators = [
-        ('Unemployment',          city['unemp'],      'unemployment rate'),
-        ('Wage Growth YoY',       city['earnings'],   'avg hourly earnings'),
-        ('Employment Growth',     city['emp_growth'], 'nonfarm payrolls YoY'),
-        ('Labor Force YoY',       city['lfp'],        'civilian labor force YoY'),
-        ('Building Permits',      city['permits'],    'permits YoY'),
-        ('Days on Market',        city['dom'],        'median days on market'),
-    ]
-    tiles = ''
-    for label, value, sub in indicators:
-        tiles += f'''\
-<div class="stat-tile">
-  <div class="stat-label">{label}</div>
-  <div class="stat-value">{value}</div>
-  <div class="stat-sub">{sub}</div>
-</div>
-'''
-
-    main_content = f'''\
-<div class="city-header" style="background-color:{city['grade_color']};">
-  <div class="city-header-inner">
-    <div class="city-header-left">
-      <div class="rank-label">U.S. METRO ECONOMIC HEALTH &middot; RANK #{city['rank']} OF {total}</div>
-      <div class="city-title">{city['primary_city']}</div>
-      <div class="metro-name">{city['metro_name']}</div>
-    </div>
-    <div class="city-header-right">
-      <div class="grade-letter">{city['grade']}</div>
-      <div class="grade-desc">{city['grade_description']}</div>
-      <div class="percentile-score">{city['score']:.1f} score</div>
-      <div class="rank-of">Rank {city['rank']} of {total} metros</div>
-    </div>
-  </div>
-</div>
-
-<div class="city-body">
-
-  <div class="city-columns">
-
-    <div class="scorecard">
-      <div class="section-title">Metric Scorecard</div>
-      <p class="score-scale-note">{SCORE_SCALE_NOTE}</p>
-      {metric_rows}
-    </div>
-
-    <div class="key-indicators">
-      <div class="section-title">Key Indicators</div>
-      <div class="indicators-grid">
-        {tiles}
-      </div>
-    </div>
-
-  </div>
-
-  <div class="signal-section">
-    <div class="section-title">Labor Market Signal</div>
-    <div class="signal-badge" style="background:{city['scenario_color']};">{city['scenario']}</div>
-    <div class="signal-desc">{city['scenario_desc']}</div>
-  </div>
-
-  <div class="analysis-section">
-    <div class="section-title">Economic Analysis</div>
-    {city['narrative']}
-  </div>
-
-  <div class="city-nav">
-    <div>{prev_link}</div>
-    <div class="city-nav-back"><a href="../rankings.html">&#8592; All Rankings</a></div>
-    <div>{next_link}</div>
-  </div>
-
-</div>'''
+    main_content = city_page.render_city_main(
+        city, total, date, brief, numbers, prev_link, next_link)
 
     html = page_shell(
         title=city['primary_city'],
@@ -1605,6 +1548,8 @@ def write_city(city: dict, all_cities: list, site_dir: Path, date: str):
         nav=nav_html('../', ''),
         main_content=main_content,
         footer=footer_html(date),
+        extra_head=CITY_FONTS + '\n  <link rel="stylesheet" href="../assets/city.css">',
+        body_class='city-page',
     )
     metros_dir = site_dir / 'metros'
     metros_dir.mkdir(parents=True, exist_ok=True)
@@ -2082,8 +2027,9 @@ def main():
 
     # Write city pages
     print(f'→ Writing {len(all_cities)} city pages...')
+    processed = load_processed()
     for city in all_cities:
-        write_city(city, all_cities, SITE_DIR, calc_date)
+        write_city(city, all_cities, SITE_DIR, calc_date, processed)
     print(f'  ✓ {len(all_cities)} metro pages written to site/metros/')
 
     print(f'\n✓ Site written to: {SITE_DIR}')
