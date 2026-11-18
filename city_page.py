@@ -299,35 +299,7 @@ def render_city_main(city: dict, total: int, date: str, brief: dict,
 
 CITY_CSS = """\
 /* City page — editorial layout. Loaded only on city pages. */
-:root {
-  --cp-paper:   #FBFAF7;
-  --cp-ink:     #1C1C1A;
-  --cp-muted:   #66645E;
-  --cp-rule:    #DEDBD3;
-  --cp-track:   #ECE9E2;
-  --cp-strength:#1F7A5C;
-  --cp-average: #8C8A84;
-  --cp-weakness:#B3412E;
-  --cp-accent:  #0B5563;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --cp-paper:   #161614;
-    --cp-ink:     #ECEAE4;
-    --cp-muted:   #A19E96;
-    --cp-rule:    #34322D;
-    --cp-track:   #2A2925;
-    --cp-strength:#4FB38C;
-    --cp-average: #8F8C85;
-    --cp-weakness:#E07A63;
-    --cp-accent:  #6FB7C4;
-  }
-}
-
-body.city-page { background: var(--cp-paper); color: var(--cp-ink); }
-body.city-page .site-nav { background: var(--cp-paper); border-bottom: 1px solid var(--cp-rule); }
-body.city-page .nav-brand { color: var(--cp-ink); }
-body.city-page .site-footer { background: transparent; border-top: 1px solid var(--cp-rule); }
+/* Colors and fonts come from site.css (site_style.py), loaded first. */
 
 .cp {
   max-width: 760px;

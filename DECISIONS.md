@@ -4,6 +4,8 @@ Decisions made through logic gates (see `CLAUDE.md`). Newest first.
 
 | Date | Decision | Why | Where it lives |
 |------|----------|-----|----------------|
+| 2026-11-18 | Homepage, rankings and methodology get the editorial look and plain-English copy; go live now. Methodology text rewrite left as a possible later job | Whole site matches the new city pages | `site_style.py`, `generate_site.py` |
+| 2026-11-18 | Redesign the remaining three pages together, in one preview | One review round for a consistent site | — |
 | 2026-11-18 | Favicon: rising bar chart on deep teal | Reads as "data and growth" and stays clear at 16px | `site_assets/`, linked from `page_shell` in `generate_site.py` |
 | 2026-11-18 | Put the redesigned city page live for all 50 cities; other pages follow next | Preview approved; fixes the dated look where readers land most | `city_page.py`, `docs/assets/city.css` |
 | 2026-11-18 | City page layout: one section per metric (explanation, headline number, score bar, write-up together) | Each metric used to appear in three disconnected places | `city_page.py` |
