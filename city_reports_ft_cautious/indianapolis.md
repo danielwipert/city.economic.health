@@ -4,30 +4,30 @@
 
 ---
 
-The Indianapolis-Carmel-Greenwood metro area has an overall grade of D, with a score of 28.2 out of 100, indicating significant economic challenges. One of the most defining features of this city's economy is its weak labor demand, with employment growth declining by 0.6% over the past year, and weekly hours only slightly above average, scoring 2 out of 100.
+The Indianapolis-Carmel-Greenwood metro area has an overall grade of D, ranking in the 28.2th percentile out of 50 US metros, with a labor demand composite score of 2.73 and an unemployment rate of 3.40%. The city's economic character is most defined by its weak labor demand, with employment growth of -0.59% YoY, and its relatively high unemployment rate, which suggests a mix of contraction and slack in the labor market. The combination of these metrics, along with stagnant wage growth of +0.53% YoY, paints a challenging picture for businesses looking to locate in this area.
 
 **Labor Demand**
-The city is losing jobs, with a decline of 0.6% in employment growth over the past year, and while weekly hours are 0.7% above average, this is not enough to offset the job losses, indicating a weak job market. This means that the city is not adding new jobs at a rate that is competitive with most other metros, scoring 2 out of 100.
+The employment growth rate of -0.59% YoY and weekly hours deviation of +0.742% from the city's own trend signal a contraction in labor demand, rather than genuine demand expansion. This suggests that the city is experiencing a decline in job creation, which may be accompanied by a survivor squeeze, where remaining workers absorb the load of eliminated roles. The labor demand composite score of 2.73, ranking in the bottom tier, reinforces this interpretation.
 
 **Unemployment**
-The unemployment rate in Indianapolis is 3.4%, which is lower than most other metros, scoring 64 out of 100, making it harder for employers to hire new workers. This low unemployment rate puts upward pressure on wages, as employers must compete for a limited pool of available workers.
+The actual unemployment rate of 3.40% indicates a relatively tight labor market, ranking in the 64th percentile. This means that businesses trying to hire in this area may face challenges in finding available workers, which could lead to upward pressure on wages. However, the relatively high unemployment rate compared to other metros suggests that there is still some slack in the labor market.
 
 **Wage Growth**
-Wages in Indianapolis have risen by only 0.5% over the past year, which is slower than most other metros, scoring 6 out of 100, meaning that employers' labor costs are not increasing rapidly, but workers' paychecks are not growing much either. This slow wage growth may make it harder for workers to afford the rising cost of living in the city.
+The YoY wage growth rate of +0.53% is stagnant, ranking in the bottom tier. This slow wage growth suggests that labor costs for employers are relatively flat, but worker purchasing power is weak. As a result, businesses may not face significant pressure to increase wages, but workers may have limited disposable income to drive local consumer demand.
 
 **Cost of Living**
-The cost of living in Indianapolis is relatively high, with a price per square foot of $164 and hourly pay of $33.83, scoring 10 out of 100, indicating that housing is less affordable than in most other metros. The price per square foot has increased by 5.1% over the past year, making it even harder for local workers to afford housing.
+The city's cost of living, with a PSF of $164/sqft and an earnings ratio of 4.85, ranks in the bottom tier, with a percentile score of 10th. This means that the city is relatively expensive, which could make it challenging to attract talent without offering wage premiums. The 5.1% YoY increase in PSF further exacerbates this issue.
 
 **Labor Force Growth**
-The labor force in Indianapolis is shrinking, with a decline of 1.1% over the past year, scoring 28 out of 100, which means that the pool of available workers is decreasing, making it harder for employers to find new hires. This decline in labor force growth is a significant challenge for the city's economy.
+The YoY growth rate of the civilian labor force is -1.13%, indicating a contracting labor supply. This means that the hiring capacity of businesses in this area may be constrained, as the pool of available workers is shrinking. The implication is that businesses may need to offer more competitive wages or benefits to attract and retain talent.
 
 **Building Permits**
-The number of new home building permits in Indianapolis has increased by 10.4% over the past year, scoring 62 out of 100, which is a positive sign for the city's housing market, indicating that developers are confident in the city's future growth. This increase in building permits should help to expand the city's housing supply and improve affordability.
+The YoY change in building permits is +10.41%, indicating an expansion in housing supply. This suggests that developer confidence is rising, and future housing affordability may improve. As a result, the city may become more attractive to workers and businesses in the long term, as housing costs become more manageable.
 
 **Days on Market**
-Homes in Indianapolis are taking an average of 55 days to sell, which is an increase of 10% over the past year, scoring 66 out of 100, indicating a relatively healthy housing market. This increase in days on market is a sign that the housing market is not too tight, giving buyers more time to find a home, and is a positive sign for the city's economy.
+The current median days on market is 55 days, with a YoY increase of 10.0%. This suggests a slowing market, where homes are taking longer to sell. For workers relocating to this city, this may mean a more accessible and less competitive housing market, with more time to find and secure a home.
 
 **Office Economy**
-The office-based workforce in Indianapolis is smaller than in most other metros, scoring 16 out of 100, which means that the city may not be as attractive to businesses in the tech, finance, and professional services sectors. This smaller office workforce may limit the city's ability to attract certain types of businesses and talent.
+The share of professional and office workers is 0.92, ranking in the bottom tier, with a percentile score of 16th. This suggests that the city has a relatively shallow talent pool in these sectors, making it less suited for businesses that require a deep knowledge-economy workforce, such as tech, finance, or consulting. However, the city may be more suitable for businesses with industrial or logistics-oriented economies.
 
-The biggest strength of the Indianapolis economy is its relatively low unemployment rate, which indicates a tight labor market, but also poses challenges for employers looking to hire new workers. However, the city's biggest risk is its weak labor demand and slow wage growth, which may make it harder for the city to attract and retain businesses and talent, and ultimately hinder its economic growth.
+The Indianapolis-Carmel-Greenwood metro area offers businesses a relatively low-cost operating environment, with slow wage growth and a moderate unemployment rate. However, the single biggest risk or constraint for decision-makers is the city's weak labor demand and contracting labor supply, which may limit hiring capacity and require businesses to offer more competitive wages or benefits to attract and retain talent.

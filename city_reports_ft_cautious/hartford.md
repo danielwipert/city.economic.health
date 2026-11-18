@@ -4,30 +4,30 @@
 
 ---
 
-The Hartford-West Hartford-East Hartford metro area has earned an overall grade of A+, with a score of 73.0 out of 100, indicating it is performing better than most of the 50 metros, driven in part by its strong employment growth of 1.9% over the past year. This growth, combined with a low unemployment rate of 2.7%, suggests a thriving job market with a high demand for labor.
+The Hartford-West Hartford-East Hartford metro area has earned an overall grade of A+ with a composite score of 73.0th percentile, ranking it among the top US metros. The city's economic character is defined by its exceptional labor demand, with a composite score in the 90th percentile, and its extremely low unemployment rate of 2.70%, ranking it in the 98th percentile. These metrics signal a highly competitive job market with strong demand for labor.
 
 **Labor Demand**
-The city is adding jobs at a rate of 1.9% over the past year, with workers' hours also rising by 0.7%, indicating a strong demand for labor and a healthy job market. This means that employers are hiring and workers are putting in more hours, signaling a genuine demand for labor and a positive outlook for the local economy.
+The city's employment growth rate of +1.88% YoY, combined with a +0.741% deviation in weekly hours from its own trend, indicates genuine demand expansion, as hours are running above trend during a period of job growth. This combination signals that the labor market is experiencing robust growth, with employers adding jobs and workers putting in more hours. The labor demand composite score of 7.67, ranking in the 90th percentile, further reinforces this assessment.
 
 **Unemployment**
-The unemployment rate of 2.7% is very low, making it harder for employers to hire as there are fewer available workers, but it also indicates a strong and competitive job market. With a score of 98 out of 100, Hartford's unemployment rate is lower than most of the 50 metros, putting upward pressure on wages.
+The unemployment rate of 2.70% is extremely low, ranking in the 98th percentile, indicating a very tight labor market with little slack. This means that businesses trying to hire in this city will face significant competition for talent, potentially driving up wages and making it harder to attract and retain workers. The low unemployment rate suggests that workers have strong bargaining power in this market.
 
 **Wage Growth**
-Pay rose by 5.0% over the past year, which is faster than most metros, with a score of 76 out of 100, meaning employers are facing rising labor costs, but workers are seeing significant increases in their paychecks. This wage growth is a strength for the local economy, as it indicates a high demand for labor and increasing purchasing power for workers.
+The year-over-year wage growth rate of +4.96% is above average, ranking in the 76th percentile, indicating moderate to fast wage growth. This implies that employer labor costs are rising, while workers are experiencing an increase in purchasing power. As wages continue to grow, businesses may need to adjust their compensation packages to remain competitive in this market.
 
 **Cost of Living**
-The cost of living in Hartford is about average compared to other metros, with a score of 49 out of 100, and a price per square foot of $246, which is rising by 1.6% over the past year, compared to hourly pay of $40.13. This means that housing is not particularly affordable or unaffordable for local workers, and the rising price per square foot may put pressure on affordability in the future.
+With a cost of living ratio of 6.13, based on $246/sqft and $40.13/hr, and a percentile rank of 49th, the city is near the median in terms of affordability. However, the fact that PSF is rising by 1.6% YoY relative to wages suggests that the city may be becoming less affordable over time. This could impact talent attraction, as workers may require wage premiums to offset the increasing cost of living.
 
 **Labor Force Growth**
-The pool of workers in Hartford is growing at a rate of 2.8% over the past year, which is faster than most metros, with a score of 96 out of 100, indicating a strong and expanding workforce that will support hiring and economic growth. This growth in the labor force is a significant strength for the local economy, as it provides a large and talented pool of workers for employers to draw from.
+The civilian labor force is growing at a rate of +2.77% YoY, ranking in the 96th percentile, indicating that the workforce supply is expanding rapidly. This suggests that businesses have a growing pool of potential workers to draw from, making it easier to hire and staff operations in the city.
 
 **Building Permits**
-New home approvals have fallen by 53.9% over the past year, which is a significant decline, with a score of 0 out of 100, indicating a weakness in the local housing market and a potential future supply shortage. This decline in building permits signals a lack of developer confidence and may lead to affordability issues and a tightening of the housing market in the future.
+The year-over-year change in building permits is -53.87%, ranking in the 0th percentile, indicating a sharp decline in housing supply. This signals that the city may be facing a future affordability crisis, as the lack of new housing developments could drive up prices and rents, making it harder for workers to afford living in the area.
 
 **Days on Market**
-The typical home in Hartford takes 37 days to sell, which is getting slightly longer, with a score of 64 out of 100, indicating a relatively healthy housing market that is not too tight or too soft. This length of time to sell is a strength for the local housing market, as it gives buyers a reasonable amount of time to find a home and indicates a balanced market.
+The current median days on market is 37 days, with a year-over-year increase of +2.8%, ranking in the 64th percentile. This suggests that the housing market is relatively balanced, with homes selling at a moderate pace. For workers relocating to this city, the market is still relatively accessible, but the rising days on market could indicate a slight shift towards a more buyer-friendly environment.
 
 **Office Economy**
-Hartford's office-based workforce is smaller than most metros, with a score of 26 out of 100, indicating a weaker presence of tech, finance, and professional services companies. This smaller office workforce makes the city less suited for businesses that rely on a deep pool of specialized knowledge workers, such as tech or consulting firms.
+With an office/professional worker share of 1.90, ranking in the 26th percentile, the city has a relatively shallow talent pool in professional and office sectors. This makes it less suited for businesses that require a deep knowledge-economy talent pool, such as tech, finance, or consulting firms, but more suitable for industries with different workforce requirements.
 
-The Hartford-West Hartford-East Hartford metro area's biggest strength is its strong and growing labor market, with low unemployment and rising wages, making it an attractive location for businesses looking to hire and grow. However, the city's biggest risk is its declining housing supply, as indicated by the sharp drop in building permits, which may lead to affordability issues and a tightening of the housing market in the future.
+The Hartford-West Hartford-East Hartford metro area offers businesses a highly competitive labor market with strong demand and a growing workforce, but also presents a significant risk due to its extremely low unemployment rate and potential future affordability crisis driven by the sharp decline in building permits. Decision-makers should carefully consider these factors when evaluating this city as a potential location for their business.

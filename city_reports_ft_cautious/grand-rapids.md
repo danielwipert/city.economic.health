@@ -4,30 +4,30 @@
 
 ---
 
-The Grand Rapids-Wyoming-Kentwood metro area has an overall grade of D, with a score of 26.1 out of 100, indicating significant economic challenges. The city's economy is currently defined by slow job growth, with employment increasing by only 0.1% over the past year, and a decline in weekly hours worked, suggesting a weak labor demand.
+The Grand Rapids-Wyoming-Kentwood metro area has an overall grade of D, ranking 26.1th percentile out of 50 US metros, with a composite score driven largely by its low labor demand and stagnant wage growth. The labor demand composite score of 3.86, combining a +0.12% employment growth rate and a -0.611% weekly hours deviation from trend, signals a contraction in genuine demand. This, coupled with a wage growth rate of +1.21%, suggests a challenging environment for businesses looking to expand or relocate.
 
 **Labor Demand**
-The city is adding jobs at a very slow rate, with employment growth of 0.1% over the past year, and workers' hours are actually falling by 0.6%, indicating a weak job market. This means that the city is not creating many new job opportunities, and existing workers are not seeing much of an increase in their working hours.
+The employment growth rate of +0.12% and weekly hours deviation of -0.611% from trend indicate a lack of genuine demand expansion, suggesting that the city's job market is not experiencing significant growth. This combination signals a contraction, rather than an expansion, of labor demand. The low labor demand composite score of 3.86 further reinforces this assessment, ranking below average at the 22nd percentile.
 
 **Unemployment**
-The unemployment rate in Grand Rapids-Wyoming-Kentwood is 3.7%, which is lower than many other metros, making it a strength with a score of 62 out of 100. This low unemployment rate means that it may be challenging for employers to find and hire new workers, as there are fewer people available and looking for work.
+The unemployment rate of 3.70% is relatively low, ranking above average at the 62nd percentile, indicating a tight labor market with some slack. This means that businesses trying to hire in this city may face challenges in finding available workers, potentially leading to wage pressure. However, the relatively low unemployment rate also suggests that the local consumer demand may be somewhat stable.
 
 **Wage Growth**
-Wages in the city have risen by only 1.2% over the past year, which is slower than most other metros, earning a score of 12 out of 100. This slow wage growth means that employers may not face significant pressure to increase pay, but workers may not see much improvement in their purchasing power.
+The year-over-year wage growth rate of +1.21% is stagnant, ranking in the bottom tier at the 12th percentile. This slow wage growth suggests that labor costs for employers may be relatively flat, but it also indicates weak bargaining power for workers. As a result, worker purchasing power may not be increasing significantly, which could impact local consumer demand.
 
 **Cost of Living**
-The cost of living in Grand Rapids-Wyoming-Kentwood is relatively high, with a price per square foot of $214 and hourly pay of $32.90, earning a score of 14 out of 100. The cost of living is getting worse, with housing prices rising by 2.4% over the past year, making it less affordable for local workers compared to other metros.
+The cost of living in Grand Rapids-Wyoming-Kentwood, with a PSF of $214/sqft and an earnings ratio of $32.90/hr, resulting in a ratio of 6.50, is relatively expensive, ranking in the bottom tier at the 14th percentile. This means that the city is less affordable compared to its peers, making it challenging to attract talent without offering wage premiums. The 2.4% year-over-year increase in PSF further exacerbates the affordability issue.
 
 **Labor Force Growth**
-The pool of workers in the city is shrinking, with labor force growth of -8.5% over the past year, earning a score of 0 out of 100. This decline in the labor force means that hiring may become even more challenging for employers, as there are fewer workers available to fill job openings.
+The civilian labor force has contracted by -8.53% year-over-year, ranking in the bottom tier at the 0th percentile. This significant decline in labor force supply indicates a structural headwind for hiring, making it even more challenging for businesses to find and retain workers. The shrinking labor pool will likely exacerbate the existing labor market tightness.
 
 **Building Permits**
-New home approvals in the city have fallen by 31.1% over the past year, earning a score of 8 out of 100. This decline in building permits suggests that the city's housing supply may not keep up with demand, potentially leading to higher housing costs and reduced affordability in the future.
+The year-over-year change in building permits is -31.15%, ranking in the bottom tier at the 8th percentile. This sharp decline in residential building permits suggests that housing supply is tightening, which may lead to future affordability issues and challenges in accommodating a growing workforce. The decrease in permits signals a potential supply squeeze, making it harder for workers to find affordable housing.
 
 **Days on Market**
-Homes in Grand Rapids-Wyoming-Kentwood are taking 43 days to sell, which is getting slower by 4.9% over the past year, earning a score of 74 out of 100. This indicates a relatively healthy housing market, with homes selling at a moderate pace, giving buyers a reasonable amount of time to find a home.
+The current median days on market is 43 days, with a year-over-year increase of +4.9%, ranking above average at the 74th percentile. This indicates a slower market, where homes are sitting longer before being sold. For workers relocating to this city, the slower market may make it easier to find a home, but it also suggests a less competitive and potentially less dynamic local real estate market.
 
 **Office Economy**
-The city's office-based workforce is relatively small, with a score of 6 out of 100, indicating that it may not be the best fit for businesses in the tech, finance, or professional services sectors. This smaller office workforce means that companies looking for a deep talent pool in these areas may want to consider other locations.
+The share of professional and office workers is 0.80, ranking in the bottom tier at the 6th percentile. This suggests a relatively shallow talent pool in professional and office sectors, making the city less suited for businesses in tech, finance, consulting, or HQ decisions. The city's economy is more industrial or logistics-dominant, which may be beneficial for businesses in those sectors but less attractive for knowledge-economy companies.
 
-The Grand Rapids-Wyoming-Kentwood metro area's biggest strength is its relatively low unemployment rate, which can attract businesses looking for a stable workforce. However, the city's biggest risk is its slow labor force growth, which can make it challenging for employers to find and hire new workers, potentially hindering the city's economic growth.
+The Grand Rapids-Wyoming-Kentwood metro area offers a relatively stable consumer demand due to its low unemployment rate, but it is constrained by its low labor demand, stagnant wage growth, and tightening housing supply. The single biggest risk or constraint for a business decision-maker is the city's shrinking labor force, which will likely exacerbate existing labor market challenges and make it difficult to find and retain workers.

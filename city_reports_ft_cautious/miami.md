@@ -4,30 +4,30 @@
 
 ---
 
-The Miami-Fort Lauderdale-West Palm Beach metro area has earned an overall grade of A-, with a score of 65.2 out of 100, indicating it is a good location for businesses, outperforming most of the 50 metros in several key areas, particularly with its low unemployment rate of 3.2% and strong wage growth of 8.8% over the past year. This city's economy is currently defined by its tight labor market and rising pay, with wages increasing faster than in most other metros.
+The Miami-Fort Lauderdale-West Palm Beach metro area has earned an overall grade of A- with a composite score ranking it at the 65.2th percentile among 50 US metros. This city's economic character is most defined by its top-tier unemployment rate of 3.20% and its exceptionally high wage growth rate of +8.76% year-over-year. These metrics suggest a highly competitive labor market with strong demand for workers.
 
 **Labor Demand**
-The city is adding jobs, but at a slower pace than most metros, with employment growth of 0.4% over the past year, and workers' hours are not rising, indicating a weaker job market. This means that while there are some new opportunities, the city is not experiencing the same level of labor demand as other areas, with a score of 40, indicating it is weaker than most metros.
+The employment growth rate in Miami-Fort Lauderdale-West Palm Beach is +0.44% year-over-year, combined with a weekly hours deviation of +0.000% from its own trend, resulting in a labor demand composite score of 4.92, which ranks near the median at the 40th percentile. This signals a moderate expansion of genuine demand, as hours are not significantly above trend during job growth. The labor market is thus experiencing a steady, though not spectacular, increase in jobs.
 
 **Unemployment**
-The unemployment rate in Miami-Fort Lauderdale-West Palm Beach is 3.2%, which is lower than in most metros, earning a score of 80, indicating it is a strength, making it harder for employers to hire as there are fewer available workers. This tight labor market puts upward pressure on wages, as employers must compete for a limited pool of talent.
+The unemployment rate in this metro area is 3.20%, ranking it in the top tier at the 80th percentile, indicating a very tight labor market with little slack. For a business trying to hire here, this means that finding and recruiting talent will be challenging and may require offering competitive wages or benefits to attract the best candidates.
 
 **Wage Growth**
-Wages in the city have risen by 8.8% over the past year, which is faster than in most metros, earning a score of 96, indicating it is a significant strength, resulting in higher labor costs for employers but more purchasing power for workers. This strong wage growth is a double-edged sword, as it can attract top talent but also increases the cost of doing business in the area.
+With a year-over-year wage growth rate of +8.76%, Miami-Fort Lauderdale-West Palm Beach is experiencing very fast wage growth, ranking it in the top tier at the 96th percentile. This implies rising labor costs for employers but also strong purchasing power for workers, which can be beneficial for businesses relying on local consumer demand.
 
 **Cost of Living**
-The cost of living in Miami-Fort Lauderdale-West Palm Beach is relatively high, with a price per square foot of $358 and hourly pay of $35.70, earning a score of 35, indicating it is a weakness, as housing is less affordable than in most metros, and it is not getting better, with prices falling only 0.6% over the past year. This makes it challenging for workers to afford housing, which can impact the city's ability to attract and retain talent.
+The cost of living in this city, with a PSF of $358/sqft (which has decreased by 0.6% year-over-year) compared to average hourly earnings of $35.70, results in a ratio of 10.03, ranking below average at the 35th percentile in terms of affordability. This means the city is relatively expensive compared to peers, which could make it harder to attract talent without offering wage premiums.
 
 **Labor Force Growth**
-The pool of workers in the city is growing at a rate of 0.9% over the past year, which is faster than in most metros, earning a score of 78, indicating it is a strength, providing a larger talent pool for employers to draw from. This growth in the labor force is a positive sign for businesses looking to hire, as it indicates a steady supply of new workers.
+The civilian labor force in Miami-Fort Lauderdale-West Palm Beach is growing at a rate of +0.90% year-over-year, which is above average, ranking at the 78th percentile. This indicates that the workforce supply is expanding, which is a positive sign for businesses looking to hire, as it suggests a growing pool of potential employees.
 
 **Building Permits**
-The number of new home approvals in the city has increased by 11.3% over the past year, earning a score of 66, indicating it is a strength, signaling that developers are confident in the area's future and that the housing supply is likely to expand. This growth in building permits is a positive sign for the city's housing market, as it should help to improve affordability and provide more options for workers.
+The city has seen an increase of +11.27% year-over-year in residential building permits, ranking above average at the 66th percentile. This signals that housing supply is expanding, which should improve affordability and accommodate a growing workforce, making it easier for businesses to attract and retain talent.
 
 **Days on Market**
-Homes in the city are currently taking 79 days to sell, which is getting faster, with an 8.1% decrease over the past year, earning a score of 86, indicating it is a strength, and a healthier housing market, as buyers have a reasonable amount of time to find a home. This indicates a balanced market, where neither buyers nor sellers have too much power, making it easier for workers to relocate to the area.
+Homes in Miami-Fort Lauderdale-West Palm Beach are currently sitting on the market for a median of 79 days, with a year-over-year decrease of -8.1%, ranking in the top tier at the 86th percentile. This fast-paced market means that relocating workers may face competition when looking for housing, potentially making it challenging for businesses to attract talent from other areas.
 
 **Office Economy**
-The city has a larger office-based workforce than most metros, earning a score of 66, indicating it is a strength, making it an attractive location for businesses in the tech, finance, and professional services sectors. This strong office economy provides a deep talent pool for businesses looking to establish or expand operations in these fields.
+With an office and professional worker share composite score of 2.88, ranking above average at the 66th percentile, Miami-Fort Lauderdale-West Palm Beach has a deep talent pool suited for businesses in tech, finance, consulting, and HQ operations. However, it may be less ideal for industries dominated by industrial or logistics roles.
 
-The Miami-Fort Lauderdale-West Palm Beach metro area's biggest strength is its strong wage growth, which is attracting top talent and driving business investment, while its biggest risk is its high cost of living, which can make it challenging to retain workers and attract new businesses, particularly those with lower wage scales. Overall, the city's tight labor market and rising pay make it an attractive location for businesses looking to tap into a skilled and growing workforce.
+In conclusion, Miami-Fort Lauderdale-West Palm Beach offers businesses a highly competitive labor market with strong wage growth and a deep professional talent pool, making it an attractive location for knowledge-economy businesses. However, the single biggest risk or constraint for decision-makers is the tight labor market and relatively high cost of living, which may require businesses to offer competitive wages and benefits to attract and retain the best talent.

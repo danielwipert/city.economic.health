@@ -4,30 +4,30 @@
 
 ---
 
-Richmond has an overall grade of D, with a score of 25.1 out of 100, indicating significant economic challenges, particularly in its labor market, where employment growth has slowed by 1.0% over the past year. The city's economy is currently defined by a combination of weaker hiring, slower pay growth, and a less affordable cost of living, with housing priced at $226 per square foot and average hourly pay at $35.71.
+The Richmond metro area has an overall grade of D, ranking in the 25.1th percentile out of 50 US metros, with a labor demand composite score of 2.96, placing it in the bottom tier. The city's economic character is most defined by its struggling labor demand, with a -0.96% employment growth rate and -0.122% weekly hours deviation from its own trend, as well as its high cost of living, with a PSF to wages ratio of 6.33. These metrics signal significant challenges for businesses looking to establish or expand operations in the area.
 
 **Labor Demand**
-The city is losing jobs, with employment growth slowing by 1.0% over the past year, and workers' hours are also falling, by 0.1%, indicating a weak job market with fewer opportunities. This means that businesses may not be expanding their operations or hiring new staff, and workers may be facing reduced hours or fewer job prospects.
+The employment growth rate in Richmond is -0.96%, and weekly hours are deviating -0.122% from the city's own trend, indicating a contraction in labor demand. This combination signals a lack of genuine demand expansion, with the city experiencing a decline in both jobs and working hours. As a result, businesses may face a challenging environment for growth and expansion.
 
 **Unemployment**
-The unemployment rate in Richmond is 3.8%, which is higher than in most metros, making it relatively easier for employers to hire, but also indicating weaker local consumer demand. With a score of 34 out of 100, the city's unemployment rate is a weakness, suggesting that many workers are still seeking employment and that the labor market is not as tight as in other cities.
+The unemployment rate in Richmond is 3.80%, which is below average, ranking in the 34th percentile. This indicates a relatively tight labor market, making it harder for businesses to hire and potentially leading to upward pressure on wages. Companies looking to staff up in Richmond may need to offer competitive salaries to attract top talent.
 
 **Wage Growth**
-Pay in Richmond rose by 1.6% over the past year, which is slower than in most metros, meaning that employers may not face significant wage pressure, but workers may not see substantial increases in their paychecks. This slower wage growth, with a score of 16 out of 100, is a weakness, indicating that the city's labor market may not be as competitive as others.
+The year-over-year wage growth rate in Richmond is +1.57%, which is relatively slow, ranking in the 16th percentile. This moderate wage growth rate implies that labor costs for employers are rising, but at a slower pace, while worker purchasing power is increasing, but not rapidly. Businesses should factor in these modest wage increases when planning their labor costs.
 
 **Cost of Living**
-Housing in Richmond is less affordable than in most metros, with a price per square foot of $226 and average hourly pay of $35.71, and it is getting even more expensive, with prices rising by 0.4% over the past year. This makes it challenging for workers to afford housing, and businesses may need to offer higher wages to attract and retain talent, with a score of 18 out of 100 indicating a significant weakness.
+Richmond has a cost of living score that places it in the bottom tier, with a 18th percentile rank, and a PSF to wages ratio of 6.33, based on $226/sqft and $35.71/hr. This means that the city is relatively expensive compared to its peers, making it challenging to attract talent without offering wage premiums. Companies may need to consider offering higher salaries or benefits to compensate for the high cost of living.
 
 **Labor Force Growth**
-The pool of workers in Richmond is shrinking, with labor force growth slowing by 2.2% over the past year, making it harder for businesses to find the talent they need. This decline in the labor force, with a score of 6 out of 100, is a significant weakness, indicating that the city may face structural challenges in its labor market.
+The civilian labor force in Richmond is contracting at a rate of -2.25% year-over-year, indicating a shrinking labor pool. This decline in labor force growth poses a structural headwind for hiring, making it more difficult for businesses to find and recruit qualified workers. Companies may need to adapt their hiring strategies to account for this shrinking labor pool.
 
 **Building Permits**
-New home approvals in Richmond have surged by 130.8% over the past year, signaling strong developer confidence and a potential increase in future housing supply, which could improve affordability. This rapid growth in building permits, with a score of 96 out of 100, is a significant strength, indicating that the city may be able to address its housing affordability challenges.
+The number of building permits in Richmond has increased by 130.84% year-over-year, signaling a significant expansion in housing supply. This surge in permits suggests that developer confidence is high, and future housing supply is likely to increase, which could improve affordability and make it easier for workers to relocate to the area.
 
 **Days on Market**
-Homes in Richmond are selling relatively quickly, with a median of 44 days on the market, but this is getting slower, with a decline of 2.2% over the past year, indicating a weakening housing market. With a score of 16 out of 100, this slower pace of home sales is a weakness, suggesting that the city's housing market may be losing momentum.
+The median days on market for homes in Richmond is currently 44 days, with a -2.2% year-over-year change, indicating a relatively fast-paced market. This means that homes are selling quickly, making it challenging for relocating workers to find and secure housing. Companies may need to provide relocation assistance or support to help employees navigate this competitive housing market.
 
 **Office Economy**
-Richmond's office-based workforce is smaller than in most metros, with a score of 22 out of 100, making it less suitable for businesses that rely on a deep pool of professional and technical talent. This smaller office workforce is a weakness, indicating that the city may not be the best fit for companies in the tech, finance, or consulting sectors.
+Richmond's professional and office worker share is ranked in the 22nd percentile, indicating a relatively shallow talent pool in these sectors. This suggests that the city is less suited for businesses that require a deep pool of tech, finance, or consulting talent, but may be more suitable for industries with different skill requirements.
 
-The bottom line is that Richmond's biggest strength is its rapid growth in building permits, which could help address its housing affordability challenges, but its biggest risk is its weak labor market, with slower employment growth, lower pay, and a less affordable cost of living. Overall, the city's economic challenges, particularly in its labor market, make it a less attractive location for businesses and workers, with significant weaknesses that need to be addressed to improve its competitiveness.
+The Richmond metro area presents a challenging environment for businesses, with a struggling labor market, high cost of living, and shrinking labor force. However, the city's rapid expansion in housing supply, driven by a 130.84% increase in building permits, may help improve affordability and attract more workers in the future. The single biggest risk or constraint for businesses in Richmond is the difficulty in finding and recruiting qualified workers, due to the shrinking labor pool and tight labor market.

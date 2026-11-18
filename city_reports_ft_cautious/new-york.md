@@ -4,30 +4,30 @@
 
 ---
 
-The New York Newark-Jersey City metro area has an overall grade of C, with a score of 38.8 out of 100, indicating a very poor performance compared to other metros. The city's economy is currently defined by slow job growth, with employment increasing by only 0.2% over the past year, and a relatively high cost of living, with a price per square foot of $498 and hourly pay of $40.54.
+The New York Newark-Jersey City metro area has an overall grade of C, ranking 38.8th percentile out of 50 US metros, with a composite score driven largely by its below-average labor demand and low wage growth. The labor demand composite score of 4.35, combining a +0.25% employment growth rate and a -0.303% weekly hours deviation from trend, signals a contraction in genuine demand expansion. The city's economic character is also defined by its high cost of living, with a PSF to wages ratio of 12.28, ranking in the bottom tier at the 6th percentile.
 
 **Labor Demand**
-The city is adding jobs at a slow pace, with a 0.2% increase in employment over the past year, and workers' hours are actually falling by 0.3%. This means that the job market is relatively weak, with fewer jobs being added and existing workers not seeing an increase in hours, making it a challenging environment for businesses looking to expand.
+The employment growth rate of +0.25% and weekly hours deviation of -0.303% from trend indicate a lack of genuine demand expansion, suggesting that the city's labor market is not experiencing significant growth. This combination signals a contraction in labor demand, rather than a survivor squeeze, as hours are below trend during a period of slow job growth. The labor demand composite score of 4.35 is below average, ranking at the 36th percentile.
 
 **Unemployment**
-The unemployment rate in the city is 4.5%, which is about average compared to other metros, with a score of 56 out of 100. This rate makes it neither particularly easy nor hard for employers to hire, as there is a steady supply of workers available, but not an overwhelming number of candidates.
+The unemployment rate of 4.50% is near the median, ranking at the 56th percentile, indicating a relatively balanced labor market with neither significant slack nor tightness. This rate suggests that businesses may face moderate challenges in hiring, but not extreme wage pressure. The market is not particularly tight, allowing for some flexibility in staffing decisions.
 
 **Wage Growth**
-Pay rose by 1.8% over the past year, which is slower than most other metros, with a score of 18 out of 100. This slow wage growth means that employers may not face significant pressure to increase salaries, but workers may not see much improvement in their purchasing power.
+The year-over-year wage growth rate of +1.79% is in the bottom tier, ranking at the 18th percentile, indicating stagnant wage growth. This slow wage growth implies a flat cost environment for employers, but weak bargaining power for workers, potentially limiting their purchasing power. The low wage growth rate may attract businesses seeking to minimize labor costs, but could also indicate a less dynamic local economy.
 
 **Cost of Living**
-The cost of living in the city is relatively high, with a price per square foot of $498 and hourly pay of $40.54, earning a score of 6 out of 100. Although the price per square foot is falling by 1.4% over the past year, the city is still less affordable than most other metros, making it challenging for workers to find affordable housing.
+The city's cost of living, with a PSF of $498/sqft and a -1.4% YoY change, is relatively expensive, ranking in the bottom tier at the 6th percentile. This means that the city is less competitive in terms of talent attraction, as workers may require wage premiums to afford the high cost of living. The low affordability score suggests that businesses may need to offer higher salaries to attract and retain talent.
 
 **Labor Force Growth**
-The pool of workers in the city is shrinking by 0.5% over the past year, with a score of 44 out of 100. This decline in the labor force means that businesses may face challenges in finding new talent, as the supply of workers is decreasing.
+The civilian labor force is contracting at a rate of -0.54% year-over-year, indicating a shrinking labor pool. This contraction implies a structural headwind for hiring, as the supply of available workers is decreasing. Businesses may face challenges in finding qualified candidates, potentially leading to increased recruitment and training costs.
 
 **Building Permits**
-New home approvals increased by 20.7% over the past year, with a score of 80 out of 100, indicating a strong trend in home building. This surge in building permits suggests that the city's housing supply is likely to increase in the future, which could help improve affordability.
+The year-over-year change in building permits is +20.67%, indicating an expansion in housing supply. This growth suggests that developer confidence is strong, and future housing supply is likely to increase, potentially improving affordability and workforce accommodation. The top-tier ranking at the 80th percentile implies a positive outlook for future workforce attraction and retention.
 
 **Days on Market**
-Homes in the city are taking 53 days to sell, with a decline of 1.9% over the past year, earning a score of 22 out of 100. This relatively slow pace of home sales indicates a softening housing market, which may make it more challenging for workers to relocate to the area.
+The current median days on market is 53 days, with a -1.9% year-over-year change, indicating a relatively fast-paced market. This suggests that homes are selling quickly, potentially making it challenging for relocating workers to find suitable housing. The below-average ranking at the 22nd percentile implies a competitive market, which may require businesses to provide relocation assistance or other incentives to attract talent.
 
 **Office Economy**
-The city's office-based workforce is about average compared to other metros, with a score of 54 out of 100. This suggests that the city has a moderate-sized talent pool in tech, finance, and professional services, making it suitable for businesses in these sectors.
+The city's professional and office worker share is 2.60, ranking near the median at the 54th percentile, indicating a moderately deep talent pool. This suggests that the city is suited for businesses in the tech, finance, and consulting sectors, but may not be as attractive for industrial or logistics-dominant companies. The city's office economy is neither particularly strong nor weak, making it a viable option for a range of businesses.
 
-The city's biggest strength is its strong home-building trend, with a 20.7% increase in new home approvals over the past year, which could help improve affordability and attract new talent. However, the city's biggest risk is its high cost of living, which may deter workers and businesses from relocating to the area, exacerbating the challenges of slow job growth and a shrinking labor force.
+The New York Newark-Jersey City metro area offers businesses a large and diverse talent pool, as well as a growing housing supply, but is constrained by its high cost of living and slow wage growth. The single biggest risk or constraint for decision-makers is the potential need to offer wage premiums to attract and retain talent, due to the city's relatively expensive cost of living. Overall, businesses seeking to minimize labor costs may find the city's slow wage growth attractive, but those seeking to attract top talent may need to consider the city's high cost of living and competitive housing market.
