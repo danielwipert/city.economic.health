@@ -4,30 +4,30 @@
 
 ---
 
-Columbus earns an overall grade of C+, scoring 47.7 out of 100 across 50 US metros, with its economy currently defined by slower job growth and a tight labor market. The city's unemployment rate is 3.3%, which is lower than most metros, and wage growth is 4.5% over the past year, indicating a relatively strong job market.
+Columbus, with an overall grade of C+, has a mixed economic picture, defined by a low unemployment rate of 3.3% and slower employment growth of -0.1% over the past year. The city's economy is characterized by a tight labor market, with a score of 84 out of 100, indicating lower unemployment than most of the 50 metros.
 
 **Labor Demand**
-Columbus is losing jobs at a rate of 0.1% over the past year, and workers' hours are rising by 0.5%, indicating a weaker job market with remaining workers putting in extra hours. This means that the city's labor demand is not as strong as most metros, with a score of 18 out of 100, making it a weakness.
+The city is losing jobs at a rate of -0.1% over the past year, and workers' hours are rising by 0.5%, indicating a weak job market with remaining workers putting in extra hours. This means that the labor demand is not strong, with a score of 18 out of 100, weaker than most of the 50 metros.
 
 **Unemployment**
-The unemployment rate in Columbus is 3.3%, which is lower than most metros, scoring 84 out of 100, making it a strength. This low unemployment rate means that it is harder for employers to hire, as there are fewer available workers, and it may also lead to upward pressure on wages.
+The unemployment rate of 3.3% makes it hard for employers to hire, as it indicates a tight labor market with a score of 84 out of 100, better than most of the 50 metros. This low unemployment rate means that employers may face wage pressure and difficulty finding available workers.
 
 **Wage Growth**
-Wages in Columbus rose by 4.5% over the past year, which is faster than most metros, scoring 68 out of 100, making it a strength. This means that employers in the city are facing rising labor costs, while workers are seeing an increase in their paychecks, which can lead to higher purchasing power.
+Pay rose by 4.5% over the past year, which is faster than most of the 50 metros, with a score of 68 out of 100, indicating stronger wage growth. This means that employers may face rising labor costs, while workers will see an increase in their paychecks.
 
 **Cost of Living**
-The cost of living in Columbus is about average, with a price per square foot of $205 and hourly pay of $34.52, scoring 51 out of 100. The price per square foot is rising by 1.0% over the past year, which means that housing is becoming slightly less affordable for local workers compared to other metros.
+Housing in Columbus is priced at $205 per square foot, with hourly pay at $34.52, and the cost of living is getting slightly worse, with a score of 51 out of 100, about average for the 50 metros. This means that the city's affordability is not a major advantage, as the cost of living is neither particularly high nor low compared to other metros.
 
 **Labor Force Growth**
-The labor force in Columbus is shrinking by 2.0% over the past year, scoring 12 out of 100, making it a weakness. This decline in the labor force means that hiring may become more challenging for employers, as there are fewer workers available to fill job openings.
+The pool of workers is shrinking at a rate of -2.0% over the past year, with a score of 12 out of 100, indicating slower workforce growth than most of the 50 metros. This means that hiring may become more challenging due to a declining labor force.
 
 **Building Permits**
-New home approvals in Columbus fell by 3.0% over the past year, scoring 50 out of 100, which is about average. This decline in building permits may signal a potential supply squeeze in the future, which could impact housing affordability and workforce attraction.
+New home approvals decreased by 3.0% over the past year, with a score of 50 out of 100, about average for the 50 metros, signaling a stable but not expanding housing supply. This means that the city's housing market is not experiencing a significant shift in supply.
 
 **Days on Market**
-Homes in Columbus are taking 50 days to sell, which is getting slower by 6.4% over the past year, scoring 72 out of 100, making it a strength. This indicates a healthier housing market, where buyers have more time to find a home, and sellers are not under too much pressure to sell quickly.
+A typical home takes 50 days to sell, with the time to sell increasing by 6.4% over the past year, and a score of 72 out of 100, indicating a healthier housing market than most of the 50 metros. This means that the housing market is relatively balanced, with buyers having a reasonable amount of time to find a home.
 
 **Office Economy**
-Columbus has a smaller office-based workforce, scoring 10 out of 100, making it a weakness. This means that the city may not be as suitable for businesses that rely on a deep pool of professional and technical talent, such as tech, finance, and consulting firms.
+The city's office-based workforce is smaller than most of the 50 metros, with a score of 10 out of 100, indicating a weaker presence of tech, finance, and professional services. This means that the city may not be the best fit for businesses that rely heavily on a deep pool of office-based talent.
 
-The bottom line is that Columbus's biggest strength is its low unemployment rate, which indicates a tight labor market, while its biggest risk is its slow labor force growth, which may make it challenging for employers to find workers to fill job openings. Overall, the city's economy is fair, with some strengths in wage growth and a relatively healthy housing market, but also some weaknesses in labor demand and office economy.
+The bottom line is that Columbus's biggest strength is its low unemployment rate, which indicates a tight labor market, but also poses challenges for employers looking to hire. The city's biggest risk is its slow labor force growth, which may lead to a shrinking pool of available workers and increased competition for talent.

@@ -5,8 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>San Jose | U.S. Metro Economic Health Report</title>
   <link rel="stylesheet" href="../assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap">
+  <link rel="stylesheet" href="../assets/city.css">
 </head>
-<body>
+<body class="city-page">
   <nav class="site-nav">
   <div class="nav-inner">
     <a class="nav-brand" href="../index.html">U.S. METRO ECONOMIC HEALTH</a>
@@ -17,194 +21,267 @@
   </div>
 </nav>
   <main class="site-main">
-    <div class="city-header" style="background-color:#EA580C;">
-  <div class="city-header-inner">
-    <div class="city-header-left">
-      <div class="rank-label">U.S. METRO ECONOMIC HEALTH &middot; RANK #35 OF 50</div>
-      <div class="city-title">San Jose</div>
-      <div class="metro-name">San Jose-Sunnyvale-Santa Clara</div>
+    <article class="cp">
+  <header class="cp-header">
+    <div class="cp-header-text">
+      <div class="cp-kicker">Rank 35 of 50 &middot; November 2026</div>
+      <h1>San Jose</h1>
+      <div class="cp-metro">San Jose-Sunnyvale-Santa Clara metro area</div>
     </div>
-    <div class="city-header-right">
-      <div class="grade-letter">C</div>
-      <div class="grade-desc">Very Poor</div>
-      <div class="percentile-score">40.3 score</div>
-      <div class="rank-of">Rank 35 of 50 metros</div>
+    <div class="cp-grade" style="--grade:#EA580C">
+      <div class="cp-grade-letter">C</div>
+      <div class="cp-grade-desc">Very Poor</div>
+      <div class="cp-grade-score">Overall score 40.3/100</div>
     </div>
-  </div>
-</div>
+  </header>
 
-<div class="city-body">
-
-  <div class="city-columns">
-
-    <div class="scorecard">
-      <div class="section-title">Metric Scorecard</div>
-      <p class="score-scale-note">Scores run 0&ndash;100. A score of 80 means this city beats 80% of the 50 metros.</p>
-      <div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Labor Demand</span>
-    <span class="metric-weight">25% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:92%;background:#059669;"></div>
-  </div>
-  <div class="metric-score" style="color:#059669;">92</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Unemployment</span>
-    <span class="metric-weight">20% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:48%;background:#D97706;"></div>
-  </div>
-  <div class="metric-score" style="color:#D97706;">48</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Wage Growth</span>
-    <span class="metric-weight">15% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:0%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">0</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Cost of Living</span>
-    <span class="metric-weight">12% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:0%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">0</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Labor Force Growth</span>
-    <span class="metric-weight">10% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:48%;background:#D97706;"></div>
-  </div>
-  <div class="metric-score" style="color:#D97706;">48</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Building Permits</span>
-    <span class="metric-weight">10% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:2%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">2</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Days on Market</span>
-    <span class="metric-weight"> 5% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:12%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">12</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Office Economy</span>
-    <span class="metric-weight"> 3% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:70%;background:#059669;"></div>
-  </div>
-  <div class="metric-score" style="color:#059669;">70</div>
-</div>
-
+  <div class="cp-summary">
+    <div class="cp-summary-text">
+      <p class="cp-lead">The San Jose-Sunnyvale-Santa Clara metro area has an overall grade of C, with a score of 40.3 out of 100, indicating a very poor performance compared to other metros. This city's economy is currently defined by its strong job market, with employment growth of 1.6% over the past year, but also by its extremely high cost of living, with a price per square foot of $821 and hourly pay of $53.28.</p>
     </div>
+    <aside class="cp-glance">
+      <div class="cp-label">At a glance</div>
+      <a class="cp-glance-row" href="#labor-demand">
+  <span class="cp-glance-name">Labor Demand</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-strength" style="width:92%"></span></span>
+  <span class="cp-glance-score cp-strength-text">92</span>
+</a>
+<a class="cp-glance-row" href="#unemployment">
+  <span class="cp-glance-name">Unemployment</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-average" style="width:48%"></span></span>
+  <span class="cp-glance-score cp-average-text">48</span>
+</a>
+<a class="cp-glance-row" href="#wage-growth">
+  <span class="cp-glance-name">Wage Growth</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:2%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">0</span>
+</a>
+<a class="cp-glance-row" href="#cost-of-living">
+  <span class="cp-glance-name">Cost of Living</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:2%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">0</span>
+</a>
+<a class="cp-glance-row" href="#labor-force-growth">
+  <span class="cp-glance-name">Labor Force Growth</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-average" style="width:48%"></span></span>
+  <span class="cp-glance-score cp-average-text">48</span>
+</a>
+<a class="cp-glance-row" href="#building-permits">
+  <span class="cp-glance-name">Building Permits</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:2%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">2</span>
+</a>
+<a class="cp-glance-row" href="#days-on-market">
+  <span class="cp-glance-name">Days on Market</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:12%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">12</span>
+</a>
+<a class="cp-glance-row" href="#office-economy">
+  <span class="cp-glance-name">Office Economy</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-strength" style="width:70%"></span></span>
+  <span class="cp-glance-score cp-strength-text">70</span>
+</a>
 
-    <div class="key-indicators">
-      <div class="section-title">Key Indicators</div>
-      <div class="indicators-grid">
-        <div class="stat-tile">
-  <div class="stat-label">Unemployment</div>
-  <div class="stat-value">4.2%</div>
-  <div class="stat-sub">unemployment rate</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Wage Growth YoY</div>
-  <div class="stat-value">-0.5%</div>
-  <div class="stat-sub">avg hourly earnings</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Employment Growth</div>
-  <div class="stat-value">+1.6%</div>
-  <div class="stat-sub">nonfarm payrolls YoY</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Labor Force YoY</div>
-  <div class="stat-value">-0.3%</div>
-  <div class="stat-sub">civilian labor force YoY</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Building Permits</div>
-  <div class="stat-value">-50.0%</div>
-  <div class="stat-sub">permits YoY</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Days on Market</div>
-  <div class="stat-value">37 days</div>
-  <div class="stat-sub">median days on market</div>
-</div>
+      <p class="cp-scale">Scores run 0&ndash;100. A score of 80 means this city beats 80% of the 50 metros; 50 is the middle.</p>
+    </aside>
+  </div>
 
-      </div>
+  <section class="cp-metric" id="labor-demand">
+  <div class="cp-metric-head">
+    <h2>Labor Demand</h2>
+    <span class="cp-weight">25% of grade</span>
+  </div>
+  <p class="cp-explainer">Whether employers are adding jobs, based on job growth over the past year and changes in weekly work hours.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">+1.6%</div>
+      <div class="cp-num-what">change in jobs over the past year</div>
+      <div class="cp-num-detail">Weekly hours +1.1% vs. their usual level</div>
     </div>
-
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 92 out of 100, strength">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-strength" style="width:92%"></div>
   </div>
-
-  <div class="signal-section">
-    <div class="section-title">Labor Market Signal</div>
-    <div class="signal-badge" style="background:#059669;">STRONG</div>
-    <div class="signal-desc">Employment and hours both above trend — genuine demand confirmation.</div>
+  <div class="cp-score-label"><strong class="cp-strength-text">92</strong>/100 &middot; Strength</div>
+</div>
   </div>
-
-  <div class="analysis-section">
-    <div class="section-title">Economic Analysis</div>
-    <p>The San Jose-Sunnyvale-Santa Clara metro area has an overall grade of C, with a score of 40.3 out of 100, indicating a very poor performance compared to other metros. The city's economy is currently defined by its strong job market, with employment growth of 1.6% over the past year, but also by its high cost of living, with a price per square foot of $821 and hourly pay of $53.28.</p>
-<h4 class="narrative-heading">Labor Demand</h4>
-<p class="metric-explainer">Whether employers are adding jobs, based on job growth over the past year and changes in weekly work hours.</p>
-<p>The city is adding jobs at a rate of 1.6% over the past year, and workers' hours are rising by 1.1%, indicating a strong demand for labor. This means that the job market is healthy, with employers hiring more workers and existing employees putting in more hours, scoring 92 out of 100, better than most of the 50 metros.</p>
-<h4 class="narrative-heading">Unemployment</h4>
-<p class="metric-explainer">The share of people who want a job but can't find one; lower is better.</p>
-<p>The unemployment rate is 4.2%, which is about average for the 50 metros, scoring 48 out of 100. This means that it is neither particularly easy nor hard for employers to hire, as the labor market is relatively balanced.</p>
-<h4 class="narrative-heading">Wage Growth</h4>
-<p class="metric-explainer">How much average hourly pay rose over the past year.</p>
-<p>Pay rose by -0.5% over the past year, which is slower than most metros, scoring 0 out of 100. This means that employers' labor costs are not increasing rapidly, but workers' paychecks are not growing either, which could affect their purchasing power.</p>
-<h4 class="narrative-heading">Cost of Living</h4>
-<p class="metric-explainer">How many hours a local worker needs to work to pay for one square foot of a home, and whether that's improving.</p>
-<p>The cost of living in San Jose-Sunnyvale-Santa Clara is high, with a price per square foot of $821 and hourly pay of $53.28, scoring 0 out of 100, indicating that it is less affordable than most metros. Although the price per square foot is falling by 2.0% over the past year, the city remains one of the more expensive places to live.</p>
-<h4 class="narrative-heading">Labor Force Growth</h4>
-<p class="metric-explainer">Whether the number of people working or looking for work is growing.</p>
-<p>The pool of workers is shrinking by 0.3% over the past year, scoring 48 out of 100, which is about average for the 50 metros. This means that the labor market is not experiencing significant growth or decline, but a slow shrinkage could make hiring more challenging in the future.</p>
-<h4 class="narrative-heading">Building Permits</h4>
-<p class="metric-explainer">How many new homes builders got approval for, compared with a year ago.</p>
-<p>New home approvals have decreased by 50.0% over the past year, scoring 2 out of 100, indicating a significant decline in new housing supply. This signals that the city's housing market may face a supply squeeze in the future, making it harder for workers to find affordable housing.</p>
-<h4 class="narrative-heading">Days on Market</h4>
-<p class="metric-explainer">How long a typical home for sale takes to find a buyer; about 35 to 80 days is healthiest.</p>
-<p>A typical home takes 37 days to sell, which is getting faster by 2.6% over the past year, scoring 12 out of 100. This indicates a weaker housing market, as homes are selling quickly, but the score suggests that the market is too tight, making it challenging for relocating workers to find a home.</p>
-<h4 class="narrative-heading">Office Economy</h4>
-<p class="metric-explainer">The share of jobs in office-based fields like tech, finance and professional services.</p>
-<p>The city's office-based workforce is larger than most metros, scoring 70 out of 100, making it an attractive location for tech, finance, and professional services companies. This suggests that the city has a deep talent pool in these sectors, which could support businesses that require specialized knowledge workers.</p>
-<p>The San Jose-Sunnyvale-Santa Clara metro area's biggest strength is its strong job market, with high employment growth and rising workers' hours, making it an attractive location for businesses looking to hire. However, the city's biggest risk is its high cost of living, which could make it challenging for workers to afford housing and for employers to attract and retain talent.</p>
+  <p class="cp-signal"><span class="cp-signal-tag">Strong</span> Jobs and weekly hours are both rising.</p>
+  <p class="cp-text">The city is adding jobs at a rate of 1.6% over the past year, and workers' hours are rising by 1.1%, indicating a strong demand for labor. This means that the job market is robust, with employers hiring more workers and existing employees putting in more hours, making it a strength for the city.</p>
+</section>
+<section class="cp-metric" id="unemployment">
+  <div class="cp-metric-head">
+    <h2>Unemployment</h2>
+    <span class="cp-weight">20% of grade</span>
   </div>
+  <p class="cp-explainer">The share of people who want a job but can't find one; lower is better.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">4.2%</div>
+      <div class="cp-num-what">unemployment rate</div>
+      <div class="cp-num-detail">Down 0.3 points from a year ago</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 48 out of 100, about average">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-average" style="width:48%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-average-text">48</strong>/100 &middot; About average</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The unemployment rate is 4.2%, which is about average for the 50 metros, making it neither particularly easy nor hard for employers to hire. This rate suggests that while there are still workers available, the labor market is not overly loose, with a score of 48 out of 100.</p>
+</section>
+<section class="cp-metric" id="wage-growth">
+  <div class="cp-metric-head">
+    <h2>Wage Growth</h2>
+    <span class="cp-weight">15% of grade</span>
+  </div>
+  <p class="cp-explainer">How much average hourly pay rose over the past year.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">&minus;0.5%</div>
+      <div class="cp-num-what">change in hourly pay over the past year</div>
+      <div class="cp-num-detail">Average pay is $53.28 an hour</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 0 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:2%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">0</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">Pay rose by -0.5% over the past year, which is slower than most metros, meaning that employers' labor costs are not increasing as quickly, but workers' paychecks are not growing either. This slow wage growth is a weakness for the city, with a score of 0 out of 100, indicating that workers may not have as much purchasing power.</p>
+</section>
+<section class="cp-metric" id="cost-of-living">
+  <div class="cp-metric-head">
+    <h2>Cost of Living</h2>
+    <span class="cp-weight">12% of grade</span>
+  </div>
+  <p class="cp-explainer">How many hours a local worker needs to work to pay for one square foot of a home, and whether that's improving.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">15.4 hrs</div>
+      <div class="cp-num-what">of pay to buy one square foot of home</div>
+      <div class="cp-num-detail">$821 per sq. ft. (&minus;2.0% in a year) &middot; $53.28 an hour</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 0 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:2%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">0</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The cost of living in San Jose-Sunnyvale-Santa Clara is high, with a price per square foot of $821 and hourly pay of $53.28, and it is getting worse, with a decline in affordability over the past year. This makes it difficult for local workers to afford housing, with a score of 0 out of 100, indicating that the city is less affordable than most metros.</p>
+</section>
+<section class="cp-metric" id="labor-force-growth">
+  <div class="cp-metric-head">
+    <h2>Labor Force Growth</h2>
+    <span class="cp-weight">10% of grade</span>
+  </div>
+  <p class="cp-explainer">Whether the number of people working or looking for work is growing.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">&minus;0.3%</div>
+      <div class="cp-num-what">change in people working or looking for work</div>
+      
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 48 out of 100, about average">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-average" style="width:48%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-average-text">48</strong>/100 &middot; About average</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The pool of workers is shrinking by 0.3% over the past year, which is about average for the 50 metros, making it neither a significant strength nor weakness for hiring. This slow growth means that the labor market may not be expanding quickly, but it is not contracting rapidly either, with a score of 48 out of 100.</p>
+</section>
+<section class="cp-metric" id="building-permits">
+  <div class="cp-metric-head">
+    <h2>Building Permits</h2>
+    <span class="cp-weight">10% of grade</span>
+  </div>
+  <p class="cp-explainer">How many new homes builders got approval for, compared with a year ago.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">&minus;50.0%</div>
+      <div class="cp-num-what">change in new home approvals vs. a year ago</div>
+      
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 2 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:2%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">2</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">New home approvals declined by 50.0% over the past year, which is a significant weakness, signaling that the future housing supply may be limited. This decline suggests that the city may face a housing shortage, making it harder for workers to find affordable housing, with a score of 2 out of 100.</p>
+</section>
+<section class="cp-metric" id="days-on-market">
+  <div class="cp-metric-head">
+    <h2>Days on Market</h2>
+    <span class="cp-weight">5% of grade</span>
+  </div>
+  <p class="cp-explainer">How long a typical home for sale takes to find a buyer; about 35 to 80 days is healthiest.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">37 days</div>
+      <div class="cp-num-what">for a typical home to sell</div>
+      <div class="cp-num-detail">&minus;2.6% vs. a year ago</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 12 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:12%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">12</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">A typical home takes 37 days to sell, which is getting slightly faster, but still a relatively quick sale time, indicating a weaker housing market. This fast sale time, with a score of 12 out of 100, suggests that the housing market may be too tight, making it difficult for buyers to find homes.</p>
+</section>
+<section class="cp-metric" id="office-economy">
+  <div class="cp-metric-head">
+    <h2>Office Economy</h2>
+    <span class="cp-weight">3% of grade</span>
+  </div>
+  <p class="cp-explainer">The share of jobs in office-based fields like tech, finance and professional services.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">17 in 100</div>
+      <div class="cp-num-what">residents work in office-based jobs</div>
+      
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 70 out of 100, strength">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-strength" style="width:70%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-strength-text">70</strong>/100 &middot; Strength</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The city has a large office-based workforce, with a score of 70 out of 100, indicating that it has a deeper talent pool than most metros, making it suitable for tech, finance, and professional services businesses. This strong office economy is a strength for the city, attracting businesses that require specialized knowledge workers.</p>
+</section>
 
-  <div class="city-nav">
+  <section class="cp-bottom">
+  <h2>The bottom line</h2>
+  <p>The bottom line is that San Jose-Sunnyvale-Santa Clara's biggest strength is its strong job market, with employment growth outpacing most metros, but its biggest risk is its extremely high cost of living, which may drive workers and businesses away. Overall, the city's poor performance across most metrics, with a score of 40.3 out of 100, suggests that it may not be an attractive location for businesses or workers due to its high cost of living and limited housing supply.</p>
+</section>
+
+  <nav class="cp-pager">
     <div><a href="fresno.html">&larr; #34 Fresno</a></div>
-    <div class="city-nav-back"><a href="../rankings.html">&#8592; All Rankings</a></div>
+    <div><a href="../rankings.html">All rankings</a></div>
     <div><a href="new-york.html">#36 New York &rarr;</a></div>
-  </div>
-
-</div>
+  </nav>
+</article>
   </main>
   <footer class="site-footer">
   <div class="footer-inner">

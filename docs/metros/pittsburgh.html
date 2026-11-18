@@ -5,8 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pittsburgh | U.S. Metro Economic Health Report</title>
   <link rel="stylesheet" href="../assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap">
+  <link rel="stylesheet" href="../assets/city.css">
 </head>
-<body>
+<body class="city-page">
   <nav class="site-nav">
   <div class="nav-inner">
     <a class="nav-brand" href="../index.html">U.S. METRO ECONOMIC HEALTH</a>
@@ -17,194 +21,267 @@
   </div>
 </nav>
   <main class="site-main">
-    <div class="city-header" style="background-color:#4F46E5;">
-  <div class="city-header-inner">
-    <div class="city-header-left">
-      <div class="rank-label">U.S. METRO ECONOMIC HEALTH &middot; RANK #15 OF 50</div>
-      <div class="city-title">Pittsburgh</div>
-      <div class="metro-name">Pittsburgh</div>
+    <article class="cp">
+  <header class="cp-header">
+    <div class="cp-header-text">
+      <div class="cp-kicker">Rank 15 of 50 &middot; November 2026</div>
+      <h1>Pittsburgh</h1>
+      <div class="cp-metro">Pittsburgh metro area</div>
     </div>
-    <div class="city-header-right">
-      <div class="grade-letter">B</div>
-      <div class="grade-desc">Average</div>
-      <div class="percentile-score">56.9 score</div>
-      <div class="rank-of">Rank 15 of 50 metros</div>
+    <div class="cp-grade" style="--grade:#4F46E5">
+      <div class="cp-grade-letter">B</div>
+      <div class="cp-grade-desc">Average</div>
+      <div class="cp-grade-score">Overall score 56.9/100</div>
     </div>
-  </div>
-</div>
+  </header>
 
-<div class="city-body">
-
-  <div class="city-columns">
-
-    <div class="scorecard">
-      <div class="section-title">Metric Scorecard</div>
-      <p class="score-scale-note">Scores run 0&ndash;100. A score of 80 means this city beats 80% of the 50 metros.</p>
-      <div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Labor Demand</span>
-    <span class="metric-weight">25% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:12%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">12</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Unemployment</span>
-    <span class="metric-weight">20% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:96%;background:#059669;"></div>
-  </div>
-  <div class="metric-score" style="color:#059669;">96</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Wage Growth</span>
-    <span class="metric-weight">15% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:44%;background:#D97706;"></div>
-  </div>
-  <div class="metric-score" style="color:#D97706;">44</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Cost of Living</span>
-    <span class="metric-weight">12% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:88%;background:#059669;"></div>
-  </div>
-  <div class="metric-score" style="color:#059669;">88</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Labor Force Growth</span>
-    <span class="metric-weight">10% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:58%;background:#D97706;"></div>
-  </div>
-  <div class="metric-score" style="color:#D97706;">58</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Building Permits</span>
-    <span class="metric-weight">10% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:86%;background:#059669;"></div>
-  </div>
-  <div class="metric-score" style="color:#059669;">86</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Days on Market</span>
-    <span class="metric-weight"> 5% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:52%;background:#D97706;"></div>
-  </div>
-  <div class="metric-score" style="color:#D97706;">52</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Office Economy</span>
-    <span class="metric-weight"> 3% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:20%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">20</div>
-</div>
-
+  <div class="cp-summary">
+    <div class="cp-summary-text">
+      <p class="cp-lead">Pittsburgh earns an overall grade of B, with a score of 56.9 out of 100, indicating it is an average city among the 50 metros, with its low unemployment rate of 3.0% being a notable strength. The city's economy is currently defined by a mix of strengths and weaknesses, including a relatively affordable cost of living, with a price per square foot of $168 and hourly pay of $33.92, and a score of 88 out of 100 in this area.</p>
     </div>
+    <aside class="cp-glance">
+      <div class="cp-label">At a glance</div>
+      <a class="cp-glance-row" href="#labor-demand">
+  <span class="cp-glance-name">Labor Demand</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:12%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">12</span>
+</a>
+<a class="cp-glance-row" href="#unemployment">
+  <span class="cp-glance-name">Unemployment</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-strength" style="width:96%"></span></span>
+  <span class="cp-glance-score cp-strength-text">96</span>
+</a>
+<a class="cp-glance-row" href="#wage-growth">
+  <span class="cp-glance-name">Wage Growth</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-average" style="width:44%"></span></span>
+  <span class="cp-glance-score cp-average-text">44</span>
+</a>
+<a class="cp-glance-row" href="#cost-of-living">
+  <span class="cp-glance-name">Cost of Living</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-strength" style="width:88%"></span></span>
+  <span class="cp-glance-score cp-strength-text">88</span>
+</a>
+<a class="cp-glance-row" href="#labor-force-growth">
+  <span class="cp-glance-name">Labor Force Growth</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-average" style="width:58%"></span></span>
+  <span class="cp-glance-score cp-average-text">58</span>
+</a>
+<a class="cp-glance-row" href="#building-permits">
+  <span class="cp-glance-name">Building Permits</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-strength" style="width:86%"></span></span>
+  <span class="cp-glance-score cp-strength-text">86</span>
+</a>
+<a class="cp-glance-row" href="#days-on-market">
+  <span class="cp-glance-name">Days on Market</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-average" style="width:52%"></span></span>
+  <span class="cp-glance-score cp-average-text">52</span>
+</a>
+<a class="cp-glance-row" href="#office-economy">
+  <span class="cp-glance-name">Office Economy</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:20%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">20</span>
+</a>
 
-    <div class="key-indicators">
-      <div class="section-title">Key Indicators</div>
-      <div class="indicators-grid">
-        <div class="stat-tile">
-  <div class="stat-label">Unemployment</div>
-  <div class="stat-value">3.0%</div>
-  <div class="stat-sub">unemployment rate</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Wage Growth YoY</div>
-  <div class="stat-value">+3.5%</div>
-  <div class="stat-sub">avg hourly earnings</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Employment Growth</div>
-  <div class="stat-value">-0.5%</div>
-  <div class="stat-sub">nonfarm payrolls YoY</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Labor Force YoY</div>
-  <div class="stat-value">+0.2%</div>
-  <div class="stat-sub">civilian labor force YoY</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Building Permits</div>
-  <div class="stat-value">+26.4%</div>
-  <div class="stat-sub">permits YoY</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Days on Market</div>
-  <div class="stat-value">57 days</div>
-  <div class="stat-sub">median days on market</div>
-</div>
+      <p class="cp-scale">Scores run 0&ndash;100. A score of 80 means this city beats 80% of the 50 metros; 50 is the middle.</p>
+    </aside>
+  </div>
 
-      </div>
+  <section class="cp-metric" id="labor-demand">
+  <div class="cp-metric-head">
+    <h2>Labor Demand</h2>
+    <span class="cp-weight">25% of grade</span>
+  </div>
+  <p class="cp-explainer">Whether employers are adding jobs, based on job growth over the past year and changes in weekly work hours.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">&minus;0.5%</div>
+      <div class="cp-num-what">change in jobs over the past year</div>
+      <div class="cp-num-detail">Weekly hours +0.4% vs. their usual level</div>
     </div>
-
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 12 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:12%"></div>
   </div>
-
-  <div class="signal-section">
-    <div class="section-title">Labor Market Signal</div>
-    <div class="signal-badge" style="background:#D97706;">SQUEEZE</div>
-    <div class="signal-desc">Payrolls contracting while hours rise — survivor squeeze signal.</div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">12</strong>/100 &middot; Weakness</div>
+</div>
   </div>
-
-  <div class="analysis-section">
-    <div class="section-title">Economic Analysis</div>
-    <p>Pittsburgh earns an overall grade of B, with a score of 56.9 out of 100, indicating it is an average city for business and economic growth. One of the defining features of Pittsburgh's economy right now is its low unemployment rate of 3.0%, which is a strength, scoring 96 out of 100, meaning it has lower unemployment than most of the 50 metros.</p>
-<h4 class="narrative-heading">Labor Demand</h4>
-<p class="metric-explainer">Whether employers are adding jobs, based on job growth over the past year and changes in weekly work hours.</p>
-<p>Pittsburgh is losing jobs at a rate of -0.5% over the past year, and workers' hours are only slightly rising by 0.4%, indicating a weak job market with a score of 12 out of 100. This means that the city is not adding jobs at a rate comparable to most other metros, making it a challenging environment for job seekers.</p>
-<h4 class="narrative-heading">Unemployment</h4>
-<p class="metric-explainer">The share of people who want a job but can't find one; lower is better.</p>
-<p>The unemployment rate in Pittsburgh is 3.0%, which is a strength, scoring 96 out of 100, indicating that it has lower unemployment than most of the 50 metros. This low unemployment rate makes it harder for employers to hire, as there are fewer available workers, and may lead to upward pressure on wages.</p>
-<h4 class="narrative-heading">Wage Growth</h4>
-<p class="metric-explainer">How much average hourly pay rose over the past year.</p>
-<p>Wages in Pittsburgh rose by 3.5% over the past year, which is about average for the 50 metros, with a score of 44 out of 100. This moderate wage growth means that employers are facing rising labor costs, but workers are also seeing an increase in their paychecks, which can contribute to a stronger local economy.</p>
-<h4 class="narrative-heading">Cost of Living</h4>
-<p class="metric-explainer">How many hours a local worker needs to work to pay for one square foot of a home, and whether that's improving.</p>
-<p>The cost of living in Pittsburgh is relatively affordable, with a price per square foot of $168 and hourly pay of $33.92, and it is getting even more affordable as housing prices are falling by 1.8% over the past year, scoring 88 out of 100. This makes Pittsburgh an attractive location for workers and businesses, as the cost of living is lower than in most other metros.</p>
-<h4 class="narrative-heading">Labor Force Growth</h4>
-<p class="metric-explainer">Whether the number of people working or looking for work is growing.</p>
-<p>The labor force in Pittsburgh is growing at a rate of 0.2% over the past year, which is about average for the 50 metros, with a score of 58 out of 100. This slow growth in the labor force means that hiring may become more challenging over time, as the pool of available workers is not expanding rapidly.</p>
-<h4 class="narrative-heading">Building Permits</h4>
-<p class="metric-explainer">How many new homes builders got approval for, compared with a year ago.</p>
-<p>New home approvals in Pittsburgh increased by 26.4% over the past year, which is a strength, scoring 86 out of 100, indicating stronger home-building activity than most metros. This surge in building permits suggests that the city's housing supply will expand in the future, which can help keep housing costs affordable and attract more workers.</p>
-<h4 class="narrative-heading">Days on Market</h4>
-<p class="metric-explainer">How long a typical home for sale takes to find a buyer; about 35 to 80 days is healthiest.</p>
-<p>Homes in Pittsburgh are taking 57 days to sell, which is about average for the 50 metros, with a score of 52 out of 100, and this time is increasing by 5.6% over the past year. This moderate pace of home sales indicates a relatively healthy housing market, where buyers have a reasonable amount of time to find a home, but the market is not too soft.</p>
-<h4 class="narrative-heading">Office Economy</h4>
-<p class="metric-explainer">The share of jobs in office-based fields like tech, finance and professional services.</p>
-<p>Pittsburgh's office-based workforce is smaller than in most other metros, scoring 20 out of 100, indicating that it may not be the best fit for businesses in the tech, finance, or professional services sectors. This smaller office workforce means that Pittsburgh may be more suited to industries that are not heavily reliant on a large pool of office workers, such as manufacturing or logistics.</p>
-<p>The bottom line is that Pittsburgh's biggest strength is its low unemployment rate and affordable cost of living, making it an attractive location for workers and businesses. However, its biggest risk is its weak labor demand, with job losses and slow wage growth, which may make it challenging for businesses to find the workers they need to grow and thrive.</p>
+  <p class="cp-signal"><span class="cp-signal-tag">Squeeze</span> Jobs are being cut while remaining workers put in more hours.</p>
+  <p class="cp-text">Pittsburgh is losing jobs at a rate of 0.5% over the past year, and workers' hours are rising by 0.4%, indicating a weak job market with remaining workers putting in extra hours. This means that employers may struggle to find new talent, but those already employed are shouldering a heavier workload.</p>
+</section>
+<section class="cp-metric" id="unemployment">
+  <div class="cp-metric-head">
+    <h2>Unemployment</h2>
+    <span class="cp-weight">20% of grade</span>
   </div>
+  <p class="cp-explainer">The share of people who want a job but can't find one; lower is better.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">3.0%</div>
+      <div class="cp-num-what">unemployment rate</div>
+      <div class="cp-num-detail">Down 1.1 points from a year ago</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 96 out of 100, strength">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-strength" style="width:96%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-strength-text">96</strong>/100 &middot; Strength</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The unemployment rate in Pittsburgh is 3.0%, which is lower than most metros, earning a score of 96 out of 100, making it harder for employers to hire as the labor market is tight. This low unemployment rate indicates that workers have more bargaining power, and employers may need to offer competitive wages to attract talent.</p>
+</section>
+<section class="cp-metric" id="wage-growth">
+  <div class="cp-metric-head">
+    <h2>Wage Growth</h2>
+    <span class="cp-weight">15% of grade</span>
+  </div>
+  <p class="cp-explainer">How much average hourly pay rose over the past year.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">+3.5%</div>
+      <div class="cp-num-what">change in hourly pay over the past year</div>
+      <div class="cp-num-detail">Average pay is $33.92 an hour</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 44 out of 100, about average">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-average" style="width:44%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-average-text">44</strong>/100 &middot; About average</div>
+</div>
+  </div>
+  
+  <p class="cp-text">Wages in Pittsburgh rose by 3.5% over the past year, which is about average for the 50 metros, with a score of 44 out of 100, meaning that employers' labor costs are increasing, but not as quickly as in other cities. This moderate wage growth suggests that workers' paychecks are growing, but not at a rapid pace.</p>
+</section>
+<section class="cp-metric" id="cost-of-living">
+  <div class="cp-metric-head">
+    <h2>Cost of Living</h2>
+    <span class="cp-weight">12% of grade</span>
+  </div>
+  <p class="cp-explainer">How many hours a local worker needs to work to pay for one square foot of a home, and whether that's improving.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">5.0 hrs</div>
+      <div class="cp-num-what">of pay to buy one square foot of home</div>
+      <div class="cp-num-detail">$168 per sq. ft. (&minus;1.8% in a year) &middot; $33.92 an hour</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 88 out of 100, strength">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-strength" style="width:88%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-strength-text">88</strong>/100 &middot; Strength</div>
+</div>
+  </div>
+  
+  <p class="cp-text">Pittsburgh has a relatively affordable cost of living, with a price per square foot of $168 and hourly pay of $33.92, earning a score of 88 out of 100, and the price per square foot is actually falling by 1.8% over the past year. This makes Pittsburgh an attractive location for workers and businesses, as the cost of living is more manageable compared to other metros.</p>
+</section>
+<section class="cp-metric" id="labor-force-growth">
+  <div class="cp-metric-head">
+    <h2>Labor Force Growth</h2>
+    <span class="cp-weight">10% of grade</span>
+  </div>
+  <p class="cp-explainer">Whether the number of people working or looking for work is growing.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">+0.2%</div>
+      <div class="cp-num-what">change in people working or looking for work</div>
+      
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 58 out of 100, about average">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-average" style="width:58%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-average-text">58</strong>/100 &middot; About average</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The labor force in Pittsburgh is growing at a rate of 0.2% over the past year, which is about average for the 50 metros, with a score of 58 out of 100, indicating a relatively stable workforce. This slow growth means that hiring may be moderately challenging, but the city is not experiencing a significant brain drain or influx of new workers.</p>
+</section>
+<section class="cp-metric" id="building-permits">
+  <div class="cp-metric-head">
+    <h2>Building Permits</h2>
+    <span class="cp-weight">10% of grade</span>
+  </div>
+  <p class="cp-explainer">How many new homes builders got approval for, compared with a year ago.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">+26.4%</div>
+      <div class="cp-num-what">change in new home approvals vs. a year ago</div>
+      
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 86 out of 100, strength">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-strength" style="width:86%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-strength-text">86</strong>/100 &middot; Strength</div>
+</div>
+  </div>
+  
+  <p class="cp-text">New home approvals in Pittsburgh increased by 26.4% over the past year, earning a score of 86 out of 100, signaling a strong demand for housing and a potential increase in future housing supply. This surge in building permits suggests that developers are confident in the city's growth prospects and are investing in new housing stock.</p>
+</section>
+<section class="cp-metric" id="days-on-market">
+  <div class="cp-metric-head">
+    <h2>Days on Market</h2>
+    <span class="cp-weight">5% of grade</span>
+  </div>
+  <p class="cp-explainer">How long a typical home for sale takes to find a buyer; about 35 to 80 days is healthiest.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">57 days</div>
+      <div class="cp-num-what">for a typical home to sell</div>
+      <div class="cp-num-detail">+5.6% vs. a year ago</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 52 out of 100, about average">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-average" style="width:52%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-average-text">52</strong>/100 &middot; About average</div>
+</div>
+  </div>
+  
+  <p class="cp-text">Homes in Pittsburgh are taking 57 days to sell, which is about average for the 50 metros, with a score of 52 out of 100, and this time is actually increasing by 5.6% over the past year. This moderate pace indicates a relatively balanced housing market, where buyers have some time to find a home, but the market is not overly soft.</p>
+</section>
+<section class="cp-metric" id="office-economy">
+  <div class="cp-metric-head">
+    <h2>Office Economy</h2>
+    <span class="cp-weight">3% of grade</span>
+  </div>
+  <p class="cp-explainer">The share of jobs in office-based fields like tech, finance and professional services.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">9 in 100</div>
+      <div class="cp-num-what">residents work in office-based jobs</div>
+      
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 20 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:20%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">20</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">Pittsburgh has a relatively small office-based workforce, with a score of 20 out of 100, indicating that it may not be the best fit for businesses in the tech, finance, or professional services sectors. This smaller office workforce means that companies in these industries may find it more challenging to attract specialized talent in Pittsburgh.</p>
+</section>
 
-  <div class="city-nav">
+  <section class="cp-bottom">
+  <h2>The bottom line</h2>
+  <p>The bottom line is that Pittsburgh's biggest strength is its low unemployment rate and relatively affordable cost of living, making it an attractive location for workers and businesses. However, the city's biggest risk is its weak labor demand, with job losses and rising hours worked by remaining employees, which may indicate a challenging job market and potential difficulties for employers looking to hire new talent.</p>
+</section>
+
+  <nav class="cp-pager">
     <div><a href="las-vegas.html">&larr; #14 Las Vegas</a></div>
-    <div class="city-nav-back"><a href="../rankings.html">&#8592; All Rankings</a></div>
+    <div><a href="../rankings.html">All rankings</a></div>
     <div><a href="nashville.html">#16 Nashville &rarr;</a></div>
-  </div>
-
-</div>
+  </nav>
+</article>
   </main>
   <footer class="site-footer">
   <div class="footer-inner">

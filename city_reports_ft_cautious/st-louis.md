@@ -7,27 +7,27 @@
 St. Louis has earned an overall grade of A+, with a score of 73.7 out of 100, making it an excellent choice for businesses and workers alike. The city's economy is defined by its strong labor demand, with employment growth of 1.0% over the past year and workers putting in 1.0% more hours, indicating a genuine demand for labor.
 
 **Labor Demand**
-St. Louis is adding jobs at a rate of 1.0% over the past year, with workers also putting in 1.0% more hours, which means the city has a strong and growing job market. This growth in employment and hours worked suggests that businesses are expanding and have a genuine demand for labor, making it a good time for job seekers.
+The city is adding jobs at a rate of 1.0% over the past year, with workers also putting in 1.0% more hours, which means the job market is strong and employers are looking to hire. This strength in labor demand suggests that businesses are expanding and have a genuine need for more workers, making it a good time to invest in the local economy.
 
 **Unemployment**
-The unemployment rate in St. Louis is 3.4%, which is lower than most metros, making it harder for employers to hire but also indicating a strong economy. With a score of 78 out of 100, the city's low unemployment rate is a strength, but it also means that employers may face wage pressure and competition for skilled workers.
+The unemployment rate in St. Louis is 3.4%, which is lower than most metros, making it harder for employers to hire but also indicating a strong economy. With a score of 78 out of 100, the city's low unemployment rate is a strength, but it also means that employers may need to offer competitive wages to attract top talent.
 
 **Wage Growth**
-Wages in St. Louis have risen by 4.3% over the past year, which is faster than most metros, resulting in higher labor costs for employers but more purchasing power for workers. This wage growth, with a score of 62 out of 100, is a strength for workers but may be a challenge for businesses looking to keep costs under control.
+Wages in St. Louis have risen by 4.3% over the past year, which is faster than most metros, meaning employers are facing rising labor costs, but workers are also seeing an increase in their paychecks. This wage growth is a strength, with a score of 62 out of 100, and it suggests that the city is an attractive place for workers to live and work.
 
 **Cost of Living**
-The cost of living in St. Louis is relatively affordable, with a price per square foot of $163 and hourly pay of $38.21, and it's getting even more affordable as housing prices have fallen by 1.8% over the past year. With a score of 98 out of 100, the city's affordability is a major strength, making it an attractive location for workers and businesses looking to relocate.
+The cost of living in St. Louis is relatively affordable, with a price per square foot of $163 and hourly pay of $38.21, and it's getting even more affordable as housing prices have fallen by 1.8% over the past year. With a score of 98 out of 100, the city's affordability is a major strength, making it an attractive location for businesses and workers looking for a low cost of living.
 
 **Labor Force Growth**
-The labor force in St. Louis has shrunk by 0.1% over the past year, which is about average for the 50 metros, indicating a relatively stable workforce. This slow growth, with a score of 54 out of 100, may make it slightly more challenging for businesses to find new talent, but it's not a major concern.
+The labor force in St. Louis is shrinking by 0.1% over the past year, which is about average for the 50 metros, meaning that hiring may become more challenging in the future. This slow growth is not a major concern, but it does mean that employers may need to be more competitive to attract and retain top talent, with a score of 54 out of 100.
 
 **Building Permits**
-The number of new home building permits in St. Louis has increased by 7.4% over the past year, which is about average for the 50 metros, signaling a moderate expansion of the city's housing supply. This growth in building permits, with a score of 58 out of 100, is a positive sign for the city's future affordability and attractiveness to workers.
+New home approvals in St. Louis have increased by 7.4% over the past year, which is about average for the 50 metros, signaling that the city's housing supply is expanding, but not at a rapid pace. This moderate growth in building permits, with a score of 58 out of 100, suggests that the city is making progress in addressing its housing needs, but more work is needed to keep up with demand.
 
 **Days on Market**
-Homes in St. Louis are taking 51 days to sell, which is getting slower by 13.3% over the past year, indicating a healthier housing market with more options for buyers. With a score of 84 out of 100, the city's housing market is a strength, providing a good balance between supply and demand.
+Homes in St. Louis are taking 51 days to sell, which is getting slower, with a 13.3% increase in days on market over the past year, indicating a healthier housing market. With a score of 84 out of 100, the city's housing market is strong, and the slower pace of sales suggests that buyers have more time to find the right home, making it a good time to invest in the local real estate market.
 
 **Office Economy**
-St. Louis has a smaller office-based workforce, with a score of 38 out of 100, which makes it less suited for businesses in the tech, finance, and professional services sectors. However, this also means that the city may have opportunities for growth and development in these areas, making it an attractive location for businesses looking to establish a presence in the Midwest.
+St. Louis has a smaller office-based workforce, with a score of 38 out of 100, which means it may not be the best fit for businesses in the tech, finance, or professional services sectors. However, the city's economy is still diverse and has opportunities for businesses in other sectors, and its strong labor demand and affordability make it an attractive location for a wide range of industries.
 
-The city's biggest strength is its affordability, with a cost of living score of 98 out of 100, making it an attractive location for workers and businesses looking to relocate. However, the city's smaller office-based workforce, with a score of 38 out of 100, is a weakness that may make it less competitive for certain types of businesses, but also presents opportunities for growth and development.
+The bottom line is that St. Louis's biggest strength is its strong labor demand and affordability, making it an attractive location for businesses and workers alike. However, the city's smaller office-based workforce is a weakness, and businesses in the tech and finance sectors may find more opportunities in other metros, but overall, St. Louis is an excellent choice for those looking for a strong and growing economy.

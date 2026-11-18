@@ -5,8 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Denver | U.S. Metro Economic Health Report</title>
   <link rel="stylesheet" href="../assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap">
+  <link rel="stylesheet" href="../assets/city.css">
 </head>
-<body>
+<body class="city-page">
   <nav class="site-nav">
   <div class="nav-inner">
     <a class="nav-brand" href="../index.html">U.S. METRO ECONOMIC HEALTH</a>
@@ -17,194 +21,267 @@
   </div>
 </nav>
   <main class="site-main">
-    <div class="city-header" style="background-color:#DC2626;">
-  <div class="city-header-inner">
-    <div class="city-header-left">
-      <div class="rank-label">U.S. METRO ECONOMIC HEALTH &middot; RANK #41 OF 50</div>
-      <div class="city-title">Denver</div>
-      <div class="metro-name">Denver-Aurora-Centennial</div>
+    <article class="cp">
+  <header class="cp-header">
+    <div class="cp-header-text">
+      <div class="cp-kicker">Rank 41 of 50 &middot; November 2026</div>
+      <h1>Denver</h1>
+      <div class="cp-metro">Denver-Aurora-Centennial metro area</div>
     </div>
-    <div class="city-header-right">
-      <div class="grade-letter">C-</div>
-      <div class="grade-desc">Critical</div>
-      <div class="percentile-score">34.7 score</div>
-      <div class="rank-of">Rank 41 of 50 metros</div>
+    <div class="cp-grade" style="--grade:#DC2626">
+      <div class="cp-grade-letter">C-</div>
+      <div class="cp-grade-desc">Critical</div>
+      <div class="cp-grade-score">Overall score 34.7/100</div>
     </div>
-  </div>
-</div>
+  </header>
 
-<div class="city-body">
-
-  <div class="city-columns">
-
-    <div class="scorecard">
-      <div class="section-title">Metric Scorecard</div>
-      <p class="score-scale-note">Scores run 0&ndash;100. A score of 80 means this city beats 80% of the 50 metros.</p>
-      <div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Labor Demand</span>
-    <span class="metric-weight">25% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:64%;background:#059669;"></div>
-  </div>
-  <div class="metric-score" style="color:#059669;">64</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Unemployment</span>
-    <span class="metric-weight">20% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:14%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">14</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Wage Growth</span>
-    <span class="metric-weight">15% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:22%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">22</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Cost of Living</span>
-    <span class="metric-weight">12% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:57%;background:#D97706;"></div>
-  </div>
-  <div class="metric-score" style="color:#D97706;">57</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Labor Force Growth</span>
-    <span class="metric-weight">10% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:4%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">4</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Building Permits</span>
-    <span class="metric-weight">10% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:16%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">16</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Days on Market</span>
-    <span class="metric-weight"> 5% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:30%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">30</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Office Economy</span>
-    <span class="metric-weight"> 3% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:74%;background:#059669;"></div>
-  </div>
-  <div class="metric-score" style="color:#059669;">74</div>
-</div>
-
+  <div class="cp-summary">
+    <div class="cp-summary-text">
+      <p class="cp-lead">The Denver-Aurora-Centennial metro area has an overall grade of C-, with a score of 34.7 out of 100, indicating it is struggling compared to other major US cities. The city's economy is currently defined by slow job growth, with employment increasing by only 0.2% over the past year, and a relatively high unemployment rate of 4.3%, which is higher than most metros.</p>
     </div>
+    <aside class="cp-glance">
+      <div class="cp-label">At a glance</div>
+      <a class="cp-glance-row" href="#labor-demand">
+  <span class="cp-glance-name">Labor Demand</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-strength" style="width:64%"></span></span>
+  <span class="cp-glance-score cp-strength-text">64</span>
+</a>
+<a class="cp-glance-row" href="#unemployment">
+  <span class="cp-glance-name">Unemployment</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:14%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">14</span>
+</a>
+<a class="cp-glance-row" href="#wage-growth">
+  <span class="cp-glance-name">Wage Growth</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:22%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">22</span>
+</a>
+<a class="cp-glance-row" href="#cost-of-living">
+  <span class="cp-glance-name">Cost of Living</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-average" style="width:57%"></span></span>
+  <span class="cp-glance-score cp-average-text">57</span>
+</a>
+<a class="cp-glance-row" href="#labor-force-growth">
+  <span class="cp-glance-name">Labor Force Growth</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:4%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">4</span>
+</a>
+<a class="cp-glance-row" href="#building-permits">
+  <span class="cp-glance-name">Building Permits</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:16%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">16</span>
+</a>
+<a class="cp-glance-row" href="#days-on-market">
+  <span class="cp-glance-name">Days on Market</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:30%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">30</span>
+</a>
+<a class="cp-glance-row" href="#office-economy">
+  <span class="cp-glance-name">Office Economy</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-strength" style="width:74%"></span></span>
+  <span class="cp-glance-score cp-strength-text">74</span>
+</a>
 
-    <div class="key-indicators">
-      <div class="section-title">Key Indicators</div>
-      <div class="indicators-grid">
-        <div class="stat-tile">
-  <div class="stat-label">Unemployment</div>
-  <div class="stat-value">4.3%</div>
-  <div class="stat-sub">unemployment rate</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Wage Growth YoY</div>
-  <div class="stat-value">+1.9%</div>
-  <div class="stat-sub">avg hourly earnings</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Employment Growth</div>
-  <div class="stat-value">+0.2%</div>
-  <div class="stat-sub">nonfarm payrolls YoY</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Labor Force YoY</div>
-  <div class="stat-value">-2.4%</div>
-  <div class="stat-sub">civilian labor force YoY</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Building Permits</div>
-  <div class="stat-value">-18.6%</div>
-  <div class="stat-sub">permits YoY</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Days on Market</div>
-  <div class="stat-value">60 days</div>
-  <div class="stat-sub">median days on market</div>
-</div>
+      <p class="cp-scale">Scores run 0&ndash;100. A score of 80 means this city beats 80% of the 50 metros; 50 is the middle.</p>
+    </aside>
+  </div>
 
-      </div>
+  <section class="cp-metric" id="labor-demand">
+  <div class="cp-metric-head">
+    <h2>Labor Demand</h2>
+    <span class="cp-weight">25% of grade</span>
+  </div>
+  <p class="cp-explainer">Whether employers are adding jobs, based on job growth over the past year and changes in weekly work hours.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">+0.2%</div>
+      <div class="cp-num-what">change in jobs over the past year</div>
+      <div class="cp-num-detail">Weekly hours +1.2% vs. their usual level</div>
     </div>
-
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 64 out of 100, strength">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-strength" style="width:64%"></div>
   </div>
-
-  <div class="signal-section">
-    <div class="section-title">Labor Market Signal</div>
-    <div class="signal-badge" style="background:#059669;">STRONG</div>
-    <div class="signal-desc">Employment and hours both above trend — genuine demand confirmation.</div>
+  <div class="cp-score-label"><strong class="cp-strength-text">64</strong>/100 &middot; Strength</div>
+</div>
   </div>
-
-  <div class="analysis-section">
-    <div class="section-title">Economic Analysis</div>
-    <p>The Denver-Aurora-Centennial metro area has an overall grade of C-, with a score of 34.7 out of 100, indicating it is struggling compared to other major US cities. The city's economy is currently defined by slow employment growth, with only a 0.2% increase in jobs over the past year, and a relatively high unemployment rate of 4.3%, which is higher than most metros.</p>
-<h4 class="narrative-heading">Labor Demand</h4>
-<p class="metric-explainer">Whether employers are adding jobs, based on job growth over the past year and changes in weekly work hours.</p>
-<p>The city is adding jobs, but at a slow pace of 0.2% over the past year, and workers are putting in more hours, with a 1.2% increase in weekly hours, indicating a strong labor demand. This means that the job market is relatively healthy, with a score of 64 out of 100, better than most of the 50 metros.</p>
-<h4 class="narrative-heading">Unemployment</h4>
-<p class="metric-explainer">The share of people who want a job but can't find one; lower is better.</p>
-<p>The unemployment rate in Denver-Aurora-Centennial is 4.3%, which is higher than most metros, making it easier for employers to hire, but also indicating weaker local consumer demand, with a score of 14 out of 100. This higher unemployment rate gives employers more options when looking for workers, but it also means that there may be less disposable income in the local economy.</p>
-<h4 class="narrative-heading">Wage Growth</h4>
-<p class="metric-explainer">How much average hourly pay rose over the past year.</p>
-<p>Pay in Denver-Aurora-Centennial rose by 1.9% over the past year, which is slower than most metros, with a score of 22 out of 100, indicating that employers may not face significant wage pressure, but workers may not see much of an increase in their paychecks. This slow wage growth means that labor costs for employers are not rising quickly, but it also means that workers may not have as much purchasing power.</p>
-<h4 class="narrative-heading">Cost of Living</h4>
-<p class="metric-explainer">How many hours a local worker needs to work to pay for one square foot of a home, and whether that's improving.</p>
-<p>The cost of living in Denver-Aurora-Centennial is about average, with a score of 57 out of 100, and housing costs $277 per square foot, which is decreasing by 3.5% over the past year, compared to an hourly pay of $43.06. This means that housing is becoming more affordable for local workers, which could be an advantage for attracting talent to the area.</p>
-<h4 class="narrative-heading">Labor Force Growth</h4>
-<p class="metric-explainer">Whether the number of people working or looking for work is growing.</p>
-<p>The pool of workers in Denver-Aurora-Centennial is shrinking, with a decline of 2.4% over the past year, which is slower than most metros, with a score of 4 out of 100, indicating a significant challenge for hiring and a potential structural headwind for the local economy. This decline in the labor force means that employers may struggle to find the workers they need, which could limit economic growth.</p>
-<h4 class="narrative-heading">Building Permits</h4>
-<p class="metric-explainer">How many new homes builders got approval for, compared with a year ago.</p>
-<p>New home approvals in Denver-Aurora-Centennial decreased by 18.6% over the past year, with a score of 16 out of 100, indicating a weaker home-building market than most metros, which could lead to a supply squeeze and make housing less affordable in the future. This decline in building permits signals that the city's housing supply may not be keeping up with demand, which could drive up prices and make it harder for workers to find affordable housing.</p>
-<h4 class="narrative-heading">Days on Market</h4>
-<p class="metric-explainer">How long a typical home for sale takes to find a buyer; about 35 to 80 days is healthiest.</p>
-<p>Homes in Denver-Aurora-Centennial are taking 60 days to sell, which is getting slower, with a decline of 4.8% over the past year, and a score of 30 out of 100, indicating a weaker housing market than most metros. This slower pace of home sales means that the housing market is softening, which could make it easier for buyers to find a home, but also indicates that the market may be cooling down.</p>
-<h4 class="narrative-heading">Office Economy</h4>
-<p class="metric-explainer">The share of jobs in office-based fields like tech, finance and professional services.</p>
-<p>Denver-Aurora-Centennial has a large office-based workforce, with a score of 74 out of 100, better than most of the 50 metros, making it a good fit for businesses in the tech, finance, and professional services sectors. This strong office economy means that the city has a deep talent pool in these areas, which could attract businesses looking to establish or expand their operations.</p>
-<p>The biggest strength of the Denver-Aurora-Centennial metro area is its large and skilled office-based workforce, which makes it an attractive location for businesses in the tech and finance sectors. However, the city's biggest risk is its slow labor force growth, which could limit economic expansion and make it harder for employers to find the workers they need.</p>
+  <p class="cp-signal"><span class="cp-signal-tag">Strong</span> Jobs and weekly hours are both rising.</p>
+  <p class="cp-text">The city is adding jobs, but at a slow pace of 0.2% over the past year, and workers are putting in slightly more hours, with a 1.2% increase. This suggests a moderate job market, with some demand for labor, but not as strong as most other metros, earning a score of 64 out of 100.</p>
+</section>
+<section class="cp-metric" id="unemployment">
+  <div class="cp-metric-head">
+    <h2>Unemployment</h2>
+    <span class="cp-weight">20% of grade</span>
   </div>
+  <p class="cp-explainer">The share of people who want a job but can't find one; lower is better.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">4.3%</div>
+      <div class="cp-num-what">unemployment rate</div>
+      <div class="cp-num-detail">Up 0.5 points from a year ago</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 14 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:14%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">14</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The unemployment rate of 4.3% makes it relatively easy for employers to hire, as there are more workers available, but this also indicates a weaker labor market, with a score of 14 out of 100. This higher unemployment rate compared to other metros means that employers may have an easier time finding staff, but it also suggests slower consumer spending.</p>
+</section>
+<section class="cp-metric" id="wage-growth">
+  <div class="cp-metric-head">
+    <h2>Wage Growth</h2>
+    <span class="cp-weight">15% of grade</span>
+  </div>
+  <p class="cp-explainer">How much average hourly pay rose over the past year.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">+1.9%</div>
+      <div class="cp-num-what">change in hourly pay over the past year</div>
+      <div class="cp-num-detail">Average pay is $43.06 an hour</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 22 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:22%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">22</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">Pay rose by 1.9% over the past year, which is slower than most other metros, earning a score of 22 out of 100. This slow wage growth means that employers may face lower labor costs, but it also means that workers may have less purchasing power, which can impact local consumer demand.</p>
+</section>
+<section class="cp-metric" id="cost-of-living">
+  <div class="cp-metric-head">
+    <h2>Cost of Living</h2>
+    <span class="cp-weight">12% of grade</span>
+  </div>
+  <p class="cp-explainer">How many hours a local worker needs to work to pay for one square foot of a home, and whether that's improving.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">6.4 hrs</div>
+      <div class="cp-num-what">of pay to buy one square foot of home</div>
+      <div class="cp-num-detail">$277 per sq. ft. (&minus;3.5% in a year) &middot; $43.06 an hour</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 57 out of 100, about average">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-average" style="width:57%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-average-text">57</strong>/100 &middot; About average</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The cost of living in Denver is about average, with a price per square foot of $277 and hourly pay of $43.06, and it is getting more affordable as housing prices have fallen by 3.5% over the past year, earning a score of 57 out of 100. This means that local workers may find it easier to afford housing compared to other metros, which can be a talent attraction advantage.</p>
+</section>
+<section class="cp-metric" id="labor-force-growth">
+  <div class="cp-metric-head">
+    <h2>Labor Force Growth</h2>
+    <span class="cp-weight">10% of grade</span>
+  </div>
+  <p class="cp-explainer">Whether the number of people working or looking for work is growing.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">&minus;2.4%</div>
+      <div class="cp-num-what">change in people working or looking for work</div>
+      
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 4 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:4%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">4</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The pool of workers is shrinking, with a decline of 2.4% over the past year, earning a score of 4 out of 100. This decline in the labor force makes it harder for employers to find new staff, and it can be a structural headwind for hiring and business growth.</p>
+</section>
+<section class="cp-metric" id="building-permits">
+  <div class="cp-metric-head">
+    <h2>Building Permits</h2>
+    <span class="cp-weight">10% of grade</span>
+  </div>
+  <p class="cp-explainer">How many new homes builders got approval for, compared with a year ago.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">&minus;18.6%</div>
+      <div class="cp-num-what">change in new home approvals vs. a year ago</div>
+      
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 16 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:16%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">16</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">New home approvals have fallen by 18.6% over the past year, earning a score of 16 out of 100. This decline in building permits suggests that the future housing supply may be limited, which can lead to affordability issues and make it harder for workers to relocate to the area.</p>
+</section>
+<section class="cp-metric" id="days-on-market">
+  <div class="cp-metric-head">
+    <h2>Days on Market</h2>
+    <span class="cp-weight">5% of grade</span>
+  </div>
+  <p class="cp-explainer">How long a typical home for sale takes to find a buyer; about 35 to 80 days is healthiest.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">60 days</div>
+      <div class="cp-num-what">for a typical home to sell</div>
+      <div class="cp-num-detail">&minus;4.8% vs. a year ago</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 30 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:30%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">30</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">Homes are taking 60 days to sell, which is getting slower, with a decline of 4.8% over the past year, earning a score of 30 out of 100. This slower pace of home sales indicates a softer housing market, which can make it harder for owners to sell their homes and relocate, and may be a sign of a weakening market.</p>
+</section>
+<section class="cp-metric" id="office-economy">
+  <div class="cp-metric-head">
+    <h2>Office Economy</h2>
+    <span class="cp-weight">3% of grade</span>
+  </div>
+  <p class="cp-explainer">The share of jobs in office-based fields like tech, finance and professional services.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">13 in 100</div>
+      <div class="cp-num-what">residents work in office-based jobs</div>
+      
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 74 out of 100, strength">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-strength" style="width:74%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-strength-text">74</strong>/100 &middot; Strength</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The city has a large office-based workforce, with a score of 74 out of 100, indicating a deeper talent pool in tech, finance, and professional services compared to most other metros. This makes Denver a suitable location for businesses in these sectors, such as tech, finance, and consulting firms, which can tap into the city's skilled workforce.</p>
+</section>
 
-  <div class="city-nav">
+  <section class="cp-bottom">
+  <h2>The bottom line</h2>
+  <p>The bottom line is that Denver's biggest strength is its large office-based workforce, which makes it an attractive location for businesses in tech, finance, and professional services. However, the city's biggest risk is its slow labor force growth, which can make it harder for employers to find new staff and limit business growth, earning the city an overall grade of C-.</p>
+</section>
+
+  <nav class="cp-pager">
     <div><a href="milwaukee.html">&larr; #40 Milwaukee</a></div>
-    <div class="city-nav-back"><a href="../rankings.html">&#8592; All Rankings</a></div>
+    <div><a href="../rankings.html">All rankings</a></div>
     <div><a href="birmingham.html">#42 Birmingham &rarr;</a></div>
-  </div>
-
-</div>
+  </nav>
+</article>
   </main>
   <footer class="site-footer">
   <div class="footer-inner">

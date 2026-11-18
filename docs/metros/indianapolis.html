@@ -5,8 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Indianapolis | U.S. Metro Economic Health Report</title>
   <link rel="stylesheet" href="../assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap">
+  <link rel="stylesheet" href="../assets/city.css">
 </head>
-<body>
+<body class="city-page">
   <nav class="site-nav">
   <div class="nav-inner">
     <a class="nav-brand" href="../index.html">U.S. METRO ECONOMIC HEALTH</a>
@@ -17,194 +21,267 @@
   </div>
 </nav>
   <main class="site-main">
-    <div class="city-header" style="background-color:#7C3AED;">
-  <div class="city-header-inner">
-    <div class="city-header-left">
-      <div class="rank-label">U.S. METRO ECONOMIC HEALTH &middot; RANK #45 OF 50</div>
-      <div class="city-title">Indianapolis</div>
-      <div class="metro-name">Indianapolis-Carmel-Greenwood</div>
+    <article class="cp">
+  <header class="cp-header">
+    <div class="cp-header-text">
+      <div class="cp-kicker">Rank 45 of 50 &middot; November 2026</div>
+      <h1>Indianapolis</h1>
+      <div class="cp-metro">Indianapolis-Carmel-Greenwood metro area</div>
     </div>
-    <div class="city-header-right">
-      <div class="grade-letter">D</div>
-      <div class="grade-desc">Emergency</div>
-      <div class="percentile-score">28.2 score</div>
-      <div class="rank-of">Rank 45 of 50 metros</div>
+    <div class="cp-grade" style="--grade:#7C3AED">
+      <div class="cp-grade-letter">D</div>
+      <div class="cp-grade-desc">Emergency</div>
+      <div class="cp-grade-score">Overall score 28.2/100</div>
     </div>
-  </div>
-</div>
+  </header>
 
-<div class="city-body">
-
-  <div class="city-columns">
-
-    <div class="scorecard">
-      <div class="section-title">Metric Scorecard</div>
-      <p class="score-scale-note">Scores run 0&ndash;100. A score of 80 means this city beats 80% of the 50 metros.</p>
-      <div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Labor Demand</span>
-    <span class="metric-weight">25% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:2%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">2</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Unemployment</span>
-    <span class="metric-weight">20% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:64%;background:#059669;"></div>
-  </div>
-  <div class="metric-score" style="color:#059669;">64</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Wage Growth</span>
-    <span class="metric-weight">15% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:6%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">6</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Cost of Living</span>
-    <span class="metric-weight">12% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:10%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">10</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Labor Force Growth</span>
-    <span class="metric-weight">10% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:28%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">28</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Building Permits</span>
-    <span class="metric-weight">10% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:62%;background:#059669;"></div>
-  </div>
-  <div class="metric-score" style="color:#059669;">62</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Days on Market</span>
-    <span class="metric-weight"> 5% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:66%;background:#059669;"></div>
-  </div>
-  <div class="metric-score" style="color:#059669;">66</div>
-</div>
-<div class="metric-row">
-  <div class="metric-label">
-    <span class="metric-name">Office Economy</span>
-    <span class="metric-weight"> 3% weight</span>
-  </div>
-  <div class="metric-bar-track">
-    <div class="metric-bar-fill" style="width:16%;background:#EF4444;"></div>
-  </div>
-  <div class="metric-score" style="color:#EF4444;">16</div>
-</div>
-
+  <div class="cp-summary">
+    <div class="cp-summary-text">
+      <p class="cp-lead">The Indianapolis-Carmel-Greenwood metro area has an overall grade of D, with a score of 28.2 out of 100, indicating significant economic challenges. The city's economy is currently defined by slow job growth, with employment declining by 0.6% over the past year, and a relatively low unemployment rate of 3.4%, which is a strength, but also signals a tight labor market.</p>
     </div>
+    <aside class="cp-glance">
+      <div class="cp-label">At a glance</div>
+      <a class="cp-glance-row" href="#labor-demand">
+  <span class="cp-glance-name">Labor Demand</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:2%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">2</span>
+</a>
+<a class="cp-glance-row" href="#unemployment">
+  <span class="cp-glance-name">Unemployment</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-strength" style="width:64%"></span></span>
+  <span class="cp-glance-score cp-strength-text">64</span>
+</a>
+<a class="cp-glance-row" href="#wage-growth">
+  <span class="cp-glance-name">Wage Growth</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:6%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">6</span>
+</a>
+<a class="cp-glance-row" href="#cost-of-living">
+  <span class="cp-glance-name">Cost of Living</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:10%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">10</span>
+</a>
+<a class="cp-glance-row" href="#labor-force-growth">
+  <span class="cp-glance-name">Labor Force Growth</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:28%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">28</span>
+</a>
+<a class="cp-glance-row" href="#building-permits">
+  <span class="cp-glance-name">Building Permits</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-strength" style="width:62%"></span></span>
+  <span class="cp-glance-score cp-strength-text">62</span>
+</a>
+<a class="cp-glance-row" href="#days-on-market">
+  <span class="cp-glance-name">Days on Market</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-strength" style="width:66%"></span></span>
+  <span class="cp-glance-score cp-strength-text">66</span>
+</a>
+<a class="cp-glance-row" href="#office-economy">
+  <span class="cp-glance-name">Office Economy</span>
+  <span class="cp-glance-bar"><span class="cp-bar-fill cp-weakness" style="width:16%"></span></span>
+  <span class="cp-glance-score cp-weakness-text">16</span>
+</a>
 
-    <div class="key-indicators">
-      <div class="section-title">Key Indicators</div>
-      <div class="indicators-grid">
-        <div class="stat-tile">
-  <div class="stat-label">Unemployment</div>
-  <div class="stat-value">3.4%</div>
-  <div class="stat-sub">unemployment rate</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Wage Growth YoY</div>
-  <div class="stat-value">+0.5%</div>
-  <div class="stat-sub">avg hourly earnings</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Employment Growth</div>
-  <div class="stat-value">-0.6%</div>
-  <div class="stat-sub">nonfarm payrolls YoY</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Labor Force YoY</div>
-  <div class="stat-value">-1.1%</div>
-  <div class="stat-sub">civilian labor force YoY</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Building Permits</div>
-  <div class="stat-value">+10.4%</div>
-  <div class="stat-sub">permits YoY</div>
-</div>
-<div class="stat-tile">
-  <div class="stat-label">Days on Market</div>
-  <div class="stat-value">55 days</div>
-  <div class="stat-sub">median days on market</div>
-</div>
+      <p class="cp-scale">Scores run 0&ndash;100. A score of 80 means this city beats 80% of the 50 metros; 50 is the middle.</p>
+    </aside>
+  </div>
 
-      </div>
+  <section class="cp-metric" id="labor-demand">
+  <div class="cp-metric-head">
+    <h2>Labor Demand</h2>
+    <span class="cp-weight">25% of grade</span>
+  </div>
+  <p class="cp-explainer">Whether employers are adding jobs, based on job growth over the past year and changes in weekly work hours.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">&minus;0.6%</div>
+      <div class="cp-num-what">change in jobs over the past year</div>
+      <div class="cp-num-detail">Weekly hours +0.7% vs. their usual level</div>
     </div>
-
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 2 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:2%"></div>
   </div>
-
-  <div class="signal-section">
-    <div class="section-title">Labor Market Signal</div>
-    <div class="signal-badge" style="background:#D97706;">SQUEEZE</div>
-    <div class="signal-desc">Payrolls contracting while hours rise — survivor squeeze signal.</div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">2</strong>/100 &middot; Weakness</div>
+</div>
   </div>
-
-  <div class="analysis-section">
-    <div class="section-title">Economic Analysis</div>
-    <p>The Indianapolis-Carmel-Greenwood metro area has an overall grade of D, with a score of 28.2 out of 100, indicating significant economic challenges. The city's economy is currently defined by a decline in job growth, with employment shrinking by 0.6% over the past year, and a relatively low unemployment rate of 3.4%, which is a strength, but also signals a tight labor market.</p>
-<h4 class="narrative-heading">Labor Demand</h4>
-<p class="metric-explainer">Whether employers are adding jobs, based on job growth over the past year and changes in weekly work hours.</p>
-<p>The city is losing jobs, with employment down 0.6% over the past year, and while workers' hours are up 0.7%, this is a weakness, indicating that remaining workers are putting in extra hours after job cuts. This means the job market is not as strong as it could be, with a score of 2 out of 100, indicating weaker hiring than most metros.</p>
-<h4 class="narrative-heading">Unemployment</h4>
-<p class="metric-explainer">The share of people who want a job but can't find one; lower is better.</p>
-<p>The unemployment rate of 3.4% is relatively low, making it a strength, with a score of 64 out of 100, indicating lower unemployment than most metros. This low unemployment rate makes it harder for employers to hire, as there are fewer available workers, and may also lead to upward pressure on wages.</p>
-<h4 class="narrative-heading">Wage Growth</h4>
-<p class="metric-explainer">How much average hourly pay rose over the past year.</p>
-<p>Pay rose by only 0.5% over the past year, which is a weakness, with a score of 6 out of 100, indicating slower pay growth than most metros. This slow wage growth means that employers may not face significant labor cost increases, but workers may not see much improvement in their purchasing power.</p>
-<h4 class="narrative-heading">Cost of Living</h4>
-<p class="metric-explainer">How many hours a local worker needs to work to pay for one square foot of a home, and whether that's improving.</p>
-<p>Housing in the area is relatively expensive, with a price of $164 per square foot, and hourly pay of $33.83, making it less affordable than most metros, with a score of 10 out of 100. The cost of living is getting worse, as housing prices have risen by 5.1% over the past year, making it harder for workers to afford homes.</p>
-<h4 class="narrative-heading">Labor Force Growth</h4>
-<p class="metric-explainer">Whether the number of people working or looking for work is growing.</p>
-<p>The pool of workers is shrinking, with a decline of 1.1% over the past year, which is a weakness, with a score of 28 out of 100, indicating slower workforce growth than most metros. This decline in the labor force makes it harder for employers to find new hires and may lead to labor shortages.</p>
-<h4 class="narrative-heading">Building Permits</h4>
-<p class="metric-explainer">How many new homes builders got approval for, compared with a year ago.</p>
-<p>New home approvals are up 10.4% over the past year, which is a strength, with a score of 62 out of 100, indicating stronger home-building than most metros. This increase in building permits signals that the housing supply may improve in the future, making homes more affordable for workers.</p>
-<h4 class="narrative-heading">Days on Market</h4>
-<p class="metric-explainer">How long a typical home for sale takes to find a buyer; about 35 to 80 days is healthiest.</p>
-<p>Homes are taking 55 days to sell, which is getting slower, with a 10% increase over the past year, but still indicates a relatively healthy housing market, with a score of 66 out of 100. This slower pace of home sales is a sign of a more balanced market, where buyers have more time to find a home, and sellers are not under as much pressure to sell quickly.</p>
-<h4 class="narrative-heading">Office Economy</h4>
-<p class="metric-explainer">The share of jobs in office-based fields like tech, finance and professional services.</p>
-<p>The city's office-based workforce is relatively small, with a score of 16 out of 100, indicating a smaller office workforce than most metros. This smaller office workforce makes the city less suited for businesses that rely on a large pool of professional and technical workers, such as tech, finance, and consulting firms.</p>
-<p>The biggest strength of the Indianapolis-Carmel-Greenwood metro area is its low unemployment rate, which indicates a tight labor market, but also makes it harder for employers to hire. The biggest risk is the city's declining labor force and slow wage growth, which may lead to labor shortages and make it harder for workers to afford homes, ultimately affecting the city's overall economic competitiveness.</p>
+  <p class="cp-signal"><span class="cp-signal-tag">Squeeze</span> Jobs are being cut while remaining workers put in more hours.</p>
+  <p class="cp-text">The city is losing jobs, with a 0.6% decline in employment over the past year, and while workers' hours are rising by 0.7%, this is not enough to offset the job losses, indicating a weak labor demand. This means that the job market is not strong, with fewer jobs being added than in most other metros, scoring 2 out of 100.</p>
+</section>
+<section class="cp-metric" id="unemployment">
+  <div class="cp-metric-head">
+    <h2>Unemployment</h2>
+    <span class="cp-weight">20% of grade</span>
   </div>
+  <p class="cp-explainer">The share of people who want a job but can't find one; lower is better.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">3.4%</div>
+      <div class="cp-num-what">unemployment rate</div>
+      <div class="cp-num-detail">Unchanged from a year ago</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 64 out of 100, strength">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-strength" style="width:64%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-strength-text">64</strong>/100 &middot; Strength</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The unemployment rate of 3.4% is relatively low, scoring 64 out of 100, making it harder for employers to hire as the labor market is tight. This low unemployment rate is a strength, but it also means that employers may face wage pressure and have to compete more aggressively for workers.</p>
+</section>
+<section class="cp-metric" id="wage-growth">
+  <div class="cp-metric-head">
+    <h2>Wage Growth</h2>
+    <span class="cp-weight">15% of grade</span>
+  </div>
+  <p class="cp-explainer">How much average hourly pay rose over the past year.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">+0.5%</div>
+      <div class="cp-num-what">change in hourly pay over the past year</div>
+      <div class="cp-num-detail">Average pay is $33.83 an hour</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 6 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:6%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">6</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">Pay rose by only 0.5% over the past year, which is slower than in most other metros, scoring 6 out of 100, meaning that employers' labor costs are not rising quickly, but workers' paychecks are not growing much either. This slow wage growth is a weakness, as it may not keep pace with inflation or provide workers with much bargaining power.</p>
+</section>
+<section class="cp-metric" id="cost-of-living">
+  <div class="cp-metric-head">
+    <h2>Cost of Living</h2>
+    <span class="cp-weight">12% of grade</span>
+  </div>
+  <p class="cp-explainer">How many hours a local worker needs to work to pay for one square foot of a home, and whether that's improving.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">4.8 hrs</div>
+      <div class="cp-num-what">of pay to buy one square foot of home</div>
+      <div class="cp-num-detail">$164 per sq. ft. (+5.1% in a year) &middot; $33.83 an hour</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 10 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:10%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">10</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The cost of living in Indianapolis is relatively high, with a price per square foot of $164 and hourly pay of $33.83, scoring 10 out of 100, indicating that housing is less affordable than in most other metros, and getting worse with a 5.1% increase in price per square foot over the past year. This makes it harder for workers to afford housing, and may require employers to offer higher wages to attract and retain talent.</p>
+</section>
+<section class="cp-metric" id="labor-force-growth">
+  <div class="cp-metric-head">
+    <h2>Labor Force Growth</h2>
+    <span class="cp-weight">10% of grade</span>
+  </div>
+  <p class="cp-explainer">Whether the number of people working or looking for work is growing.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">&minus;1.1%</div>
+      <div class="cp-num-what">change in people working or looking for work</div>
+      
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 28 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:28%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">28</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The pool of workers in Indianapolis is shrinking, with a decline of 1.1% over the past year, scoring 28 out of 100, which is a weakness, as it means that the labor force is not growing as quickly as in other metros. This slow labor force growth makes it harder for employers to find new workers and may lead to a structural headwind for hiring.</p>
+</section>
+<section class="cp-metric" id="building-permits">
+  <div class="cp-metric-head">
+    <h2>Building Permits</h2>
+    <span class="cp-weight">10% of grade</span>
+  </div>
+  <p class="cp-explainer">How many new homes builders got approval for, compared with a year ago.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">+10.4%</div>
+      <div class="cp-num-what">change in new home approvals vs. a year ago</div>
+      
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 62 out of 100, strength">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-strength" style="width:62%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-strength-text">62</strong>/100 &middot; Strength</div>
+</div>
+  </div>
+  
+  <p class="cp-text">New home approvals increased by 10.4% over the past year, scoring 62 out of 100, which is a strength, as it signals that developers are confident in the market and that future housing supply is expanding. This should help improve affordability and attract more workers to the area.</p>
+</section>
+<section class="cp-metric" id="days-on-market">
+  <div class="cp-metric-head">
+    <h2>Days on Market</h2>
+    <span class="cp-weight">5% of grade</span>
+  </div>
+  <p class="cp-explainer">How long a typical home for sale takes to find a buyer; about 35 to 80 days is healthiest.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">55 days</div>
+      <div class="cp-num-what">for a typical home to sell</div>
+      <div class="cp-num-detail">+10.0% vs. a year ago</div>
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 66 out of 100, strength">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-strength" style="width:66%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-strength-text">66</strong>/100 &middot; Strength</div>
+</div>
+  </div>
+  
+  <p class="cp-text">Homes in Indianapolis are taking 55 days to sell, with a 10% increase in days on market over the past year, scoring 66 out of 100, which is a strength, indicating a healthier housing market. This suggests that the housing market is not too tight, and buyers have a reasonable amount of time to find a home, which is good for relocating workers.</p>
+</section>
+<section class="cp-metric" id="office-economy">
+  <div class="cp-metric-head">
+    <h2>Office Economy</h2>
+    <span class="cp-weight">3% of grade</span>
+  </div>
+  <p class="cp-explainer">The share of jobs in office-based fields like tech, finance and professional services.</p>
+  <div class="cp-metric-body">
+    <div class="cp-num">
+      <div class="cp-num-big">10 in 100</div>
+      <div class="cp-num-what">residents work in office-based jobs</div>
+      
+    </div>
+    <div class="cp-score">
+  <div class="cp-bar" role="img" aria-label="Score 16 out of 100, weakness">
+    <div class="cp-bar-mid"></div>
+    <div class="cp-bar-fill cp-weakness" style="width:16%"></div>
+  </div>
+  <div class="cp-score-label"><strong class="cp-weakness-text">16</strong>/100 &middot; Weakness</div>
+</div>
+  </div>
+  
+  <p class="cp-text">The city's office-based workforce is smaller than in most other metros, scoring 16 out of 100, which is a weakness, as it means that there are fewer specialized roles and a less deep talent pool for tech, finance, and professional services. This makes Indianapolis less suited for businesses that rely on a large office-based workforce.</p>
+</section>
 
-  <div class="city-nav">
+  <section class="cp-bottom">
+  <h2>The bottom line</h2>
+  <p>The bottom line is that Indianapolis' biggest strength is its low unemployment rate, which indicates a tight labor market, but also its biggest risk is its slow job growth and shrinking labor force, which may make it harder for employers to find and retain workers. Overall, the city's economic challenges, including slow wage growth and a high cost of living, make it a less attractive location for businesses and workers compared to other metros.</p>
+</section>
+
+  <nav class="cp-pager">
     <div><a href="jacksonville.html">&larr; #44 Jacksonville</a></div>
-    <div class="city-nav-back"><a href="../rankings.html">&#8592; All Rankings</a></div>
+    <div><a href="../rankings.html">All rankings</a></div>
     <div><a href="grand-rapids.html">#46 Grand Rapids &rarr;</a></div>
-  </div>
-
-</div>
+  </nav>
+</article>
   </main>
   <footer class="site-footer">
   <div class="footer-inner">

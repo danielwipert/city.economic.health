@@ -4,30 +4,30 @@
 
 ---
 
-The Denver-Aurora-Centennial metro area has an overall grade of C-, with a score of 34.7 out of 100, indicating it is struggling compared to other major US cities. The city's economy is currently defined by slow employment growth, with only a 0.2% increase in jobs over the past year, and a relatively high unemployment rate of 4.3%, which is higher than most metros.
+The Denver-Aurora-Centennial metro area has an overall grade of C-, with a score of 34.7 out of 100, indicating it is struggling compared to other major US cities. The city's economy is currently defined by slow job growth, with employment increasing by only 0.2% over the past year, and a relatively high unemployment rate of 4.3%, which is higher than most metros.
 
 **Labor Demand**
-The city is adding jobs, but at a slow pace of 0.2% over the past year, and workers are putting in more hours, with a 1.2% increase in weekly hours, indicating a strong labor demand. This means that the job market is relatively healthy, with a score of 64 out of 100, better than most of the 50 metros.
+The city is adding jobs, but at a slow pace of 0.2% over the past year, and workers are putting in slightly more hours, with a 1.2% increase. This suggests a moderate job market, with some demand for labor, but not as strong as most other metros, earning a score of 64 out of 100.
 
 **Unemployment**
-The unemployment rate in Denver-Aurora-Centennial is 4.3%, which is higher than most metros, making it easier for employers to hire, but also indicating weaker local consumer demand, with a score of 14 out of 100. This higher unemployment rate gives employers more options when looking for workers, but it also means that there may be less disposable income in the local economy.
+The unemployment rate of 4.3% makes it relatively easy for employers to hire, as there are more workers available, but this also indicates a weaker labor market, with a score of 14 out of 100. This higher unemployment rate compared to other metros means that employers may have an easier time finding staff, but it also suggests slower consumer spending.
 
 **Wage Growth**
-Pay in Denver-Aurora-Centennial rose by 1.9% over the past year, which is slower than most metros, with a score of 22 out of 100, indicating that employers may not face significant wage pressure, but workers may not see much of an increase in their paychecks. This slow wage growth means that labor costs for employers are not rising quickly, but it also means that workers may not have as much purchasing power.
+Pay rose by 1.9% over the past year, which is slower than most other metros, earning a score of 22 out of 100. This slow wage growth means that employers may face lower labor costs, but it also means that workers may have less purchasing power, which can impact local consumer demand.
 
 **Cost of Living**
-The cost of living in Denver-Aurora-Centennial is about average, with a score of 57 out of 100, and housing costs $277 per square foot, which is decreasing by 3.5% over the past year, compared to an hourly pay of $43.06. This means that housing is becoming more affordable for local workers, which could be an advantage for attracting talent to the area.
+The cost of living in Denver is about average, with a price per square foot of $277 and hourly pay of $43.06, and it is getting more affordable as housing prices have fallen by 3.5% over the past year, earning a score of 57 out of 100. This means that local workers may find it easier to afford housing compared to other metros, which can be a talent attraction advantage.
 
 **Labor Force Growth**
-The pool of workers in Denver-Aurora-Centennial is shrinking, with a decline of 2.4% over the past year, which is slower than most metros, with a score of 4 out of 100, indicating a significant challenge for hiring and a potential structural headwind for the local economy. This decline in the labor force means that employers may struggle to find the workers they need, which could limit economic growth.
+The pool of workers is shrinking, with a decline of 2.4% over the past year, earning a score of 4 out of 100. This decline in the labor force makes it harder for employers to find new staff, and it can be a structural headwind for hiring and business growth.
 
 **Building Permits**
-New home approvals in Denver-Aurora-Centennial decreased by 18.6% over the past year, with a score of 16 out of 100, indicating a weaker home-building market than most metros, which could lead to a supply squeeze and make housing less affordable in the future. This decline in building permits signals that the city's housing supply may not be keeping up with demand, which could drive up prices and make it harder for workers to find affordable housing.
+New home approvals have fallen by 18.6% over the past year, earning a score of 16 out of 100. This decline in building permits suggests that the future housing supply may be limited, which can lead to affordability issues and make it harder for workers to relocate to the area.
 
 **Days on Market**
-Homes in Denver-Aurora-Centennial are taking 60 days to sell, which is getting slower, with a decline of 4.8% over the past year, and a score of 30 out of 100, indicating a weaker housing market than most metros. This slower pace of home sales means that the housing market is softening, which could make it easier for buyers to find a home, but also indicates that the market may be cooling down.
+Homes are taking 60 days to sell, which is getting slower, with a decline of 4.8% over the past year, earning a score of 30 out of 100. This slower pace of home sales indicates a softer housing market, which can make it harder for owners to sell their homes and relocate, and may be a sign of a weakening market.
 
 **Office Economy**
-Denver-Aurora-Centennial has a large office-based workforce, with a score of 74 out of 100, better than most of the 50 metros, making it a good fit for businesses in the tech, finance, and professional services sectors. This strong office economy means that the city has a deep talent pool in these areas, which could attract businesses looking to establish or expand their operations.
+The city has a large office-based workforce, with a score of 74 out of 100, indicating a deeper talent pool in tech, finance, and professional services compared to most other metros. This makes Denver a suitable location for businesses in these sectors, such as tech, finance, and consulting firms, which can tap into the city's skilled workforce.
 
-The biggest strength of the Denver-Aurora-Centennial metro area is its large and skilled office-based workforce, which makes it an attractive location for businesses in the tech and finance sectors. However, the city's biggest risk is its slow labor force growth, which could limit economic expansion and make it harder for employers to find the workers they need.
+The bottom line is that Denver's biggest strength is its large office-based workforce, which makes it an attractive location for businesses in tech, finance, and professional services. However, the city's biggest risk is its slow labor force growth, which can make it harder for employers to find new staff and limit business growth, earning the city an overall grade of C-.
