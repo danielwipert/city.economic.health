@@ -4,30 +4,30 @@
 
 ---
 
-Salt Lake City-Murray earns an overall grade of A+, with a strong economy driven by 2.7% job growth over the past year. The city's labor market is thriving, with a low unemployment rate of 3.2%. This makes it an attractive location for businesses and workers alike.
+Salt Lake City-Murray has earned an overall grade of A+, with a score of 77.6 out of 100, making it an excellent location for businesses, driven in part by its strong job market, with employment growth of 2.7% over the past year. This growth, combined with a low unemployment rate of 3.2%, indicates a thriving economy with a high demand for labor.
 
 **Labor Demand**
-The city has 2.7% job growth and slightly fewer weekly hours, still better than most metros. This means people looking for work have a good chance of finding a job, and employers can find talent.
+The city is adding jobs at a rate of 2.7% over the past year, and while weekly hours are slightly below the 12-month average, the overall labor demand is strong, indicating a genuine need for more workers. This means that businesses looking to expand or relocate to Salt Lake City-Murray can expect to find a vibrant job market with opportunities for growth.
 
 **Unemployment**
-The unemployment rate is 3.2%, lower than most metros. This makes hiring a bit challenging, with upward pressure on wages.
+With an unemployment rate of 3.2%, Salt Lake City-Murray has a lower unemployment rate than most metros, making it harder for employers to hire, but also indicating a strong and competitive labor market. This low unemployment rate, which scores 80 out of 100, suggests that employers may need to offer competitive wages and benefits to attract top talent.
 
 **Wage Growth**
-Pay is growing 4.9% over the past year, faster than most metros. This means employers face rising labor costs, while workers enjoy higher paychecks.
+Over the past year, hourly earnings in Salt Lake City-Murray have risen by 4.9%, which is faster than most metros, with a score of 74 out of 100, indicating that workers are seeing significant increases in their paychecks. This strong wage growth means that employers can expect to face rising labor costs, but it also suggests that workers have more purchasing power, which can be beneficial for local businesses.
 
 **Cost of Living**
-It takes 6.5 hours of local pay to buy one square foot of home, at $260/sqft and $39.78/hr pay, more affordable than most metros. This attracts and retains workers, with a relatively low cost of living.
+The cost of living in Salt Lake City-Murray is relatively affordable, with a score of 63 out of 100, and a price per square foot of $260, compared to an hourly pay of $39.78, although housing prices are rising slightly, by 0.4% over the past year. This affordability makes the city an attractive location for workers and businesses looking to relocate, as the cost of living is more manageable compared to other metros.
 
 **Labor Force Growth**
-The workforce is growing 1.2% over the past year, faster than most metros. This helps employers find new talent and fills labor gaps.
+The labor force in Salt Lake City-Murray is growing at a rate of 1.2% over the past year, which is faster than most metros, with a score of 86 out of 100, indicating a expanding pool of workers. This growth in the labor force is a positive sign for businesses, as it suggests that there will be a steady supply of workers to fill job openings.
 
 **Building Permits**
-New home approvals are up 25.9% over the past year. This signals a growing housing supply, which should improve affordability and attract more workers.
+The number of new home building permits in Salt Lake City-Murray has increased by 25.9% over the past year, with a score of 84 out of 100, indicating a strong and growing housing market. This surge in building permits suggests that the city is experiencing a period of rapid growth and development, which can help to meet the demand for housing and support the local economy.
 
 **Days on Market**
-Homes take 63 days to sell, up 6.8% from last year, a slower pace. This is a softer housing market, making it harder for people to move here and find a home.
+Homes in Salt Lake City-Murray are taking an average of 63 days to sell, which is getting slightly longer, by 6.8% over the past year, with a score of 20 out of 100, indicating a weaker housing market. This slower pace of home sales suggests that the housing market may be softening, making it a less competitive market for sellers, but potentially more favorable for buyers.
 
 **Office Economy**
-The city has a large office-based workforce, better than most metros. This suits businesses in tech, finance, and professional services, which can tap into a deep talent pool.
+Salt Lake City-Murray has a large and growing office-based workforce, with a score of 96 out of 100, indicating a deep talent pool in tech, finance, and professional services. This makes the city an attractive location for businesses in these sectors, as they can tap into a skilled and experienced workforce, and establish or expand their operations with confidence.
 
-The city's biggest strength is its thriving labor market, driven by strong job growth and low unemployment. However, its biggest risk is a softening housing market, which may deter some workers from moving to the area.
+The city's biggest strength is its strong and growing labor market, with a high demand for workers and a low unemployment rate, making it an excellent location for businesses looking to expand or relocate. However, the city's biggest risk is its softening housing market, which may make it more challenging for workers to find affordable housing, and could potentially impact the city's ability to attract and retain top talent.

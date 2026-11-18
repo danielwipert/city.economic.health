@@ -4,30 +4,30 @@
 
 ---
 
-The Seattle-Tacoma-Bellevue metro area has a below-average overall grade of B-. The city's economy is defined by strong hiring, with employment growth at 0.7% over the past year. This growth is a notable strength.
+The Seattle-Tacoma-Bellevue metro area has an overall grade of B-, scoring 51.0 out of 100 across 50 US metros, with its economy defined by a mix of strengths and weaknesses, including a strong labor demand with employment growth of 0.7% over the past year and a high wage growth of 5.5%. The city's labor market is characterized by a score of 60 out of 100 for employment growth, indicating stronger hiring than most metros.
 
 **Labor Demand**
-The city has job growth of 0.7% and rising weekly hours, better than most metros. This means people looking for work have a good chance of finding a job.
+The city is adding jobs at a rate of 0.7% over the past year, with workers' hours also rising by 0.4%, indicating a strong labor demand and a healthy job market. This means that the city is experiencing genuine demand for labor, with employers hiring more workers and existing workers putting in more hours, scoring 60 out of 100, better than most of the 50 metros.
 
 **Unemployment**
-The unemployment rate is 4.9%, higher than most metros. This makes it easier for employers to find staff, but also indicates weaker local consumer demand.
+The unemployment rate in Seattle-Tacoma-Bellevue is 4.9%, which is higher than most metros, scoring 10 out of 100, making it easier for employers to hire but also indicating weaker local consumer demand. This higher unemployment rate means that employers have a larger pool of potential workers to choose from, but it also suggests that the local economy may not be as strong as others.
 
 **Wage Growth**
-Pay is growing at 5.5% over the past year, faster than most metros. This means employers face rising labor costs, while workers see bigger paychecks.
+Wages in the city have risen by 5.5% over the past year, which is faster than most metros, scoring 80 out of 100, indicating strong pay growth and rising labor costs for employers. This means that workers in Seattle-Tacoma-Bellevue are seeing significant increases in their paychecks, but it also means that employers may face higher labor costs, which could impact their bottom line.
 
 **Cost of Living**
-It takes 8.8 hours of local pay to buy one square foot of home, with prices at $423/sqft and pay at $47.99/hr, about average for most metros. This cost of living makes it moderately attractive for workers, with prices falling 3.2% over the past year.
+The cost of living in Seattle-Tacoma-Bellevue is about average, with a price per square foot of $423 and hourly pay of $47.99, scoring 43 out of 100, and the price per square foot has actually fallen by 3.2% over the past year. This means that housing is becoming more affordable for local workers, which could be a talent attraction advantage for employers, but the city's overall cost of living is still relatively high compared to other metros.
 
 **Labor Force Growth**
-The workforce is growing at 1.4% over the past year, faster than most metros. This growth gives employers a larger pool of potential hires.
+The labor force in Seattle-Tacoma-Bellevue is growing at a rate of 1.4% over the past year, which is faster than most metros, scoring 88 out of 100, indicating a strong and expanding workforce. This means that the city has a growing pool of potential workers, which could make it easier for employers to find the talent they need, and it also suggests that the local economy is likely to continue growing.
 
 **Building Permits**
-New home approvals are down 13.6% over the past year. This decline signals a potential future housing supply squeeze and rising prices.
+New home approvals in the city have fallen by 13.6% over the past year, scoring 24 out of 100, which is weaker than most metros, indicating a potential supply squeeze in the future. This means that the city may face a shortage of housing in the future, which could drive up prices and make it harder for workers to afford homes, potentially impacting the local economy.
 
 **Days on Market**
-Homes take 51 days to sell, up 6.2% from last year. This slightly slower pace is still a relatively healthy housing market, giving buyers time to find a home.
+The typical home in Seattle-Tacoma-Bellevue takes 51 days to sell, which is getting slower by 6.2% over the past year, scoring 70 out of 100, indicating a healthier housing market than most metros. This means that the city's housing market is balanced, with homes taking a reasonable amount of time to sell, and the slower pace of sales is actually a sign of a healthier market, giving buyers more time to find a home.
 
 **Office Economy**
-The city has a large office-based workforce, better than most metros. This suits businesses in tech, finance, and professional services.
+The city has a large office-based workforce, scoring 72 out of 100, which is better than most metros, indicating a deep talent pool suited for tech, finance, and professional services businesses. This means that Seattle-Tacoma-Bellevue is an attractive location for businesses that rely on highly skilled workers, such as tech and finance companies, and the city's office economy is likely to continue to thrive.
 
-The city's biggest strength is its strong workforce growth, making it easier for employers to hire. However, its biggest risk is the decline in new home approvals, which may lead to a future housing supply squeeze and rising prices.
+The biggest strength of the Seattle-Tacoma-Bellevue metro area is its strong labor demand and growing workforce, with employment growth and labor force growth outpacing most metros, making it an attractive location for businesses looking to hire and expand. However, the city's biggest risk is its high cost of living and potential housing supply squeeze, which could drive up prices and make it harder for workers to afford homes, potentially impacting the local economy and making it less competitive with other metros.

@@ -4,30 +4,30 @@
 
 ---
 
-Columbus earns a C+ overall grade, with a score of 47.7 out of 100. The city's economy is defined by low unemployment, at 3.3%. Job growth is slow, at -0.1% over the past year.
+Columbus, with an overall grade of C+, has a mixed economic picture, defined by a low unemployment rate of 3.3% and slower employment growth of -0.1% over the past year. The city's economy is characterized by a tight labor market, with a score of 84 out of 100, indicating lower unemployment than most of the 50 metros.
 
 **Labor Demand**
-Job growth is -0.1% over the past year, weaker than most metros. This means fewer job openings for people looking for work.
+The city is losing jobs at a rate of -0.1% over the past year, and workers' hours are rising by 0.5%, indicating a weak job market with remaining workers putting in extra hours. This means that the labor demand is not strong, with a score of 18 out of 100, weaker than most of the 50 metros.
 
 **Unemployment**
-The unemployment rate is 3.3%, lower than most metros. This makes hiring harder for employers due to a tight labor market.
+The unemployment rate of 3.3% makes it hard for employers to hire, as it indicates a tight labor market with a score of 84 out of 100, better than most of the 50 metros. This low unemployment rate means that employers may face wage pressure and difficulty finding available workers.
 
 **Wage Growth**
-Pay growth is 4.5% over the past year, faster than most metros. This means higher labor costs for employers and more money in workers' paychecks.
+Pay rose by 4.5% over the past year, which is faster than most of the 50 metros, with a score of 68 out of 100, indicating stronger wage growth. This means that employers may face rising labor costs, while workers will see an increase in their paychecks.
 
 **Cost of Living**
-It takes 5.9 hours of pay to buy one square foot of home, at $205/sqft and $34.52/hr pay, about average for most metros. This means the city is neither a standout for affordability nor unaffordable, with costs rising 1.0% over the past year.
+Housing in Columbus is priced at $205 per square foot, with hourly pay at $34.52, and the cost of living is getting slightly worse, with a score of 51 out of 100, about average for the 50 metros. This means that the city's affordability is not a major advantage, as the cost of living is neither particularly high nor low compared to other metros.
 
 **Labor Force Growth**
-The workforce is shrinking 2.0% over the past year, slower than most metros. This means a smaller labor pool for employers to hire from.
+The pool of workers is shrinking at a rate of -2.0% over the past year, with a score of 12 out of 100, indicating slower workforce growth than most of the 50 metros. This means that hiring may become more challenging due to a declining labor force.
 
 **Building Permits**
-New home approvals are down 3.0% over the past year, about average for most metros. This signals a stable but not growing housing supply, with no significant impact on prices.
+New home approvals decreased by 3.0% over the past year, with a score of 50 out of 100, about average for the 50 metros, signaling a stable but not expanding housing supply. This means that the city's housing market is not experiencing a significant shift in supply.
 
 **Days on Market**
-Homes take 50 days to sell, up 6.4% from a year ago, a healthier market than most metros. This means a more balanced market where buyers have time to find a home, and sellers can still sell relatively quickly.
+A typical home takes 50 days to sell, with the time to sell increasing by 6.4% over the past year, and a score of 72 out of 100, indicating a healthier housing market than most of the 50 metros. This means that the housing market is relatively balanced, with buyers having a reasonable amount of time to find a home.
 
 **Office Economy**
-The city's office-based workforce is smaller than most metros. This suits businesses with more industrial or logistics-focused operations, rather than tech or finance companies.
+The city's office-based workforce is smaller than most of the 50 metros, with a score of 10 out of 100, indicating a weaker presence of tech, finance, and professional services. This means that the city may not be the best fit for businesses that rely heavily on a deep pool of office-based talent.
 
-The city's biggest strength is its low unemployment rate, making it attractive for workers. Its biggest risk is slow labor force growth, making it harder for employers to find new hires.
+The bottom line is that Columbus's biggest strength is its low unemployment rate, which indicates a tight labor market, but also poses challenges for employers looking to hire. The city's biggest risk is its slow labor force growth, which may lead to a shrinking pool of available workers and increased competition for talent.

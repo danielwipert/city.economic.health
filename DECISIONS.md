@@ -4,6 +4,9 @@ Decisions made through logic gates (see `CLAUDE.md`). Newest first.
 
 | Date | Decision | Why | Where it lives |
 |------|----------|-----|----------------|
+| 2026-11-18 | Go live with the middle-ground wording (~300 words, two sentences per metric: what, then so what); Days on Market wording nit left for later | Clear and accurate at half the length; all checks pass | `city_econ_pipeline.py` |
+| 2026-11-18 | After the short test overshot (179 words, too thin), aim for a middle ground | Short version dropped key numbers and the practical meaning | `city_econ_pipeline.py` |
+| 2026-11-18 | Tighten write-ups with writing rules on the same AI model first | No extra cost; try before switching models | `city_econ_pipeline.py` |
 | 2026-11-18 | Homepage, rankings and methodology get the editorial look and plain-English copy; go live now. Methodology text rewrite left as a possible later job | Whole site matches the new city pages | `site_style.py`, `generate_site.py` |
 | 2026-11-18 | Redesign the remaining three pages together, in one preview | One review round for a consistent site | — |
 | 2026-11-18 | Favicon: rising bar chart on deep teal | Reads as "data and growth" and stays clear at 16px | `site_assets/`, linked from `page_shell` in `generate_site.py` |

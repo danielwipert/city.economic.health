@@ -4,30 +4,30 @@
 
 ---
 
-Cleveland has a B- overall grade, with a score of 52.6 out of 100. The city's economy is defined by its slow wage growth, with pay rising only 1.8% over the past year. This is a weakness, as it lags behind most other metros.
+Cleveland earns an overall grade of B-, with a score of 52.6 out of 100, indicating it is below average compared to the 50 metros. The city's economy is currently defined by its slow wage growth, with hourly earnings rising by only 1.8% over the past year, which is a weakness compared to most metros.
 
 **Labor Demand**
-The city added 0.6% more jobs over the past year, with weekly hours also rising 0.6%. This means employers are hiring, and workers are putting in more hours.
+Cleveland is adding jobs at a rate of 0.6% over the past year, which is about average for the 50 metros, and workers' hours are also rising by 0.6%. This suggests a relatively stable job market, with employers hiring at a moderate pace and workers putting in slightly more hours.
 
 **Unemployment**
-The unemployment rate is 3.4%, near the middle of other metros. This makes hiring a bit challenging, as there are fewer unemployed workers available.
+The unemployment rate in Cleveland is 3.4%, which is about average for the 50 metros, making it neither particularly easy nor hard for employers to hire. With a score of 54, the city's unemployment rate is not a major concern, but it also doesn't provide a significant advantage in terms of hiring.
 
 **Wage Growth**
-Pay grew 1.8% over the past year, slower than most metros. This keeps labor costs low for employers, but also limits workers' purchasing power.
+Hourly earnings in Cleveland rose by 1.8% over the past year, which is slower than most metros, earning a score of 20. This slow wage growth means that employers may face relatively stable labor costs, but workers may not see significant increases in their paychecks.
 
 **Cost of Living**
-It takes 4.2 hours of local pay to buy one square foot of home, at $143/sqft and $34.42/hr pay. This means the city is about average in affordability, with no strong advantage in attracting workers.
+The cost of living in Cleveland is about average, with a price per square foot of $143 and hourly pay of $34.42, earning a score of 50. However, the price per square foot has increased by 13.5% over the past year, making housing less affordable for local workers.
 
 **Labor Force Growth**
-The workforce grew 1.8% over the past year, faster than most metros. This is a strength, as it gives employers a larger pool of potential workers.
+The pool of workers in Cleveland is growing at a rate of 1.8% over the past year, which is faster than most metros, earning a score of 92. This rapid labor force growth is a strength for the city, making it easier for employers to find new hires and for the economy to expand.
 
 **Building Permits**
-New home approvals fell 6.8% over the past year. This signals a potential future housing supply squeeze, which could drive up prices.
+New home approvals in Cleveland have decreased by 6.8% over the past year, earning a score of 42, which is about average for the 50 metros. This decline in building permits may signal a potential supply squeeze in the future, which could impact housing affordability and workforce attraction.
 
 **Days on Market**
-Homes take 55 days to sell, up 7.8% from last year. This is a relatively healthy housing market, but the slowing pace may give buyers more time to find a home.
+Homes in Cleveland are taking 55 days to sell, which is getting slower by 7.8% over the past year, earning a score of 60. This indicates a relatively healthy housing market, with buyers having a moderate amount of time to find a home, and sellers not facing excessive pressure to sell quickly.
 
 **Office Economy**
-The city has a larger office-based workforce than most metros. This suits businesses in tech, finance, and professional services, which require a deep talent pool.
+Cleveland has a larger office-based workforce than most metros, with a score of 62, making it suitable for businesses in tech, finance, and professional services. This strength in the office economy suggests that the city has a deep talent pool in these sectors, which can support businesses that require specialized knowledge workers.
 
-The city's biggest strength is its fast labor force growth, which gives employers a large pool of potential workers. However, its biggest risk is slow wage growth, which may limit workers' purchasing power and make it harder for employers to attract top talent.
+The bottom line is that Cleveland's biggest strength is its rapid labor force growth, which is attracting new workers and supporting economic expansion. However, the city's biggest risk is its slow wage growth, which may make it difficult for workers to afford the increasing cost of living, potentially impacting the city's ability to attract and retain talent.
