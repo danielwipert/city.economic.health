@@ -7,7 +7,11 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap">
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/site.css">
   
 </head>
 <body>
@@ -32,9 +36,9 @@
       </div>
       <h1 class="hero-title">U.S. Metro Economic Health</h1>
       <p class="hero-tagline">
-        A composite economic health score for the 50 largest U.S. metros &mdash;
-        ranking labor demand, unemployment, wage growth, cost of living, and housing
-        into a single 0&ndash;100 grade.
+        One economic health grade for each of the 50 largest U.S. metro areas,
+        built from 8 measures of jobs, pay and housing, and refreshed every week
+        with the latest government data.
       </p>
       <div class="hero-buttons">
         <a href="pdfs/city_economic_report_latest.pdf" class="btn btn-white" download>&#8595; Download PDF</a>
@@ -46,8 +50,8 @@
   <div class="hf-grade">A+</div>
   <div class="hf-city">Salt Lake City</div>
   <div class="hf-metro">Salt Lake City-Murray</div>
-  <div class="hf-score">77.6 composite score</div>
-  <div class="hf-signal">GROWING</div>
+  <div class="hf-score">Overall score 77.6/100</div>
+  <div class="hf-signal">Growing</div>
   <div class="hf-label">Click to view full analysis &rarr;</div>
 </a>
   </div>
@@ -57,8 +61,8 @@
 <div class="snapshot-bar">
   <div class="snapshot-stat">
     <div class="snapshot-num">47.7</div>
-    <div class="snapshot-label">Median Score</div>
-    <div class="snapshot-sub">across 50 metros</div>
+    <div class="snapshot-label">Middle Score</div>
+    <div class="snapshot-sub">half the metros score higher</div>
   </div>
   <div class="snapshot-stat">
     <div class="snapshot-num">17</div>
@@ -67,13 +71,13 @@
   </div>
   <div class="snapshot-stat">
     <div class="snapshot-num">37</div>
-    <div class="snapshot-label">Growing Markets</div>
-    <div class="snapshot-sub">STRONG or GROWING signal</div>
+    <div class="snapshot-label">Adding Jobs</div>
+    <div class="snapshot-sub">metros with job growth this year</div>
   </div>
   <div class="snapshot-stat">
     <div class="snapshot-num">50</div>
     <div class="snapshot-label">Metros Scored</div>
-    <div class="snapshot-sub">largest U.S. MSAs</div>
+    <div class="snapshot-sub">largest U.S. metro areas</div>
   </div>
 </div>
 
@@ -87,7 +91,7 @@
     <div class="perf-grid"><a class="perf-card" href="metros/salt-lake-city.html" style="border-top-color:#059669;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#1</span>
-    <span class="signal-mini" style="background:#0284C7;">GROWING</span>
+    <span class="signal-mini" style="background:#0B5563;">Growing</span>
   </div>
   <div class="perf-name">Salt Lake City</div>
   <div class="perf-score-row">
@@ -98,7 +102,7 @@
 <a class="perf-card" href="metros/st-louis.html" style="border-top-color:#059669;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#2</span>
-    <span class="signal-mini" style="background:#059669;">STRONG</span>
+    <span class="signal-mini" style="background:#1F7A5C;">Strong</span>
   </div>
   <div class="perf-name">St. Louis</div>
   <div class="perf-score-row">
@@ -109,7 +113,7 @@
 <a class="perf-card" href="metros/austin.html" style="border-top-color:#059669;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#3</span>
-    <span class="signal-mini" style="background:#059669;">STRONG</span>
+    <span class="signal-mini" style="background:#1F7A5C;">Strong</span>
   </div>
   <div class="perf-name">Austin</div>
   <div class="perf-score-row">
@@ -120,7 +124,7 @@
 <a class="perf-card" href="metros/hartford.html" style="border-top-color:#059669;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#4</span>
-    <span class="signal-mini" style="background:#059669;">STRONG</span>
+    <span class="signal-mini" style="background:#1F7A5C;">Strong</span>
   </div>
   <div class="perf-name">Hartford</div>
   <div class="perf-score-row">
@@ -131,7 +135,7 @@
 <a class="perf-card" href="metros/charlotte.html" style="border-top-color:#059669;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#5</span>
-    <span class="signal-mini" style="background:#059669;">STRONG</span>
+    <span class="signal-mini" style="background:#1F7A5C;">Strong</span>
   </div>
   <div class="perf-name">Charlotte</div>
   <div class="perf-score-row">
@@ -142,7 +146,7 @@
 <a class="perf-card" href="metros/raleigh.html" style="border-top-color:#0D9488;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#6</span>
-    <span class="signal-mini" style="background:#059669;">STRONG</span>
+    <span class="signal-mini" style="background:#1F7A5C;">Strong</span>
   </div>
   <div class="perf-name">Raleigh</div>
   <div class="perf-score-row">
@@ -153,7 +157,7 @@
 <a class="perf-card" href="metros/philadelphia.html" style="border-top-color:#0D9488;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#7</span>
-    <span class="signal-mini" style="background:#059669;">STRONG</span>
+    <span class="signal-mini" style="background:#1F7A5C;">Strong</span>
   </div>
   <div class="perf-name">Philadelphia</div>
   <div class="perf-score-row">
@@ -174,7 +178,7 @@
     <div class="perf-grid"><a class="perf-card" href="metros/louisville.html" style="border-top-color:#7C3AED;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#50</span>
-    <span class="signal-mini" style="background:#D97706;">SQUEEZE</span>
+    <span class="signal-mini" style="background:#B7791F;">Squeeze</span>
   </div>
   <div class="perf-name">Louisville</div>
   <div class="perf-score-row">
@@ -185,7 +189,7 @@
 <a class="perf-card" href="metros/chicago.html" style="border-top-color:#7C3AED;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#49</span>
-    <span class="signal-mini" style="background:#D97706;">SQUEEZE</span>
+    <span class="signal-mini" style="background:#B7791F;">Squeeze</span>
   </div>
   <div class="perf-name">Chicago</div>
   <div class="perf-score-row">
@@ -196,7 +200,7 @@
 <a class="perf-card" href="metros/detroit.html" style="border-top-color:#7C3AED;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#48</span>
-    <span class="signal-mini" style="background:#D97706;">SQUEEZE</span>
+    <span class="signal-mini" style="background:#B7791F;">Squeeze</span>
   </div>
   <div class="perf-name">Detroit</div>
   <div class="perf-score-row">
@@ -207,7 +211,7 @@
 <a class="perf-card" href="metros/richmond.html" style="border-top-color:#7C3AED;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#47</span>
-    <span class="signal-mini" style="background:#DC2626;">WEAK</span>
+    <span class="signal-mini" style="background:#B3412E;">Weak</span>
   </div>
   <div class="perf-name">Richmond</div>
   <div class="perf-score-row">
@@ -218,7 +222,7 @@
 <a class="perf-card" href="metros/grand-rapids.html" style="border-top-color:#7C3AED;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#46</span>
-    <span class="signal-mini" style="background:#0284C7;">GROWING</span>
+    <span class="signal-mini" style="background:#0B5563;">Growing</span>
   </div>
   <div class="perf-name">Grand Rapids</div>
   <div class="perf-score-row">
@@ -229,7 +233,7 @@
 <a class="perf-card" href="metros/indianapolis.html" style="border-top-color:#7C3AED;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#45</span>
-    <span class="signal-mini" style="background:#D97706;">SQUEEZE</span>
+    <span class="signal-mini" style="background:#B7791F;">Squeeze</span>
   </div>
   <div class="perf-name">Indianapolis</div>
   <div class="perf-score-row">
@@ -240,7 +244,7 @@
 <a class="perf-card" href="metros/jacksonville.html" style="border-top-color:#DC2626;">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#44</span>
-    <span class="signal-mini" style="background:#0284C7;">GROWING</span>
+    <span class="signal-mini" style="background:#0B5563;">Growing</span>
   </div>
   <div class="perf-name">Jacksonville</div>
   <div class="perf-score-row">
@@ -256,62 +260,59 @@
   <div class="content-wrap">
     <div class="signal-dist-inner">
       <div class="signal-dist-text">
-        <h2>Labor Market Signal Distribution</h2>
+        <h2>Are Cities Adding Jobs?</h2>
         <p>
-          Each metro is classified by its labor market scenario &mdash; combining employment
-          growth direction with weekly hours deviation from each city's own 12-month baseline.
-          The signal captures what employment alone cannot: whether growth is genuine demand
-          or a survivor squeeze.
+          We sort every metro by two things: whether it is adding or losing jobs, and
+          whether workers' weekly hours are rising or falling compared with their usual level.
+          Together they show whether hiring is healthy &mdash; or whether a city is cutting
+          jobs while the remaining workers put in longer hours.
         </p>
+        <div class="signal-key">
+          <div><strong>Strong:</strong> jobs and weekly hours are both rising.</div>
+          <div><strong>Growing:</strong> jobs are rising while hours ease a little.</div>
+          <div><strong>Squeeze:</strong> jobs are being cut while remaining workers work longer.</div>
+          <div><strong>Weak:</strong> jobs and weekly hours are both falling.</div>
+        </div>
         <p style="margin-top:12px;">
-          <a href="methodology.html">Learn how signals are calculated &rarr;</a>
+          <a href="methodology.html">How this is calculated &rarr;</a>
         </p>
       </div>
       <div class="signal-dist-bars">
         <div class="signal-bar-row">
-  <div class="signal-bar-label" style="color:#059669;">STRONG</div>
+  <div class="signal-bar-label" style="color:#1F7A5C;">Strong</div>
   <div class="signal-bar-track">
-    <div class="signal-bar-fill" style="width:100%;background:#059669;">
+    <div class="signal-bar-fill" style="width:100%;background:#1F7A5C;">
       <span class="signal-bar-fill-label">22 metros</span>
     </div>
   </div>
   <div class="signal-bar-count">22</div>
 </div>
 <div class="signal-bar-row">
-  <div class="signal-bar-label" style="color:#0284C7;">GROWING</div>
+  <div class="signal-bar-label" style="color:#0B5563;">Growing</div>
   <div class="signal-bar-track">
-    <div class="signal-bar-fill" style="width:68%;background:#0284C7;">
+    <div class="signal-bar-fill" style="width:68%;background:#0B5563;">
       <span class="signal-bar-fill-label">15 metros</span>
     </div>
   </div>
   <div class="signal-bar-count">15</div>
 </div>
 <div class="signal-bar-row">
-  <div class="signal-bar-label" style="color:#D97706;">SQUEEZE</div>
+  <div class="signal-bar-label" style="color:#B7791F;">Squeeze</div>
   <div class="signal-bar-track">
-    <div class="signal-bar-fill" style="width:40%;background:#D97706;">
+    <div class="signal-bar-fill" style="width:40%;background:#B7791F;">
       <span class="signal-bar-fill-label">9 metros</span>
     </div>
   </div>
   <div class="signal-bar-count">9</div>
 </div>
 <div class="signal-bar-row">
-  <div class="signal-bar-label" style="color:#DC2626;">WEAK</div>
+  <div class="signal-bar-label" style="color:#B3412E;">Weak</div>
   <div class="signal-bar-track">
-    <div class="signal-bar-fill" style="width:18%;background:#DC2626;">
+    <div class="signal-bar-fill" style="width:18%;background:#B3412E;">
       <span class="signal-bar-fill-label">4 metros</span>
     </div>
   </div>
   <div class="signal-bar-count">4</div>
-</div>
-<div class="signal-bar-row">
-  <div class="signal-bar-label" style="color:#9CA3AF;">N/A</div>
-  <div class="signal-bar-track">
-    <div class="signal-bar-fill" style="width:0%;background:#9CA3AF;">
-      <span class="signal-bar-fill-label">0 metros</span>
-    </div>
-  </div>
-  <div class="signal-bar-count">0</div>
 </div>
 
       </div>
@@ -324,34 +325,34 @@
   <div class="content-wrap">
     <div class="how-header">
       <h2>How the Score Works</h2>
-      <p>A composite of 8 economic indicators, weighted by their signal quality and data timeliness.</p>
+      <p>Eight measures of jobs, pay and housing, each weighted by how much it tells us about a city's economy.</p>
     </div>
     <div class="how-cards">
       <div class="how-card">
         <div class="how-number">8</div>
-        <div class="how-title">Indicators, One Score</div>
+        <div class="how-title">Measures, One Grade</div>
         <div class="how-desc">
           Labor demand, unemployment, wage growth, cost of living, labor force growth,
-          building permits, days on market, and office economy &mdash; combined into a single
-          weighted composite.
+          building permits, days on market, and office economy &mdash; combined into one
+          weighted score and a letter grade.
         </div>
       </div>
       <div class="how-card">
         <div class="how-number">0&ndash;100</div>
-        <div class="how-title">Percentile-Ranked</div>
+        <div class="how-title">Scored Against the Other 49</div>
         <div class="how-desc">
-          Every metric is scored as a percentile rank across all 50 metros simultaneously.
-          A score of 75 means this city outperforms 75% of its peers on that measure.
-          Immune to outliers and self-calibrating as conditions change.
+          Each measure is scored 0&ndash;100 by comparing a city with the other 49 metros.
+          A score of 75 means the city does better than 75% of them on that measure,
+          so one extreme city can't distort everyone else's score.
         </div>
       </div>
       <div class="how-card">
         <div class="how-number">85 / 15</div>
-        <div class="how-title">Employment / Housing Split</div>
+        <div class="how-title">Jobs / Housing Split</div>
         <div class="how-desc">
-          85% of the score comes from employment metrics &mdash; the direct measure of labor
-          market health. Housing gets 15%, capturing whether workers can afford to live where
-          businesses need them.
+          85% of the grade comes from jobs, pay and affordability &mdash; the direct measure
+          of a healthy job market. The other 15% comes from the housing market itself:
+          how much is being built and how fast homes sell.
         </div>
       </div>
     </div>
@@ -399,7 +400,7 @@
 <div class="content-wrap">
   <div class="cta-section">
     <h2>Explore All 50 Metro Areas</h2>
-    <p>Full rankings table with scores, grades, and key economic metrics for every metropolitan area.</p>
+    <p>Scores, grades and the key numbers for every metro area, in one table.</p>
     <a href="rankings.html" class="btn btn-teal btn-large">View Full Rankings &rarr;</a>
   </div>
 </div>
@@ -407,8 +408,8 @@
   <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-sources">
-      Data sources: BLS LAUS / SAE &middot; Census Bureau / FRED &middot; Realtor.com / FRED
-      &middot; 85% Employment / 15% Housing composite &middot; November 2026 &middot; U.S. Metro Economic Health Report
+      Data: U.S. Bureau of Labor Statistics (jobs, pay, unemployment) &middot; Census Bureau via FRED
+      (building permits) &middot; Realtor.com via FRED (home prices, days on market) &middot; November 2026
     </div>
     <div class="footer-note">
       Scores reflect conditions at time of data collection. Not investment advice.
