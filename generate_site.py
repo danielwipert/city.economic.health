@@ -24,6 +24,7 @@ from pathlib import Path
 
 from report_dates import display_date
 import city_page
+import site_style
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
     sys.stdout.reconfigure(encoding='utf-8')
@@ -86,11 +87,11 @@ METRIC_EXPLAINERS = {
 SCORE_SCALE_NOTE = 'Scores run 0&ndash;100. A score of 80 means this city beats 80% of the 50 metros.'
 
 SCENARIO_COLORS = {
-    'STRONG':  '#059669',
-    'GROWING': '#0284C7',
-    'SQUEEZE': '#D97706',
-    'WEAK':    '#DC2626',
-    'N/A':     '#9CA3AF',
+    'STRONG':  '#1F7A5C',
+    'GROWING': '#0B5563',
+    'SQUEEZE': '#B7791F',
+    'WEAK':    '#B3412E',
+    'N/A':     '#8C8A84',
 }
 
 SCENARIO_DESCS = {
@@ -946,6 +947,8 @@ def city_to_slug(primary_city: str) -> str:
 def fmt_pct(val, decimals=1, plus=True) -> str:
     if val is None:
         return 'N/A'
+    if round(val, decimals) == 0:
+        val = 0.0  # avoid showing "-0.0%" for tiny negatives
     sign = '+' if (plus and val > 0) else ''
     return f'{sign}{val:.{decimals}f}%'
 
@@ -1099,8 +1102,8 @@ def footer_html(date: str) -> str:
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-sources">
-      Data sources: BLS LAUS / SAE &middot; Census Bureau / FRED &middot; Realtor.com / FRED
-      &middot; 85% Employment / 15% Housing composite &middot; {date} &middot; U.S. Metro Economic Health Report
+      Data: U.S. Bureau of Labor Statistics (jobs, pay, unemployment) &middot; Census Bureau via FRED
+      (building permits) &middot; Realtor.com via FRED (home prices, days on market) &middot; {date}
     </div>
     <div class="footer-note">
       Scores reflect conditions at time of data collection. Not investment advice.
@@ -1122,7 +1125,9 @@ def page_shell(title: str, css_path: str, nav: str, main_content: str, footer: s
   <link rel="icon" href="{css_path}assets/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="{css_path}assets/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="{css_path}assets/apple-touch-icon.png">
+  {site_style.FONTS_LINK}
   <link rel="stylesheet" href="{css_path}assets/style.css">
+  <link rel="stylesheet" href="{css_path}assets/site.css">
   {extra_head}
 </head>
 <body{body_attr}>
@@ -1144,6 +1149,8 @@ def write_css(site_dir: Path):
     print('  ✓ style.css')
     (assets_dir / 'city.css').write_text(city_page.CITY_CSS, encoding='utf-8')
     print('  ✓ city.css')
+    (assets_dir / 'site.css').write_text(site_style.SITE_CSS, encoding='utf-8')
+    print('  ✓ site.css')
     for icon in ('favicon.svg', 'favicon-32.png', 'apple-touch-icon.png'):
         shutil.copy2(SITE_ASSETS_SRC / icon, assets_dir / icon)
     print('  ✓ favicons')
@@ -1226,8 +1233,8 @@ def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
   <div class="hf-grade">{top1['grade']}</div>
   <div class="hf-city">{top1['primary_city']}</div>
   <div class="hf-metro">{top1['metro_name']}</div>
-  <div class="hf-score">{top1['score']:.1f} composite score</div>
-  <div class="hf-signal">{top1['scenario']}</div>
+  <div class="hf-score">Overall score {top1['score']:.1f}/100</div>
+  <div class="hf-signal">{top1['scenario'].title()}</div>
   <div class="hf-label">Click to view full analysis &rarr;</div>
 </a>'''
 
@@ -1237,7 +1244,7 @@ def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
 <a class="perf-card" href="metros/{city['slug']}.html" style="border-top-color:{city['grade_color']};">
   <div class="perf-rank-row">
     <span class="perf-rank-num">#{city['rank']}</span>
-    <span class="signal-mini" style="background:{city['scenario_color']};">{city['scenario']}</span>
+    <span class="signal-mini" style="background:{city['scenario_color']};">{city['scenario'].title()}</span>
   </div>
   <div class="perf-name">{city['primary_city']}</div>
   <div class="perf-score-row">
@@ -1254,12 +1261,14 @@ def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
     signal_bars = ''
     for sig in signal_order:
         count = signal_counts[sig]
+        if sig == 'N/A' and count == 0:
+            continue  # no row for "no data" when every metro has data
         color = SCENARIO_COLORS[sig]
         pct   = int(count / max_sig * 100)
         metros_label = 'metro' if count == 1 else 'metros'
         signal_bars += f'''\
 <div class="signal-bar-row">
-  <div class="signal-bar-label" style="color:{color};">{sig}</div>
+  <div class="signal-bar-label" style="color:{color};">{'No data' if sig == 'N/A' else sig.title()}</div>
   <div class="signal-bar-track">
     <div class="signal-bar-fill" style="width:{pct}%;background:{color};">
       <span class="signal-bar-fill-label">{count} {metros_label}</span>
@@ -1295,9 +1304,9 @@ def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
       </div>
       <h1 class="hero-title">U.S. Metro Economic Health</h1>
       <p class="hero-tagline">
-        A composite economic health score for the 50 largest U.S. metros &mdash;
-        ranking labor demand, unemployment, wage growth, cost of living, and housing
-        into a single 0&ndash;100 grade.
+        One economic health grade for each of the 50 largest U.S. metro areas,
+        built from 8 measures of jobs, pay and housing, and refreshed every week
+        with the latest government data.
       </p>
       <div class="hero-buttons">
         {pdf_btn}
@@ -1312,8 +1321,8 @@ def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
 <div class="snapshot-bar">
   <div class="snapshot-stat">
     <div class="snapshot-num">{median_score:.1f}</div>
-    <div class="snapshot-label">Median Score</div>
-    <div class="snapshot-sub">across 50 metros</div>
+    <div class="snapshot-label">Middle Score</div>
+    <div class="snapshot-sub">half the metros score higher</div>
   </div>
   <div class="snapshot-stat">
     <div class="snapshot-num">{ab_count}</div>
@@ -1322,13 +1331,13 @@ def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
   </div>
   <div class="snapshot-stat">
     <div class="snapshot-num">{growing_count}</div>
-    <div class="snapshot-label">Growing Markets</div>
-    <div class="snapshot-sub">STRONG or GROWING signal</div>
+    <div class="snapshot-label">Adding Jobs</div>
+    <div class="snapshot-sub">metros with job growth this year</div>
   </div>
   <div class="snapshot-stat">
     <div class="snapshot-num">{total}</div>
     <div class="snapshot-label">Metros Scored</div>
-    <div class="snapshot-sub">largest U.S. MSAs</div>
+    <div class="snapshot-sub">largest U.S. metro areas</div>
   </div>
 </div>
 
@@ -1359,15 +1368,21 @@ def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
   <div class="content-wrap">
     <div class="signal-dist-inner">
       <div class="signal-dist-text">
-        <h2>Labor Market Signal Distribution</h2>
+        <h2>Are Cities Adding Jobs?</h2>
         <p>
-          Each metro is classified by its labor market scenario &mdash; combining employment
-          growth direction with weekly hours deviation from each city's own 12-month baseline.
-          The signal captures what employment alone cannot: whether growth is genuine demand
-          or a survivor squeeze.
+          We sort every metro by two things: whether it is adding or losing jobs, and
+          whether workers' weekly hours are rising or falling compared with their usual level.
+          Together they show whether hiring is healthy &mdash; or whether a city is cutting
+          jobs while the remaining workers put in longer hours.
         </p>
+        <div class="signal-key">
+          <div><strong>Strong:</strong> jobs and weekly hours are both rising.</div>
+          <div><strong>Growing:</strong> jobs are rising while hours ease a little.</div>
+          <div><strong>Squeeze:</strong> jobs are being cut while remaining workers work longer.</div>
+          <div><strong>Weak:</strong> jobs and weekly hours are both falling.</div>
+        </div>
         <p style="margin-top:12px;">
-          <a href="methodology.html">Learn how signals are calculated &rarr;</a>
+          <a href="methodology.html">How this is calculated &rarr;</a>
         </p>
       </div>
       <div class="signal-dist-bars">
@@ -1382,34 +1397,34 @@ def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
   <div class="content-wrap">
     <div class="how-header">
       <h2>How the Score Works</h2>
-      <p>A composite of 8 economic indicators, weighted by their signal quality and data timeliness.</p>
+      <p>Eight measures of jobs, pay and housing, each weighted by how much it tells us about a city's economy.</p>
     </div>
     <div class="how-cards">
       <div class="how-card">
         <div class="how-number">8</div>
-        <div class="how-title">Indicators, One Score</div>
+        <div class="how-title">Measures, One Grade</div>
         <div class="how-desc">
           Labor demand, unemployment, wage growth, cost of living, labor force growth,
-          building permits, days on market, and office economy &mdash; combined into a single
-          weighted composite.
+          building permits, days on market, and office economy &mdash; combined into one
+          weighted score and a letter grade.
         </div>
       </div>
       <div class="how-card">
         <div class="how-number">0&ndash;100</div>
-        <div class="how-title">Percentile-Ranked</div>
+        <div class="how-title">Scored Against the Other 49</div>
         <div class="how-desc">
-          Every metric is scored as a percentile rank across all 50 metros simultaneously.
-          A score of 75 means this city outperforms 75% of its peers on that measure.
-          Immune to outliers and self-calibrating as conditions change.
+          Each measure is scored 0&ndash;100 by comparing a city with the other 49 metros.
+          A score of 75 means the city does better than 75% of them on that measure,
+          so one extreme city can't distort everyone else's score.
         </div>
       </div>
       <div class="how-card">
         <div class="how-number">85 / 15</div>
-        <div class="how-title">Employment / Housing Split</div>
+        <div class="how-title">Jobs / Housing Split</div>
         <div class="how-desc">
-          85% of the score comes from employment metrics &mdash; the direct measure of labor
-          market health. Housing gets 15%, capturing whether workers can afford to live where
-          businesses need them.
+          85% of the grade comes from jobs, pay and affordability &mdash; the direct measure
+          of a healthy job market. The other 15% comes from the housing market itself:
+          how much is being built and how fast homes sell.
         </div>
       </div>
     </div>
@@ -1433,7 +1448,7 @@ def write_homepage(cities: list, date: str, pdf_rel_path: str, site_dir: Path):
 <div class="content-wrap">
   <div class="cta-section">
     <h2>Explore All 50 Metro Areas</h2>
-    <p>Full rankings table with scores, grades, and key economic metrics for every metropolitan area.</p>
+    <p>Scores, grades and the key numbers for every metro area, in one table.</p>
     <a href="rankings.html" class="btn btn-teal btn-large">View Full Rankings &rarr;</a>
   </div>
 </div>'''
@@ -1477,7 +1492,7 @@ def write_rankings(cities: list, date: str, site_dir: Path):
 <div class="content-wrap rankings-page">
   <div class="page-header">
     <h1>Full Rankings</h1>
-    <p>50 metropolitan statistical areas ranked by composite economic health score &mdash; {date}</p>
+    <p>The 50 largest U.S. metro areas, ranked by overall economic health score &mdash; {date}</p>
   </div>
   <table class="rankings-table">
     <thead>
@@ -1486,11 +1501,11 @@ def write_rankings(cities: list, date: str, site_dir: Path):
         <th>Metro</th>
         <th>Grade</th>
         <th>Score</th>
-        <th class="hide-mobile">Unemp.</th>
-        <th class="hide-mobile">Wage YoY</th>
-        <th class="hide-mobile">Emp. YoY</th>
-        <th class="hide-mobile">LF YoY</th>
-        <th class="hide-mobile">DOM</th>
+        <th class="hide-mobile">Unemployment</th>
+        <th class="hide-mobile">Pay growth</th>
+        <th class="hide-mobile">Job growth</th>
+        <th class="hide-mobile">Workforce growth</th>
+        <th class="hide-mobile">Days to sell</th>
       </tr>
     </thead>
     <tbody>
@@ -1511,14 +1526,6 @@ def write_rankings(cities: list, date: str, site_dir: Path):
 
 
 # ─── WRITE CITY PAGES ─────────────────────────────────────────────────────────
-
-CITY_FONTS = (
-    '<link rel="preconnect" href="https://fonts.googleapis.com">\n'
-    '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
-    '  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?'
-    'family=Inter:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap">'
-)
-
 
 def load_processed() -> dict:
     """Processed series per metro (pay, price per sq ft, office share)."""
@@ -1555,7 +1562,7 @@ def write_city(city: dict, all_cities: list, site_dir: Path, date: str, processe
         nav=nav_html('../', ''),
         main_content=main_content,
         footer=footer_html(date),
-        extra_head=CITY_FONTS + '\n  <link rel="stylesheet" href="../assets/city.css">',
+        extra_head='<link rel="stylesheet" href="../assets/city.css">',
         body_class='city-page',
     )
     metros_dir = site_dir / 'metros'

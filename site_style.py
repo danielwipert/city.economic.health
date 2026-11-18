@@ -1,0 +1,197 @@
+"""
+site_style.py
+Shared editorial styles for every page of the site.
+
+generate_site.py writes SITE_CSS to docs/assets/site.css and every page
+loads it after the older style.css, so these rules win. City pages add
+city.css (from city_page.py) on top for their own layout.
+
+The look: warm paper background, dark ink text, serif headings
+(Source Serif 4), Inter for body text, thin rules instead of boxes, and
+one muted accent color. Dark-mode colors are included.
+"""
+
+FONTS_LINK = (
+    '<link rel="preconnect" href="https://fonts.googleapis.com">\n'
+    '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
+    '  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?'
+    'family=Inter:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap">'
+)
+
+SITE_CSS = """\
+/* ── Shared editorial tokens ─────────────────────────────────────────── */
+:root {
+  --cp-paper:   #FBFAF7;
+  --cp-card:    #FFFFFF;
+  --cp-ink:     #1C1C1A;
+  --cp-muted:   #66645E;
+  --cp-rule:    #DEDBD3;
+  --cp-track:   #ECE9E2;
+  --cp-strength:#1F7A5C;
+  --cp-average: #8C8A84;
+  --cp-weakness:#B3412E;
+  --cp-accent:  #0B5563;
+
+  /* Older style.css tokens, remapped so existing components follow along */
+  --color-primary:    var(--cp-accent);
+  --color-primary-dk: #083F49;
+  --color-bg:         var(--cp-paper);
+  --color-bg-alt:     #F3F1EC;
+  --color-text:       var(--cp-ink);
+  --color-text-muted: var(--cp-muted);
+  --color-border:     var(--cp-rule);
+  --color-green:      var(--cp-strength);
+  --color-red:        var(--cp-weakness);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cp-paper:   #161614;
+    --cp-card:    #1E1D1B;
+    --cp-ink:     #ECEAE4;
+    --cp-muted:   #A19E96;
+    --cp-rule:    #34322D;
+    --cp-track:   #2A2925;
+    --cp-strength:#4FB38C;
+    --cp-average: #8F8C85;
+    --cp-weakness:#E07A63;
+    --cp-accent:  #6FB7C4;
+    --color-primary-dk: #9BD0DA;
+    --color-bg-alt: #1E1D1B;
+  }
+}
+
+/* ── Base ────────────────────────────────────────────────────────────── */
+body {
+  background: var(--cp-paper);
+  color: var(--cp-ink);
+  font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+h1, h2, h3,
+.hero-title, .page-header h1, .snapshot-num, .how-number, .dist-count,
+.hf-grade, .hf-city {
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+  letter-spacing: -0.01em;
+}
+a { color: var(--cp-accent); }
+
+/* Nav + footer */
+.site-nav { background: var(--cp-paper); border-bottom: 1px solid var(--cp-rule); }
+.nav-brand { color: var(--cp-ink) !important; }
+.nav-links a { color: var(--cp-muted); }
+.site-footer { background: transparent; border-top: 1px solid var(--cp-rule); }
+
+/* Buttons: ink instead of teal-on-white */
+.btn { border-radius: 4px; }
+.btn-white, .btn-teal {
+  background: var(--cp-ink) !important;
+  color: var(--cp-paper) !important;
+  border: 1px solid var(--cp-ink) !important;
+}
+.btn-outline {
+  background: transparent !important;
+  color: var(--cp-ink) !important;
+  border: 1px solid var(--cp-ink) !important;
+}
+.btn:hover { opacity: 0.85; text-decoration: none; }
+
+/* ── Homepage ────────────────────────────────────────────────────────── */
+.hero {
+  background: var(--cp-paper) !important;
+  color: var(--cp-ink) !important;
+  border-bottom: 3px solid var(--cp-ink);
+}
+.hero-title { color: var(--cp-ink); font-size: clamp(2.2rem, 6vw, 3.4rem); line-height: 1.08; }
+.hero-tagline { color: var(--cp-muted) !important; font-size: 1.1rem; }
+.hero-pill {
+  background: transparent !important;
+  border: 1px solid var(--cp-rule) !important;
+  color: var(--cp-muted) !important;
+  border-radius: 3px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.7rem !important;
+}
+.hero-featured {
+  background: var(--cp-card) !important;
+  border: 1px solid var(--cp-rule) !important;
+  border-radius: 4px !important;
+  color: var(--cp-ink) !important;
+}
+.hero-featured:hover { border-color: var(--cp-ink) !important; color: var(--cp-ink) !important; }
+.hero-featured * { color: inherit; }
+.hf-eyebrow, .hf-metro, .hf-label { color: var(--cp-muted) !important; }
+.hf-signal {
+  background: transparent !important;
+  border: 1px solid var(--cp-ink);
+  color: var(--cp-ink) !important;
+}
+
+.snapshot-bar { background: var(--cp-paper) !important; border-bottom: 1px solid var(--cp-rule); }
+.snapshot-stat { border-color: var(--cp-rule) !important; }
+.snapshot-num { color: var(--cp-ink) !important; }
+
+.performers-section.top-section,
+.performers-section.pressure-section { background: transparent !important; border-bottom: 1px solid var(--cp-rule); }
+.perf-section-title.green { color: var(--cp-strength) !important; }
+.perf-section-title.red { color: var(--cp-weakness) !important; }
+.perf-card {
+  background: var(--cp-card) !important;
+  border: 1px solid var(--cp-rule) !important;
+  border-top-width: 3px !important;
+  border-radius: 4px !important;
+}
+.perf-card:hover { box-shadow: none !important; border-color: var(--cp-ink) !important; transform: none !important; }
+.perf-name { color: var(--cp-ink); }
+.signal-mini { border-radius: 2px !important; }
+
+.signal-dist-section, .how-section, .cta-section { background: transparent !important; }
+.signal-bar-track { background: var(--cp-track) !important; }
+.signal-key { margin-top: 14px; font-size: 0.88rem; color: var(--cp-muted); }
+.signal-key div { padding: 3px 0; }
+.signal-key strong { color: var(--cp-ink); }
+
+.how-card, .grade-dist-block {
+  background: transparent !important;
+  border: none !important;
+  border-top: 3px solid var(--cp-ink) !important;
+  border-radius: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.how-number { color: var(--cp-ink) !important; }
+.grade-dist { border-top-color: var(--cp-rule) !important; }
+
+/* ── Rankings ────────────────────────────────────────────────────────── */
+.page-header h1 { font-size: clamp(2rem, 5vw, 2.8rem); }
+.rankings-table th {
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--cp-muted);
+  border-bottom: 2px solid var(--cp-ink) !important;
+}
+.rankings-table th { white-space: normal !important; line-height: 1.3; vertical-align: bottom; }
+.rankings-table td { border-bottom: 1px solid var(--cp-rule) !important; }
+.rankings-table td:nth-child(2) { min-width: 210px; }
+.rankings-table tbody tr:hover { background: var(--color-bg-alt) !important; }
+.grade-badge { border-radius: 3px !important; }
+
+/* ── Methodology ─────────────────────────────────────────────────────── */
+.methodology-body h2 { font-size: 1.6rem; margin-top: 2.2em; }
+.methodology-body h3 { font-size: 1.25rem; }
+.meth-table th, .grade-threshold-table th {
+  border-bottom: 2px solid var(--cp-ink) !important;
+  background: transparent !important;
+}
+.meth-table td, .grade-threshold-table td { border-bottom: 1px solid var(--cp-rule) !important; }
+.methodology-body pre, .methodology-body code { background: var(--color-bg-alt) !important; }
+
+/* ── Phones ──────────────────────────────────────────────────────────── */
+@media (max-width: 720px) {
+  /* Homepage: stack the "#1 metro" card under the headline */
+  .hero-layout { flex-direction: column; align-items: stretch; gap: 28px; }
+  .hero-featured { flex: none !important; width: 100%; flex-direction: column !important; flex-wrap: wrap; }
+  /* Methodology: wide tables scroll inside their own box */
+  .meth-table, .grade-threshold-table { display: block; overflow-x: auto; max-width: 100%; }
+}
+"""
