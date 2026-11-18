@@ -4,30 +4,30 @@
 
 ---
 
-Providence-Warwick gets a C grade. The city's economy is defined by slow job growth and high unemployment, with a 4.3% unemployment rate.
+The city of Providence-Warwick has an overall grade of C, with a score of 43.3 out of 100. This city's economy is defined by its slow employment growth and high cost of living, with homes costing $357 per square foot. The unemployment rate is 4.3%, higher than most metros.
 
 **Labor Demand**
-The city added 0.6% more jobs over the past year. Workers' hours rose 0.4%, a moderate increase.
+The city's job growth is 0.6% over the past year, about average for most metros. This means people looking for work may find some opportunities, but it's not a booming job market.
 
 **Unemployment**
-The unemployment rate is 4.3%. This makes it easier for employers to hire.
+The unemployment rate is 4.3%, higher than most metros. This makes it easier for businesses to find workers, but it also means there's less pressure to raise wages.
 
 **Wage Growth**
-Pay rose 3.5% over the past year. This slow wage growth helps keep labor costs low.
+Pay is growing 3.5% over the past year, slower than most metros. This means employers have lower labor costs, but workers have less bargaining power.
 
 **Cost of Living**
-Housing costs $357 per square foot, up 7.5% from a year ago. This makes the city less affordable for local workers.
+It takes 9.7 hours of local pay to buy one square foot of home, costing $357 per square foot, making it less affordable than most metros. This makes it harder to attract and keep workers, and the situation is getting worse.
 
 **Labor Force Growth**
-The workforce grew 1.7% over the past year. This fast growth helps employers find new talent.
+The workforce is growing 1.7% over the past year, faster than most metros. This means employers have a growing pool of potential workers to hire from.
 
 **Building Permits**
-New home approvals rose 15.6% over the past year. This signals a stronger future housing supply.
+New home approvals are up 15.6% over the past year. This signals that housing supply will increase, which could improve affordability and make it easier for workers to find homes.
 
 **Days on Market**
-Homes take 39 days to sell, up 5.4% from a year ago. This is a relatively healthy housing market.
+Homes take 39 days to sell, getting slower, but still a relatively healthy market. This means people moving to the city can find homes, but the market is not too tight.
 
 **Office Economy**
-The city has a large office-based workforce. This suits tech, finance, and professional services businesses.
+The city has a large office-based workforce, better than most metros. This suits businesses in tech, finance, and professional services, which can find a deep talent pool.
 
-The city's biggest strength is its fast labor force growth. Its biggest risk is a less affordable cost of living, making it hard to attract workers.
+The city's biggest strength is its growing workforce, making it easier for employers to hire. However, its biggest risk is its high cost of living, which makes it harder to attract and keep workers, and is getting worse.

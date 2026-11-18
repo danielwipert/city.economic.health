@@ -1,11 +1,11 @@
 {
-  "processing_timestamp": "2026-11-18T02:58:43.348506",
-  "processing_date": "2026-11-18 02:58:43",
+  "processing_timestamp": "2026-11-18T04:04:54.135380",
+  "processing_date": "2026-11-18 04:04:54",
   "version": 2,
   "metrics_count": 9,
   "metrics_scored": 9,
   "metrics_collected_only": 0,
-  "source_data": "2026-11-18 02:58:43",
+  "source_data": "2026-11-18 04:04:53",
   "msa_averages": {
     "unemployment_rate": {
       "msa_average": 4.018,

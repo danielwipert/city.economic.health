@@ -4,30 +4,30 @@
 
 ---
 
-The city earns an A+ grade with a score of 72.4. It's defined by strong job growth, with 1.8% more jobs added over the past year.
+The city of Charlotte-Concord-Gastonia earns an overall grade of A+, with a score of 72.4 out of 100. This city's economy is defined by strong job growth, with employment increasing by 1.8% over the past year. Weekly hours are also up 1.0%, indicating genuine demand for labor.
 
 **Labor Demand**
-The city added 1.8% more jobs over the past year. Workers' hours are also rising, indicating a strong job market.
+The city sees 1.8% job growth, better than most metros. This means people looking for work have a strong chance of finding a job.
 
 **Unemployment**
-The unemployment rate is 3.3%. This makes it harder for employers to hire, with low unemployment.
+Unemployment is 3.3%, lower than most metros. This makes hiring harder for employers, as there are fewer available workers.
 
 **Wage Growth**
-Pay rose 4.4% over the past year. This means higher labor costs for employers, but fatter paychecks for workers.
+Pay is growing 4.4% over the past year, faster than most metros. This means employers face rising labor costs, while workers see bigger paychecks.
 
 **Cost of Living**
-Housing is affordable, with $216 per square foot and $38.60 hourly pay. Prices are falling 1.8% over the past year, making it even more affordable.
+It takes 5.6 hours of pay to buy one square foot of home, with prices at $216/sqft and pay at $38.60/hr, making it more affordable than most metros. This attracts workers, as the cost of living is relatively low and getting better.
 
 **Labor Force Growth**
-The workforce grew 0.7% over the past year. This means a slightly expanding pool of workers for hiring.
+The workforce is growing 0.7% over the past year, faster than most metros. This helps employers find new hires, as the labor pool is expanding.
 
 **Building Permits**
-New home approvals fell 12.7% over the past year. This signals a weaker future housing supply.
+New home approvals are down 12.7% over the past year. This signals a potential future housing supply squeeze, which could drive up prices.
 
 **Days on Market**
-Homes take 65 days to sell, up 10.2% from last year. This is a softening housing market, with homes selling slower.
+Homes take 65 days to sell, up 10.2% from last year. This indicates a softer housing market, making it harder for people to move here.
 
 **Office Economy**
-The city has a large office-based workforce, suiting tech and finance businesses. This workforce is larger than most metros.
+The city has a large office-based workforce, better than most metros. This suits businesses in tech, finance, and professional services, which thrive in this environment.
 
-The city's biggest strength is its strong job market, with many new jobs added. Its biggest risk is a softening housing market, with homes taking longer to sell.
+The city's biggest strength is its strong labor demand, with job growth outpacing most metros. However, its biggest risk is the slowing housing market, which could make it harder for people to relocate and for employers to attract new talent.

@@ -4,30 +4,30 @@
 
 ---
 
-Orlando earns a B+ grade. The city's economy is defined by strong job growth, with a 1.0% increase in employment over the past year.
+Orlando-Kissimmee-Sanford has a B+ overall grade. The city's economy is defined by strong hiring, with 1.0% job growth over the past year. Weekly hours are also up 0.6%.
 
 **Labor Demand**
-The city is adding jobs, with employment up 1.0% over the past year. Workers' hours are also rising, indicating genuine demand.
+The city has 1.0% job growth and 0.6% higher weekly hours. This means people looking for work have better chances.
 
 **Unemployment**
-The unemployment rate is 4.2%, making it harder for employers to hire. This is higher than most metros.
+The unemployment rate is 4.2%. This makes hiring a bit easier than in most metros.
 
 **Wage Growth**
-Pay rose 6.0% over the past year, outpacing most metros. This means higher labor costs for employers and fatter paychecks for workers.
+Pay grew 6.0% over the past year. This means employers face rising labor costs, while workers see bigger paychecks.
 
 **Cost of Living**
-Housing is relatively affordable, with a price per square foot of $222 and hourly pay of $33.42. Affordability is improving as prices fall 2.6% over the past year.
+It takes 6.6 hours of pay to buy one square foot of home, with prices at $222/sqft and pay at $33.42/hr. This affordability attracts workers, and prices are falling 2.6% from last year.
 
 **Labor Force Growth**
-The workforce is growing 0.7% over the past year, faster than most metros. This expanding labor pool helps hiring.
+The workforce grew 0.7% over the past year. This helps employers find new hires.
 
 **Building Permits**
-New home approvals fell 12.2% over the past year, a weakness. This signals a potential future housing supply squeeze.
+New home approvals fell 12.2% over the past year. This signals a potential housing supply squeeze ahead.
 
 **Days on Market**
-Homes sell in 78 days, down 3.7% from last year, indicating a healthy market. The housing market is stronger than most metros.
+Homes sell in 78 days, down 3.7% from last year. This is a healthy housing market, with homes selling faster.
 
 **Office Economy**
-The city has a large office-based workforce, suiting tech and finance businesses. This is a major strength, with a deep talent pool.
+The city has a large office-based workforce. This suits tech, finance, and professional services businesses.
 
-The city's biggest strength is its strong job growth and high wage growth. However, its biggest risk is a potential housing supply squeeze due to falling building permits.
+The city's biggest strength is its fast pay growth, making it attractive to workers. Its biggest risk is the falling building permits, which may lead to a housing supply shortage.

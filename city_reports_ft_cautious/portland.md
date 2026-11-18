@@ -4,30 +4,30 @@
 
 ---
 
-The city earns a C+ grade. Job growth is weak, with a 0.6% decline over the past year.
+The city of Portland-Vancouver-Hillsboro has a C+ overall grade, with a score of 49.3 out of 100. This city's economy is defined by slower hiring, with employment growth at -0.6% over the past year. The unemployment rate is 4.1%, lower than most metros.
 
 **Labor Demand**
-The city lost jobs over the past year. Workers' hours rose slightly, but not enough to offset job losses.
+The city has -0.6% job growth and +0.5% weekly hours. This means weaker hiring and fewer hours for workers.
 
 **Unemployment**
-The unemployment rate is 4.1%. This makes it harder for employers to hire.
+The unemployment rate is 4.1%, lower than most metros. This makes hiring harder due to a tight labor market.
 
 **Wage Growth**
-Pay rose 5.7% over the past year. This means higher labor costs for employers.
+Pay growth is +5.7% over the past year, faster than most metros. This means higher labor costs for employers and more money in workers' paychecks.
 
 **Cost of Living**
-Housing is $302 per square foot, down 2.3% from last year. This is more affordable than most metros.
+It takes 7.1 hours of pay to buy one square foot of home, with a price of $302/sqft and pay of $42.38/hr. This is more affordable than most metros, attracting workers with lower costs.
 
 **Labor Force Growth**
-The workforce shrank 0.6% over the past year. This makes hiring harder.
+The workforce grew -0.6% over the past year, slower than most metros. This means a shrinking labor pool, making hiring harder for employers.
 
 **Building Permits**
-New home approvals rose 20.1% over the past year. This signals stronger future housing supply.
+New home approvals rose 20.1% over the past year. This signals stronger future housing supply and potentially lower prices.
 
 **Days on Market**
-Homes take 71 days to sell, unchanged from last year. This is a weaker housing market.
+Homes take 71 days to sell, about the same as last year. This is a weaker housing market, making it harder for people to move here.
 
 **Office Economy**
-The office workforce is smaller than most metros. This suits industrial or logistics businesses.
+The office-based workforce is smaller than most metros. This suits industrial or logistics businesses better than tech or finance companies.
 
-The city's biggest strength is fast wage growth. Its biggest risk is weak job growth.
+The city's biggest strength is its fast pay growth, making it attractive for workers. Its biggest risk is a shrinking labor pool, making it harder for employers to hire and grow their businesses.

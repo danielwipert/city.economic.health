@@ -4,30 +4,30 @@
 
 ---
 
-Cincinnati earns a B+ grade. The city's economy is defined by strong wage growth, with pay rising 8.9% over the past year.
+Cincinnati earns a B+ overall grade, with an above-average score of 60.0. The city's economy is defined by strong wage growth, with hourly earnings rising 8.9% over the past year. This rapid pay growth is a key characteristic of the local economy.
 
 **Labor Demand**
-The city added 0.4% more jobs over the past year. Workers' hours are down 0.1%, indicating a weak job market.
+The city's job growth is 0.4% over the past year, weaker than most metros. This means employers may not be hiring as aggressively as in other cities.
 
 **Unemployment**
-The unemployment rate is 3.6%. This makes it hard for employers to hire, with low unemployment.
+The unemployment rate is 3.6%, lower than most metros. This makes hiring more challenging, as there are fewer available workers.
 
 **Wage Growth**
-Pay rose 8.9% over the past year. This means higher labor costs for employers, but fatter paychecks for workers.
+Pay is growing 8.9% over the past year, faster than most metros. This means employers face rising labor costs, while workers enjoy higher paychecks.
 
 **Cost of Living**
-Housing is affordable, with $189 per square foot and $36.19 hourly pay. Prices are falling 0.5% from a year ago, making it even more affordable.
+It takes 5.2 hours of local pay to buy one square foot of home, priced at $189/sqft, down 0.5% from last year, with an hourly wage of $36.19. This affordability is better than most metros, making it easier to attract and keep workers.
 
 **Labor Force Growth**
-The workforce shrank 1.2% over the past year. This slows hiring, as the labor pool is shrinking.
+The workforce is shrinking 1.2% over the past year, slower than most metros. This means employers may struggle to find new hires.
 
 **Building Permits**
-New home approvals fell 20.2% over the past year. This signals a weaker future housing supply.
+New home approvals are down 20.2% over the past year. This signals a potential future housing supply shortage, which could drive up prices.
 
 **Days on Market**
-Homes take 44 days to sell, up 15.8% from a year ago. This is a healthy housing market, with homes selling at a reasonable pace.
+Homes take 44 days to sell, up 15.8% from last year, indicating a healthier market. This gives buyers more time to find a home, making the city more attractive to relocating workers.
 
 **Office Economy**
-The office-based workforce is smaller than most metros. This suits industrial or logistics businesses better than tech or finance.
+The city's office-based workforce is smaller than most metros. This makes it less suitable for businesses that rely on a deep pool of professional and tech talent.
 
-The city's biggest strength is its strong wage growth. Its biggest risk is a shrinking labor force, making it harder to hire and fill jobs.
+The city's biggest strength is its rapid wage growth, making it an attractive place for workers. However, its biggest risk is a shrinking workforce, which may make it harder for employers to find the talent they need.

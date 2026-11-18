@@ -4,30 +4,30 @@
 
 ---
 
-Nashville earns a B grade, with 2.9% unemployment. The city's economy is defined by low unemployment and average job growth.
+Nashville-Davidson--Murfreesboro--Franklin has a B overall grade, with an average score of 56.1. The city's economy is defined by its low unemployment rate of 2.9%. This is a key strength, making it harder for businesses to hire.
 
 **Labor Demand**
-The city added 1.1% more jobs over the past year. Workers' hours are slightly falling.
+The city's job growth is 1.1% over the past year, about average for most metros. This means people looking for work have average job prospects.
 
 **Unemployment**
-Unemployment is 2.9%, making hiring harder. Employers face wage pressure.
+The unemployment rate is 2.9%, lower than most metros. This makes hiring harder for businesses due to a tight labor market.
 
 **Wage Growth**
-Pay rose 3.7% over the past year. Employers face rising labor costs.
+Pay growth is 3.7% over the past year, about average for most metros. This means employers face average labor cost increases.
 
 **Cost of Living**
-Housing costs $259 per square foot, down 1.1% from last year. This is relatively affordable.
+It takes 7.2 hours of pay to buy one square foot of home, with prices at $259/sqft and pay at $35.86/hr, about average for most metros. This affordability makes it easier to attract workers.
 
 **Labor Force Growth**
-The workforce shrank 0.6% over the past year. Hiring will be challenging.
+The workforce grew -0.6% over the past year, slower than most metros. This slows hiring for employers due to a shrinking labor pool.
 
 **Building Permits**
-New home approvals fell 8.9% over the past year. Future housing supply will be tight.
+New home approvals fell 8.9% over the past year. This signals a future housing supply squeeze.
 
 **Days on Market**
-Homes take 63 days to sell, up 3.3% from last year. The housing market is softening.
+Homes take 63 days to sell, up 3.3% from last year. This slower pace signals a weaker housing market.
 
 **Office Economy**
-The city has a large office-based workforce. This suits tech and finance businesses.
+The city has a large office-based workforce, better than most metros. This suits tech, finance, and professional services businesses.
 
-The city's biggest strength is its low unemployment. Its biggest risk is a shrinking workforce.
+The city's biggest strength is its low unemployment rate, making it attractive to workers. Its biggest risk is a shrinking labor pool, making it harder for businesses to hire and grow.

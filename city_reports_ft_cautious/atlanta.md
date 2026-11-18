@@ -4,30 +4,30 @@
 
 ---
 
-Atlanta-Sandy Springs-Roswell gets a C grade. The city's economy is defined by slow job growth, with a 0.1% decline over the past year.
+The city of Atlanta-Sandy Springs-Roswell has an overall grade of C, indicating a very poor economic performance. The city's labor demand is a major concern, with a -0.1% employment growth over the past year. This weakness is reflected in its low score, ranking it among the weakest metros.
 
 **Labor Demand**
-The city lost jobs over the past year. Workers' hours rose 0.6%, but job losses mean remaining workers are putting in extra hours.
+The city's job growth is -0.1% over the past year, weaker than most metros. This means people looking for work may struggle to find jobs.
 
 **Unemployment**
-Unemployment is 3.5%. This makes it hard for employers to hire, with low unemployment driving up wages.
+The unemployment rate is 3.5%, lower than most metros. This makes hiring harder for employers due to a tight labor market.
 
 **Wage Growth**
-Pay rose 2.9% over the past year. This slow wage growth means flat labor costs for employers, but weak paychecks for workers.
+Pay growth is +2.9% over the past year, slower than most metros. This means employers have lower labor costs, but workers have less bargaining power.
 
 **Cost of Living**
-Housing costs $193 per square foot, down 1.0% from last year, with $36.77 hourly pay. This affordability is about average for similar metros.
+It takes 5.2 hours of pay to buy one square foot of home, with prices at $193/sqft and pay at $36.77/hr, making it about average for affordability. This means the city is neither a strong attractor nor a deterrent for workers due to its moderate cost of living.
 
 **Labor Force Growth**
-The workforce grew 2.6% over the past year. This fast growth means a large pool of workers for employers to hire from.
+The workforce grew +2.6% over the past year, faster than most metros. This means employers have a growing pool of potential hires.
 
 **Building Permits**
-New home approvals rose 1.4% over the past year. This signals a moderate increase in future housing supply, helping affordability.
+New home approvals rose +1.4% over the past year. This signals a moderate increase in future housing supply, which may help with affordability.
 
 **Days on Market**
-Homes take 61 days to sell, up 1.7% from last year. This slower pace signals a softening housing market, making it harder for owners to sell.
+Homes take 61 days to sell, up 1.7% from last year. This indicates a softening housing market, making it harder for people to move here.
 
 **Office Economy**
-The city's office workforce is smaller than most metros. This suits industrial or logistics businesses, but not tech or finance companies.
+The city's office-based workforce is smaller than most metros. This makes it less suitable for tech, finance, and professional services businesses.
 
-The city's biggest strength is its fast-growing workforce. However, its slow job growth and softening housing market pose significant risks.
+The city's biggest strength is its growing workforce, making it easier for employers to hire. However, its biggest risk is its weak labor demand, which may lead to a shortage of job opportunities for workers.

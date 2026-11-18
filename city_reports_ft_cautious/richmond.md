@@ -4,30 +4,30 @@
 
 ---
 
-Richmond earns a D grade, with an overall score of 25.1. The city's economy is defined by slow job growth, with a 1.0% decline in employment over the past year.
+Richmond has an overall grade of D, with a score of 25.1 out of 100. The city's economy is defined by weak hiring, with employment growth at -1.0% over the past year. This slow growth is a major concern for the local job market.
 
 **Labor Demand**
-The city lost jobs over the past year. Workers' hours are also falling, indicating a weak job market.
+The city's job growth is -1.0% and weekly hours are -0.1%, weaker than most metros. This means people looking for work may struggle to find jobs, and employers may not be hiring as much.
 
 **Unemployment**
-The unemployment rate is 3.8%. This makes it harder for employers to hire, as the labor market is relatively tight.
+The unemployment rate is 3.8%, higher than most metros. This makes it easier for employers to find staff, but also means local consumer demand may be weaker.
 
 **Wage Growth**
-Pay rose 1.6% over the past year. This slow wage growth means lower labor costs for employers, but weaker paychecks for workers.
+Pay growth is +1.6% over the past year, slower than most metros. This means employers' labor costs are not rising quickly, but workers' paychecks are not growing much either.
 
 **Cost of Living**
-Housing is less affordable, with a price of $226 per square foot and hourly pay of $35.71. The cost of living is getting worse, as prices rose 0.4% over the past year.
+It takes 6.3 hours of local pay to buy one square foot of home, at $226/sqft and $35.71/hr, less affordable than most metros. This makes it harder for the city to attract and keep workers, especially as prices rose 0.4% over the past year.
 
 **Labor Force Growth**
-The labor force shrank 2.2% over the past year. This decline makes it harder for employers to find new workers.
+The workforce grew -2.2% over the past year, slower than most metros. This means employers may face a shrinking labor pool, making it harder to hire.
 
 **Building Permits**
-New home approvals surged 130.8% over the past year. This signals a strong increase in future housing supply.
+New home approvals rose 130.8% over the past year, stronger than most metros. This signals a potential increase in future housing supply, which could improve affordability.
 
 **Days on Market**
-Homes sell in 44 days, down 2.2% from last year. This fast pace indicates a tight housing market.
+Homes take 44 days to sell, down 2.2% from last year, weaker than most metros. This means the housing market is not as healthy as it could be, making it harder for people to move here.
 
 **Office Economy**
-The city's office-based workforce is smaller than most metros. This suits businesses that don't rely on professional services.
+The city's office-based workforce is smaller than most metros. This makes it less suitable for businesses like tech, finance, and professional services that rely on a deep knowledge-economy talent pool.
 
-The city's biggest strength is its rapid growth in new home approvals, which will increase housing supply. However, its biggest risk is a shrinking labor force, making it harder for employers to hire and grow their businesses.
+The city's biggest strength is its rapid growth in new home approvals, which could improve housing affordability. However, its biggest risk is the slow growth in employment and labor force, which may make it harder for businesses to hire and for workers to find jobs.

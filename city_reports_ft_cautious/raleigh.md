@@ -4,30 +4,30 @@
 
 ---
 
-Raleigh-Cary earns an A grade with a score of 71.0. The city's economy is defined by strong job growth, with a 2.3% increase in employment over the past year.
+Raleigh-Cary earns an overall grade of A, with a strong economy driven by labor demand. The city sees 2.3% employment growth over the past year, outpacing most metros. This growth is fueled by a diverse range of industries.
 
 **Labor Demand**
-The city is adding jobs at a rate faster than most metros. Workers' hours are also rising, indicating genuine demand for labor.
+The city's job growth is 2.3% over the past year, better than most metros. This means people looking for work have a strong chance of finding a job.
 
 **Unemployment**
-The unemployment rate is 2.7%, making it hard for employers to hire. This low rate means workers have more bargaining power.
+Unemployment is 2.7%, lower than most metros. This makes hiring challenging for employers due to a tight labor market.
 
 **Wage Growth**
-Pay rose 3.2% over the past year, slower than most metros. This slow wage growth means lower labor costs for employers.
+Pay growth is 3.2% over the past year, slower than most metros. This means employers face relatively flat labor costs, but workers have weaker bargaining power.
 
 **Cost of Living**
-Housing is affordable, with a price of $213 per square foot and hourly pay of $38.12. The price per square foot is falling, making it even more affordable.
+It takes 5.6 hours of pay to buy one square foot of home, priced at $213/sqft, down 3.2% from a year ago, with hourly pay at $38.12. This affordability attracts and retains workers, giving the city a talent attraction advantage.
 
 **Labor Force Growth**
-The pool of workers is growing 0.9% faster than most metros. This growth makes it easier for employers to find new hires.
+The workforce grows 0.9% over the past year, faster than most metros. This expanding labor pool helps employers find the talent they need.
 
 **Building Permits**
-New home approvals fell 22.7% over the past year, a weaker trend than most metros. This decline signals a potential future housing supply shortage.
+New home approvals drop 22.7% over the past year. This decline signals a potential future housing supply squeeze, putting upward pressure on prices.
 
 **Days on Market**
-Homes take 64 days to sell, with sales slowing down over the past year. This slower pace indicates a softening housing market.
+Homes take 64 days to sell, up 6.7% from a year ago. This slower pace indicates a softening housing market, making it easier for buyers to find homes, but potentially weakening the market.
 
 **Office Economy**
-The city has a large office-based workforce, suiting tech and finance businesses. This workforce is larger than most metros, making it attractive for professional services.
+The city's office-based workforce is larger than most metros. This suits businesses in tech, finance, and professional services, which thrive in a deep knowledge-economy talent pool.
 
-The city's biggest strength is its strong job market, with high labor demand and a growing workforce. However, its biggest risk is a potential housing supply shortage due to declining building permits.
+The city's biggest strength is its strong labor demand, driven by diverse industries. However, its biggest risk is a potential housing supply squeeze, driven by a sharp decline in new home approvals, which could drive up prices and make it harder for workers to afford homes.

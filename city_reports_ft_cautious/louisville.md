@@ -4,30 +4,30 @@
 
 ---
 
-The city of Louisville-Jefferson County has an overall grade of D. It is defined by weak job growth, with employment up just 0.0% over the past year.
+Louisville-Jefferson County has an overall grade of D, with a score of 22.0 out of 100. The city's economy is defined by weak hiring, with employment growth at 0.0% over the past year. This slow growth is a major concern for the local job market.
 
 **Labor Demand**
-The city is not adding jobs, with employment flat over the past year. Workers' hours are up 1.3%, but this is a weakness, indicating remaining workers are putting in extra hours.
+The city has weak job growth, with employment up 0.0% over the past year. This means people looking for work may struggle to find jobs.
 
 **Unemployment**
-The unemployment rate is 4.4%, making it harder for employers to hire. This is a weakness, with higher unemployment than most metros.
+The unemployment rate is 4.4%, higher than most metros. This makes it easier for businesses to staff, but weaker local consumer demand is a concern.
 
 **Wage Growth**
-Pay rose 1.4% over the past year, a slow pace. This means flat labor costs for employers, but weak bargaining power for workers.
+Pay growth is slow, at 1.4% over the past year. This means employers have a flat cost environment, but workers have weak bargaining power.
 
 **Cost of Living**
-Housing costs $177 per square foot, with pay at $31.18 per hour, making it less affordable. The cost per square foot is down 0.6% from a year ago, but this is still a weakness.
+It takes 5.7 hours of pay to buy one square foot of home, at $177/sqft and $31.18/hr pay. This high cost of living makes it hard to attract and keep workers.
 
 **Labor Force Growth**
-The labor force is growing 0.2% per year, a slow pace. This means a relatively stable workforce, but not expanding quickly.
+The workforce grew 0.2% over the past year, near the middle of most metros. This average growth means employers have a steady, but not expanding, pool of workers.
 
 **Building Permits**
-New home approvals fell 31.7% over the past year, a sharp decline. This signals a weaker housing supply ahead, a concern for affordability.
+New home approvals fell 31.7% over the past year. This decline signals a potential supply squeeze and rising prices ahead.
 
 **Days on Market**
-Homes take 45 days to sell, up 9.8% from a year ago, indicating a healthier market. This is a strength, with homes selling at a reasonable pace.
+Homes take 45 days to sell, up 9.8% from last year. This slower pace is a healthy sign, giving buyers more time to find a home.
 
 **Office Economy**
-The city has a small office-based workforce, suiting industrial or logistics businesses. This is a weakness, with fewer specialized roles available.
+The city's office-based workforce is smaller than most metros. This suits businesses with industrial or logistics focus, rather than tech or finance.
 
-The city's biggest strength is its relatively healthy housing market, with homes selling at a reasonable pace. Its biggest risk is weak job growth, making it hard for employers to attract and retain workers.
+The city's biggest strength is its relatively healthy housing market, with homes taking a reasonable 45 days to sell. However, its biggest risk is the weak job market, with slow employment growth and limited opportunities for workers.
