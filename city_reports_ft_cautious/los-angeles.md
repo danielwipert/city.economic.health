@@ -4,30 +4,30 @@
 
 ---
 
-The Los Angeles-Long Beach-Anaheim metro area has an overall grade of B, with a score of 55.3 out of 100, indicating it is an average city for business, with its strongest aspect being its labor demand, which is stronger than most metros, with a score of 86 out of 100. This is driven by employment growth of 1.8% over the past year, with workers putting in 0.3% more hours, indicating a genuine demand for labor.
+The Los Angeles-Long Beach-Anaheim metro area has an overall grade of B, with a score of 55.3 out of 100. This city's economy is defined by strong job growth, with employment increasing by 1.8% over the past year. The unemployment rate is 4.4%, lower than most metros.
 
 **Labor Demand**
-The city is adding jobs at a rate of 1.8% over the past year, with workers also putting in 0.3% more hours, indicating a strong demand for labor. This means that the job market is robust, with employers looking to hire and workers seeing more opportunities, making it a good time for businesses to expand.
+Job growth is 1.8% over the past year, better than most metros. This means people looking for work have a good chance of finding a job.
 
 **Unemployment**
-The unemployment rate is 4.4%, which is lower than most metros, with a score of 64 out of 100, making it a strength for the city. This low unemployment rate means that it may be harder for employers to hire, as there are fewer people looking for work, and it could also lead to upward pressure on wages.
+The unemployment rate is 4.4%, lower than most metros. This makes hiring harder for employers, as there are fewer available workers.
 
 **Wage Growth**
-Wages rose by 3.6% over the past year, which is about average for the 50 metros, with a score of 46 out of 100. This moderate wage growth means that employers' labor costs are increasing, but not too quickly, while workers are seeing some improvement in their paychecks.
+Pay growth is 3.6% over the past year, about average for the 50 metros. This means employers face moderate labor cost increases, while workers see some pay raises.
 
 **Cost of Living**
-The cost of living in Los Angeles-Long Beach-Anaheim is relatively high, with a price per square foot of $642 and hourly pay of $41.84, and it is getting worse, with a score of 4 out of 100. This means that housing is less affordable for local workers compared to other metros, which could make it harder for businesses to attract and retain talent.
+It takes 15.3 hours of pay to buy one square foot of home, with a price of $642/sqft and hourly pay of $41.84, less affordable than most metros. This makes it harder to attract and keep workers, as the cost of living is high.
 
 **Labor Force Growth**
-The pool of workers in the city is shrinking by 1.3% over the past year, with a score of 24 out of 100, making it a weakness. This decline in the labor force means that hiring may become more challenging for businesses, as there are fewer workers available to fill job openings.
+The workforce grew -1.3% over the past year, slower than most metros. This makes it harder for employers to hire, as the labor pool is shrinking.
 
 **Building Permits**
-New home approvals increased by 27.3% over the past year, with a score of 88 out of 100, indicating a strong signal for future housing supply. This surge in building permits suggests that the city is likely to see an increase in housing supply, which could help improve affordability and attract more workers to the area.
+New home approvals increased by 27.3% over the past year, stronger than most metros. This signals a future increase in housing supply, which could improve affordability.
 
 **Days on Market**
-Homes in the city are taking 57 days to sell, which is unchanged from the previous year, with a score of 30 out of 100, indicating a weaker housing market. This relatively slow pace of home sales suggests that the housing market is softening, which could make it harder for workers to relocate to the area.
+Homes take 57 days to sell, about the same as last year, weaker than most metros. This indicates a softening housing market, making it harder for people to move here.
 
 **Office Economy**
-The city's office-based workforce is smaller than most metros, with a score of 30 out of 100, making it a weakness. This means that the city may not be as well-suited for businesses in the tech, finance, and professional services sectors, which tend to rely on a deep pool of office-based talent.
+The office-based workforce is smaller than most metros. This suits businesses that are not heavily reliant on tech, finance, or professional services.
 
-The biggest strength of the Los Angeles-Long Beach-Anaheim metro area is its strong labor demand, with employment growth and hours worked both increasing, making it an attractive location for businesses looking to expand. However, the city's biggest risk is its high cost of living, which could make it harder for businesses to attract and retain talent, and may require them to offer higher wages to compensate for the expensive housing market.
+The city's biggest strength is its strong job growth, with employment increasing by 1.8% over the past year, making it a good place for people to find work. However, its biggest risk is its high cost of living, with it taking 15.3 hours of pay to buy one square foot of home, making it hard to attract and keep workers.

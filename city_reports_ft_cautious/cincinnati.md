@@ -4,30 +4,30 @@
 
 ---
 
-Cincinnati earns an overall grade of B+, scoring 60.0 out of 100, with its economy defined by a unique combination of strong wage growth and affordability. With wages rising 8.9% over the past year and a cost of living score of 92, indicating that housing is more affordable than in most metros, Cincinnati presents an attractive environment for both workers and employers.
+Cincinnati earns a B+ grade, with an overall score of 60.0. The city's economy is defined by strong wage growth, with hourly earnings rising 8.9% over the past year. This rapid pay growth is a key characteristic of the local economy.
 
 **Labor Demand**
-Cincinnati added jobs at a rate of 0.4% over the past year, but this growth is slower than in most metros, with a score of 38. The city's workers are also putting in slightly fewer hours, down 0.1% from their 12-month average, indicating a weaker labor demand than in most cities.
+The city added 0.4% more jobs over the past year, weaker than most metros. This slower hiring pace makes it easier for employers to find workers.
 
 **Unemployment**
-The unemployment rate in Cincinnati stands at 3.6%, which is lower than in most metros, earning a score of 74. This low unemployment rate makes it harder for employers to hire, as the labor market is relatively tight, with more job openings than available workers.
+The unemployment rate is 3.6%, lower than most metros. This tight labor market makes hiring more challenging for employers.
 
 **Wage Growth**
-Wages in Cincinnati rose 8.9% over the past year, which is faster than in most metros, with a score of 98. This rapid wage growth means that employers face rising labor costs, but workers benefit from increased purchasing power and a higher standard of living.
+Hourly earnings grew 8.9% over the past year, faster than most metros. This rapid pay growth increases labor costs for employers but boosts workers' purchasing power.
 
 **Cost of Living**
-Housing in Cincinnati is relatively affordable, with a price per square foot of $189 and average hourly earnings of $36.19, and the cost of living score of 92 indicates it is more affordable than in most metros. The fact that housing prices per square foot are falling by 0.5% over the past year further improves affordability, making Cincinnati an attractive location for workers and businesses.
+It takes 5.2 hours of local pay to buy one square foot of home, priced at $189/sqft, down 0.5% from a year ago, making it more affordable than most metros. This affordability attracts and retains workers, with costs improving over time.
 
 **Labor Force Growth**
-The labor force in Cincinnati shrank by 1.2% over the past year, which is slower growth than in most metros, earning a score of 26. This decline in the workforce presents a challenge for employers looking to hire, as the pool of available workers is shrinking.
+The workforce shrank 1.2% over the past year, slower than most metros. This decline in the labor pool creates a structural headwind for hiring.
 
 **Building Permits**
-New home approvals in Cincinnati decreased by 20.2% over the past year, which is a weaker pace of home-building than in most metros, with a score of 14. This decline in building permits suggests that the future housing supply may not keep pace with demand, potentially leading to increased costs and reduced affordability.
+New home approvals fell 20.2% over the past year. This decline signals a potential future supply squeeze and rising housing prices.
 
 **Days on Market**
-Homes in Cincinnati are selling in 44 days, which is getting slower by 15.8% over the past year, but this still indicates a healthy housing market, with a score of 98. This moderate pace of home sales suggests that buyers have a reasonable amount of time to find a home, and sellers can expect to sell their properties without undue delay.
+Homes take 44 days to sell, up 15.8% from a year ago, indicating a healthier housing market. This slower sales pace gives buyers more time to find a home, making the market more attractive for relocating workers.
 
 **Office Economy**
-Cincinnati's office-based workforce is smaller than in most metros, with a score of 36, indicating that the city may not be as suited for businesses in the tech, finance, or professional services sectors. However, this also means that Cincinnati may offer opportunities for businesses looking to establish a presence in a city with a more diverse economy.
+The city's office-based workforce is smaller than most metros. This smaller office sector makes it less suitable for tech, finance, and professional services businesses.
 
-The bottom line is that Cincinnati's biggest strength lies in its affordable cost of living and rapid wage growth, making it an attractive location for workers and businesses alike. However, the city's biggest risk is its slow labor force growth and declining building permits, which could lead to future challenges in hiring and housing affordability.
+The city's biggest strength is its rapid wage growth, driven by a tight labor market. However, its biggest risk is a shrinking labor pool, which creates challenges for employers trying to hire and grow their businesses.
