@@ -226,9 +226,17 @@ def build_briefing(record: dict, city_name: str) -> str:
 
     dom_yoy   = raw.get("204A_dom_yoy_pct")
     dom_level = raw.get("204A_dom_level_days")
-    dom_str   = (f"{dom_yoy:+.1f}% YoY" if dom_yoy is not None else "N/A")
-    if dom_level is not None:
-        dom_str += f" ({int(dom_level)} days)"
+    # Spell out the direction in words so the model can't mix up "slower"/"decline".
+    if dom_level is not None and dom_yoy is not None:
+        if abs(dom_yoy) < 0.5:
+            dom_str = f"{int(dom_level)} days, about the same as a year ago"
+        else:
+            word, pace = ("up", "slower") if dom_yoy > 0 else ("down", "faster")
+            dom_str = f"{int(dom_level)} days, {word} {abs(dom_yoy):.1f}% from a year ago (homes selling {pace})"
+    elif dom_level is not None:
+        dom_str = f"{int(dom_level)} days"
+    else:
+        dom_str = "N/A"
 
     # Pull PSF and earnings directly from processed data for accurate CoL description
     metro_proc = _PROCESSED_DATA.get(metro, {})
@@ -241,8 +249,14 @@ def build_briefing(record: dict, city_name: str) -> str:
     earn_val   = earn_block.get("latest_value")
 
     if psf_val is not None and earn_val is not None:
-        psf_yoy_s  = f" ({psf_yoy:+.1f}% YoY)" if psf_yoy is not None else ""
-        col_str    = f"${psf_val:.0f}/sqft{psf_yoy_s} vs ${earn_val:.2f}/hr pay"
+        if psf_yoy is None:
+            psf_yoy_s = ""
+        elif abs(psf_yoy) < 0.05:
+            psf_yoy_s = " (unchanged from a year ago)"
+        else:
+            psf_yoy_s = f" ({'up' if psf_yoy > 0 else 'down'} {abs(psf_yoy):.1f}% from a year ago)"
+        col_str    = (f"{psf_val / earn_val:.1f} hours of pay per sq ft "
+                      f"(${psf_val:.0f}/sqft{psf_yoy_s} vs ${earn_val:.2f}/hr pay)")
     else:
         col_str    = "N/A"
 
@@ -285,9 +299,18 @@ CITY DATA:
 
 ─────────────────────────────────────────────
 HOW TO WRITE:
-- Plain English. Short sentences. Explain what a number means in everyday terms.
-- Every score is 0-100, where 80 means better than 80% of the 50 metros. Say it that
-  way ("a score of 80", "better than most of the 50 metros"). Never say "percentile".
+- Plain English. Explain what a number means in everyday terms.
+- CLEAR SENTENCES: every sentence under 25 words. One main idea per sentence.
+  Aim for about 300 words in the whole brief.
+- Do not chain clauses with "which is", "which means", "indicating", "earning",
+  "resulting in" or "corresponding to". End the sentence and start a new one instead.
+- The website shows each metric's 0-100 score right next to your text. Do NOT repeat
+  the score number in the 8 metric sections. Compare in words instead ("better than
+  most metros", "near the middle", "among the weakest").
+- Do not start sentences with the full metro name over and over. Say "the city" or
+  "here", or name the city once at most per section.
+- Every score is 0-100, where 80 means better than 80% of the 50 metros. Never say
+  "percentile".
 - Each metric already has a one-line definition shown above your text on the website.
   Do NOT define the metric again. Go straight to what this city's number shows.
 - Banned words and phrases: "composite", "percentile", "YoY", "year-over-year" (say
@@ -301,33 +324,38 @@ HOW TO WRITE:
 
 Write the brief in EXACTLY this structure:
 
-[Opening paragraph — 2 sentences. State the overall grade and what most defines this city's economy right now, with one or two specific numbers.]
+[Opening paragraph — 2-3 sentences. State the overall grade and what most defines this city's economy right now, with one or two specific numbers.]
+
+EVERY METRIC SECTION FOLLOWS THE SAME PATTERN — exactly 2 sentences:
+  Sentence 1 = WHAT: the key number from the data, plus how it compares with other
+               metros in words (e.g. "better than most metros").
+  Sentence 2 = SO WHAT: what this means in practice for businesses or workers here.
 
 **Labor Demand**
-[2 sentences. Is the city adding or losing jobs, by how much over the past year, and are workers' hours rising or falling? What does that mean for the job market?]
+[WHAT: the job growth % over the past year and whether weekly hours are rising or falling. SO WHAT: what that means for people looking for work or employers hiring.]
 
 **Unemployment**
-[2 sentences. The unemployment rate, and whether that makes it easy or hard for employers to hire.]
+[WHAT: the unemployment rate, compared with other metros. SO WHAT: whether that makes hiring easy or hard.]
 
 **Wage Growth**
-[2 sentences. How fast pay rose over the past year, and what that means for employers' costs and workers' paychecks.]
+[WHAT: the pay growth % over the past year, compared with other metros. SO WHAT: what it means for employers' costs and workers' paychecks.]
 
 **Cost of Living**
-[2 sentences. Is housing affordable for local workers compared with other metros? Use the price per square foot and hourly pay if given, and say whether it is getting better or worse.]
+[WHAT: how many hours of local pay it takes to buy one square foot of home (use the hours figure and the dollar figures), and whether that is more or less affordable than most metros. SO WHAT: what that means for attracting and keeping workers, and whether it is getting better or worse.]
 
 **Labor Force Growth**
-[2 sentences. How fast the pool of workers is growing or shrinking, and what that means for hiring.]
+[WHAT: the workforce growth % over the past year, compared with other metros. SO WHAT: what it means for employers trying to hire.]
 
 **Building Permits**
-[2 sentences. How new home approvals changed over the past year, and what that signals about future housing supply.]
+[WHAT: the % change in new home approvals over the past year. SO WHAT: what that signals about future housing supply and prices.]
 
 **Days on Market**
-[2 sentences. How many days a typical home takes to sell and whether that is getting faster or slower. Say whether this is a healthy, too-tight, or softening housing market, consistent with the score.]
+[WHAT: how many days a typical home takes to sell and whether that is getting faster or slower. SO WHAT: whether this is a healthy, too-tight, or softening housing market (consistent with the MEANING), and what it means for people moving here.]
 
 **Office Economy**
-[2 sentences. How large the city's office-based workforce (tech, finance, professional services) is compared with other metros, and what kinds of businesses that suits.]
+[WHAT: how large the city's office-based workforce (tech, finance, professional services) is compared with other metros. SO WHAT: what kinds of businesses that suits.]
 
-[Closing paragraph — 2 sentences. The bottom line: the city's biggest strength and its biggest risk.]
+[Closing paragraph — 2 sentences. The bottom line: the city's biggest strength and its biggest risk, each with a short reason.]
 
 ─────────────────────────────────────────────
 FORMAT RULES — follow exactly:
@@ -335,7 +363,7 @@ FORMAT RULES — follow exactly:
 - The 8 metric sections use exactly these bold headers on their own line:
   **Labor Demand**, **Unemployment**, **Wage Growth**, **Cost of Living**,
   **Labor Force Growth**, **Building Permits**, **Days on Market**, **Office Economy**
-- Each metric section: exactly 2 sentences
+- Each metric section: exactly 2 sentences (WHAT, then SO WHAT), each under 25 words, no score numbers
 - Direction reminders: high Cost of Living score = MORE affordable; high Days on Market score = HEALTHIER housing market (low = weakness); high Unemployment score = LOW unemployment
 - No bullet points inside metric sections
 - No preamble like "Here is the brief:" — start directly with the opening paragraph
