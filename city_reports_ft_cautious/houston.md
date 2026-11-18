@@ -4,30 +4,30 @@
 
 ---
 
-The Houston-Pasadena-The Woodlands metro area has an overall grade of C+ with a composite score ranking it at the 45.1th percentile out of 50 US metros. This city's economic character is most defined by its near-median labor demand composite score of 5.20 and its below-average unemployment rate of 4.60%. The combination of these metrics suggests a mixed economic environment, with labor demand and unemployment rates that are not exceptionally strong or weak.
+The Houston-Pasadena-The Woodlands metro area has an overall grade of C+, scoring 45.1 out of 100 across 50 US metros, with its economy defined by a mix of strengths and weaknesses, including a relatively affordable cost of living, with a price per square foot of $168 and hourly pay of $37.07. The city's labor market is characterized by average employment growth of 1.0% over the past year, but with slower wage growth of 2.2% and higher unemployment of 4.6%.
 
 **Labor Demand**
-The employment growth rate in Houston-Pasadena-The Woodlands is +0.97% year-over-year, while weekly hours are deviating -0.457% from the city's own 12-month baseline. This combination signals a moderate labor demand expansion, with some genuine demand for jobs but also a slight decrease in hours worked. This suggests that the labor market is growing, but not at a rapid pace.
+The city is adding jobs at a rate of 1.0% over the past year, but workers' hours are falling by 0.5%, indicating a moderate labor demand. This means that while the job market is growing, it's not necessarily leading to increased hours or demand for workers, resulting in a score of 48 out of 100, about average for the 50 metros.
 
 **Unemployment**
-The unemployment rate in Houston-Pasadena-The Woodlands is 4.60%, which ranks at the 30th percentile, indicating a below-average labor market with some slack. This means that businesses may find it relatively easier to hire workers in this city, but may also face weaker local consumer demand. The practical implication for a business trying to hire here is that they may have a larger pool of potential candidates to choose from.
+The unemployment rate of 4.6% makes it easier for employers to hire, but it also indicates a weaker local consumer demand, scoring 30 out of 100, a weakness compared to other metros. This higher unemployment rate means that employers may have an easier time finding workers, but it also suggests that the local economy may not be as strong as others.
 
 **Wage Growth**
-The year-over-year wage growth rate in Houston-Pasadena-The Woodlands is +2.25%, which ranks at the 26th percentile, indicating below-average wage growth. This suggests that labor costs for employers are rising, but at a moderate pace, and worker purchasing power is increasing, but not rapidly. This may be a concern for businesses looking to keep labor costs under control.
+Wages rose by 2.2% over the past year, which is slower than most metros, resulting in a score of 26 out of 100, a weakness. This slower wage growth means that employers may not face as much pressure to increase pay, but it also means that workers may not see significant increases in their purchasing power.
 
 **Cost of Living**
-Houston-Pasadena-The Woodlands has a cost of living score that ranks at the 76th percentile, indicating that it is more affordable than many of its peer cities, with a PSF of $168/sqft and average hourly earnings of $37.07/hr. This means that the city has a talent attraction advantage, as workers can afford to live and work in the area without requiring significant wage premiums.
+The cost of living in Houston is relatively affordable, with a price per square foot of $168 and hourly pay of $37.07, and it's getting even more affordable as the price per square foot has fallen by 2.3% over the past year, scoring 76 out of 100, a strength. This affordability makes the city an attractive location for workers and businesses, as the cost of living is lower compared to other metros.
 
 **Labor Force Growth**
-The civilian labor force in Houston-Pasadena-The Woodlands is growing at a rate of +0.69% year-over-year, which ranks at the 70th percentile, indicating an expanding labor force supply. This suggests that the city has a growing pool of potential workers, which can support business hiring and expansion.
+The labor force is growing at a rate of 0.7% over the past year, which is faster than most metros, resulting in a score of 70 out of 100, a strength. This growing labor force means that employers have a larger pool of potential workers to hire from, making it easier to find the talent they need.
 
 **Building Permits**
-The number of residential building permits in Houston-Pasadena-The Woodlands has decreased by -9.16% year-over-year, which ranks at the 32nd percentile, indicating a tightening housing supply. This signals that future affordability and workforce accommodation may be at risk, as the supply of new housing is not keeping pace with demand.
+New home approvals have fallen by 9.2% over the past year, which signals a weaker future housing supply, scoring 32 out of 100, a weakness. This decline in building permits may lead to a shortage of housing in the future, making it more difficult for workers to find affordable housing and potentially driving up costs.
 
 **Days on Market**
-The median days on market for homes in Houston-Pasadena-The Woodlands is 57 days, with a year-over-year change of +0.0%, which ranks at the 30th percentile, indicating a relatively fast-paced market. This means that workers relocating to this city may face a competitive housing market, with homes selling quickly.
+Homes are taking 57 days to sell, which is not changing much over the past year, resulting in a score of 30 out of 100, a weakness. This relatively slow pace of home sales indicates a softer housing market, which may make it more difficult for workers to relocate to the area or for businesses to attract talent.
 
 **Office Economy**
-The share of professional and office workers in Houston-Pasadena-The Woodlands is 3.68, which ranks at the 82nd percentile, indicating a deep talent pool in these sectors. This makes the city well-suited for businesses in the tech, finance, consulting, and HQ sectors, but less suited for industrial or logistics-dominant businesses.
+The city has a large office-based workforce, with a score of 82 out of 100, a strength, making it an attractive location for businesses in the tech, finance, and professional services sectors. This strong office economy means that the city has a deep talent pool of workers with specialized skills, making it well-suited for businesses that require a high level of expertise.
 
-The Houston-Pasadena-The Woodlands metro area offers businesses a relatively affordable cost of living and an expanding labor force supply, making it an attractive location for talent attraction and business growth. However, the single biggest risk or constraint for decision-makers is the tightening housing supply, which may impact future affordability and workforce accommodation, and could require businesses to offer wage premiums to attract and retain workers.
+The bottom line is that Houston's biggest strength is its affordable cost of living, which makes it an attractive location for workers and businesses, while its biggest risk is its slower wage growth, which may make it harder for workers to increase their purchasing power. Overall, the city's mix of strengths and weaknesses makes it a fair choice for businesses and workers, but it will need to address its weaknesses to remain competitive with other metros.

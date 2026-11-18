@@ -4,30 +4,30 @@
 
 ---
 
-The Riverside-San Bernardino-Ontario metro area has an overall grade of C- with a composite score ranking it 33.6th percentile out of 50 US metros. This city's economic character is most defined by its high unemployment rate of 5.70% and its above-average wage growth of +4.69% year-over-year. These two metrics suggest a complex labor market with both challenges and opportunities for businesses.
+The Riverside-San Bernardino-Ontario metro area has an overall grade of C-, with a score of 33.6 out of 100, indicating it is struggling compared to other metros. The city's economy is currently defined by a mix of average job growth, with employment rising 0.6% over the past year, and a relatively high unemployment rate of 5.7%, which is a weakness compared to most metros.
 
 **Labor Demand**
-The employment growth rate in Riverside-San Bernardino-Ontario is +0.63% year-over-year, while weekly hours are deviating -0.150% from the city's own 12-month baseline. This combination signals a moderate labor demand expansion, with some genuine demand for jobs but also a slight decrease in working hours. The labor demand composite score of 5.03 is near the median, indicating a stable but not particularly strong job market.
+The city is adding jobs, albeit slowly, with a 0.6% increase in employment over the past year, and workers' hours are slightly falling, down 0.1% from their 12-month average. This means the job market is not particularly strong, with the city scoring 42 out of 100, indicating it is about average for the 50 metros.
 
 **Unemployment**
-The unemployment rate in Riverside-San Bernardino-Ontario is 5.70%, which is in the bottom tier, ranking 4th percentile. This indicates a relatively slack labor market with more available workers, making it easier for businesses to hire. However, this also suggests weaker local consumer demand, which could impact businesses that rely on local spending.
+The unemployment rate of 5.7% makes it easier for employers to hire, as there are more workers available, but this also indicates a weaker local economy, with a score of 4 out of 100, a weakness compared to most metros. This high unemployment rate means employers may have an easier time finding staff, but it also suggests weaker consumer demand.
 
 **Wage Growth**
-The year-over-year wage growth in Riverside-San Bernardino-Ontario is +4.69%, which is above average, ranking 70th percentile. This signals fast-rising labor costs for employers, but also increasing worker purchasing power. Businesses may need to adjust their budgets to accommodate higher wages, but this could also lead to increased consumer spending and economic growth.
+Pay rose 4.7% over the past year, which is a strength, with a score of 70 out of 100, indicating faster pay growth than most metros. This means employers may face rising labor costs, but workers will see more money in their paychecks, which is a positive for the local economy.
 
 **Cost of Living**
-Riverside-San Bernardino-Ontario has a cost of living score that ranks 37th percentile, with a PSF of $330/sqft and average hourly earnings of $35.36. The PSF has decreased by -2.1% year-over-year, making the city relatively more affordable. This could be a talent attraction advantage, as workers may not require wage premiums to afford the cost of living.
+Housing is relatively expensive, with a price of $330 per square foot, compared to hourly pay of $35.36, and prices are falling slightly, down 2.1% over the past year, but the city still scores 37 out of 100, indicating it is less affordable than most metros. This means the city may struggle to attract talent, as the cost of living is higher than in many other areas.
 
 **Labor Force Growth**
-The civilian labor force in Riverside-San Bernardino-Ontario has contracted by -0.92% year-over-year. This indicates a shrinking labor pool, which could create structural headwinds for hiring and business expansion. Businesses may need to consider strategies to attract workers from other areas or invest in workforce development programs.
+The pool of workers is shrinking, with a decline of 0.9% over the past year, which is a weakness, with a score of 30 out of 100, indicating slower workforce growth than most metros. This means hiring may become more challenging in the future, as the labor force is not expanding.
 
 **Building Permits**
-The number of residential building permits in Riverside-San Bernardino-Ontario has decreased by -17.17% year-over-year. This signals a tightening housing supply, which could lead to decreased affordability and increased competition for housing. This may impact the city's ability to attract and retain workers, particularly in the long term.
+New home approvals fell 17.2% over the past year, which is a weakness, with a score of 20 out of 100, indicating weaker home-building than most metros. This signals that the future housing supply may be limited, which could lead to affordability issues and make it harder for workers to find homes.
 
 **Days on Market**
-The median days on market for homes in Riverside-San Bernardino-Ontario is currently 62 days, with a year-over-year decrease of -1.6%. This indicates a relatively fast-paced market, which could make it challenging for relocating workers to find housing. However, the decrease in days on market suggests some normalization in the market, which could be beneficial for businesses looking to attract workers.
+A typical home takes 62 days to sell, which is about average, with a score of 48 out of 100, and the time to sell is getting slightly longer, up 1.6% over the past year, but still indicating a relatively healthy housing market. This suggests that the housing market is not too tight, giving buyers some time to find a home, but it is not softening significantly either.
 
 **Office Economy**
-Riverside-San Bernardino-Ontario has a very low share of professional and office workers, ranking 0th percentile. This suggests a limited talent pool for businesses that require specialized knowledge-economy workers, such as tech, finance, or consulting firms. The city may be better suited for industries with more general labor requirements, such as logistics or manufacturing.
+The city's office-based workforce is smaller than in most metros, with a score of 0 out of 100, indicating a weakness, which may make it less suitable for businesses that rely on professional services, such as tech, finance, or consulting. This means the city may not be the best fit for companies that need a deep pool of office-based talent.
 
-The Riverside-San Bernardino-Ontario metro area offers businesses a unique combination of relatively low labor costs and a decreasing cost of living, but also poses significant challenges, including a shrinking labor pool and tightening housing supply. The single biggest risk or constraint for decision-makers is the potential difficulty in attracting and retaining workers due to the limited talent pool and decreasing affordability, which could impact business growth and expansion plans.
+The bottom line is that the city's biggest strength is its fast wage growth, which is a positive for workers and a draw for talent, but its biggest risk is its high unemployment rate and slow labor force growth, which may make it challenging for employers to find staff and for the local economy to grow. Overall, the city's economy is facing significant challenges, and addressing these weaknesses will be crucial to improving its overall grade and attractiveness to businesses and workers.

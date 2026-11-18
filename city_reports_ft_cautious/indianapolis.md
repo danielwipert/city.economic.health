@@ -4,30 +4,30 @@
 
 ---
 
-The Indianapolis-Carmel-Greenwood metro area has an overall grade of D, ranking in the 28.2th percentile out of 50 US metros, with a labor demand composite score of 2.73 and an unemployment rate of 3.40%. The city's economic character is most defined by its weak labor demand, with employment growth of -0.59% YoY, and its relatively high unemployment rate, which suggests a mix of contraction and slack in the labor market. The combination of these metrics, along with stagnant wage growth of +0.53% YoY, paints a challenging picture for businesses looking to locate in this area.
+The Indianapolis-Carmel-Greenwood metro area has an overall grade of D, with a score of 28.2 out of 100, indicating significant economic challenges. The city's economy is currently defined by a decline in job growth, with employment shrinking by 0.6% over the past year, and a relatively low unemployment rate of 3.4%, which is a strength, but also signals a tight labor market.
 
 **Labor Demand**
-The employment growth rate of -0.59% YoY and weekly hours deviation of +0.742% from the city's own trend signal a contraction in labor demand, rather than genuine demand expansion. This suggests that the city is experiencing a decline in job creation, which may be accompanied by a survivor squeeze, where remaining workers absorb the load of eliminated roles. The labor demand composite score of 2.73, ranking in the bottom tier, reinforces this interpretation.
+The city is losing jobs, with employment down 0.6% over the past year, and while workers' hours are up 0.7%, this is a weakness, indicating that remaining workers are putting in extra hours after job cuts. This means the job market is not as strong as it could be, with a score of 2 out of 100, indicating weaker hiring than most metros.
 
 **Unemployment**
-The actual unemployment rate of 3.40% indicates a relatively tight labor market, ranking in the 64th percentile. This means that businesses trying to hire in this area may face challenges in finding available workers, which could lead to upward pressure on wages. However, the relatively high unemployment rate compared to other metros suggests that there is still some slack in the labor market.
+The unemployment rate of 3.4% is relatively low, making it a strength, with a score of 64 out of 100, indicating lower unemployment than most metros. This low unemployment rate makes it harder for employers to hire, as there are fewer available workers, and may also lead to upward pressure on wages.
 
 **Wage Growth**
-The YoY wage growth rate of +0.53% is stagnant, ranking in the bottom tier. This slow wage growth suggests that labor costs for employers are relatively flat, but worker purchasing power is weak. As a result, businesses may not face significant pressure to increase wages, but workers may have limited disposable income to drive local consumer demand.
+Pay rose by only 0.5% over the past year, which is a weakness, with a score of 6 out of 100, indicating slower pay growth than most metros. This slow wage growth means that employers may not face significant labor cost increases, but workers may not see much improvement in their purchasing power.
 
 **Cost of Living**
-The city's cost of living, with a PSF of $164/sqft and an earnings ratio of 4.85, ranks in the bottom tier, with a percentile score of 10th. This means that the city is relatively expensive, which could make it challenging to attract talent without offering wage premiums. The 5.1% YoY increase in PSF further exacerbates this issue.
+Housing in the area is relatively expensive, with a price of $164 per square foot, and hourly pay of $33.83, making it less affordable than most metros, with a score of 10 out of 100. The cost of living is getting worse, as housing prices have risen by 5.1% over the past year, making it harder for workers to afford homes.
 
 **Labor Force Growth**
-The YoY growth rate of the civilian labor force is -1.13%, indicating a contracting labor supply. This means that the hiring capacity of businesses in this area may be constrained, as the pool of available workers is shrinking. The implication is that businesses may need to offer more competitive wages or benefits to attract and retain talent.
+The pool of workers is shrinking, with a decline of 1.1% over the past year, which is a weakness, with a score of 28 out of 100, indicating slower workforce growth than most metros. This decline in the labor force makes it harder for employers to find new hires and may lead to labor shortages.
 
 **Building Permits**
-The YoY change in building permits is +10.41%, indicating an expansion in housing supply. This suggests that developer confidence is rising, and future housing affordability may improve. As a result, the city may become more attractive to workers and businesses in the long term, as housing costs become more manageable.
+New home approvals are up 10.4% over the past year, which is a strength, with a score of 62 out of 100, indicating stronger home-building than most metros. This increase in building permits signals that the housing supply may improve in the future, making homes more affordable for workers.
 
 **Days on Market**
-The current median days on market is 55 days, with a YoY increase of 10.0%. This suggests a slowing market, where homes are taking longer to sell. For workers relocating to this city, this may mean a more accessible and less competitive housing market, with more time to find and secure a home.
+Homes are taking 55 days to sell, which is getting slower, with a 10% increase over the past year, but still indicates a relatively healthy housing market, with a score of 66 out of 100. This slower pace of home sales is a sign of a more balanced market, where buyers have more time to find a home, and sellers are not under as much pressure to sell quickly.
 
 **Office Economy**
-The share of professional and office workers is 0.92, ranking in the bottom tier, with a percentile score of 16th. This suggests that the city has a relatively shallow talent pool in these sectors, making it less suited for businesses that require a deep knowledge-economy workforce, such as tech, finance, or consulting. However, the city may be more suitable for businesses with industrial or logistics-oriented economies.
+The city's office-based workforce is relatively small, with a score of 16 out of 100, indicating a smaller office workforce than most metros. This smaller office workforce makes the city less suited for businesses that rely on a large pool of professional and technical workers, such as tech, finance, and consulting firms.
 
-The Indianapolis-Carmel-Greenwood metro area offers businesses a relatively low-cost operating environment, with slow wage growth and a moderate unemployment rate. However, the single biggest risk or constraint for decision-makers is the city's weak labor demand and contracting labor supply, which may limit hiring capacity and require businesses to offer more competitive wages or benefits to attract and retain talent.
+The biggest strength of the Indianapolis-Carmel-Greenwood metro area is its low unemployment rate, which indicates a tight labor market, but also makes it harder for employers to hire. The biggest risk is the city's declining labor force and slow wage growth, which may lead to labor shortages and make it harder for workers to afford homes, ultimately affecting the city's overall economic competitiveness.

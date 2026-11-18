@@ -4,30 +4,30 @@
 
 ---
 
-The Dallas-Fort Worth-Arlington metro area has earned an overall grade of B+ with a composite score ranking it at the 63.3th percentile among 50 US metros. This city's economic character is most defined by its strong labor demand, with a composite score in the 76th percentile, and its high office economy ranking, with a share of professional workers placing it in the 92nd percentile. The labor demand is driven by a combination of employment growth and hours worked above trend, signaling genuine demand expansion.
+The Dallas-Fort Worth-Arlington metro area has earned an overall grade of B+, with a score of 63.3 out of 100, indicating it is above average compared to the 50 metros. What most defines this city's economy right now is its strong labor demand, with employment growth of 1.0% over the past year and workers' hours rising by 0.7%, earning a score of 76 out of 100, which is better than most of the 50 metros.
 
 **Labor Demand**
-The Dallas-Fort Worth-Arlington metro area has seen employment growth of 1.02% year-over-year, combined with weekly hours 0.694% above its own 12-month trend. This combination signals genuine demand expansion, as hours are running above trend during a period of job growth. The labor demand composite score of 6.42 places the city in the 76th percentile, indicating a strong and growing job market.
+The city is adding jobs at a rate of 1.0% over the past year, and workers' hours are rising by 0.7%, indicating a strong job market with genuine demand for labor. This means that employers are hiring and workers are putting in more hours, which is a positive sign for the local economy, with a score of 76 out of 100, better than most of the 50 metros.
 
 **Unemployment**
-The unemployment rate in Dallas-Fort Worth-Arlington is 4.10%, placing it near the median at the 44th percentile. This rate indicates a relatively balanced market, neither extremely tight nor slack, which means businesses may face some competition for talent but still have a manageable hiring environment. With an unemployment rate at this level, businesses can expect to find qualified candidates, but may need to offer competitive wages to attract top talent.
+The unemployment rate in Dallas-Fort Worth-Arlington is 4.1%, which is about average for the 50 metros, earning a score of 44 out of 100. This rate makes it neither particularly easy nor hard for employers to hire, as the labor market is relatively balanced, but it does mean that employers may face some competition for workers.
 
 **Wage Growth**
-The city has experienced year-over-year wage growth of 4.71%, ranking it in the 72nd percentile. This rate of wage growth is above average, indicating rising labor costs for employers but also increasing purchasing power for workers. As wages continue to grow, businesses can expect to see higher labor costs, but the increased consumer spending power can also benefit local businesses.
+Pay rose by 4.7% over the past year, which is faster than most of the 50 metros, earning a score of 72 out of 100. This means that employers are facing rising labor costs, but workers are seeing significant increases in their paychecks, which can boost consumer spending and economic growth.
 
 **Cost of Living**
-Dallas-Fort Worth-Arlington has a cost of living score in the 84th percentile, with a price-to-salary ratio of $197/sqft to $37.92/hr, or 5.20. This high percentile rank indicates that the city is more affordable than most of its peers, with housing prices falling 2.5% year-over-year relative to wages. The affordability of the city gives it a talent attraction advantage, as workers can maintain a high standard of living without requiring significant wage premiums.
+Housing in Dallas-Fort Worth-Arlington is relatively affordable, with a price per square foot of $197 and hourly pay of $37.92, earning a score of 84 out of 100, which is better than most of the 50 metros. The fact that housing prices are falling by 2.5% over the past year makes the city even more attractive to workers and employers, as the cost of living is decreasing.
 
 **Labor Force Growth**
-The civilian labor force in Dallas-Fort Worth-Arlington has grown 0.64% year-over-year, placing it in the 68th percentile. This positive growth rate indicates that the workforce supply is expanding, which is a positive sign for businesses looking to hire. As the labor force continues to grow, businesses can expect to have a larger pool of potential candidates to choose from.
+The pool of workers in Dallas-Fort Worth-Arlington is growing at a rate of 0.6% over the past year, earning a score of 68 out of 100, which is better than most of the 50 metros. This means that the city has a relatively strong and expanding workforce, which can support business growth and hiring.
 
 **Building Permits**
-The city has seen a year-over-year decline in building permits of 8.41%, ranking it in the 36th percentile. This decrease in permits suggests that housing supply is tightening, which could lead to future affordability issues and challenges in accommodating a growing workforce. The decline in building permits is a concern for businesses that rely on a growing and affordable housing stock to attract and retain talent.
+New home approvals in Dallas-Fort Worth-Arlington fell by 8.4% over the past year, earning a score of 36 out of 100, which is weaker than most of the 50 metros. This decline in building permits signals that the city's housing supply may not be keeping pace with demand, which could lead to future affordability issues and challenges for workers looking to relocate.
 
 **Days on Market**
-The median days on market for homes in Dallas-Fort Worth-Arlington is 64 days, with no year-over-year change. This relatively fast pace of home sales, ranking in the 30th percentile, indicates a competitive market that may be challenging for relocating workers. However, the stable days on market suggests that the market is not overheating, and workers may still find affordable options with some patience.
+The typical home in Dallas-Fort Worth-Arlington takes 64 days to sell, which is relatively stable, but the score of 30 out of 100 indicates a weaker housing market compared to most of the 50 metros. This suggests that the housing market may be softening, with buyers potentially pulling back, which could make it harder for owners to sell their homes and relocate.
 
 **Office Economy**
-The city's office economy is deep, with a professional worker share ranking in the 92nd percentile. This indicates a strong talent pool suited for businesses in the tech, finance, consulting, and HQ sectors. The city is well-suited for knowledge-economy businesses but may be less ideal for industries with more industrial or logistics-oriented workforces.
+The city's office-based workforce is larger than most of the 50 metros, earning a score of 92 out of 100, which is a significant strength. This makes Dallas-Fort Worth-Arlington an attractive location for businesses in the tech, finance, and professional services sectors, which can tap into the city's deep pool of skilled workers.
 
-The Dallas-Fort Worth-Arlington metro area offers businesses a strong labor market, affordable cost of living, and deep professional talent pool, making it an attractive location for many types of businesses. However, the single biggest risk or constraint for decision-makers is the tightening housing supply, signaled by the decline in building permits, which could lead to future affordability issues and challenges in accommodating a growing workforce.
+The bottom line is that Dallas-Fort Worth-Arlington's biggest strength is its strong labor demand and growing workforce, which makes it an attractive location for businesses looking to hire and expand. However, the city's biggest risk is its weakening housing market, which could lead to future affordability issues and challenges for workers looking to relocate, highlighting the need for the city to address its housing supply and affordability challenges to sustain its economic growth.
