@@ -4,30 +4,30 @@
 
 ---
 
-The Los Angeles-Long Beach-Anaheim metro area has an overall grade of B, with a score of 55.3 out of 100, indicating it is an average city for business, with its strongest aspect being its labor demand, which is stronger than most metros, with a score of 86 out of 100. This is driven by employment growth of 1.8% over the past year, with workers putting in 0.3% more hours, indicating a genuine demand for labor.
+The city earns a B grade, with 1.8% job growth over the past year. This defines the city's economy as strong in hiring.
 
 **Labor Demand**
-The city is adding jobs at a rate of 1.8% over the past year, with workers also putting in 0.3% more hours, indicating a strong demand for labor. This means that the job market is robust, with employers looking to hire and workers seeing more opportunities, making it a good time for businesses to expand.
+The city added jobs, with 1.8% growth. Workers' hours rose 0.3%, indicating strong demand.
 
 **Unemployment**
-The unemployment rate is 4.4%, which is lower than most metros, with a score of 64 out of 100, making it a strength for the city. This low unemployment rate means that it may be harder for employers to hire, as there are fewer people looking for work, and it could also lead to upward pressure on wages.
+Unemployment is 4.4%, making hiring harder. Employers face wage pressure.
 
 **Wage Growth**
-Wages rose by 3.6% over the past year, which is about average for the 50 metros, with a score of 46 out of 100. This moderate wage growth means that employers' labor costs are increasing, but not too quickly, while workers are seeing some improvement in their paychecks.
+Pay rose 3.6% over the past year. This means moderate labor cost growth.
 
 **Cost of Living**
-The cost of living in Los Angeles-Long Beach-Anaheim is relatively high, with a price per square foot of $642 and hourly pay of $41.84, and it is getting worse, with a score of 4 out of 100. This means that housing is less affordable for local workers compared to other metros, which could make it harder for businesses to attract and retain talent.
+Housing costs $642/sqft, down 3.0% from last year, versus $41.84/hr pay. The city is less affordable.
 
 **Labor Force Growth**
-The pool of workers in the city is shrinking by 1.3% over the past year, with a score of 24 out of 100, making it a weakness. This decline in the labor force means that hiring may become more challenging for businesses, as there are fewer workers available to fill job openings.
+The workforce shrank 1.3% over the past year. This makes hiring harder.
 
 **Building Permits**
-New home approvals increased by 27.3% over the past year, with a score of 88 out of 100, indicating a strong signal for future housing supply. This surge in building permits suggests that the city is likely to see an increase in housing supply, which could help improve affordability and attract more workers to the area.
+New home approvals rose 27.3% over the past year. This signals stronger future housing supply.
 
 **Days on Market**
-Homes in the city are taking 57 days to sell, which is unchanged from the previous year, with a score of 30 out of 100, indicating a weaker housing market. This relatively slow pace of home sales suggests that the housing market is softening, which could make it harder for workers to relocate to the area.
+Homes take 57 days to sell, unchanged from last year. This is a weak housing market.
 
 **Office Economy**
-The city's office-based workforce is smaller than most metros, with a score of 30 out of 100, making it a weakness. This means that the city may not be as well-suited for businesses in the tech, finance, and professional services sectors, which tend to rely on a deep pool of office-based talent.
+The office workforce is smaller than most metros. This suits industrial or logistics businesses.
 
-The biggest strength of the Los Angeles-Long Beach-Anaheim metro area is its strong labor demand, with employment growth and hours worked both increasing, making it an attractive location for businesses looking to expand. However, the city's biggest risk is its high cost of living, which could make it harder for businesses to attract and retain talent, and may require them to offer higher wages to compensate for the expensive housing market.
+The city's biggest strength is its strong job market. Its biggest risk is a shrinking workforce.

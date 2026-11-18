@@ -4,30 +4,30 @@
 
 ---
 
-The Detroit-Warren-Dearborn metro area has an overall grade of D, with a score of 24.5 out of 100, indicating significant economic challenges. One of the key issues facing the city is its weak labor demand, with employment growth of -0.2% over the past year, which is a major concern for businesses looking to expand or relocate.
+The city earns a D grade, with an overall score of 24.5. Detroit's economy is defined by slow job growth, with a 0.2% decline in employment over the past year.
 
 **Labor Demand**
-The city is losing jobs, with a decline of 0.2% in employment growth over the past year, and while workers' hours are rising by 0.4%, this is still a weakness in the job market. This means that the city is not creating enough new jobs to keep up with demand, making it a challenging environment for businesses to find and hire the workers they need.
+The city lost jobs over the past year. Workers' hours rose slightly, but not enough to offset job losses.
 
 **Unemployment**
-The unemployment rate in Detroit-Warren-Dearborn is 5.6%, which is higher than most metros, making it easier for employers to hire but also indicating weaker local consumer demand. With a score of 2 out of 100, the city's unemployment rate is a significant weakness, suggesting that many workers are struggling to find jobs.
+The unemployment rate is 5.6%. This makes it easier for employers to hire, but also signals weaker local consumer demand.
 
 **Wage Growth**
-Wages in the city rose by 2.1% over the past year, which is slower than most metros, resulting in a score of 24 out of 100. This slow wage growth means that employers may face lower labor costs, but workers may have less bargaining power and lower purchasing power.
+Pay rose 2.1% over the past year. This slow wage growth means lower labor costs for employers, but weaker worker purchasing power.
 
 **Cost of Living**
-The cost of living in Detroit-Warren-Dearborn is relatively high, with a price per square foot of $185 and hourly pay of $36.96, resulting in a score of 24 out of 100. The fact that housing prices are rising by 3.4% per year makes the city less affordable for local workers, which could make it harder for businesses to attract and retain talent.
+Housing is less affordable, with a price of $185 per square foot and hourly pay of $36.96. The cost of living is getting worse, with prices rising 3.4% over the past year.
 
 **Labor Force Growth**
-The labor force in the city is growing at a rate of 0.5% per year, which is faster than most metros, resulting in a score of 66 out of 100. This growth in the workforce is a strength for the city, making it easier for businesses to find the workers they need.
+The labor force grew 0.5% over the past year. This faster workforce growth is a strength for hiring and economic expansion.
 
 **Building Permits**
-The number of new home approvals in the city declined by 35.8% over the past year, resulting in a score of 4 out of 100. This sharp decline in building permits suggests that the city's housing supply may not be keeping up with demand, which could lead to higher housing costs and make it harder for workers to afford homes.
+New home approvals fell 35.8% over the past year. This decline signals a weaker future housing supply and potential affordability issues.
 
 **Days on Market**
-Homes in the city are taking an average of 45 days to sell, which is getting slower by 7.1% per year, resulting in a score of 82 out of 100. This indicates a relatively healthy housing market, with homes taking a reasonable amount of time to sell, giving buyers and sellers a good balance of options.
+Homes take 45 days to sell, up 7.1% from last year. This slightly slower pace is still a relatively healthy housing market.
 
 **Office Economy**
-The city's office-based workforce is about average compared to other metros, with a score of 50 out of 100. This suggests that the city has a moderate-sized pool of workers in tech, finance, and professional services, making it suitable for businesses in these sectors.
+The city has an average-sized office-based workforce. This suits businesses that need a mix of professional and non-professional services.
 
-The bottom line is that Detroit-Warren-Dearborn's biggest strength is its growing labor force, which could attract businesses looking for a talented workforce. However, the city's biggest risk is its weak labor demand and high cost of living, which could make it challenging for businesses to expand or relocate to the area.
+The city's biggest strength is its growing labor force, which can support economic expansion. However, its biggest risk is a weak job market, with slow employment growth and rising unemployment.
