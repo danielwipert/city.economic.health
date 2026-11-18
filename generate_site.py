@@ -34,6 +34,7 @@ if sys.stderr.encoding and sys.stderr.encoding.lower() != 'utf-8':
 SCRIPT_DIR   = Path(__file__).parent
 METRICS_FILE = SCRIPT_DIR / 'calculated_metrics_reconciled.json'
 PROCESSED_FILE = SCRIPT_DIR / 'processed_economic_data_v2.json'
+SITE_ASSETS_SRC = SCRIPT_DIR / 'site_assets'   # favicon files, copied into docs/assets
 REPORTS_DIR  = SCRIPT_DIR / 'city_reports_ft_cautious'
 PDF_DIR      = SCRIPT_DIR / 'pdf_output'
 SITE_DIR     = SCRIPT_DIR / 'docs'
@@ -1118,6 +1119,9 @@ def page_shell(title: str, css_path: str, nav: str, main_content: str, footer: s
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{title} | U.S. Metro Economic Health Report</title>
+  <link rel="icon" href="{css_path}assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{css_path}assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="{css_path}assets/apple-touch-icon.png">
   <link rel="stylesheet" href="{css_path}assets/style.css">
   {extra_head}
 </head>
@@ -1140,6 +1144,9 @@ def write_css(site_dir: Path):
     print('  ✓ style.css')
     (assets_dir / 'city.css').write_text(city_page.CITY_CSS, encoding='utf-8')
     print('  ✓ city.css')
+    for icon in ('favicon.svg', 'favicon-32.png', 'apple-touch-icon.png'):
+        shutil.copy2(SITE_ASSETS_SRC / icon, assets_dir / icon)
+    print('  ✓ favicons')
 
 
 # ─── COPY PDF ─────────────────────────────────────────────────────────────────
